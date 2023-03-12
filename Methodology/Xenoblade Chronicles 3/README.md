@@ -16,7 +16,7 @@ We need to change it to 1 to unlock >30 FPS. <br>
 
 Beside that cutscenes animations are hardcoded to 30 FPS and nobody figured out if it's even possible to render them above 30 FPS with correct speed.<br>
 That's why it's necessary to get an offset to determine if we are in cutscene or not to automatically lock to 30 FPS if cutscene is detected.<br>
-Thanks to `theboy181` for finding the most reliable offset to figure out when cutscene is played.
+Thanks to `Hazerou` for figuring out the most reliable offset for detecting cutscenes.
 
 Game is also using double buffer. To disable it, turn off `Sync Wait` in FPSLocker. Expect some small graphical glitches.
 
