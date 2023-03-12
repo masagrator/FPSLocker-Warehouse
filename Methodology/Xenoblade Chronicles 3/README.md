@@ -41,13 +41,13 @@ Before them we will find instructions that are storing offsets to vsync signal d
 `off_7101A2EC28` stores one pointer `dword_7101A08F98`, so our first offset is `[MAIN, 0x1A08F98]`.<br>
 `off_7101A2EC50` stores another pointer `dword_7101A08F9C`, so our second offset is `[MAIN, 0x1A08F9C]`
 
-As they are stored one after another at the same size, we can use patch format in this way (they may change after some invasive update, but for now it's reliable):
+As they are stored one after another at the same size, we can use patch format in this way to write default values for 30 FPS and below (they may change after some invasive update, but for now it's reliable):
 ```yaml
   -
     type: write
     address: [MAIN, 0x1A08F98]
     value_type: int32
-    value: [1, 1]
+    value: [2, 2]
 ```
 
 > Now we need to figure out cutscene detection offset
@@ -75,7 +75,7 @@ Fourth instruction above is LDR instruction that loads pointer. In 1.3.0 it look
 So value is stored as int8_t at `[MAIN,0x1A65958]`.<br>
 If it's not equal to 0, cutscene is played. If it's not equal to 1, cutscene is not played.
 
-So we can write patch like this:
+So we can write patch like this for above 30 FPS:
 ```yaml
   -
     type: compare
