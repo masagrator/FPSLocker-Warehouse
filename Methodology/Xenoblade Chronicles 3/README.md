@@ -58,7 +58,7 @@ As they are stored one after another at the same size, we can use patch format i
     value: [2, 2]
 ```
 
-> Now we need to figure out cutscene detection offset
+> Cutscene detection offset
 
 Now we need to find those bytes
 ```
