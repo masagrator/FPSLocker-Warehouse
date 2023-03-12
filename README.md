@@ -17,7 +17,7 @@ As it's filled by community, it may not be up to date.
 
 ---
 
-DETAILS contains link to document explaining what is the issue and how to make patch yourself for any version.
+DETAILS contains link to document explaining what is the issue and how to make patch yourself for any version (It won't explain how to use IDA/Ghidra/Edizon-SE or how it was determined that those offsets are correct).
 
 ---
 
