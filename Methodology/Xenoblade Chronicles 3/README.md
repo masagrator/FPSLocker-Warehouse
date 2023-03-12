@@ -28,7 +28,7 @@ We need to use disassembler in this case.
 
 > First we determine how to enable 60 FPS.
 
-After finishing disassembling `main`, we need to find those bytes (they may change after some invasive update, but for now they're reliable):
+After finishing disassembling `main`, we need to find those bytes:
 ```
 00 01 00 B9 2A 01 00 B9 C0 03 5F D6
 ```
