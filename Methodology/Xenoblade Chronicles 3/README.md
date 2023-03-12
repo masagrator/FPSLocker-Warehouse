@@ -77,7 +77,7 @@ Fourth instruction above is LDR instruction that loads pointer. Piece of functio
 ```
 
 
- from `off_7101A28B40`, which is `byte_7101A65958`.
+ Pointer is loaded from `off_7101A28B40`, which leads to `byte_7101A65958`.
 
 
 So value is stored as int8_t at `[MAIN,0x1A65958]`.<br>
