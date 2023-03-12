@@ -8,7 +8,7 @@ Read SaltyNX readme to check which games are not compatible with plugin.
 ---
 
 STATUS stores info if plugin is enough to go above 30 FPS or it requires additional patches.<br>
-Patches status concern only FPSLocker "LOCK" patch format. There may exist cheat/IPS patch/mod that unlock 60 FPS already.<br>
+Patches status concern only FPSLocker "LOCK" patch format. There may exist cheat/IPS patch/mod that unlocks 60 FPS already.<br>
 As it's filled by community, it may not be up to date.
 
 🟢 - Plugin alone is enough<br>
