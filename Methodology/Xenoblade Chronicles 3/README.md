@@ -33,7 +33,7 @@ After finishing disassembling `main`, we need to find those bytes:
 00 01 00 B9 2A 01 00 B9 C0 03 5F D6
 ```
 
-Before them we will find instructions that are storing offsets to vsync signal detection values. Function looks something like this:
+Before them we will find instructions that are loading pointers to vsync signal detection values. Function looks something like this:
 ```asm
 .text:0000007101157D18 sub_7101157D18                          ; CODE XREF: sub_7101192BC4+14↓p
 .text:0000007101157D18                 ADRP            X8, #off_7101A2EC28@PAGE
