@@ -28,7 +28,7 @@ We need to use disassembler in this case.
 
 > First we determine how to enable 60 FPS.
 
-After finishing disassembling `main`, we need to find those bytes (they may change after some invasive update, but for now it's reliable):
+After finishing disassembling `main`, we need to find those bytes (they may change after some invasive update, but for now they're reliable):
 ```
 00 01 00 B9 2A 01 00 B9 C0 03 5F D6
 ```
@@ -50,7 +50,7 @@ Before them we will find instructions that are storing offsets to vsync signal d
 `off_7101A2EC28` stores one pointer `dword_7101A08F98`, so our first offset is `[MAIN, 0x1A08F98]`.<br>
 `off_7101A2EC50` stores another pointer `dword_7101A08F9C`, so our second offset is `[MAIN, 0x1A08F9C]`
 
-As they are stored one after another at the same size, we can use patch format in this way to write default values for 30 FPS and below (they may change after some invasive update, but for now it's reliable):
+As they are stored one after another at the same size, we can use patch format in this way to write default values for 30 FPS and below:
 ```yaml
   -
     type: write
