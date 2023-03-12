@@ -80,7 +80,7 @@ Fourth instruction above is LDR instruction that loads pointer. Piece of functio
  Pointer is loaded from `off_7101A28B40`, which leads to `byte_7101A65958`.
 
 
-So value is stored as 1 byte at `[MAIN,0x1A65958]`.<br>
+So value is stored as 1 byte at `[MAIN, 0x1A65958]`.<br>
 If it's not equal to 0, cutscene is played. If it's not equal to 1, cutscene is not played.
 
 So we can write patch like this for above 30 FPS:
