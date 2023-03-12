@@ -28,6 +28,7 @@ DETAILS contains link to document explaining what is the issue and how to make p
 | BioShock Infinite Remastered | 0100D560102C8000 | 48681F1D90704F6C (v1, 1.0.2, ❌) | 🟡 |  |
 | Dark Souls Remastered | 01004AB00A260000 | DF3766A2BB651A3E (v3, 1.0.3, ❌) | 🔴 |  |
 | Darksiders II Deathinitive Edition | 010071800BA98000 | 173E2EDEA9E5D940 (v0, 1.0.0, ❌) | 🟡 |  |
+| Fire Emblem: Three Houses | 010055D009F78000 | 89048449BA238C8C (v5, v327680, ◯) | 🟢 |  |
 | Monster Hunter Rise | 0100B04011742000 | 11C9CE3F0676EEFD (v29, 14.0.0, ❌) | 🔴 |  |
 | The Witcher 3 | 010039400E8D6000 <br> 01003D100E9C6000 <br> 0100BFE00E9CA000 <br> 010076F00E9C8000 <br> 010070A00E9CE000 <br> 010085500E9D0000 <br> 010019C00E9CC000 <br> 01000BB00E9D2000 <br> 0100A0800E9C4000 <br> | 4FFB62F1CD9E17F8 (v4, 3.7, ❌) | 🔴 |  |
 | Xenoblade Chronicles 3 | 010074F013262000 | B76CD24AF02ACEA2 (v6, 1.3.0, ✅) | 🔴 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Xenoblade%20Chronicles%203)  |
