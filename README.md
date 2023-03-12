@@ -1,6 +1,6 @@
 # FPSLocker Warehouse
 
-Here you will find list with 30 FPS locked games, if they have patches that allow going above 30 FPS, tweak dynamic resolution frame timing, etc.
+Here you will find list with 30 FPS locked games, if they have FPSLocker patches that allow going above 30 FPS, tweak dynamic resolution frame timing, etc.
 
 Remember that this plugin is limited by SaltyNX capabilities. 
 Read SaltyNX readme to check which games are not compatible with plugin.
