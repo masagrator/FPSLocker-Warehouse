@@ -23,6 +23,9 @@ DETAILS contains link to document explaining what is the issue and how to make p
 
 | NAME | TITLE ID | BUILD ID (VERSION ID, VERSION, PATCH AVAILABLE) | STATUS | DETAILS |
 | --- | --- | --- | --- | --- |
+| BioShock Remastered | 0100AD10102B2000 | D89FFAA2062E373D (v1, 1.0.2, ❌) | 🟡 |  |
+| BioShock 2 Remastered | 01002620102C6000 | 7D1714279435589C (v1, 1.0.2, ❌) | 🟡 |  |
+| BioShock Infinite Remastered | 0100D560102C8000 | 48681F1D90704F6C (v1, 1.0.2, ❌) | 🟡 |  |
 | Monster Hunter Rise | 0100B04011742000 | 11C9CE3F0676EEFD (v29, 14.0.0, ❌) | 🔴 |  |
 | The Witcher 3 | 010039400E8D6000 <br> 01003D100E9C6000 <br> 0100BFE00E9CA000 <br> 010076F00E9C8000 <br> 010070A00E9CE000 <br> 010085500E9D0000 <br> 010019C00E9CC000 <br> 01000BB00E9D2000 <br> 0100A0800E9C4000 <br> | 4FFB62F1CD9E17F8 (v4, 3.7, ❌) | 🔴 |  |
 | Xenoblade Chronicles 3 | 010074F013262000 | B76CD24AF02ACEA2 (v6, 1.3.0, ✅) | 🔴 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Xenoblade%20Chronicles%203)  |
