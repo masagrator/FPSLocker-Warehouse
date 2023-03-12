@@ -1,5 +1,13 @@
 # Xenoblade Chronicles 3
 
+> Game info
+
+TitleID: `010074F013262000`<br>
+Explanation based on:
+- Internal version: `1.3.0`, 
+- Nintendo version ID: `v6`/`v393216`
+- BID: `B76CD24AF02ACEA2`
+
 > Details
 
 This game is using internal vsync signal detection set to 2, which means it skips every second frame. <br>
@@ -24,7 +32,7 @@ After finishing disassembling `main`, we need to find those bytes (they may chan
 00 01 00 B9 2A 01 00 B9 C0 03 5F D6
 ```
 
-Before them we will find instructions that are storing offsets to vsync signal detection values. For example in 1.3.0 version it looks like this:
+Before them we will find instructions that are storing offsets to vsync signal detection values. Function looks something like this:
 ```asm
 .text:0000007101157D18 sub_7101157D18                          ; CODE XREF: sub_7101192BC4+14↓p
 .text:0000007101157D18                 ADRP            X8, #off_7101A2EC28@PAGE
@@ -57,7 +65,7 @@ Now we need to find those bytes
 09 01 00 39 FD 7B C3 A8 C0 03 5F D6
 ```
 
-Fourth instruction above is LDR instruction that loads pointer. In 1.3.0 it looks like this:
+Fourth instruction above is LDR instruction that loads pointer. Piece of function looks like this:
 ```asm
 .text:0000007100C3B824                 LDR             X8, [X8,#off_7101A28B40@PAGEOFF]
 .text:0000007100C3B828                 STR             XZR, [X19,#0x8B0]
