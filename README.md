@@ -15,6 +15,11 @@ As it's filled by community, it may not be up to date.
 🟡 - Plugin alone allows going above 30 FPS, but additional patches are required to tweak things like dynamic resolution frame timing<br>
 🔴 - Plugin alone is not enough, patches are required
 
+PATCH AVAILABILITY
+❌ - patch not available
+✅ - patch available (click on it for folder)
+◯ - this version doesn't need patch
+
 ---
 
 DETAILS contains link to document explaining what is the issue and how to make patch yourself for any version (It won't explain how to use IDA/Ghidra/Edizon-SE or how it was determined that those offsets are correct).
