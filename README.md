@@ -17,7 +17,7 @@ As it's filled by community, it may not be up to date.
 
 PATCH AVAILABILITY<br>
 ❌ - patch not available<br>
-✅ - patch available (click on it for folder)<br>
+✅ - patch available (click on it for file)<br>
 ◯ - this version doesn't need patch
 
 ---
