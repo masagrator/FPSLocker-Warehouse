@@ -74,7 +74,7 @@ Compare the value from provided `compare_address` with a static value and if it'
 
 > type: block<br>
 - `what` - supported commands:
-  - `timing` - it blocks FPSLocker internal frame delay. It is advised to use it when we want to use the game's proprietary FPS lock.
+  - `timing` - it blocks FPSLocker internal frame delay. It is advised to use it when we want to use the game's proprietary FPS lock. This is automatically applied for 30 FPS and 60 FPS in games using NVN API.
 
 ---
 
