@@ -22,7 +22,7 @@ PATCH AVAILABILITY<br>
 
 ---
 
-DETAILS contains link to document explaining what is the issue and how to make patch yourself for any version (It won't explain how to use IDA/Ghidra/Edizon-SE or how it was determined that those offsets are correct).
+DETAILS contains link to document explaining why patch is necessary, possible issues with using FPSLocker in this game and how to make patch yourself for any version (It won't explain how to use IDA/Ghidra/Edizon-SE or how it was determined that those offsets are correct).
 
 ---
 
