@@ -9,13 +9,19 @@ unsafeCheck: false
     type: write
     address: [MAIN, 0x1A08F98]
     value_type: int32
-    value: [2, 2]
+    value: [4, 4]
+  -
+    type: block
+    what: timing
 20FPS:
   -
     type: write
     address: [MAIN, 0x1A08F98]
     value_type: int32
-    value: [2, 2]
+    value: [3, 3]
+  -
+    type: block
+    what: timing
 25FPS:
   -
     type: write
