@@ -15,7 +15,7 @@ YAML file consists of 11 keys:
 - `55FPS`
 - `60FPS`
 
-Each `*FPS` dict is `a list of dicts`. An examples:
+Each `*FPS` dict is `a list of dicts`. Examples:
 ```yaml
 15FPS:
   -
