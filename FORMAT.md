@@ -63,7 +63,7 @@ Write a static value to provided `address`
 
 > type: compare
 
-Compare the value from provided `compare_address` with a static value and if it's correct, it writes the static value to provided `address`
+Compare the value from provided `compare_address` with a static `compare_value` and if it's correct, it writes the static `value` to provided `address`
 - `compare_address` - always starts with one of the regions: `MAIN`, `HEAP`, or `ALIAS`. Next, we have offsets. If the offset is not the last one, it is treated as a pointer address. In provided second example we add `0x1A65958` to `MAIN` address to get a final address.
 - `compare_type` - check "Supported types". `compare_value` is the right operand.
 - `compare_value_type` - check "Supported types". Write them always with quotes to not trigger yaml formatting exception.
