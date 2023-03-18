@@ -46,8 +46,8 @@ Below ADRP/ADD loading pointer to string we need to find this instruction:
 MOV             W26, #0x41FC0000
 ```
 below it we have STR that looks like this
-```
-str w26, [x21, #0x28]
+```asm
+STR w26, [x21, #0x28]
 ```
 So we need to do: 0x4FDA8C8 + 0x28 + 4 = 0x4FDA8F4<br>
 if you use IDA, you should have already calculated 0x4FDA8C8 + 0x28 as
@@ -73,8 +73,8 @@ So we take 0x4FDA8F8.
 
 Below ADRP/ADD loading pointer to string we need to find first `BL` instruction.<br>
 Just above it we have
-```
-str w27, [x21, #0x28]
+```asm
+STR w27, [x21, #0x28]
 ```
 So we need to do: 0x4FDA8F8 + 0x28 + 4 = 0x4FDA8F4<br>
 if you use IDA, you should have already calculated 0x4FDA8F8 + 0x28 as
@@ -103,7 +103,7 @@ So we take 0x4C983C0.
 Below ADRP/ADD loading pointer to string we need to find first `BL` instruction.
 Just above it we have
 ```asm
-str w20, [x21, #0x28]
+STR w20, [x21, #0x28]
 ```
 
 So we need to do: 0x4C983C0 + 0x28 + 4 = 0x4C983EC<br>
