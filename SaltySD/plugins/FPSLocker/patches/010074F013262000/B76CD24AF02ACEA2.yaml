@@ -3,7 +3,7 @@
 
 unsafeCheck: false
 
-# For 15-30 FPS set default value
+# For 15-20 FPS use internal FPS lock, for 25-30 set default value
 15FPS:
   -
     type: write
