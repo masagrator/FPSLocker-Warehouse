@@ -8,6 +8,8 @@ Explanation based on:
 - Nintendo version ID: `v4`/`v262144`
 - BID: `4FFB62F1CD9E17F8`
 
+Base version of game is not compatible with SaltyNX, that's why ✝️ next to its version.
+
 > Details
 
 Game is using internal FPS lock that is set as integer 60, but because of NVN interval it's locked to 30. We will be using internal FPS lock to change our FPS target.<br>
