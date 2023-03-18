@@ -1,0 +1,224 @@
+# The Witcher 3 3.7
+# BID: 4FFB62F1CD9E17F8
+
+unsafeCheck: false
+
+15FPS:
+  # [Rendering] DRGameTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA8F0]
+    value_type: float
+    value: [63, 63]
+  # [Rendering] DRCinematicTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA920]
+    value_type: float
+    value: [63, 63]
+  # [Engine] LimitFPS
+  -
+    type: write
+    address: [MAIN, 0x4C983E8]
+    value_type: int32
+    value: [15, 15]
+  -
+    type: block
+    what: timing
+20FPS:
+  # [Rendering] DRGameTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA8F0]
+    value_type: float
+    value: [47.25, 47.25]
+  # [Rendering] DRCinematicTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA920]
+    value_type: float
+    value: [47.25, 47.25]
+  # [Engine] LimitFPS
+  -
+    type: write
+    address: [MAIN, 0x4C983E8]
+    value_type: int32
+    value: [20, 20]
+  -
+    type: block
+    what: timing
+25FPS:
+  # [Rendering] DRGameTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA8F0]
+    value_type: float
+    value: [37.8, 37.8]
+  # [Rendering] DRCinematicTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA920]
+    value_type: float
+    value: [37.8, 37.8]
+  # [Engine] LimitFPS
+  -
+    type: write
+    address: [MAIN, 0x4C983E8]
+    value_type: int32
+    value: [25, 25]
+  -
+    type: block
+    what: timing
+30FPS:
+  # [Rendering] DRGameTargetFrameTimeInMs (original value)
+  -
+    type: write
+    address: [MAIN, 0x4FDA8F0]
+    value_type: float
+    value: [31.5, 31.5]
+  # [Rendering] DRCinematicTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA920]
+    value_type: float
+    value: [31.5, 31.5]
+  # [Engine] LimitFPS (original value)
+  -
+    type: write
+    address: [MAIN, 0x4C983E8]
+    value_type: int32
+    value: [60, 60]
+
+# For 35-60 FPS check if cutscene is played. If it is, set 30 FPS lock. If not, disable it.
+35FPS:
+  # [Rendering] DRGameTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA8F0]
+    value_type: float
+    value: [27, 27]
+  # [Rendering] DRCinematicTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA920]
+    value_type: float
+    value: [27, 27]
+  # [Engine] LimitFPS
+  -
+    type: write
+    address: [MAIN, 0x4C983E8]
+    value_type: int32
+    value: [35, 35]
+  -
+    type: block
+    what: timing
+40FPS:
+  # [Rendering] DRGameTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA8F0]
+    value_type: float
+    value: [23.625, 23.625]
+  # [Rendering] DRCinematicTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA920]
+    value_type: float
+    value: [23.625, 23.625]
+  # [Engine] LimitFPS
+  -
+    type: write
+    address: [MAIN, 0x4C983E8]
+    value_type: int32
+    value: [40, 40]
+  -
+    type: block
+    what: timing
+45FPS:
+  # [Rendering] DRGameTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA8F0]
+    value_type: float
+    value: [21, 21]
+  # [Rendering] DRCinematicTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA920]
+    value_type: float
+    value: [21, 21]
+  # [Engine] LimitFPS
+  -
+    type: write
+    address: [MAIN, 0x4C983E8]
+    value_type: int32
+    value: [45, 45]
+  -
+    type: block
+    what: timing
+50FPS:
+  # [Rendering] DRGameTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA8F0]
+    value_type: float
+    value: [18.9, 18.9]
+  # [Rendering] DRCinematicTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA920]
+    value_type: float
+    value: [18.9, 18.9]
+  # [Engine] LimitFPS
+  -
+    type: write
+    address: [MAIN, 0x4C983E8]
+    value_type: int32
+    value: [50, 50]
+  -
+    type: block
+    what: timing
+55FPS:
+  # [Rendering] DRGameTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA8F0]
+    value_type: float
+    value: [17.1818181818, 17.1818181818]
+  # [Rendering] DRCinematicTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA920]
+    value_type: float
+    value: [17.1818181818, 17.1818181818]
+  # [Engine] LimitFPS
+  -
+    type: write
+    address: [MAIN, 0x4C983E8]
+    value_type: int32
+    value: [55, 55]
+  -
+    type: block
+    what: timing
+60FPS:
+  # [Rendering] DRGameTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA8F0]
+    value_type: float
+    value: [15.75, 15.75]
+  # [Rendering] DRCinematicTargetFrameTimeInMs
+  -
+    type: write
+    address: [MAIN, 0x4FDA920]
+    value_type: float
+    value: [15.75, 15.75]
+  # [Engine] LimitFPS
+  -
+    type: write
+    address: [MAIN, 0x4C983E8]
+    value_type: int32
+    value: [60, 60]
+  -
+    type: block
+    what: timing
