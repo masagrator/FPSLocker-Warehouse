@@ -34,6 +34,10 @@ Below after first BLR we have base address
 .text:0000007102A21808                 BLR             X8
 .text:0000007102A2180C                 ADRP            X19, #unk_710745D828@PAGE
 .text:0000007102A21810                 ADD             X19, X19, #unk_710745D828@PAGEOFF
+.text:0000007102A21814                 STP             X24, X0, [X19]
+.text:0000007102A21818                 LDR             X8, [X0]
+.text:0000007102A2181C                 LDR             X8, [X8,#0x68]
+.text:0000007102A21820                 BLR             X8
 ```
 
 Our base address is 0x745D828.
