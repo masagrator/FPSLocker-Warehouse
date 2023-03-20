@@ -18,7 +18,8 @@ As it's filled by community, it may not be up to date.
 🟢 - Plugin alone is enough<br>
 🔵 - Plugin alone allows going above 30 FPS, but to improve performance game requires dynamic resolution frame timing patch<br>
 🟡 - Plugin alone allows going above 30 FPS, but it requires game speed patch or fixes to physics<br>
-🔴 - Plugin alone is not enough, patches are required
+🔴 - Plugin alone is not enough, patches are required<br>
+🟣 - Game is not compatible with plugin
 
 PATCH AVAILABILITY<br>
 ✝️ - patch is not possible to create<br>
@@ -35,7 +36,7 @@ DETAILS contains link to document explaining why patch is necessary, possible is
 | NAME | TITLE ID | BUILD ID (VERSION ID, VERSION, PATCH AVAILABLE) | STATUS | DETAILS |
 | --- | --- | --- | --- | --- |
 | Animal Crossing™: New Horizons | 01006F8002326000 | A31F81D41E1039C5 (v5, 1.1.4, ✝️) | 🟡 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Animal%20Crossing%20New%20Horizons) |
-| Alien: Isolation| 010075D00E8BA000 | 397C054A3D25D488 (v4, 1.1.4_60709, ✝️) | 🔴 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Alien%20Isolation) |
+| Alien: Isolation | 010075D00E8BA000 | 397C054A3D25D488 (v4, 1.1.4_60709, ✝️) | 🟣 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Alien%20Isolation) |
 | BioShock Remastered | 0100AD10102B2000 | D89FFAA2062E373D (v1, 1.0.2, ❌) | 🔵 |  |
 | BioShock 2 Remastered | 01002620102C6000 | 7D1714279435589C (v1, 1.0.2, ❌) | 🔵 |  |
 | BioShock Infinite Remastered | 0100D560102C8000 | 48681F1D90704F6C (v1, 1.0.2, ❌) | 🔵 |  |
@@ -43,6 +44,7 @@ DETAILS contains link to document explaining why patch is necessary, possible is
 | Darksiders II Deathinitive Edition | 010071800BA98000 | 173E2EDEA9E5D940 (v0, 1.0.0, ❌) | 🔵 |  |
 | Dragon's Dogma: Dark Arisen | 010032C00AC58000 <br> 010057E00AC56000 | 2CDB9B9D70010E88 (v1, 1.0.1, ❌) <br> 2D5B93C856CDF009 (v1, 1.0.1, ❌) | 🔴 |  |
 | Fire Emblem: Three Houses | 010055D009F78000 | 89048449BA238C8C (v5, 1.2.0, ◯) | 🟢 |  |
+| Luigi's Mansion 3 | 0100DCA0064A6000 | 79E5950FFA85ACF6 (v5, 1.4.0, ✝️) | 🟣 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Luigi's%20Mansion%203) |
 | Monster Hunter Rise | 0100B04011742000 | 11C9CE3F0676EEFD (v29, 14.0.0, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/0100B04011742000/11C9CE3F0676EEFD.yaml)) | 🔴 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Monster%20Hunter%20Rise) |
 | Persona 5 Scramble | 01001C400E9D8000 <br> 01009FE010876000 | 737E56D43D2C0B38 (v3, 1.0.3, ❌) <br> 407978D722447B25 (v1, 1.0.1, ❌) | 🟡 |  |
 | Persona 5 Strikers | 0100801011C3E000 | C4DF04F647BDC727 (v0, 1.0.0, ❌) | 🟡 |  |
