@@ -35,6 +35,7 @@ DETAILS contains link to document explaining why patch is necessary, possible is
 | NAME | TITLE ID | BUILD ID (VERSION ID, VERSION, PATCH AVAILABLE) | STATUS | DETAILS |
 | --- | --- | --- | --- | --- |
 | Animal Crossing™: New Horizons | 01006F8002326000 | A31F81D41E1039C5 (v5, 1.1.4, ✝️) | 🟡 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Animal%20Crossing%20New%20Horizons) |
+| Alien: Isolation| 010075D00E8BA000 | 397C054A3D25D488 (v4, 1.1.4_60709, ✝️) | 🔴 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Alien%20Isolation) |
 | BioShock Remastered | 0100AD10102B2000 | D89FFAA2062E373D (v1, 1.0.2, ❌) | 🔵 |  |
 | BioShock 2 Remastered | 01002620102C6000 | 7D1714279435589C (v1, 1.0.2, ❌) | 🔵 |  |
 | BioShock Infinite Remastered | 0100D560102C8000 | 48681F1D90704F6C (v1, 1.0.2, ❌) | 🔵 |  |
