@@ -43,7 +43,7 @@ DETAILS contains link to document explaining why patch is necessary, possible is
 | Dark Souls Remastered | 01004AB00A260000 | DF3766A2BB651A3E (v3, 1.0.3, ❌) | 🟡 |  |
 | Darksiders II Deathinitive Edition | 010071800BA98000 | 173E2EDEA9E5D940 (v0, 1.0.0, ❌) | 🔵 |  |
 | Dragon's Dogma: Dark Arisen | 010032C00AC58000 <br> 010057E00AC56000 | 2CDB9B9D70010E88 (v1, 1.0.1, ❌) <br> 2D5B93C856CDF009 (v1, 1.0.1, ❌) | 🔴 |  |
-| Fire Emblem: Three Houses | 010055D009F78000 | 89048449BA238C8C (v5, 1.2.0, ◯) | 🟢 |  |
+| Fire Emblem: Three Houses | 010055D009F78000 | 89048449BA238C8C (v5, 1.2.0, ❌) | 🔵 |  |
 | Luigi's Mansion 3 | 0100DCA0064A6000 | 79E5950FFA85ACF6 (v5, 1.4.0, ✝️) | 🟣 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Luigi's%20Mansion%203) |
 | Monster Hunter Generations Ultimate | 0100770008DD8000 <br> 0100C3800049C000 | FB08F1D20FD1204F (v4, 1.4.0, ✝️) <br> 9D4C86E6EF74504A (v5, 1.5.0, ✝️) | 🟣 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Monster%20Hunter%20Generations%20Ultimate)
 | Monster Hunter Rise | 0100B04011742000 | 11C9CE3F0676EEFD (v29, 14.0.0, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/0100B04011742000/11C9CE3F0676EEFD.yaml)) | 🔴 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Monster%20Hunter%20Rise) |
