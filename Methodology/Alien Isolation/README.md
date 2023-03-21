@@ -10,4 +10,4 @@ Explanation based on:
 
 > Details
 
-SaltyNX doesn't support this game because game doesn't want to give even bit of free space for plugins. For 60 FPS read [THIS](https://gbatemp.net/threads/alien-isolation-60-fps-enhanced-graphics-settings-more.553647/)
+SaltyNX doesn't support this game because game doesn't want to give even a bit of free space for plugins. For 60 FPS read [THIS](https://gbatemp.net/threads/alien-isolation-60-fps-enhanced-graphics-settings-more.553647/)
