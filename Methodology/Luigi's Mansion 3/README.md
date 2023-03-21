@@ -10,4 +10,4 @@ Explanation based on:
 
 > Details
 
-SaltyNX doesn't support this game because game doesn't want to give even bit of free space for plugins. For 60 FPS read [THIS](https://gbatemp.net/threads/luigis-mansion-3-60fps-mod.557992/)
+SaltyNX doesn't support this game because game doesn't want to give even a bit of free space for plugins. For 60 FPS read [THIS](https://gbatemp.net/threads/luigis-mansion-3-60fps-mod.557992/)
