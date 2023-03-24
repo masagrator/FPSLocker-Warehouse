@@ -1,7 +1,7 @@
 # The Witcher 3 3.7
 # BID: 4FFB62F1CD9E17F8
 
-unsafeCheck: false
+unsafeCheck: true
 
 15FPS:
   # DRGameTargetFrameTimeInMs
