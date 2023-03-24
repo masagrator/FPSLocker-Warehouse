@@ -11,7 +11,8 @@ Explanation based on:
 
 > Details
 
-Game is using internal FPS locker. We need to patch it.
+Game is using internal FPS locker. We need to patch it.<br>
+**WARNING**: Game has issues with slow-motion cutscenes when FPS is set above 30 FPS. It will make them up to several times longer than they should. Use Turbo mode when that happens.
 
 ---
 
