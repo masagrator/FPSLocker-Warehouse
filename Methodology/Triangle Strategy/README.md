@@ -77,6 +77,7 @@ We are following similar pattern as for previous command. Whole piece of code lo
 .text:0000007102F4B064                 BLR             X8
 .text:0000007102F4B068                 STR             X0, [X19,#(qword_710748B408 - 0x710748B3F8)]
 ```
+So our second final address is 0x748B408.
 
 Each of our final address stores pointer that points to two floats. By default t.MaxFPS is always 0. r.DynamicRes.FrameTimeBudget via config file is 33.33.<br>
 As we want to use internal FPS lock instead of FPSLocker function whenever possible, our entry for 15 FPS will look like this:
