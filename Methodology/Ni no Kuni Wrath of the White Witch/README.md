@@ -7,6 +7,7 @@ Explanation based on:
 - Internal version: `1.0.2`, 
 - Nintendo version ID: `v2`/`v131072`
 - BID: `C32B29CB5FBA96D9`
+- Engine: Level-5 proprietary engine
 
 > Details
 
