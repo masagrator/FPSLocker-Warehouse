@@ -7,6 +7,7 @@ Explanation based on:
 - Internal version: `1.4.0`, 
 - Nintendo version ID: `v5`/`v327680`
 - BID: `79E5950FFA85ACF6`
+- Engine: proprietary
 
 > Details
 
