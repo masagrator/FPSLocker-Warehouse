@@ -8,6 +8,7 @@ Explanation based on:
 - Internal version: `1.0.3`, 
 - Nintendo version ID: `v3`/`v196608`
 - BID: `AC8C8EC9DB1A8EF4`
+- Engine: Heavily modified `Phyre` engine
 
 > Details
 
