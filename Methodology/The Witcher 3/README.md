@@ -7,6 +7,7 @@ Explanation based on:
 - Internal version: `3.7`, 
 - Nintendo version ID: `v4`/`v262144`
 - BID: `4FFB62F1CD9E17F8`
+- Engine: `REDengine 3`
 
 Base version of game is not compatible with SaltyNX, that's why ✝️ next to its version.
 
