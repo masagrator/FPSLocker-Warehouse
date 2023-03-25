@@ -7,6 +7,7 @@ Explanation based on:
 - Internal version: `1.3.0`, 
 - Nintendo version ID: `v6`/`v393216`
 - BID: `B76CD24AF02ACEA2`
+- Engine: Monolith Soft proprietary engine (Rendering pipeline is called `DrPixlMan`)
 
 > Details
 
