@@ -7,6 +7,7 @@ Explanation based on:
 - Internal version: `1.1.4`, 
 - Nintendo version ID: `v5`/`v327680`
 - BID: `A31F81D41E1039C5`
+- Engine: proprietary (based on LunchPack SDK)
 
 > Details
 

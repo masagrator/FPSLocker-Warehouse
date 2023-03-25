@@ -7,6 +7,7 @@ Explanation based on:
 - Internal version: `1.1.4_60709`, 
 - Nintendo version ID: `v4`/`v262144`
 - BID: `397C054A3D25D488`
+- Engine: `CATHODE`
 
 > Details
 

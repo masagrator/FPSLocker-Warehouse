@@ -7,6 +7,7 @@ Explanation based on:
 - Internal version: `1.4.0`, 
 - Nintendo version ID: `v4`/`v262144`
 - BID: `FB08F1D20FD1204F`
+- Engine: `MT Framework`
 
 > Details
 
