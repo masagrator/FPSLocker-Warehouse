@@ -7,6 +7,7 @@ Explanation based on:
 - Internal version: `1.0.0`, 
 - Nintendo version ID: `v0`
 - BID: `33463E11899166BB`
+- Engine: Atlus proprietary engine
 
 > Details
 
