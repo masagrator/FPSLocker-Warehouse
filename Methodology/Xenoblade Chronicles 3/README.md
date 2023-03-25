@@ -12,7 +12,7 @@ Explanation based on:
 
 This game is using internal vsync signal detection set to 2, which means it skips every second frame. <br>
 We need to change it to 1 to unlock >30 FPS. <br>
-2D animations are hardcoded to use 30 FPS, so above 30 FPS they are rendered faster than normal.<br>
+2D animations are hardcoded to use 30 FPS, so above 30 FPS they are rendered faster than normal. There is no known offset to patch this.<br>
 
 Beside that cutscenes animations are hardcoded to 30 FPS and nobody figured out if it's even possible to render them above 30 FPS with correct speed.<br>
 That's why it's necessary to get an offset to determine if we are in cutscene or not to automatically lock to 30 FPS if cutscene is detected.<br>
