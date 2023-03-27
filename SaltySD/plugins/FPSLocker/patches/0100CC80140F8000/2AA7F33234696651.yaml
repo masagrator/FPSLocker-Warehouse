@@ -134,7 +134,7 @@ unsafeCheck: false
     type: write
     address: [MAIN, 0x745D838, 0]
     value_type: float
-    value: [17.1818181818, 17.1818181818]
+    value: [17.18, 17.18]
   # t.MaxFPS
   -
     type: write
@@ -150,7 +150,7 @@ unsafeCheck: false
     type: write
     address: [MAIN, 0x745D838, 0]
     value_type: float
-    value: [16.66666666, 16.66666666]
+    value: [16.66, 16.66]
   # t.MaxFPS (default value)
   -
     type: write
