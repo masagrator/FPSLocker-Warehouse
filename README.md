@@ -1,35 +1,35 @@
 # FPSLocker Warehouse
 
-Here you will find list with 30 FPS locked games, if they have FPSLocker patches that allow going above 30 FPS, tweak dynamic resolution frame timing for better performance, etc.
+Here you will a find list with 30 FPS locked games, if they have FPSLocker patches that allow going above 30 FPS, tweak dynamic resolution frame timing for better performance, etc.
 
-Remember that this plugin is limited by SaltyNX capabilities. 
-Read SaltyNX readme to check which games are not compatible with plugin.
-
----
-
-> To download all patches click [here](https://github.com/masagrator/FPSLocker-Warehouse/archive/refs/heads/main.zip), unpack it and copy `SaltySD` folder to root of your sdcard.
+Remember that NX-FPS plugin is limited by SaltyNX capabilities. 
+Read SaltyNX readme to check which games are not compatible with the plugin.
 
 ---
 
-Column with colors stores info if plugin is enough to go above 30 FPS or it requires additional patches.<br>
+> To download all patches click [here](https://github.com/masagrator/FPSLocker-Warehouse/archive/refs/heads/main.zip), unpack it and copy the `SaltySD` folder to root of your sdcard.
+
+---
+
+Column with colors stores info if the plugin is enough to go above 30 FPS or it requires additional patches.<br>
 Patches status concern only FPSLocker "LOCK" patch format. There may exist cheat/IPS patch/mod that unlocks 60 FPS already.<br>
-As it's filled by community, it may not be up to date.
+As the list is filled by community, it may not be up to date.
 
 🟢 - Plugin alone is enough<br>
 🔵 - Plugin alone allows going above 30 FPS, but to improve performance game requires dynamic resolution frame timing patch<br>
 🟡 - Plugin alone allows going above 30 FPS, but it requires game speed patch or fixes to physics<br>
 🔴 - Plugin alone is not enough, patches are required<br>
-🟣 - Game is not compatible with plugin
+🟣 - Game is not compatible with the plugin
 
 PATCH AVAILABILITY<br>
 ✝️ - patch is not possible to create<br>
 ❌ - patch not available<br>
 ✅ - patch available (click on it for file)<br>
-◯ - this version doesn't need patch
+◯ - this version doesn't need a patch
 
 ---
 
-DETAILS contains link to document explaining why patch is necessary, possible issues with using FPSLocker in this game and how to make patch yourself for any version (It won't explain how to use IDA/Ghidra/Edizon-SE or how it was determined that those offsets are correct).
+DETAILS contains links to documents explaining why patch is necessary, possible issues with using FPSLocker in this game and how to make patch yourself for any version (It won't explain how to use IDA/Ghidra/Edizon-SE/GDB or how it was determined that those offsets are correct).
 
 ---
 
