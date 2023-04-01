@@ -1,4 +1,4 @@
-# Triangle Strategy
+# Remnant: From the Ashes
 
 > Game info
 
