@@ -40,6 +40,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | BioShock Remastered | `0100AD10102B2000` | `D89FFAA2062E373D` (v1, 1.0.2, ❌) | 🔵 |  |
 | BioShock 2 Remastered | `01002620102C6000` | `7D1714279435589C` (v1, 1.0.2, ❌) | 🔵 |  |
 | BioShock Infinite Remastered | `0100D560102C8000` | `48681F1D90704F6C` (v1, 1.0.2, ❌) | 🔵 |  |
+| Candleman | `010034400CB5E000` | `55AA8D007FAEC044` (v1, 1.0.1, ◯) | 🟢 |  |
 | Dark Souls Remastered | `01004AB00A260000` | `DF3766A2BB651A3E` (v3, 1.0.3, ❌) | 🟡 |  |
 | Darksiders II Deathinitive Edition | `010071800BA98000` | `173E2EDEA9E5D940` (v0, 1.0.0, ❌) | 🔵 |  |
 | DEMON GAZE EXTRA | `0100FCC0168FC000` | `58EE9A90F6FE6D4B` (v2, 1.0.2, ❌) | 🟡 |  |
