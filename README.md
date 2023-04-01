@@ -47,6 +47,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Dragon's Dogma: Dark Arisen | `010032C00AC58000` <br> `010057E00AC56000` | `2CDB9B9D70010E88` (v1, 1.0.1, ❌) <br> `2D5B93C856CDF009` (v1, 1.0.1, ❌) | 🔴 |  |
 | Fire Emblem: Three Houses | `010055D009F78000` | `89048449BA238C8C` (v5, 1.2.0, ❌) | 🔵 |  |
 | GOD WARS The Complete Legend | `0100F3D00B032000` | `3A0835D09F6D1544` (v1, 1.1, ❌) | 🟡 |  |
+| L.A. Noire | `0100830004FB6000` | `40F973CE3B5EC8D7` (v2, 1.2, ❌) | 🟡 |  |
 | Luigi's Mansion 3 | `0100DCA0064A6000` | `79E5950FFA85ACF6` (v5, 1.4.0, ✝️) | 🟣 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Luigi's%20Mansion%203) |
 | Monster Hunter Generations Ultimate | `0100770008DD8000` <br> `0100C3800049C000` | `FB08F1D20FD1204F` (v4, 1.4.0, ✝️) <br> `9D4C86E6EF74504A` (v5, 1.5.0, ✝️) | 🟣 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Monster%20Hunter%20Generations%20Ultimate)
 | Monster Hunter Rise | `0100B04011742000` | `11C9CE3F0676EEFD` (v29, 14.0.0, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/0100B04011742000/11C9CE3F0676EEFD.yaml)) | 🔴 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Monster%20Hunter%20Rise) |
