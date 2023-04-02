@@ -44,6 +44,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Dark Souls Remastered | `01004AB00A260000` | `DF3766A2BB651A3E` (v3, 1.0.3, ❌) | 🟡 |  |
 | Darksiders II Deathinitive Edition | `010071800BA98000` | `173E2EDEA9E5D940` (v0, 1.0.0, ❌) | 🔵 |  |
 | DEMON GAZE EXTRA | `0100FCC0168FC000` | `58EE9A90F6FE6D4B` (v2, 1.0.2, ❌) | 🟡 |  |
+| DOOM® Eternal | `0100B1A00D8CE000` | `5AF6F31EAC42D8C0` (v13, 1.13, ❌) | 🔵 |  |
 | Dragon's Dogma: Dark Arisen | `010032C00AC58000` <br> `010057E00AC56000` | `2CDB9B9D70010E88` (v1, 1.0.1, ❌) <br> `2D5B93C856CDF009` (v1, 1.0.1, ❌) | 🔴 |  |
 | Fire Emblem: Three Houses | `010055D009F78000` | `89048449BA238C8C` (v5, 1.2.0, ❌) | 🔵 |  |
 | GOD WARS The Complete Legend | `0100F3D00B032000` | `3A0835D09F6D1544` (v1, 1.1, ❌) | 🟡 |  |
