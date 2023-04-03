@@ -37,7 +37,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | --- | --- | --- | --- | --- |
 | Animal Crossing™: New Horizons | `01006F8002326000` | `A31F81D41E1039C5` (v5, 1.1.4, ✝️) | 🟡 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Animal%20Crossing%20New%20Horizons) |
 | Alien: Isolation | `010075D00E8BA000` | `397C054A3D25D488` (v4, 1.1.4_60709, ✝️) | 🟣 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Alien%20Isolation) |
-| BioShock Remastered | `0100AD10102B2000` | `D89FFAA2062E373D` (v1, 1.0.2, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/0100AD10102B2000/D89FFAA2062E373D.yaml)) | 🔵 |  |
+| BioShock Remastered | `0100AD10102B2000` | `D89FFAA2062E373D` (v1, 1.0.2, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/0100AD10102B2000/D89FFAA2062E373D.yaml)) | 🔵 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/bioshock/Methodology/BioShock%20Remastered) |
 | BioShock 2 Remastered | `01002620102C6000` | `7D1714279435589C` (v1, 1.0.2, ❌) | 🔵 |  |
 | BioShock Infinite Remastered | `0100D560102C8000` | `48681F1D90704F6C` (v1, 1.0.2, ❌) | 🔵 |  |
 | Candleman | `010034400CB5E000` | `55AA8D007FAEC044` (v1, 1.0.1, ◯) | 🟢 |  |
