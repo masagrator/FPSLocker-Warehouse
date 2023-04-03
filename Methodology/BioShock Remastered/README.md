@@ -12,6 +12,7 @@ Explanation based on:
 > Details
 
 Game can above 30 FPS with plugin alone, but we need to patch dynamic resolution frame timing to get better performance.
+Thanks to `Kirby567Fan` for finding relevant instructions.
 
 # How to find offsets
 
