@@ -51,6 +51,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Figment 2: Creed Valley | `010098A016888000` | `16C2DB41CB7A7A31` (v1, 1.0.5 ❌) | 🔴 |  |
 | Fire Emblem: Three Houses | `010055D009F78000` | `89048449BA238C8C` (v5, 1.2.0, ❌) | 🔵 |  |
 | GOD WARS The Complete Legend | `0100F3D00B032000` | `3A0835D09F6D1544` (v1, 1.1, ❌) | 🟡 |  |
+| Hokko Life | `010022A016250000` | `D9D13603133F3D89` (v5, 1.0.5, ◯) | 🟢 |  |
 | L.A. Noire | `0100830004FB6000` | `40F973CE3B5EC8D7` (v2, 1.2, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/0100830004FB6000/40F973CE3B5EC8D7.yaml)) | 🟡 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/L.A.%20Noire) |
 | Luigi's Mansion 3 | `0100DCA0064A6000` | `79E5950FFA85ACF6` (v5, 1.4.0, ✝️) | 🟣 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Luigi's%20Mansion%203) |
 | Monster Hunter Generations Ultimate | `0100770008DD8000` <br> `0100C3800049C000` | `FB08F1D20FD1204F` (v4, 1.4.0, ✝️) <br> `9D4C86E6EF74504A` (v5, 1.5.0, ✝️) | 🟣 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Monster%20Hunter%20Generations%20Ultimate)
