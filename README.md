@@ -42,7 +42,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | BioShock Infinite Remastered | `0100D560102C8000` | `48681F1D90704F6C` (v1, 1.0.2, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/48681F1D90704F6C.yaml)) | 🔵 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/BioShock%20Infinite) |
 | Candleman | `010034400CB5E000` | `55AA8D007FAEC044` (v1, 1.0.1, ◯) | 🟢 |  |
 | Chef Life - A Restaurant Simulator | `0100F24014280000` | `8BC03B559A77C4CE` (v2, 1.2.0, ◯) | 🟢 |  |
-| Dark Souls Remastered | `01004AB00A260000` | `DF3766A2BB651A3E` (v3, 1.0.3, ❌) | 🟡 |  |
+| Dark Souls Remastered | `01004AB00A260000` | `DF3766A2BB651A3E` (v3, 1.0.3, ❌) | 🔴 |  |
 | Darksiders II Deathinitive Edition | `010071800BA98000` | `173E2EDEA9E5D940` (v0, 1.0.0, ❌) | 🔵 |  |
 | DC's Justice League: Cosmic Chaos | `0100157015DD8000` | `2BFC784E7E10DD89` (v1, 1.0.1, ◯) | 🟢 |  |
 | DEMON GAZE EXTRA | `0100FCC0168FC000` | `58EE9A90F6FE6D4B` (v2, 1.0.2, ❌) | 🟡 |  |
