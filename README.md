@@ -63,6 +63,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Persona 5 Scramble | `01001C400E9D8000` <br> `01009FE010876000` | `737E56D43D2C0B38` (v3, 1.0.3, ❌) <br> `407978D722447B25` (v1, 1.0.1, ❌) | 🟡 |  |
 | Persona 5 Strikers | `0100801011C3E000` | `C4DF04F647BDC727` (v0, 1.0.0, ❌) | 🟡 |  |
 | Remnant: From the Ashes | `010010F01418E000` | `49CF6B0B0A62F9E2` (v1, 1.0.1, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/010010F01418E000/49CF6B0B0A62F9E2.yaml)) | 🔵 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Remnant%20From%20the%20Ashes) |
+| Session: Skate Sim | `010023001969A000` | `BF4126341134BFC7` (v3, 1.1.2, ❌) | 🔵 |  |
 | Sherlock Holmes: Crimes and Punishments | `0100651014DBA000` | `789C2939A757C0CD` (v0, 1.0.0, ❌) | 🔴 |  |
 | Sherlock Holmes: The Devil's Daughter | `010020F014DBE000` | `2B37ED2A971948F3` (v0, 1.0.0, ❌) | 🔴 |  |
 | Sherlock Holmes and The Hound of The Baskervilles | `010003D018708000` | `4A06EBBB5A2E4FE4` (v1, 1.0.1, ✝️) | 🟣 |  |
