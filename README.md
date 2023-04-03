@@ -44,6 +44,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Chef Life - A Restaurant Simulator | `0100F24014280000` | `8BC03B559A77C4CE` (v2, 1.2.0, ◯) | 🟢 |  |
 | Dark Souls Remastered | `01004AB00A260000` | `DF3766A2BB651A3E` (v3, 1.0.3, ❌) | 🟡 |  |
 | Darksiders II Deathinitive Edition | `010071800BA98000` | `173E2EDEA9E5D940` (v0, 1.0.0, ❌) | 🔵 |  |
+| DC's Justice League: Cosmic Chaos | `0100157015DD8000` | `2BFC784E7E10DD89` (v1, 1.0.1, ◯) | 🟢 |  |
 | DEMON GAZE EXTRA | `0100FCC0168FC000` | `58EE9A90F6FE6D4B` (v2, 1.0.2, ❌) | 🟡 |  |
 | DOOM® Eternal | `0100B1A00D8CE000` | `5AF6F31EAC42D8C0` (v13, 1.13, ❌) | 🔵 |  |
 | Dragon's Dogma: Dark Arisen | `010032C00AC58000` <br> `010057E00AC56000` | `2CDB9B9D70010E88` (v1, 1.0.1, ❌) <br> `2D5B93C856CDF009` (v1, 1.0.1, ❌) | 🔴 |  |
