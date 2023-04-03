@@ -47,7 +47,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | DC's Justice League: Cosmic Chaos | `0100157015DD8000` | `2BFC784E7E10DD89` (v1, 1.0.1, ◯) | 🟢 |  |
 | DEMON GAZE EXTRA | `0100FCC0168FC000` | `58EE9A90F6FE6D4B` (v2, 1.0.2, ❌) | 🟡 |  |
 | DOOM® Eternal | `0100B1A00D8CE000` | `5AF6F31EAC42D8C0` (v13, 1.13, ❌) | 🔵 |  |
-| Dragon's Dogma: Dark Arisen | `010032C00AC58000` <br> `010057E00AC56000` | `2CDB9B9D70010E88` (v1, 1.0.1, ❌) <br> `2D5B93C856CDF009` (v1, 1.0.1, ❌) | 🔴 |  |
+| Dragon's Dogma: Dark Arisen | `010032C00AC58000` <br> `010057E00AC56000` | `2CDB9B9D70010E88` (v1, 1.0.1, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/010032C00AC58000/2CDB9B9D70010E88.yaml)) <br> `2D5B93C856CDF009` (v1, 1.0.1, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/010057E00AC56000/2D5B93C856CDF009.yaml)) | 🔴 |  |
 | Figment 2: Creed Valley | `010098A016888000` | `16C2DB41CB7A7A31` (v1, 1.0.5 ❌) | 🔴 |  |
 | Fire Emblem: Three Houses | `010055D009F78000` | `89048449BA238C8C` (v5, 1.2.0, ❌) | 🔵 |  |
 | GOD WARS The Complete Legend | `0100F3D00B032000` | `3A0835D09F6D1544` (v1, 1.1, ❌) | 🔵 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/God%20Wars) |
