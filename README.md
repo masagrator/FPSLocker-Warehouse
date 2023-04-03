@@ -58,8 +58,8 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Monster Hunter Rise | `0100B04011742000` | `11C9CE3F0676EEFD` (v29, 14.0.0, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/0100B04011742000/11C9CE3F0676EEFD.yaml)) | 🔴 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Monster%20Hunter%20Rise) |
 | Ni no Kuni: Wrath of the White Witch | `0100E5600D446000` | `C32B29CB5FBA96D9` (v2, 1.0.2, ✝️) | 🟣 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Ni%20no%20Kuni%20Wrath%20of%20the%20White%20Witch) |
 | NieR:Automata The End of YoRHa Edition | `0100B8E016F76000` <br> `010056B015FE8000` | `992787E2B5425994` (v1, 1.0.2, ◯) <br> `E43525F22282A477` (v1, 1.0.2, ◯) | 🟢 |  |
-| Outlast | `01008D4007A1E000` | `C3D46BB3C7059DB1` (v1, 1.0.1, ❌) | 🔵 |  |
-| Outlast 2 | `0100DE70085E8000` | `F18ACDA7A71CB287` (v0, 1.0.0, ❌) | 🔵 |  |
+| Outlast | `01008D4007A1E000` | `C3D46BB3C7059DB1` (v1, 1.0.1, ❌) | 🔵 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/Methodology/Outlast/) |
+| Outlast 2 | `0100DE70085E8000` | `F18ACDA7A71CB287` (v0, 1.0.0, ❌) | 🔵 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Outlast%202) |
 | Overcooked! Special Edition | `01009B900401E000` | `41D554623A3F4341` (v4, 1.1.1, ◯) | 🟢 |  |
 | Peppa Pig: World Adventures | `0100FF1018E00000` | `696DE87363CDAED0` (v1, 1.0.1, ◯) | 🟢 |  |
 | Persona 5 Scramble | `01001C400E9D8000` <br> `01009FE010876000` | `737E56D43D2C0B38` (v3, 1.0.3, ❌) <br> `407978D722447B25` (v1, 1.0.1, ❌) | 🟡 |  |
