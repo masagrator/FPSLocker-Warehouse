@@ -58,6 +58,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | NieR:Automata The End of YoRHa Edition | `0100B8E016F76000` <br> `010056B015FE8000` | `992787E2B5425994` (v1, 1.0.2, ◯) <br> `E43525F22282A477` (v1, 1.0.2, ◯) | 🟢 |  |
 | Outlast | `01008D4007A1E000` | `C3D46BB3C7059DB1` (v1, 1.0.1, ◯) | 🟢 |  |
 | Overcooked! Special Edition | `01009B900401E000` | `41D554623A3F4341` (v4, 1.1.1, ◯) | 🟢 |  |
+| Peppa Pig: World Adventures | `0100FF1018E00000` | `696DE87363CDAED0` (v1, 1.0.1, ◯) | 🟢 |  |
 | Persona 5 Scramble | `01001C400E9D8000` <br> `01009FE010876000` | `737E56D43D2C0B38` (v3, 1.0.3, ❌) <br> `407978D722447B25` (v1, 1.0.1, ❌) | 🟡 |  |
 | Persona 5 Strikers | `0100801011C3E000` | `C4DF04F647BDC727` (v0, 1.0.0, ❌) | 🟡 |  |
 | Remnant: From the Ashes | `010010F01418E000` | `49CF6B0B0A62F9E2` (v1, 1.0.1, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/010010F01418E000/49CF6B0B0A62F9E2.yaml)) | 🔵 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Remnant%20From%20the%20Ashes) |
