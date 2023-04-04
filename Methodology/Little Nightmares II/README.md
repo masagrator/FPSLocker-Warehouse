@@ -12,7 +12,7 @@ Explanation based on:
 > Details
 
 Game can be unlocked to 60 FPS with plugin alone, but because game is using dynamic resolution set to 33.33 ms, performance is subpar. Requires patch to fix that.
-Game has issues with going below 20 FPS by using t.MaxFPS alone we must force it to run at 15 FPS. Below 20 FPS it slows down.
+Game has issues with going below 20 FPS by using t.MaxFPS alone, we must force it to run at 15 FPS. Below 20 FPS it slows down.
 
 # How to find offsets
 
