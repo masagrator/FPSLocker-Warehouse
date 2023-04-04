@@ -16,9 +16,6 @@ unsafeCheck: true
     address: [MAIN, 0x74CC710, 0]
     value_type: float
     value: [15, 15]
-  -
-    type: block
-    what: timing
 20FPS:
   # r.DynamicRes.FrameTimeBudget
   -
