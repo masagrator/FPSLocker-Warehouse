@@ -10,7 +10,7 @@ unsafeCheck: true
     address: [MAIN, 0x74A0370, 0]
     value_type: float
     value: [66.6666, 66.6666]
-  # t.MaxFPS (game has issues with going below 20 FPS)
+  # t.MaxFPS (game needs to be forced to run under 20 FPS, then it slows down)
   -
     type: write
     address: [MAIN, 0x74CC710, 0]
