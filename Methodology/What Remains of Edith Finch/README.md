@@ -11,7 +11,7 @@ Explanation based on:
 
 > Details
 
-Game can be unlocked to 60 FPS with plugin alone, but because game is using dynamic resolution in battles that is set to 33.3 ms, performance is subpar. Requires patch to fix that.
+Game is using internal FPS lock and is using dynamic resolution set to 33.3 ms. Requires patch to fix those.
 
 # How to find offsets
 
