@@ -50,7 +50,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Dragon's Dogma: Dark Arisen | `010032C00AC58000` <br> `010057E00AC56000` | `2CDB9B9D70010E88` (v1, 1.0.1, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/010032C00AC58000/2CDB9B9D70010E88.yaml)) <br> `2D5B93C856CDF009` (v1, 1.0.1, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/010057E00AC56000/2D5B93C856CDF009.yaml)) | 🔴 |  |
 | Figment 2: Creed Valley | `010098A016888000` | `16C2DB41CB7A7A31` (v1, 1.0.5 ❌) | 🔴 |  |
 | Fire Emblem: Three Houses | `010055D009F78000` | `89048449BA238C8C` (v5, 1.2.0, ❌) | 🔵 |  |
-| Gear.Club Unlimited 2 | `010072900AFF0000` | `FE757810B45C3444` (v14, 1.7.2, ❌) | 🔴 |  |
+| Gear.Club Unlimited 2 | `010072900AFF0000` | `FE757810B45C3444` (v14, 1.7.2, ✝️) | 🔴 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Gear.Club%20Unlimited%202) |
 | GOD WARS The Complete Legend | `0100F3D00B032000` | `3A0835D09F6D1544` (v1, 1.1, ❌) | 🔵 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/God%20Wars) |
 | Hokko Life | `010022A016250000` | `D9D13603133F3D89` (v5, 1.0.5, ◯) | 🟢 |  |
 | L.A. Noire | `0100830004FB6000` | `40F973CE3B5EC8D7` (v2, 1.2, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/0100830004FB6000/40F973CE3B5EC8D7.yaml)) | 🟡 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/L.A.%20Noire) |
