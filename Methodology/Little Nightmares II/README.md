@@ -1,4 +1,4 @@
-# Triangle Strategy
+# Little Nightmares II
 
 > Game info
 
