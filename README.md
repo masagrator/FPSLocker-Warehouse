@@ -63,7 +63,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Outlast 2 | `0100DE70085E8000` | `F18ACDA7A71CB287` (v0, 1.0.0, ❌) | 🔵 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Outlast%202) |
 | Overcooked! Special Edition | `01009B900401E000` | `41D554623A3F4341` (v4, 1.1.1, ◯) | 🟢 |  |
 | Peppa Pig: World Adventures | `0100FF1018E00000` | `696DE87363CDAED0` (v1, 1.0.1, ◯) | 🟢 |  |
-| Persona 5 Scramble | `01001C400E9D8000` <br> `01009FE010876000` | `737E56D43D2C0B38` (v3, 1.0.3, ❌) <br> `407978D722447B25` (v1, 1.0.1, ❌) | 🔴 |  |
+| Persona 5 Scramble | `01001C400E9D8000` <br> `01009FE010876000` | `737E56D43D2C0B38` (v3, 1.0.3, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/01001C400E9D8000/737E56D43D2C0B38.yaml)) <br> `407978D722447B25` (v1, 1.0.1, ❌) | 🔴 |  |
 | Persona 5 Strikers | `0100801011C3E000` | `C4DF04F647BDC727` (v0, 1.0.0, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/0100801011C3E000/C4DF04F647BDC727.yaml)) | 🔴 |  |
 | Remnant: From the Ashes | `010010F01418E000` | `49CF6B0B0A62F9E2` (v1, 1.0.1, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/010010F01418E000/49CF6B0B0A62F9E2.yaml)) | 🔵 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/Remnant%20From%20the%20Ashes) |
 | Session: Skate Sim | `010023001969A000` | `BF4126341134BFC7` (v3, 1.1.2, ❌) | 🔵 |  |
