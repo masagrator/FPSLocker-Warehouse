@@ -1,7 +1,7 @@
 # Triangle Strategy 1.0.3
 # BID: F7C20294EFF7E6FA
 
-unsafeCheck: false
+unsafeCheck: true
 
 15FPS:
   # r.DynamicRes.FrameTimeBudget ((1000/FPS) * 0.945)
