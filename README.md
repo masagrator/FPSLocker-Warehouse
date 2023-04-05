@@ -77,6 +77,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Sherlock Holmes and The<br>Hound of The Baskervilles | `010003D018708000` | `4A06EBBB5A2E4FE4` (v1, 1.0.1, ✝️) | 🟣 |  |
 | SnowRunner | `0100FBD013AB6000` | `84E92A9A50DF4644` (v16, 1.0.16, ❌) | 🔵 | [LINK](Methodology/SnowRunner) |
 | SONIC FORCES | `0100111004460000` <br> `01001270012B6000` | `6D9EA94F8AAC00A8` (v1, 1.1.0, ❌) | 🔴 | [LINK](Methodology/SONIC%20FORCES/README.md) |
+| The Smurfs Mission Vileaf | `010040A01407E000` | `BBBBB9891F01415E` (v4, 1.0.19.1, ◯) | 🟢 |  |
 | The Witcher 3 | `010039400E8D6000` <br> `01003D100E9C6000` <br> `0100BFE00E9CA000` <br> `010076F00E9C8000` <br> `010070A00E9CE000` <br> `010085500E9D0000` <br> `010019C00E9CC000` <br> `01000BB00E9D2000` <br> `0100A0800E9C4000` <br> | `4FFB62F1CD9E17F8` (v4, 3.7, [✅](SaltySD/plugins/FPSLocker/patches/010039400E8D6000/4FFB62F1CD9E17F8.yaml)) <br> `986CE0BB97D63CE6` (v0, 3.2, ✝️) | 🔴 | [LINK](Methodology/The%20Witcher%203) |
 | Tiny Troopers: Global Ops | `0100347013E4C000` | `A3EE277B20160F49` (v0, 1.0.0.0, ◯) | 🟢 |  |
 | Tokyo Mirage Sessions™<br>#FE Encore | `0100A9400C9C2000` | `33463E11899166BB` (v0, 1.0.0, ✝️) | 🟣 | [LINK](Methodology/Tokyo%20Mirage%20Sessions%20%23FE%20Encore) |
