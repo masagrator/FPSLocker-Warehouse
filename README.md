@@ -55,8 +55,10 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Gear.Club Unlimited 2 | `010072900AFF0000` | `FE757810B45C3444` (v14, 1.7.2, ✝️) | 🔴 | [LINK](Methodology/Gear.Club%20Unlimited%202) |
 | GOD WARS The Complete Legend | `0100F3D00B032000` | `3A0835D09F6D1544` (v1, 1.1, ❌) | 🔵 | [LINK](Methodology/God%20Wars) |
 | Hokko Life | `010022A016250000` | `D9D13603133F3D89` (v5, 1.0.5, ◯) | 🟢 |  |
+| I Am Setsuna. | `0100849000BDA000` | `0BBA2167AED893BE` (v1, 1.1.0, ◯) | 🟢 |  |
 | L.A. Noire | `0100830004FB6000` | `40F973CE3B5EC8D7` (v2, 1.2, [✅](SaltySD/plugins/FPSLocker/patches/0100830004FB6000/40F973CE3B5EC8D7.yaml)) | 🟡 | [LINK](Methodology/L.A.%20Noire) |
 | Little Nightmares II | `010097100EDD6000` | `7F4216B6E784A4B2` (v4, 1.4, [✅](SaltySD/plugins/FPSLocker/patches/010097100EDD6000/7F4216B6E784A4B2.yaml)) | 🔵 | [LINK](Methodology/Little%20Nightmares%20II/README.md) |
+| LOST SPHEAR | `010077B0038B2000` | `641A9243BA35C638` (v5, 1.3.1, ◯) | 🟢 |  |
 | Luigi's Mansion 3 | `0100DCA0064A6000` | `79E5950FFA85ACF6` (v5, 1.4.0, ✝️) | 🟣 | [LINK](Methodology/Luigi's%20Mansion%203) |
 | Monster Hunter Generations Ultimate | `0100770008DD8000` <br> `0100C3800049C000` | `FB08F1D20FD1204F` (v4, 1.4.0, ✝️) <br> `9D4C86E6EF74504A` (v5, 1.5.0, ✝️) | 🟣 | [LINK](Methodology/Monster%20Hunter%20Generations%20Ultimate)
 | Monster Hunter Rise | `0100B04011742000` | `11C9CE3F0676EEFD` (v29, 14.0.0, [✅](SaltySD/plugins/FPSLocker/patches/0100B04011742000/11C9CE3F0676EEFD.yaml)) | 🔴 | [LINK](Methodology/Monster%20Hunter%20Rise) |
