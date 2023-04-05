@@ -74,7 +74,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Session: Skate Sim | `010023001969A000` | `BF4126341134BFC7` (v3, 1.1.2, ❌) | 🔵 |  |
 | Sherlock Holmes: Crimes and Punishments | `0100651014DBA000` | `789C2939A757C0CD` (v0, 1.0.0, ❌) | 🔴 |  |
 | Sherlock Holmes: The Devil's Daughter | `010020F014DBE000` | `2B37ED2A971948F3` (v0, 1.0.0, ❌) | 🔴 |  |
-| Sherlock Holmes and The Hound<br>of The Baskervilles | `010003D018708000` | `4A06EBBB5A2E4FE4` (v1, 1.0.1, ✝️) | 🟣 |  |
+| Sherlock Holmes and The<br>Hound of The Baskervilles | `010003D018708000` | `4A06EBBB5A2E4FE4` (v1, 1.0.1, ✝️) | 🟣 |  |
 | SnowRunner | `0100FBD013AB6000` | `84E92A9A50DF4644` (v16, 1.0.16, ❌) | 🔵 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/SnowRunner) |
 | SONIC FORCES | `0100111004460000` | `6D9EA94F8AAC00A8` (v1, 1.1.0, ❌) | 🔴 |  |
 | The Witcher 3 | `010039400E8D6000` <br> `01003D100E9C6000` <br> `0100BFE00E9CA000` <br> `010076F00E9C8000` <br> `010070A00E9CE000` <br> `010085500E9D0000` <br> `010019C00E9CC000` <br> `01000BB00E9D2000` <br> `0100A0800E9C4000` <br> | `4FFB62F1CD9E17F8` (v4, 3.7, [✅](https://github.com/masagrator/FPSLocker-Warehouse/blob/main/SaltySD/plugins/FPSLocker/patches/010039400E8D6000/4FFB62F1CD9E17F8.yaml)) <br> `986CE0BB97D63CE6` (v0, 3.2, ✝️) | 🔴 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/main/Methodology/The%20Witcher%203) |
