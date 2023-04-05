@@ -41,6 +41,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | BioShock Remastered | `0100AD10102B2000` | `D89FFAA2062E373D` (v1, 1.0.2, [✅](SaltySD/plugins/FPSLocker/patches/0100AD10102B2000/D89FFAA2062E373D.yaml)) | 🔵 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/bioshock/Methodology/BioShock%20Remastered) |
 | BioShock 2 Remastered | `01002620102C6000` | `7D1714279435589C` (v1, 1.0.2, [✅](SaltySD/plugins/FPSLocker/patches/01002620102C6000/7D1714279435589C.yaml)) | 🔵 | [LINK](Methodology/BioShock%202%20Remastered) |
 | BioShock Infinite Remastered | `0100D560102C8000` | `48681F1D90704F6C` (v1, 1.0.2, [✅](SaltySD/plugins/FPSLocker/patches/48681F1D90704F6C.yaml)) | 🔵 | [LINK](Methodology/BioShock%20Infinite) |
+| Blair Witch | `01006CC01182C000` | `C31E59266A218855` (v3, 1.0.3, [✅](SaltySD/plugins/FPSLocker/patches/01006CC01182C000/C31E59266A218855.yaml)) | 🔴 | [LINK](Methodology/Blair%20Witch) |
 | Candleman | `010034400CB5E000` | `55AA8D007FAEC044` (v1, 1.0.1, ◯) | 🟢 |  |
 | Chef Life - A Restaurant Simulator | `0100F24014280000` | `8BC03B559A77C4CE` (v2, 1.2.0, ◯) | 🟢 |  |
 | Dark Souls Remastered | `01004AB00A260000` | `DF3766A2BB651A3E` (v3, 1.0.3, ✝️) | 🔴 | [LINK](Methodology/Dark%20Souls/README.md) |
