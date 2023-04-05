@@ -59,6 +59,8 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Luigi's Mansion 3 | `0100DCA0064A6000` | `79E5950FFA85ACF6` (v5, 1.4.0, ✝️) | 🟣 | [LINK](Methodology/Luigi's%20Mansion%203) |
 | Monster Hunter Generations Ultimate | `0100770008DD8000` <br> `0100C3800049C000` | `FB08F1D20FD1204F` (v4, 1.4.0, ✝️) <br> `9D4C86E6EF74504A` (v5, 1.5.0, ✝️) | 🟣 | [LINK](Methodology/Monster%20Hunter%20Generations%20Ultimate)
 | Monster Hunter Rise | `0100B04011742000` | `11C9CE3F0676EEFD` (v29, 14.0.0, [✅](SaltySD/plugins/FPSLocker/patches/0100B04011742000/11C9CE3F0676EEFD.yaml)) | 🔴 | [LINK](Methodology/Monster%20Hunter%20Rise) |
+| Monster Jam Steel Titans | `010095C00F354000` | `8CA6136CF49F1A4F` (v1, 1.0.1, ◯) | 🟢 |  |
+| Monster Jam Steel Titans 2 | `010051B0131F0000` | `E0E9D0429A2458E1` (v2, 1.0.2, [✅](SaltySD/plugins/FPSLocker/patches/010051B0131F0000/E0E9D0429A2458E1.yaml)) | 🔵 | [LINK](Methodology/Monster%20Jam%20Steel%20Titans%202) |
 | NARUTO SHIPPUDEN™:<br>Ultimate Ninja® STORM 4<br>ROAD TO BORUTO | `01006CF00CF60000` | `D3016FC0C0402DFB` (v3, 1.3.0, ✝️) | 🔴 | [LINK](Methodology/Naruto%20Shippuuden%20Ultimate%20Ninja%20Storm%204%20Road%20to%20Boruto) |
 | Ni no Kuni: Wrath of the White Witch | `0100E5600D446000` | `C32B29CB5FBA96D9` (v2, 1.0.2, ✝️) | 🟣 | [LINK](Methodology/Ni%20no%20Kuni%20Wrath%20of%20the%20White%20Witch) |
 | NieR:Automata The End of YoRHa Edition | `0100B8E016F76000` <br> `010056B015FE8000` | `992787E2B5425994` (v1, 1.0.2, ◯) <br> `E43525F22282A477` (v1, 1.0.2, ◯) | 🟢 |  |

@@ -1,19 +1,19 @@
-# Triangle Strategy 1.0.3
-# BID: F7C20294EFF7E6FA
+# Monster Jam Steel Titans 2 1.0.2
+# BID: E0E9D0429A2458E1
 
 unsafeCheck: true
 
 15FPS:
-  # r.DynamicRes.FrameTimeBudget ((1000/FPS) * 0.945)
+  # r.DynamicRes.FrameTimeBudget (1000/FPS) rounded to 1 decimal
   -
     type: write
-    address: [MAIN, 0x745D838, 0]
+    address: [MAIN, 0x6DD50F8, 0]
     value_type: float
-    value: [63, 63]
+    value: [66.6, 66.6]
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x748B408, 0]
+    address: [MAIN, 0x6DF7F90, 0]
     value_type: float
     value: [15, 15]
   -
@@ -23,13 +23,13 @@ unsafeCheck: true
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
-    address: [MAIN, 0x745D838, 0]
+    address: [MAIN, 0x6DD50F8, 0]
     value_type: float
-    value: [47.25, 47.25]
+    value: [50, 50]
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x748B408, 0]
+    address: [MAIN, 0x6DF7F90, 0]
     value_type: float
     value: [20, 20]
   -
@@ -39,13 +39,13 @@ unsafeCheck: true
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
-    address: [MAIN, 0x745D838, 0]
+    address: [MAIN, 0x6DD50F8, 0]
     value_type: float
-    value: [37.8, 37.8]
+    value: [40, 40]
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x748B408, 0]
+    address: [MAIN, 0x6DF7F90, 0]
     value_type: float
     value: [25, 25]
   -
@@ -55,26 +55,26 @@ unsafeCheck: true
   # r.DynamicRes.FrameTimeBudget (default value)
   -
     type: write
-    address: [MAIN, 0x745D838, 0]
+    address: [MAIN, 0x6DD50F8, 0]
     value_type: float
-    value: [33.33, 33.33]
+    value: [33.3, 33.3]
   # t.MaxFPS (default value)
   -
     type: write
-    address: [MAIN, 0x748B408, 0]
+    address: [MAIN, 0x6DF7F90, 0]
     value_type: float
-    value: [0, 0]
+    value: [30, 30]
 35FPS:
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
-    address: [MAIN, 0x745D838, 0]
+    address: [MAIN, 0x6DD50F8, 0]
     value_type: float
-    value: [27, 27]
+    value: [28.5, 28.5]
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x748B408, 0]
+    address: [MAIN, 0x6DF7F90, 0]
     value_type: float
     value: [35, 35]
   -
@@ -84,13 +84,13 @@ unsafeCheck: true
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
-    address: [MAIN, 0x745D838, 0]
+    address: [MAIN, 0x6DD50F8, 0]
     value_type: float
-    value: [23.625, 23.625]
+    value: [25, 25]
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x748B408, 0]
+    address: [MAIN, 0x6DF7F90, 0]
     value_type: float
     value: [40, 40]
   -
@@ -100,13 +100,13 @@ unsafeCheck: true
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
-    address: [MAIN, 0x745D838, 0]
+    address: [MAIN, 0x6DD50F8, 0]
     value_type: float
-    value: [21, 21]
+    value: [22.2, 22.2]
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x748B408, 0]
+    address: [MAIN, 0x6DF7F90, 0]
     value_type: float
     value: [45, 45]
   -
@@ -116,13 +116,13 @@ unsafeCheck: true
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
-    address: [MAIN, 0x745D838, 0]
+    address: [MAIN, 0x6DD50F8, 0]
     value_type: float
-    value: [18.9, 18.9]
+    value: [20, 20]
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x748B408, 0]
+    address: [MAIN, 0x6DF7F90, 0]
     value_type: float
     value: [50, 50]
   -
@@ -132,13 +132,13 @@ unsafeCheck: true
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
-    address: [MAIN, 0x745D838, 0]
+    address: [MAIN, 0x6DD50F8, 0]
     value_type: float
-    value: [17.18, 17.18]
+    value: [18.1, 18.1]
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x748B408, 0]
+    address: [MAIN, 0x6DF7F90, 0]
     value_type: float
     value: [55, 55]
   -
@@ -148,12 +148,12 @@ unsafeCheck: true
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
-    address: [MAIN, 0x745D838, 0]
+    address: [MAIN, 0x6DD50F8, 0]
     value_type: float
-    value: [16.66, 16.66]
+    value: [16.6, 16.6]
   # t.MaxFPS (default value)
   -
     type: write
-    address: [MAIN, 0x748B408, 0]
+    address: [MAIN, 0x6DF7F90, 0]
     value_type: float
     value: [0, 0]
