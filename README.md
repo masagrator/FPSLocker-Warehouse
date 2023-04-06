@@ -96,7 +96,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | TT Isle of Man | `010099900CAB2000` | `F2F739A2F1CAFF72` (v1, 1.1.0, ❌) | 🔵 |  |
 | TT Isle of Man 2 | `010000400F582000` | `02F2E5C8CBF5A92F` (v1, 1.0.1, ❌) | 🔵 |  |
 | What Remains of Edith Finch | `010038900DFE0000` | `E9578A470B175851` (v0, 1.0.0, [✅](SaltySD/plugins/FPSLocker/patches/010038900DFE0000/E9578A470B175851.yaml)) | 🔴 | [LINK](Methodology/What%20Remains%20of%20Edith%20Finch) |
-| Wolfenstein II®: The New Colossus™ | `01009040091E0000` | `F2FE5EF877839F4F` (v2, 1.2, [✅](SaltySD/plugins/FPSLocker/patches/01009040091E0000/F2FE5EF877839F4F.yaml)) | 🔵 |  |
+| Wolfenstein II®: The New Colossus™ | `01009040091E0000` | `F2FE5EF877839F4F` (v2, 1.2, [✅](SaltySD/plugins/FPSLocker/patches/01009040091E0000/F2FE5EF877839F4F.yaml)) | 🟡 | [LINK](Methodology/Wolfenstein%202%20The%20New%20Colossus/README.md) |
 | Xenoblade Chronicles 3 | `010074F013262000` | `B76CD24AF02ACEA2` (v6, 1.3.0, [✅](SaltySD/plugins/FPSLocker/patches/010074F013262000/B76CD24AF02ACEA2.yaml)) | 🔴 | [LINK](Methodology/Xenoblade%20Chronicles%203)  |
 | 英雄伝説 閃の軌跡I：改 -Thors Military Academy 1204- | `0100AD0014AB4000` | `AC8C8EC9DB1A8EF4` (v3, 1.0.3, [✅](SaltySD/plugins/FPSLocker/patches/0100AD0014AB4000/AC8C8EC9DB1A8EF4.yaml)) | 🔴 | [LINK](Methodology/The%20Legend%20of%20Heroes%20Trails%20of%20Cold%20Steel) |
 | 英雄伝説 閃の軌跡II：改 -The Erebonian Civil War- | `0100906014C3C000` | `EAB1DC1D53E319F9` (v5, 1.0.5, [✅](SaltySD/plugins/FPSLocker/patches/0100906014C3C000/EAB1DC1D53E319F9.yaml)) | 🔴 | [LINK](Methodology/The%20Legend%20of%20Heroes%20Trails%20of%20Cold%20Steel%20II) |
