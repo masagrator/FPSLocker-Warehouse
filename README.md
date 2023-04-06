@@ -43,6 +43,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | BioShock 2 Remastered | `01002620102C6000` | `7D1714279435589C` (v1, 1.0.2, [✅](SaltySD/plugins/FPSLocker/patches/01002620102C6000/7D1714279435589C.yaml)) | 🔵 | [LINK](Methodology/BioShock%202%20Remastered) |
 | BioShock Infinite Remastered | `0100D560102C8000` | `48681F1D90704F6C` (v1, 1.0.2, [✅](SaltySD/plugins/FPSLocker/patches/48681F1D90704F6C.yaml)) | 🔵 | [LINK](Methodology/BioShock%20Infinite) |
 | Blair Witch | `01006CC01182C000` | `C31E59266A218855` (v3, 1.0.3, [✅](SaltySD/plugins/FPSLocker/patches/01006CC01182C000/C31E59266A218855.yaml)) | 🔴 | [LINK](Methodology/Blair%20Witch) |
+| Bulletstorm: Duke of Switch Edition | `01003DD00D658000` | `32FC35DF1C50E1F1` (v0, 1.0.0, ◯) | 🟢 |  |
 | Call of Juarez: Gunslinger | `0100B4700BFC6000` | `EBF7DE558D554C7E` (v5, 1.0.5, ◯) | 🟢 |  |
 | Candleman | `010034400CB5E000` | `55AA8D007FAEC044` (v1, 1.0.1, ◯) | 🟢 |  |
 | Chef Life - A Restaurant Simulator | `0100F24014280000` | `8BC03B559A77C4CE` (v2, 1.2.0, ◯) | 🟢 |  |
