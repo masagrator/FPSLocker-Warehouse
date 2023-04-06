@@ -24,7 +24,7 @@ As the list is filled by community, it may not be up to date.
 PATCH AVAILABILITY<br>
 ✝️ - patch is not possible to create<br>
 ❌ - patch not available<br>
-✅ - patch available (click on it for file). If it has ➕ next to it, it means additional mod installation is required. Read DETAILS.<br>
+✅ - patch available (click on it for file). If it has ➕ next to it, it means additional mod installation is advised. Read DETAILS.<br>
 ◯ - this version doesn't need a patch
 
 ---
