@@ -50,7 +50,7 @@ unsafeCheck: true
   # com_adaptiveTickMaxHz (default)
   -
     type: write
-    address: [MAIN, 0x62D0570]
+    address: [MAIN, 0x85F74E0]
     value_type: int32
     value: 30
 25FPS:
@@ -75,7 +75,7 @@ unsafeCheck: true
   # com_adaptiveTickMaxHz (default)
   -
     type: write
-    address: [MAIN, 0x62D0570]
+    address: [MAIN, 0x85F74E0]
     value_type: int32
     value: 30
 30FPS:
@@ -100,7 +100,7 @@ unsafeCheck: true
   # com_adaptiveTickMaxHz (default)
   -
     type: write
-    address: [MAIN, 0x62D0570]
+    address: [MAIN, 0x85F74E0]
     value_type: int32
     value: 30
 35FPS:
@@ -125,7 +125,7 @@ unsafeCheck: true
   # com_adaptiveTickMaxHz
   -
     type: write
-    address: [MAIN, 0x62D0570]
+    address: [MAIN, 0x85F74E0]
     value_type: int32
     value: 60
 40FPS:
@@ -150,7 +150,7 @@ unsafeCheck: true
   # com_adaptiveTickMaxHz
   -
     type: write
-    address: [MAIN, 0x62D0570]
+    address: [MAIN, 0x85F74E0]
     value_type: int32
     value: 60
 45FPS:
@@ -175,7 +175,7 @@ unsafeCheck: true
   # com_adaptiveTickMaxHz
   -
     type: write
-    address: [MAIN, 0x62D0570]
+    address: [MAIN, 0x85F74E0]
     value_type: int32
     value: 60
 50FPS:
@@ -200,7 +200,7 @@ unsafeCheck: true
   # com_adaptiveTickMaxHz
   -
     type: write
-    address: [MAIN, 0x62D0570]
+    address: [MAIN, 0x85F74E0]
     value_type: int32
     value: 60
 55FPS:
@@ -225,7 +225,7 @@ unsafeCheck: true
   # com_adaptiveTickMaxHz
   -
     type: write
-    address: [MAIN, 0x62D0570]
+    address: [MAIN, 0x85F74E0]
     value_type: int32
     value: 60
 60FPS:
@@ -250,6 +250,6 @@ unsafeCheck: true
   # com_adaptiveTickMaxHz
   -
     type: write
-    address: [MAIN, 0x62D0570]
+    address: [MAIN, 0x85F74E0]
     value_type: int32
     value: 60
