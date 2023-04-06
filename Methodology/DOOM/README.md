@@ -12,7 +12,7 @@ Explanation based on:
 > Details
 
 Game can be set above 30 FPS with plugin alone, but because of dynamic resolution target set to 32.2-33 ms we need to tweak it. Also we block adaptive GPU frequency for anything above 30 FPS.
-There is also one setting `com_adaptiveTickMaxHz` that must be tweaked otherwise setting anything above 30 FPS results in wrong game speed + `com_adaptiveTickMinHz` if we set anything below 30 FPS.
+There are also `com_adaptiveTickMaxHz` that must be tweaked otherwise setting anything above 30 FPS results in wrong game speed + `com_adaptiveTickMinHz` if we set anything below 30 FPS.
 
 # How to find offsets
 
