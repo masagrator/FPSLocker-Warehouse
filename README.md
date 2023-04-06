@@ -77,6 +77,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Persona 5 Scramble | `01001C400E9D8000` <br> `01009FE010876000` | `737E56D43D2C0B38` (v3, 1.0.3, [✅](SaltySD/plugins/FPSLocker/patches/01001C400E9D8000/737E56D43D2C0B38.yaml)) <br> `407978D722447B25` (v1, 1.0.1, [✅](SaltySD/plugins/FPSLocker/patches/01009FE010876000/407978D722447B25.yaml)) | 🔴 |  |
 | Persona 5 Strikers | `0100801011C3E000` | `C4DF04F647BDC727` (v0, 1.0.0, [✅](SaltySD/plugins/FPSLocker/patches/0100801011C3E000/C4DF04F647BDC727.yaml)) | 🔴 |  |
 | Redout | `0100DA20021D000` | `1C81D0BC78A01EE2` (v2, 1.0.2, ◯) | 🟢 |  |
+| Redout 2 | `0100664016D5C000` | `D45B9332B5742A70` (v6, 1.0.6, ❌) | 🔴 |  |
 | Remnant: From the Ashes | `010010F01418E000` | `49CF6B0B0A62F9E2` (v1, 1.0.1, [✅](SaltySD/plugins/FPSLocker/patches/010010F01418E000/49CF6B0B0A62F9E2.yaml)) | 🔵 | [LINK](Methodology/Remnant%20From%20the%20Ashes) |
 | Session: Skate Sim | `010023001969A000` | `BF4126341134BFC7` (v3, 1.1.2, ❌) | 🔵 |  |
 | Sherlock Holmes: Crimes and Punishments | `0100651014DBA000` | `789C2939A757C0CD` (v0, 1.0.0, ❌) | 🔴 |  |
