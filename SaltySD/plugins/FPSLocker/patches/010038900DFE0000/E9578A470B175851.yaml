@@ -1,7 +1,7 @@
 # What Remains of Edith Finch 1.0.0
 # BID: E9578A470B175851
 
-unsafeCheck: false
+unsafeCheck: true
 
 15FPS:
   # r.DynamicRes.FrameTimeBudget ((1000/FPS) * 0.945)
