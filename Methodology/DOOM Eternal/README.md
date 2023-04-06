@@ -48,7 +48,7 @@ For example for our last string piece of function looks like this:
 
 So our pointer is stored at MAIN+0x6A674F8.
 
-Those values are stored as int32 and as thus values are stored at offset 0x8
+Those values are stored as int32 at offset 0x8
 ```
 rs_force460
 com_adaptiveTickMaxHz
@@ -58,7 +58,7 @@ com_adaptiveTickMaxHz
 - `com_adaptiveTickMaxHz` - we want to set it to 60 for anything above 30 FPS to solve issues with game speed
 
 
-Those values are stored as float and as thus values are stored at offset 0xC
+Those values are stored as float at offset 0xC
 ```
 rs_raiseThreshold
 rs_dropThreshold
