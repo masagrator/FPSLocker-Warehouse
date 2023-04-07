@@ -11,4 +11,4 @@ Explanation based on:
 
 > Details
 
-Plugin alone can set FPS above 30, but because it's using double buffer, you cannot get anything stable between 30-60 FPS, and 20-30 FPS.
+Plugin alone can set FPS above 30, but because game is using double buffer, you cannot get anything stable between 30-60 FPS, and 20-30 FPS.
