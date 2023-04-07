@@ -156,4 +156,4 @@ unsafeCheck: true
     type: write
     address: [MAIN, 0x7D9D178, 0]
     value_type: float
-    value: [0, 0]
+    value: [60, 60]
