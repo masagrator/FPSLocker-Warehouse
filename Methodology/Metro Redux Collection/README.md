@@ -5,6 +5,7 @@
 TitleIDs: 
 - Metro 2033: `0100D4900E82C000`
 - Metro: Last Light: `0100F0400E850000`
+
 Explanation based on:
 - Internal version: `1.0.0`, 
 - Nintendo version ID: `v0`
