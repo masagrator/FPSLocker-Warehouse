@@ -13,7 +13,7 @@ Explanation based on:
 
 Game is using internal FPS Lock. It must be patched.<br>
 **WARNING**: Game is using double buffer. Since it cannot be safely edited whenever we want with patch, you must install additional mod to remove it.<br>
-You can find it [HERE](atmosphere/contents/01009EE0111CC000/romfs/Anc/Content/Paks/Anc-Switch_1_P.pak)<br>
+You can find it [HERE](../../atmosphere/contents/01009EE0111CC000/romfs/Anc/Content/Paks/Anc-Switch_1_P.pak)<br>
 Put it to `atmosphere/contents/01009EE0111CC000/romfs/Anc/Content/Paks/` (if some folder doesn't exist, create it yourself).
 
 # How to find offsets
