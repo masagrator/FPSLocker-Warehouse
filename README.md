@@ -25,7 +25,7 @@ PATCH AVAILABILITY<br>
 ✝️ - patch is not possible to create<br>
 ❌ - patch not available<br>
 ✅ - patch available (click on it for file).<br>
-➕ - Mod installation is required/advised. Read DETAILS.<br>
+➕ - Mod installation is required (or advised if it's next to ✅/◯). Read DETAILS.<br>
 ◯ - this version doesn't need a patch
 
 ---
