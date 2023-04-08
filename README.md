@@ -78,7 +78,8 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Monster Jam Steel Titans 2 | `010051B0131F0000` | `E0E9D0429A2458E1` ([✅](SaltySD/plugins/FPSLocker/patches/010051B0131F0000/E0E9D0429A2458E1.yaml), v2, 1.0.2) | 🔵 | [LINK](Methodology/Monster%20Jam%20Steel%20Titans%202) |
 | NARUTO SHIPPUDEN:<br>Ultimate Ninja STORM 4<br>ROAD TO BORUTO | `01006CF00CF60000` | `D3016FC0C0402DFB` (✝️, v3, 1.3.0) | 🔴 | [LINK](Methodology/Naruto%20Shippuuden%20Ultimate%20Ninja%20Storm%204%20Road%20to%20Boruto) |
 | Ni no Kuni: Wrath of the White Witch | `0100E5600D446000` | `C32B29CB5FBA96D9` (✝️, v2, 1.0.2) | 🟣 | [LINK](Methodology/Ni%20no%20Kuni%20Wrath%20of%20the%20White%20Witch) |
-| NieR:Automata The End of YoRHa Edition | `0100B8E016F76000` <br> `010056B015FE8000` | `992787E2B5425994` (◯, v1, 1.0.2) <br> `E43525F22282A477` (◯, v1, 1.0.2) | 🟢 |  |
+| NieR:Automata | `0100B8E016F76000` <br> `010056B015FE8000` | `992787E2B5425994` (◯, v1, 1.0.2) <br> `E43525F22282A477` (◯, v1, 1.0.2) | 🟢 |  |
+| Oninaki | `01001AF00CE54000` | `C949E2576F532C43` (◯, v2, 1.0.2) | 🟢 |  |
 | Othercide | `0100E5900F49A000` | `A8BA2A8F93AAE647` (✝️, v3, 1.3.0.5) | 🔵 | [LINK](Methodology/Othercide/README.md) |
 | Outlast | `01008D4007A1E000` | `C3D46BB3C7059DB1` (❌, v1, 1.0.1) | 🔵 | [LINK](Methodology/Outlast/) |
 | Outlast 2 | `0100DE70085E8000` | `F18ACDA7A71CB287` (❌, v0, 1.0.0) | 🔵 | [LINK](Methodology/Outlast%202) |
