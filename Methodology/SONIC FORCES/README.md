@@ -16,4 +16,4 @@ Cheats files enabling 60 FPS for titleids:
 - 0100111004460000 - [LINK](https://github.com/ChanseyIsTheBest/NX-60FPS-RES-GFX-Cheats/blob/main/titles/0100111004460000/cheats/6D9EA94F8AAC00A8.txt)
 - 01001270012B6000 - [LINK](https://github.com/ChanseyIsTheBest/NX-60FPS-RES-GFX-Cheats/blob/main/titles/01001270012B6000/cheats/6D9EA94F8AAC00A8.txt)
 
-It was not tested if they affect the same levels as exefs mod made by theboy181 which those cheats were based on.
+They make level 8 harder to beat and level 20 impossible to beat. For those levels set game to 30 FPS. 
