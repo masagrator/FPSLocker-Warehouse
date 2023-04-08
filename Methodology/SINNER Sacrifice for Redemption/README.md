@@ -11,5 +11,5 @@ Explanation based on:
 
 > Details
 
-Game is using setting that is locking game to 30 FPS and ties game speed to framerate. I couldn't locate where it's stored in RAM, so to disable this you must install mod from [HERE](atmosphere/contents/0100B16009C10000/romfs/blackstar_switch/Content/Paks/blackstar_switch-Switch_p.pak)<br>
+Game is using setting that is locking game to 30 FPS and ties game speed to framerate. I couldn't locate where it's stored in RAM, so to disable this you must install mod from [HERE](../../atmosphere/contents/0100B16009C10000/romfs/blackstar_switch/Content/Paks/blackstar_switch-Switch_p.pak)<br>
 Copy it to `atmosphere\contents\0100B16009C10000\romfs\blackstar_switch\Content\Paks` (if some folder doesn't exist, create it yourself).
