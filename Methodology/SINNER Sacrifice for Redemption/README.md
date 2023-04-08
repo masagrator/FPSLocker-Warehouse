@@ -1,4 +1,4 @@
-# Redout 2
+# SINNER: Sacrifice for Redemption
 
 > Game info
 
