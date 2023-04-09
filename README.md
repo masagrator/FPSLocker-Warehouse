@@ -93,7 +93,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Outlast | `01008D4007A1E000` | `C3D46BB3C7059DB1` (❌, v1, 1.0.1) | 🔵 | [LINK](Methodology/Outlast/) |
 | Outlast 2 | `0100DE70085E8000` | `F18ACDA7A71CB287` (❌, v0, 1.0.0) | 🔵 | [LINK](Methodology/Outlast%202) |
 | Overcooked! Special Edition | `01009B900401E000` | `41D554623A3F4341` (◯, v4, 1.1.1) | 🟢 |  |
-| Paper Mario: The Origami King | `0100A3900C3E2000` | `E74395F066FD8CCB` (✝️, v1, 1.0.1) | 🔴 |  |
+| Paper Mario: The Origami King | `0100A3900C3E2000` | `E74395F066FD8CCB` (✝️, v1, 1.0.1) | 🔴 | [LINK](Methodology/Paper%20Mario%20The%20Origami%20King) |
 | Paradise Lost | `010077A012A5C000` | `F5ECE696120B65B3` ([✅](SaltySD/plugins/FPSLocker/patches/010077A012A5C000/F5ECE696120B65B3.yaml), v0, 1.0.0) | 🔵 | [LINK](Methodology/Paradise%20Lost) |
 | Peppa Pig: World Adventures | `0100FF1018E00000` | `696DE87363CDAED0` (◯, v1, 1.0.1) | 🟢 |  |
 | Persona 5 Scramble | `01001C400E9D8000` <br> `01009FE010876000` | `737E56D43D2C0B38` ([✅](SaltySD/plugins/FPSLocker/patches/01001C400E9D8000/737E56D43D2C0B38.yaml), v3, 1.0.3) <br> `407978D722447B25` ([✅](SaltySD/plugins/FPSLocker/patches/01009FE010876000/407978D722447B25.yaml), v1, 1.0.1) | 🔴 |  |
