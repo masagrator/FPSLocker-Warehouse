@@ -112,7 +112,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Sherlock Holmes and The<br>Hound of The Baskervilles | `010003D018708000` | `4A06EBBB5A2E4FE4` (✝️, v1, 1.0.1) | 🟣 |  |
 | SINNER: Sacrifice for Redemption | `0100B16009C10000` | `490D681909609015` ([➕](atmosphere/contents/0100B16009C10000/romfs/blackstar_switch/Content/Paks/blackstar_switch-Switch_p.pak), v3, 1.1.0319) | 🔴 | [LINK](Methodology/SINNER%20Sacrifice%20for%20Redemption) |
 | Snake Pass | `0100C0F0020E8000` | `D0798521F563E6A7` ([✅](SaltySD/plugins/FPSLocker/patches/0100C0F0020E8000/D0798521F563E6A7.yaml), v5, 1.4) | 🔴 | [LINK](Methodology/Snake%20Pass) |
-| Sniper Elite 3 | `010075A00BA14000` | `6888027D61CF603D` (❌, v1, 1.0.1) | 🟢 |  | 
+| Sniper Elite 3 | `010075A00BA14000` | `6888027D61CF603D` (◯, v1, 1.0.1) | 🟢 |  | 
 | Sniper Elite 4 | `010007B010FCC000` | `4EEA2970DF38ECE1` (❌, v3, 1.0.3) | 🔵 |  | 
 | Sniper Elite V2 | `0100BB000A3AA000` | `B61F280560A937D2` (❌, v5, 1.0.5) | 🔵 | [LINK](Methodology/Sniper%20Elite%20V2) | 
 | SnowRunner | `0100FBD013AB6000` | `84E92A9A50DF4644` (❌, v16, 1.0.16) | 🔵 | [LINK](Methodology/SnowRunner) |
@@ -139,6 +139,6 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Xenoblade Chronicles 3 | `010074F013262000` | `B76CD24AF02ACEA2` ([✅](SaltySD/plugins/FPSLocker/patches/010074F013262000/B76CD24AF02ACEA2.yaml), v6, 1.3.0) | 🔴 | [LINK](Methodology/Xenoblade%20Chronicles%203)  |
 | Yooka-Laylee | `0100F110029C8000` | `6352FCBB7C75E478` (◯, v2, 1.2.0) | 🟢 |  |
 | Zombie Army Trilogy | `0100C7300EEE4000` | `54211726D36A8D9C` (◯, v2, 1.0.2) | 🟢 |  |
-| Zombie Army 4: Dead War | `01000BF0152FA000` | `12024D08CCFD25EB` (❌, v2, 1.0.2) | 🔵 |  | 
+| Zombie Army 4: Dead War | `01000BF0152FA000` | `12024D08CCFD25EB` (◯, v2, 1.0.2) | 🟢 |  | 
 | 英雄伝説 閃の軌跡I：改 -Thors Military Academy 1204- | `0100AD0014AB4000` | `AC8C8EC9DB1A8EF4` ([✅](SaltySD/plugins/FPSLocker/patches/0100AD0014AB4000/AC8C8EC9DB1A8EF4.yaml), v3, 1.0.3) | 🔴 | [LINK](Methodology/The%20Legend%20of%20Heroes%20Trails%20of%20Cold%20Steel) |
 | 英雄伝説 閃の軌跡II：改 -The Erebonian Civil War- | `0100906014C3C000` | `EAB1DC1D53E319F9` ([✅](SaltySD/plugins/FPSLocker/patches/0100906014C3C000/EAB1DC1D53E319F9.yaml), v5, 1.0.5) | 🔴 | [LINK](Methodology/The%20Legend%20of%20Heroes%20Trails%20of%20Cold%20Steel%20II) |
