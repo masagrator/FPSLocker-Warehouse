@@ -4,7 +4,7 @@
 unsafeCheck: true
 
 15FPS:
-  # Dynamic Resoltion frame time target = (32.3/(1000/30)) * (1000/30)
+  # Dynamic Resoltion frame time target = (32.3/(1000/30)) * (1000/FPS)
   -
     type: write
     address: [MAIN, 0x2D7AA4C]
