@@ -107,8 +107,8 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | SWORD ART ONLINE: FATAL BULLET | `01005DF00DC26000` | `029C2837B0EEE8A9` ([✅](SaltySD/plugins/FPSLocker/patches/01005DF00DC26000/029C2837B0EEE8A9.yaml), v2, 1.2.0) | 🔴 | [LINK](Methodology/Sword%20Art%20Online%20Fatal%20Bullet) |
 | SWORD ART ONLINE: Hollow Realization | `01001B600D1D6000` | `0C356A98BCF20184` (❌, v2, 1.0.2) | 🔵 | [LINK](Methodology/Sword%20Art%20Online%20Hollow%20Realization) |
 | SWORD ART ONLINE Alicization Lycoris | `010034501225C000` | `B6AF2C0FA614CC87` (❌, v8, 3.0.1) | 🔵 | [LINK](Methodology/Sword%20Art%20Online%20Alicization%20Lycoris/README.md) |
-| Team Sonic Racing | `01008400B36E000` | `7D942261130F42A7` (◯, v3, 1.0.3) | 🟢 |  |
-| The Caligula Effect: Overdose | `010069100B7F000` | `A953B35A45BEA33D` (❌, v1, 1.01) | 🔵 |  |
+| Team Sonic Racing | `01008400B36E0000` | `7D942261130F42A7` (◯, v3, 1.0.3) | 🟢 |  |
+| The Caligula Effect: Overdose | `010069100B7F0000` | `A953B35A45BEA33D` (❌, v1, 1.01) | 🔵 |  |
 | The Caligula Effect 2 | `0100CC3014886000` | `094BD2CDF388A1DB` (❌, v0, 1.0.0) | 🔵 |  |
 | The Smurfs Mission Vileaf | `010040A01407E000` | `BBBBB9891F01415E` (◯, v4, 1.0.19.1) | 🟢 |  |
 | The Witcher 3 | `010039400E8D6000` <br> `01003D100E9C6000` <br> `0100BFE00E9CA000` <br> `010076F00E9C8000` <br> `010070A00E9CE000` <br> `010085500E9D0000` <br> `010019C00E9CC000` <br> `01000BB00E9D2000` <br> `0100A0800E9C4000` <br> | `4FFB62F1CD9E17F8` ([✅](SaltySD/plugins/FPSLocker/patches/010039400E8D6000/4FFB62F1CD9E17F8.yaml), v4, 3.7) <br> `986CE0BB97D63CE6` (✝️, v0, 3.2) | 🔴 | [LINK](Methodology/The%20Witcher%203) |
