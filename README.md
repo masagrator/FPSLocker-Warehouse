@@ -67,7 +67,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Fire Emblem: Three Houses | `010055D009F78000` | `89048449BA238C8C` (❌, v5, 1.2.0) | 🔵 |  |
 | Gear.Club Unlimited 2 | `010072900AFF0000` | `FE757810B45C3444` (✝️, v14, 1.7.2) | 🔴 | [LINK](Methodology/Gear.Club%20Unlimited%202) |
 | GOD WARS The Complete Legend | `0100F3D00B032000` | `3A0835D09F6D1544` (❌, v1, 1.1) | 🔵 | [LINK](Methodology/God%20Wars) |
-| GRID Autosport | `0100DC800A602000` | `4264F9050557D760` (✝️, v8, 1.8.3_61741) | 🟣 |  |
+| GRID Autosport | `0100DC800A602000` | `4264F9050557D760` (✝️, v8, 1.8.3_61741) | 🟣 | [LINK](Methodology/GRID%20Autosport) |
 | Hokko Life | `010022A016250000` | `D9D13603133F3D89` (◯, v5, 1.0.5) | 🟢 |  |
 | I Am Setsuna. | `0100849000BDA000` | `0BBA2167AED893BE` (◯, v1, 1.1.0) | 🟢 |  |
 | L.A. Noire | `0100830004FB6000` | `40F973CE3B5EC8D7` ([✅](SaltySD/plugins/FPSLocker/patches/0100830004FB6000/40F973CE3B5EC8D7.yaml), v2, 1.2) | 🟡 | [LINK](Methodology/L.A.%20Noire) |
