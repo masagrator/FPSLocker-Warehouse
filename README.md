@@ -100,7 +100,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Sherlock Holmes: The Devil's Daughter | `010020F014DBE000` | `2B37ED2A971948F3` (❌, v0, 1.0.0) | 🔴 |  |
 | Sherlock Holmes and The<br>Hound of The Baskervilles | `010003D018708000` | `4A06EBBB5A2E4FE4` (✝️, v1, 1.0.1) | 🟣 |  |
 | SINNER: Sacrifice for Redemption | `0100B16009C10000` | `490D681909609015` ([➕](atmosphere/contents/0100B16009C10000/romfs/blackstar_switch/Content/Paks/blackstar_switch-Switch_p.pak), v3, 1.1.0319) | 🔴 | [LINK](Methodology/SINNER%20Sacrifice%20for%20Redemption) |
-| Snake Pass | `0100C0F0020E8000` | `D0798521F563E6A7` (❌, v5, 1.4) | 🔴 | [LINK](Methodology/Snake%20Pass) |
+| Snake Pass | `0100C0F0020E8000` | `D0798521F563E6A7` ([✅](SaltySD/plugins/FPSLocker/patches/0100C0F0020E8000/D0798521F563E6A7.yaml), v5, 1.4) | 🔴 | [LINK](Methodology/Snake%20Pass) |
 | SnowRunner | `0100FBD013AB6000` | `84E92A9A50DF4644` (❌, v16, 1.0.16) | 🔵 | [LINK](Methodology/SnowRunner) |
 | SONIC FORCES | `0100111004460000` <br> `01001270012B6000` | `6D9EA94F8AAC00A8` (❌, v1, 1.1.0) | 🔴 | [LINK](Methodology/SONIC%20FORCES/README.md) |
 | SWORD ART ONLINE: FATAL BULLET | `01005DF00DC26000` | `029C2837B0EEE8A9` ([✅](SaltySD/plugins/FPSLocker/patches/01005DF00DC26000/029C2837B0EEE8A9.yaml), v2, 1.2.0) | 🔴 | [LINK](Methodology/Sword%20Art%20Online%20Fatal%20Bullet) |
