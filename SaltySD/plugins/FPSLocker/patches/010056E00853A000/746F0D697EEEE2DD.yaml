@@ -7,7 +7,7 @@ unsafeCheck: true
   # MaxSmoothedFrameRate
   -
     type: write
-    address: [MAIN, 0x22306E8, 0x71C]
+    address: [MAIN, 0x2265248, 0x71C]
     value_type: float
     value: 15
   -
@@ -17,7 +17,7 @@ unsafeCheck: true
   # MaxSmoothedFrameRate
   -
     type: write
-    address: [MAIN, 0x22306E8, 0x71C]
+    address: [MAIN, 0x2265248, 0x71C]
     value_type: float
     value: 20
   -
@@ -27,7 +27,7 @@ unsafeCheck: true
   # MaxSmoothedFrameRate
   -
     type: write
-    address: [MAIN, 0x22306E8, 0x71C]
+    address: [MAIN, 0x2265248, 0x71C]
     value_type: float
     value: 25
   -
@@ -37,14 +37,14 @@ unsafeCheck: true
   # MaxSmoothedFrameRate (default is 32)
   -
     type: write
-    address: [MAIN, 0x22306E8, 0x71C]
+    address: [MAIN, 0x2265248, 0x71C]
     value_type: float
     value: 30
 35FPS:
   # MaxSmoothedFrameRate
   -
     type: write
-    address: [MAIN, 0x22306E8, 0x71C]
+    address: [MAIN, 0x2265248, 0x71C]
     value_type: float
     value: 35
   -
@@ -54,7 +54,7 @@ unsafeCheck: true
   # MaxSmoothedFrameRate
   -
     type: write
-    address: [MAIN, 0x22306E8, 0x71C]
+    address: [MAIN, 0x2265248, 0x71C]
     value_type: float
     value: 40
   -
@@ -64,7 +64,7 @@ unsafeCheck: true
   # MaxSmoothedFrameRate
   -
     type: write
-    address: [MAIN, 0x22306E8, 0x71C]
+    address: [MAIN, 0x2265248, 0x71C]
     value_type: float
     value: 45
   -
@@ -74,7 +74,7 @@ unsafeCheck: true
   # MaxSmoothedFrameRate
   -
     type: write
-    address: [MAIN, 0x22306E8, 0x71C]
+    address: [MAIN, 0x2265248, 0x71C]
     value_type: float
     value: 50
   -
@@ -84,7 +84,7 @@ unsafeCheck: true
   # MaxSmoothedFrameRate
   -
     type: write
-    address: [MAIN, 0x22306E8, 0x71C]
+    address: [MAIN, 0x2265248, 0x71C]
     value_type: float
     value: 55
   -
@@ -94,6 +94,6 @@ unsafeCheck: true
   # MaxSmoothedFrameRate
   -
     type: write
-    address: [MAIN, 0x22306E8, 0x71C]
+    address: [MAIN, 0x2265248, 0x71C]
     value_type: float
     value: 60
