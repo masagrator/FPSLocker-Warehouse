@@ -134,7 +134,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Triangle Strategy | `0100CC80140F8000` | `2AA7F33234696651` ([✅](SaltySD/plugins/FPSLocker/patches/0100CC80140F8000/2AA7F33234696651.yaml), v1, 1.0.2) <br> `F7C20294EFF7E6FA` ([✅](SaltySD/plugins/FPSLocker/patches/0100CC80140F8000/F7C20294EFF7E6FA.yaml), v2, 1.0.3) | 🔵 | [LINK](Methodology/Triangle%20Strategy) |
 | TT Isle of Man | `010099900CAB2000` | `F2F739A2F1CAFF72` (❌, v1, 1.1.0) | 🔵 |  |
 | TT Isle of Man 2 | `010000400F582000` | `02F2E5C8CBF5A92F` (❌, v1, 1.0.1) | 🔵 |  |
-| Vampyr | `01000BD00CE64000` | `E417100FFEEFD1DE` (❌, v2, 0.4) | 🔴 |  |
+| Vampyr | `01000BD00CE64000` | `E417100FFEEFD1DE` (❌, v2, 0.4) | 🔵 |  |
 | What Remains of Edith Finch | `010038900DFE0000` | `E9578A470B175851` ([✅](SaltySD/plugins/FPSLocker/patches/010038900DFE0000/E9578A470B175851.yaml), v0, 1.0.0) | 🔴 | [LINK](Methodology/What%20Remains%20of%20Edith%20Finch) |
 | Wolfenstein: Youngblood | `01003BD00CAAE000` | `8B40EBBA7244C94A` ([✅](SaltySD/plugins/FPSLocker/patches/01003BD00CAAE000/8B40EBBA7244C94A.yaml), v5, 1.5) | 🟡 | [LINK](Methodology/Wolfenstein%20Youngblood) |
 | Wolfenstein II: The New Colossus | `01009040091E0000` | `F2FE5EF877839F4F` ([✅](SaltySD/plugins/FPSLocker/patches/01009040091E0000/F2FE5EF877839F4F.yaml), v2, 1.2) | 🟡 | [LINK](Methodology/Wolfenstein%202%20The%20New%20Colossus/README.md) |
