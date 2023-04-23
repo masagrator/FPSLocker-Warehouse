@@ -73,6 +73,9 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Garfield Kart Furious Racing | `010061E00E8BE000` | `4A67AFB9EAC0DF44` (◯, v3, 1.0.3) | 🟢 |  |
 | Gear.Club Unlimited 2 | `010072900AFF0000` | `FE757810B45C3444` (✝️, v14, 1.7.2) | 🔴 | [LINK](Methodology/Gear.Club%20Unlimited%202) |
 | GOD WARS The Complete Legend | `0100F3D00B032000` | `3A0835D09F6D1544` (❌, v1, 1.1) | 🔵 | [LINK](Methodology/God%20Wars) |
+| Grand Theft Auto III | `0100C3C012718000` | `2CF52C8DA4468946` (❌, v7, 1.0.7) | 🔴 |  |
+| Grand Theft Auto: San Andreas | `010065A014024000` | `6FB56071CCB321B6` (❌, v7, 1.0.7) | 🔴 |  |
+| Grand Theft Auto: Vice City | `0100182014022000` | `56EEFA704373BDB3` (❌, v7, 1.0.7) | 🔴 |  |
 | GRID Autosport | `0100DC800A602000` | `4264F9050557D760` (✝️, v8, 1.8.3_61741) | 🟣 | [LINK](Methodology/GRID%20Autosport) |
 | Hokko Life | `010022A016250000` | `D9D13603133F3D89` (◯, v5, 1.0.5) | 🟢 |  |
 | I Am Setsuna. | `0100849000BDA000` | `0BBA2167AED893BE` (◯, v1, 1.1.0) | 🟢 |  |
