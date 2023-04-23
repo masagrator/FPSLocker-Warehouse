@@ -4,9 +4,9 @@
 
 TitleID: `010074F013262000`<br>
 Explanation based on:
-- Internal version: `14.0.0`, 
-- Nintendo version ID: `v29`/`v1900544`
-- BID: `11C9CE3F0676EEFD`
+- Internal version: `15.0.0`, 
+- Nintendo version ID: `v30`/`v1966080`
+- BID: `60EFBA0CB724E3FE`
 - Engine: `RE Engine`
 
 # Warning
@@ -35,30 +35,33 @@ We need to use disassembler in this case.
 
 After finishing disassembling `main`, we need to find those bytes:
 ```
-09 20 E8 F2 08 D1 10 91
+00 31 44 BD 00 C0 22 1E
 ```
 
-Above them we have a pointer to some struct, and below that offset of that struct in which FPS target is set.
+Above them we have a pointer to a struct pointer, and below that offset of that struct in which game speed is set, FPS lock is set just after that.
 
-This piece of code looks like this:
+Whole function looks like this:
 ```asm
-.text:0000007105B1AED0                 ADRP            X8, #qword_7112257C30@PAGE
-.text:0000007105B1AED4                 LDR             X8, [X8,#qword_7112257C30@PAGEOFF]
-.text:0000007105B1AED8                 MOV             X9, #0x41F00000
-.text:0000007105B1AEDC                 MOVK            X9, #0x4100,LSL#48
-.text:0000007105B1AEE0                 ADD             X8, X8, #0x434
-.text:0000007105B1AEE4                 STR             X9, [X8]
+.text:0000007100036F44 sub_7100036F44                          ; DATA XREF: .got:off_711262CC48↓o
+.text:0000007100036F44                 ADRP            X8, #off_71125F67E8@PAGE
+.text:0000007100036F48                 LDR             X8, [X8,#off_71125F67E8@PAGEOFF]
+.text:0000007100036F4C                 LDR             X8, [X8]
+.text:0000007100036F50                 LDR             S0, [X8,#0x430]
+.text:0000007100036F54                 FCVT            D0, S0
+.text:0000007100036F58                 STR             D0, [X0,#0x38]
+.text:0000007100036F5C                 RET
+.text:0000007100036F5C ; End of function sub_7100036F44
 ```
 
-`qword_7112257C30` stores pointer, `0x434` is our offset.
-So our address is `[MAIN, 0x12257C30, 0x434]`.
+`off_71125F67E8` stores hardcoded pointer `qword_71128CEEB8`, `0x434` is our offset where FPS lock is stored.
+So our address is `[MAIN, 0x128CEEB8, 0x434]`.
 
 FPS lock is stored as float, so in case of 30 FPS we want our entry to look like this:
 ```yaml
 30FPS:
   -
     type: write
-    address: [MAIN, 0x12257C30, 0x434]
+    address: [MAIN, 0x128CEEB8, 0x434]
     value_type: float
     value: 30
   -
