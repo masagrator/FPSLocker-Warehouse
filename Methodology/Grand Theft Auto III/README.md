@@ -1,4 +1,4 @@
-# Grand Theft Auto III
+# Grand Theft Auto III - Definitive Edition
 
 > Game info
 
