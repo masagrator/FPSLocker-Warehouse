@@ -1,0 +1,75 @@
+# Tinykin 1.1.0
+# BID: 4E2AA28721AFF2C1
+
+unsafeCheck: true
+
+15FPS:
+  # Dynamic resolution frametime target in ms = (1000/FPS) with cutted decimals
+  -
+    type: write
+    address: [MAIN, 0x53C9710, 0x44F8]
+    value_type: double
+    value: 66
+20FPS:
+  # Dynamic resolution frametime target in ms
+  -
+    type: write
+    address: [MAIN, 0x53C9710, 0x44F8]
+    value_type: double
+    value: 50
+25FPS:
+  # Dynamic resolution frametime target in ms
+  -
+    type: write
+    address: [MAIN, 0x53C9710, 0x44F8]
+    value_type: double
+    value: 40
+30FPS:
+  # Dynamic resolution frametime target in ms
+  -
+    type: write
+    address: [MAIN, 0x53C9710, 0x44F8]
+    value_type: double
+    value: 33
+35FPS:
+  # Dynamic resolution frametime target in ms
+  -
+    type: write
+    address: [MAIN, 0x53C9710, 0x44F8]
+    value_type: double
+    value: 28
+40FPS:
+  # Dynamic resolution frametime target in ms
+  -
+    type: write
+    address: [MAIN, 0x53C9710, 0x44F8]
+    value_type: double
+    value: 25
+45FPS:
+  # Dynamic resolution frametime target in ms
+  -
+    type: write
+    address: [MAIN, 0x53C9710, 0x44F8]
+    value_type: double
+    value: 22
+50FPS:
+  # Dynamic resolution frametime target in ms
+  -
+    type: write
+    address: [MAIN, 0x53C9710, 0x44F8]
+    value_type: double
+    value: 20
+55FPS:
+  # Dynamic resolution frametime target in ms
+  -
+    type: write
+    address: [MAIN, 0x53C9710, 0x44F8]
+    value_type: double
+    value: 18
+60FPS:
+  # Dynamic resolution frametime target in ms
+  -
+    type: write
+    address: [MAIN, 0x53C9710, 0x44F8]
+    value_type: double
+    value: 16
