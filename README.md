@@ -140,7 +140,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Triangle Strategy | `0100CC80140F8000` | `2AA7F33234696651` ([✅](SaltySD/plugins/FPSLocker/patches/0100CC80140F8000/2AA7F33234696651.yaml), v1, 1.0.2) <br> `F7C20294EFF7E6FA` ([✅](SaltySD/plugins/FPSLocker/patches/0100CC80140F8000/F7C20294EFF7E6FA.yaml), v2, 1.0.3) | 🔵 | [LINK](Methodology/Triangle%20Strategy) |
 | TT Isle of Man | `010099900CAB2000` | `F2F739A2F1CAFF72` ([✅](SaltySD/plugins/FPSLocker/patches/010099900CAB2000/F2F739A2F1CAFF72.yaml), v1, 1.1.0) | 🔵 | [LINK](Methodology/TT%20Isle%20of%20Man) |
 | V-Rally 4 | `010064400B138000` | `EB8A679B5DDD0060` ([✅](SaltySD/plugins/FPSLocker/patches/010064400B138000/EB8A679B5DDD0060.yaml), v2, 1.2.0) | 🔵 | [LINK](Methodology/V-Rally%204) |
-| Valkyria Chronicles 4 | `01005C600AC68000` | `3758602AA47ADD37` (❌, v0, 1.0.0) | 🟡 |  |
+| Valkyria Chronicles 4 | `01005C600AC68000` | `3758602AA47ADD37` ([](SaltySD/plugins/FPSLocker/patches/01005C600AC68000/3758602AA47ADD37.yaml), v0, 1.0.0) | 🟡 |  |
 | Vampyr | `01000BD00CE64000` | `E417100FFEEFD1DE` ([✅](SaltySD/plugins/FPSLocker/patches/01000BD00CE64000/E417100FFEEFD1DE.yaml), v2, 0.4) | 🔵 | [LINK](Methodology/Vampyr) |
 | Warhammer 40000: Shootas, Blood & Teef | `010088B0155E2000` | `C9300E99B4975DCF` (◯, v3, 1.0.3_Switch) | 🟢 |  |
 | WARRIORS OROCHI 4 | `010016A00AEC0000` | `5C9CCD358BE85FC9` ([✅](SaltySD/plugins/FPSLocker/patches/010016A00AEC0000/5C9CCD358BE85FC9.yaml), v8, 1.0.13) | 🔴 |  |
