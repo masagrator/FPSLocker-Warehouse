@@ -4,33 +4,33 @@
 unsafeCheck: true
 
 15FPS:
-  # Dynamic resolution frametime target in ms = (1000/FPS) with cutted decimals minus 1
+  # Dynamic resolution frametime target in ms = (1000/FPS) minus 2 with cutted decimals
   -
     type: write
     address: [MAIN, 0x53C9710, 0x44F8]
     value_type: double
-    value: 65
+    value: 64
 20FPS:
   # Dynamic resolution frametime target in ms
   -
     type: write
     address: [MAIN, 0x53C9710, 0x44F8]
     value_type: double
-    value: 49
+    value: 48
 25FPS:
   # Dynamic resolution frametime target in ms
   -
     type: write
     address: [MAIN, 0x53C9710, 0x44F8]
     value_type: double
-    value: 39
+    value: 38
 30FPS:
-  # Dynamic resolution frametime target in ms (default is 33, but because required difference for DR to kick in is 1ms, we will lower it to get better performance)
+  # Dynamic resolution frametime target in ms (default is 33, but because required difference for DR to really kick in is 2ms, we will lower it to get better performance)
   -
     type: write
     address: [MAIN, 0x53C9710, 0x44F8]
     value_type: double
-    value: 32
+    value: 31
 35FPS:
   # Dynamic resolution frametime target in ms
   -
@@ -44,32 +44,32 @@ unsafeCheck: true
     type: write
     address: [MAIN, 0x53C9710, 0x44F8]
     value_type: double
-    value: 24
+    value: 23
 45FPS:
   # Dynamic resolution frametime target in ms
   -
     type: write
     address: [MAIN, 0x53C9710, 0x44F8]
     value_type: double
-    value: 21
+    value: 20
 50FPS:
   # Dynamic resolution frametime target in ms
   -
     type: write
     address: [MAIN, 0x53C9710, 0x44F8]
     value_type: double
-    value: 19
+    value: 18
 55FPS:
   # Dynamic resolution frametime target in ms
   -
     type: write
     address: [MAIN, 0x53C9710, 0x44F8]
     value_type: double
-    value: 17
+    value: 16
 60FPS:
   # Dynamic resolution frametime target in ms
   -
     type: write
     address: [MAIN, 0x53C9710, 0x44F8]
     value_type: double
-    value: 15
+    value: 14
