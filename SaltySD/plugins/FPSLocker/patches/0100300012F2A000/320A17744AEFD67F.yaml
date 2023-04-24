@@ -9,28 +9,28 @@ unsafeCheck: true
     type: write
     address: [MAIN, 0x481B2F8, 0xB8, 0]
     value_type: int32
-    value: 2
+    value: 1
 20FPS:
   # _UnityEngine.Rendering.OnDemandRendering_TypeInfo
   -
     type: write
     address: [MAIN, 0x481B2F8, 0xB8, 0]
     value_type: int32
-    value: 2
+    value: 1
 25FPS:
   # _UnityEngine.Rendering.OnDemandRendering_TypeInfo
   -
     type: write
     address: [MAIN, 0x481B2F8, 0xB8, 0]
     value_type: int32
-    value: 2
+    value: 1
 30FPS:
-  # _UnityEngine.Rendering.OnDemandRendering_TypeInfo
+  # _UnityEngine.Rendering.OnDemandRendering_TypeInfo (originally it's 2, but setting it with NX-FPS interval also to 2 causes bigger input lag)
   -
     type: write
     address: [MAIN, 0x481B2F8, 0xB8, 0]
     value_type: int32
-    value: 2
+    value: 1
 35FPS:
   # _UnityEngine.Rendering.OnDemandRendering_TypeInfo
   -
