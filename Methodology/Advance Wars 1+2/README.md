@@ -35,7 +35,7 @@ So by default it looks like this:
     value: 2
 ```
 
-But because setting this with vsync interval to 2 causes input lag to be bigger, we will set for all FPS entries as 1.
+But because setting this with vsync interval to 2 causes bigger input lag, we will set our value for all FPS entries as 1.
 So finally it should be:
 ```yaml
 30FPS:
