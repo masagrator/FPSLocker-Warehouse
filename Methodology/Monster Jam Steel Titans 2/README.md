@@ -73,12 +73,12 @@ Each of our final address stores pointer that points to two floats. By default t
 As we want to use internal FPS lock instead of FPSLocker function whenever possible, our entry for 15 FPS will look like this:
 ```yaml
 15FPS:
-  # r.DynamicRes.FrameTimeBudget ((1000/FPS) * 0.945)
+  # r.DynamicRes.FrameTimeBudget = (1000/FPS) cutted to 1 decimal
   -
     type: write
     address: [MAIN, 0x6DD50F8, 0]
     value_type: float
-    value: [63, 63]
+    value: [66.6, 66.6]
   # t.MaxFPS
   -
     type: write
@@ -98,7 +98,7 @@ But for 30 FPS like this (since plugin's FPS lock is blocked by default at 30 an
     type: write
     address: [MAIN, 0x6DD50F8, 0]
     value_type: float
-    value: [33.33, 33.33]
+    value: [33.3, 33.3]
   # t.MaxFPS (default value)
   -
     type: write
