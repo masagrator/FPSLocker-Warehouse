@@ -43,7 +43,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Ancestors Legacy | `01009EE0111CC000` | `EE20B8DD92B8F9B4` ([✅](SaltySD/plugins/FPSLocker/patches/01009EE0111CC000/EE20B8DD92B8F9B4.yaml)[➕](atmosphere/contents/01009EE0111CC000), v1, 1.1.0) | 🔴 | [LINK](Methodology/Ancestors%20Legacy) |
 | Animal Crossing: New Horizons | `01006F8002326000` | `A31F81D41E1039C5` (✝️, v5, 1.1.4) | 🟡 | [LINK](Methodology/Animal%20Crossing%20New%20Horizons) |
 | Alien: Isolation | `010075D00E8BA000` | `397C054A3D25D488` (✝️, v4, 1.1.4_60709) | 🟣 | [LINK](Methodology/Alien%20Isolation) |
-| Batman - The Telltale Series | `0100011005D92000` | `A3A998AF3252D110` (❌, v3, 1.0.4) | 🔵 |  |
+| Batman - The Telltale Series | `0100011005D92000` | `A3A998AF3252D110` (❌, v3, 1.0.4) | 🔵 | [LINK](Methodology/Batman%20-%20The%20Telltale%20Series) |
 | Batman: The Enemy Within | `0100E6300AA3A000` | `AAC6FB02E03062EF` (❌, v1, 1.0.3) | 🔵 |  |
 | Bassmaster Fishing 2022 | `0100B8501771A000` | `78BF042012CF9EE8` ([✅](SaltySD/plugins/FPSLocker/patches/0100B8501771A000/78BF042012CF9EE8.yaml), v2, 1.02) | 🔵 | [LINK](Methodology/Bassmaster%20Fishing%202022%20Super%20Deluxe%20Edition) |
 | BioShock Remastered | `0100AD10102B2000` | `D89FFAA2062E373D` ([✅](SaltySD/plugins/FPSLocker/patches/0100AD10102B2000/D89FFAA2062E373D.yaml), v1, 1.0.2) | 🔵 | [LINK](https://github.com/masagrator/FPSLocker-Warehouse/tree/bioshock/Methodology/BioShock%20Remastered) |
