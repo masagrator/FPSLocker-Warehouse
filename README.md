@@ -132,7 +132,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | The Caligula Effect 2 | `0100CC3014886000` | `094BD2CDF388A1DB` (◯, v0, 1.0.0) | 🟢 |  |
 | The Legend of Heroes: Trails of Cold Steel III | `01005420101DA000` | `134EC3D8BE75126F` (✝️, v1, 1.0.1) | 🔴 | [LINK](Methodology/Trails%20of%20Cold%20Steel%203) |
 | The Legend of Heroes: Trails of Cold Steel IV | `0100D3C010DE8000` | `59159483CF88330F` (✝️, v3, 1.0.3) | 🔴 | [LINK](Methodology/Trails%20of%20Cold%20Steel%204) |
-| The Outer Worlds | `0100626011656000` | `761CD556AB357C87` (❌, v5, 1.0.5) | 🔵 | [LINK](Methodology/The%20Outer%20Worlds) |
+| The Outer Worlds | `0100626011656000` | `761CD556AB357C87` ([✅](SaltySD/plugins/FPSLocker/patches/0100626011656000/761CD556AB357C87.yaml), v5, 1.0.5) | 🔵 | [LINK](Methodology/The%20Outer%20Worlds) |
 | The Sinking City | `010028D00BA1A000` | `85E49C169A8B988A` ([✅](SaltySD/plugins/FPSLocker/patches/010028D00BA1A000/85E49C169A8B988A.yaml), v2, 1.2.0) | 🔵 | [LINK](Methodology/The%20Sinking%20City) |
 | The Smurfs Mission Vileaf | `010040A01407E000` | `BBBBB9891F01415E` (◯, v4, 1.0.19.1) | 🟢 |  |
 | The Stretchers | `0100AA400A238000` | `14D7D1537BD5A986` ([✅](SaltySD/plugins/FPSLocker/patches/0100AA400A238000/14D7D1537BD5A986.yaml), v0, 1.0.0) | 🔴 | [LINK](Methodology/The%20Stretchers) |
