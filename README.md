@@ -132,6 +132,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | SONIC FORCES | `0100111004460000` <br> `01001270012B6000` | `6D9EA94F8AAC00A8` (❌, v1, 1.1.0) | 🔴 | [LINK](Methodology/SONIC%20FORCES/README.md) |
 | Space Tail: Every Journey Leads Home | `0100C37019BC2000` | `0CD7D5F5600CB448` (◯, v1, 1.0.1) | 🟢 |  |
 | Spiritfarer | `0100BD400DC52000` | `482B575F4CCE512B` (◯, v15, 1.15) | 🟢 |  |
+| Spyro Reignited Trilogy | `010077B00E046000` | `D2775FAFCF4835CB` ([✅](SaltySD/plugins/FPSLocker/patches/010077B00E046000/D2775FAFCF4835CB.yaml), v1, 1.01) | 🔴 |  |
 | Starlink: Battle for Atlas | `01002CC003FE6000` | `13C816F2A273653C` (❌, v6, 1.0.6) | 🔵 |  |
 | Subnautica | `0100429011144000` | `B3DB5A1EDAF8454F` (◯, v5, 1.21.71113) | 🟢 |  |
 | Subnautica Below Zero | `010014C011146000` | `5B050C55B8264040` (❌, v8, 1.21.49397) | 🟢 |  |
