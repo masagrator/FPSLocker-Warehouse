@@ -1,4 +1,4 @@
-# SHIN MEGAMI TENSEI V
+# Shin Megami Tensei III Nocturne HD Remaster
 
 > Game info
 
