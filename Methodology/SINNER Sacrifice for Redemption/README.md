@@ -11,8 +11,6 @@ Explanation based on:
 
 > Details
 
-67 00 00 00 3B DF F9 41
-
 Game is using setting that is locking game to 30 FPS and ties game speed to framerate. We need to patch it.
 
 # How to find offsets
