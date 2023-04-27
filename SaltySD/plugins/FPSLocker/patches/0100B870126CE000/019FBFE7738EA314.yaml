@@ -52,13 +52,13 @@ unsafeCheck: true
     type: block
     what: timing
 30FPS:
-  # r.DynamicRes.FrameTimeBudget (default value)
+  # r.DynamicRes.FrameTimeBudget (by default it's 40, obviously we don't want that)
   -
     type: write
     address: [MAIN, 0x75F81D0, 0]
     value_type: float
     value: [33.33, 33.33]
-  # t.MaxFPS (default value)
+  # t.MaxFPS (default value for cutscenes is 30, everything else is 0)
   -
     type: write
     address: [MAIN, 0x7621D70, 0]
