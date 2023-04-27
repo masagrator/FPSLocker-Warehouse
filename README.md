@@ -132,6 +132,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Sonic Colours: Ultimate | `010040E0116B8000` | `957E1E19958193F9` (◯, v7, 1.0.9) | 🟢 |  |
 | SONIC FORCES | `0100111004460000` <br> `01001270012B6000` | `6D9EA94F8AAC00A8` (❌, v1, 1.1.0) | 🔴 | [LINK](Methodology/SONIC%20FORCES/README.md) |
 | Sonic Frontiers | `01004AD014BF0000` | `AE548A35FD9DF5DA` (✝️, v4, 1.2.0) | 🔴 | [LINK](Methodology/SONIC%20FRONTIERS) |
+| Soundfall | `0100B7A01386E000` | `39F1BCCB912A12DF` (❌, v3, 1.3.17957) | 🔵 |  |
 | South of the Circle | `0100E97016F60000` | `4FB83BAB154A2B56` (◯, v3, 1.0.3) | 🟢 |  |
 | South Park: The Fractured But Whole | `01008F2005154000` | `DF15EDAAF603E00C` (❌, v5, 1.05) | 🔵 |  |
 | South Park: The Stick Of Truth | `010095300B6A4000` | `BB789D7392B165F5` (❌, v1, 1.01) | 🔴 |  |
