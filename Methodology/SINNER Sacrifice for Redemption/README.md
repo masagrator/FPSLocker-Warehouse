@@ -17,6 +17,7 @@ Game is using setting that is locking game to 30 FPS and ties game speed to fram
 
 First we need to find where is stored bit field with flags responsible for storing `bUseFixedFrameRate` and `bUseSmoothFrameRate`.
 Pointer cannot be easily found in main, so we will use a little trick.
+
 Run game and when you're in actual gameplay, run `Edizon-SE` and find in heap u64 value `0x41F0000000000067`. We should have few results, usually it's one of first three that is used.
 We are checking which one is used by changing each `0x41F00000` value which is float `30` to `60` and looking up if FPS has changed.
 When we find value we need, the bit field containing our flags is stored as int32 just before that float (as `0x00000067`)
