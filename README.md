@@ -123,6 +123,8 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Sherlock Holmes: Crimes and Punishments | `0100651014DBA000` | `789C2939A757C0CD` (❌, v0, 1.0.0) | 🔴 |  |
 | Sherlock Holmes: The Devil's Daughter | `010020F014DBE000` | `2B37ED2A971948F3` (❌, v0, 1.0.0) | 🔴 |  |
 | Sherlock Holmes and The<br>Hound of The Baskervilles | `010003D018708000` | `4A06EBBB5A2E4FE4` (✝️, v1, 1.0.1) | 🟣 |  |
+| Shin Megami Tensei III Nocturne | `01003B0012DC2000` | `F8098979DBC7F34E` (❌, v3, 1.0.3) | 🟡 |  |
+| SHIN MEGAMI TENSEI V | `0100B870126CE000` | `019FBFE7738EA314` (❌, v2, 1.0.2) | 🔵 |  |
 | Ship of Fools | `010076901806C000` | `6AC1BB9A37B0EC43` (◯, v3, 1.0.3) | 🟢 |  |
 | Sifu | `01007B5017A12000` | `C56FA2C9627A26CF` ([✅](SaltySD/plugins/FPSLocker/patches/01007B5017A12000/C56FA2C9627A26CF.yaml), v3, 1.13_842) | 🔵 | [LINK](Methodology/Sifu) |
 | SIGNALIS | `0100307018934000` | `3A533EC563D74BE2` (◯, v3, 1.3) | 🟢 |  |
