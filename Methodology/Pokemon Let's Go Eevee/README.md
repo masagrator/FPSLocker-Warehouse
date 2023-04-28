@@ -16,4 +16,7 @@ Game can be unlocked to 60 FPS with plugin alone, but because game speed is tied
 ```ini
 [60 FPS speed]
 04000000 00F7EEC0 00FE502B
+
+[30 FPS speed]
+04000000 00F7EEC0 01FCA056
 ```
