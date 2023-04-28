@@ -49,7 +49,7 @@ unsafeCheck: true
     address: [MAIN, 0x5F5B610, 0x738, 0x70, 0x38]
     value_type: float
     value: 33.3
-  # Dynamic Resolution Frame Target Min in ms
+  # Dynamic Resolution Frame Target Min in ms (default is 33)
   -
     type: write
     address: [MAIN, 0x5F5B610, 0x738, 0x70, 0x3C]
