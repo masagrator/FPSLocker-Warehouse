@@ -1,5 +1,6 @@
 # Rune Factory 5 1.0.2
 # BID: D626F7A72AF54744
+# Cutscenes don't use Dynamic Resolution
 
 unsafeCheck: true
 
