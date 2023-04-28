@@ -118,7 +118,9 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Pokemon Legends: Arceus | `01001F5010DFA000` | `AEE8F150DDA1B5A8` (✝️, v4, 1.1.1) | 🟡 | [LINK](Methodology/Pokemon%20Legends%20Arceus) |
 | Pokemon Mystery Dungeon: Rescue Team DX | `01003D200BAA2000` | `3AB632DEE82D5944` (❌, v2, 1.0.2) | 🔵 | [LINK](Methodology/Pokemon%20Mystery%20Dungeon) |
 | Pokemon Scarlet | `0100A3D008C5C000` | `6EE2D5E3216EBDA5` (✝️, v4, 1.3.0) | 🟡 | [LINK](Methodology/Pokemon%20Scarlet) |
+| Pokemon Shield | `01008DB008C2C000` | `A16802625E7826BF` (✝️, v7, 1.3.2) | 🟡 |  |
 | Pokemon Shining Pearl | `010018E011D92000` | `38F59CBDA2EB9C44` (◯, v6, 1.3.0) | 🟢 |  |
+| Pokemon Sword | `0100ABF008968000` | `A3B75BCD3311385A` (✝️, v7, 1.3.3) | 🟡 |  |
 | Pokemon Violet | `01008F6008C5E000` | `AC70E41BB699CB9F` (✝️, v4, 1.3.0) | 🟡 | [LINK](Methodology/Pokemon%20Violet) |
 | Portal Knights | `0100437004170000` | `D59D81C06F923846` (❌, v8, 1.7.2) | 🔵 |  |
 | Potion Permit | `010025F0126FE000` | `D0D456EE7DCF0FEE` (◯, v7, 1.0.7) | 🟢 |  |
