@@ -1,0 +1,75 @@
+# Rune Factory 5 1.0.2
+# BID: D626F7A72AF54744
+
+unsafeCheck: true
+
+15FPS:
+  # Dynamic Resolution Frame Target in ms
+  -
+    type: write
+    address: [MAIN, 0x5F5B610, 0x738, 0x70, 0x38]
+    value_type: float
+    value: 66
+20FPS:
+  # Dynamic Resolution Frame Target in ms
+  -
+    type: write
+    address: [MAIN, 0x5F5B610, 0x738, 0x70, 0x38]
+    value_type: float
+    value: 49
+25FPS:
+  # Dynamic Resolution Frame Target in ms
+  -
+    type: write
+    address: [MAIN, 0x5F5B610, 0x738, 0x70, 0x38]
+    value_type: float
+    value: 39
+30FPS:
+  # Dynamic Resolution Frame Target in ms (default is 38)
+  -
+    type: write
+    address: [MAIN, 0x5F5B610, 0x738, 0x70, 0x38]
+    value_type: float
+    value: 33
+35FPS:
+  # Dynamic Resolution Frame Target in ms
+  -
+    type: write
+    address: [MAIN, 0x5F5B610, 0x738, 0x70, 0x38]
+    value_type: float
+    value: 28
+40FPS:
+  # Dynamic Resolution Frame Target in ms
+  -
+    type: write
+    address: [MAIN, 0x5F5B610, 0x738, 0x70, 0x38]
+    value_type: float
+    value: 24
+45FPS:
+  # Dynamic Resolution Frame Target in ms
+  -
+    type: write
+    address: [MAIN, 0x5F5B610, 0x738, 0x70, 0x38]
+    value_type: float
+    value: 22
+50FPS:
+  # Dynamic Resolution Frame Target in ms
+  -
+    type: write
+    address: [MAIN, 0x5F5B610, 0x738, 0x70, 0x38]
+    value_type: float
+    value: 19
+55FPS:
+  # Dynamic Resolution Frame Target in ms
+  -
+    type: write
+    address: [MAIN, 0x5F5B610, 0x738, 0x70, 0x38]
+    value_type: float
+    value: 18
+60FPS:
+  # Dynamic Resolution Frame Target in ms
+  -
+    type: write
+    address: [MAIN, 0x5F5B610, 0x738, 0x70, 0x38]
+    value_type: float
+    value: 16
