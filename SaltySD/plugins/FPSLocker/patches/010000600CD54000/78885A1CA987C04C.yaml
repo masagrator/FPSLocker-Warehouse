@@ -4,12 +4,6 @@
 unsafeCheck: true
 
 15FPS:
-  # r.DynamicRes.FrameTimeBudget
-  -
-    type: write
-    address: [MAIN, 0x578D008, 0]
-    value_type: float
-    value: [66, 66]
   # t.MaxFPS
   -
     type: write
@@ -20,12 +14,6 @@ unsafeCheck: true
     type: block
     what: timing
 20FPS:
-  # r.DynamicRes.FrameTimeBudget
-  -
-    type: write
-    address: [MAIN, 0x578D008, 0]
-    value_type: float
-    value: [50, 50]
   # t.MaxFPS
   -
     type: write
@@ -36,12 +24,6 @@ unsafeCheck: true
     type: block
     what: timing
 25FPS:
-  # r.DynamicRes.FrameTimeBudget
-  -
-    type: write
-    address: [MAIN, 0x578D008, 0]
-    value_type: float
-    value: [42, 42]
   # t.MaxFPS
   -
     type: write
@@ -52,12 +34,6 @@ unsafeCheck: true
     type: block
     what: timing
 30FPS:
-  # r.DynamicRes.FrameTimeBudget (default value)
-  -
-    type: write
-    address: [MAIN, 0x578D008, 0]
-    value_type: float
-    value: [42, 42]
   # t.MaxFPS (default value)
   -
     type: write
@@ -65,12 +41,6 @@ unsafeCheck: true
     value_type: float
     value: [0, 0]
 35FPS:
-  # r.DynamicRes.FrameTimeBudget
-  -
-    type: write
-    address: [MAIN, 0x578D008, 0]
-    value_type: float
-    value: [40, 40]
   # t.MaxFPS
   -
     type: write
@@ -81,12 +51,6 @@ unsafeCheck: true
     type: block
     what: timing
 40FPS:
-  # r.DynamicRes.FrameTimeBudget
-  -
-    type: write
-    address: [MAIN, 0x578D008, 0]
-    value_type: float
-    value: [33, 33]
   # t.MaxFPS
   -
     type: write
@@ -97,12 +61,6 @@ unsafeCheck: true
     type: block
     what: timing
 45FPS:
-  # r.DynamicRes.FrameTimeBudget
-  -
-    type: write
-    address: [MAIN, 0x578D008, 0]
-    value_type: float
-    value: [8, 8]
   # t.MaxFPS
   -
     type: write
@@ -113,12 +71,6 @@ unsafeCheck: true
     type: block
     what: timing
 50FPS:
-  # r.DynamicRes.FrameTimeBudget
-  -
-    type: write
-    address: [MAIN, 0x578D008, 0]
-    value_type: float
-    value: [8, 8]
   # t.MaxFPS
   -
     type: write
@@ -129,12 +81,6 @@ unsafeCheck: true
     type: block
     what: timing
 55FPS:
-  # r.DynamicRes.FrameTimeBudget
-  -
-    type: write
-    address: [MAIN, 0x578D008, 0]
-    value_type: float
-    value: [8, 8]
   # t.MaxFPS
   -
     type: write
@@ -145,12 +91,6 @@ unsafeCheck: true
     type: block
     what: timing
 60FPS:
-  # r.DynamicRes.FrameTimeBudget
-  -
-    type: write
-    address: [MAIN, 0x578D008, 0]
-    value_type: float
-    value: [6, 6]
   # t.MaxFPS (100 to ensure than NVN itself will handle 60 FPS while not enabling SmoothedFrameRateRange)
   -
     type: write
