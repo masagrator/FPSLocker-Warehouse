@@ -99,6 +99,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Monster Jam Steel Titans 2 | `010051B0131F0000` | `E0E9D0429A2458E1` ([✅](SaltySD/plugins/FPSLocker/patches/010051B0131F0000/E0E9D0429A2458E1.yaml), v2, 1.0.2) | 🔵 | [LINK](Methodology/Monster%20Jam%20Steel%20Titans%202) |
 | Monster Truck Championship | `0100D30010C42000` | `682F4A502035678D` ([✅](SaltySD/plugins/FPSLocker/patches/0100D30010C42000/682F4A502035678D.yaml), v2, 1.2.0) | 🔵 | [LINK](Methodology/Monster%20Truck%20Championship) |
 | NARUTO SHIPPUDEN:<br>Ultimate Ninja STORM 4<br>ROAD TO BORUTO | `01006CF00CF60000` | `D3016FC0C0402DFB` (✝️, v3, 1.3.0) | 🔴 | [LINK](Methodology/Naruto%20Shippuuden%20Ultimate%20Ninja%20Storm%204%20Road%20to%20Boruto) |
+| Need For Speed Hot Pursuit | `010029B0118E8000` | `799D1061182C1302` (❌, v3, 1.0.3) | 🔴 |  |
 | Neptunia x SENRAN KAGURA: Ninja Wars | `01008D0016AF4000` | `FB827BF029E0778A` (❌, v0, 1.0.0) | 🔵 | [LINK](Methodology/Neptunia%20x%20SENRAN%20KAGURA%20Ninja%20Wars) |
 | Never Alone (Kisima Ingitchuna) | `0100A6B01712C000` | `B489970C5C8E79A7` (❌, v2, 1.0.2) | 🔵 |  |
 | New Super Lucky's Tale | `010017700B6C2000` | `14872049185C584C` (◯, v3, 1.5.9) | 🟢 |  |
