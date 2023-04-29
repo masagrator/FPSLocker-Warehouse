@@ -104,8 +104,8 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Ni no Kuni: Wrath of the White Witch | `0100E5600D446000` | `C32B29CB5FBA96D9` (✝️, v2, 1.0.2) | 🟣 | [LINK](Methodology/Ni%20no%20Kuni%20Wrath%20of%20the%20White%20Witch) |
 | NieR:Automata | `0100B8E016F76000` <br> `010056B015FE8000` | `992787E2B5425994` (◯, v1, 1.0.2) <br> `E43525F22282A477` (◯, v1, 1.0.2) | 🟢 |  |
 | Oceanhorn 2: Knights of the Lost Realm | `01006CB010840000` | `9F2F187D1C6E44EC` ([✅](SaltySD/plugins/FPSLocker/patches/01006CB010840000/9F2F187D1C6E44EC.yaml), v2, 1.2) | 🔵 | [LINK](Methodology/Oceanhorn%202) |
-| OCTOPATH TRAVELER | `010057D006492000` | `B88A8D8E5516DDE9` (❌, v4, 1.0.4) | 🔵 |  |
-| OCTOPATH TRAVELER II | `0100A3501946E000` | `BB891294DA55675E` (❌, v1, 1.0.2) | 🔵 |  |
+| OCTOPATH TRAVELER | `010057D006492000` | `B88A8D8E5516DDE9` (❌, v4, 1.0.4) | 🔴 |  |
+| OCTOPATH TRAVELER II | `0100A3501946E000` | `BB891294DA55675E` (❌, v1, 1.0.2) | 🔴 |  |
 | Oddworld: Soulstorm | `0100D210177C6000` | `9510D677DCCE4447` ([✅](SaltySD/plugins/FPSLocker/patches/0100D210177C6000/9510D677DCCE4447.yaml), v3, 1.1.3) | 🔵 |  |
 | Off the Road Unleashed | `010045C0112F8000` | `5E8316D212D6D7BD` (◯, v1, 1.0.1) | 🟢 |  |
 | Oninaki | `01001AF00CE54000` | `C949E2576F532C43` (◯, v2, 1.0.2) | 🟢 |  |
