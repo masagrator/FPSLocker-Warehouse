@@ -103,6 +103,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | No Man's Sky | `0100853015E86000` | `35CB055482863ED9` (◯, v18, 4.2.2) | 🟢 |  |
 | Ni no Kuni: Wrath of the White Witch | `0100E5600D446000` | `C32B29CB5FBA96D9` (✝️, v2, 1.0.2) | 🟣 | [LINK](Methodology/Ni%20no%20Kuni%20Wrath%20of%20the%20White%20Witch) |
 | NieR:Automata | `0100B8E016F76000` <br> `010056B015FE8000` | `992787E2B5425994` (◯, v1, 1.0.2) <br> `E43525F22282A477` (◯, v1, 1.0.2) | 🟢 |  |
+| Oddworld: Soulstorm | `0100D210177C6000` | `9510D677DCCE4447` (◯, v3, 1.1.3) | 🔵 |  |
 | Off the Road Unleashed | `010045C0112F8000` | `5E8316D212D6D7BD` (◯, v1, 1.0.1) | 🟢 |  |
 | Oninaki | `01001AF00CE54000` | `C949E2576F532C43` (◯, v2, 1.0.2) | 🟢 |  |
 | Othercide | `0100E5900F49A000` | `A8BA2A8F93AAE647` (✝️, v3, 1.3.0.5) | 🔵 | [LINK](Methodology/Othercide/README.md) |
