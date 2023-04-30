@@ -22,7 +22,7 @@ After finishing disassembling main, we need to go to View -> Open Subviews -> Na
 g_video_swap_mode
 ```
 
-Setting it to 3 sets dynamic resolution to 30 FPS target, setting to 2 sets to 60 FPS target. Setting it to 1 disables dynamic resolution.
+Setting it to 3 sets dynamic resolution to 30 FPS target, setting to 2 sets to 60 FPS target. Setting it to 1 disables dynamic resolution, setting resolution to max.
 In my case address is 0xA9FAE80.
 
 So for 30 FPS and below it will look like this
