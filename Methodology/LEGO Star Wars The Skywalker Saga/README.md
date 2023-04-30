@@ -15,7 +15,7 @@ Game is using dynamic resolution timing set to 31ms, performance is subpar. Beca
 
 # How to find offsets
 
-We need to use disassembler in this case. I will provide instructions based on IDA as it will calculate automatically needed offsets for us.
+We need to use disassembler in this case. I will provide instructions based on IDA.
 
 After finishing disassembling main, we need to go to View -> Open Subviews -> Names and find where is stored
 ```
