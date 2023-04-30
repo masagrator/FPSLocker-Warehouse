@@ -11,8 +11,6 @@ Explanation based on:
 
 > Details
 
-> Details
-
 Game is using internal FPS lock + dynamic resolution set to 33.3 ms, performance is subpar. Requires patch to fix that.
 
 # How to find offsets
