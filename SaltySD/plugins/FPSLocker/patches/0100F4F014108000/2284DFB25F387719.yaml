@@ -4,7 +4,7 @@
 unsafeCheck: true
 
 15FPS:
-  # Disable bSmoothFrameRate and bUseFixedFrameRate to untie game speed from framerate
+  # Disable bUseFixedFrameRate to untie game speed from framerate and unlock FPS
   -
     type: write
     address: [MAIN, 0x63CEE78, 0x7A4]
