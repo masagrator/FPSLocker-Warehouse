@@ -31,7 +31,7 @@ unsafeCheck: true
     type: block
     what: timing
 20FPS:
-  # Disable bSmoothFrameRate and bUseFixedFrameRate
+  # Disable bUseFixedFrameRate
   -
     type: write
     address: [MAIN, 0x63CEE78, 0x7A4]
@@ -53,7 +53,7 @@ unsafeCheck: true
     type: block
     what: timing
 25FPS:
-  # Disable bSmoothFrameRate and bUseFixedFrameRate
+  # Disable bUseFixedFrameRate
   -
     type: write
     address: [MAIN, 0x63CEE78, 0x7A4]
@@ -75,7 +75,7 @@ unsafeCheck: true
     type: block
     what: timing
 30FPS:
-  # Disable bSmoothFrameRate and bUseFixedFrameRate
+  # Disable bUseFixedFrameRate
   -
     type: write
     address: [MAIN, 0x63CEE78, 0x7A4]
@@ -94,7 +94,7 @@ unsafeCheck: true
     value_type: float
     value: [0, 0]
 35FPS:
-  # Disable bSmoothFrameRate and bUseFixedFrameRate
+  # Disable bUseFixedFrameRate
   -
     type: write
     address: [MAIN, 0x63CEE78, 0x7A4]
@@ -116,7 +116,7 @@ unsafeCheck: true
     type: block
     what: timing
 40FPS:
-  # Disable bSmoothFrameRate and bUseFixedFrameRate
+  # Disable bUseFixedFrameRate
   -
     type: write
     address: [MAIN, 0x63CEE78, 0x7A4]
@@ -138,7 +138,7 @@ unsafeCheck: true
     type: block
     what: timing
 45FPS:
-  # Disable bSmoothFrameRate and bUseFixedFrameRate
+  # Disable bUseFixedFrameRate
   -
     type: write
     address: [MAIN, 0x63CEE78, 0x7A4]
@@ -160,7 +160,7 @@ unsafeCheck: true
     type: block
     what: timing
 50FPS:
-  # Disable bSmoothFrameRate and bUseFixedFrameRate
+  # Disable bUseFixedFrameRate
   -
     type: write
     address: [MAIN, 0x63CEE78, 0x7A4]
@@ -182,7 +182,7 @@ unsafeCheck: true
     type: block
     what: timing
 55FPS:
-  # Disable bSmoothFrameRate and bUseFixedFrameRate
+  # Disable bUseFixedFrameRate
   -
     type: write
     address: [MAIN, 0x63CEE78, 0x7A4]
@@ -204,7 +204,7 @@ unsafeCheck: true
     type: block
     what: timing
 60FPS:
-  # Disable bSmoothFrameRate and bUseFixedFrameRate
+  # Disable bUseFixedFrameRate
   -
     type: write
     address: [MAIN, 0x63CEE78, 0x7A4]
