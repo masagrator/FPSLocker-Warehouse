@@ -88,8 +88,8 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Kirby's Dream Buffet | `0100A8E016236000` | `82AF4E16BBC0BEC8` ([✅](SaltySD/plugins/FPSLocker/patches/0100A8E016236000/82AF4E16BBC0BEC8.yaml), v0, 1.0.0) | 🔴 |  |
 | L.A. Noire | `0100830004FB6000` | `40F973CE3B5EC8D7` ([✅](SaltySD/plugins/FPSLocker/patches/0100830004FB6000/40F973CE3B5EC8D7.yaml), v2, 1.2) | 🟡 | [LINK](Methodology/L.A.%20Noire) |
 | Life is Strange | `0100DC301186A000` | `EE295EAAEA7D31E4` ([✅](SaltySD/plugins/FPSLocker/patches/0100DC301186A000/EE295EAAEA7D31E4.yaml), v1, 1.0.1) | 🔵 | [LINK](Methodology/Life%20is%20Strange) |
-| Life is Strange 2 | `0100FD101186C000` | `BF0088C59D7E97C0`  (❌, v1, 1.1.0) | 🔴 |  |
-| Life is Strange: True Colors | `0100500012AB4000` | `0000000000000000` | 🔴 |  |
+| Life is Strange 2 | `0100FD101186C000` | `BF0088C59D7E97C0`  ([✅](SaltySD/plugins/FPSLocker/patches/0100FD101186C000/BF0088C59D7E97C0.yaml), v1, 1.1.0) | 🔴 |  |
+| Life is Strange: True Colors | `0100500012AB4000` | `118AA7B71E824B3B` | 🔴 |  |
 | Little Noah: Scion of Paradise | `0100535014D76000` | `5BA1C162571DBD01` (◯, v6, 1.40) | 🟢 |  |
 | Little Nightmares II | `010097100EDD6000` | `7F4216B6E784A4B2` ([✅](SaltySD/plugins/FPSLocker/patches/010097100EDD6000/7F4216B6E784A4B2.yaml), v4, 1.4) | 🔵 | [LINK](Methodology/Little%20Nightmares%20II/README.md) |
 | LIVE A LIVE | `0100CF801776C000` | `CF22083371DDACB2` (◯, v1, 1.0.1) | 🟢 |  |
