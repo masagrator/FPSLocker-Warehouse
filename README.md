@@ -84,7 +84,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Hokko Life | `010022A016250000` | `D9D13603133F3D89` (◯, v5, 1.0.5) | 🟢 |  |
 | I Am Setsuna. | `0100849000BDA000` | `0BBA2167AED893BE` (◯, v1, 1.1.0) | 🟢 |  |
 | Ion Fury | `010041C00D086000` | `9D2EFCF198F2247F` (◯, v4, 1.07.1) | 🔴 | [LINK](Methodology/Ion%20Fury) |
-| It Takes Two | `010092A0172E4000` | `C4067E8CB3258656` (❌, v2, 1.0.2) | 🔵 |  |
+| It Takes Two | `010092A0172E4000` | `C4067E8CB3258656` (◯[➕](atmosphere/contents/010092A0172E4000/romfs/Nuts/Content/Paks/Nuts-Switch_p.pak), v2, 1.0.2) | 🔵 |  |
 | Kingdoms of Amalur: Re-Reckoning | `0100EF50132BE000` | `F69D419BCF791019` (◯, v6, 1.0.6) | 🟢 |  |
 | Kitaria Fables | `0100F30013BFC000` | `220AA80516734F4C` (◯, v3, 1.0.3) | 🟢 |  |
 | Kirby and the Forgotten Land | `01004D300C5AE000` | `D9BA7DB72FFAFECD`  ([✅](SaltySD/plugins/FPSLocker/patches/01004D300C5AE000/D9BA7DB72FFAFECD.yaml), v0, 1.0.0) | 🔴 |  |
