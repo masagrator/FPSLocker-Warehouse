@@ -12,7 +12,7 @@ Explanation based on:
 > Details
 
 Game speed and physics are tied in many places to 30 FPS. We need to patch it.<br>
-**WARNING**: Patch was not tested thoroughly. It is known on PC that setting FPS above 30 FPS causes physics issues with cars. Also it can crash game in one scene with projector, in pen minigame you may not be able to use pen - in those cases setting back game to 30 FPS solves the issue. Don't set below 25 FPS otherwise camera goes crazy. 
+**WARNING**: Patch was not tested thoroughly. It is known on PC that setting FPS above 30 FPS causes physics issues with cars (for 60 FPS it results in 2x longer braking distance and 2x sharper cornering). Also it can crash game in one scene with projector, in pen minigame you may not be able to use pen - in those cases setting back game to 30 FPS solves the issue. Don't set below 25 FPS otherwise camera goes crazy. 
 
 ---
 
