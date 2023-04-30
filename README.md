@@ -90,7 +90,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | LEGO Jurassic World | `01001C100E772000` | `1B80403BE8882745` (◯, v1, 1.0.1) | 🟢 |  |
 | LEGO MARVEL Super Heroes | `01006F600FFC8000` | `5D769ABCAD9F2743` (◯, v1, 1.0.1) | 🟢 |  |
 | LEGO MARVEL Super Heroes 2 | `01007690040A0000` | `794534B11CF3BE40` (◯, v7, 1.0.7) | 🟢 |  |
-| LEGO Star Wars: The Skywalker Saga | `010042D00D900000` | `C6901CE5426C704A` (❌, v8, 1.0.8) | 🔵 |  |
+| LEGO Star Wars: The Skywalker Saga | `010042D00D900000` | `C6901CE5426C704A` ([✅](SaltySD/plugins/FPSLocker/patches/010042D00D900000/C6901CE5426C704A.yaml), v8, 1.0.8) | 🔵 | [LINK](Methodology/LEGO%20Star%20Wars%20The%20Skywalker%20Saga) |
 | LEGO The Incredibles | `0100F19006E04000` | `414D247F3FD8084E` (◯, v2, 1.0.2) | 🟢 |  |
 | LEGO Worlds | `0100838002AEA000` | `8174C89125B5404E` (◯, v10, 1.3.2) | 🟢 |  |
 | Life is Strange | `0100DC301186A000` | `EE295EAAEA7D31E4` ([✅](SaltySD/plugins/FPSLocker/patches/0100DC301186A000/EE295EAAEA7D31E4.yaml), v1, 1.0.1) | 🔵 | [LINK](Methodology/Life%20is%20Strange) |
