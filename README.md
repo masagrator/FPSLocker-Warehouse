@@ -90,6 +90,9 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Little Nightmares II | `010097100EDD6000` | `7F4216B6E784A4B2` ([✅](SaltySD/plugins/FPSLocker/patches/010097100EDD6000/7F4216B6E784A4B2.yaml), v4, 1.4) | 🔵 | [LINK](Methodology/Little%20Nightmares%20II/README.md) |
 | LOST SPHEAR | `010077B0038B2000` | `641A9243BA35C638` (◯, v5, 1.3.1) | 🟢 |  |
 | Luigi's Mansion 3 | `0100DCA0064A6000` | `79E5950FFA85ACF6` (✝️, v5, 1.4.0) | 🟣 | [LINK](Methodology/Luigi's%20Mansion%203) |
+| Mario + Rabbids Kingdom Battle | `010067300059A000` | `3B39E0C06B8841F1` (◯, v9, 1.9.589692) | 🟢 |  |
+| Mario + Rabbids Sparks of Hope | `0100317013770000` | `553C2A1818237255` (◯, v3, 1.3.2145477) | 🟢 |  |
+| Mark of the Ninja: Remastered | `01009A700A538000` | `AE324830FE37FC72` (◯, v2, 1.0.2) | 🟢 |  |
 | Märchen Forest | `01001B2012D5E000` | `7A7C634CDAFE7D42` (◯, v7, 1.0.7) | 🟢 |  |
 | Mary Skelter Finale | `0100530014438000` | `B1AFBB02475AD7E3` (❌, v1, 1.0.1) | 🔵 |  |
 | Masters of Anima | `0100CC7009196000` | `B1C8B55EBD400E57` (◯, v1, 1.0.1) | 🟢 |  |
