@@ -1,5 +1,6 @@
-# Mythic Ocean 1.0.1
-# BID: 2284DFB25F387719
+# Maglam Lord 1.00
+# BID: 3A3C781930CB8201
+# WARNING: Enemy Movement Speed is not scaling properly to framerate. At 60 FPS it's multiple times slower, looking like enemies are practically walking in place.
 
 unsafeCheck: true
 
@@ -7,7 +8,7 @@ unsafeCheck: true
   # Disable bUseFixedFrameRate to untie game speed from framerate and unlock FPS
   -
     type: write
-    address: [MAIN, 0x63CEE78, 0x7A4]
+    address: [MAIN, 0x5F32908, 0x7B8]
     value_type: uint32
     # Default is 0x47, bUseFixedFrameRate |= 0x40 
     # By writing 7 we are making sure that other flags are maintained: 
@@ -15,16 +16,16 @@ unsafeCheck: true
     # bOptimizeAnimBlueprintMemberVariableAccess |= 2
     # bCanBlueprintsTickByDefault |= 1
     value: 7
-  # r.DynamicRes.FrameTimeBudget (1000/FPS) cutted to 2 decimals
+  # r.DynamicRes.FrameTimeBudget (1000/FPS) cutted to 1 decimal
   -
     type: write
-    address: [MAIN, 0x63A23A8, 0]
+    address: [MAIN, 0x5F086C0, 0]
     value_type: float
-    value: [66.66, 66.66]
+    value: [66.6, 66.6]
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x63CF748, 0]
+    address: [MAIN, 0x5F331D8, 0]
     value_type: float
     value: [15, 15]
   -
@@ -34,19 +35,19 @@ unsafeCheck: true
   # Disable bUseFixedFrameRate
   -
     type: write
-    address: [MAIN, 0x63CEE78, 0x7A4]
+    address: [MAIN, 0x5F32908, 0x7B8]
     value_type: uint32
     value: 7
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
-    address: [MAIN, 0x63A23A8, 0]
+    address: [MAIN, 0x5F086C0, 0]
     value_type: float
     value: [50, 50]
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x63CF748, 0]
+    address: [MAIN, 0x5F331D8, 0]
     value_type: float
     value: [20, 20]
   -
@@ -56,19 +57,19 @@ unsafeCheck: true
   # Disable bUseFixedFrameRate
   -
     type: write
-    address: [MAIN, 0x63CEE78, 0x7A4]
+    address: [MAIN, 0x5F32908, 0x7B8]
     value_type: uint32
     value: 7
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
-    address: [MAIN, 0x63A23A8, 0]
+    address: [MAIN, 0x5F086C0, 0]
     value_type: float
     value: [40, 40]
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x63CF748, 0]
+    address: [MAIN, 0x5F331D8, 0]
     value_type: float
     value: [25, 25]
   -
@@ -78,38 +79,38 @@ unsafeCheck: true
   # Disable bUseFixedFrameRate
   -
     type: write
-    address: [MAIN, 0x63CEE78, 0x7A4]
+    address: [MAIN, 0x5F32908, 0x7B8]
     value_type: uint32
     value: 7
   # r.DynamicRes.FrameTimeBudget (default value)
   -
     type: write
-    address: [MAIN, 0x63A23A8, 0]
+    address: [MAIN, 0x5F086C0, 0]
     value_type: float
-    value: [33.33, 33.33]
+    value: [33.3, 33.3]
   # t.MaxFPS (default value)
   -
     type: write
-    address: [MAIN, 0x63CF748, 0]
+    address: [MAIN, 0x5F331D8, 0]
     value_type: float
     value: [0, 0]
 35FPS:
   # Disable bUseFixedFrameRate
   -
     type: write
-    address: [MAIN, 0x63CEE78, 0x7A4]
+    address: [MAIN, 0x5F32908, 0x7B8]
     value_type: uint32
     value: 7
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
-    address: [MAIN, 0x63A23A8, 0]
+    address: [MAIN, 0x5F086C0, 0]
     value_type: float
-    value: [28.51, 28.51]
+    value: [28.5, 28.5]
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x63CF748, 0]
+    address: [MAIN, 0x5F331D8, 0]
     value_type: float
     value: [35, 35]
   -
@@ -119,19 +120,19 @@ unsafeCheck: true
   # Disable bUseFixedFrameRate
   -
     type: write
-    address: [MAIN, 0x63CEE78, 0x7A4]
+    address: [MAIN, 0x5F32908, 0x7B8]
     value_type: uint32
     value: 7
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
-    address: [MAIN, 0x63A23A8, 0]
+    address: [MAIN, 0x5F086C0, 0]
     value_type: float
     value: [25, 25]
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x63CF748, 0]
+    address: [MAIN, 0x5F331D8, 0]
     value_type: float
     value: [40, 40]
   -
@@ -141,19 +142,19 @@ unsafeCheck: true
   # Disable bUseFixedFrameRate
   -
     type: write
-    address: [MAIN, 0x63CEE78, 0x7A4]
+    address: [MAIN, 0x5F32908, 0x7B8]
     value_type: uint32
     value: 7
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
-    address: [MAIN, 0x63A23A8, 0]
+    address: [MAIN, 0x5F086C0, 0]
     value_type: float
-    value: [22.22, 22.22]
+    value: [22.2, 22.2]
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x63CF748, 0]
+    address: [MAIN, 0x5F331D8, 0]
     value_type: float
     value: [45, 45]
   -
@@ -163,19 +164,19 @@ unsafeCheck: true
   # Disable bUseFixedFrameRate
   -
     type: write
-    address: [MAIN, 0x63CEE78, 0x7A4]
+    address: [MAIN, 0x5F32908, 0x7B8]
     value_type: uint32
     value: 7
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
-    address: [MAIN, 0x63A23A8, 0]
+    address: [MAIN, 0x5F086C0, 0]
     value_type: float
     value: [20, 20]
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x63CF748, 0]
+    address: [MAIN, 0x5F331D8, 0]
     value_type: float
     value: [50, 50]
   -
@@ -185,19 +186,19 @@ unsafeCheck: true
   # Disable bUseFixedFrameRate
   -
     type: write
-    address: [MAIN, 0x63CEE78, 0x7A4]
+    address: [MAIN, 0x5F32908, 0x7B8]
     value_type: uint32
     value: 7
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
-    address: [MAIN, 0x63A23A8, 0]
+    address: [MAIN, 0x5F086C0, 0]
     value_type: float
-    value: [18.18, 18.18]
+    value: [18.1, 18.1]
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x63CF748, 0]
+    address: [MAIN, 0x5F331D8, 0]
     value_type: float
     value: [55, 55]
   -
@@ -207,18 +208,18 @@ unsafeCheck: true
   # Disable bUseFixedFrameRate
   -
     type: write
-    address: [MAIN, 0x63CEE78, 0x7A4]
+    address: [MAIN, 0x5F32908, 0x7B8]
     value_type: uint32
     value: 7
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
-    address: [MAIN, 0x63A23A8, 0]
+    address: [MAIN, 0x5F086C0, 0]
     value_type: float
-    value: [16.66, 16.66]
+    value: [16.6, 16.6]
   # t.MaxFPS (default value)
   -
     type: write
-    address: [MAIN, 0x63CF748, 0]
+    address: [MAIN, 0x5F331D8, 0]
     value_type: float
     value: [0, 0]
