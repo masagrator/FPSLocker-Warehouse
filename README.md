@@ -83,8 +83,8 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | GRID Autosport | `0100DC800A602000` | `4264F9050557D760` (✝️, v8, 1.8.3_61741) | 🟣 | [LINK](Methodology/GRID%20Autosport) |
 | Hokko Life | `010022A016250000` | `D9D13603133F3D89` (◯, v5, 1.0.5) | 🟢 |  |
 | I Am Setsuna. | `0100849000BDA000` | `0BBA2167AED893BE` (◯, v1, 1.1.0) | 🟢 |  |
-| Immortals Fenyx Rising | `01004A600EC0A000` | `70F3F6751D73C644` (✝️, v11, 1.3.4) | 🟣 |  |
 | Immortal Redneck | `01000F400435A000` | `DB367E57EDA9E84F` (❌, v1, 1.3.5) | 🔵 |  |
+| Immortals Fenyx Rising | `01004A600EC0A000` | `70F3F6751D73C644` (✝️, v11, 1.3.4) | 🟣 | [LINK](Methodology/Immortals%20Fenyx%20Rising/README.md) |
 | In rays of the Light | `0100A760129A0000` | `AB4C861FD0C87F47` (◯, v2, 1.0.2) | 🟢 |  |
 | In Sound Mind | `01006DF014682000` | `DB367E57EDA9E84F` (❌, v1, 1.0.2) | 🔵 |  |
 | INMOST | `0100F1401161E000` | `16CEFEA33FE6E24F` (❌, v6, 1.0.4.3) | 🔵 |  |
