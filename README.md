@@ -82,6 +82,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Grand Theft Auto: Vice City | `0100182014022000` | `56EEFA704373BDB3` ([✅](SaltySD/plugins/FPSLocker/patches/0100182014022000/56EEFA704373BDB3.yaml), v7, 1.0.7) | 🔴 | [LINK](Methodology/Grand%20Theft%20Auto%20Vice%20City) |
 | GRID Autosport | `0100DC800A602000` | `4264F9050557D760` (✝️, v8, 1.8.3_61741) | 🟣 | [LINK](Methodology/GRID%20Autosport) |
 | Hokko Life | `010022A016250000` | `D9D13603133F3D89` (◯, v5, 1.0.5) | 🟢 |  |
+| House Flipper | `0100CAE00EB02000` | `3AA24709AD26C14E` (◯, v7, 1.7.0) | 🟢 |  |
 | Hyrule Warriors: Age of Calamity | `01002B00111A2000` | `C3CF52BF2B05D731` ([✅](SaltySD/plugins/FPSLocker/patches/01002B00111A2000/C3CF52BF2B05D731.yaml), v5, 1.3.0) | 🔴 |  |
 | I Am Setsuna. | `0100849000BDA000` | `0BBA2167AED893BE` (◯, v1, 1.1.0) | 🟢 |  |
 | Immortal Redneck | `01000F400435A000` | `DB367E57EDA9E84F` (❌, v1, 1.3.5) | 🔵 |  |
