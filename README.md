@@ -77,6 +77,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Garfield Kart Furious Racing | `010061E00E8BE000` | `4A67AFB9EAC0DF44` (◯, v3, 1.0.3) | 🟢 |  |
 | Gear.Club Unlimited 2 | `010072900AFF0000` | `FE757810B45C3444` (✝️, v14, 1.7.2) | 🔴 | [LINK](Methodology/Gear.Club%20Unlimited%202) |
 | GOD WARS The Complete Legend | `0100F3D00B032000` | `3A0835D09F6D1544` (❌, v1, 1.1) | 🔵 | [LINK](Methodology/God%20Wars) |
+| Gods Will Fall | `0100CFA0111C8000` | `2C22089ABC14264F` (◯, v4, 1.0.4) | 🟢 |  |
 | Going Under | `01004D501113C000` | `3AC30B12FEAD3149` (◯, v4, 1.0.4) | 🟢 |  |
 | Golazo 2 | `0100997014004000` | `8057D5A82615847E` (◯, v2, 1.2.3) | 🟢 |  |
 | Good Job! | `0100B0500FE4E000` | `951D09EECE122A47` (◯, v0, 1.0.0) | 🟢 |  |
@@ -85,6 +86,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Grand Theft Auto: Vice City | `0100182014022000` | `56EEFA704373BDB3` ([✅](SaltySD/plugins/FPSLocker/patches/0100182014022000/56EEFA704373BDB3.yaml), v7, 1.0.7) | 🔴 | [LINK](Methodology/Grand%20Theft%20Auto%20Vice%20City) |
 | Graveyard Keeper | `0100B6800B5C8000` | `9356531EDD2EC448` (◯, v6, 1.0.0.4633) | 🟢 |  |
 | GRID Autosport | `0100DC800A602000` | `4264F9050557D760` (✝️, v8, 1.8.3_61741) | 🟣 | [LINK](Methodology/GRID%20Autosport) |
+| HARVESTELLA | `0100521017B2A000` | `249EAB9BF046C5EA` ([✅](SaltySD/plugins/FPSLocker/patches/0100521017B2A000/249EAB9BF046C5EA.yaml), v2, 1.0.2) | 🔴 | [LINK](Methodology/HARVESTELLA) |
 | Hellblade: Senua's Sacrifice | `010044500CF8E000` | `9B3DDF2FB9100E51` ([✅](SaltySD/plugins/FPSLocker/patches/010044500CF8E000/9B3DDF2FB9100E51.yaml), v1, 1.1.0) | 🔴 |  |
 | Hoa | `010022E013A1A000` | `1A9DF794AC0099F3` (◯, v3, 1.0.3) | 🟢 |  |
 | Hokko Life | `010022A016250000` | `D9D13603133F3D89` (◯, v5, 1.0.5) | 🟢 |  |
