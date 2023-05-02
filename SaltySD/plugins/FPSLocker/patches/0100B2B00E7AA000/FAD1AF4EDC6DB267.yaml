@@ -15,6 +15,12 @@ unsafeCheck: true
     # bOptimizeAnimBlueprintMemberVariableAccess |= 2
     # bCanBlueprintsTickByDefault |= 1
     value: 7
+  # r.DynamicRes.FrameTimeBudget (1000/FPS) cutted to 1 decimal
+  -
+    type: write
+    address: [MAIN, 0x5354210, 0]
+    value_type: float
+    value: [66.6, 66.6]
   # t.MaxFPS
   -
     type: write
@@ -31,6 +37,12 @@ unsafeCheck: true
     address: [MAIN, 0x5379338, 0x780]
     value_type: uint32
     value: 7
+  # r.DynamicRes.FrameTimeBudget
+  -
+    type: write
+    address: [MAIN, 0x5354210, 0]
+    value_type: float
+    value: [50, 50]
   # t.MaxFPS
   -
     type: write
@@ -47,6 +59,12 @@ unsafeCheck: true
     address: [MAIN, 0x5379338, 0x780]
     value_type: uint32
     value: 7
+  # r.DynamicRes.FrameTimeBudget
+  -
+    type: write
+    address: [MAIN, 0x5354210, 0]
+    value_type: float
+    value: [40, 40]
   # t.MaxFPS
   -
     type: write
@@ -63,6 +81,12 @@ unsafeCheck: true
     address: [MAIN, 0x5379338, 0x780]
     value_type: uint32
     value: 7
+  # r.DynamicRes.FrameTimeBudget (default value)
+  -
+    type: write
+    address: [MAIN, 0x5354210, 0]
+    value_type: float
+    value: [33.3, 33.3]
   # t.MaxFPS (default value)
   -
     type: write
@@ -76,6 +100,12 @@ unsafeCheck: true
     address: [MAIN, 0x5379338, 0x780]
     value_type: uint32
     value: 7
+  # r.DynamicRes.FrameTimeBudget
+  -
+    type: write
+    address: [MAIN, 0x5354210, 0]
+    value_type: float
+    value: [28.5, 28.5]
   # t.MaxFPS
   -
     type: write
@@ -92,6 +122,12 @@ unsafeCheck: true
     address: [MAIN, 0x5379338, 0x780]
     value_type: uint32
     value: 7
+  # r.DynamicRes.FrameTimeBudget
+  -
+    type: write
+    address: [MAIN, 0x5354210, 0]
+    value_type: float
+    value: [25, 25]
   # t.MaxFPS
   -
     type: write
@@ -108,6 +144,12 @@ unsafeCheck: true
     address: [MAIN, 0x5379338, 0x780]
     value_type: uint32
     value: 7
+  # r.DynamicRes.FrameTimeBudget
+  -
+    type: write
+    address: [MAIN, 0x5354210, 0]
+    value_type: float
+    value: [22.2, 22.2]
   # t.MaxFPS
   -
     type: write
@@ -124,6 +166,12 @@ unsafeCheck: true
     address: [MAIN, 0x5379338, 0x780]
     value_type: uint32
     value: 7
+  # r.DynamicRes.FrameTimeBudget
+  -
+    type: write
+    address: [MAIN, 0x5354210, 0]
+    value_type: float
+    value: [20, 20]
   # t.MaxFPS
   -
     type: write
@@ -140,6 +188,12 @@ unsafeCheck: true
     address: [MAIN, 0x5379338, 0x780]
     value_type: uint32
     value: 7
+  # r.DynamicRes.FrameTimeBudget
+  -
+    type: write
+    address: [MAIN, 0x5354210, 0]
+    value_type: float
+    value: [18.1, 18.1]
   # t.MaxFPS
   -
     type: write
@@ -156,6 +210,12 @@ unsafeCheck: true
     address: [MAIN, 0x5379338, 0x780]
     value_type: uint32
     value: 7
+  # r.DynamicRes.FrameTimeBudget
+  -
+    type: write
+    address: [MAIN, 0x5354210, 0]
+    value_type: float
+    value: [16.6, 16.6]
   # t.MaxFPS (default value)
   -
     type: write
