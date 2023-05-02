@@ -71,6 +71,8 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Dragon's Dogma: Dark Arisen | `010032C00AC58000` <br> `010057E00AC56000` | `2CDB9B9D70010E88` ([✅](SaltySD/plugins/FPSLocker/patches/010032C00AC58000/2CDB9B9D70010E88.yaml), v1, 1.0.1) <br> `2D5B93C856CDF009` ([✅](SaltySD/plugins/FPSLocker/patches/010057E00AC56000/2D5B93C856CDF009.yaml), v1, 1.0.1) | 🔴 |  |
 | Dredge | `01008CD0172D6000` | `68B7A194A9BF046A` (❌, v3, 1.0.3) | 🟡 |  |
 | Everspace | `0100DCF0093EC000` | `71873FEB4648FA39` ([✅](SaltySD/plugins/FPSLocker/patches/0100DCF0093EC000/71873FEB4648FA39.yaml), v5, 1.0.5) | 🔴 | [LINK](Methodology/Everspace) |
+| FAR: Changing Tides | `01008A0014A92000` | `7041BC78D64745A1` (◯, v2, 1.2.0) | 🟢 |  |
+| FAR: Lone Sails | `010022700E7D6000` | `CE59C773211A1A49` (◯, v0, 1.0.0) | 🟢 |  |
 | Fate/EXTELLA | `010053E002EA2000` | `76EC789B99A25BA5` (❌, v0, 1.0.0) | 🔵 |  |
 | Fate/EXTELLA LINK | `01001A700C832000` | `97FC79E063E26C9B` (❌, v2, 1.0.2) | 🔵 |  |
 | Fe | `0100D2600736A000` | `4FF8F56B697A0949` (◯, v0, 1.0.0) | 🟢 |  |
