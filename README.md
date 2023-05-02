@@ -322,7 +322,6 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | DETAILS |
 | --- | --- | --- | --- |
-| Ghostrunner | `010090F012916000` | `D3DD5B220DCEB626` (❌, v8, 1.8) |  |
 | RiMS Racing | `01003CD01299E000` | `4232D493269475B2` ([✅](SaltySD/plugins/FPSLocker/patches/01003CD01299E000/4232D493269475B2.yaml), v2, 1.2.0) | [LINK](Methodology/RiMS%20Racing) |
 | TT Isle of Man 2 | `010000400F582000` | `02F2E5C8CBF5A92F` ([✅](SaltySD/plugins/FPSLocker/patches/010000400F582000/02F2E5C8CBF5A92F.yaml), v1, 1.0.1) | [LINK](Methodology/TT%20Isle%20of%20Man%202) |
 | WRC8 | `010087800DCEA000` | `6B0B26802F0DAAAF` ([✅](SaltySD/plugins/FPSLocker/patches/010087800DCEA000/6B0B26802F0DAAAF.yaml), v4, 1.4.0) | [LINK](Methodology/WRC8) |
