@@ -71,6 +71,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Destroy All Humans! | `01009E701356A000` | `72E8F20EBBDBA296` ([✅](SaltySD/plugins/FPSLocker/patches/01009E701356A000/72E8F20EBBDBA296.yaml), v1, 1.0.1) | 🔵 | [LINK](Methodology/Destroy%20All%20Humans) |
 | Disco Elysium - The Final Cut | `01006C5015E84000` | `EAA1EDBEAEF50854` (◯, v9, 1.0.9) | 🟢 |  |
 | Disney Dreamlight Valley | `0100D39012C1A000` | `D6E3A6BB9B65E822` (◯, v16, 1.4.0) | 🟢 |  |
+| Divinity: Original Sin 2 | `010027400CDC6000` | `1BDF62757CF3806E` (❌, v11, 1.0.10) | 🔵 |  |
 | DOOM | `0100416004C00000` | `01ACE43E724259C3` ([✅](SaltySD/plugins/FPSLocker/patches/0100416004C00000/01ACE43E724259C3.yaml), v3, 1.2) | 🟡 | [LINK](Methodology/DOOM) |
 | DOOM Eternal | `0100B1A00D8CE000` | `5AF6F31EAC42DBC0` ([✅](SaltySD/plugins/FPSLocker/patches/0100B1A00D8CE000/5AF6F31EAC42D8C0.yaml), v13, 1.13) | 🟡 | [LINK](Methodology/DOOM%20Eternal) |
 | Dragon's Dogma: Dark Arisen | `010032C00AC58000` <br> `010057E00AC56000` | `2CDB9B9D70010E88` ([✅](SaltySD/plugins/FPSLocker/patches/010032C00AC58000/2CDB9B9D70010E88.yaml), v1, 1.0.1) <br> `2D5B93C856CDF009` ([✅](SaltySD/plugins/FPSLocker/patches/010057E00AC56000/2D5B93C856CDF009.yaml), v1, 1.0.1) | 🔴 |  |
