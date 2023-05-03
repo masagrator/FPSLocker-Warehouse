@@ -65,6 +65,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | CRISIS CORE -FINAL FANTASY VII- REUNION | `01004BC0166CC000` | `44D207EA6428E3F1` ([✅](SaltySD/plugins/FPSLocker/patches/01004BC0166CC000/44D207EA6428E3F1.yaml), v4, 1.0.4) | 🔴 | [LINK](Methodology/CRISIS%20CORE) |
 | Dark Souls Remastered | `01004AB00A260000` | `DF3766A2BB651A3E` (✝️, v3, 1.0.3) | 🔴 | [LINK](Methodology/Dark%20Souls/README.md) |
 | Darksiders II Deathinitive Edition | `010071800BA98000` | `173E2EDEA9E5D940` ([✅](SaltySD/plugins/FPSLocker/patches/010071800BA98000/173E2EDEA9E5D940.yaml), v0, 1.0.0) | 🔵 | [LINK](Methodology/Darksiders%202) |
+| Dawn of the Monsters | `01006960155C4000` | `0A79F00465234A41` (◯, v1, 1.1.10) | 🟢 |  |
 | DC's Justice League: Cosmic Chaos | `0100157015DD8000` | `2BFC784E7E10DD89` (◯, v1, 1.0.1) | 🟢 |  |
 | Death end re;Quest | `0100AEC013DDA000` | `2F5554EBECAE652B` (❌, v1, 1.0.1) | 🔵 |  |
 | Death end re;Quest 2 | `0100EB701568A000` | `6A06F3A2582C0954` (❌, v0, 1.0.0) | 🔵 |  |
