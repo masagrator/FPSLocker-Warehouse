@@ -69,6 +69,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | DEMON GAZE EXTRA | `0100FCC0168FC000` | `58EE9A90F6FE6D4B` (❌, v2, 1.0.2) | 🟡 |  |
 | Destiny Connect: Tick-Tock Travelers | `010069500DD86000` | `5AD84EFD9D28FDDE` ([✅](SaltySD/plugins/FPSLocker/patches/010069500DD86000/5AD84EFD9D28FDDE.yaml), v0, 1.0.0) | 🔵 | [LINK](Methodology/Destiny%20Connect%20Tick-Tock%20Travelers) |
 | Destroy All Humans! | `01009E701356A000` | `72E8F20EBBDBA296` ([✅](SaltySD/plugins/FPSLocker/patches/01009E701356A000/72E8F20EBBDBA296.yaml), v1, 1.0.1) | 🔵 | [LINK](Methodology/Destroy%20All%20Humans) |
+| Diablo II: Resurrected | `0100726014352000` | `7B6D5F0A9B0591B9` (❌, v22, 1.0.3.0) | 🔵 |  |
 | Disco Elysium - The Final Cut | `01006C5015E84000` | `EAA1EDBEAEF50854` (◯, v9, 1.0.9) | 🟢 |  |
 | Disney Dreamlight Valley | `0100D39012C1A000` | `D6E3A6BB9B65E822` (◯, v16, 1.4.0) | 🟢 |  |
 | Divinity: Original Sin 2 | `010027400CDC6000` | `1BDF62757CF3806E` (❌, v11, 1.0.10) | 🔵 |  |
