@@ -72,7 +72,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Dredge | `01008CD0172D6000` | `68B7A194A9BF046A` (❌, v3, 1.0.3) | 🟡 |  |
 | Dusk Diver | `0100B2B00E7AA000` | `FAD1AF4EDC6DB267` ([✅](SaltySD/plugins/FPSLocker/patches/0100B2B00E7AA000/FAD1AF4EDC6DB267.yaml), v6, 1.0.6) | 🔴 |  |
 | Dusk Diver 2 | `01003980174BC000` | `217C9ECF258C0312` ([✅](SaltySD/plugins/FPSLocker/patches/01003980174BC000/217C9ECF258C0312.yaml), v1, 1.0.1) | 🔴 |  |
-| Dying Light | `01008C8012920000` | `8C93B930348C9787` (✝️, v3, 1.0.3) | 🔵 |  |
+| Dying Light | `01008C8012920000` | `8C93B930348C9787` (✝️, v3, 1.0.3) | 🔵 | [LINK](Methodology/Dying%20Light) |
 | Easy Come Easy Golf | `0100ECF01800C000` | `FA0A3A55243FAC21` (◯, v4, 1.9.1) | 🔵 |  |
 | Eiyuden Chronicle: Rising | `010039B015CB6000` | `39DC785D9073C22B` (✝️, v4, 1.9.1) | 🔵 | [LINK](Methodology/Eiyuden%20Chronicle%20Rising) |
 | Embr | `0100CC6013432000` | `473D222EB1BDAD47` (◯, v6, 1.0.6) | 🟢 |  |
