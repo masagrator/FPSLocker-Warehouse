@@ -63,6 +63,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Chef Life - A Restaurant Simulator | `0100F24014280000` | `8BC03B559A77C4CE` (◯, v2, 1.2.0) | 🟢 |  |
 | Crash Team Racing Nitro-Fueled | `0100F9F00C696000` | `1C68951840693051` (◯, v15, 1.0.15) | 🟢 |  |
 | CRISIS CORE -FINAL FANTASY VII- REUNION | `01004BC0166CC000` | `44D207EA6428E3F1` ([✅](SaltySD/plugins/FPSLocker/patches/01004BC0166CC000/44D207EA6428E3F1.yaml), v4, 1.0.4) | 🔴 | [LINK](Methodology/CRISIS%20CORE) |
+| Cult of the Lamb | `01002E7016C46000` | `29A631EFA29ED044` (◯, v11, 1.2.1) | 🟢 |  |
 | Curse of the Dead Gods | `0100D4A0118EA000` | `DB285A63A090884F` (◯, v4, 1.0.0.4) | 🟢 |  |
 | Danganronpa V3: Killing Harmony | `010063F014176000` | `6CBEE0573826FF73` (◯, v2, 1.0.2) | 🟢 |  |
 | Dark Souls Remastered | `01004AB00A260000` | `DF3766A2BB651A3E` (✝️, v3, 1.0.3) | 🔴 | [LINK](Methodology/Dark%20Souls/README.md) |
