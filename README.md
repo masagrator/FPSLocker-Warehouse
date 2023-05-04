@@ -70,7 +70,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Crystar | `01003F2016754000` | `7B41D9CC72C2124D` (◯, v2, 1.0.2) | 🟢 |  |
 | Cult of the Lamb | `01002E7016C46000` | `29A631EFA29ED044` (◯, v11, 1.2.1) | 🟢 |  |
 | Curse of the Dead Gods | `0100D4A0118EA000` | `DB285A63A090884F` (◯, v4, 1.0.0.4) | 🟢 |  |
-| DAEMON X MACHINA | `0100B6400CA56000` | `937209E79E2E0E5D` (❌, v12, 1.4.2a) | 🔵 |  |
+| DAEMON X MACHINA | `0100B6400CA56000` | `937209E79E2E0E5D` (❌, v12, 1.4.2a) | 🟡 | [LINK](Methodology/Daemon%20X%20Machina) |
 | Danganronpa V3: Killing Harmony | `010063F014176000` | `6CBEE0573826FF73` (◯, v2, 1.0.2) | 🟢 |  |
 | Dark Souls Remastered | `01004AB00A260000` | `DF3766A2BB651A3E` (✝️, v3, 1.0.3) | 🔴 | [LINK](Methodology/Dark%20Souls/README.md) |
 | Darksiders Genesis | `0100F2300D4BA000` | `DB17131624D04A9C` (❌, v3, 1.0.3) | 🔵 | [LINK](Methodology/Darksiders%20Genesis) |
