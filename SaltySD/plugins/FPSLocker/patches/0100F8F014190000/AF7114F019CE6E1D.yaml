@@ -63,7 +63,7 @@ unsafeCheck: true
     type: write
     address: [MAIN, 0x64E86B0, 0]
     value_type: float
-    value: [30, 30]
+    value: [0, 0]
 35FPS:
   # r.DynamicRes.FrameTimeBudget
   -
