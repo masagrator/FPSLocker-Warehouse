@@ -29,7 +29,7 @@ unsafeCheck: true
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x85D3128, 0]
+    address: [MAIN, 0x7B0DEB0, 0]
     value_type: float
     value: [20, 20]
   -
@@ -45,7 +45,7 @@ unsafeCheck: true
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x85D3128, 0]
+    address: [MAIN, 0x7B0DEB0, 0]
     value_type: float
     value: [25, 25]
   -
@@ -61,7 +61,7 @@ unsafeCheck: true
   # t.MaxFPS (default value)
   -
     type: write
-    address: [MAIN, 0x85D3128, 0]
+    address: [MAIN, 0x7B0DEB0, 0]
     value_type: float
     value: [0, 0]
 35FPS:
@@ -74,7 +74,7 @@ unsafeCheck: true
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x85D3128, 0]
+    address: [MAIN, 0x7B0DEB0, 0]
     value_type: float
     value: [35, 35]
   -
@@ -90,7 +90,7 @@ unsafeCheck: true
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x85D3128, 0]
+    address: [MAIN, 0x7B0DEB0, 0]
     value_type: float
     value: [40, 40]
   -
@@ -106,7 +106,7 @@ unsafeCheck: true
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x85D3128, 0]
+    address: [MAIN, 0x7B0DEB0, 0]
     value_type: float
     value: [45, 45]
   -
@@ -122,7 +122,7 @@ unsafeCheck: true
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x85D3128, 0]
+    address: [MAIN, 0x7B0DEB0, 0]
     value_type: float
     value: [50, 50]
   -
@@ -138,7 +138,7 @@ unsafeCheck: true
   # t.MaxFPS
   -
     type: write
-    address: [MAIN, 0x85D3128, 0]
+    address: [MAIN, 0x7B0DEB0, 0]
     value_type: float
     value: [55, 55]
   -
@@ -154,6 +154,6 @@ unsafeCheck: true
   # t.MaxFPS (default value)
   -
     type: write
-    address: [MAIN, 0x85D3128, 0]
+    address: [MAIN, 0x7B0DEB0, 0]
     value_type: float
     value: [0, 0]
