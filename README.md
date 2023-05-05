@@ -57,7 +57,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Borderlands 2 | `010096F00FF22000` | `F7C233469F20EE3F` (◯, v2, 1.0.2) | 🟢 |  |
 | Borderlands: The Pre-Sequel | `010007400FF24000` | `090B1F7F7AF35D00` (◯, v1, 1.0.1) | 🟢 |  |
 | BRAVELY DEFAULT II | `01006DC010326000` | `05DE5A7F20BD1532` ([✅](SaltySD/plugins/FPSLocker/patches/01006DC010326000/05DE5A7F20BD1532.yaml), v0, 1.0.0) | 🔴 | [LINK](Methodology/Bravely%20Default%202) |
-| Bright Memory: Infinite | `01001A9018560000` | `323631B628A32D84` (❌, v2, 1.2) | 🔴 |  |
+| Bright Memory: Infinite | `01001A9018560000` | `323631B628A32D84` ([✅](SaltySD/plugins/FPSLocker/patches/01001A9018560000/323631B628A32D84.yaml), v2, 1.2) | 🔴 |  |
 | Bulletstorm | `01003DD00D658000` | `32FC35DF1C50E1F1` (◯, v0, 1.0.0) | 🟢 |  |
 | Call of Cthulhu | `010046000EE40000` | `8F6B002FEB5D0F8E` (❌, v3, 0.1.6) | 🔴 |  |
 | Call of Juarez: Gunslinger | `0100B4700BFC6000` | `EBF7DE558D554C7E` (◯, v5, 1.0.5) | 🟢 |  |
