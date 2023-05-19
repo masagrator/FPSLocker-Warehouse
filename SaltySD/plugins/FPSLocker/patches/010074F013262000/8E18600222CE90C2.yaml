@@ -35,12 +35,6 @@ MASTER_WRITE:
   -
     type: block
     what: timing
-  # red_AtRate
-  -
-    type: write
-    address: [MAIN, 0x1B25528]
-    value_type: float
-    value: 0.99
 20FPS:
   -
     type: write
