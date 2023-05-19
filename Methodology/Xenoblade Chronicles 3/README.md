@@ -19,7 +19,9 @@ Beside that cutscenes animations are hardcoded to 30 FPS and nobody figured out 
 That's why it's necessary to get an offset to determine if we are in cutscene or not to automatically lock to 30 FPS if cutscene is detected.<br>
 Thanks to `Hazerou` for figuring out the most reliable offset for detecting cutscenes.
 
-Game is also using double buffer. To disable it, turn off `Sync Wait` in FPSLocker. Expect some small graphical glitches.
+Game is also using double buffer. To disable it, turn off `Sync Wait` in FPSLocker. Expect some small graphical glitches because of dynamic resolution changes between frames.
+
+DR is adjusted based on GPU work time. When game has overhead over GPU it increases resolution to the point, where RAM is bottlenecking game. But because this is not affecting GPU work time, game increases resolution at the cost of FPS. So without overclocking RAM above 1600 Mhz, OC GPU to 768 MHz can result in worse performance than 460 MHz.
 
 ---
 
