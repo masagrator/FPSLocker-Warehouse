@@ -17,7 +17,7 @@ We need to change it to 1 to unlock >30 FPS. <br>
 2D particle effects are not fixed to framerate, but they are using vsync to set their speed, so at above 30 FPS they are 2x faster.<br>
 3D particle effects are fixed to framerate and there is not known offset to change their speed.<br>
 
-Beside that cutscenes animations are hardcoded to 30 FPS and nobody figured out if it's even possible to render them above 30 FPS with correct speed.<br>
+Beside that cutscenes animations are either hardcoded to 30 FPS or not, but then they are glitching at higher framerates.<br>
 That's why it's necessary to get an offset to determine if we are in cutscene or not to automatically lock to 30 FPS if cutscene is detected.<br>
 Thanks to `Hazerou` for figuring out the most reliable offset for detecting cutscenes.
 
