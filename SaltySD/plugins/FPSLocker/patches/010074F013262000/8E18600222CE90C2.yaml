@@ -32,6 +32,12 @@ MASTER_WRITE:
     address: [MAIN, 0x2369B00]
     value_type: float
     value: 0.0166666666
+  # UI speed
+  -
+    type: write
+    address: [MAIN, 0x1BA0A90, 128]
+    value_type: float
+    value: 0.0666666666
   -
     type: block
     what: timing
@@ -47,6 +53,11 @@ MASTER_WRITE:
     value_type: float
     value: 0.0166666666
   -
+    type: write
+    address: [MAIN, 0x1BA0A90, 128]
+    value_type: float
+    value: 0.05
+  -
     type: block
     what: timing
 25FPS:
@@ -60,6 +71,11 @@ MASTER_WRITE:
     address: [MAIN, 0x2369B00]
     value_type: float
     value: 0.02
+  -
+    type: write
+    address: [MAIN, 0x1BA0A90, 128]
+    value_type: float
+    value: 0.04
 30FPS:
   -
     type: write
@@ -71,6 +87,11 @@ MASTER_WRITE:
     address: [MAIN, 0x2369B00]
     value_type: float
     value: 0.0166666666
+  -
+    type: write
+    address: [MAIN, 0x1BA0A90, 128]
+    value_type: float
+    value: 0.0333333333
 
 # For 35-60 FPS check if cutscene is played. If it is, set 30 FPS lock. If not, disable it.
 35FPS:
@@ -110,6 +131,24 @@ MASTER_WRITE:
     address: [MAIN, 0x2369B00]
     value_type: float
     value: 0.0166666666
+  -
+    type: compare
+    compare_address: [MAIN, 0x1BA0A98]
+    compare_type: "!="
+    compare_value_type: int8
+    compare_value: 1
+    address: [MAIN, 0x1BA0A90, 128]
+    value_type: float
+    value: 0.028571
+  -
+    type: compare
+    compare_address: [MAIN, 0x1BA0A98]
+    compare_type: "!="
+    compare_value_type: int8
+    compare_value: 0
+    address: [MAIN, 0x1BA0A90, 128]
+    value_type: float
+    value: 0.0333333333
 40FPS:
   -
     type: compare
@@ -147,6 +186,24 @@ MASTER_WRITE:
     address: [MAIN, 0x2369B00]
     value_type: float
     value: 0.0166666666
+  -
+    type: compare
+    compare_address: [MAIN, 0x1BA0A98]
+    compare_type: "!="
+    compare_value_type: int8
+    compare_value: 1
+    address: [MAIN, 0x1BA0A90, 128]
+    value_type: float
+    value: 0.025
+  -
+    type: compare
+    compare_address: [MAIN, 0x1BA0A98]
+    compare_type: "!="
+    compare_value_type: int8
+    compare_value: 0
+    address: [MAIN, 0x1BA0A90, 128]
+    value_type: float
+    value: 0.0333333333
 45FPS:
   -
     type: compare
@@ -184,6 +241,24 @@ MASTER_WRITE:
     address: [MAIN, 0x2369B00]
     value_type: float
     value: 0.0166666666
+  -
+    type: compare
+    compare_address: [MAIN, 0x1BA0A98]
+    compare_type: "!="
+    compare_value_type: int8
+    compare_value: 1
+    address: [MAIN, 0x1BA0A90, 128]
+    value_type: float
+    value: 0.0222222222
+  -
+    type: compare
+    compare_address: [MAIN, 0x1BA0A98]
+    compare_type: "!="
+    compare_value_type: int8
+    compare_value: 0
+    address: [MAIN, 0x1BA0A90, 128]
+    value_type: float
+    value: 0.0333333333
 50FPS:
   -
     type: compare
@@ -221,6 +296,24 @@ MASTER_WRITE:
     address: [MAIN, 0x2369B00]
     value_type: float
     value: 0.0166666666
+  -
+    type: compare
+    compare_address: [MAIN, 0x1BA0A98]
+    compare_type: "!="
+    compare_value_type: int8
+    compare_value: 1
+    address: [MAIN, 0x1BA0A90, 128]
+    value_type: float
+    value: 0.02
+  -
+    type: compare
+    compare_address: [MAIN, 0x1BA0A98]
+    compare_type: "!="
+    compare_value_type: int8
+    compare_value: 0
+    address: [MAIN, 0x1BA0A90, 128]
+    value_type: float
+    value: 0.0333333333
 55FPS:
   -
     type: compare
@@ -258,6 +351,24 @@ MASTER_WRITE:
     address: [MAIN, 0x2369B00]
     value_type: float
     value: 0.0166666666
+  -
+    type: compare
+    compare_address: [MAIN, 0x1BA0A98]
+    compare_type: "!="
+    compare_value_type: int8
+    compare_value: 1
+    address: [MAIN, 0x1BA0A90, 128]
+    value_type: float
+    value: 0.01818181818
+  -
+    type: compare
+    compare_address: [MAIN, 0x1BA0A98]
+    compare_type: "!="
+    compare_value_type: int8
+    compare_value: 0
+    address: [MAIN, 0x1BA0A90, 128]
+    value_type: float
+    value: 0.0333333333
 60FPS:
   -
     type: compare
@@ -268,6 +379,15 @@ MASTER_WRITE:
     address: [MAIN, 0x1B41DB0]
     value_type: int32
     value: [1, 1]
+  -
+    type: compare
+    compare_address: [MAIN, 0x1BA0A98]
+    compare_type: "!="
+    compare_value_type: int8
+    compare_value: 0
+    address: [MAIN, 0x1B41DB0]
+    value_type: int32
+    value: [2, 2]
   # Set lowest possible resolution since DR is glitching framebuffer on 60 FPS if we allow even small changes in res
   -
     type: compare
@@ -284,15 +404,24 @@ MASTER_WRITE:
     compare_type: "!="
     compare_value_type: int8
     compare_value: 0
-    address: [MAIN, 0x1B41DB0]
-    value_type: int32
-    value: [2, 2]
+    address: [MAIN, 0x2369B00]
+    value_type: float
+    value: 0.0166666666
+  -
+    type: compare
+    compare_address: [MAIN, 0x1BA0A98]
+    compare_type: "!="
+    compare_value_type: int8
+    compare_value: 1
+    address: [MAIN, 0x1BA0A90, 128]
+    value_type: float
+    value: 0.0166666666
   -
     type: compare
     compare_address: [MAIN, 0x1BA0A98]
     compare_type: "!="
     compare_value_type: int8
     compare_value: 0
-    address: [MAIN, 0x2369B00]
+    address: [MAIN, 0x1BA0A90, 128]
     value_type: float
-    value: 0.0166666666
+    value: 0.0333333333
