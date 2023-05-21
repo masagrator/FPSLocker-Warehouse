@@ -13,7 +13,9 @@ Explanation based on:
 
 This game is using internal vsync signal detection set to 2, which means it skips every second frame. <br>
 We need to change it to 1 to unlock >30 FPS. <br>
-2D animations and particle effects are hardcoded to use 30 FPS, so above 30 FPS they are rendered faster than normal. There is no known offset to patch this.<br>
+2D animations that are not particle effects are fixed to framerate, but they are tweaked for each FPS target.<br>
+2D particle effects are not fixed to framerate, but they are using vsync to set their speed, so at above 30 FPS they are 2x faster.<br>
+3D particle effects are fixed to framerate and there is not known offset to change their speed.<br>
 
 Beside that cutscenes animations are hardcoded to 30 FPS and nobody figured out if it's even possible to render them above 30 FPS with correct speed.<br>
 That's why it's necessary to get an offset to determine if we are in cutscene or not to automatically lock to 30 FPS if cutscene is detected.<br>
