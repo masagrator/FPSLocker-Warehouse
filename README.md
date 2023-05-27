@@ -69,6 +69,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Crash Bandicoot N. Sane Trilogy | `0100D1B006744000` | `29E1A37D84227147` (◯, v0, 1.0.0) | 🟢 |  |
 | Crash Bandicoot 4: It's About Time | `010073401175E000` | `E8DB38F170B0149D` ([✅](SaltySD/plugins/FPSLocker/patches/010073401175E000/E8DB38F170B0149D.yaml), v2, 1.2) | 🔵 |  |
 | Crash Team Racing Nitro-Fueled | `0100F9F00C696000` | `1C68951840693051` (◯, v15, 1.0.15) | 🟢 |  |
+| Cris Tales | `0100B0400EBC4000` | `8A1DF79432172B4D` (◯, v3, 1.03) | 🟢 |  |
 | CRISIS CORE -FINAL FANTASY VII- REUNION | `01004BC0166CC000` | `44D207EA6428E3F1` ([✅](SaltySD/plugins/FPSLocker/patches/01004BC0166CC000/44D207EA6428E3F1.yaml), v4, 1.0.4) | 🔴 | [LINK](Methodology/CRISIS%20CORE) |
 | Crysis Remastered | `0100E66010ADE000` | `45CE2B6625A35771` (✝️, v8, 1.8.0) | 🔴 | [LINK](Methodology/Crysis%20Remastered) |
 | Crysis 2 Remastered | `0100582010AE0000` | `B3967105033ACC08` (✝️, v3, 1.3.0) | 🔴 | [LINK](Methodology/Crysis%202%20Remastered) |
