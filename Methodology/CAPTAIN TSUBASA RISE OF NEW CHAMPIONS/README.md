@@ -12,4 +12,4 @@ Explanation based on:
 > Details
 
 Plugin alone can set FPS above 30, but game is using double buffer, so for anything above 30 FPS game jumps between 30<->60 FPS.
-nvnWindowBuilderSetTexture value is not hardcoded, though changing it in functions originally setting this value causes segfault anyway.
+nvnWindowBuilderSetTexture value is not hardcoded, but changing it to use triple buffering results in glitched output, so it seems game is coded to take advantage of double buffer.
