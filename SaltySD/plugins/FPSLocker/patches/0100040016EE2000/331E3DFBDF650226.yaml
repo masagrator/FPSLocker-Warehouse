@@ -216,4 +216,4 @@ unsafeCheck: true
     type: write
     address: [MAIN, 0x6220790, 0]
     value_type: int32
-    value: [0, 0]\
+    value: [0, 0]
