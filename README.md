@@ -43,6 +43,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | American Fugitive | `010002B00C534000` | `375A0E11B2397340` (◯, v9, 1.1.1) | 🟢 |  |
 | Ancestors Legacy | `01009EE0111CC000` | `EE20B8DD92B8F9B4` ([✅](SaltySD/plugins/FPSLocker/patches/01009EE0111CC000/EE20B8DD92B8F9B4.yaml)[➕](atmosphere/contents/01009EE0111CC000), v1, 1.1.0) | 🔴 | [LINK](Methodology/Ancestors%20Legacy) |
 | Animal Crossing: New Horizons | `01006F8002326000` | `A31F81D41E1039C5` (✝️, v5, 1.1.4) | 🟡 | [LINK](Methodology/Animal%20Crossing%20New%20Horizons) |
+| Atelier Lydie & Suelle: The Alchemist and the Mysterious Painting DX | `01001A5014220000` | `32EB581C7D9BE094` (◯, v3, 1.0.3) | 🟢 |  |
 | Atelier Ryza: Ever Darkness & the Secret Hideout | `0100D1900EC80000` | `6BAE122EA063FFEB` (◯, v8, 1.0.8) | 🟢 |  |
 | Atelier Ryza 2: Lost Legends & the Secret Fairy | `01009A9012022000` | `C2979457A5785216` (◯, v7, 1.0.7) | 🟢 |  |
 | Atelier Ryza 3: Alchemist of the End & the Secret Key | `010095E018944000` | `EFD5BFE49BB77DCD` (◯, v5, 1.3.0) | 🟢 |  |
