@@ -48,6 +48,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Atelier Ryza | `0100D1900EC80000` | `6BAE122EA063FFEB` (◯, v8, 1.0.8) | 🟢 |  |
 | Atelier Ryza 2 | `01009A9012022000` | `C2979457A5785216` (◯, v7, 1.0.7) | 🟢 |  |
 | Atelier Ryza 3 | `010095E018944000` | `EFD5BFE49BB77DCD` (◯, v5, 1.3.0) | 🟢 |  |
+| Atelier Shallie | `010005C00EE90000` | `AAB0450A965202EC` (◯, v0, 1.0.0) | 🟢 |  |
 | Atelier Sophie | `0100D8701421C000` | `9C95108FD8F7464A` (◯, v3, 1.0.3) | 🟢 |  |
 | Atelier Sophie 2 | `010082A01538E000` | `4A1B406278346C2B` (◯, v8, 1.0.8) | 🟢 |  |
 | ASTRAL CHAIN | `01007300020FA000` | `4B159F0F7A360669` (❌, v1, 1.0.1) | 🟡 |  |
