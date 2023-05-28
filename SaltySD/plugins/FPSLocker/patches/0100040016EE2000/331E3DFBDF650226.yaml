@@ -16,6 +16,12 @@ unsafeCheck: true
     address: [MAIN, 0x69AEE10, 0]
     value_type: float
     value: [15, 15]
+  # t.VSync (default value) - game really struggles to get 60 FPS with this turned on
+  -
+    type: write
+    address: [MAIN, 0x6220790, 0]
+    value_type: int32
+    value: [1, 1]
   -
     type: block
     what: timing
@@ -32,6 +38,12 @@ unsafeCheck: true
     address: [MAIN, 0x69AEE10, 0]
     value_type: float
     value: [20, 20]
+  # t.VSync (default value)
+  -
+    type: write
+    address: [MAIN, 0x6220790, 0]
+    value_type: int32
+    value: [1, 1]
   -
     type: block
     what: timing
@@ -48,6 +60,12 @@ unsafeCheck: true
     address: [MAIN, 0x69AEE10, 0]
     value_type: float
     value: [25, 25]
+  # t.VSync (default value)
+  -
+    type: write
+    address: [MAIN, 0x6220790, 0]
+    value_type: int32
+    value: [1, 1]
   -
     type: block
     what: timing
@@ -64,6 +82,12 @@ unsafeCheck: true
     address: [MAIN, 0x69AEE10, 0]
     value_type: float
     value: [0, 0]
+  # t.VSync (default value)
+  -
+    type: write
+    address: [MAIN, 0x6220790, 0]
+    value_type: int32
+    value: [1, 1]
 35FPS:
   # r.DynamicRes.FrameTimeBudget
   -
@@ -77,6 +101,12 @@ unsafeCheck: true
     address: [MAIN, 0x69AEE10, 0]
     value_type: float
     value: [35, 35]
+  # t.VSync
+  -
+    type: write
+    address: [MAIN, 0x6220790, 0]
+    value_type: int32
+    value: [0, 0]
   -
     type: block
     what: timing
@@ -93,6 +123,12 @@ unsafeCheck: true
     address: [MAIN, 0x69AEE10, 0]
     value_type: float
     value: [40, 40]
+  # t.VSync
+  -
+    type: write
+    address: [MAIN, 0x6220790, 0]
+    value_type: int32
+    value: [0, 0]
   -
     type: block
     what: timing
@@ -109,6 +145,12 @@ unsafeCheck: true
     address: [MAIN, 0x69AEE10, 0]
     value_type: float
     value: [45, 45]
+  # t.VSync
+  -
+    type: write
+    address: [MAIN, 0x6220790, 0]
+    value_type: int32
+    value: [0, 0]
   -
     type: block
     what: timing
@@ -125,6 +167,12 @@ unsafeCheck: true
     address: [MAIN, 0x69AEE10, 0]
     value_type: float
     value: [50, 50]
+  # t.VSync
+  -
+    type: write
+    address: [MAIN, 0x6220790, 0]
+    value_type: int32
+    value: [0, 0]
   -
     type: block
     what: timing
@@ -141,6 +189,12 @@ unsafeCheck: true
     address: [MAIN, 0x69AEE10, 0]
     value_type: float
     value: [55, 55]
+  # t.VSync
+  -
+    type: write
+    address: [MAIN, 0x6220790, 0]
+    value_type: int32
+    value: [0, 0]
   -
     type: block
     what: timing
@@ -151,9 +205,15 @@ unsafeCheck: true
     address: [MAIN, 0x69B8C78, 0]
     value_type: float
     value: [16.66, 16.66]
-  # t.MaxFPS (default value)
+  # t.MaxFPS
   -
     type: write
     address: [MAIN, 0x69AEE10, 0]
     value_type: float
-    value: [0, 0]
+    value: [60, 60]
+  # t.VSync
+  -
+    type: write
+    address: [MAIN, 0x6220790, 0]
+    value_type: int32
+    value: [0, 0]\
