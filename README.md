@@ -66,7 +66,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Castle Renovator | `010013801A0E4000` | `34E094252A069FE9` (◯, v0, 1.0.0) | 🟢 |  |
 | Catherine: Full Body | `0100BF00112C0000` | `93A79C77DA81F7F1` (❌, v1, 1.0.1) | 🟡 |  |
 | Chef Life - A Restaurant Simulator | `0100F24014280000` | `8BC03B559A77C4CE` (◯, v2, 1.2.0) | 🟢 |  |
-| Clive 'N' Wrench | `0100C6C010AE4000` | `FE211DBFAD6EA549` (❌, v5, 1.0.6) | 🔵 |  |
+| Clive 'N' Wrench | `0100C6C010AE4000` | `FE211DBFAD6EA549` ([✅](SaltySD/plugins/FPSLocker/patches/0100C6C010AE4000/FE211DBFAD6EA549.yaml), v5, 1.0.6) | 🔵 |  |
 | Cobra Kai: The Karate Kid Saga Continues | `01005790110F0000` | `97E45918D2113640`  (◯, v2, 1.0.2) | 🟢 |  |
 | Cobra Kai 2: Dojos Rising | `0100BD9015B54000` | `BAD8504B110A21AE`  (◯, v4, 2.20.8) | 🟢 |  |
 | Conway: Disappearance at Dahlia View | `010075C01405C000` | `BB52C1E6BC85DA52` (◯, v0, 1.0.0.0) | 🟢 |  |
