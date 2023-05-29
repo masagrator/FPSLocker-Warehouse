@@ -43,6 +43,8 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | American Fugitive | `010002B00C534000` | `375A0E11B2397340` (◯, v9, 1.1.1) | 🟢 |  |
 | Ancestors Legacy | `01009EE0111CC000` | `EE20B8DD92B8F9B4` ([✅](SaltySD/plugins/FPSLocker/patches/01009EE0111CC000/EE20B8DD92B8F9B4.yaml)[➕](atmosphere/contents/01009EE0111CC000), v1, 1.1.0) | 🔴 | [LINK](Methodology/Ancestors%20Legacy) |
 | Animal Crossing: New Horizons | `01006F8002326000` | `A31F81D41E1039C5` (✝️, v5, 1.1.4) | 🟡 | [LINK](Methodology/Animal%20Crossing%20New%20Horizons) |
+| Assassin's Creed The Ezio Collection | `0100670014482000` | `824B38A25986B2AB` (❌, v3, 1.3) <br> `2B59D6C677258A2A` (❌, v3, 1.3) <br> `0AE4D1770B196094` (❌, v3, 1.3) <br> `729AB05205B9B7E4` (❌, v3, 1.3) | 🔵 |  |
+| ASTRAL CHAIN | `01007300020FA000` | `4B159F0F7A360669` (❌, v1, 1.0.1) | 🟡 |  |
 | Atelier Ayesha | `0100D9D00EE8C000` | `B9146E1CAD9E36BA` (◯, v0, 1.0.0) | 🟢 |  |
 | Atelier Escha & Logy | `0100E5600EE8E000` | `4BBB3B3455D306C6` (◯, v0, 1.0.0) | 🟢 |  |
 | Atelier Firis | `010023201421E000` | `8BB29E319CCE6357` (◯, v4, 1.0.4) | 🟢 |  |
@@ -57,7 +59,6 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Atelier Sophie | `0100D8701421C000` | `9C95108FD8F7464A` (◯, v3, 1.0.3) | 🟢 |  |
 | Atelier Sophie 2 | `010082A01538E000` | `4A1B406278346C2B` (◯, v8, 1.0.8) | 🟢 |  |
 | Atelier Totori | `01009BC00C6F6000` | `4FD4BFE66C5353D4` (◯, v1, 1.0.1) | 🟢 |  |
-| ASTRAL CHAIN | `01007300020FA000` | `4B159F0F7A360669` (❌, v1, 1.0.1) | 🟡 |  |
 | Attack on Titan 2 | `010034500641A000` | `586EA519C1CDFAE7` (◯, v14, 1.0.14) | 🟢 |  |
 | Aztech Forgotten Gods | `01006B4014564000` | `65EF4BC77B974E05` (◯, v8, 1.0.8) | 🟢 |  |
 | BALAN WONDERWORLD | `0100438012EC8000` | `1A0EAEC3AE90B018` ([✅](SaltySD/plugins/FPSLocker/patches/0100438012EC8000/1A0EAEC3AE90B018.yaml), v1, 1.01) | 🔴 |  |
