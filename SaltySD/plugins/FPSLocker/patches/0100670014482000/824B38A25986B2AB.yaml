@@ -1,5 +1,6 @@
 # Assassin's Creed: The Ezio Collection - Assassin's Creed 2
 # BID: 824B38A25986B2AB
+# Scenes exclusively 2D are tied to framerate, so at 60 FPS they are 2x faster. 
 
 unsafeCheck: true
 
