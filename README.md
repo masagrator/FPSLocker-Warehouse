@@ -12,6 +12,7 @@ Read SaltyNX readme to check which games are not compatible with the plugin.
 ---
 
 Column with colors stores info if the plugin is enough to go above 30 FPS or it requires additional patches.<br>
+This involves only handheld mode. For docked mode different color could be attached.<br>
 Patches status concern only FPSLocker "LOCK" patch format. There may exist cheat/IPS patch/mod that unlocks 60 FPS already.<br>
 As the list is filled by community, it may not be up to date.
 
@@ -43,10 +44,12 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | American Fugitive | `010002B00C534000` | `375A0E11B2397340` (◯, v9, 1.1.1) | 🟢 |  |
 | Ancestors Legacy | `01009EE0111CC000` | `EE20B8DD92B8F9B4` ([✅](SaltySD/plugins/FPSLocker/patches/01009EE0111CC000/EE20B8DD92B8F9B4.yaml)[➕](atmosphere/contents/01009EE0111CC000), v1, 1.1.0) | 🔴 | [LINK](Methodology/Ancestors%20Legacy) |
 | Animal Crossing: New Horizons | `01006F8002326000` | `A31F81D41E1039C5` (✝️, v5, 1.1.4) | 🟡 | [LINK](Methodology/Animal%20Crossing%20New%20Horizons) |
-| Assassin's Creed 2 | `0100670014482000` | `824B38A25986B2AB` ([✅](SaltySD/plugins/FPSLocker/patches/0100670014482000/824B38A25986B2AB.yaml), v3, 1.3) | 🔵 |  |
+| Assassin's Creed II | `0100670014482000` | `824B38A25986B2AB` ([✅](SaltySD/plugins/FPSLocker/patches/0100670014482000/824B38A25986B2AB.yaml), v3, 1.3) | 🔵 |  |
 | Assassin's Creed Brotherhood | `0100670014482001` | `2B59D6C677258A2A` ([✅](SaltySD/plugins/FPSLocker/patches/0100670014482001/2B59D6C677258A2A.yaml), v3, 1.3) | 🔵 |  |
 | Assassin's Creed Revelations | `0100670014482002` | `0AE4D1770B196094` ([✅](SaltySD/plugins/FPSLocker/patches/0100670014482002/0AE4D1770B196094.yaml), v3, 1.3) | 🔵 |  |
 | Assassin's Creed Revelations - The Lost Archive | `0100670014482003` | `729AB05205B9B7E4` (◯, v3, 1.3) | 🟢 |  |
+| Assassin's Creed IV Black Flag | `010044700DEB0000` | `85F5D5AB6187F602` (◯, v0, 1.0.0) | 🟢 |  |
+| Assassin's Creed Rogue | `010044700DEB0001` | `3DEF0E36AA8C6592` (❌, v0, 1.0.0) | 🔵 |  |
 | ASTRAL CHAIN | `01007300020FA000` | `4B159F0F7A360669` (❌, v1, 1.0.1) | 🟡 |  |
 | Atelier Ayesha | `0100D9D00EE8C000` | `B9146E1CAD9E36BA` (◯, v0, 1.0.0) | 🟢 |  |
 | Atelier Escha & Logy | `0100E5600EE8E000` | `4BBB3B3455D306C6` (◯, v0, 1.0.0) | 🟢 |  |
