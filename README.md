@@ -44,7 +44,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Ancestors Legacy | `01009EE0111CC000` | `EE20B8DD92B8F9B4` ([✅](SaltySD/plugins/FPSLocker/patches/01009EE0111CC000/EE20B8DD92B8F9B4.yaml)[➕](atmosphere/contents/01009EE0111CC000), v1, 1.1.0) | 🔴 | [LINK](Methodology/Ancestors%20Legacy) |
 | Animal Crossing: New Horizons | `01006F8002326000` | `A31F81D41E1039C5` (✝️, v5, 1.1.4) | 🟡 | [LINK](Methodology/Animal%20Crossing%20New%20Horizons) |
 | Assassin's Creed 2 | `0100670014482000` | `824B38A25986B2AB` ([✅](SaltySD/plugins/FPSLocker/patches/0100670014482000/824B38A25986B2AB.yaml), v3, 1.3) | 🔵 |  |
-| Assassin's Creed Brotherhood | `0100670014482001` | `2B59D6C677258A2A` (❌, v3, 1.3) | 🔵 |  |
+| Assassin's Creed Brotherhood | `0100670014482001` | `2B59D6C677258A2A` ([✅](SaltySD/plugins/FPSLocker/patches/0100670014482001/2B59D6C677258A2A.yaml), v3, 1.3) | 🔵 |  |
 | Assassin's Creed Lineage / Embers | `0100670014482003` | `729AB05205B9B7E4` (❌, v3, 1.3) | 🔵 |  |
 | Assassin's Creed Revelations | `0100670014482002` | `0AE4D1770B196094` (❌, v3, 1.3) | 🔵 |  |
 | ASTRAL CHAIN | `01007300020FA000` | `4B159F0F7A360669` (❌, v1, 1.0.1) | 🟡 |  |
