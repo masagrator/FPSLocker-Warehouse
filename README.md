@@ -40,6 +40,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | A Hat in Time | `010056E00853A000` | `746F0D697EEEE2DD` ([✅](SaltySD/plugins/FPSLocker/patches/010056E00853A000/746F0D697EEEE2DD.yaml), v4, 1.0.4) | 🔴 |  |
 | ABZU | `0100C1300BBC6000` | `59719CFCD1671B98` ([✅](SaltySD/plugins/FPSLocker/patches/0100C1300BBC6000/59719CFCD1671B98.yaml), v0, 1.0.0) | 🔴 | [LINK](Methodology/ABZU) |
 | Advance Wars 1+2: Re-Boot Camp | `0100300012F2A000` | `320A17744AEFD67F`  ([✅](SaltySD/plugins/FPSLocker/patches/0100300012F2A000/320A17744AEFD67F.yaml), v0, 1.0.0) | 🔴 | [LINK](Methodology/Advance%20Wars%201%2B2) |
+| Alfred Hitchcock - Vertigo | `0100DC7013F14000` | `9D5ABEC66FEC1D77` (◯, v1, 1.0.1) | 🟢 |  |
 | Alien: Isolation | `010075D00E8BA000` | `397C054A3D25D488` (✝️, v4, 1.1.4_60709) | 🟣 | [LINK](Methodology/Alien%20Isolation) |
 | Alterity Experience | `010056F0186D0000` | `E4F041624093998D` (◯, v1, 1.0) | 🟢 |  |
 | American Fugitive | `010002B00C534000` | `375A0E11B2397340` (◯, v9, 1.1.1) | 🟢 |  |
