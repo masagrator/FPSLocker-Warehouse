@@ -3,6 +3,12 @@
 
 unsafeCheck: true
 
+MASTER_WRITE:
+  -
+    type: bytes
+    main_offset: 0x8AA9FBC
+    value_type: int8
+    value: 0x53
 15FPS:
   # r.DynamicRes.FrameTimeBudget = 0.87 * (1000/FPS) cutted to 2 decimals
   -
