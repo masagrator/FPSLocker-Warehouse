@@ -1,9 +1,15 @@
 # Ancestors Legacy 1.1.0
 # BID: EE20B8DD92B8F9B4
-# To remove double buffer it requires separate mod!
 
 unsafeCheck: true
 
+# Disable setting double buffer
+MASTER_WRITE:
+  -
+    type: bytes
+    main_offset: 0x41BAB80
+    value_type: int8
+    value: 0x53
 15FPS:
   # t.MaxFPS
   -
