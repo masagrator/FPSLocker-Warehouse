@@ -162,7 +162,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Dying Light | `01008C8012920000` | `8C93B930348C9787` (✝️, v5, 1.0.5) | 🔵 | [LINK](Methodology/Dying%20Light) |
 | Earthfall: Alien Horde | `0100DFC00E472000` | `448C08A9533F3CAD`  ([✅](SaltySD/plugins/FPSLocker/patches/0100DFC00E472000/448C08A9533F3CAD.yaml), v1, 1.0.1) | 🔵 |  |
 | Easy Come Easy Golf | `0100ECF01800C000` | `FA0A3A55243FAC21` (◯, v4, 1.9.1) | 🔵 |  |
-| Eiyuden Chronicle: Rising | `010039B015CB6000` | `39DC785D9073C22B` (✝️, v2, 1.02) | 🔵 | [LINK](Methodology/Eiyuden%20Chronicle%20Rising) |
+| Eiyuden Chronicle: Rising | `010039B015CB6000` | `39DC785D9073C22B` ([✅](SaltySD/plugins/FPSLocker/patches/010039B015CB6000/39DC785D9073C22B.yaml), v2, 1.02) | 🔵 |  |
 | Embr | `0100CC6013432000` | `473D222EB1BDAD47` (◯, v6, 1.0.6) | 🟢 |  |
 | Everspace | `0100DCF0093EC000` | `71873FEB4648FA39` ([✅](SaltySD/plugins/FPSLocker/patches/0100DCF0093EC000/71873FEB4648FA39.yaml), v5, 1.0.5) | 🔴 | [LINK](Methodology/Everspace) |
 | FAR: Changing Tides | `01008A0014A92000` | `7041BC78D64745A1` (◯, v2, 1.2.0) | 🟢 |  |
