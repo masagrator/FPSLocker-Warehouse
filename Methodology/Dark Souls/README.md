@@ -12,3 +12,4 @@ Explanation based on:
 > Details
 
 Game is using internal FPS lock that is also used to tie game speed to framerate. So when FPS drops, game slows down.
+Above 30 FPS patch locks itself to 30 FPS when using ladders because otherwise there is a chance that you can fall down through ground when exiting ladder sequence.
