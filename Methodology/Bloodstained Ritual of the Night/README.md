@@ -12,9 +12,7 @@ Explanation based on:
 > Details
 
 Plugin alone can set FPS above 30, but because of dynamic resolution set to 28 ms performance is subpar. It must be patched.<br>
-**WARNING**: Game is using double buffer. Since it cannot be safely edited whenever we want with patch, you must install additional mod to remove it.<br>
-You can find it [HERE](../../atmosphere/contents/0100BF500207C000/romfs/BloodstainedRotN/Content/Paks/pakchunk0-Switch_1_P.pak)<br>
-Put it to `atmosphere/contents/0100BF500207C000/romfs/BloodstainedRotN/Content/Paks/` (if some folder doesn't exist, create it yourself).
+Game also uses double buffer. To make game triple buffer you must find string `nvn.NumBufferedFrames` stored as UTF-16-LE and change at least one character to anything else before game initializes.
 
 # How to find offsets
 
