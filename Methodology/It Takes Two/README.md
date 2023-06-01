@@ -11,13 +11,7 @@ Explanation based on:
 
 > Details
 
-Plugin alone can set FPS above 30, but game is using double buffer. We can disable it, but only with LayeredFS mod because we cannot change buffered frames number whenever we want. 
-
-Download mod disabling double buffer from [HERE](atmosphere/contents/010092A0172E4000/romfs/Nuts/Content/Paks/Nuts-Switch_p.pak), put file to:
-```
-atmosphere/contents/010092A0172E4000/romfs/Nuts/Content/Paks/
-```
-If any folder doesn't exist, create it.
+Plugin alone can set FPS above 30, but game is using double buffer. We can disable it by finding string `nvn.NumBufferedFrames` stored as UTF-16-LE and changing at least one character to something else before game initializes.
 
 Plus is using dynamic resolution which timing is adjusted per level. We need to tweak it.
 
