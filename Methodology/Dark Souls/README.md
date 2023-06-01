@@ -11,5 +11,4 @@ Explanation based on:
 
 > Details
 
-Game is using internal FPS lock and everything related to FPS and game speed is reevaluated on each next frame, so we cannot write properly working patch.
-For dedicated cheat file go [HERE](https://gbatemp.net/threads/dark-souls-60-fps-mod.557760/)
+Game is using internal FPS lock that is also used to tie game speed to framerate. So when FPS drops, game slows down.
