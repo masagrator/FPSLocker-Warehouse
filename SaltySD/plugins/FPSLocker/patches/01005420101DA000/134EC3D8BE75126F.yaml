@@ -19,7 +19,7 @@ MASTER_WRITE:
     main_offset: 0x2B31200
     value_type: uint32
     value: 33333333
-  # Few graphical tweaks that improve performance while not affecting visible graphics quality
+  # Few graphical tweaks that improve performance while not affecting negatively visible graphics quality
   - # Decrease shadow resolution from overkill 4096 to 1536
     type: bytes
     main_offset: 0x7B8FE8
