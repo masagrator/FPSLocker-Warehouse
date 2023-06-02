@@ -1,7 +1,6 @@
 # The Legend of Heroes: Trails of Cold Steel III 1.0.1
 # BID: 134EC3D8BE75126F
-# For now lipsync time is tied to framerate, so at 60 FPS it ends 2x faster 
-# Also button polling is 2x more sensitive to holding any button
+# Button polling is 2x more sensitive to holding any button
 
 unsafeCheck: true
 
@@ -21,6 +20,12 @@ MASTER_WRITE:
     value_type: uint32
     value: 33333333
 15FPS:
+  # Lipsync length factor = (FPS/30) * 200
+  -
+    type: write
+    address: [MAIN, 0xDC96B8, 0x40]
+    value_type: uint32
+    value: 100
   -
     type: write
     address: [MAIN, 0x2B31200]
@@ -30,6 +35,12 @@ MASTER_WRITE:
     type: block
     what: timing
 20FPS:
+  # Lipsync length factor
+  -
+    type: write
+    address: [MAIN, 0xDC96B8, 0x40]
+    value_type: uint32
+    value: 134
   -
     type: write
     address: [MAIN, 0x2B31200]
@@ -39,6 +50,12 @@ MASTER_WRITE:
     type: block
     what: timing
 25FPS:
+  # Lipsync length factor
+  -
+    type: write
+    address: [MAIN, 0xDC96B8, 0x40]
+    value_type: uint32
+    value: 167
   -
     type: write
     address: [MAIN, 0x2B31200]
@@ -48,12 +65,24 @@ MASTER_WRITE:
     type: block
     what: timing
 30FPS:
+  # Lipsync length factor (default value)
+  -
+    type: write
+    address: [MAIN, 0xDC96B8, 0x40]
+    value_type: uint32
+    value: 200
   - # default value
     type: write
     address: [MAIN, 0x2B31200]
     value_type: uint32
     value: 33333333
 35FPS:
+  # Lipsync length factor
+  -
+    type: write
+    address: [MAIN, 0xDC96B8, 0x40]
+    value_type: uint32
+    value: 234
   -
     type: write
     address: [MAIN, 0x2B31200]
@@ -63,6 +92,12 @@ MASTER_WRITE:
     type: block
     what: timing
 40FPS:
+  # Lipsync length factor
+  -
+    type: write
+    address: [MAIN, 0xDC96B8, 0x40]
+    value_type: uint32
+    value: 267
   -
     type: write
     address: [MAIN, 0x2B31200]
@@ -72,6 +107,12 @@ MASTER_WRITE:
     type: block
     what: timing
 45FPS:
+  # Lipsync length factor
+  -
+    type: write
+    address: [MAIN, 0xDC96B8, 0x40]
+    value_type: uint32
+    value: 300
   -
     type: write
     address: [MAIN, 0x2B31200]
@@ -81,6 +122,12 @@ MASTER_WRITE:
     type: block
     what: timing
 50FPS:
+  # Lipsync length factor
+  -
+    type: write
+    address: [MAIN, 0xDC96B8, 0x40]
+    value_type: uint32
+    value: 334
   -
     type: write
     address: [MAIN, 0x2B31200]
@@ -90,6 +137,12 @@ MASTER_WRITE:
     type: block
     what: timing
 55FPS:
+  # Lipsync length factor
+  -
+    type: write
+    address: [MAIN, 0xDC96B8, 0x40]
+    value_type: uint32
+    value: 367
   -
     type: write
     address: [MAIN, 0x2B31200]
@@ -99,6 +152,12 @@ MASTER_WRITE:
     type: block
     what: timing
 60FPS:
+  # Lipsync length factor
+  -
+    type: write
+    address: [MAIN, 0xDC96B8, 0x40]
+    value_type: uint32
+    value: 400
   -
     type: write
     address: [MAIN, 0x2B31200]
