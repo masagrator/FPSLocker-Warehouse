@@ -246,6 +246,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | LOST SPHEAR | `010077B0038B2000` | `641A9243BA35C638` (◯, v5, 1.3.1) | 🟢 |  |
 | Luigi's Mansion 3 | `0100DCA0064A6000` | `79E5950FFA85ACF6` (✝️, v5, 1.4.0) | 🟣 | [LINK](Methodology/Luigi's%20Mansion%203) |
 | Maglam Lord | `01002C0015644000` | `3A3C781930CB8201` ([✅](SaltySD/plugins/FPSLocker/patches/01002C0015644000/3A3C781930CB8201.yaml), v0, 1.00) | 🔴 |  |
+| Maquette | `0100861018480000` | `B0F09EE3E404D549` (❌, v0, 1.0.0) | 🔵 |  |
 | Mario + Rabbids Kingdom Battle | `010067300059A000` | `3B39E0C06B8841F1` (◯, v9, 1.9.589692) | 🟢 |  |
 | Mario + Rabbids Sparks of Hope | `0100317013770000` | `553C2A1818237255` (◯, v3, 1.3.2145477) | 🟢 |  |
 | Mark of the Ninja: Remastered | `01009A700A538000` | `AE324830FE37FC72` (◯, v2, 1.0.2) | 🟢 |  |
@@ -410,8 +411,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | V-Rally 4 | `010064400B138000` | `EB8A679B5DDD0060` ([✅](SaltySD/plugins/FPSLocker/patches/010064400B138000/EB8A679B5DDD0060.yaml), v2, 1.2.0) | 🔵 | [LINK](Methodology/V-Rally%204) |
 | Valkyria Chronicles 4 | `01005C600AC68000` | `3758602AA47ADD37` (❌, v0, 1.0.0) | 🟡 | [LINK](Methodology/Valkyria%20Chronicles%204) |
 | Vampyr | `01000BD00CE64000` | `E417100FFEEFD1DE` ([✅](SaltySD/plugins/FPSLocker/patches/01000BD00CE64000/E417100FFEEFD1DE.yaml), v2, 0.4) | 🔵 | [LINK](Methodology/Vampyr) |
-| Warhammer 40,000: Boltgun | `01005FD017E60000` | `448B5EEE940FF0B0` ([✅]( 
-SaltySD/plugins/FPSLocker/patches/01005FD017E60000/448B5EEE940FF0B0.yaml), v2, 1.0.0.2) | 🔴 |  |
+| Warhammer 40,000: Boltgun | `01005FD017E60000` | `448B5EEE940FF0B0` ([✅](SaltySD/plugins/FPSLocker/patches/01005FD017E60000/448B5EEE940FF0B0.yaml), v2, 1.0.0.2) | 🔴 |  |
 | Warhammer 40000: Shootas, Blood & Teef | `010088B0155E2000` | `C9300E99B4975DCF` (◯, v3, 1.0.3_Switch) | 🟢 |  |
 | WARRIORS OROCHI 4 | `010016A00AEC0000` | `5C9CCD358BE85FC9` ([✅](SaltySD/plugins/FPSLocker/patches/010016A00AEC0000/5C9CCD358BE85FC9.yaml), v8, 1.0.13) | 🔴 |  |
 | What Remains of Edith Finch | `010038900DFE0000` | `E9578A470B175851` ([✅](SaltySD/plugins/FPSLocker/patches/010038900DFE0000/E9578A470B175851.yaml), v0, 1.0.0) | 🔴 | [LINK](Methodology/What%20Remains%20of%20Edith%20Finch) |
