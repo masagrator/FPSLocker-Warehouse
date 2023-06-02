@@ -4,6 +4,12 @@
 unsafeCheck: true
 
 15FPS:
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x923DD10, 0]
+    value_type: int32
+    value: [0, 0]
   # r.DynamicRes.FrameTimeBudget (1000/FPS) cutted to 2 decimals
   -
     type: write
@@ -20,6 +26,12 @@ unsafeCheck: true
     type: block
     what: timing
 20FPS:
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x923DD10, 0]
+    value_type: int32
+    value: [0, 0]
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
@@ -36,6 +48,12 @@ unsafeCheck: true
     type: block
     what: timing
 25FPS:
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x923DD10, 0]
+    value_type: int32
+    value: [0, 0]
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
@@ -52,6 +70,12 @@ unsafeCheck: true
     type: block
     what: timing
 30FPS:
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x923DD10, 0]
+    value_type: int32
+    value: [0, 0]
   # r.DynamicRes.FrameTimeBudget (default value)
   -
     type: write
@@ -65,6 +89,12 @@ unsafeCheck: true
     value_type: float
     value: [0, 0]
 35FPS:
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x923DD10, 0]
+    value_type: int32
+    value: [0, 0]
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
@@ -81,6 +111,12 @@ unsafeCheck: true
     type: block
     what: timing
 40FPS:
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x923DD10, 0]
+    value_type: int32
+    value: [0, 0]
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
@@ -97,6 +133,12 @@ unsafeCheck: true
     type: block
     what: timing
 45FPS:
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x923DD10, 0]
+    value_type: int32
+    value: [0, 0]
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
@@ -113,6 +155,12 @@ unsafeCheck: true
     type: block
     what: timing
 50FPS:
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x923DD10, 0]
+    value_type: int32
+    value: [0, 0]
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
@@ -129,6 +177,12 @@ unsafeCheck: true
     type: block
     what: timing
 55FPS:
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x923DD10, 0]
+    value_type: int32
+    value: [0, 0]
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
@@ -145,6 +199,12 @@ unsafeCheck: true
     type: block
     what: timing
 60FPS:
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x923DD10, 0]
+    value_type: int32
+    value: [0, 0]
   # r.DynamicRes.FrameTimeBudget
   -
     type: write
