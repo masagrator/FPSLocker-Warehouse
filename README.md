@@ -208,7 +208,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Hoa | `010022E013A1A000` | `1A9DF794AC0099F3` (◯, v3, 1.0.3) | 🟢 |  |
 | Hokko Life | `010022A016250000` | `D9D13603133F3D89` (◯, v5, 1.0.5) | 🟢 |  |
 | HOT WHEELS UNLEASHED | `0100AA60136D2000` | `F73C6504D378C38B` ([✅](SaltySD/plugins/FPSLocker/patches/0100AA60136D2000/F73C6504D378C38B.yaml), v13, 1.0.13) | 🔵 | [LINK](Methodology/HOT%20WHEELS%20UNLEASHED) |
-| House Flipper | `0100CAE00EB02000` | `3AA24709AD26C14E` (◯, v7, 1.7.0) | 🟢 |  |
+| House Flipper | `0100CAE00EB02000` | `3AA24709AD26C14E` (◯, v7, 1.7.0) <br> `F6AEAD8E7B967342` (◯, v8, 1.8.0) | 🟢 |  |
 | HYPERCHARGE: Unboxed | `0100A8B00F0B4000` | `92511355705EA8C5` ([✅](SaltySD/plugins/FPSLocker/patches/0100A8B00F0B4000/92511355705EA8C5.yaml), v5, 0.1.2341.233) | 🔵 | [LINK](Methodology/HYPERCHARGE%20Unboxed) |
 | Hyrule Warriors: Age of Calamity | `01002B00111A2000` | `C3CF52BF2B05D731` ([✅](SaltySD/plugins/FPSLocker/patches/01002B00111A2000/C3CF52BF2B05D731.yaml), v5, 1.3.0) | 🔴 |  |
 | I Am Setsuna. | `0100849000BDA000` | `0BBA2167AED893BE` (◯, v1, 1.1.0) | 🟢 |  |
