@@ -377,7 +377,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Tails of Iron | `0100EF3013F60000` | `AD8FA9F610DB1015` (◯, v3, 4) | 🟢 |  |
 | Tales from the Borderlands | `0100F0C011A68000` | `818C98B885460561` (◯, v0, 1.0.0) | 🟢 |  |
 | Tales of Symphonia Remastered | `0100A410169A4000` | `BCFDC7A6A7181E9F` (❌, v1, 1.1) | 🟡 |  |
-| Team Sonic Racing | `01008400B36E0000` | `7D942261130F42A7` (◯, v3, 1.0.3) | 🟢 |  |
+| Team Sonic Racing | `010084B00B36E000` | `7D942261130F42A7` (◯, v3, 1.0.3) | 🟢 |  |
 | The Caligula Effect: Overdose | `010069100B7F0000` | `A953B35A45BEA33D` ([✅](SaltySD/plugins/FPSLocker/patches/010069100B7F0000/A953B35A45BEA33D.yaml), v1, 1.01) | 🔵 | [LINK](Methodology/The%20Caligula%20Effect%20Overdose) |
 | The Caligula Effect 2 | `0100CC3014886000` | `094BD2CDF388A1DB` (◯, v0, 1.0.0) | 🟢 |  |
 | The Dark Pictures Anthology: Man of Medan | `0100711017B30000` | `D7D0827ABE36A00D` ([✅](SaltySD/plugins/FPSLocker/patches/0100711017B30000/D7D0827ABE36A00D.yaml), v0, 1.0.0) | 🔴 |  | 
