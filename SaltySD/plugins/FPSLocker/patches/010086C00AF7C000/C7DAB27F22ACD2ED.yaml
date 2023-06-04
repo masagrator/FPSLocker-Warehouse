@@ -1,5 +1,7 @@
 # 妖怪ウォッチ4 ぼくらは同じ空を見上げている 2.2.0
 # BID: C7DAB27F22ACD2ED
+# Game is using double buffer, nvnWindowBuilderSetTextures has hardcoded values.
+# So it's not possible to get stable FPS lock between 30 and 60.
 
 unsafeCheck: true
 
