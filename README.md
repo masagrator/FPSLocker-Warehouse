@@ -202,7 +202,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Grand Theft Auto: Vice City | `0100182014022000` | `56EEFA704373BDB3` ([✅](SaltySD/plugins/FPSLocker/patches/0100182014022000/56EEFA704373BDB3.yaml), v7, 1.0.7) | 🔴 | [LINK](Methodology/Grand%20Theft%20Auto%20Vice%20City) |
 | Graveyard Keeper | `0100B6800B5C8000` | `9356531EDD2EC448` (◯, v6, 1.0.0.4633) | 🟢 |  |
 | GRID Autosport | `0100DC800A602000` | `4264F9050557D760` (✝️, v8, 1.8.3_61741) | 🟣 | [LINK](Methodology/GRID%20Autosport) |
-| Gripper | `010099C01896C000` | `29EE7B5652810C25` (❌, v1, 1.0.1) | 🔵 | [LINK](Methodology/Gripper) |
+| Gripper | `010099C01896C000` | `60B9AE6094566A23` ([✅](SaltySD/plugins/FPSLocker/patches/010099C01896C000/60B9AE6094566A23.yaml), v2, 1.1.0) | 🔵 |  |
 | HARVESTELLA | `0100521017B2A000` | `249EAB9BF046C5EA` ([✅](SaltySD/plugins/FPSLocker/patches/0100521017B2A000/249EAB9BF046C5EA.yaml), v2, 1.0.2) | 🔴 | [LINK](Methodology/HARVESTELLA) |
 | Hellblade: Senua's Sacrifice | `010044500CF8E000` | `9B3DDF2FB9100E51` ([✅](SaltySD/plugins/FPSLocker/patches/010044500CF8E000/9B3DDF2FB9100E51.yaml), v1, 1.1.0) | 🔴 |  |
 | Hoa | `010022E013A1A000` | `1A9DF794AC0099F3` (◯, v3, 1.0.3) | 🟢 |  |
@@ -215,7 +215,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Immortal Redneck | `01000F400435A000` | `DB367E57EDA9E84F` (❌, v1, 1.3.5) | 🟢 |  |
 | Immortals Fenyx Rising | `01004A600EC0A000` | `70F3F6751D73C644` (✝️, v11, 1.3.4) | 🟣 | [LINK](Methodology/Immortals%20Fenyx%20Rising/README.md) |
 | In rays of the Light | `0100A760129A0000` | `AB4C861FD0C87F47` (◯, v2, 1.0.2) | 🟢 |  |
-| In Sound Mind | `01006DF014682000` | `DB367E57EDA9E84F` (❌, v1, 1.0.2) <br> `F0D0A9CC07EF507B` (❌, v3, 1.0.3) | 🔵 |  |
+| In Sound Mind | `01006DF014682000` | `F0D0A9CC07EF507B` (❌, v3, 1.0.3) | 🔵 |  |
 | INMOST | `0100F1401161E000` | `16CEFEA33FE6E24F` (❌, v6, 1.0.4.3) | 🔵 |  |
 | Insomnis | `01001CF0190C2000` | `4C6727375D877B90` ([✅](SaltySD/plugins/FPSLocker/patches/01001CF0190C2000/4C6727375D877B90.yaml), v1, 1.01) | 🔵 | [LINK](Methodology/Insomnis) |
 | Ion Fury | `010041C00D086000` | `9D2EFCF198F2247F` (◯, v4, 1.07.1) | 🔴 | [LINK](Methodology/Ion%20Fury) |
