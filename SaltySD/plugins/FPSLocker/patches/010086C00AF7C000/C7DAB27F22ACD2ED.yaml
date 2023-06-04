@@ -6,17 +6,17 @@
 unsafeCheck: true
 
 MASTER_WRITE:
-  # Block main loop from sleeping to match 31.6 FPS
+  # Change main loop delay from 31.6 ms to 4.2 ms
   -
     type: bytes
     main_offset: 0x950C6C
     value_type: uint32
-    value: 0xD2A00200
+    value: 0xD2A00800
   -
     type: bytes
     main_offset: 0x950C74
     value_type: uint32
-    value: 0xD2A00200
+    value: 0xD2A00800
   -
     type: bytes
     main_offset: 0x950C94
