@@ -10,6 +10,12 @@ unsafeCheck: true
     address: [MAIN, 0x94CD848, 0]
     value_type: float
     value: [66.66, 66.66]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x8D39378, 0]
+    value_type: int32
+    value: [0, 0]
   # t.MaxFPS
   -
     type: write
@@ -26,6 +32,12 @@ unsafeCheck: true
     address: [MAIN, 0x94CD848, 0]
     value_type: float
     value: [50, 50]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x8D39378, 0]
+    value_type: int32
+    value: [0, 0]
   # t.MaxFPS
   -
     type: write
@@ -42,6 +54,12 @@ unsafeCheck: true
     address: [MAIN, 0x94CD848, 0]
     value_type: float
     value: [40, 40]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x8D39378, 0]
+    value_type: int32
+    value: [0, 0]
   # t.MaxFPS
   -
     type: write
@@ -58,6 +76,12 @@ unsafeCheck: true
     address: [MAIN, 0x94CD848, 0]
     value_type: float
     value: [33.33, 33.33]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x8D39378, 0]
+    value_type: int32
+    value: [0, 0]
   # t.MaxFPS (default value)
   -
     type: write
@@ -71,6 +95,12 @@ unsafeCheck: true
     address: [MAIN, 0x94CD848, 0]
     value_type: float
     value: [28.51, 28.51]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x8D39378, 0]
+    value_type: int32
+    value: [0, 0]
   # t.MaxFPS
   -
     type: write
@@ -87,6 +117,12 @@ unsafeCheck: true
     address: [MAIN, 0x94CD848, 0]
     value_type: float
     value: [25, 25]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x8D39378, 0]
+    value_type: int32
+    value: [0, 0]
   # t.MaxFPS
   -
     type: write
@@ -103,6 +139,12 @@ unsafeCheck: true
     address: [MAIN, 0x94CD848, 0]
     value_type: float
     value: [22.22, 22.22]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x8D39378, 0]
+    value_type: int32
+    value: [0, 0]
   # t.MaxFPS
   -
     type: write
@@ -119,6 +161,12 @@ unsafeCheck: true
     address: [MAIN, 0x94CD848, 0]
     value_type: float
     value: [20, 20]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x8D39378, 0]
+    value_type: int32
+    value: [0, 0]
   # t.MaxFPS
   -
     type: write
@@ -135,6 +183,12 @@ unsafeCheck: true
     address: [MAIN, 0x94CD848, 0]
     value_type: float
     value: [18.18, 18.18]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x8D39378, 0]
+    value_type: int32
+    value: [0, 0]
   # t.MaxFPS
   -
     type: write
@@ -151,6 +205,12 @@ unsafeCheck: true
     address: [MAIN, 0x94CD848, 0]
     value_type: float
     value: [16.66, 16.66]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x8D39378, 0]
+    value_type: int32
+    value: [0, 0]
   # t.MaxFPS (default value)
   -
     type: write
