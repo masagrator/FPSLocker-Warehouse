@@ -2,7 +2,7 @@
 # BID: 134EC3D8BE75126F
 # Button polling is 2x more sensitive to holding any button
 
-unsafeCheck: false
+unsafeCheck: true
 
 MASTER_WRITE:
   # Move loading FPS lock time to MAIN+0x2B31200
