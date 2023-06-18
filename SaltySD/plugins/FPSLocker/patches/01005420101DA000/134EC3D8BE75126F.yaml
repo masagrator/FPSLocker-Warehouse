@@ -19,27 +19,6 @@ MASTER_WRITE:
     main_offset: 0x2B31200
     value_type: uint32
     value: 33333333
-  - # Change res of portraits from 256p to 1024p
-    type: bytes
-    main_offset: 0x2E4AEC
-    value_type: uint32
-    value:
-      - 0x52808001
-      - 0x52808002
-  -
-    type: bytes
-    main_offset: 0x2E4B18
-    value_type: uint32
-    value:
-      - 0x52808001
-      - 0x52808002
-  -
-    type: bytes
-    main_offset: 0x2E4B70
-    value_type: uint32
-    value:
-      - 0x52808001
-      - 0x52808002
   # Write game's loop time as float to MAIN+0x2B31204
   -
     type: bytes
