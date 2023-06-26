@@ -49,6 +49,7 @@ So first final address is stored at 0x94CD848.
 The same way we're searching for 
 ```
 t.MaxFPS
+r.VSync
 ```
 If it has more than 1 xref, we are interested in the one that has description pointer loaded.
 
