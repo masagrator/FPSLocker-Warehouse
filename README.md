@@ -346,7 +346,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | SHIN MEGAMI TENSEI V | `0100B870126CE000` | `019FBFE7738EA314` ([✅](SaltySD/plugins/FPSLocker/patches/0100B870126CE000/019FBFE7738EA314.yaml), v2, 1.0.2) | 🔵 | [LINK](Methodology/SHIN%20MEGAMI%20TENSEI%20V) |
 | Ship Graveyard Simulator | `010018C01B106000` | `63B72CD5F2A90020` ([✅](SaltySD/plugins/FPSLocker/patches/010018C01B106000/63B72CD5F2A90020.yaml), v0, 1.0.0) | 🔴 |  |
 | Ship of Fools | `010076901806C000` | `6AC1BB9A37B0EC43` (◯, v3, 1.0.3) | 🟢 |  |
-| Sifu | `01007B5017A12000` | `C56FA2C9627A26CF` ([✅](SaltySD/plugins/FPSLocker/patches/01007B5017A12000/C56FA2C9627A26CF.yaml), v3, 1.13_842) | 🔵 | [LINK](Methodology/Sifu) |
+| Sifu | `01007B5017A12000` | `C56FA2C9627A26CF` ([✅](SaltySD/plugins/FPSLocker/patches/01007B5017A12000/C56FA2C9627A26CF.yaml), v3, 1.13_842) <br> `C56FA2C9627A26CF` ([✅](SaltySD/plugins/FPSLocker/patches/01007B5017A12000/CE14D183190A44D2.yaml), v5, 1.22_1197) | 🔵 | [LINK](Methodology/Sifu) |
 | SIGNALIS | `0100307018934000` | `3A533EC563D74BE2` (◯, v3, 1.3) | 🟢 |  |
 | SINNER: Sacrifice for Redemption | `0100B16009C10000` | `490D681909609015` ([✅](SaltySD/plugins/FPSLocker/patches/0100B16009C10000/490D681909609015.yaml), v3, 1.1.0319) | 🔴 | [LINK](Methodology/SINNER%20Sacrifice%20for%20Redemption) |
 | Smurfs Kart | `01009790186FE000` | `8915848314513CBD` (◯, v2, 1.02.0) | 🟢 |  |
