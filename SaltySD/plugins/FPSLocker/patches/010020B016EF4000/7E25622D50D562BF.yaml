@@ -263,7 +263,7 @@ unsafeCheck: true
     type: write
     address: [MAIN, 0x52BD280, 0x100]
     value_type: float
-    value: 1
+    value: 0.1
   - # DS.Tech.Networking.Clock_TypeInfo
     type: write
     address: [MAIN, 0x4EABAE0, 0xB8, 0]
