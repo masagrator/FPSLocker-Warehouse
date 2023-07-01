@@ -314,6 +314,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Portal Knights | `0100437004170000` | `D59D81C06F923846` (❌, v8, 1.7.2) | 🔵 |  |
 | Potion Permit | `010025F0126FE000` | `057AF5139980E8D4` (◯, v9, 1.0.9) | 🟢 |  |
 | PowerWash Simulator | `0100926016012000` | `E44D9EFDB2F1D0A6` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/E44D9EFDB2F1D0A6.yaml), v5, 1.2.1) | 🔴 |  |
+| Prison Simulator | `010094C017B06000` | `56C709E1A63CF9EA` (◯, v0, 1.0.0) | 🟢 |  |
 | Project Warlock | `0100BDB01150E000` | `D597DE8544D8ED4F` (◯, v3, 1.0.3) | 🟢 |  |
 | Rad Rogers: Radical Edition | `010000600CD54000` | `78885A1CA987C04C` ([✅](SaltySD/plugins/FPSLocker/patches/010000600CD54000/78885A1CA987C04C.yaml), v2, 1.2.0) | 🔴 | [LINK](Methodology/Rad%20Rogers) |
 | Rain World | `010047600BF72000` | `83E5B9B8149CD349` (◯, v3, 1.0.3) | 🟢 |  |
