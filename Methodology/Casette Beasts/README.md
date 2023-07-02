@@ -23,7 +23,7 @@ debug/settings/fps/force_fps
 
 then we go to its first xref.
 
-We are looking first for first `free` call above referenced instruction, then for first instruction below `free` call. It should read from some register pointer address.
+We are looking for first `free` call above referenced instruction, then for first instruction below `free` call. It should read from some register pointer address.
 In our case it's X22.
 ```asm
 .text:0000007100CDB264                 BL              free
