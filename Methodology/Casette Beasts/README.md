@@ -17,7 +17,7 @@ Game is using internal FPS lock. It must be patched.
 
 We need to use disassembler in this case.
 
-After finishing disassembling main, we need to find this string (it's encoded as UTF-16-LE):
+After finishing disassembling main, we need to find this string:
 ```
 debug/settings/fps/force_fps
 ```
