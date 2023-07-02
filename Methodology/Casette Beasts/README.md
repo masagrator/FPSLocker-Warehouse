@@ -10,13 +10,12 @@ Explanation based on:
 - Engine: `Godot 3.5.1`
 
 > Details
-
+> 
 Game is using internal FPS lock. It must be patched.
 
 # How to find offsets
 
-We need to use disassembler in this case.
-
+We need to use disassembler in this case.<br>
 After finishing disassembling main, we need to find this string:
 ```
 debug/settings/fps/force_fps
