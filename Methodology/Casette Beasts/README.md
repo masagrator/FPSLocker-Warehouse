@@ -49,10 +49,18 @@ In our case it looks like this:
 At `off_71033C8370` is stored fixed pointer `qword_71033DCB78`. This is where our pointer to FPS settings are stored -> `MAIN+0x33DCB78`.
 
 FPS Lock is stored at offset 0x30 as int32.
+We need to also tweak physics fps target that is stored at offset 0x24.
 
 So our example entry will look like this
 ```yaml
 15FPS:
+15FPS:
+  # physics/common/physics_fps
+  -
+    type: write
+    address: [MAIN, 0x33DCB78, 0x24]
+    value_type: int32
+    value: 15
   # debug/settings/fps/force_fps
   -
     type: write
@@ -62,5 +70,4 @@ So our example entry will look like this
   -
     type: block
     what: timing
-
 ```
