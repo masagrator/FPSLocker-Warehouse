@@ -4,6 +4,12 @@
 unsafeCheck: true
 
 15FPS:
+  # physics/common/physics_fps
+  -
+    type: write
+    address: [MAIN, 0x33DCB78, 0x24]
+    value_type: int32
+    value: 15
   # debug/settings/fps/force_fps
   -
     type: write
@@ -14,6 +20,12 @@ unsafeCheck: true
     type: block
     what: timing
 20FPS:
+  # physics/common/physics_fps
+  -
+    type: write
+    address: [MAIN, 0x33DCB78, 0x24]
+    value_type: int32
+    value: 20
   # debug/settings/fps/force_fps
   -
     type: write
@@ -24,6 +36,12 @@ unsafeCheck: true
     type: block
     what: timing
 25FPS:
+  # physics/common/physics_fps
+  -
+    type: write
+    address: [MAIN, 0x33DCB78, 0x24]
+    value_type: int32
+    value: 25
   # debug/settings/fps/force_fps
   -
     type: write
@@ -34,13 +52,25 @@ unsafeCheck: true
     type: block
     what: timing
 30FPS:
-  # debug/settings/fps/force_fps (default value)
+  # physics/common/physics_fps (default value)
+  -
+    type: write
+    address: [MAIN, 0x33DCB78, 0x24]
+    value_type: int32
+    value: 30
+  # debug/settings/fps/force_fps (default value is 30)
   -
     type: write
     address: [MAIN, 0x33DCB78, 0x30]
     value_type: int32
-    value: 30
+    value: 0
 35FPS:
+  # physics/common/physics_fps
+  -
+    type: write
+    address: [MAIN, 0x33DCB78, 0x24]
+    value_type: int32
+    value: 35
   # debug/settings/fps/force_fps
   -
     type: write
@@ -51,6 +81,12 @@ unsafeCheck: true
     type: block
     what: timing
 40FPS:
+  # physics/common/physics_fps
+  -
+    type: write
+    address: [MAIN, 0x33DCB78, 0x24]
+    value_type: int32
+    value: 40
   # debug/settings/fps/force_fps
   -
     type: write
@@ -61,6 +97,12 @@ unsafeCheck: true
     type: block
     what: timing
 45FPS:
+  # physics/common/physics_fps
+  -
+    type: write
+    address: [MAIN, 0x33DCB78, 0x24]
+    value_type: int32
+    value: 45
   # debug/settings/fps/force_fps
   -
     type: write
@@ -71,6 +113,12 @@ unsafeCheck: true
     type: block
     what: timing
 50FPS:
+  # physics/common/physics_fps
+  -
+    type: write
+    address: [MAIN, 0x33DCB78, 0x24]
+    value_type: int32
+    value: 50
   # debug/settings/fps/force_fps
   -
     type: write
@@ -81,6 +129,12 @@ unsafeCheck: true
     type: block
     what: timing
 55FPS:
+  # physics/common/physics_fps
+  -
+    type: write
+    address: [MAIN, 0x33DCB78, 0x24]
+    value_type: int32
+    value: 55
   # debug/settings/fps/force_fps
   -
     type: write
@@ -91,6 +145,12 @@ unsafeCheck: true
     type: block
     what: timing
 60FPS:
+  # physics/common/physics_fps
+  -
+    type: write
+    address: [MAIN, 0x33DCB78, 0x24]
+    value_type: int32
+    value: 60
   # debug/settings/fps/force_fps
   -
     type: write
