@@ -53,7 +53,6 @@ We need to also tweak physics fps target that is stored at offset 0x24.
 So our example entry will look like this
 ```yaml
 15FPS:
-15FPS:
   # physics/common/physics_fps
   -
     type: write
