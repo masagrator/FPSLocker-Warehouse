@@ -1,4 +1,4 @@
-# Casette Beasts
+# Cassette Beasts
 
 > Game info
 
