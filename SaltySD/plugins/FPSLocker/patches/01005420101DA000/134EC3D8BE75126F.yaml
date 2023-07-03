@@ -1,6 +1,8 @@
 # The Legend of Heroes: Trails of Cold Steel III 1.0.1
 # BID: 134EC3D8BE75126F
-# Button polling is 2x more sensitive to holding any button
+# Button polling is 2x more sensitive to holding any button at 60 FPS
+# Fishing timer is decreasing 2x faster at 60 FPS
+# Bike is turning 2x faster at 60 FPS
 
 unsafeCheck: true
 
