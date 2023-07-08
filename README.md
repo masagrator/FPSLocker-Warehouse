@@ -40,6 +40,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | ABZU | `0100C1300BBC6000` | `59719CFCD1671B98` ([✅](SaltySD/plugins/FPSLocker/patches/0100C1300BBC6000/59719CFCD1671B98.yaml), v0, 1.0.0) | 🔴 | [LINK](Methodology/ABZU) |
 | Advance Wars 1+2: Re-Boot Camp | `0100300012F2A000` | `320A17744AEFD67F`  ([✅](SaltySD/plugins/FPSLocker/patches/0100300012F2A000/320A17744AEFD67F.yaml), v0, 1.0.0) | 🔴 | [LINK](Methodology/Advance%20Wars%201%2B2) |
 | Adventure Time: Pirates of the Enchiridion | `0100C4E004406000` | `550CC8AAD902C04F` (◯, v4, 1.0.4.26870) | 🟢 |  |
+| AEW: Fight Forever | `0100BD10190C0000` | `6C2D4E0EE0DB2129` ([✅](SaltySD/plugins/FPSLocker/patches/0100BD10190C0000/6C2D4E0EE0DB2129.yaml), v1, 1.1.0) | 🔴 |  |
 | Agent Intercept | `0100B80013C1C000` | `A475D0073EA170B0` (◯, v0, 1.0.0) | 🟢 |  |
 | Alan Wake Remastered | `0100623017A58000` | `6520258D00AEA915` (❌, v1, 1.0.1) | 🔵 | [LINK](Methodology/Alan%20Wake) |
 | Alfred Hitchcock - Vertigo | `0100DC7013F14000` | `9D5ABEC66FEC1D77` (◯, v1, 1.0.1) | 🟢 |  |
