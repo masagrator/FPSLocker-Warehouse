@@ -11,5 +11,6 @@ Explanation based on:
 
 > Details
 
-Game is internally locked to 30 FPS. It seems game on Switch was hardcoded to run at 30 FPS, so it cannot be patched with FPSLocker. 
+Game is internally locked to 30.8 FPS. It seems game on Switch was hardcoded to run at 30.8 FPS, so it cannot be patched with FPSLocker.
+To make this game have better framepacing at 30FPS it is reccomended to set a 30FPS cap using FPSLocker to override the 30.8FPS cap.
 For 60 FPS cheat look [HERE](https://github.com/ChanseyIsTheBest/NX-60FPS-RES-GFX-Cheats/blob/main/titles/01004AD014BF0000/cheats/AE548A35FD9DF5DA.txt)
