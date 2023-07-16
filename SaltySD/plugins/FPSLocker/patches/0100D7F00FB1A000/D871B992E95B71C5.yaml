@@ -1,7 +1,7 @@
 # The Great Ace Attorney Chronicles JP 1.0.0
 # BID: D871B992E95B71C5
 
-unsafeCheck: false
+unsafeCheck: true
 
 15FPS:
   # FPS lock
