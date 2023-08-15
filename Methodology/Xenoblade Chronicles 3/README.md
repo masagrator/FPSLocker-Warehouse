@@ -9,6 +9,9 @@ Explanation based on:
 - BID: `B76CD24AF02ACEA2`
 - Engine: Monolith Soft proprietary engine (Rendering pipeline is called `DrPixlMan`)
 
+> WARNING
+Cutscenes in final battle are not flagged by game as cutscenes, so they are rendered at 60 FPS and can crash game. Set game to 30 FPS through whole final battle if you don't want to repeat battle from the start.
+
 > Details
 
 This game is using internal vsync signal detection set to 2, which means it skips every second frame. <br>
