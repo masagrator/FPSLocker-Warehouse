@@ -11,7 +11,8 @@ Explanation based on:
 
 > WARNING
 
-Cutscenes in final battle are not flagged by game as cutscenes, so they are rendered at 60 FPS and can crash game. Set game to 30 FPS through whole final battle if you don't want to repeat battle from the start.
+- Cutscenes in final battle are not flagged by game as cutscenes, so they are rendered at 60 FPS and can crash game. Set game to 30 FPS through whole final battle if you don't want to risk repeating battle from the start.
+- In Chapter 7 in many places collecting ether can crash game. It is advised to collect ether only at 30 FPS.
 
 > Details
 
