@@ -11,5 +11,4 @@ Explanation based on:
 
 > Details
 
-Game is using internal FPS Lock that is hardcoded into executable, so it cannot be patched with FPSLocker.
 You can find IPS patch [HERE](https://github.com/masagrator/NXGraphicsPatches/blob/experimental/Naruto%20Shippuden%20Ultimate%20Ninja%20Storm%204/EU%201.3.0/exefs_patches/NarutoUlt4-60FPS/D3016FC0C0402DFB70FBA6B826EA772F705BE02F000000000000000000000000.ips), though it is not recommended as it seems button polling is hardcoded separately to 30 FPS and it misses around half of button presses at 60 FPS, so it's not playable.
