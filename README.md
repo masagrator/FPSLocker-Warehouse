@@ -328,7 +328,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Rain World | `010047600BF72000` | `83E5B9B8149CD349` (◯, v3, 1.0.3) | 🟢 |  |
 | Raji: An Ancient Epic | `010010B00DDA2000` | `8A39E660F956BB00` ([✅](SaltySD/plugins/FPSLocker/patches/010010B00DDA2000/8A39E660F956BB00.yaml), v4, 1.0.4) | 🔵 | [LINK](Methodology/Raji%20An%20Ancient%20Epic) |
 | realMyst: Masterpiece Edition | `0100E64010BAA000` | `31E49EEA600A6248` (◯, v3, 1.0.3) | 🟢 |  |
-| Red Dead Redemption | `01007820196A6000` | `90D38D285A365D9E` (◯, v1, 1.0.1) | 🟢 |  |
+| Red Dead Redemption | `01007820196A6000` | `F68A7D87ABAC6AAC` (◯, v2, 1.0.2) | 🟢 |  |
 | Redemption Reapers | `010073F0197DA000` | `75960383063ABB4E` ([✅](SaltySD/plugins/FPSLocker/patches/010073F0197DA000/75960383063ABB4E.yaml), v6, 1.3.0) <br> `955DF07AA5F4497B` ([✅](SaltySD/plugins/FPSLocker/patches/010073F0197DA000/955DF07AA5F4497B.yaml), v7, 1.4.0) | 🔴 |  |
 | Redout | `0100DA20021D0000` | `1C81D0BC78A01EE2` (◯, v2, 1.0.2) | 🟢 |  |
 | Redout 2 | `0100664016D5C000` | `D45B9332B5742A70` ([✅](SaltySD/plugins/FPSLocker/patches/0100664016D5C000/D45B9332B5742A70.yaml), v6, 1.0.6) | 🔴 | [LINK](Methodology/Redout%202) |
