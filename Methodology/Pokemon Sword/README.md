@@ -11,7 +11,7 @@ Explanation based on:
 
 > Details
 
-Game can be unlocked to 60 FPS with plugin alone, but because game speed is tied to framerate, we need to patch it. But we cannot do that with FPSLocker patch because game speed is stored in Read Only section of executable. Game is using double buffer, so realistically only 60 FPS matters. To adjust game speed to 60 FPS, use this cheat (some game elements will still use 30 FPS speed, expect graphical glitches):
+Game can be unlocked to 60 FPS with plugin alone, but because game speed is tied to framerate, we need to patch it.Game is using double buffer, so realistically only 60 FPS matters. To adjust game speed to 60 FPS, use this cheat (some game elements will still use 30 FPS speed, expect graphical glitches):
 
 ```ini
 [60 FPS speed]
