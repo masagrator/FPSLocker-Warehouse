@@ -2,8 +2,8 @@
 
 Here you will a find list with 30 FPS locked games, if they have FPSLocker configs that allow going above 30 FPS, tweak dynamic resolution frame timing for better performance, etc. At the end of README you can also find a separate list of configs for games that are targeting 30 FPS even though they have unlocked framerate.
 
-Remember that NX-FPS plugin is limited by SaltyNX capabilities. 
-Read SaltyNX readme to check which games are not compatible with the plugin.
+Remember that NX-FPS is limited by SaltyNX capabilities. 
+Read SaltyNX readme to check which games are not compatible.
 
 ---
 
