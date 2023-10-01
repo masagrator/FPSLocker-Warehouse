@@ -310,16 +310,16 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Persona 5 Royal | `01005CA01580E000` | `D4B150B29A931CD3` (◯, v1, 1.0.2) | 🟢 |  |
 | Persona 5 Scramble | `01001C400E9D8000` <br> `01009FE010876000` | `737E56D43D2C0B38` ([✅](SaltySD/plugins/FPSLocker/patches/01001C400E9D8000/737E56D43D2C0B38.yaml), v3, 1.0.3) <br> `407978D722447B25` ([✅](SaltySD/plugins/FPSLocker/patches/01009FE010876000/407978D722447B25.yaml), v1, 1.0.1) | 🔴 |  |
 | Persona 5 Strikers | `0100801011C3E000` | `C4DF04F647BDC727` ([✅](SaltySD/plugins/FPSLocker/patches/0100801011C3E000/C4DF04F647BDC727.yaml), v0, 1.0.0) | 🔴 |  |
-| Pokemon: Let's Go, Eevee! | `0100187003A36000` | `5831EC64D6B696FD` (✝️, v2, 1.0.2) | 🟡 | [LINK](Methodology/Pokemon%20Let's%20Go%20Eevee) |
-| Pokemon: Let's Go, Pikachu! | `010003F003A34000` | `C208DB6A4EF4361F` (✝️, v2, 1.0.2) | 🟡 | [LINK](Methodology/Pokemon%20Let's%20Go%20Pikachu) |
+| Pokemon: Let's Go, Eevee! | `0100187003A36000` | `5831EC64D6B696FD` (❌, v2, 1.0.2) | 🟡 | [LINK](Methodology/Pokemon%20Let's%20Go%20Eevee) |
+| Pokemon: Let's Go, Pikachu! | `010003F003A34000` | `C208DB6A4EF4361F` (❌, v2, 1.0.2) | 🟡 | [LINK](Methodology/Pokemon%20Let's%20Go%20Pikachu) |
 | Pokemon Brilliant Diamond | `0100000011D90000` | `94CEAE325C205C4B` (◯, v6, 1.3.0) | 🟢 |  |
-| Pokemon Legends: Arceus | `01001F5010DFA000` | `AEE8F150DDA1B5A8` (✝️, v4, 1.1.1) | 🟡 | [LINK](Methodology/Pokemon%20Legends%20Arceus) |
+| Pokemon Legends: Arceus | `01001F5010DFA000` | `AEE8F150DDA1B5A8` (❌, v4, 1.1.1) | 🟡 | [LINK](Methodology/Pokemon%20Legends%20Arceus) |
 | Pokemon Mystery Dungeon: Rescue Team DX | `01003D200BAA2000` | `3AB632DEE82D5944` (❌, v2, 1.0.2) | 🔵 | [LINK](Methodology/Pokemon%20Mystery%20Dungeon) |
-| Pokemon Scarlet | `0100A3D008C5C000` | `6EE2D5E3216EBDA5` (✝️, v4, 1.3.0) | 🟡 | [LINK](Methodology/Pokemon%20Scarlet) |
-| Pokemon Shield | `01008DB008C2C000` | `A16802625E7826BF` (✝️, v7, 1.3.2) | 🟡 | [LINK](Methodology/Pokemon%20Shield) |
+| Pokemon Scarlet | `0100A3D008C5C000` | `6EE2D5E3216EBDA5` (❌, v4, 1.3.0) | 🟡 | [LINK](Methodology/Pokemon%20Scarlet) |
+| Pokemon Shield | `01008DB008C2C000` | `A16802625E7826BF` (❌, v7, 1.3.2) | 🟡 | [LINK](Methodology/Pokemon%20Shield) |
 | Pokemon Shining Pearl | `010018E011D92000` | `38F59CBDA2EB9C44` (◯, v6, 1.3.0) | 🟢 |  |
-| Pokemon Sword | `0100ABF008968000` | `A3B75BCD3311385A` (✝️, v7, 1.3.3) | 🟡 | [LINK](Methodology/Pokemon%20Sword) |
-| Pokemon Violet | `01008F6008C5E000` | `AC70E41BB699CB9F` (✝️, v4, 1.3.0) | 🟡 | [LINK](Methodology/Pokemon%20Violet) |
+| Pokemon Sword | `0100ABF008968000` | `A3B75BCD3311385A` (❌, v7, 1.3.3) | 🟡 | [LINK](Methodology/Pokemon%20Sword) |
+| Pokemon Violet | `01008F6008C5E000` | `AC70E41BB699CB9F` (❌, v4, 1.3.0) | 🟡 | [LINK](Methodology/Pokemon%20Violet) |
 | Portal Knights | `0100437004170000` | `D59D81C06F923846` (❌, v8, 1.7.2) | 🔵 |  |
 | Potion Permit | `010025F0126FE000` | `057AF5139980E8D4` (◯, v9, 1.0.9) | 🟢 |  |
 | PowerWash Simulator | `0100926016012000` | `E44D9EFDB2F1D0A6` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/E44D9EFDB2F1D0A6.yaml), v5, 1.2.1) | 🔴 |  |
