@@ -11,4 +11,4 @@ Explanation based on:
 
 > Details
 
-Game can be unlocked to 60 FPS with plugin alone, but because game speed is tied to framerate, we need to patch it. But we cannot do that with FPSLocker patch because game speed is stored in Read Only section of executable. After applying game speed cheat character model is jumping between where it should be and where is it, causing stuttering. This game requires more work to do than just unlocking FPS and setting game speed.
+Game can be unlocked to 60 FPS with plugin alone, but because game speed is tied to framerate, we need to patch it. After applying game speed cheat character model is jumping between where it should be and where is it, causing stuttering. This game requires more work to do than just unlocking FPS and setting game speed.
