@@ -311,6 +311,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Persona 5 Royal | `01005CA01580E000` | `D4B150B29A931CD3` (◯, v1, 1.0.2) | 🟢 |  |
 | Persona 5 Scramble | `01001C400E9D8000` <br> `01009FE010876000` | `737E56D43D2C0B38` ([✅](SaltySD/plugins/FPSLocker/patches/01001C400E9D8000/737E56D43D2C0B38.yaml), v3, 1.0.3) <br> `407978D722447B25` ([✅](SaltySD/plugins/FPSLocker/patches/01009FE010876000/407978D722447B25.yaml), v1, 1.0.1) | 🔴 |  |
 | Persona 5 Strikers | `0100801011C3E000` | `C4DF04F647BDC727` ([✅](SaltySD/plugins/FPSLocker/patches/0100801011C3E000/C4DF04F647BDC727.yaml), v0, 1.0.0) | 🔴 |  |
+| Plants vs. Zombies: Battle for Neighborville | `0100C56010FD8000` | `82051A9C802D0A4C` (❌, v3, 1.0.3) | 🔵 | 
 | Pokemon: Let's Go, Eevee! | `0100187003A36000` | `5831EC64D6B696FD` (❌, v2, 1.0.2) | 🟡 | [LINK](Methodology/Pokemon%20Let's%20Go%20Eevee) |
 | Pokemon: Let's Go, Pikachu! | `010003F003A34000` | `C208DB6A4EF4361F` (❌, v2, 1.0.2) | 🟡 | [LINK](Methodology/Pokemon%20Let's%20Go%20Pikachu) |
 | Pokemon Brilliant Diamond | `0100000011D90000` | `94CEAE325C205C4B` (◯, v6, 1.3.0) | 🟢 |  |
