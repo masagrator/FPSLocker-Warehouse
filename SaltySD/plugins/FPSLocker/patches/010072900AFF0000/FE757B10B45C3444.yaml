@@ -5,7 +5,7 @@ unsafeCheck: true
 
 MASTER_WRITE:
 # Edit Eden.Graphics.IGraphicsQualityProfile::set_VSyncCount to get interval from MAIN + 0x5FBAF20
-# If not edited, light is flickering at > 30 FOS
+# If not edited, light is flickering at > 30 FPS
   -
     type: bytes
     main_offset: 0x14B4990
