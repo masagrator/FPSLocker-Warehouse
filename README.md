@@ -299,7 +299,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Never Alone (Kisima Ingitchuna) | `0100A6B01712C000` | `B489970C5C8E79A7` (❌, v2, 1.0.2) | 🔵 |  |
 | New Super Lucky's Tale | `010017700B6C2000` | `14872049185C584C` (◯, v3, 1.5.9) | 🟢 |  |
 | New Tales from the Borderlands | `01002B7013440000` | `A19E113723E5C32E` ([✅](SaltySD/plugins/FPSLocker/patches/01002B7013440000/A19E113723E5C32E.yaml), v2, 1.0.2) | 🔴 | [LINK](Methodology/New%20Tales%20from%20the%20Borderlands) |
-| No Man's Sky | `0100853015E86000` | `35CB055482863ED9` (◯, v18, 4.2.2) | 🟢 |  |
+| No Man's Sky | `0100853015E86000` | `35CB055482863ED9` (◯, v18, 4.2.2) <br> `DA7D68D91AB5FA3C` ([✅](SaltySD/plugins/FPSLocker/patches/0100853015E86000/DA7D68D91AB5FA3C.yaml), v26, 4.4.5) | 🔵 | [LINK](Methodology/No%20Man's%20Sky/README.md) |
 | Ni no Kuni: Wrath of the White Witch | `0100E5600D446000` | `C32B29CB5FBA96D9` (✝️, v2, 1.0.2) | 🟣 | [LINK](Methodology/Ni%20no%20Kuni%20Wrath%20of%20the%20White%20Witch) |
 | NieR:Automata | `0100B8E016F76000` <br> `010056B015FE8000` | `992787E2B5425994` (❌, v1, 1.0.2) <br> `E43525F22282A477` (❌, v1, 1.0.2) | 🔵 |  |
 | Nine Parchments | `0100D03003F0E000` | `F7893E37FC10C803` (◯, v4, 1.1.1) | 🟢 |  |
