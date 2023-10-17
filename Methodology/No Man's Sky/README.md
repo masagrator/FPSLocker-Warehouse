@@ -4,8 +4,8 @@
 
 TitleID: `0100853015E86000`<br>
 Explanation based on:
-- Internal version: `1.1.0`, 
-- Nintendo version ID: `v1`/`v65536`
+- Internal version: `4.4.5`, 
+- Nintendo version ID: `v26`/`v1703936`
 - BID: `DA7D68D91AB5FA3C`
 - Engine: Proprietary
 
