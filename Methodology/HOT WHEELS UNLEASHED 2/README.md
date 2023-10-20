@@ -10,5 +10,6 @@ Explanation based on:
 - Engine: `Unreal Engine 4`
 
 > Details
+
 Game can be unlocked to 60 FPS with plugin alone, but because game is using dynamic resolution set to 33.33 ms, performance is subpar. Requires patch to fix that.
 It is recommended to disable FSR. When FSR is enabled, dynamic Resolution is also disabled and it has worse performance at higher FPS, and quality wise it compares to dynamic resolution set to lowest res.
