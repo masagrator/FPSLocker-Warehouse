@@ -9,5 +9,6 @@ Explanation based on:
 - BID: `6B5E31BAA58DB229`
 - Engine: `Unreal Engine 4`
 
-> Details
+> Details 
+
 Plugin allows 60FPS to be set, however performance is subpar as dynamic resolution is set to 33.33ms and VSync is enabled. An additional patch allows these issues to be fixed.
