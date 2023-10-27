@@ -7,7 +7,7 @@ Explanation based on:
 - Internal version: `1.0.1`, 
 - Nintendo version ID: `v1`/`v65536`
 - BID: `012294C1E2D28A79`
-- Engine: `Unreal Engine 4`
+- Engine: `Unreal Engine 4.27.2`
 
 > Details
 
