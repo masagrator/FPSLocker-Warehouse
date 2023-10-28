@@ -298,7 +298,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | NASCAR Heat | `0100DC7013938000` | `E0E11E95C0DE34D3` (◯, v5, 1.0.5) | 🟢 |  |
 | NASCAR Rivals | `0100545016D5E000` | `E730CD3E70547C71` (◯, v4, 1.0.4) | 🟢 |  |
 | NBA 2K23 | `0100ACA017E4E000` | `337DBCF525B7AC4E` (◯, v9, 1.0.9) | 🟢 |  |
-| NBA 2K24 | `010006501A8D8000` | `723270DA5967FC48` (◯, v3, 1.0.3) | 🟢 |  |
+| NBA 2K24 | `010006501A8D8000` | `723270DA5967FC48` (◯, v3, 1.03) | 🟢 |  |
 | Need For Speed Hot Pursuit | `010029B0118E8000` | `799D1061182C1302` ([✅](SaltySD/plugins/FPSLocker/patches/010029B0118E8000/799D1061182C1302.yaml), v3, 1.0.3) | 🔴 |  |
 | Nelke & the Legendary Alchemists | `01006ED00BC76000` | `DBD272113FD196D5` (◯, v3, 1.0.3) | 🟢 |  |
 | Neptunia x SENRAN KAGURA: Ninja Wars | `01008D0016AF4000` | `FB827BF029E0778A` (❌, v0, 1.0.0) | 🔵 | [LINK](Methodology/Neptunia%20x%20SENRAN%20KAGURA%20Ninja%20Wars) |
