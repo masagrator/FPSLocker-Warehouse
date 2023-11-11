@@ -436,6 +436,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | The Settlers: New Allies | `0100F3200E7CA000` | `254DF6A118587EA0` ([✅](SaltySD/plugins/FPSLocker/patches/0100F3200E7CA000/254DF6A118587EA0.yaml), v0, 1.0.0) | 🔴 |  |
 | The Sinking City | `010028D00BA1A000` | `85E49C169A8B988A` ([✅](SaltySD/plugins/FPSLocker/patches/010028D00BA1A000/85E49C169A8B988A.yaml), v2, 1.2.0) | 🔵 | [LINK](Methodology/The%20Sinking%20City) |
 | The Smurfs Mission Vileaf | `010040A01407E000` | `BBBBB9891F01415E` (◯, v4, 1.0.19.1) | 🟢 |  |
+| The Smurfs 2: The Prisoner of the Green Stone | `010073C01B7FE000` | `20667075DF3336AC` (◯, v2, 1.02.07) | 🟢 |  |
 | The Stretchers | `0100AA400A238000` | `14D7D1537BD5A986` ([✅](SaltySD/plugins/FPSLocker/patches/0100AA400A238000/14D7D1537BD5A986.yaml), v0, 1.0.0) | 🔴 | [LINK](Methodology/The%20Stretchers) |
 | The Survivalists | `0100EF200DA60000` | `69A45110D07F0442` (◯, v7, 1.0.7) | 🟢 |  |
 | The Witcher 3 | `010039400E8D6000` <br> `01003D100E9C6000` <br> `0100BFE00E9CA000` <br> `010076F00E9C8000` <br> `010070A00E9CE000` <br> `010085500E9D0000` <br> `010019C00E9CC000` <br> `01000BB00E9D2000` <br> `0100A0800E9C4000` <br> | `986CE0BB97D63CE6` (✝️, v0, 3.2) <br> `4FFB62F1CD9E17F8` ([✅](SaltySD/plugins/FPSLocker/patches/010039400E8D6000/4FFB62F1CD9E17F8.yaml), v4, 3.7) <br> `D27FD8A515077F34` ([✅](SaltySD/plugins/FPSLocker/patches/010039400E8D6000/D27FD8A515077F34.yaml), v7, 4.04b) | 🔴 | [LINK](Methodology/The%20Witcher%203) |
