@@ -226,6 +226,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | HARVESTELLA | `0100521017B2A000` | `249EAB9BF046C5EA` ([✅](SaltySD/plugins/FPSLocker/patches/0100521017B2A000/249EAB9BF046C5EA.yaml), v2, 1.0.2) | 🔴 | [LINK](Methodology/HARVESTELLA) |
 | Hellblade: Senua's Sacrifice | `010044500CF8E000` | `9B3DDF2FB9100E51` ([✅](SaltySD/plugins/FPSLocker/patches/010044500CF8E000/9B3DDF2FB9100E51.yaml), v1, 1.1.0) | 🔴 |  |
 | Hoa | `010022E013A1A000` | `1A9DF794AC0099F3` (◯, v3, 1.0.3) | 🟢 |  |
+| Hogwarts Legacy | `0100F7E00C70E000` | `550F2E8B387B4520` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7E00C70E000/550F2E8B387B4520.yaml), v1, 1.0.1) | 🔵 |  |
 | Hokko Life | `010022A016250000` | `D9D13603133F3D89` (◯, v5, 1.0.5) | 🟢 |  |
 | Horizon Chase 2 | `0100001019F6E000` | `3CE4DB955A23026E` ([✅](SaltySD/plugins/FPSLocker/patches/0100001019F6E000/3CE4DB955A23026E.yaml), v3, 1.5.2) | 🔴 |  |
 | HOT WHEELS UNLEASHED | `0100AA60136D2000` | `F73C6504D378C38B` ([✅](SaltySD/plugins/FPSLocker/patches/0100AA60136D2000/F73C6504D378C38B.yaml), v13, 1.0.13) | 🔵 | [LINK](Methodology/HOT%20WHEELS%20UNLEASHED) |
