@@ -374,7 +374,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | SD シン・仮面ライダー 乱舞 | `0100CD40192AC000` | `0CE81E716AFFE42A` (◯, v1, 1.0.1) | 🟢 |  |
 | SENRAN KAGURA Peach Ball | `01004DC00D936000` | `31CDAD67EA25CC16` ([✅](SaltySD/plugins/FPSLocker/patches/01004DC00D936000/31CDAD67EA25CC16.yaml), v0, 1.0.0) | 🔴 | [LINK](Methodology/SENRAN%20KAGURA%20Peach%20Ball) |
 | Severed Steel | `0100E1C0148F8000` | `77C053D779EE97F6` ([✅](SaltySD/plugins/FPSLocker/patches/0100E1C0148F8000/77C053D779EE97F6.yaml), v2, 1.0.2) | 🔵 | [LINK](Methodology/Severed%20Steel) |
-| Session: Skate Sim | `010023001969A000` | `BF4126341134BFC7` (❌, v3, 1.1.2) | 🔵 |  |
+| Session: Skate Sim | `010023001969A000` | `BF4126341134BFC7` ([✅](SaltySD/plugins/FPSLocker/patches/010023001969A000/BF4126341134BFC7.yaml), v3, 1.1.2) | 🔵 |  |
 | Shadowverse: Champion's Battle | `01003B90136DA000` | `1F936E043FB8C349` (◯, v0, 1.3.0) | 🟢 |  |
 | Shattered: Tale of the Forgotten King | `0100A0F0180D6000` | `4D42A2CA8232E8EB` (◯, v0, 1.0.0) | 🟢 |  |
 | Sherlock Holmes The Awakened | `0100CA800F9B2000` | `32BF1643370F70AA` ([✅](SaltySD/plugins/FPSLocker/patches/0100CA800F9B2000/32BF1643370F70AA.yaml), v0, 1.0.0) | 🔴 | [LINK](Methodology/Sherlock%20Holmes%20The%20Awakened) |
