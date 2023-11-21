@@ -27,6 +27,12 @@ unsafeCheck: true
     address: [MAIN, 0x92C9DE8, 0]
     value_type: float
     value: [0, 0]
+  # r.VSync (disabling it since it hampers performance for no benefit)
+  -
+    type: write
+    address: [MAIN, 0x8735F48, 0]
+    value_type: int32
+    value: [0, 0]
 20FPS:
   # Disable bUseFixedFrameRate
   -
@@ -45,6 +51,12 @@ unsafeCheck: true
     type: write
     address: [MAIN, 0x92C9DE8, 0]
     value_type: float
+    value: [0, 0]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x8735F48, 0]
+    value_type: int32
     value: [0, 0]
 25FPS:
   # Disable bUseFixedFrameRate
@@ -65,6 +77,12 @@ unsafeCheck: true
     address: [MAIN, 0x92C9DE8, 0]
     value_type: float
     value: [25, 25]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x8735F48, 0]
+    value_type: int32
+    value: [0, 0]
   -
     type: block
     what: timing
@@ -87,6 +105,12 @@ unsafeCheck: true
     address: [MAIN, 0x92C9DE8, 0]
     value_type: float
     value: [0, 0]
+  # r.VSync (default value is 1)
+  -
+    type: write
+    address: [MAIN, 0x8735F48, 0]
+    value_type: int32
+    value: [0, 0]
 35FPS:
   # Disable bUseFixedFrameRate
   -
@@ -106,6 +130,12 @@ unsafeCheck: true
     address: [MAIN, 0x92C9DE8, 0]
     value_type: float
     value: [35, 35]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x8735F48, 0]
+    value_type: int32
+    value: [0, 0]
   -
     type: block
     what: timing
@@ -128,6 +158,12 @@ unsafeCheck: true
     address: [MAIN, 0x92C9DE8, 0]
     value_type: float
     value: [40, 40]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x8735F48, 0]
+    value_type: int32
+    value: [0, 0]
   -
     type: block
     what: timing
@@ -150,6 +186,12 @@ unsafeCheck: true
     address: [MAIN, 0x92C9DE8, 0]
     value_type: float
     value: [45, 45]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x8735F48, 0]
+    value_type: int32
+    value: [0, 0]
   -
     type: block
     what: timing
@@ -172,6 +214,12 @@ unsafeCheck: true
     address: [MAIN, 0x92C9DE8, 0]
     value_type: float
     value: [50, 50]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x8735F48, 0]
+    value_type: int32
+    value: [0, 0]
   -
     type: block
     what: timing
@@ -194,6 +242,12 @@ unsafeCheck: true
     address: [MAIN, 0x92C9DE8, 0]
     value_type: float
     value: [55, 55]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x8735F48, 0]
+    value_type: int32
+    value: [0, 0]
   -
     type: block
     what: timing
@@ -215,4 +269,10 @@ unsafeCheck: true
     type: write
     address: [MAIN, 0x92C9DE8, 0]
     value_type: float
+    value: [0, 0]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x8735F48, 0]
+    value_type: int32
     value: [0, 0]
