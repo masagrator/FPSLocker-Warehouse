@@ -1,6 +1,8 @@
 # Thirsty Suitors NS27619.127559
 # BID: 320A17744AEFD67F
 
+# Values found by referencing DynamicResolution::DetermineResolutionScale function
+
 unsafeCheck: false
 
 15FPS:
