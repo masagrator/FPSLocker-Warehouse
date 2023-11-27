@@ -237,7 +237,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | HYPERCHARGE: Unboxed | `0100A8B00F0B4000` | `92511355705EA8C5` ([✅](SaltySD/plugins/FPSLocker/patches/0100A8B00F0B4000/92511355705EA8C5.yaml), v5, 0.1.2341.233) | 🔵 | [LINK](Methodology/HYPERCHARGE%20Unboxed) |
 | Hyrule Warriors: Age of Calamity | `01002B00111A2000` | `C3CF52BF2B05D731` ([✅](SaltySD/plugins/FPSLocker/patches/01002B00111A2000/C3CF52BF2B05D731.yaml), v5, 1.3.0) | 🔴 |  |
 | I Am Setsuna. | `0100849000BDA000` | `0BBA2167AED893BE` (◯, v1, 1.1.0) | 🟢 |  |
-| Immortal Redneck | `01000F400435A000` | `DB367E57EDA9E84F` (❌, v1, 1.3.5) | 🟢 |  |
+| Immortal Redneck | `01000F400435A000` | `DB367E57EDA9E84F` (◯, v1, 1.3.5) | 🟢 |  |
 | Immortals Fenyx Rising | `01004A600EC0A000` | `70F3F6751D73C644` (❌, v11, 1.3.4) | 🔵 |  |
 | In rays of the Light | `0100A760129A0000` | `AB4C861FD0C87F47` (◯, v2, 1.0.2) | 🟢 |  |
 | In Sound Mind | `01006DF014682000` | `F0D0A9CC07EF507B` (❌, v3, 1.0.3) | 🔵 |  |
