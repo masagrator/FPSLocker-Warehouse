@@ -11,4 +11,4 @@ Explanation based on:
 
 > Details
 
-Plugin alone allows going above 30 FPS in battles, but because game is using double buffer it's not possible to set stable framerate outside of 15, 20, 30 and 60 FPS.
+Plugin alone allows going above 30 FPS in battles, but game speed is tied to framerate + because game is using double buffer it's not possible to set stable framerate outside of 15, 20, 30 and 60 FPS.
