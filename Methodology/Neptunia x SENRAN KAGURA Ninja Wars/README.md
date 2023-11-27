@@ -7,7 +7,7 @@ Explanation based on:
 - Internal version: `1.0.0`, 
 - Nintendo version ID: `v0`
 - BID: `FB827BF029E0778A`
-- Engine: proprietary
+- Engine: `Tam Engine`
 
 > Details
 
