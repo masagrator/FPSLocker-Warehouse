@@ -12,4 +12,4 @@ Explanation based on:
 > Details
 
 Plugin alone can set FPS above 30, but because game is using double buffer it's not possible to set any FPS between 30 and 60.
-nvnWindowBuilderSetTextures has hardcoded value of texture buffers.
+nvnWindowBuilderSetTextures has hardcoded value, and buffers are not created in loop.
