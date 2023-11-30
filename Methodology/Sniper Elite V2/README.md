@@ -11,7 +11,7 @@ Explanation based on:
 
 > Details
 
-Plugin alone allows going above 30 FPS, but it's using double buffer, so setting anything else than 60, 30, 20 and 15 FPS results in unstable framerate.
+Plugin alone allows going above 30 FPS, but it's using double buffer, so setting anything else than 60, 30, 20 and 15 FPS results in unstable framerate. Game has hardcoded buffers, so it's not easy to change to triple buffer.
 Only I will explain how to get a dynamic resolution frame timing, which by default is 30.<br>
 Thanks to Hazerou for figuring out where resolution setting is stored, this helped me a lot at determining where dynamic resolution frame timing is stored.
 
