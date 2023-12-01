@@ -13,7 +13,7 @@ unsafeCheck: false
     type: write
     address: [MAIN, 0x2A880E0, 0x6F0, 0xC]
     value_type: float
-    value: 66.6666
+    value: 66.6
 20FPS:
   # Dynamic Resolution Frametime Target
   -
@@ -34,14 +34,14 @@ unsafeCheck: false
     type: write
     address: [MAIN, 0x2A880E0, 0x6F0, 0xC]
     value_type: float
-    value: 33.3333
+    value: 33.3
 35FPS:
   # Dynamic Resolution Frametime Target
   -
     type: write
     address: [MAIN, 0x2A880E0, 0x6F0, 0xC]
     value_type: float
-    value: 28.5714
+    value: 28.5
 40FPS:
   # Dynamic Resolution Frametime Target
   -
@@ -55,7 +55,7 @@ unsafeCheck: false
     type: write
     address: [MAIN, 0x2A880E0, 0x6F0, 0xC]
     value_type: float
-    value: 22.2222
+    value: 22.2
 50FPS:
   # Dynamic Resolution Frametime Target
   -
@@ -69,11 +69,11 @@ unsafeCheck: false
     type: write
     address: [MAIN, 0x2A880E0, 0x6F0, 0xC]
     value_type: float
-    value: 18.1818
+    value: 18.1
 60FPS:
   # Dynamic Resolution Frametime Target
   -
     type: write
     address: [MAIN, 0x2A880E0, 0x6F0, 0xC]
     value_type: float
-    value: 16.6666
+    value: 16.6
