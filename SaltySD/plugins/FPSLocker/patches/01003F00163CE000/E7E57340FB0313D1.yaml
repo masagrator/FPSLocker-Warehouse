@@ -1,5 +1,9 @@
 # Batman: Arkham City 1.0.1
 # BID: E7E57340FB0313D1
+# References: 
+# "GEngine" global pointer
+# FViewport::Draw
+# FDynamicResolution::RefreshCurentFrameResolutionFraction
 
 unsafeCheck: false
 
