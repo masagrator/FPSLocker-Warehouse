@@ -11,4 +11,4 @@ Explanation based on:
 
 > Details
 
-SaltyNX doesn't support 32-bit games. You can find 60 FPS exefs patch [HERE](https://github.com/masagrator/NXGraphicsPatches/tree/experimental/Tokyo%20Mirage%20Session/exefs_patches/TMS-60FPS), but game is using double buffer, so game drops frequently to 30 FPS without very high OC.
+SaltyNX doesn't support 32-bit games. It requires strict testing what is broken and not, because it uses different 1/30 floats for different things, some must be changed, some are breaking gameplay if changed. UI doesn't use this float to change speed. Game uses double buffer and is fairly easy to unlock triple buffer.
