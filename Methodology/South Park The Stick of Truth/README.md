@@ -2,7 +2,7 @@
 
 > Game info
 
-TitleID: `010095300B6A4000`<br>
+TitleID: `010043600B6A6000`<br>
 Explanation based on:
 - Internal version: `1.0.1`, 
 - Nintendo version ID: `v1`/`v65536`
