@@ -2,6 +2,7 @@
 # BID: 82AF4E16BBC0BEC8
 # Thanks to Hazerou for finding offsets
 # Game was patched to use triple buffer, and to avoid flickering with some 2D transparent elements, I have disabled transparency in them.
+# Issue with flickering exists because game is hardcoded to only register 2 textures into texturepool and 2 samplers into samplerpool for framebuffers.
 
 unsafeCheck: true
 
