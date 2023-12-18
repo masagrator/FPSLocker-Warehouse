@@ -363,6 +363,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | PowerWash Simulator | `0100926016012000` | `E44D9EFDB2F1D0A6` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/E44D9EFDB2F1D0A6.yaml), v5, 1.2.1) | 🔴 |  |
 | Prison Simulator | `010094C017B06000` | `56C709E1A63CF9EA` (◯, v0, 1.0.0) | 🟢 |  |
 | Project Warlock | `0100BDB01150E000` | `D597DE8544D8ED4F` (◯, v3, 1.0.3) | 🟢 |  |
+| Raccoo Venture | `0100C1E01CDEE000` | `7CDFB80365E4D30C` ([✅](SaltySD/plugins/FPSLocker/patches/0100C1E01CDEE000/7CDFB80365E4D30C.yaml), v1, 1.0.1) | 🔴 |  |
 | Rad Rogers: Radical Edition | `010000600CD54000` | `78885A1CA987C04C` ([✅](SaltySD/plugins/FPSLocker/patches/010000600CD54000/78885A1CA987C04C.yaml), v2, 1.2.0) | 🔴 | [LINK](Methodology/Rad%20Rogers) |
 | Rain World | `010047600BF72000` | `83E5B9B8149CD349` (◯, v3, 1.0.3) | 🟢 |  |
 | RAINBOW HIGH: RUNWAY RUSH | `010039E0182D8000` | `8ECB01C6E7E4F50C` (◯, v0, 1.0.0) | 🟢 |  |
