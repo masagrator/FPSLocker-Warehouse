@@ -11,7 +11,7 @@ Explanation based on:
 
 > Details
 
-FPS can be unlocked with plugin alone, but camera is locked to 30 FPS movement. We can unlock it by settings fixedFrameRate to 1/60 float, but for some reason this artificially increases hardware usage and makes reaching 60 FPS harder than expected (by using stock clocks and changing this to lower value, you can see how performance tanks up to 30%). I don't plan to release this officially until this will be fixed.
+FPS can be unlocked with plugin alone, but camera is locked to 30 FPS movement. We can unlock it by settings fixedFrameRate to 1/60 float, but for some reason this artificially increases hardware usage and makes reaching 60 FPS harder than expected (by using stock clocks and changing this to lower value, you can see how performance tanks by 30%). I don't plan to release this officially until this will be fixed.
 Function causing this issue is at offset 0x643C2C which calculates passed time, which means patching only this function manipulates also game speed.
 
 ```yaml
