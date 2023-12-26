@@ -65,7 +65,7 @@ MASTER_WRITE:
     main_offset: 0x1821588
     value_type: uint32
     value: 0xBC5FC100
-  # Implement dynamic speed, min locked to 1/120 ms, max to 1/15ms
+  # Implement dynamic speed, min limited to 1/120 ms, max to 1/15ms
   -
     type: bytes
     main_offset: 0x124EFC8
@@ -105,6 +105,18 @@ MASTER_WRITE:
       - 0x54FFFEAA
       - 0xAA0203E0
       - 0x17FFFFF3
+    # Fix issue with hardcoding some aiming parameters to speed per frame
+      - 0xBC68D920
+      - 0xB0005FA9
+      - 0xF940B929
+      - 0xBD403121
+      - 0x1E210800
+      - 0x17B054DA
+  -
+    type: bytes
+    main_offset: 0xD3EF90
+    value_type: uint32
+    value: 0x144FAB22
 15FPS:
   # DR GPU Time Factor
   -
