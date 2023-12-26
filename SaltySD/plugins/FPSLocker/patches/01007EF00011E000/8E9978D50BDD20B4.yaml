@@ -117,6 +117,12 @@ MASTER_WRITE:
     main_offset: 0xD3EF90
     value_type: uint32
     value: 0x144FAB22
+  # Fix weird ragdolls physics calculation
+  -
+    type: bytes
+    main_offset: 0x1618480
+    value_type: uint32
+    value: 0x1E2E1009
 15FPS:
   # DR GPU Time Factor
   -
