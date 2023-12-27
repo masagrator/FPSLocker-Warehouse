@@ -65,19 +65,20 @@ MASTER_WRITE:
     main_offset: 0x1821588
     value_type: uint32
     value: 0xBC5FC100
-  # Implement dynamic speed, min limited to 1/120 ms, max to 1/15ms
+  # Fix weird ragdolls physics calculation
   -
     type: bytes
-    main_offset: 0x124EFC8
+    main_offset: 0x1618480
     value_type: uint32
-    value: 0x143B6AF7
+    value: 0x1E2E1009
+  # CODE CAVE
   -
     type: bytes
     main_offset: 0x2129BA4
     value_type: uint32
     value: 
+      - 0xF90003E1
       - 0xD63F0100
-      - 0xD503201F
       - 0x97FFF935
       - 0x97FFF99C
       - 0x900061E1
@@ -100,29 +101,75 @@ MASTER_WRITE:
       - 0xF940B800
       - 0x1E624000
       - 0xBD003000
-      - 0x17C494F2
+      - 0x14000015
       - 0xEB02001F
       - 0x54FFFEAA
       - 0xAA0203E0
       - 0x17FFFFF3
-    # Fix issue with hardcoding some aiming parameters to speed per frame
       - 0xBC68D920
       - 0xB0005FA9
       - 0xF940B929
       - 0xBD403121
       - 0x1E210800
       - 0x17B054DA
+      - 0x97FFF99C
+      - 0x900061E0
+      - 0x52800021
+      - 0xB90C9001
+      - 0x17BA1888
+      - 0x97FFF997
+      - 0x900061E0
+      - 0x52800041
+      - 0xB90C9001
+      - 0x17BA1677
+      - 0x900061E0
+      - 0xB94C9000
+      - 0x340000E0
+      - 0x370800E0
+      - 0xF94003E0
+      - 0x12800021
+      - 0xD0006028
+      - 0xF9406908
+      - 0xD63F0100
+      - 0x17C494D4
+      - 0x900061E1
+      - 0xB94C9421
+      - 0xF94003E0
+      - 0xD0006028
+      - 0xF9406908
+      - 0xD63F0100
+      - 0x900061E0
+      - 0xB90C901F
+      - 0x17C494CB
+  # Connect dynamic speed to game's code
+  -
+    type: bytes
+    main_offset: 0x124EFC8
+    value_type: uint32
+    value: 0x143B6AF7
+  # Connect fixing aiming to game's code
   -
     type: bytes
     main_offset: 0xD3EF90
     value_type: uint32
     value: 0x144FAB22
-  # Fix weird ragdolls physics calculation
+  # Connect AMV FPS locking
   -
     type: bytes
-    main_offset: 0x1618480
+    main_offset: 0xFAFE5C
     value_type: uint32
-    value: 0x1E2E1009
+    value: 0x1445E775
+  -
+    type: bytes
+    main_offset: 0xFAF62C
+    value_type: uint32
+    value: 0x1445E986
+  # Default interval
+  -
+    type: bytes
+    main_offset: 0x2D65C94
+    value_type: int32
+    value: -2
 15FPS:
   # DR GPU Time Factor
   -
@@ -130,6 +177,12 @@ MASTER_WRITE:
     address: [MAIN, 0x2D65C80]
     value_type: float
     value: 0.0005
+  # DR GPU Time Factor
+  -
+    type: write
+    address: [MAIN, 0x2D65C94]
+    value_type: int32
+    value: -4
 20FPS:
   # DR GPU Time Factor
   -
@@ -137,6 +190,11 @@ MASTER_WRITE:
     address: [MAIN, 0x2D65C80]
     value_type: float
     value: 0.000667
+  -
+    type: write
+    address: [MAIN, 0x2D65C94]
+    value_type: int32
+    value: -3
 25FPS:
   # DR GPU Time Factor
   -
@@ -144,6 +202,11 @@ MASTER_WRITE:
     address: [MAIN, 0x2D65C80]
     value_type: float
     value: 0.000834
+  -
+    type: write
+    address: [MAIN, 0x2D65C94]
+    value_type: int32
+    value: -2
 30FPS:
   # DR GPU Time Factor (default value)
   -
@@ -151,6 +214,11 @@ MASTER_WRITE:
     address: [MAIN, 0x2D65C80]
     value_type: float
     value: 0.001
+  -
+    type: write
+    address: [MAIN, 0x2D65C94]
+    value_type: int32
+    value: -2
 35FPS:
   # DR GPU Time Factor
   -
@@ -158,6 +226,11 @@ MASTER_WRITE:
     address: [MAIN, 0x2D65C80]
     value_type: float
     value: 0.00117
+  -
+    type: write
+    address: [MAIN, 0x2D65C94]
+    value_type: int32
+    value: -1
 40FPS:
   # DR GPU Time Factor
   -
@@ -165,6 +238,11 @@ MASTER_WRITE:
     address: [MAIN, 0x2D65C80]
     value_type: float
     value: 0.00134
+  -
+    type: write
+    address: [MAIN, 0x2D65C94]
+    value_type: int32
+    value: -1
 45FPS:
   # DR GPU Time Factor
   -
@@ -172,6 +250,11 @@ MASTER_WRITE:
     address: [MAIN, 0x2D65C80]
     value_type: float
     value: 0.0015
+  -
+    type: write
+    address: [MAIN, 0x2D65C94]
+    value_type: int32
+    value: -1
 50FPS:
   # DR GPU Time Factor
   -
@@ -179,6 +262,11 @@ MASTER_WRITE:
     address: [MAIN, 0x2D65C80]
     value_type: float
     value: 0.00167
+  -
+    type: write
+    address: [MAIN, 0x2D65C94]
+    value_type: int32
+    value: -1
 55FPS:
   # DR GPU Time Factor
   -
@@ -186,6 +274,11 @@ MASTER_WRITE:
     address: [MAIN, 0x2D65C80]
     value_type: float
     value: 0.00184
+  -
+    type: write
+    address: [MAIN, 0x2D65C94]
+    value_type: int32
+    value: -1
 60FPS:
   # DR GPU Time Factor
   -
@@ -193,3 +286,8 @@ MASTER_WRITE:
     address: [MAIN, 0x2D65C80]
     value_type: float
     value: 0.002
+  -
+    type: write
+    address: [MAIN, 0x2D65C94]
+    value_type: int32
+    value: -1
