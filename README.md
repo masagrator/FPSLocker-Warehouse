@@ -72,6 +72,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Atelier Firis | `010023201421E000` | `8BB29E319CCE6357` (◯, v4, 1.0.4) | 🟢 |  |
 | Atelier Lulua | `0100B1400CD50000` | `CA7FACAEC708311C` (◯, v4, 1.0.3) | 🟢 |  |
 | Atelier Lydie & Suelle | `01001A5014220000` | `32EB581C7D9BE094` (◯, v3, 1.0.3) | 🟢 |  |
+| Atelier Marie Remake | `0100EAE019904000` | `743CD6A40363900C` (◯, v1, 1.0.0a) | 🟢 |  | 
 | Atelier Meruru | `0100ADD00C6FA000` | `E76C3624D3AE3DCE` (◯, v2, 1.0.2) | 🟢 |  |
 | Atelier Rorona | `010088600C66E000` | `967D32BE4B10B67E` (◯, v1, 1.0.1) | 🟢 |  |
 | Atelier Ryza | `0100D1900EC80000` | `6BAE122EA063FFEB` (◯, v8, 1.0.8) | 🟢 |  |
