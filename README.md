@@ -50,7 +50,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Alien: Isolation | `010075D00E8BA000` | `397C054A3D25D488` (◯, v4, 1.1.4_60709) | 🟢 |  |
 | Alterity Experience | `010056F0186D0000` | `E4F041624093998D` (◯, v2, 2.0) | 🟢 |  |
 | American Fugitive | `010002B00C534000` | `375A0E11B2397340` (◯, v9, 1.1.1) | 🟢 |  |
-| Ancestors Legacy | `01009EE0111CC000` | `EE20B8DD92B8F9B4` ([✅](SaltySD/plugins/FPSLocker/patches/01009EE0111CC000/EE20B8DD92B8F9B4.yaml), v1, 1.1.0) | 🔴 | [LINK](Methodology/Ancestors%20Legacy) |
+| Ancestors Legacy | `01009EE0111CC000` | `EE20B8DD92B8F9B4` ([✅](SaltySD/plugins/FPSLocker/patches/01009EE0111CC000/EE20B8DD92B8F9B4.yaml), v1, 1.1.0) <br> `E1F0CFC02F449EF3` ([✅](SaltySD/plugins/FPSLocker/patches/01009EE0111CC000/E1F0CFC02F449EF3.yaml), v2, 1.2.0) | 🔴 | [LINK](Methodology/Ancestors%20Legacy) |
 | Animal Crossing: New Horizons | `01006F8002326000` | `15765149DF53BA41` (❌, v28, 2.0.6) | 🟡 | [LINK](Methodology/Animal%20Crossing%20New%20Horizons) |
 | Animal Shelter Simulator | `0100B1C01B104000` | `AB9EFB08DB5FE4F1` (❌, v1, 1.1.0) | 🟡 |  |
 | Aragami 2 | `0100787018198000` | `3FFD52E56DD8ADB3` (◯, v1, 1.0.30195.0) | 🟢 |  |
