@@ -54,7 +54,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Animal Crossing: New Horizons | `01006F8002326000` | `15765149DF53BA41` (❌, v28, 2.0.6) | 🟡 | [LINK](Methodology/Animal%20Crossing%20New%20Horizons) |
 | Animal Shelter Simulator | `0100B1C01B104000` | `AB9EFB08DB5FE4F1` (❌, v1, 1.1.0) | 🟡 |  |
 | Aragami 2 | `0100787018198000` | `3FFD52E56DD8ADB3` (◯, v1, 1.0.30195.0) | 🟢 |  |
-| Arise: A Simple Story | `0100FE201680A000` | `89D0AA352421357D` (❌, v4, 1.0.4) | 🔴 |  |
+| Arise: A Simple Story | `0100FE201680A000` | `8F2536786EECCEE5` ([✅](SaltySD/plugins/FPSLocker/patches/0100FE201680A000/8F2536786EECCEE5.yaml), v5, 1.0.5) | 🔴 |  |
 | ARK: Dinosaur Discovery | `0100A6B01900E000` | `9E0901B84058B5B4` ([✅](SaltySD/plugins/FPSLocker/patches/0100A6B01900E000/9E0901B84058B5B4.yaml), v2, 1.5.0) | 🔴 |  |
 | ARK: Survival Evolved | `0100D4A00B284000` | `5418E22D160F766F` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4A00B284000/5418E22D160F766F.yaml), v10, 2.0.7) <br> `49F3DD78CB5490B5` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4A00B284000/49F3DD78CB5490B5.yaml), v13, 2.0.10) <br> `D1E3FFBA414F4929` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4A00B284000/D1E3FFBA414F4929.yaml), v14, 2.0.11) | 🔴 |  |
 | art of rally | `0100A88012504000` | `116535367286904C` ([✅](SaltySD/plugins/FPSLocker/patches/0100A88012504000/116535367286904C.yaml), v4, 1.1.6) | 🔵 |  |
