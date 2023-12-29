@@ -289,8 +289,8 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Märchen Forest | `01001B2012D5E000` | `7A7C634CDAFE7D42` (◯, v7, 1.0.7) | 🟢 |  |
 | Master Detective Archives: RAIN CODE | `01004800197F0000` | `2058227F80E9B40C` ([✅](SaltySD/plugins/FPSLocker/patches/01004800197F0000/2058227F80E9B40C.yaml), v3, 1.3.0) <br> `6D722DED660CD6E3` ([✅](SaltySD/plugins/FPSLocker/patches/01004800197F0000/6D722DED660CD6E3.yaml), v5, 1.3.2) <br> `B1C54D7E3540577B` ([✅](SaltySD/plugins/FPSLocker/patches/01004800197F0000/B1C54D7E3540577B.yaml), v6, 1.3.3) | 🔴 |  |
 | Masters of Anima | `0100CC7009196000` | `B1C8B55EBD400E57` (◯, v1, 1.0.1) | 🟢 |  |
-| Metal Gear Solid 2: Sons of Liberty | `0100A4301AA0C000` | `E689394FD20302EB` (❌, v4, 1.2.1) | 🟡 |  |
-| Metal Gear Solid 3: Snake Eater | `010047F01AA10000` | `17F0744313E5B0FB` (❌, v5, 1.2.1) | 🟡 |  |
+| Metal Gear Solid 2: Sons of Liberty | `0100A4301AA0C000` | `9E762F59BA61292A` (❌, v6, 1.3.1) | 🟡 |  |
+| Metal Gear Solid 3: Snake Eater | `010047F01AA10000` | `E23C078882FDA06D` (❌, v6, 1.3.0) | 🟡 |  |
 | Metro 2033 Redux | `0100D4900E82C000` | `85C362CC9790F0ED` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4900E82C000/85C362CC9790F0ED.yaml), v0, 1.0.0) | 🔵 | [LINK](Methodology/Metro%20Redux%20Collection) |
 | Metro: Last Light Redux | `0100F0400E850000` | `85C362CC9790F0ED` ([✅](SaltySD/plugins/FPSLocker/patches/0100F0400E850000/85C362CC9790F0ED.yaml), v0, 1.0.0) | 🔵 | [LINK](Methodology/Metro%20Redux%20Collection) |
 | Minecraft Dungeons | `01006C100EC08000` | `13F573E3017996E4` (◯, v27, 1.17.0.0) | 🟢 |  |
