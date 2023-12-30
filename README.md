@@ -178,7 +178,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Dragon's Dogma: Dark Arisen | `010032C00AC58000` <br> `010057E00AC56000` | `2CDB9B9D70010E88` ([✅](SaltySD/plugins/FPSLocker/patches/010032C00AC58000/2CDB9B9D70010E88.yaml), v1, 1.0.1) <br> `2D5B93C856CDF009` ([✅](SaltySD/plugins/FPSLocker/patches/010057E00AC56000/2D5B93C856CDF009.yaml), v1, 1.0.1) | 🔴 |  |
 | DRAGON BALL XENOVERSE 2 | `010078D000F88000` | `ACD8DFEFD0EA5316` (❌, v27, 1.20.01) | 🔴 |  |
 | DRAGON BALL Z: KAKAROT | `010051C0134F8000` | `13B450093A7DA8E2` ([✅](SaltySD/plugins/FPSLocker/patches/010051C0134F8000/13B450093A7DA8E2.yaml), v8, 1.32) <br> `0C1B09D4D2FD0972` ([✅](SaltySD/plugins/FPSLocker/patches/010051C0134F8000/0C1B09D4D2FD0972.yaml), v10, 1.41) | 🔴 |  |
-| DRAGON QUEST MONSTERS: The Dark Prince | `0100A77018EA0000` | `430C4F089C9C3045` (◯, v1, 1.0.1) | 🟢 |  |
+| DRAGON QUEST MONSTERS: The Dark Prince | `0100A77018EA0000` | `516C0DC61E7FC25C` (◯, v3, 1.0.3) | 🟢 |  |
 | DRAGON QUEST XI S: Echoes of an Elusive Age | `01006C300E9F0000` | `1719AABFA5EAE42B` ([✅](SaltySD/plugins/FPSLocker/patches/01006C300E9F0000/1719AABFA5EAE42B.yaml), v3, 1.0.3) | 🔵 | [LINK](Methodology/Dragon%20Quest%20XI%20S) |
 | DRAGON QUEST TREASURES | `010049B017774000` | `2F81A2EC9B298B37` ([✅](SaltySD/plugins/FPSLocker/patches/010049B017774000/2F81A2EC9B298B37.yaml), v1, 1.0.1) | 🔴 |  |
 | Dredge | `01008CD0172D6000` | `D16558D855603353` ([✅](SaltySD/plugins/FPSLocker/patches/01008CD0172D6000/D16558D855603353.yaml), v4, 1.1.0) <br> `B9CC2F4DE53D4F94` ([✅](SaltySD/plugins/FPSLocker/patches/01008CD0172D6000/B9CC2F4DE53D4F94.yaml), v8, 1.4.2) | 🟡 |  |
