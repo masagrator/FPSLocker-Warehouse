@@ -205,7 +205,7 @@ unsafeCheck: true
     address: [MAIN, 0x6D2CBF8, 0]
     value_type: float
     value: [16.66, 16.66]
-  # t.MaxFPS (default value)
+  # t.MaxFPS (default value is 60)
   -
     type: write
     address: [MAIN, 0x6D5A568, 0]
