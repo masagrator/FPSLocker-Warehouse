@@ -11,8 +11,6 @@ Explanation based on:
 
 > Details
 
-> Details
-
 Game runs on unlocked framerate from main menu forward, but because of dynamic resolution set to 33.33 ms game is clearly targeting 30 FPS. Requires patch to make running at higher framerates easier. And since we are doing it, we will also search for internal FPS locker.
 
 # How to find offsets
