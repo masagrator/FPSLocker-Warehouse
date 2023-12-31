@@ -175,7 +175,7 @@ unsafeCheck: false
     type: write
     address: [MAIN, 0x6157F28, 0xB8, 0, 0x20]
     value_type: float
-    value: 0.763
+    value: 0.0763
 60FPS:
   # UnityEngine.QualitySettings::vSyncCount
   -
