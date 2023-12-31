@@ -262,7 +262,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Kirby Star Allies | `01007E3006DDA000` | `D55608916FA56C18`  ([✅](SaltySD/plugins/FPSLocker/patches/01007E3006DDA000/D55608916FA56C18.yaml), v5, 4.0.0) | 🔴 |  |
 | Kirby's Dream Buffet | `0100A8E016236000` | `82AF4E16BBC0BEC8` ([✅](SaltySD/plugins/FPSLocker/patches/0100A8E016236000/82AF4E16BBC0BEC8.yaml), v0, 1.0.0) | 🔴 |  |
 | L.A. Noire | `0100830004FB6000` | `40F973CE3B5EC8D7` ([✅](SaltySD/plugins/FPSLocker/patches/0100830004FB6000/40F973CE3B5EC8D7.yaml), v2, 1.2) | 🟡 | [LINK](Methodology/L.A.%20Noire) |
-| LEGO 2K Drive | `0100739018020000` | `035715948447A762` ([✅](SaltySD/plugins/FPSLocker/patches/0100739018020000/035715948447A762.yaml), v4, 1.4) <br> `E93D49581521E084` ([✅](SaltySD/plugins/FPSLocker/patches/0100739018020000/E93D49581521E084.yaml), v7, 1.7) | 🔴 |  |
+| LEGO 2K Drive | `0100739018020000` | `035715948447A762` ([✅](SaltySD/plugins/FPSLocker/patches/0100739018020000/035715948447A762.yaml), v4, 1.4) <br> `E93D49581521E084` ([✅](SaltySD/plugins/FPSLocker/patches/0100739018020000/E93D49581521E084.yaml), v7, 1.7) <br> `6DBC20263D224B3C` ([✅](SaltySD/plugins/FPSLocker/patches/0100739018020000/6DBC20263D224B3C.yaml), v13, 1.13) | 🔴 |  |
 | LEGO City Undercover | `010085500130A000` | `32C590B064956546` (◯, v3, 1.0.3) | 🟢 |  |
 | LEGO DC Super-Villains | `010070D009FEC000` | `711C52FC37605D45` (◯, v8, 1.0.8) | 🟢 |  |
 | LEGO Jurassic World | `01001C100E772000` | `1B80403BE8882745` (◯, v1, 1.0.1) | 🟢 |  |
