@@ -66,22 +66,22 @@ MASTER_WRITE:
     type: write
     address: [MAIN, 0x21E4F30]
     value_type: float
-    value: [22.67, 19.67]
+    value: [22.2, 19.67]
 50FPS:
   -
     type: write
     address: [MAIN, 0x21E4F30]
     value_type: float
-    value: [20.4, 17.4]
+    value: [20, 17.4]
 55FPS:
   -
     type: write
     address: [MAIN, 0x21E4F30]
     value_type: float
-    value: [18.55, 15.55]
+    value: [18.05, 15.55]
 60FPS:
   -
     type: write
     address: [MAIN, 0x21E4F30]
     value_type: float
-    value: [17, 14]
+    value: [16.5, 14]
