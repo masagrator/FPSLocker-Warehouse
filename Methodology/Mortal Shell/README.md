@@ -4,8 +4,8 @@
 
 TitleID: `0100154019A7C000`<br>
 Explanation based on:
-- Internal version: `1.0.1`, 
-- Nintendo version ID: `v1`/`v65536`
+- Internal version: `1.2.0`, 
+- Nintendo version ID: `v2`/`v131072`
 - BID: `BE2D1A84420113EC`
 - Engine: `Unreal Engine 4.25.0`
 
@@ -13,7 +13,7 @@ Explanation based on:
 
 > Details
 
-Plugin alone can set FPS above 30, but because of dynamic resolution set to 33.33 ms performance is subpar. Requires patch to fix that.
+Game runs on unlocked framerate from main menu forward, but because of dynamic resolution set to 33.33 ms game is clearly targeting 30 FPS. Requires patch to make running at higher framerates easier. And since we are doing it, we will also search for internal FPS locker.
 
 # How to find offsets
 
