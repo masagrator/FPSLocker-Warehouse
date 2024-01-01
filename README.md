@@ -17,9 +17,9 @@ Patches status concern only FPSLocker "LOCK" patch format. There may exist cheat
 As the list is filled by community, it may not be up to date.
 
 🟢 - Plugin alone is enough<br>
-🔵 - Plugin alone allows going above 30 FPS, but it requires patch to fix non-breaking gameplay elements (f.e. dynamic resolution frame time to improve performance, adjust lipsync, remove double buffer)<br>
-🟡 - Plugin alone allows going above 30 FPS, but it requires patch to fix breaking gameplay elements (f.e. game speed or physics) or removing fake frames (aka game reporting 60 FPS while in fact it's 30 FPS)<br>
-🔴 - Plugin alone is not enough, patches are required<br>
+🔵 - Plugin alone allows going above 30 FPS, but game requires patch to fix non-breaking gameplay elements (f.e. dynamic resolution frame time to improve performance, adjust lipsync, remove double buffer)<br>
+🟡 - Plugin alone allows going above 30 FPS, but game requires patch to fix breaking gameplay elements (f.e. game speed or physics) or removing fake frames (aka game reporting 60 FPS while in fact it's 30 FPS)<br>
+🔴 - Plugin alone is not enough, game patch is required<br>
 🟣 - Game is not compatible with the plugin
 
 PATCH AVAILABILITY<br>
