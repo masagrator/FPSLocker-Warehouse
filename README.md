@@ -11,7 +11,7 @@ Read SaltyNX readme to check which games are not compatible.
 
 ---
 
-Column with colors stores info if the plugin is enough to go above 30 FPS or it requires additional patches.<br>
+Column with colors stores info if the plugin is enough to go above 30 FPS or you must use additional patches that are created from configs available in this repository.<br>
 This involves only handheld mode. For docked mode different color could be attached.<br>
 Patches status concern only FPSLocker "LOCK" patch format. There may exist cheat/IPS patch/mod that unlocks 60 FPS already.<br>
 As the list is filled by community, it may not be up to date.
