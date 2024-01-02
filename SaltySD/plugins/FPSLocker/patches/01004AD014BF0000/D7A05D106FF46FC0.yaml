@@ -1,6 +1,9 @@
 # Sonic Frontiers 1.4.1
 # BID: D7A05D106FF46FC0
 
+# FPS Lock is used to determine dynamic resolution timing too
+# Turn off Window Sync for better performance
+
 unsafeCheck: true
 
 15FPS:
