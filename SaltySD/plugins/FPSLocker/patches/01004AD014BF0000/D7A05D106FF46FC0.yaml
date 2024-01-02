@@ -9,63 +9,63 @@ unsafeCheck: true
     type: write
     address: [MAIN, 0x4CA3F20, 0x14]
     value_type: float
-    value: 0
+    value: 15
 20FPS:
   # Internal FPS Lock
   -
     type: write
     address: [MAIN, 0x4CA3F20, 0x14]
     value_type: float
-    value: 0
+    value: 20
 25FPS:
   # Internal FPS Lock
   -
     type: write
     address: [MAIN, 0x4CA3F20, 0x14]
     value_type: float
-    value: 0
+    value: 25
 30FPS:
-  # Internal FPS Lock
+  # Internal FPS Lock (default value)
   -
     type: write
     address: [MAIN, 0x4CA3F20, 0x14]
     value_type: float
-    value: 0
+    value: 30
 35FPS:
   # Internal FPS Lock
   -
     type: write
     address: [MAIN, 0x4CA3F20, 0x14]
     value_type: float
-    value: 0
+    value: 35
 40FPS:
   # Internal FPS Lock
   -
     type: write
     address: [MAIN, 0x4CA3F20, 0x14]
     value_type: float
-    value: 0
+    value: 40
 45FPS:
   # Internal FPS Lock
   -
     type: write
     address: [MAIN, 0x4CA3F20, 0x14]
     value_type: float
-    value: 0
+    value: 45
 50FPS:
   # Internal FPS Lock
   -
     type: write
     address: [MAIN, 0x4CA3F20, 0x14]
     value_type: float
-    value: 0
+    value: 50
 55FPS:
   # Internal FPS Lock
   -
     type: write
     address: [MAIN, 0x4CA3F20, 0x14]
     value_type: float
-    value: 0
+    value: 55
 60FPS:
   # Internal FPS Lock
   -
