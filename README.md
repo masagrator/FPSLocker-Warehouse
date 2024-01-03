@@ -439,7 +439,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | SWORD ART ONLINE Alicization Lycoris | `010034501225C000` | `B6AF2C0FA614CC87` (❌, v8, 3.0.1) | 🔵 | [LINK](Methodology/Sword%20Art%20Online%20Alicization%20Lycoris/README.md) |
 | SWORD OF THE VAGRANT | `0100BD000CB2C000` | `1F1363EC8CC83C73` ([✅](SaltySD/plugins/FPSLocker/patches/0100BD000CB2C000/1F1363EC8CC83C73.yaml), v1, 1.1) | 🔵 | [LINK](Methodology/SWORD%20OF%20THE%20VAGRANT) |
 | SteamWorld Build | `01004E401B3EA000` | `D1DC7771172C9358` (◯, v8, 1.0.8) | 🟢 |  |
-| Tails of Iron | `0100EF3013F60000` | `AD8FA9F610DB1015` (◯, v3, 4) | 🟢 |  |
+| Tails of Iron | `0100EF3013F60000` | `6A28EE5E39F76B6A` (◯, v4, 5) | 🟢 |  |
 | Tales from the Borderlands | `0100F0C011A68000` | `818C98B885460561` (◯, v0, 1.0.0) | 🟢 |  |
 | Tales of Symphonia Remastered | `0100A410169A4000` | `BCFDC7A6A7181E9F` (❌, v1, 1.1) | 🟡 |  |
 | Team Sonic Racing | `010084B00B36E000` | `7D942261130F42A7` (◯, v3, 1.0.3) | 🟢 |  |
