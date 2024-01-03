@@ -3,6 +3,13 @@
 
 unsafeCheck: true
 
+MASTER_WRITE:
+  # Remove double buffer
+  -
+    type: bytes
+    main_offset: 0x4F763D6
+    value_type: uint8
+    value: 0x73
 15FPS:
   # r.DynamicRes.FrameTimeBudget (1000/FPS) cutted to 2 decimals
   -
