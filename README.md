@@ -445,7 +445,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Team Sonic Racing | `010084B00B36E000` | `7D942261130F42A7` (◯, v3, 1.0.3) | 🟢 |  |
 | Terraformers | `0100C1B01872A000` | `A01180885E696F91` (◯, v0, 1.1.55) | 🟢 |  |
 | The Caligula Effect: Overdose | `010069100B7F0000` | `A953B35A45BEA33D` ([✅](SaltySD/plugins/FPSLocker/patches/010069100B7F0000/A953B35A45BEA33D.yaml), v1, 1.01) | 🔵 | [LINK](Methodology/The%20Caligula%20Effect%20Overdose) |
-| The Caligula Effect 2 | `0100CC3014886000` | `094BD2CDF388A1DB` (◯, v0, 1.0.0) | 🟢 |  |
+| The Caligula Effect 2 | `0100CC3014886000` | `9265FE6C4DE9600E` ([✅](SaltySD/plugins/FPSLocker/patches/0100CC3014886000/9265FE6C4DE9600E.yaml), v1, 1.1.0) | 🟢 |  |
 | The Dark Pictures Anthology: Little Hope | `010084F017B32000` | `2BFF5F7711EE6C9F` ([✅](SaltySD/plugins/FPSLocker/patches/010084F017B32000/2BFF5F7711EE6C9F.yaml), v0, 1.0.0) | 🔴 |  | 
 | The Dark Pictures Anthology: Man of Medan | `0100711017B30000` | `D7D0827ABE36A00D` ([✅](SaltySD/plugins/FPSLocker/patches/0100711017B30000/D7D0827ABE36A00D.yaml), v0, 1.0.0) <br> `2C7A626BA5F25D5F` ([✅](SaltySD/plugins/FPSLocker/patches/0100711017B30000/2C7A626BA5F25D5F.yaml), v1, 1.0.1) | 🔴 |  | 
 | The Elder Scrolls V: Skyrim | `01000A10041EA000` | `771BDFB65F8D0AF7` ([✅](SaltySD/plugins/FPSLocker/patches/01000A10041EA000/771BDFB65F8D0AF7.yaml), v4, 1.1.177.3285177) | 🔵 | [LINK](Methodology/The%20Elder%20Scrolls%20V%20Skyrim) |
