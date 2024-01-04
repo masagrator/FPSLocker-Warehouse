@@ -1,15 +1,9 @@
 # TRANSFORMERS: EARTHSPARK - Expedition 1.0.5
 # BID: F87BEAF2C5CE13E3
+# Game is using double buffer, everything is hardcoded
 
 unsafeCheck: true
 
-MASTER_WRITE:
-  # Remove double buffer
-  -
-    type: bytes
-    main_offset: 0x4F762D6
-    value_type: uint8
-    value: 0x73
 15FPS:
   # r.DynamicRes.FrameTimeBudget (1000/FPS) cutted to 2 decimals
   -
