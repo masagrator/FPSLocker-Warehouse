@@ -1,7 +1,7 @@
 # Warhammer 40,000: Boltgun 1.0.0.3
 # BID: 7C992B6A003C599F
 
-unsafeCheck: true
+unsafeCheck: false
 
 15FPS:
   # Disable bUseFixedFrameRate to unlock framerate
