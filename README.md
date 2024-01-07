@@ -36,6 +36,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) |  | DETAILS |
 | --- | --- | --- | --- | --- |
+| .hack//G.U. Last Recode | `0100BA9014A02000` | `4C0ED5711263A6D9` (❌, v4, 1.0.4) | 🟡 |  |
 | A Hat in Time | `010056E00853A000` | `746F0D697EEEE2DD` ([✅](SaltySD/plugins/FPSLocker/patches/010056E00853A000/746F0D697EEEE2DD.yaml), v4, 1.0.4) | 🔴 |  |
 | ABZU | `0100C1300BBC6000` | `59719CFCD1671B98` ([✅](SaltySD/plugins/FPSLocker/patches/0100C1300BBC6000/59719CFCD1671B98.yaml), v0, 1.0.0) | 🔴 | [LINK](Methodology/ABZU) |
 | Advance Wars 1+2: Re-Boot Camp | `0100300012F2A000` | `320A17744AEFD67F`  ([✅](SaltySD/plugins/FPSLocker/patches/0100300012F2A000/320A17744AEFD67F.yaml), v0, 1.0.0) | 🔴 | [LINK](Methodology/Advance%20Wars%201%2B2) |
