@@ -110,7 +110,8 @@ MASTER_WRITE:
       - 0xAA0003F3
       - 0x1E211801
       - 0xD503201F
-  # Fix black background in D-pad menu  -
+  # Fix black background in D-pad menu  
+  -
     type: bytes
     main_offset: 0x9065E4
     value_type: uint32
