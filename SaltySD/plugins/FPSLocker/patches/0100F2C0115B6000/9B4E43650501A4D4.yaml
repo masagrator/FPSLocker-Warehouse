@@ -71,6 +71,12 @@ MASTER_WRITE:
       - 0x17E5BF2F
       - 0x52800022
       - 0x17FFFFE7
+      - 0x1E202048
+      - 0x54000041
+      - 0x1E2E1000
+      - 0x1E222808
+      - 0x1E202028
+      - 0x1770F360
   # Connect game speed to code cave's calculation
   -
     type: bytes
@@ -110,12 +116,12 @@ MASTER_WRITE:
       - 0xAA0003F3
       - 0x1E211801
       - 0xD503201F
-  # Fix black background in D-pad menu  
+  # Fix black background for D-pad menu
   -
     type: bytes
-    main_offset: 0x9065E4
+    main_offset: 0x7568B0
     value_type: uint32
-    value: 0x1E2E1000
+    value: 0x148F0C9C
   # Default values
   -
     type: bytes
