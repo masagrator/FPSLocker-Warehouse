@@ -77,8 +77,8 @@ MASTER_WRITE:
       - 0x1E222808
       - 0x1E202028
       - 0x1770F360
-      - 0xB000E080
-      - 0xBD4AB801
+      - 0xB000E081
+      - 0xBD4AB821
       - 0xBD4C5400
       - 0x1E210800
       - 0xD65F03C0
