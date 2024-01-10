@@ -77,6 +77,11 @@ MASTER_WRITE:
       - 0x1E222808
       - 0x1E202028
       - 0x1770F360
+      - 0xB000E080
+      - 0xBD4AB801
+      - 0xBD4C5400
+      - 0x1E210800
+      - 0xD65F03C0
   # Connect game speed to code cave's calculation
   -
     type: bytes
@@ -122,6 +127,12 @@ MASTER_WRITE:
     main_offset: 0x7568B0
     value_type: uint32
     value: 0x148F0C9C
+  # Fix vertical aiming speed for Ultrahand and bow (thanks to Last Breath for pointer)
+  -
+    type: bytes
+    main_offset: 0x1D48D40
+    value_type: uint32
+    value: 0x9437437E
   # Default values
   -
     type: bytes
