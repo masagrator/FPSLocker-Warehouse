@@ -156,7 +156,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Darksiders III | `0100F8F014190000` | `AF7114F019CE6E1D` ([✅](SaltySD/plugins/FPSLocker/patches/0100F8F014190000/AF7114F019CE6E1D.yaml), v1, 1.0.1) | 🔵 | [LINK](Methodology/Darksiders%20III) |
 | DAVE THE DIVER | `010097F018538000` | `CF403117A8069A7F` (◯, v9, 1.0.1.548) | 🟢 |  |
 | Dawn of the Monsters | `01006960155C4000` | `6E6BE8185BB7E140` (◯, v2, 1.2.1) | 🟢 |  |
-| DC's Justice League: Cosmic Chaos | `0100157015DD8000` | `6F52F2A81373246B` (◯, v2, 1.0.2) | 🟢 |  |
+| DC's Justice League: Cosmic Chaos | `0100157015DD8000` | `756D43D84F8F1617` (◯, v3, 1.0.3) | 🟢 |  |
 | Death end re;Quest | `0100AEC013DDA000` | `2F5554EBECAE652B` (❌, v1, 1.0.1) | 🔵 | [LINK](Methodology/Death%20End%20Re%3BQuest) |
 | Death end re;Quest 2 | `0100EB701568A000` | `6A06F3A2582C0954` (❌, v0, 1.0.0) | 🔵 | [LINK](Methodology/Death%20End%20Re%3BQuest%202) |
 | Death's Door | `0100B31015AF8000` | `0D20B5FF11828346` (◯, v3, 1.1.6a) | 🟢 |  |
