@@ -334,7 +334,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Off the Road Unleashed | `010045C0112F8000` | `5E8316D212D6D7BD` (◯, v1, 1.0.1) | 🟢 |  |
 | Oninaki | `01001AF00CE54000` | `C949E2576F532C43` (◯, v2, 1.0.2) | 🟢 |  |
 | Othercide | `0100E5900F49A000` | `A8BA2A8F93AAE647` ([✅](SaltySD/plugins/FPSLocker/patches/0100E5900F49A000/A8BA2A8F93AAE647.yaml), v3, 1.3.0.5) | 🔵 |  |
-| Outer Wilds | `01003DC0144B6000` | `30DAEEF64B06974C` (❌, v1, 1.1.14.841) | 🟡 | [LINK](Methodology/Outer%20Wilds) |
+| Outer Wilds | `01003DC0144B6000` | `6D84C98833E0A849` (❌, v2, 1.1.14.856) | 🟡 | [LINK](Methodology/Outer%20Wilds) |
 | Outlast | `01008D4007A1E000` | `C3D46BB3C7059DB1` ([✅](SaltySD/plugins/FPSLocker/patches/01008D4007A1E000/C3D46BB3C7059DB1.yaml), v1, 1.0.1) | 🔵 |  |
 | Outlast 2 | `0100DE70085E8000` | `F18ACDA7A71CB287` ([✅](SaltySD/plugins/FPSLocker/patches/0100DE70085E8000/F18ACDA7A11CB287.yaml), v0, 1.0.0) | 🔵 |  |
 | Overcooked! Special Edition | `01009B900401E000` | `41D554623A3F4341` (◯, v4, 1.1.1) | 🟢 |  |
