@@ -57,8 +57,8 @@ for line in file:
         latestUpdate = DATA.database[titleid]
     except:
         print(f"Titleid not found: {titleid}")
-        print(f"Title:{gameTitle}")
-        sys.exit()
+        print(f"Title:{gameTitle}\n")
+        continue
     try:
         latestUpdate = DATA.database[titleid[:13] + "800"]
     except:
