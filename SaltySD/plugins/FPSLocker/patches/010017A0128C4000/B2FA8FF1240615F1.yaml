@@ -1,6 +1,7 @@
 # Jojo's Bizarre Adventure: All-Star Battle R 2.3.0
 # BID: B2FA8FF1240615F1
 # There are small issues with animations in cutscenes at higher framerates
+# REF: 28 1C 00 12 89 07 80 52 2A 09 C8 1A
 
 unsafeCheck: true
 
