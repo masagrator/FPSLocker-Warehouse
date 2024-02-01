@@ -315,7 +315,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | MotoGP 23 | `0100B750198C6000` | `CEE6B8B19D3A863E` ([✅](SaltySD/plugins/FPSLocker/patches/0100B750198C6000/CEE6B8B19D3A863E.yaml), v3, 1.0.3) <br> `FF0DDCCB9C3B9375` ([✅](SaltySD/plugins/FPSLocker/patches/0100B750198C6000/FF0DDCCB9C3B9375.yaml), v7, 1.0.7) | 🔵 |  |
 | Moving Out | `0100C4C00E73E000` | `CB3172ED0C3BC646` (◯, v6, 1.0.6) | 🟢 |  |
 | Moving Out 2 | `010065D018172000` | `C552B6464E7348A7` (◯, v5, 1.3.315) | 🟢 |  |
-| My Time at Sandrock | `0100B63016916000` | `64E05DC7E63FE962` (◯, v4, 1.0.4) | 🟢 |  |
+| My Time at Sandrock | `0100B63016916000` | `4B71E4BC46DC7F19` (◯, v6, 1.1.4.2) | 🟢 |  |
 | Mythic Ocean | `0100F4F014108000` | `2284DFB25F387719` ([✅](SaltySD/plugins/FPSLocker/patches/0100F4F014108000/2284DFB25F387719.yaml), v1, 1.0.1) | 🔴 |  |
 | NARUTO SHIPPUDEN:<br>Ultimate Ninja STORM 4<br>ROAD TO BORUTO | `01006CF00CF60000` | `D3016FC0C0402DFB` (❌, v3, 1.3.0) | 🔴 | [LINK](Methodology/Naruto%20Shippuuden%20Ultimate%20Ninja%20Storm%204%20Road%20to%20Boruto) |
 | NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS | `0100FA10190A0000` | `D9C42D45D9850C58` (❌, v1, 1.0.1) | 🔴 |  |
