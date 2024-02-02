@@ -1,6 +1,9 @@
 # The Legend of Zelda: Tears of The Kingdom 1.2.1
 # BID: 9B4E43650501A4D4
 
+Addons:
+  - atmosphere/contents/0100F2C0115B6000/exefs/main.npdm
+
 unsafeCheck: true
 
 MASTER_WRITE:
