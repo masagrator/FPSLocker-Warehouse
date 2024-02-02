@@ -126,6 +126,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Cel Damage HD | `010019B00BE72000` | `03B058B1F6BE7195` (✝️, v0, 1.0.0) | 🟣 | [LINK](Methodology/CelDamage%20HD) |
 | Chants of Sennaar | `0100543019CB0000` | `CEFFC8421D584F8C` (◯, v2, 1.0.2) | 🟢 |  |
 | Chef Life - A Restaurant Simulator | `0100F24014280000` | `5421F21D982F9379` (◯, v3, 1.3.0) | 🟢 |  |
+| Choo-Choo Charles | `01006F901C7F2000` | `406F004D76F961F3` ([✅](SaltySD/plugins/FPSLocker/patches/01006F901C7F2000/406F004D76F961F3.yaml), v0, 1.0.1) | 🔵 |  |
 | Circus Electrique | `0100ABF015DCE000` | `57019F9781022D15` (◯, v2, 1.2.0) | 🟢 |  |
 | Classic Racers Elite | `01003B90137D0000` | `9D9810D42B5AF44D` (◯, v0, 1.0) | 🟢 |  |
 | Clive 'N' Wrench | `0100C6C010AE4000` | `FE211DBFAD6EA549` ([✅](SaltySD/plugins/FPSLocker/patches/0100C6C010AE4000/FE211DBFAD6EA549.yaml), v5, 1.0.6) | 🔵 |  |
