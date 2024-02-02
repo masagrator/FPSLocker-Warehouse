@@ -366,11 +366,11 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Pokemon Brilliant Diamond | `0100000011D90000` | `94CEAE325C205C4B` (◯, v6, 1.3.0) | 🟢 |  |
 | Pokemon Legends: Arceus | `01001F5010DFA000` | `AEE8F150DDA1B5A8` (❌, v4, 1.1.1) | 🟡 | [LINK](Methodology/Pokemon%20Legends%20Arceus) |
 | Pokemon Mystery Dungeon: Rescue Team DX | `01003D200BAA2000` | `3AB632DEE82D5944` (❌, v2, 1.0.2) | 🔵 | [LINK](Methodology/Pokemon%20Mystery%20Dungeon) |
-| Pokemon Scarlet | `0100A3D008C5C000` | `6EE2D5E3216EBDA5` (❌, v4, 1.3.0) | 🟡 | [LINK](Methodology/Pokemon%20Scarlet) |
+| Pokemon Scarlet | `0100A3D008C5C000` | `421C5411B487EB4D` (❌, v11, 3.0.1) | 🟡 | [LINK](Methodology/Pokemon%20Scarlet) |
 | Pokemon Shield | `01008DB008C2C000` | `A16802625E7826BF` (❌, v7, 1.3.2) | 🟡 | [LINK](Methodology/Pokemon%20Shield) |
 | Pokemon Shining Pearl | `010018E011D92000` | `38F59CBDA2EB9C44` (◯, v6, 1.3.0) | 🟢 |  |
 | Pokemon Sword | `0100ABF008968000` | `A3B75BCD3311385A` (❌, v7, 1.3.3) | 🟡 | [LINK](Methodology/Pokemon%20Sword) |
-| Pokemon Violet | `01008F6008C5E000` | `AC70E41BB699CB9F` (❌, v4, 1.3.0) | 🟡 | [LINK](Methodology/Pokemon%20Violet) |
+| Pokemon Violet | `01008F6008C5E000` | `709BFD6611529864` (❌, v11, 3.0.1) | 🟡 | [LINK](Methodology/Pokemon%20Violet) |
 | Portal Knights | `0100437004170000` | `D59D81C06F923846` (❌, v8, 1.7.2) | 🔵 |  |
 | Potion Permit | `010025F0126FE000` | `C7249836825D1750` (◯, v11, 1.0.11) | 🟢 |  |
 | PowerWash Simulator | `0100926016012000` | `E44D9EFDB2F1D0A6` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/E44D9EFDB2F1D0A6.yaml), v5, 1.2.1) <br> `FCFC7462E8DC0E6D` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/FCFC7462E8DC0E6D.yaml), v10, 1.5.2) <br> `E71C3103420D9574` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/E71C3103420D9574.yaml), v11, 1.6.0) | 🔴 |  |
