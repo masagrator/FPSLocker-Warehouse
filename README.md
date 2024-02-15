@@ -198,7 +198,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Everspace | `0100DCF0093EC000` | `71873FEB4648FA39` ([✅](SaltySD/plugins/FPSLocker/patches/0100DCF0093EC000/71873FEB4648FA39.yaml), v5, 1.0.5) | 🔴 | [LINK](Methodology/Everspace) |
 | FAR: Changing Tides | `01008A0014A92000` | `7041BC78D64745A1` (◯, v2, 1.2.0) | 🟢 |  |
 | FAR: Lone Sails | `010022700E7D6000` | `CE59C773211A1A49` (◯, v0, 1.0.0) <br> `8FD06AB8DA27EC40` (◯, v1, 1.3) | 🟢 |  |
-| Farming Simulator 23 | `01001E3017A10000` | `1C38F0E269ED4438` ([✅](SaltySD/plugins/FPSLocker/patches/01001E3017A10000/1C38F0E269ED4438.yaml), v1, 1.1.0.0) <br> `0204E8D91F22A2D1` ([✅](SaltySD/plugins/FPSLocker/patches/01001E3017A10000/0204E8D91F22A2D1.yaml), v4, 1.4.0.1) | 🔴 |  |
+| Farming Simulator 23 | `01001E3017A10000` | `1C38F0E269ED4438` ([✅](SaltySD/plugins/FPSLocker/patches/01001E3017A10000/1C38F0E269ED4438.yaml), v1, 1.1.0.0) <br> `0204E8D91F22A2D1` ([✅](SaltySD/plugins/FPSLocker/patches/01001E3017A10000/0204E8D91F22A2D1.yaml), v4, 1.4.0.1) <br> `17F37A56B17DD9CC` ([✅](SaltySD/plugins/FPSLocker/patches/01001E3017A10000/17F37A56B17DD9CC.yaml), v5, 1.5.0.0) | 🔴 |  |
 | F.I.S.T.: Forged in Shadow Torch | `01009F8017F48000` | `69EE5F71F187EAA9` ([✅](SaltySD/plugins/FPSLocker/patches/01009F8017F48000/69EE5F71F187EAA9.yaml), v4, 1.0.4) | 🔵 | [LINK](Methodology/F.I.S.T) |
 | Fate/EXTELLA | `010053E002EA2000` | `76EC789B99A25BA5` ([✅](SaltySD/plugins/FPSLocker/patches/010053E002EA2000/76EC789B99A25BA5.yaml), v0, 1.0.0) | 🔵 |  |
 | Fate/EXTELLA LINK | `01001A700C832000` | `97FC79E063E26C9B` ([✅](SaltySD/plugins/FPSLocker/patches/01001A700C832000/97FC79E063E26C9B.yaml), v2, 1.0.2) | 🔵 |  |
