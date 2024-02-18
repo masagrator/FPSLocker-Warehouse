@@ -5,6 +5,12 @@
 unsafeCheck: true
 
 15FPS:
+  # Enable Dynamic Resolution Scaling 
+  -
+    type: write
+    address: [MAIN, 0x0B314598, 0]
+    value_type: uint32
+    value: 2
   # rhi.SyncInterval
   -
     type: write
@@ -44,6 +50,12 @@ unsafeCheck: true
     type: block
     what: timing
 20FPS:
+  # Enable Dynamic Resolution Scaling 
+  -
+    type: write
+    address: [MAIN, 0x0B314598, 0]
+    value_type: uint32
+    value: 2
   # rhi.SyncInterval
   -
     type: write
@@ -78,6 +90,12 @@ unsafeCheck: true
     type: block
     what: timing
 25FPS:
+  # Enable Dynamic Resolution Scaling 
+  -
+    type: write
+    address: [MAIN, 0x0B314598, 0]
+    value_type: uint32
+    value: 2
   # rhi.SyncInterval
   -
     type: write
@@ -112,6 +130,12 @@ unsafeCheck: true
     type: block
     what: timing
 30FPS:
+  # Enable Dynamic Resolution Scaling 
+  -
+    type: write
+    address: [MAIN, 0x0B314598, 0]
+    value_type: uint32
+    value: 2
   # rhi.SyncInterval (default value)
   -
     type: write
@@ -143,6 +167,12 @@ unsafeCheck: true
     value_type: float
     value: [0, 0]
 35FPS:
+  # Enable Dynamic Resolution Scaling 
+  -
+    type: write
+    address: [MAIN, 0x0B314598, 0]
+    value_type: uint32
+    value: 2
   # rhi.SyncInterval
   -
     type: write
@@ -177,6 +207,12 @@ unsafeCheck: true
     type: block
     what: timing
 40FPS:
+  # Enable Dynamic Resolution Scaling 
+  -
+    type: write
+    address: [MAIN, 0x0B314598, 0]
+    value_type: uint32
+    value: 2
   # rhi.SyncInterval
   -
     type: write
@@ -211,6 +247,12 @@ unsafeCheck: true
     type: block
     what: timing
 45FPS:
+  # Enable Dynamic Resolution Scaling 
+  -
+    type: write
+    address: [MAIN, 0x0B314598, 0]
+    value_type: uint32
+    value: 2
   # rhi.SyncInterval
   -
     type: write
@@ -245,6 +287,12 @@ unsafeCheck: true
     type: block
     what: timing
 50FPS:
+  # Enable Dynamic Resolution Scaling 
+  -
+    type: write
+    address: [MAIN, 0x0B314598, 0]
+    value_type: uint32
+    value: 2
   # rhi.SyncInterval
   -
     type: write
@@ -279,6 +327,12 @@ unsafeCheck: true
     type: block
     what: timing
 55FPS:
+  # Enable Dynamic Resolution Scaling 
+  -
+    type: write
+    address: [MAIN, 0x0B314598, 0]
+    value_type: uint32
+    value: 2
   # rhi.SyncInterval
   -
     type: write
@@ -313,6 +367,12 @@ unsafeCheck: true
     type: block
     what: timing
 60FPS:
+  # Enable Dynamic Resolution Scaling 
+  -
+    type: write
+    address: [MAIN, 0x0B314598, 0]
+    value_type: uint32
+    value: 2
   # rhi.SyncInterval
   -
     type: write
