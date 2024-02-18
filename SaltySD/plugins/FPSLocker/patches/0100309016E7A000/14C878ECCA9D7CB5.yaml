@@ -1,9 +1,16 @@
 # Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 1.53
 # BID: 14C878ECCA9D7CB5
+# Based on 60FPS V2
 
 unsafeCheck: true
 
 15FPS:
+  # rhi.SyncInterval
+  -
+    type: write
+    address: [MAIN, 0x0B1C6998, 0]
+    value_type: uint32
+    value: 2
   # Disable bUseFixedFrameRate to unlock framerate
   -
     type: write
@@ -21,6 +28,12 @@ unsafeCheck: true
     address: [MAIN, 0xB314540, 0x810]
     value_type: uint8
     value: 0
+  # Adjust Dynamic Resolution depending on the FPS (r.DynamicRes.FrameTimeBudget) 
+  -
+    type: write
+    address: [MAIN, 0x0B2EA8B8, 0]
+    value_type: float
+    value: [66.66, 66.66]
   # t.MaxFPS
   -
     type: write
@@ -31,18 +44,30 @@ unsafeCheck: true
     type: block
     what: timing
 20FPS:
+  # rhi.SyncInterval
+  -
+    type: write
+    address: [MAIN, 0x0B1C6998, 0]
+    value_type: uint32
+    value: 2
   # Disable bUseFixedFrameRate
   -
     type: write
     address: [MAIN, 0xB314540, 0x7F8]
     value_type: uint32
     value: 7
-  # CustomTimeStep
+  # Disable CustomTimeStep
   -
     type: write
     address: [MAIN, 0xB314540, 0x810]
     value_type: uint8
     value: 0
+  # Adjust Dynamic Resolution depending on the FPS (r.DynamicRes.FrameTimeBudget) 
+  -
+    type: write
+    address: [MAIN, 0x0B2EA8B8, 0]
+    value_type: float
+    value: [50, 50]
   # t.MaxFPS
   -
     type: write
@@ -53,18 +78,30 @@ unsafeCheck: true
     type: block
     what: timing
 25FPS:
+  # rhi.SyncInterval
+  -
+    type: write
+    address: [MAIN, 0x0B1C6998, 0]
+    value_type: uint32
+    value: 2
   # Disable bUseFixedFrameRate
   -
     type: write
     address: [MAIN, 0xB314540, 0x7F8]
     value_type: uint32
     value: 7
-  # CustomTimeStep
+  # Disable CustomTimeStep
   -
     type: write
     address: [MAIN, 0xB314540, 0x810]
     value_type: uint8
     value: 0
+  # Adjust Dynamic Resolution depending on the FPS (r.DynamicRes.FrameTimeBudget) 
+  -
+    type: write
+    address: [MAIN, 0x0B2EA8B8, 0]
+    value_type: float
+    value: [40, 40]
   # t.MaxFPS
   -
     type: write
@@ -75,7 +112,13 @@ unsafeCheck: true
     type: block
     what: timing
 30FPS:
-  # Disable bUseFixedFrameRate (default is 0x47)
+  # rhi.SyncInterval (default value)
+  -
+    type: write
+    address: [MAIN, 0x0B1C6998, 0]
+    value_type: uint32
+    value: 2
+  # Disable bUseFixedFrameRate (default value: 0x47)
   -
     type: write
     address: [MAIN, 0xB314540, 0x7F8]
@@ -87,6 +130,12 @@ unsafeCheck: true
     address: [MAIN, 0xB314540, 0x810]
     value_type: uint8
     value: 0
+  # Adjust Dynamic Resolution depending on the FPS (r.DynamicRes.FrameTimeBudget)(default)
+  -
+    type: write
+    address: [MAIN, 0x0B2EA8B8, 0]
+    value_type: float
+    value: [33.33, 33.33]
   # t.MaxFPS (default value)
   -
     type: write
@@ -94,18 +143,30 @@ unsafeCheck: true
     value_type: float
     value: [0, 0]
 35FPS:
+  # rhi.SyncInterval
+  -
+    type: write
+    address: [MAIN, 0x0B1C6998, 0]
+    value_type: uint32
+    value: 1
   # Disable bUseFixedFrameRate
   -
     type: write
     address: [MAIN, 0xB314540, 0x7F8]
     value_type: uint32
     value: 7
-  # CustomTimeStep
+  # Disable CustomTimeStep
   -
     type: write
     address: [MAIN, 0xB314540, 0x810]
     value_type: uint8
     value: 0
+  # Adjust Dynamic Resolution depending on the FPS (r.DynamicRes.FrameTimeBudget)(default)
+  -
+    type: write
+    address: [MAIN, 0x0B2EA8B8, 0]
+    value_type: float
+    value: [28.57, 28.57]
   # t.MaxFPS
   -
     type: write
@@ -116,18 +177,30 @@ unsafeCheck: true
     type: block
     what: timing
 40FPS:
+  # rhi.SyncInterval
+  -
+    type: write
+    address: [MAIN, 0x0B1C6998, 0]
+    value_type: uint32
+    value: 1
   # Disable bUseFixedFrameRate
   -
     type: write
     address: [MAIN, 0xB314540, 0x7F8]
     value_type: uint32
     value: 7
-  # CustomTimeStep
+  # Disable CustomTimeStep
   -
     type: write
     address: [MAIN, 0xB314540, 0x810]
     value_type: uint8
     value: 0
+  # Adjust Dynamic Resolution depending on the FPS (r.DynamicRes.FrameTimeBudget)(default)
+  -
+    type: write
+    address: [MAIN, 0x0B2EA8B8, 0]
+    value_type: float
+    value: [25, 25]
   # t.MaxFPS
   -
     type: write
@@ -138,18 +211,30 @@ unsafeCheck: true
     type: block
     what: timing
 45FPS:
+  # rhi.SyncInterval
+  -
+    type: write
+    address: [MAIN, 0x0B1C6998, 0]
+    value_type: uint32
+    value: 1
   # Disable bUseFixedFrameRate
   -
     type: write
     address: [MAIN, 0xB314540, 0x7F8]
     value_type: uint32
     value: 7
-  # CustomTimeStep
+  # Disable CustomTimeStep
   -
     type: write
     address: [MAIN, 0xB314540, 0x810]
     value_type: uint8
     value: 0
+  # Adjust Dynamic Resolution depending on the FPS (r.DynamicRes.FrameTimeBudget)(default)
+  -
+    type: write
+    address: [MAIN, 0x0B2EA8B8, 0]
+    value_type: float
+    value: [22.22, 22.22]
   # t.MaxFPS
   -
     type: write
@@ -160,18 +245,30 @@ unsafeCheck: true
     type: block
     what: timing
 50FPS:
+  # rhi.SyncInterval
+  -
+    type: write
+    address: [MAIN, 0x0B1C6998, 0]
+    value_type: uint32
+    value: 1
   # Disable bUseFixedFrameRate
   -
     type: write
     address: [MAIN, 0xB314540, 0x7F8]
     value_type: uint32
     value: 7
-  # CustomTimeStep
+  # Disable CustomTimeStep
   -
     type: write
     address: [MAIN, 0xB314540, 0x810]
     value_type: uint8
     value: 0
+  # Adjust Dynamic Resolution depending on the FPS (r.DynamicRes.FrameTimeBudget)(default)
+  -
+    type: write
+    address: [MAIN, 0x0B2EA8B8, 0]
+    value_type: float
+    value: [20, 20]
   # t.MaxFPS
   -
     type: write
@@ -182,18 +279,30 @@ unsafeCheck: true
     type: block
     what: timing
 55FPS:
+  # rhi.SyncInterval
+  -
+    type: write
+    address: [MAIN, 0x0B1C6998, 0]
+    value_type: uint32
+    value: 1
   # Disable bUseFixedFrameRate
   -
     type: write
     address: [MAIN, 0xB314540, 0x7F8]
     value_type: uint32
     value: 7
-  # CustomTimeStep
+  # Disable CustomTimeStep
   -
     type: write
     address: [MAIN, 0xB314540, 0x810]
     value_type: uint8
     value: 0
+  # Adjust Dynamic Resolution depending on the FPS (r.DynamicRes.FrameTimeBudget)(default)
+  -
+    type: write
+    address: [MAIN, 0x0B2EA8B8, 0]
+    value_type: float
+    value: [18.18, 18.18]
   # t.MaxFPS
   -
     type: write
@@ -204,18 +313,30 @@ unsafeCheck: true
     type: block
     what: timing
 60FPS:
+  # rhi.SyncInterval
+  -
+    type: write
+    address: [MAIN, 0x0B1C6998, 0]
+    value_type: uint32
+    value: 1
   # Disable bUseFixedFrameRate
   -
     type: write
     address: [MAIN, 0xB314540, 0x7F8]
     value_type: uint32
     value: 7
-  # CustomTimeStep
+  # Disable CustomTimeStep
   -
     type: write
     address: [MAIN, 0xB314540, 0x810]
     value_type: uint8
     value: 0
+  # Adjust Dynamic Resolution depending on the FPS (r.DynamicRes.FrameTimeBudget)(default)
+  -
+    type: write
+    address: [MAIN, 0x0B2EA8B8, 0]
+    value_type: float
+    value: [16.66, 16.66]
   # t.MaxFPS (default value)
   -
     type: write
