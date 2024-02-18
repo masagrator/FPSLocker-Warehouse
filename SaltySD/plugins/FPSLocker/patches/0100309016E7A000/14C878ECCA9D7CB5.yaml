@@ -111,6 +111,12 @@ unsafeCheck: true
     address: [MAIN, 0xB314830, 0]
     value_type: float
     value: [0, 0]
+  # r.VSync (by default it's 1)
+  -
+    type: write
+    address: [MAIN, 0xAB49110, 0]
+    value_type: uint32
+    value: [0, 0]
 35FPS:
   # Disable bUseFixedFrameRate
   -
