@@ -196,6 +196,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Embr | `0100CC6013432000` | `473D222EB1BDAD47` (◯, v6, 1.0.6) | 🟢 |  |
 | Everdream Valley | `0100B9801AA3C000` | `0041C3A3E000D62B` (◯, v7, 1.0.7) | 🟢 |  |
 | Everspace | `0100DCF0093EC000` | `71873FEB4648FA39` ([✅](SaltySD/plugins/FPSLocker/patches/0100DCF0093EC000/71873FEB4648FA39.yaml), v5, 1.0.5) | 🔴 | [LINK](Methodology/Everspace) |
+| Expeditions: A Mudrunner Game | `01002C101C1AA000` | `2DF3FBBCB5B00404` ([✅](SaltySD/plugins/FPSLocker/patches/01002C101C1AA000/2DF3FBBCB5B00404.yaml), v2, 1.2.0.0) | 🔵 |  |
 | FAR: Changing Tides | `01008A0014A92000` | `7041BC78D64745A1` (◯, v2, 1.2.0) | 🟢 |  |
 | FAR: Lone Sails | `010022700E7D6000` | `CE59C773211A1A49` (◯, v0, 1.0.0) <br> `8FD06AB8DA27EC40` (◯, v1, 1.3) | 🟢 |  |
 | Farming Simulator 23 | `01001E3017A10000` | `1C38F0E269ED4438` ([✅](SaltySD/plugins/FPSLocker/patches/01001E3017A10000/1C38F0E269ED4438.yaml), v1, 1.1.0.0) <br> `0204E8D91F22A2D1` ([✅](SaltySD/plugins/FPSLocker/patches/01001E3017A10000/0204E8D91F22A2D1.yaml), v4, 1.4.0.1) <br> `17F37A56B17DD9CC` ([✅](SaltySD/plugins/FPSLocker/patches/01001E3017A10000/17F37A56B17DD9CC.yaml), v5, 1.5.0.0) | 🔴 |  |
