@@ -90,6 +90,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | BALAN WONDERWORLD | `0100438012EC8000` | `1A0EAEC3AE90B018` ([✅](SaltySD/plugins/FPSLocker/patches/0100438012EC8000/1A0EAEC3AE90B018.yaml), v1, 1.01) | 🔴 |  |
 | Bang-On Balls: Chronicles | `010081E01A45C000` | `6B5E31BAA58DB229` ([✅](SaltySD/plugins/FPSLocker/patches/010081E01A45C000/6B5E31BAA58DB229.yaml), v1, 1.0.1) <br> `20A5199D55EA5E93` ([✅](SaltySD/plugins/FPSLocker/patches/010081E01A45C000/20A5199D55EA5E93.yaml), v2, 1.0.2) <br> `25D3C2E9040D1A9A` ([✅](SaltySD/plugins/FPSLocker/patches/010081E01A45C000/25D3C2E9040D1A9A.yaml), v4, 1.0.4) | 🔵 | [LINK](Methodology/Bang-On%20Balls%3A%20Chronicles) | 
 | Baldo The Guardian Owls | `0100A75005E92000` | `9E29077BE56B5E4D` (◯, v17, 1.0.17) | 🟢 |  |
+| Bandle Tale: A League of Legends Story | `010052B01BEC0000` | `8BF051A6E3110A30` (◯, v1, 1.062) | 🟢 |  |
 | Batman - The Telltale Series | `0100011005D92000` | `A3A998AF3252D110` ([✅](SaltySD/plugins/FPSLocker/patches/0100011005D92000/A3A998AF3252D110.yaml), v3, 1.0.4) | 🔵 |  |
 | Batman: Arkham Asylum | `0100E870163CA000` | `ADC8FED84D846EE8` ([✅](SaltySD/plugins/FPSLocker/patches/0100E870163CA000/ADC8FED84D846EE8.yaml), v0, 1.0.0) <br> `621EE66A6743D750` ([✅](SaltySD/plugins/FPSLocker/patches/0100E870163CA000/621EE66A6743D750.yaml), v1, 1.0.1) | 🔴 |  |
 | Batman: Arkham City | `01003F00163CE000` | `8983C5A34B178E5C` (◯, v2, 1.0.2) | 🟢 |  |
