@@ -357,6 +357,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Paradise Lost | `010077A012A5C000` | `F5ECE696120B65B3` ([✅](SaltySD/plugins/FPSLocker/patches/010077A012A5C000/F5ECE696120B65B3.yaml), v0, 1.0.0) | 🔵 | [LINK](Methodology/Paradise%20Lost) |
 | Pascal's Wager | `01009B9017D8E000` | `3F9A7276F039B226` (◯, v2, 2.0.0) | 🟢 |  |
 | PAW Patrol World | `0100273018D70000` | `54C42C73890100F1` (❌, v2, 1.0.2) | 🔴 |  |
+| Penny's Big Breakaway | `0100CA901AA9C000` | `70BD4BC32C10BFFE` ([✅](SaltySD/plugins/FPSLocker/patches/0100CA901AA9C000/70BD4BC32C10BFFE.yaml), v1, 1.1.0) | 🟡 |  |
 | Peppa Pig: World Adventures | `0100FF1018E00000` | `696DE87363CDAED0` (◯, v1, 1.0.1) | 🟢 |  |
 | Persona 5 Royal | `01005CA01580E000` | `D4B150B29A931CD3` (◯, v1, 1.0.2) | 🟢 |  |
 | Persona 5 Scramble | `01001C400E9D8000` <br> `01009FE010876000` | `737E56D43D2C0B38` ([✅](SaltySD/plugins/FPSLocker/patches/01001C400E9D8000/737E56D43D2C0B38.yaml), v3, 1.0.3) <br> `407978D722447B25` ([✅](SaltySD/plugins/FPSLocker/patches/01009FE010876000/407978D722447B25.yaml), v1, 1.0.1) | 🔴 |  |
