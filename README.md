@@ -357,7 +357,8 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Paper Mario: The Origami King | `0100A3900C3E2000` | `E74395F066FD8CCB` (❌, v1, 1.0.1) | 🔴 |  |
 | Paradise Killer | `01007FB010DC8000` | `D3744AF2C376CDC4` ([✅](SaltySD/plugins/FPSLocker/patches/01007FB010DC8000/D3744AF2C376CDC4.yaml), v7, 1.2.1) | 🔵 | [LINK](Methodology/Paradise%20Killer) |
 | Paradise Lost | `010077A012A5C000` | `F5ECE696120B65B3` ([✅](SaltySD/plugins/FPSLocker/patches/010077A012A5C000/F5ECE696120B65B3.yaml), v0, 1.0.0) | 🔵 | [LINK](Methodology/Paradise%20Lost) |
-| Pascal's Wager | `01009B9017D8E000` | `3F9A7276F039B226` (◯, v2, 2.0.0) | 🟢 |  |
+| Pascal's Wager | `01009B9017D8E000` | `3F9A7276F039B226` (◯, v2, 2.0.0) | 🟢 |  | 
+| Passpartout 2: The Lost Artist | `010094E01AA20000` | `B1DDBEE5877DFB3F` (◯, v1, 1.0.1) | 🟢 |  | 
 | PAW Patrol World | `0100273018D70000` | `54C42C73890100F1` (❌, v2, 1.0.2) | 🔴 |  |
 | Penny's Big Breakaway | `0100CA901AA9C000` | `70BD4BC32C10BFFE` ([✅](SaltySD/plugins/FPSLocker/patches/0100CA901AA9C000/70BD4BC32C10BFFE.yaml), v1, 1.1.0) | 🟡 |  |
 | Peppa Pig: World Adventures | `0100FF1018E00000` | `696DE87363CDAED0` (◯, v1, 1.0.1) | 🟢 |  |
