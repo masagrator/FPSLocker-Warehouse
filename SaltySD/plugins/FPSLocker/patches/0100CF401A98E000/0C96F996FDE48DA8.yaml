@@ -3,7 +3,7 @@
 
 unsafeCheck: true
 
-MAASTER_WRITE:
+MASTER_WRITE:
   # Redirect DR Timing target to MAIN + 0x6D89A00, REF: 61 36 40 BD 60 3E 40 BD
   -
     type: bytes
