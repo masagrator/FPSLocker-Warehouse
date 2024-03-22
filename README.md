@@ -136,6 +136,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Cobra Kai 2: Dojos Rising | `0100BD9015B54000` | `BAD8504B110A21AE` (◯, v4, 2.20.8) | 🟢 |  |
 | Cocoon | `01002E700C366000` | `5D8B61D234DCE809` (◯, v3, 1.0.3) | 🟢 |  |
 | Company of Heroes Collection | `0100ABD0156F8000` | `F2C994AB5CA5A756` (◯, v0, 1.5_66915) | 🟢 |  |
+| Contra: Operation Galuga | `0100CF401A98E000` | `0C96F996FDE48DA8` ([✅](SaltySD/plugins/FPSLocker/patches/0100CF401A98E000/0C96F996FDE48DA8.yaml), v1, 1.0.876634) | 🔵 |  |
 | CONTRA: ROGUE CORPS | `0100F2600D710000` | `4CCD2F6D331DD104` ([✅](SaltySD/plugins/FPSLocker/patches/0100F2600D710000/4CCD2F6D331DD104.yaml), v5, 1.3.0) | 🟡 |  |
 | CONVERGENCE: A League of Legends Story | `010020B016EF4000` | `7E25622D50D562BF` ([✅](SaltySD/plugins/FPSLocker/patches/010020B016EF4000/7E25622D50D562BF.yaml), v1, 1.0.1) | 🟡 |  |
 | Conway: Disappearance at Dahlia View | `010075C01405C000` | `BB52C1E6BC85DA52` (◯, v0, 1.0.0.0) | 🟢 |  |
