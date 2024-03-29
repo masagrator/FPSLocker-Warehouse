@@ -7,21 +7,21 @@ unsafeCheck: true
   # Internal FPS Lock
   -
     type: write
-    address: [MAIN, 0xCD69E20, 8]
+    address: [MAIN, 0xCD73E20, 8]
     value_type: double
     value: 15
 20FPS:
   # Internal FPS Lock
   -
     type: write
-    address: [MAIN, 0xCD69E20, 8]
+    address: [MAIN, 0xCD73E20, 8]
     value_type: double
     value: 20
 25FPS:
   # Internal FPS Lock
   -
     type: write
-    address: [MAIN, 0xCD69E20, 8]
+    address: [MAIN, 0xCD73E20, 8]
     value_type: double
     value: 25
   -
@@ -31,14 +31,14 @@ unsafeCheck: true
   # Internal FPS Lock (default value is 30)
   -
     type: write
-    address: [MAIN, 0xCD69E20, 8]
+    address: [MAIN, 0xCD73E20, 8]
     value_type: double
     value: 30
 35FPS:
   # Internal FPS Lock
   -
     type: write
-    address: [MAIN, 0xCD69E20, 8]
+    address: [MAIN, 0xCD73E20, 8]
     value_type: double
     value: 35
   -
@@ -48,7 +48,7 @@ unsafeCheck: true
   # Internal FPS Lock
   -
     type: write
-    address: [MAIN, 0xCD69E20, 8]
+    address: [MAIN, 0xCD73E20, 8]
     value_type: double
     value: 40
   -
@@ -58,7 +58,7 @@ unsafeCheck: true
   # Internal FPS Lock
   -
     type: write
-    address: [MAIN, 0xCD69E20, 8]
+    address: [MAIN, 0xCD73E20, 8]
     value_type: double
     value: 45
   -
@@ -68,7 +68,7 @@ unsafeCheck: true
   # Internal FPS Lock
   -
     type: write
-    address: [MAIN, 0xCD69E20, 8]
+    address: [MAIN, 0xCD73E20, 8]
     value_type: double
     value: 50
   -
@@ -78,7 +78,7 @@ unsafeCheck: true
   # Internal FPS Lock
   -
     type: write
-    address: [MAIN, 0xCD69E20, 8]
+    address: [MAIN, 0xCD73E20, 8]
     value_type: double
     value: 55
   -
@@ -88,6 +88,6 @@ unsafeCheck: true
   # Internal FPS Lock
   -
     type: write
-    address: [MAIN, 0xCD69E20, 8]
+    address: [MAIN, 0xCD73E20, 8]
     value_type: double
     value: 60
