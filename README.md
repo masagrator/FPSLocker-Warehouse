@@ -127,7 +127,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Catherine: Full Body | `0100BF00112C0000` | `93A79C77DA81F7F1` (❌, v1, 1.0.1) | 🟡 |  |
 | Cel Damage HD | `010019B00BE72000` | `03B058B1F6BE7195` (✝️, v0, 1.0.0) | 🟣 | [LINK](Methodology/CelDamage%20HD) |
 | Chants of Sennaar | `0100543019CB0000` | `CEFFC8421D584F8C` (◯, v2, 1.0.2) | 🟢 |  |
-| Chef Life - A Restaurant Simulator | `0100F24014280000` | `DF27862149F6536D` (◯, v4, 1.6.0) | 🟢 |  |
+| Chef Life - A Restaurant Simulator | `0100F24014280000` | `CB098B1BD77BDD1A` (◯, v5, 1.8.0) | 🟢 |  |
 | Choo-Choo Charles | `01006F901C7F2000` | `406F004D76F961F3` ([✅](SaltySD/plugins/FPSLocker/patches/01006F901C7F2000/406F004D76F961F3.yaml), v0, 1.0.1) | 🔵 |  |
 | Circus Electrique | `0100ABF015DCE000` | `57019F9781022D15` (◯, v2, 1.2.0) | 🟢 |  |
 | Classic Racers Elite | `01003B90137D0000` | `9D9810D42B5AF44D` (◯, v0, 1.0) | 🟢 |  |
