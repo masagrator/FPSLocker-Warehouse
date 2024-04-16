@@ -451,7 +451,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Split | `010071801AB2A000` | `D008ADF7F5DA3315` (◯, v1, 1.1.0) | 🟢 |  |
 | SpongeBob SquarePants: The Cosmic Shake | `01009FB0172F4000` | `F712547C68C66A0A` ([✅](SaltySD/plugins/FPSLocker/patches/01009FB0172F4000/F712547C68C66A0A.yaml), v7, 1.0.7) | 🔵 |  |
 | Spyro Reignited Trilogy | `010077B00E046000` | `D2775FAFCF4835CB` ([✅](SaltySD/plugins/FPSLocker/patches/010077B00E046000/D2775FAFCF4835CB.yaml), v1, 1.01) | 🔴 |  |
-| STAR OCEAN THE SECOND STORY R | `010065301A2E0000` | `7266AEB08847B0FA` (◯, v2, 1.0.2) | 🟢 |  |
+| STAR OCEAN THE SECOND STORY R | `010065301A2E0000` | `D214BA64D902AEDA` (◯, v3, 1.1.0) | 🟢 |  |
 | Starlink: Battle for Atlas | `01002CC003FE6000` | `13C816F2A273653C` (❌, v6, 1.0.6) | 🔵 |  |
 | SteamWorld Build | `01004E401B3EA000` | `DEF9DF1C28D70C15` (◯, v11, 1.0.11) | 🟢 |  |
 | Strike Force 3 | `010060200F080000` | `8507336565D4C86B` (❌, v1, 1.1.0) | 🔵 |  |
