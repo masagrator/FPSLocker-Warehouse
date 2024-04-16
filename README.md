@@ -453,6 +453,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Spyro Reignited Trilogy | `010077B00E046000` | `D2775FAFCF4835CB` ([✅](SaltySD/plugins/FPSLocker/patches/010077B00E046000/D2775FAFCF4835CB.yaml), v1, 1.01) | 🔴 |  |
 | STAR OCEAN THE SECOND STORY R | `010065301A2E0000` | `7266AEB08847B0FA` (◯, v2, 1.0.2) | 🟢 |  |
 | Starlink: Battle for Atlas | `01002CC003FE6000` | `13C816F2A273653C` (❌, v6, 1.0.6) | 🔵 |  |
+| SteamWorld Build | `01004E401B3EA000` | `DEF9DF1C28D70C15` (◯, v11, 1.0.11) | 🟢 |  |
 | Strike Force 3 | `010060200F080000` | `8507336565D4C86B` (❌, v1, 1.1.0) | 🔵 |  |
 | Subnautica | `0100429011144000` | `B3DB5A1EDAF8454F` (◯, v5, 1.21.71113) | 🟢 |  |
 | Subnautica Below Zero | `010014C011146000` | `5B050C55B8264040` (◯, v8, 1.21.49397) | 🟢 |  |
@@ -462,7 +463,6 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | SWORD ART ONLINE: Hollow Realization | `01001B600D1D6000` | `0C356A98BCF20184` (❌, v2, 1.0.2) | 🔵 | [LINK](Methodology/Sword%20Art%20Online%20Hollow%20Realization) |
 | SWORD ART ONLINE Alicization Lycoris | `010034501225C000` | `B6AF2C0FA614CC87` (❌, v8, 3.0.1) | 🔵 | [LINK](Methodology/Sword%20Art%20Online%20Alicization%20Lycoris/README.md) |
 | SWORD OF THE VAGRANT | `0100BD000CB2C000` | `1F1363EC8CC83C73` ([✅](SaltySD/plugins/FPSLocker/patches/0100BD000CB2C000/1F1363EC8CC83C73.yaml), v1, 1.1) | 🔵 | [LINK](Methodology/SWORD%20OF%20THE%20VAGRANT) |
-| SteamWorld Build | `01004E401B3EA000` | `844D7FE6058B6DFD` (◯, v10, 1.0.10) | 🟢 |  |
 | Tails of Iron | `0100EF3013F60000` | `6A28EE5E39F76B6A` (◯, v4, 5) | 🟢 |  |
 | Tales from the Borderlands | `0100F0C011A68000` | `818C98B885460561` (◯, v0, 1.0.0) | 🟢 |  |
 | Tales of Symphonia Remastered | `0100A410169A4000` | `42673F5DE16DC698` (❌, v4, 1.3.1) | 🟡 |  |
