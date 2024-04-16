@@ -435,7 +435,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Sniper Elite 4 | `010007B010FCC000` | `4EEA2970DF38ECE1` ([✅](SaltySD/plugins/FPSLocker/patches/010007B010FCC000/4EEA2970DF38ECE1.yaml), v3, 1.0.3) | 🔵 |  | 
 | Sniper Elite V2 | `0100BB000A3AA000` | `B61F280560A937D2` ([✅](SaltySD/plugins/FPSLocker/patches/0100BB000A3AA000/B61F280560A937D2.yaml), v5, 1.0.5) | 🔵 | [LINK](Methodology/Sniper%20Elite%20V2) | 
 | SnowRunner | `0100FBD013AB6000` | `D45BC89E992F23C5` ([✅](SaltySD/plugins/FPSLocker/patches/0100FBD013AB6000/D45BC89E992F23C5.yaml), v23, 1.0.23) <br> `2CD8707981B46DAF` ([✅](SaltySD/plugins/FPSLocker/patches/0100FBD013AB6000/2CD8707981B46DAF.yaml), v24, 1.0.28) <br> `2701FF0058D8C59C` ([✅](SaltySD/plugins/FPSLocker/patches/0100FBD013AB6000/2701FF0058D8C59C.yaml), v25, 1.0.29) <br> `174309E9B55533B9` ([✅](SaltySD/plugins/FPSLocker/patches/0100FBD013AB6000/174309E9B55533B9.yaml), v26, 1.0.30) | 🔵 |  |
-| Snufkin: Melody of Moominvalley | `010085001A17C000` | `84F193B3B82589D9` (◯, v1, 0.2) | 🟢 |  |
+| Snufkin: Melody of Moominvalley | `010085001A17C000` | `95B829DC0E8E2762` (◯, v2, 1.1.0) | 🟢 |  |
 | Song of Nunu: A League of Legends Story | `01004F401BEBE000` | `5507B771E68E9DB9` ([✅](SaltySD/plugins/FPSLocker/patches/01004F401BEBE000/5507B771E68E9DB9.yaml), v1, 1.0.1) <br> `DF2D64FB63F1BD00` ([✅](SaltySD/plugins/FPSLocker/patches/01004F401BEBE000/DF2D64FB63F1BD00.yaml), v2, 1.0.2) | 🔵 |
 | Sonic Colours: Ultimate | `010040E0116B8000` | `957E1E19958193F9` (◯, v7, 1.0.9) | 🟢 |  |
 | SONIC FORCES | `01001270012B6000` | `6D9EA94F8AAC00A8` ([✅](SaltySD/plugins/FPSLocker/patches/01001270012B6000/6D9EA94F8AAC00A8.yaml), v1, 1.1.0) | 🔴 |  |
