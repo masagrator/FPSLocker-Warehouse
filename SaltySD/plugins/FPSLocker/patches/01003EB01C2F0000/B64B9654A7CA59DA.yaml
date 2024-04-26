@@ -12,7 +12,7 @@ MASTER_WRITE:
     value_type: uint32
     value: 
       - 0xB0029A88
-      - 0xB94F0128
+      - 0xB94F0108
   # Default handheld value
   -
     type: bytes
