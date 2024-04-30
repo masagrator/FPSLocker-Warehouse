@@ -11,7 +11,7 @@ Explanation based on:
 
 > Details
 
-Game can be unlocked to 60 FPS with plugin alone, but because game speed is tied to framerate, we need to patch it. Game is using double buffer, so realistically only 60 FPS matters. To adjust game speed to 60 FPS, use this cheat (some elements will still be 30 FPS, graphical glitches can occur):
+Game can be unlocked to 60 FPS with plugin alone, but because game speed is tied to framerate, we need to patch it. Game is using double buffer, so realistically only 60 FPS matters. To adjust game speed to 60 FPS, use this cheat (some elements will still be 30 FPS, graphical glitches can occur, timing is broken in cutscenes and possibly in other places):
 
 ```ini
 [60 FPS speed]
