@@ -4,26 +4,26 @@
 unsafeCheck: true
 
 15FPS:
-  # Dynamic resolution FPS factor (FPS_Target + 1.5)
+  # Dynamic resolution FPS factor (FPS_Target * 1.05)
   -
     type: write
     address: [MAIN, 0x28A8450, 0]
     value_type: float
-    value: 16.5
+    value: 15.75
 20FPS:
   # Dynamic resolution FPS factor
   -
     type: write
     address: [MAIN, 0x28A8450, 0]
     value_type: float
-    value: 21.5
+    value: 21
 25FPS:
   # Dynamic resolution FPS factor
   -
     type: write
     address: [MAIN, 0x28A8450, 0]
     value_type: float
-    value: 26.5
+    value: 26.25
 30FPS:
   # Dynamic resolution FPS factor (default)
   -
@@ -37,39 +37,39 @@ unsafeCheck: true
     type: write
     address: [MAIN, 0x28A8450, 0]
     value_type: float
-    value: 36.5
+    value: 36.75
 40FPS:
   # Dynamic resolution FPS factor
   -
     type: write
     address: [MAIN, 0x28A8450, 0]
     value_type: float
-    value: 41.5
+    value: 42
 45FPS:
   # Dynamic resolution FPS factor
   -
     type: write
     address: [MAIN, 0x28A8450, 0]
     value_type: float
-    value: 46.5
+    value: 47.25
 50FPS:
   # Dynamic resolution FPS factor
   -
     type: write
     address: [MAIN, 0x28A8450, 0]
     value_type: float
-    value: 51.5
+    value: 52.5
 55FPS:
   # Dynamic resolution FPS factor
   -
     type: write
     address: [MAIN, 0x28A8450, 0]
     value_type: float
-    value: 56.5
+    value: 57.75
 60FPS:
   # Dynamic resolution FPS factor
   -
     type: write
     address: [MAIN, 0x28A8450, 0]
     value_type: float
-    value: 61.5
+    value: 63
