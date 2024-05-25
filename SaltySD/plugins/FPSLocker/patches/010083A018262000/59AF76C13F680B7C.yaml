@@ -1,0 +1,208 @@
+# Hitman: Blood Money - Reprisal 1.2_71586
+# BID: 59AF76C13F680B7C
+# Fix aiming speed by tweaking it in game settings
+# Videos / prerendered cutscenes are played at 30 FPS
+
+unsafeCheck: true
+
+MASTER_WRITE:
+  # Block FPS lock being constantly updated
+  -
+    type: bytes
+    main_offset: 0x27CE38
+    value_type: uint32
+    value: 0xD503201F
+15FPS:
+  # Internal FPS Lock
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x10]
+    value_type: uint32
+    value: [15, 15]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x40]
+    value_type: uint32
+    value: [15, 15]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x70]
+    value_type: uint32
+    value: [15, 15]
+  -
+    type: block
+    what: timing
+20FPS:
+  # Internal FPS Lock
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x10]
+    value_type: uint32
+    value: [20, 20]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x40]
+    value_type: uint32
+    value: [20, 20]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x70]
+    value_type: uint32
+    value: [20, 20]
+  -
+    type: block
+    what: timing
+25FPS:
+  # Internal FPS Lock
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x10]
+    value_type: uint32
+    value: [25, 25]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x40]
+    value_type: uint32
+    value: [25, 25]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x70]
+    value_type: uint32
+    value: [25, 25]
+  -
+    type: block
+    what: timing
+30FPS:
+  # Internal FPS Lock (default value)
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x10]
+    value_type: uint32
+    value: [30, 30]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x40]
+    value_type: uint32
+    value: [30, 30]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x70]
+    value_type: uint32
+    value: [30, 30]
+35FPS:
+  # Internal FPS Lock
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x10]
+    value_type: uint32
+    value: [35, 35]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x40]
+    value_type: uint32
+    value: [35, 35]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x70]
+    value_type: uint32
+    value: [35, 35]
+  -
+    type: block
+    what: timing
+40FPS:
+  # Internal FPS Lock
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x10]
+    value_type: uint32
+    value: [40, 40]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x40]
+    value_type: uint32
+    value: [40, 40]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x70]
+    value_type: uint32
+    value: [40, 40]
+  -
+    type: block
+    what: timing
+45FPS:
+  # Internal FPS Lock
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x10]
+    value_type: uint32
+    value: [45, 45]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x40]
+    value_type: uint32
+    value: [45, 45]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x70]
+    value_type: uint32
+    value: [45, 45]
+  -
+    type: block
+    what: timing
+50FPS:
+  # Internal FPS Lock
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x10]
+    value_type: uint32
+    value: [50, 50]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x40]
+    value_type: uint32
+    value: [50, 50]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x70]
+    value_type: uint32
+    value: [50, 50]
+  -
+    type: block
+    what: timing
+55FPS:
+  # Internal FPS Lock
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x10]
+    value_type: uint32
+    value: [55, 55]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x40]
+    value_type: uint32
+    value: [55, 55]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x70]
+    value_type: uint32
+    value: [55, 55]
+  -
+    type: block
+    what: timing
+60FPS:
+  # Internal FPS Lock
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x10]
+    value_type: uint32
+    value: [60, 60]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x40]
+    value_type: uint32
+    value: [60, 60]
+  -
+    type: write
+    address: [MAIN, 0x1D608B8, 0x70]
+    value_type: uint32
+    value: [60, 60]
