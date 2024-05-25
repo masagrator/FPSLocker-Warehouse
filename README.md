@@ -173,7 +173,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Destiny Connect: Tick-Tock Travelers | `010069500DD86000` | `5AD84EFD9D28FDDE` ([✅](SaltySD/plugins/FPSLocker/patches/010069500DD86000/5AD84EFD9D28FDDE.yaml), v0, 1.0.0) | 🔵 | [LINK](Methodology/Destiny%20Connect%20Tick-Tock%20Travelers) |
 | Destroy All Humans! | `01009E701356A000` | `72E8F20EBBDBA296` ([✅](SaltySD/plugins/FPSLocker/patches/01009E701356A000/72E8F20EBBDBA296.yaml), v1, 1.0.1) | 🔵 | [LINK](Methodology/Destroy%20All%20Humans) |
 | Detective Pikachu Returns | `010007500F27C000` | `A2A5ABEF988ABAA2` (◯, v0, 1.0.0) | 🟢 |  |
-| Diablo II: Resurrected | `0100726014352000` | `786D5F0A9B0591B9` (❌, v24, 1.0.24.0) | 🔵 |  |
+| Diablo II: Resurrected | `0100726014352000` | `786D5F0A9B0591B9` (❌, v25, 1.0.25.0) | 🔵 |  |
 | Dino Ranch: Ride to the Rescue | `010038301ABDA000` | `DDF3A99F0EC84E1` (◯, v1, 1.0.3) | 🟢 |  |
 | Disco Elysium - The Final Cut | `01006C5015E84000` | `EAA1EDBEAEF50854` (◯, v9, 1.0.9) | 🟢 |  |
 | Disney Dreamlight Valley | `0100D39012C1A000` | `34A7473ABF0EFCCC` (◯, v27, 1.9.0) | 🟢 |  |
