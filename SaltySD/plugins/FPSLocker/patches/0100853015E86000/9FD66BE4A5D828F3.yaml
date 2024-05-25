@@ -15,7 +15,7 @@ MASTER_WRITE:
     main_offset: 0x1D36858
     value_type: uint32
     value: 
-      - 0xF24E01B0
+      - 0xB0014EF2
       - 0xB9400408
       - 0xBD44024B
   # default value
