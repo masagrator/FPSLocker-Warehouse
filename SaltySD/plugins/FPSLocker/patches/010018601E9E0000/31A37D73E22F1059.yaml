@@ -1,9 +1,20 @@
 # Bakery Simulator 1.1.0
 # BID: 31A37D73E22F1059
 
-unsafeCheck: true
+unsafeCheck: false
 
 15FPS:
+  # Disable bUseFixedFrameRate to untie game speed from framerate and unlock FPS
+  -
+    type: write
+    address: [MAIN, 0x5F9B6A8, 0x7A4]
+    value_type: uint32
+    # Default is 0x47, bUseFixedFrameRate |= 0x40 
+    # By writing 7 we are making sure that other flags are maintained: 
+    # bAllowMultiThreadedAnimationUpdate |= 4
+    # bOptimizeAnimBlueprintMemberVariableAccess |= 2
+    # bCanBlueprintsTickByDefault |= 1
+    value: 7
   # r.VSync
   -
     type: write
@@ -20,6 +31,12 @@ unsafeCheck: true
     type: block
     what: timing
 20FPS:
+  # Disable bUseFixedFrameRate
+  -
+    type: write
+    address: [MAIN, 0x5F9B6A8, 0x7A4]
+    value_type: uint32
+    value: 7
   # r.VSync
   -
     type: write
@@ -36,6 +53,12 @@ unsafeCheck: true
     type: block
     what: timing
 25FPS:
+  # Disable bUseFixedFrameRate
+  -
+    type: write
+    address: [MAIN, 0x5F9B6A8, 0x7A4]
+    value_type: uint32
+    value: 7
   # r.VSync
   -
     type: write
@@ -52,6 +75,12 @@ unsafeCheck: true
     type: block
     what: timing
 30FPS:
+  # Disable bUseFixedFrameRate
+  -
+    type: write
+    address: [MAIN, 0x5F9B6A8, 0x7A4]
+    value_type: uint32
+    value: 7
   # r.VSync (default value is 1)
   -
     type: write
@@ -65,6 +94,12 @@ unsafeCheck: true
     value_type: float
     value: [0, 0]
 35FPS:
+  # Disable bUseFixedFrameRate
+  -
+    type: write
+    address: [MAIN, 0x5F9B6A8, 0x7A4]
+    value_type: uint32
+    value: 7
   # r.VSync
   -
     type: write
@@ -81,6 +116,12 @@ unsafeCheck: true
     type: block
     what: timing
 40FPS:
+  # Disable bUseFixedFrameRate
+  -
+    type: write
+    address: [MAIN, 0x5F9B6A8, 0x7A4]
+    value_type: uint32
+    value: 7
   # r.VSync
   -
     type: write
@@ -97,6 +138,12 @@ unsafeCheck: true
     type: block
     what: timing
 45FPS:
+  # Disable bUseFixedFrameRate
+  -
+    type: write
+    address: [MAIN, 0x5F9B6A8, 0x7A4]
+    value_type: uint32
+    value: 7
   # r.VSync
   -
     type: write
@@ -113,6 +160,12 @@ unsafeCheck: true
     type: block
     what: timing
 50FPS:
+  # Disable bUseFixedFrameRate
+  -
+    type: write
+    address: [MAIN, 0x5F9B6A8, 0x7A4]
+    value_type: uint32
+    value: 7
   # r.VSync
   -
     type: write
@@ -129,6 +182,12 @@ unsafeCheck: true
     type: block
     what: timing
 55FPS:
+  # Disable bUseFixedFrameRate
+  -
+    type: write
+    address: [MAIN, 0x5F9B6A8, 0x7A4]
+    value_type: uint32
+    value: 7
   # r.VSync
   -
     type: write
@@ -145,6 +204,12 @@ unsafeCheck: true
     type: block
     what: timing
 60FPS:
+  # Disable bUseFixedFrameRate
+  -
+    type: write
+    address: [MAIN, 0x5F9B6A8, 0x7A4]
+    value_type: uint32
+    value: 7
   # r.VSync
   -
     type: write
