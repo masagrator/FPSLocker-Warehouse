@@ -358,6 +358,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Oddworld: Soulstorm | `0100D210177C6000` | `9510D677DCCE4447` ([✅](SaltySD/plugins/FPSLocker/patches/0100D210177C6000/9510D677DCCE4447.yaml), v3, 1.1.3) | 🔵 |  |
 | Off the Road Unleashed | `010045C0112F8000` | `5E8316D212D6D7BD` (◯, v1, 1.0.1) | 🟢 |  |
 | Oninaki | `01001AF00CE54000` | `C949E2576F532C43` (◯, v2, 1.0.2) | 🟢 |  |
+| Open Roads | `010034401672A000` | `1C651256CC812D06` (◯, v2, 1.0.2) | 🟢 |  |
 | Othercide | `0100E5900F49A000` | `A8BA2A8F93AAE647` ([✅](SaltySD/plugins/FPSLocker/patches/0100E5900F49A000/A8BA2A8F93AAE647.yaml), v3, 1.3.0.5) | 🔵 |  |
 | Outer Wilds | `01003DC0144B6000` | `9A51362D70F7874C` (❌, v4, 1.1.14.987) | 🟡 | [LINK](Methodology/Outer%20Wilds) |
 | Outlast | `01008D4007A1E000` | `C3D46BB3C7059DB1` ([✅](SaltySD/plugins/FPSLocker/patches/01008D4007A1E000/C3D46BB3C7059DB1.yaml), v1, 1.0.1) | 🔵 |  |
