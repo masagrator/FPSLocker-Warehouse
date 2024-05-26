@@ -4,12 +4,12 @@
 unsafeCheck: true
 
 MASTER_WRITE:
-  # Remove double buffer
+  # Remove double buffer (nvn.NumBufferedFrames)
   -
     type: bytes
-    main_offset: 0x4275638
-    value_type: int8
-    value: 0x73
+    main_offset: 0x4F3245C
+    value_type: uint32
+    value: 3
 15FPS:
   # r.VSync
   -
