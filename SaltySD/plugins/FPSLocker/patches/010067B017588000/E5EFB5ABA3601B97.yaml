@@ -179,7 +179,7 @@ MASTER_WRITE:
     type: write
     address: [MAIN, 0x1C5DF00]
     value_type: float
-    value: 0.016161616
+    value: 0.0166666666
   # vsync target
   -
     type: write
