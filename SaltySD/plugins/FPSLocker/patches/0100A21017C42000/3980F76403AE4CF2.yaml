@@ -1,0 +1,197 @@
+# Another Crab's Treasure 1.0.101.1
+# BID: 3980F76403AE4CF2
+
+unsafeCheck: true
+
+MASTER_WRITE:
+  # Redirect updating various deltas to read frametime target from UnityEngine.Application::targetFrameRate, REF: 08 10 91 52 08 A1 A7 72
+  -
+    type: bytes
+    main_offset: 0x18A98F0
+    value_type: uint32
+    value:
+     - 0xF001EB68
+     - 0xB944E908
+     - 0x1E230101
+     - 0x1E2E1000
+     - 0x1E211800
+  -
+    type: bytes
+    main_offset: 0x18A61B8
+    value_type: uint32
+    value:
+     - 0xD001EB88
+     - 0xB944E908
+     - 0x1E230101
+     - 0x1E2E1000
+     - 0x1E211800
+  # Redirect Dynamic Resolution GPU Timing target in DynamicResolutionScaler::Update to MAIN+0x5A8D908
+  -
+    type: bytes
+    main_offset: 0x1B06D44
+    value_type: uint32
+    value:
+     - 0xF001FC28
+     - 0xF9448508
+     - 0xD503201F
+     - 0xD503201F
+  -
+    type: bytes
+    main_offset: 0x1B06DC4
+    value_type: uint32
+    value:
+     - 0xF001FC28
+     - 0xF9448508
+     - 0xBD402A60
+     - 0xD503201F
+     - 0xD503201F
+  -
+    type: bytes
+    main_offset: 0x1B06E38
+    value_type: uint32
+    value:
+     - 0xF001FC28
+     - 0xF9448508
+     - 0xD503201F
+     - 0xD503201F
+  # Default values
+  -
+    type: bytes
+    main_offset: 0x56184E8
+    value_type: uint32
+    value: 30
+  -
+    type: bytes
+    main_offset: 0x5A8D908
+    value_type: double
+    value: 28.57142857142857
+15FPS:
+  # UnityEngine.Application::targetFrameRate
+  -
+    type: write
+    address: [MAIN, 0x56184E8]
+    value_type: uint32
+    value: 15
+  # GPU Timing Target = 857.142857143 / FPS
+  -
+    type: write
+    address: [MAIN, 0x5A8D908]
+    value_type: double
+    value: 57.1428571429
+20FPS:
+  # UnityEngine.Application::targetFrameRate
+  -
+    type: write
+    address: [MAIN, 0x56184E8]
+    value_type: uint32
+    value: 20
+  # GPU Timing Target
+  -
+    type: write
+    address: [MAIN, 0x5A8D908]
+    value_type: double
+    value: 42.8571428572
+25FPS:
+  # UnityEngine.Application::targetFrameRate
+  -
+    type: write
+    address: [MAIN, 0x56184E8]
+    value_type: uint32
+    value: 25
+  # GPU Timing Target
+  -
+    type: write
+    address: [MAIN, 0x5A8D908]
+    value_type: double
+    value: 34.2857142857
+30FPS:
+  # UnityEngine.Application::targetFrameRate (default value)
+  -
+    type: write
+    address: [MAIN, 0x56184E8]
+    value_type: uint32
+    value: 30
+  # GPU Timing Target (defualt value)
+  -
+    type: write
+    address: [MAIN, 0x5A8D908]
+    value_type: double
+    value: 28.57142857142857
+35FPS:
+  # UnityEngine.Application::targetFrameRate
+  -
+    type: write
+    address: [MAIN, 0x56184E8]
+    value_type: uint32
+    value: 35
+  # GPU Timing Target
+  -
+    type: write
+    address: [MAIN, 0x5A8D908]
+    value_type: double
+    value: 24.4897959184
+40FPS:
+  # UnityEngine.Application::targetFrameRate
+  -
+    type: write
+    address: [MAIN, 0x56184E8]
+    value_type: uint32
+    value: 40
+  # GPU Timing Target
+  -
+    type: write
+    address: [MAIN, 0x5A8D908]
+    value_type: double
+    value: 21.4285714286
+45FPS:
+  # UnityEngine.Application::targetFrameRate
+  -
+    type: write
+    address: [MAIN, 0x56184E8]
+    value_type: uint32
+    value: 45
+  # GPU Timing Target
+  -
+    type: write
+    address: [MAIN, 0x5A8D908]
+    value_type: double
+    value: 19.0476190476
+50FPS:
+  # UnityEngine.Application::targetFrameRate
+  -
+    type: write
+    address: [MAIN, 0x56184E8]
+    value_type: uint32
+    value: 50
+  # GPU Timing Target
+  -
+    type: write
+    address: [MAIN, 0x5A8D908]
+    value_type: double
+    value: 17.1428571429
+55FPS:
+  # UnityEngine.Application::targetFrameRate
+  -
+    type: write
+    address: [MAIN, 0x56184E8]
+    value_type: uint32
+    value: 55
+  # GPU Timing Target
+  -
+    type: write
+    address: [MAIN, 0x5A8D908]
+    value_type: double
+    value: 15.5844155844
+60FPS:
+  # UnityEngine.Application::targetFrameRate
+  -
+    type: write
+    address: [MAIN, 0x56184E8]
+    value_type: uint32
+    value: 60
+  # GPU Timing Target
+  -
+    type: write
+    address: [MAIN, 0x5A8D908]
+    value_type: double
+    value: 14.2857142857
