@@ -71,6 +71,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Assassin's Creed IV Black Flag | `010044700DEB0000` | `85F5D5AB6187F602` (◯, v0, 1.0.0) | 🟢 |  |
 | Assassin's Creed Rogue | `010044700DEB0001` | `3DEF0E36AA8C6592` ([✅](SaltySD/plugins/FPSLocker/patches/010044700DEB0001/3DEF0E36AA8C6592.yaml), v0, 1.0.0) | 🔵 |  |
 | Asterix & Obelix XXXL - The Ram From Hibernia | `01001F3018880000` | `DF556AF2E30073C0` ([✅](SaltySD/plugins/FPSLocker/patches/01001F3018880000/DF556AF2E30073C0.yaml), v4, 1.04.00) | 🔵 |  |
+| Astor: Blade of the Monolith | `01001D00186E8000` | `C26E93197DEB4004` ([✅](SaltySD/plugins/FPSLocker/patches/01001D00186E8000/C26E93197DEB4004.yaml), v0, 1.0.0) | 🔴 |  |
 | ASTRAL CHAIN | `01007300020FA000` | `4B159F0F7A360669` ([✅](SaltySD/plugins/FPSLocker/patches/01007300020FA000/4B159F0F7A360669.yaml), v1, 1.0.1) | 🟡 |  |
 | Atelier Ayesha | `0100D9D00EE8C000` | `B9146E1CAD9E36BA` (◯, v0, 1.0.0) | 🟢 |  |
 | Atelier Escha & Logy | `0100E5600EE8E000` | `4BBB3B3455D306C6` (◯, v0, 1.0.0) | 🟢 |  |
@@ -560,6 +561,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Xenoblade Chronicles: Definitive Edition | `0100FF500E34A000` | `92C78BB3DCBBC3F7` ([✅](SaltySD/plugins/FPSLocker/patches/0100FF500E34A000/92C78BB3DCBBC3F7.yaml), v3, 1.1.2) | 🔴 | [LINK](Methodology/Xenoblade%20Chronicles) |
 | Xenoblade Chronicles 2 | `0100E95004038000` | `F77F1559371C0EC6` (❌, v15, 2.1.0) | 🔴 |  |
 | Xenoblade Chronicles 3 | `010074F013262000` | `B76CD24AF02ACEA2` ([✅](SaltySD/plugins/FPSLocker/patches/010074F013262000/B76CD24AF02ACEA2.yaml), v6, 1.3.0) <br> `8E18600222CE90C2` ([✅](SaltySD/plugins/FPSLocker/patches/010074F013262000/8E18600222CE90C2.yaml), v7, 2.0.0) <br> `B6BE4A6B83D4F237` ([✅](SaltySD/plugins/FPSLocker/patches/010074F013262000/B6BE4A6B83D4F237.yaml), v8, 2.1.0) <br> `0AE74B263D8AC3CF` ([✅](SaltySD/plugins/FPSLocker/patches/010074F013262000/0AE74B263D8AC3CF.yaml), v9, 2.1.1) <br> `82D187FE9EF9BE92` ([✅](SaltySD/plugins/FPSLocker/patches/010074F013262000/82D187FE9EF9BE92.yaml), v10, 2.2.0) | 🔴 | [LINK](Methodology/Xenoblade%20Chronicles%203)  |
+| XUAN YUAN SWORD 7 | `010029F01BA3E000` | `F8EA898027152437` ([✅](SaltySD/plugins/FPSLocker/patches/010029F01BA3E000/F8EA898027152437.yaml), v0, 1.0.0) | 🔴 |  |
 | Yooka-Laylee | `0100F110029C8000` | `6352FCBB7C75E478` (◯, v2, 1.2.0) | 🟢 |  |
 | Young Souls | `010097900F550000` | `E43952D95F17FA48` (◯, v3, 1.0.3) | 🟢 |  |
 | Ys VIII: Lacrimosa of DANA | `01007F200B0C0000` | `F7C4835FD8AE9D10`  (◯, v5, 1.05) | 🟢 |  |
