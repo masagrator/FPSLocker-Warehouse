@@ -123,7 +123,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Bro Falls | `01005EF01A12E000` | `A07FFE2F32878CE9` (◯, v0, 1.57) | 🟢 |  |
 | Builder Simulator | `01000B101E3D8000` | `05DCD7F9AE5727D8` (◯, v0, 1.0.0) | 🟢 |  |
 | Bulletstorm | `01003DD00D658000` | `32FC35DF1C50E1F1` (◯, v0, 1.0.0) | 🟢 |  |
-| C.A.R.D.S. RPG: The Misty Battlefield | `010066D01D0F0000` | `C42AF4FCC6718DD8` (◯, v3, 1.0.3) | 🟢 |  |
+| C.A.R.D.S. RPG: The Misty Battlefield | `010066D01D0F0000` | `5374C73539234D2D` (◯, v4, 1.0.5) | 🟢 |  |
 | Call of Cthulhu | `010046000EE40000` | `8F6B002FEB5D0F8E` ([✅](SaltySD/plugins/FPSLocker/patches/010046000EE40000/8F6B002FEB5D0F8E.yaml), v3, 0.1.6) | 🔴 |  |
 | Call of Juarez: Gunslinger | `0100B4700BFC6000` | `EBF7DE558D554C7E` (◯, v5, 1.0.5) | 🟢 |  |
 | Candleman | `010034400CB5E000` | `55AA8D007FAEC044` (◯, v1, 1.0.1) | 🟢 |  |
