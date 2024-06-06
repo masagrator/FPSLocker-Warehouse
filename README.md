@@ -11,7 +11,7 @@ Read SaltyNX readme to check which games are not compatible.
 
 ---
 
-Column with colors stores info if the plugin is enough to go above 30 FPS or you must use additional patches that are created from configs available in this repository.<br>
+Column with colors stores info if the plugin is enough to go above 30 FPS or you must use additional patches that are created from configs available in this repository. It is valid only for the game's latest version listed here. In older versions it may be different (Example: Horizon Chase 2 1.5.5 uses internal FPS lock, but 1.6.3 doesn't).<br>
 This involves only handheld mode. For docked mode different color could be attached.<br>
 Patches status concern only FPSLocker "LOCK" patch format. There may exist cheat/IPS patch/mod that unlocks 60 FPS already.<br>
 As the list is filled by community, it may not be up to date.
@@ -265,7 +265,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Hoa | `010022E013A1A000` | `1A9DF794AC0099F3` (◯, v3, 1.0.3) | 🟢 |  |
 | Hogwarts Legacy | `0100F7E00C70E000` | `550F2E8B387B4520` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7E00C70E000/550F2E8B387B4520.yaml), v1, 1.0.1) <br> `F1AE192C465BD920` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7E00C70E000/F1AE192C465BD920.yaml), v2, 1.0.2) <br> `1C42BC734E792AFB` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7E00C70E000/1C42BC734E792AFB.yaml), v3, 1.0.3) | 🔵 |  |
 | Hokko Life | `010022A016250000` | `D9D13603133F3D89` (◯, v5, 1.0.5) | 🟢 |  |
-| Horizon Chase 2 | `0100001019F6E000` | `3CE4DB955A23026E` ([✅](SaltySD/plugins/FPSLocker/patches/0100001019F6E000/3CE4DB955A23026E.yaml), v3, 1.5.2) <br> `95B2E97C5D16385A` ([✅](SaltySD/plugins/FPSLocker/patches/0100001019F6E000/95B2E97C5D16385A.yaml), v4, 1.5.4) <br> `1C95A999050892E0` ([✅](SaltySD/plugins/FPSLocker/patches/0100001019F6E000/1C95A999050892E0.yaml), v5, 1.5.5) | 🔴 |  |
+| Horizon Chase 2 | `0100001019F6E000` | `3CE4DB955A23026E` ([✅](SaltySD/plugins/FPSLocker/patches/0100001019F6E000/3CE4DB955A23026E.yaml), v3, 1.5.2) <br> `95B2E97C5D16385A` ([✅](SaltySD/plugins/FPSLocker/patches/0100001019F6E000/95B2E97C5D16385A.yaml), v4, 1.5.4) <br> `1C95A999050892E0` ([✅](SaltySD/plugins/FPSLocker/patches/0100001019F6E000/1C95A999050892E0.yaml), v5, 1.5.5) <br> `F80EEC237D0963EE` ([✅](SaltySD/plugins/FPSLocker/patches/0100001019F6E000/F80EEC237D0963EE.yaml), v6, 1.6.3) | 🔵 |  |
 | HOT WHEELS UNLEASHED | `0100AA60136D2000` | `F73C6504D378C38B` ([✅](SaltySD/plugins/FPSLocker/patches/0100AA60136D2000/F73C6504D378C38B.yaml), v13, 1.0.13) | 🔵 | [LINK](Methodology/HOT%20WHEELS%20UNLEASHED) |
 | HOT WHEELS UNLEASHED 2 | `01001BE01908C000` | `012294C1E2D28A79` ([✅](SaltySD/plugins/FPSLocker/patches/01001BE01908C000/012294C1E2D28A79.yaml), v1, 1.0.1) <br> `EBD417A7EB6B5486` ([✅](SaltySD/plugins/FPSLocker/patches/01001BE01908C000/EBD417A7EB6B5486.yaml), v4, 1.0.4) <br> `3973FB8AC2750BE4` ([✅](SaltySD/plugins/FPSLocker/patches/01001BE01908C000/3973FB8AC2750BE4.yaml), v5, 1.0.5) <br> `53E622E32DB8780F` ([✅](SaltySD/plugins/FPSLocker/patches/01001BE01908C000/53E622E32DB8780F.yaml), v6, 1.0.6) <br> `DF0F7D04FC02C9BB` ([✅](SaltySD/plugins/FPSLocker/patches/01001BE01908C000/DF0F7D04FC02C9BB.yaml), v7, 1.0.7) <br> `C95F34910CE1CDC0` ([✅](SaltySD/plugins/FPSLocker/patches/01001BE01908C000/C95F34910CE1CDC0.yaml), v9, 1.0.9) | 🔵 | [LINK](Methodology/HOT%20WHEELS%20UNLEASHED%202) |
 | House Flipper | `0100CAE00EB02000` | `E137EF110988444F` (◯, v10, 1.10.0) | 🟢 |  |
