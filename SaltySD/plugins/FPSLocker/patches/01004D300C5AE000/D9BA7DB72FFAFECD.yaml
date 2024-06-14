@@ -1,7 +1,6 @@
 # Kirby and the Forgotten Land 1.0.0
 # BID: D9BA7DB72FFAFECD
 # Thanks to Hazerou for finding interval offsets
-# Game speed is tied to framerate, no proper support for anything between 30 and 60 FPS
 
 unsafeCheck: false
 
@@ -74,7 +73,7 @@ MASTER_WRITE:
       - 0xD37DF14C
       - 0xF9000289
 15FPS:
-  # Interval
+  # Interval (Setting it to 0 unlocks framerate and sets dynamic game speed)
   -
     type: write
     address: [MAIN, 0xA72628, 0x50]
@@ -111,7 +110,7 @@ MASTER_WRITE:
     type: write
     address: [MAIN, 0xA72628, 0x50]
     value_type: int32
-    value: 2
+    value: 0
   # Dynamic Resolution GPU Frametiming
   -
     type: write
@@ -137,7 +136,7 @@ MASTER_WRITE:
     type: write
     address: [MAIN, 0xA72628, 0x50]
     value_type: int32
-    value: 1
+    value: 0
   # Dynamic Resolution GPU Frametiming
   -
     type: write
@@ -150,7 +149,7 @@ MASTER_WRITE:
     type: write
     address: [MAIN, 0xA72628, 0x50]
     value_type: int32
-    value: 1
+    value: 0
   # Dynamic Resolution GPU Frametiming
   -
     type: write
@@ -163,7 +162,7 @@ MASTER_WRITE:
     type: write
     address: [MAIN, 0xA72628, 0x50]
     value_type: int32
-    value: 1
+    value: 0
   # Dynamic Resolution GPU Frametiming
   -
     type: write
@@ -176,7 +175,7 @@ MASTER_WRITE:
     type: write
     address: [MAIN, 0xA72628, 0x50]
     value_type: int32
-    value: 1
+    value: 0
   # Dynamic Resolution GPU Frametiming
   -
     type: write
@@ -189,7 +188,7 @@ MASTER_WRITE:
     type: write
     address: [MAIN, 0xA72628, 0x50]
     value_type: int32
-    value: 1
+    value: 0
   # Dynamic Resolution GPU Frametiming
   -
     type: write
@@ -202,7 +201,7 @@ MASTER_WRITE:
     type: write
     address: [MAIN, 0xA72628, 0x50]
     value_type: int32
-    value: 1
+    value: 0
   # Dynamic Resolution GPU Frametiming
   -
     type: write
