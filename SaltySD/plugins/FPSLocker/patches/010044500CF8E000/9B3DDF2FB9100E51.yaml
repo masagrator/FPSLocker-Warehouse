@@ -1,7 +1,7 @@
 # Hellblade: Senua's Sacrifice 1.1.0
 # BID: 9B3DDF2FB9100E51
 
-unsafeCheck: true
+unsafeCheck: false
 
 15FPS:
   # Custom Dynamic Resolution implementation - Frame Time (MAX/MIN)
@@ -94,10 +94,7 @@ unsafeCheck: true
     type: write
     address: [MAIN, 0x521F7A0, 0]
     value_type: float
-    value: [40, 40]
-  -
-    type: block
-    what: timing
+    value: [0, 0]
 45FPS:
   # Custom Dynamic Resolution implementation - Frame Time (MAX/MIN)
   -
@@ -110,10 +107,7 @@ unsafeCheck: true
     type: write
     address: [MAIN, 0x521F7A0, 0]
     value_type: float
-    value: [45, 45]
-  -
-    type: block
-    what: timing
+    value: [0, 0]
 50FPS:
   # Custom Dynamic Resolution implementation - Frame Time (MAX/MIN)
   -
@@ -126,10 +120,7 @@ unsafeCheck: true
     type: write
     address: [MAIN, 0x521F7A0, 0]
     value_type: float
-    value: [50, 50]
-  -
-    type: block
-    what: timing
+    value: [0, 0]
 55FPS:
   # Custom Dynamic Resolution implementation - Frame Time (MAX/MIN)
   -
@@ -142,10 +133,7 @@ unsafeCheck: true
     type: write
     address: [MAIN, 0x521F7A0, 0]
     value_type: float
-    value: [55, 55]
-  -
-    type: block
-    what: timing
+    value: [0, 0]
 60FPS:
   # Custom Dynamic Resolution implementation - Frame Time (MAX/MIN)
   -
