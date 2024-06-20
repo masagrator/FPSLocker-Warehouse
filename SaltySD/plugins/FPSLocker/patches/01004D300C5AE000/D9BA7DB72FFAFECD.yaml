@@ -155,7 +155,7 @@ MASTER_WRITE:
     type: write
     address: [MAIN, 0xA726B0, 0x140, 0x1B0, 0x20, 0x34]
     value_type: float
-    value: [1.4625, 1.275]
+    value: [1.45, 1.2655]
 45FPS:
   # Interval
   -
@@ -168,7 +168,7 @@ MASTER_WRITE:
     type: write
     address: [MAIN, 0xA726B0, 0x140, 0x1B0, 0x20, 0x34]
     value_type: float
-    value: [1.3, 1.13]
+    value: [1.29, 1.125]
 50FPS:
   # Interval
   -
@@ -181,7 +181,7 @@ MASTER_WRITE:
     type: write
     address: [MAIN, 0xA726B0, 0x140, 0x1B0, 0x20, 0x34]
     value_type: float
-    value: [1.17, 1.02]
+    value: [1.165, 1.015]
 55FPS:
   # Interval
   -
@@ -194,7 +194,7 @@ MASTER_WRITE:
     type: write
     address: [MAIN, 0xA726B0, 0x140, 0x1B0, 0x20, 0x34]
     value_type: float
-    value: [1.06, 0.92]
+    value: [1.059, 0.92]
 60FPS:
   # Interval
   -
