@@ -25,63 +25,9 @@ MASTER_WRITE:
     main_offset: 0x6D91A00
     value_type: float
     value: 33.3333333333 
-15FPS:
+ALL_FPS:
   -
-    type: write
+    type: evaluate_write
     address: [MAIN, 0x6D91A00]
     value_type: float
-    value: 66.6666666666
-20FPS:
-  -
-    type: write
-    address: [MAIN, 0x6D91A00]
-    value_type: float
-    value: 50
-25FPS:
-  -
-    type: write
-    address: [MAIN, 0x6D91A00]
-    value_type: float
-    value: 40
-30FPS:
-  -
-    type: write
-    address: [MAIN, 0x6D91A00]
-    value_type: float
-    value: 33.3333333333
-35FPS:
-  -
-    type: write
-    address: [MAIN, 0x6D91A00]
-    value_type: float
-    value: 28.5714
-40FPS:
-  -
-    type: write
-    address: [MAIN, 0x6D91A00]
-    value_type: float
-    value: 25
-45FPS:
-  -
-    type: write
-    address: [MAIN, 0x6D91A00]
-    value_type: float
-    value: 22.2222222222
-50FPS:
-  -
-    type: write
-    address: [MAIN, 0x6D91A00]
-    value_type: float
-    value: 20
-55FPS:
-  -
-    type: write
-    address: [MAIN, 0x6D91A00]
-    value_type: float
-    value: 18.1818181818
-60FPS:
-  -
-    type: write
-    address: [MAIN, 0x6D91A00]
-    value_type: float
-    value: 16.6666666666
+    value: FRAMETIME_TARGET
