@@ -227,7 +227,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Forrader Hero | `01007C801D5B8000` | `D62574E9298D0AAE` (◯, v0, 1.0) | 🟢 |  |
 | Fresh Start | `0100AA001BAB8000` | `9B2BC4BAF72D350A` (❌, v0, 1.0.0) | 🔵 |  |
 | FROGUN DELUXE EDITION | `0100A0A018D3A000` | `7FA5168E6BEA2A40` (◯, v3, 1.3) | 🟢 |  |
-| From Space | `010015F018C3C000` | `593BD545295A65FB` ([✅](SaltySD/plugins/FPSLocker/patches/010015F018C3C000/593BD545295A65FB.yaml), v2, 1.0.357) <br> `9806FB67CE24E904` ([✅](SaltySD/plugins/FPSLocker/patches/010015F018C3C000/9806FB67CE24E904.yaml), v3, 1.3.480) | 🔵 |  |
+| From Space | `010015F018C3C000` | `9806FB67CE24E904` ([✅](SaltySD/plugins/FPSLocker/patches/010015F018C3C000/9806FB67CE24E904.yaml), v3, 1.3.480) | 🔵 |  |
 | FRONT MISSION 1st: Remake | `0100F200178F4000` | `188BF4CBE682C3AC` (◯, v5, 2.0.5) | 🟢 |  |
 | FRONT MISSION 2: Remake | `0100C4E018A24000` | `C275C9D959899572` (◯, v7, 1.0.5.1) | 🟢 |  |
 | Gamedec - Definitive Edition | `01002A501869E000` | `BFA92380757EF97D` ([✅](SaltySD/plugins/FPSLocker/patches/01002A501869E000/BFA92380757EF97D.yaml), v3, 1.3.0) | 🔴 | [LINK](Methodology/Gamedec) |
