@@ -22,7 +22,7 @@ MASTER_WRITE:
     value: 1000
 ALL_FPS:
   -
-    type: write
+    type: evaluate_write
     address: [MAIN, 0x4422800]
     value_type: float
     value: "(FPS_TARGET / 30) * 1000"
