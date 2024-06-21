@@ -261,7 +261,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | HARVESTELLA | `0100521017B2A000` | `249EAB9BF046C5EA` ([✅](SaltySD/plugins/FPSLocker/patches/0100521017B2A000/249EAB9BF046C5EA.yaml), v2, 1.0.2) | 🔴 | [LINK](Methodology/HARVESTELLA) |
 | Hellblade: Senua's Sacrifice | `010044500CF8E000` | `9B3DDF2FB9100E51` ([✅](SaltySD/plugins/FPSLocker/patches/010044500CF8E000/9B3DDF2FB9100E51.yaml), v1, 1.1.0) | 🔴 |  |
 | Highwater | `0100D1A019EBA000` | `3A38653015036D51` (◯, v1, 1.0.1) | 🟢 |  |
-| Hitman: Blood Money - Reprisal | `010083A018262000` | `688C23D524730AB8` ([✅](SaltySD/plugins/FPSLocker/patches/010083A018262000/688C23D524730AB8.yaml), v0, 1.0_68328) <br> `59AF76C13F680B7C` ([✅](SaltySD/plugins/FPSLocker/patches/010083A018262000/59AF76C13F680B7C.yaml), v1, 1.2_71586) | 🔴 |  |
+| Hitman: Blood Money - Reprisal | `010083A018262000` | `59AF76C13F680B7C` ([✅](SaltySD/plugins/FPSLocker/patches/010083A018262000/59AF76C13F680B7C.yaml), v1, 1.2_71586) | 🔴 |  |
 | Hoa | `010022E013A1A000` | `1A9DF794AC0099F3` (◯, v3, 1.0.3) | 🟢 |  |
 | Hogwarts Legacy | `0100F7E00C70E000` | `550F2E8B387B4520` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7E00C70E000/550F2E8B387B4520.yaml), v1, 1.0.1) <br> `F1AE192C465BD920` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7E00C70E000/F1AE192C465BD920.yaml), v2, 1.0.2) <br> `1C42BC734E792AFB` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7E00C70E000/1C42BC734E792AFB.yaml), v3, 1.0.3) | 🔵 |  |
 | Hokko Life | `010022A016250000` | `D9D13603133F3D89` (◯, v5, 1.0.5) | 🟢 |  |
