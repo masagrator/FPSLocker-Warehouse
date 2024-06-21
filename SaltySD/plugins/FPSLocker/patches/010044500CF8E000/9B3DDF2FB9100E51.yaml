@@ -14,7 +14,7 @@ ALL_FPS:
     value: ["(1 / FPS_TARGET) * 0.95", "(1 / FPS_TARGET) * 0.9"]
   # t.MaxFPS
   -
-    type: evaluate)write
+    type: evaluate_write
     address: [MAIN, 0x521F7A0, 0]
     value_type: float
     value: [FPS_LOCK_TARGET, FPS_LOCK_TARGET]
