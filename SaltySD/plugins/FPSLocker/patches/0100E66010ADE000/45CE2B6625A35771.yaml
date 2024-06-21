@@ -91,13 +91,13 @@ ALL_FPS:
     value: ["0.96 * FRAMETIME_TARGET", "0.96 * FRAMETIME_TARGET"]
   # MAIN + 0x2C13130
   -
-    type: write
+    type: evaluate_write
     address: [MAIN,  0x3DFAE0C]
     value_type: float
     value: ["0.885 * FRAMETIME_TARGET", "0.885 * FRAMETIME_TARGET"]
   # MAIN + 0x2C12EF8
   -
-    type: write
+    type: evaluate_write
     address: [MAIN,  0x3DFAE14]
     value_type: float
     value: ["1.005 * FRAMETIME_TARGET", "1.005 * FRAMETIME_TARGET"]
