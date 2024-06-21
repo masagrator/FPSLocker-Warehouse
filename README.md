@@ -256,8 +256,8 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Grounded | `01006F301AE9C000` | `6C91A8A476E70C5D` ([✅](SaltySD/plugins/FPSLocker/patches/01006F301AE9C000/6C91A8A476E70C5D.yaml), v5, 1.05) | 🔴 |  |
 | Gungrave G.O.R.E | `010088801B324000` | `9B743181AB8A26F9` ([✅](SaltySD/plugins/FPSLocker/patches/010088801B324000/9B743181AB8A26F9.yaml), v4, 1.0.4) | 🔵 |  |
 | GYLT | `0100AC601DCA8000` | `4584432786F462DB` ([✅](SaltySD/plugins/FPSLocker/patches/0100AC601DCA8000/4584432786F462DB.yaml), v2, 1.2) | 🔵 |  |
-| Hammerwatch Anniversary Edition | `0100321017CC0000` | `62B999CF9D465F00` ([✅](SaltySD/plugins/FPSLocker/patches/0100321017CC0000/62B999CF9D465F00.yaml), v2, 1.0.2) <br> `D147CAEF2BC74574` ([✅](SaltySD/plugins/FPSLocker/patches/0100321017CC0000/D147CAEF2BC74574.yaml), v3, 1.0.3) | 🔴 |  |
-| Hammerwatch 2 | `0100367016DF0000` | `77DDECED11491422` ([✅](SaltySD/plugins/FPSLocker/patches/0100367016DF0000/77DDECED11491422.yaml), v2, 1.0.2) <br> `38896FEC1B4ADB1C` ([✅](SaltySD/plugins/FPSLocker/patches/0100367016DF0000/38896FEC1B4ADB1C.yaml), v3, 1.0.4) | 🔴 |  |
+| Hammerwatch Anniversary Edition | `0100321017CC0000` | `D147CAEF2BC74574` ([✅](SaltySD/plugins/FPSLocker/patches/0100321017CC0000/D147CAEF2BC74574.yaml), v3, 1.0.3) | 🔴 |  |
+| Hammerwatch 2 | `0100367016DF0000` | `38896FEC1B4ADB1C` ([✅](SaltySD/plugins/FPSLocker/patches/0100367016DF0000/38896FEC1B4ADB1C.yaml), v3, 1.0.4) | 🔴 |  |
 | HARVESTELLA | `0100521017B2A000` | `249EAB9BF046C5EA` ([✅](SaltySD/plugins/FPSLocker/patches/0100521017B2A000/249EAB9BF046C5EA.yaml), v2, 1.0.2) | 🔴 | [LINK](Methodology/HARVESTELLA) |
 | Hellblade: Senua's Sacrifice | `010044500CF8E000` | `9B3DDF2FB9100E51` ([✅](SaltySD/plugins/FPSLocker/patches/010044500CF8E000/9B3DDF2FB9100E51.yaml), v1, 1.1.0) | 🔴 |  |
 | Highwater | `0100D1A019EBA000` | `3A38653015036D51` (◯, v1, 1.0.1) | 🟢 |  |
