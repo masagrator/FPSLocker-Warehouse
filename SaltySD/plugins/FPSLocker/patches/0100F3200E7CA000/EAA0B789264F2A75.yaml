@@ -28,63 +28,9 @@ MASTER_WRITE:
     main_offset: 0xB75F200
     value_type: float
     value: [30, 0.0333333333]
-15FPS:
+ALL_FPS:
   -
-    type: write
+    type: evaluate_write
     address: [MAIN, 0xB75F200]
     value_type: float
-    value: [15, 0.0666666666]
-20FPS:
-  -
-    type: write
-    address: [MAIN, 0xB75F200]
-    value_type: float
-    value: [20, 0.05]
-25FPS:
-  -
-    type: write
-    address: [MAIN, 0xB75F200]
-    value_type: float
-    value: [25, 0.04]
-30FPS:
-  -
-    type: write
-    address: [MAIN, 0xB75F200]
-    value_type: float
-    value: [30, 0.0333333333]
-35FPS:
-  -
-    type: write
-    address: [MAIN, 0xB75F200]
-    value_type: float
-    value: [35, 0.028571]
-40FPS:
-  -
-    type: write
-    address: [MAIN, 0xB75F200]
-    value_type: float
-    value: [40, 0.025]
-45FPS:
-  -
-    type: write
-    address: [MAIN, 0xB75F200]
-    value_type: float
-    value: [45, 0.0222222222]
-50FPS:
-  -
-    type: write
-    address: [MAIN, 0xB75F200]
-    value_type: float
-    value: [50, 0.02]
-55FPS:
-  -
-    type: write
-    address: [MAIN, 0xB75F200]
-    value_type: float
-    value: [55, 0.0181818181]
-60FPS:
-  -
-    type: write
-    address: [MAIN, 0xB75F200]
-    value_type: float
-    value: [60, 0.0166666666]
+    value: [FPS_LOCK_TARGET, "1 / FPS_TARGET"]
