@@ -4,7 +4,7 @@
 unsafeCheck: false
 
 ALL_FPS:
-  # DynamicResolution_TypeInfo (MAX = 0.96 * (1000/FPS), MIN = 0.9375 * (1000/FPS)), min range 0.75
+  # DynamicResolution_TypeInfo
   -
     type: evaluate_write
     address: [MAIN, 0x4B320A0, 0xB8, 0]
