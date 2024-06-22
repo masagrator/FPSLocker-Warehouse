@@ -31,4 +31,4 @@ ALL_FPS:
     type: evaluate_write
     address: [MAIN, 0x86B9F00]
     value_type: float
-    value: ["TruncDec(FRAMETIME_TARGET, 2)", "TruncDec(1 / (FPS_TARGET + 5), 2)"]
+    value: ["TruncDec(FRAMETIME_TARGET, 2)", "TruncDec(1000 / (FPS_TARGET + 5), 2)"]
