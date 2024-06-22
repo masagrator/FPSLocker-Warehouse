@@ -12,7 +12,7 @@ ALL_FPS:
     value: ["TruncDec(FRAMETIME_TARGET, 2)", "TruncDec(FRAMETIME_TARGET, 2)"]
   # t.MaxFPS
   -
-    type: evalutate_write
+    type: evaluate_write
     address: [MAIN, 0x7A70080, 0]
     value_type: float
     value: [FPS_LOCK_TARGET, FPS_LOCK_TARGET]
