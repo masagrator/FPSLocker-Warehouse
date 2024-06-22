@@ -366,8 +366,8 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Nine Parchments | `0100D03003F0E000` | `F7893E37FC10C803` (◯, v4, 1.1.1) | 🟢 |  |
 | No Man's Sky | `0100853015E86000` | `8F6376506EA4E8D5` ([✅](SaltySD/plugins/FPSLocker/patches/0100853015E86000/8F6376506EA4E8D5.yaml), v36, 4.7.0) | 🔵 | [LINK](Methodology/No%20Man's%20Sky/README.md) |
 | Oceanhorn 2: Knights of the Lost Realm | `01006CB010840000` | `9F2F187D1C6E44EC` ([✅](SaltySD/plugins/FPSLocker/patches/01006CB010840000/9F2F187D1C6E44EC.yaml), v2, 1.2) | 🔵 | [LINK](Methodology/Oceanhorn%202) |
-| OCTOPATH TRAVELER | `010057D006492000` | `B88A8D8E5516DDE9` ([✅](SaltySD/plugins/FPSLocker/patches/010057D006492000/B88A8D8E5516DDE9.yaml), v4, 1.0.4) <br> `67DACC049CEEE858` ([✅](SaltySD/plugins/FPSLocker/patches/010057D006492000/67DACC049CEEE858.yaml), v5, 1.0.5) | 🔴 | [LINK](Methodology/OCTOPATH%20TRAVELER) |
-| OCTOPATH TRAVELER II | `0100A3501946E000` | `BB891294DA55675E` ([✅](SaltySD/plugins/FPSLocker/patches/0100A3501946E000/BB891294DA55675E.yaml), v1, 1.0.2) <br> `0D9649011312F62E` ([✅](SaltySD/plugins/FPSLocker/patches/0100A3501946E000/0D9649011312F62E.yaml), v2, 1.1.1) | 🔴 | [LINK](Methodology/OCTOPATH%20TRAVELER%20II) |
+| OCTOPATH TRAVELER | `010057D006492000` | `67DACC049CEEE858` ([✅](SaltySD/plugins/FPSLocker/patches/010057D006492000/67DACC049CEEE858.yaml), v5, 1.0.5) | 🔴 | [LINK](Methodology/OCTOPATH%20TRAVELER) |
+| OCTOPATH TRAVELER II | `0100A3501946E000` | `0D9649011312F62E` ([✅](SaltySD/plugins/FPSLocker/patches/0100A3501946E000/0D9649011312F62E.yaml), v2, 1.1.1) | 🔴 | [LINK](Methodology/OCTOPATH%20TRAVELER%20II) |
 | Oddworld: Soulstorm | `0100D210177C6000` | `9510D677DCCE4447` ([✅](SaltySD/plugins/FPSLocker/patches/0100D210177C6000/9510D677DCCE4447.yaml), v3, 1.1.3) | 🔵 |  |
 | Off the Road Unleashed | `010045C0112F8000` | `5E8316D212D6D7BD` (◯, v1, 1.0.1) | 🟢 |  |
 | Oninaki | `01001AF00CE54000` | `C949E2576F532C43` (◯, v2, 1.0.2) | 🟢 |  |
