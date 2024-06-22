@@ -52,7 +52,7 @@ ALL_FPS:
     type: write
     address: [MAIN, 0x254D2A0]
     value_type: uint32
-    value: 1
+    value: 0
   -
     type: evaluate_write
     address: [MAIN, 0x2BFB708]
