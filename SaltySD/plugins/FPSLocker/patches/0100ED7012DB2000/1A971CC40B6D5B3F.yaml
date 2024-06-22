@@ -48,11 +48,11 @@ ALL_FPS:
     address: [MAIN, 0x2BFB700]
     value_type: uint32
     value: FPS_LOCK_TARGET
-  - # Adjust max delta for menus, 0 - 30 FPS, 1 - 60 FPS, REF: 20 79 68 BC 01 10 2E 1E 00 D8 21 7E
+  - # Adjust min delta for menus, 0 - 30 FPS, 1 - 60 FPS, REF: 20 79 68 BC 01 10 2E 1E 00 D8 21 7E
     type: write
     address: [MAIN, 0x254D2A0]
     value_type: uint32
-    value: 0
+    value: 1
   -
     type: evaluate_write
     address: [MAIN, 0x2BFB708]
