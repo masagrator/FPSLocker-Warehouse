@@ -5,7 +5,7 @@ unsafeCheck: true
 
 ALL_FPS:
   -
-    type: write
+    type: evaluate_write
     address: [MAIN, 0x14284E0]
     value_type: int32
     value: FPS_LOCK_TARGET
