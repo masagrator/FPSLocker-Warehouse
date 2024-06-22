@@ -1,7 +1,6 @@
 # Trials Rising 1.0.13
 # BID: 283095029A5AB467
 # Double buffer is reserved line by line inside class array, so requires ton of patching
-# So nothing outside of 15, 20, 30 and 60 FPS is supported
 
 unsafeCheck: true
 
@@ -26,73 +25,10 @@ MASTER_WRITE:
     main_offset: 0x9DBAEB8
     value_type: float
     value: 33.3333333333
-15FPS:
-  # DR timing = 1000/FPS
-  -
-    type: write
-    address: [MAIN, 0x9DBAEB8]
-    value_type: float
-    value: 66.6666666666
-20FPS:
+ALL_FPS:
   # DR timing
   -
-    type: write
+    type: evaluate_write
     address: [MAIN, 0x9DBAEB8]
     value_type: float
-    value: 50
-25FPS:
-  # DR timing
-  -
-    type: write
-    address: [MAIN, 0x9DBAEB8]
-    value_type: float
-    value: 40
-30FPS:
-  # DR timing
-  -
-    type: write
-    address: [MAIN, 0x9DBAEB8]
-    value_type: float
-    value: 33.3333333333
-35FPS:
-  # DR timing
-  -
-    type: write
-    address: [MAIN, 0x9DBAEB8]
-    value_type: float
-    value: 28.5714
-40FPS:
-  # DR timing
-  -
-    type: write
-    address: [MAIN, 0x9DBAEB8]
-    value_type: float
-    value: 25
-45FPS:
-  # DR timing
-  -
-    type: write
-    address: [MAIN, 0x9DBAEB8]
-    value_type: float
-    value: 22.2222222222
-50FPS:
-  # DR timing
-  -
-    type: write
-    address: [MAIN, 0x9DBAEB8]
-    value_type: float
-    value: 20
-55FPS:
-  # DR timing
-  -
-    type: write
-    address: [MAIN, 0x9DBAEB8]
-    value_type: float
-    value: 18.1818181818
-60FPS:
-  # DR timing
-  -
-    type: write
-    address: [MAIN, 0x9DBAEB8]
-    value_type: float
-    value: 16.6666666666
+    value: FRAMETIME_TARGET
