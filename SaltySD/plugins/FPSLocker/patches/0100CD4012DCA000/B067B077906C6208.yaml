@@ -51,7 +51,7 @@ ALL_FPS:
     type: evaluate_write
     address: [MAIN, 0x254EA80]
     value_type: uint32
-    value: "(FPS_TARGET / 60)"
+    value: "FPS_TARGET / 60"
   -
     type: write
     address: [MAIN, 0x2B92808]
