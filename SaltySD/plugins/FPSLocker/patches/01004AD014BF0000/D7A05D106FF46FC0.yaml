@@ -12,4 +12,4 @@ ALL_FPS:
     type: evaluate_write
     address: [MAIN, 0x4CA3F20, 0x14]
     value_type: float
-    value: 0
+    value: FPS_TARGET
