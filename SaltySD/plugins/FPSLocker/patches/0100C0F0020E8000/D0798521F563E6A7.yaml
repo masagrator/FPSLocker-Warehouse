@@ -6,7 +6,7 @@ unsafeCheck: true
 ALL_FPS:
   # t.MaxFPS
   -
-    type: evaluate)write
+    type: evaluate_write
     address: [MAIN, 0x49012B8, 0]
     value_type: float
     value: [FPS_LOCK_TARGET, FPS_LOCK_TARGET]
