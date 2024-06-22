@@ -10,3 +10,6 @@ ALL_FPS:
     address: [MAIN, 0x80C9F0]
     value_type: float
     value: "1 / FPS_TARGET"
+  -
+    type: block
+    what: timing
