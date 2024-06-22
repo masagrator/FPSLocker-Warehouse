@@ -3,19 +3,19 @@
 
 unsafeCheck: true
 
-15FPS:
+ALL_FPS:
   # r.DynamicRes.FrameTimeBudget ((1000/FPS) * 0.9)
   -
-    type: write
+    type: evaluate_write
     address: [MAIN, 0x56A9C78, 0]
     value_type: float
-    value: [60, 60]
+    value: ["FRAMETIME_TARGET * 0.9", "FRAMETIME_TARGET * 0.9"]
   # t.MaxFPS
   -
-    type: write
+    type: evaluate_write
     address: [MAIN, 0x56D3EA0, 0]
     value_type: float
-    value: [15, 15]
+    value: [FPS_LOCK_TARGET, FPS_LOCK_TARGET]
   -
     type: block
     what: timing
