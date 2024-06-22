@@ -447,6 +447,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Sherlock Holmes and The<br>Hound of The Baskervilles | `010003D018708000` | `4A06EBBB5A2E4FE4` (✝️, v2, 1.0.2) | 🟣 |  |
 | Shin Megami Tensei III Nocturne | `01003B0012DC2000` | `F8098979DBC7F34E` (❌, v3, 1.0.3) | 🟡 | [LINK](Methodology/Shin%20Megami%20Tensei%20III) |
 | SHIN MEGAMI TENSEI V | `0100B870126CE000` | `019FBFE7738EA314` ([✅](SaltySD/plugins/FPSLocker/patches/0100B870126CE000/019FBFE7738EA314.yaml), v2, 1.0.2) | 🔵 | [LINK](Methodology/SHIN%20MEGAMI%20TENSEI%20V) |
+| SHIN MEGAMI TENSEI V: Vengeance | `010069C01AB82000` | `541F680F325BD5AC` ([✅](SaltySD/plugins/FPSLocker/patches/010069C01AB82000/541F680F325BD5AC.yaml), v1, 1.0.1) | 🔴 | |
 | Ship Graveyard Simulator | `010018C01B106000` | `63B72CD5F2A90020` ([✅](SaltySD/plugins/FPSLocker/patches/010018C01B106000/63B72CD5F2A90020.yaml), v0, 1.0.0) | 🔴 |  |
 | Ship of Fools | `010076901806C000` | `2C4700E500079C74` (◯, v5, 1.0.5) | 🟢 |  |
 | Sifu | `01007B5017A12000` | `4A5D86DA05A4E7BB` ([✅](SaltySD/plugins/FPSLocker/patches/01007B5017A12000/4A5D86DA05A4E7BB.yaml), v6, 0.1) | 🔵 | [LINK](Methodology/Sifu) |
