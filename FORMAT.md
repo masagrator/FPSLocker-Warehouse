@@ -3,8 +3,12 @@
 Patches are converted from YAML files that are tied to the buildid of games, so each one must be designed specifically for one version of one game.
 Patches write/read values only from RAM mappings that allow reading and writing (`RW-`). So they don't support patching `R-X` mappings.
 
-YAML file consists of 11 keys:
+YAML file consists of keys:
 - `unsafeCheck` - setting it to `true` results in the plugin not checking if an address is valid. It is recommended to leave it at `false` if you use HEAP related address
+- `ALL_FPS`
+- `ALL_REFRESH_RATES` (doesn't work if ALL_FPS is not defined)
+
+if `ALL_FPS` is not defined, those are required to exist:
 - `15FPS`
 - `20FPS`
 - `25FPS`
@@ -61,6 +65,10 @@ Write a static value to provided `address`
 - `value_type` - check "Supported types".
 - `value` - what value we will write into provided address. Remember that if `value_type` is set to any integer, don't use decimals. You may write a list of values into it that will be applied one after another.
 
+> type: evaluate_write
+
+It's the same as `write` with one big difference - it is used to write expressions in `value`. More about expressions at the bottom of file.
+
 > type: compare
 
 Compare the value from provided `compare_address` with a static `compare_value` and if it's correct, it writes the static `value` to provided `address`
@@ -71,6 +79,10 @@ Compare the value from provided `compare_address` with a static `compare_value` 
 - `address` - always starts with one of the regions: `MAIN`, `HEAP`, or `ALIAS`. Next, we have offsets. If the offset is not the last one, it is treated as a pointer address. In provided second example we add `0x1A08F98` to `MAIN` address and this is the final address.
 - `value_type` - check "Supported types".
 - `value` - what value we will write into provided address. Remember that if `value_type` is set to any integer, don't use decimals. You may write a list of values into it that will be applied one after another.
+
+> type: evaluate_compare
+
+It's the same as `compare` with one big difference - it is used to write expressions in `value`. More about expressions at the bottom of file.
 
 > type: block<br>
 - `what` - supported commands:
@@ -99,3 +111,19 @@ Compare the value from provided `compare_address` with a static `compare_value` 
   - `uint64`
   - `float`
   - `double`
+
+- `value_type` exclusive:
+  - `refresh_rate` (forces chosen refresh rate, supports decimals. When used, address has no impact, as long as it's using valid data)
+
+# Expressions
+
+For expressions evaluation is used TinyExpr library. It support various math C functions with addition to FPSLocker that includes globals and one additional function.
+
+Additional function:
+- `TruncDec([Value], [Dec])` - This function removes decimals from "Value". With "Dec" we can controle how many decimals we will leave. For example if we write `TruncDec(1000 / 30, 2)` it will result in `33.33`.
+
+Globals (all are stored as double and converted to chosen value_type):
+- `FPS_TARGET` - it returns value corresponding to chosen FPS target in FPSLocker.
+- `FRAMETIME_TARGET` = `1000 / FPS_TARGET`
+- `VSYNC_TARGET` = "60 / FPS_TARGET" without decimals
+- `FPS_LOCK_TARGET` - similar to FPS_TARGET with the difference that if FPS target chosen in FPSLocker matches refresh rate, it is equal to 120 to avoid stutterings caused by artifical FPS lock.
