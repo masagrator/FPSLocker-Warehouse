@@ -165,3 +165,13 @@ ALL_FPS:
     address: [MAIN, 0x472AAC4]
     value_type: float
     value: "(FPS_TARGET / 30) * 0.001"
+ALL_REFRESH_RATES:
+  -
+    type: compare
+    compare_address: [MAIN, 0x472AABC]
+    compare_type: "!="
+    compare_value_type: uint32
+    compare_value: 0
+    address: [MAIN, 0]
+    value_type: refresh_rate
+    value: 30
