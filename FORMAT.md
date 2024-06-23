@@ -20,7 +20,7 @@ if `ALL_FPS` is not defined, those are required to exist:
 - `55FPS`
 - `60FPS`
 
-Each `*FPS` dict is `a list of dicts`. Examples:
+Each key except of unsafeCheck is `a list of dicts`. Examples:
 ```yaml
 15FPS:
   -
@@ -34,7 +34,7 @@ Each `*FPS` dict is `a list of dicts`. Examples:
 
 ```
 ```yaml
-60FPS:
+ALL_FPS:
   -
     type: compare
     compare_address: [MAIN, 0x1A65958]
@@ -45,14 +45,10 @@ Each `*FPS` dict is `a list of dicts`. Examples:
     value_type: int32
     value: [1, 1]
   -
-    type: compare
-    compare_address: [MAIN, 0x1A65958]
-    compare_type: "!="
-    compare_value_type: int8
-    compare_value: 0
-    address: [MAIN, 0x1A08F98]
-    value_type: int32
-    value: [2, 2]
+    type: evaluate_write
+    address: [MAIN, 0x12257C30, 0x434]
+    value_type: float
+    value: FPS_TARGET
 
 ```
 
