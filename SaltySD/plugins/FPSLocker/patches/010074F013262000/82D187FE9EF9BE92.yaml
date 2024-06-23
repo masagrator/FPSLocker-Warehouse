@@ -83,3 +83,40 @@ ALL_FPS:
     address: [MAIN, 0x1BA1A90, 128]
     value_type: float
     value: "0.5 / 30"
+ALL_REFRESH_RATES:
+  -
+    type: compare
+    compare_address: [MAIN, 0x1BA1A98]
+    compare_type: "!="
+    compare_value_type: int8
+    compare_value: 0
+    address: [MAIN, 0x1B42DB0]
+    value_type: int32
+    value: [1, 1]
+  -
+    type: evaluate_compare
+    compare_address: [MAIN, 0x1BA1A98]
+    compare_type: "!="
+    compare_value_type: int8
+    compare_value: 0
+    address: [MAIN, 0x236AB00]
+    value_type: float
+    value: "1 / 30"
+  -
+    type: evaluate_compare
+    compare_address: [MAIN, 0x1BA1A98]
+    compare_type: "!="
+    compare_value_type: int8
+    compare_value: 0
+    address: [MAIN, 0x1BA1A90, 128]
+    value_type: float
+    value: "1 / 30"
+  -
+    type: compare
+    compare_address: [MAIN, 0x1BA1A98]
+    compare_type: "!="
+    compare_value_type: int8
+    compare_value: 0
+    address: [MAIN]
+    value_type: refresh_rate
+    value: 30
