@@ -23,7 +23,7 @@ MASTER_WRITE:
 ALL_FPS:
   # GPU Frametime divider = (30/FPS) * 1000000
   -
-    type: evalute_write
+    type: evaluate_write
     address: [MAIN, 0x32C6D00]
     value_type: double
     value: "(30 / FPS_TARGET) * 1000000"
