@@ -82,7 +82,7 @@ It's the same as `compare` with one big difference - it is used to write express
 
 > type: block<br>
 - `what` - supported commands:
-  - `timing` - it blocks FPSLocker internal frame delay. It is advised to use it when we want to use the game's proprietary FPS lock. This is automatically applied for 30 FPS and 60 FPS in games using NVN API.
+  - `timing` - it blocks FPSLocker internal frame delay. It is advised to use it when we want to use the game's proprietary FPS lock. This is automatically applied when FPS target matches refresh rate + 30 FPS if refresh rate is set to 60 Hz.
 
 ---
 
