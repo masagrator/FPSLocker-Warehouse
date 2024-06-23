@@ -116,7 +116,7 @@ It's the same as `compare` with one big difference - it is used to write express
 For expressions evaluation is used TinyExpr library. It support various math C functions with addition to FPSLocker that includes globals and one additional function.
 
 Additional function:
-- `TruncDec([Value], [Dec])` - This function removes decimals from "Value". With "Dec" we can control how many decimals we will leave. For example if we write `TruncDec(1000 / 30, 2)` it will result in `33.33`.
+- `TruncDec([Value], [Dec])` - This function removes decimals from "Value". With "Dec" we can control how many decimals we will leave. For example if we write `TruncDec(FRAMETIME_TARGET, 2)` it will result in `33.33` when 30 FPS is chosen.
 
 Globals (all are stored as double and converted to chosen value_type):
 - `FPS_TARGET` - it returns value corresponding to chosen FPS target in FPSLocker.
