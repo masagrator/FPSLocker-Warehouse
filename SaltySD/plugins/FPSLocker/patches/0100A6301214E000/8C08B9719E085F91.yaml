@@ -8,7 +8,7 @@ unsafeCheck: false
 ALL_FPS:
   # UnityEngine.QualitySettings::vSyncCount
   -
-    type: evalute_write
+    type: evaluate_write
     address: [MAIN, 0x65ABCA0, 0x30, 0x68]
     value_type: uint32
     value: VSYNC_TARGET
