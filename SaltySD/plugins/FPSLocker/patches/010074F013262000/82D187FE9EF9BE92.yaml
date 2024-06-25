@@ -40,16 +40,16 @@ MASTER_WRITE:
 ALL_FPS:
   # vsync
   -
-    type: write
+    type: evaluate_write
     address: [MAIN, 0x1B42DB0]
     value_type: int32
-    value: [1, 1]
+    value: [VSYNC_TARGET, VSYNC_TARGET]
   # DR Timing (relative to vsync)
   -
     type: evaluate_write
     address: [MAIN, 0x236AB00]
     value_type: float
-    value: "1 / FPS_TARGET"
+    value: "((1 / FPS_TARGET) / VSYNC_TARGET) * 0.78"
   # UI speed
   -
     type: evaluate_write
@@ -73,7 +73,7 @@ ALL_FPS:
     compare_value: 0
     address: [MAIN, 0x236AB00]
     value_type: float
-    value: "0.5 / 30"
+    value: "(1 / 30) / 2"
   -
     type: evaluate_compare
     compare_address: [MAIN, 0x1BA1A98]
@@ -82,7 +82,7 @@ ALL_FPS:
     compare_value: 0
     address: [MAIN, 0x1BA1A90, 128]
     value_type: float
-    value: "0.5 / 30"
+    value: "(1 / 30) / 2"
 ALL_REFRESH_RATES:
   -
     type: compare
