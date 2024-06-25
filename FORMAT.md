@@ -7,6 +7,7 @@ YAML file consists of keys:
 - `unsafeCheck` - setting it to `true` results in the plugin not checking if an address is valid. It is recommended to leave it at `false` if you use HEAP related address
 - `ALL_FPS`
 - `ALL_REFRESH_RATES` (doesn't work if ALL_FPS is not defined)
+- `MASTER_WRITE`
 
 if `ALL_FPS` is not defined, those are required to exist:
 - `15FPS`
@@ -52,7 +53,7 @@ ALL_FPS:
 
 ```
 
-What should be written in each dict depends on `type`.
+What should be written in each dict depends on `type`. List of commands accepted by all keys except `MASTER_WRITE`:
 
 > type: write
 
@@ -84,6 +85,11 @@ It's the same as `compare` with one big difference - it is used to write express
 - `what` - supported commands:
   - `timing` - it blocks FPSLocker internal frame delay. It is advised to use it when we want to use the game's proprietary FPS lock. This is automatically applied when FPS target matches refresh rate + 30 FPS if refresh rate is set to 60 Hz.
 
+Commands supported by MASTER_WRITE:
+- `bytes` - this is used to write data into main executable, it can write to any part of executable, even read only. It's applied only before game actually starts.
+  - `main_offset` - where value should be written relative to `main` executable start in RAM.
+  - `value_type` - check "Supported types".
+  - `value` - what value we will write into provided address. Remember that if `value_type` is set to any integer, don't use decimals. You may write a list of values into it that will be applied one after another.
 ---
 
 # Supported types
@@ -108,7 +114,7 @@ It's the same as `compare` with one big difference - it is used to write express
   - `float`
   - `double`
 
-- `value_type` exclusive:
+- `value_type` exclusive for non-`MASTER_WRITE` keys:
   - `refresh_rate` (forces chosen refresh rate, supports decimals. When used, address has no impact, as long as it's using valid data)
 
 # Expressions
