@@ -36,7 +36,6 @@ MASTER_WRITE:
       - 0x1E221821
       - 0xBD0216A1
       - 0xD65F03C0
-# For 15-20 FPS use internal FPS lock, for 25-30 set default value
 ALL_FPS:
   # vsync
   -
