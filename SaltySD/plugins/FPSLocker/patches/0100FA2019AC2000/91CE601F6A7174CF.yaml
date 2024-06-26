@@ -6,7 +6,7 @@ unsafeCheck: true
 ALL_FPS:
   # OptimalFrameDuration_ms = (1000/FPS) - (0.07 * (1000/30)
   -
-    evaluate_type: evaluate_write
+    type: evaluate_write
     address: [MAIN, 0x2CB575C]
     value_type: float
     value: "FRAMETIME_TARGET - (0.07 * (1000/30))"
