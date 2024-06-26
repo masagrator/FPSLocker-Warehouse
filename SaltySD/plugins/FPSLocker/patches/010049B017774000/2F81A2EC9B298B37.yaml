@@ -1,7 +1,7 @@
 # DRAGON QUEST TREASURES 1.0.1
 # BID: 2F81A2EC9B298B37
 
-unsafeCheck: true
+unsafeCheck: false
 
 ALL_FPS:
   # Disable bUseFixedFrameRate to untie game speed from framerate and unlock FPS
