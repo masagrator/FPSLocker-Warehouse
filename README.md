@@ -7,7 +7,7 @@ Read SaltyNX readme to check which games are not compatible.
 
 ---
 
-> To download all configs click [here](https://github.com/masagrator/FPSLocker-Warehouse/archive/refs/heads/main.zip), unpack it and copy the `SaltySD` and `atmosphere` folder to root of your sdcard.
+> To download all configs click [here](https://github.com/masagrator/FPSLocker-Warehouse/archive/refs/heads/v3.zip), unpack it and copy the `SaltySD` and `atmosphere` folder to root of your sdcard.
 
 ---
 
