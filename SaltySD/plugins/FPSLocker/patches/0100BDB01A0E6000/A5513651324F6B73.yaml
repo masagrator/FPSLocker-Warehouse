@@ -9,4 +9,4 @@ ALL_FPS:
     type: evaluate_write
     address: [MAIN, 0xCDEBE20, 8]
     value_type: double
-    value: FPS_LOCK_TARGET
+    value: FPS_TARGET
