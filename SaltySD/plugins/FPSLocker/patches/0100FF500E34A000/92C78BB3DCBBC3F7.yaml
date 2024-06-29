@@ -9,3 +9,9 @@ ALL_FPS:
     address: [MAIN, 0x13BFDA0]
     value_type: int32
     value: [VSYNC_TARGET, VSYNC_TARGET]
+  # UI Speed (mm::mtl::PtrSingleton<layer::LayerManager>::sys(void)::s_instance)
+  -
+    type: evaluate_write
+    address: [MAIN, 0x14016D8, 0x70]
+    value_type: float
+    value: FPS_TARGET
