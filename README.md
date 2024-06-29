@@ -421,7 +421,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Red Dead Redemption | `01007820196A6000` | `37531419DA7654EC` (◯, v4, 1.0.4) | 🟢 |  |
 | Redemption Reapers | `010073F0197DA000` | `955DF07AA5F4497B` ([✅](SaltySD/plugins/FPSLocker/patches/010073F0197DA000/955DF07AA5F4497B.yaml), v7, 1.4.0) | 🔴 |  |
 | Redout | `0100DA20021D0000` | `1C81D0BC78A01EE2` (◯, v2, 1.0.2) | 🟢 |  |
-| Redout 2 | `0100664016D5C000` | `D45B9332B5742A70` ([✅](SaltySD/plugins/FPSLocker/patches/0100664016D5C000/D45B9332B5742A70.yaml), v6, 1.0.6) | 🔴 | [LINK](Methodology/Redout%202) |
+| Redout 2 | `0100664016D5C000` | `D45B9332B5742A70` ([✅](SaltySD/plugins/FPSLocker/patches/0100664016D5C000/D45B9332B5742A70.yaml), v6, 1.0.6) <br> `E47783ECB944D857` ([✅](SaltySD/plugins/FPSLocker/patches/0100664016D5C000/E47783ECB944D857.yaml), v7, 1.0.7) | 🔴 | [LINK](Methodology/Redout%202) |
 | Remnant: From the Ashes | `010010F01418E000` | `49CF6B0B0A62F9E2` ([✅](SaltySD/plugins/FPSLocker/patches/010010F01418E000/49CF6B0B0A62F9E2.yaml), v1, 1.0.1) | 🔵 | [LINK](Methodology/Remnant%20From%20the%20Ashes) |
 | RiME | `0100A62002042000` | `B426F56F027E8231` (◯, v2, 1.0.2) | 🟢 |  |
 | Road 96 | `010031B0145B4000` | `EAF3511193618B2A` (◯, v5, 1.05) | 🟢 |  |
