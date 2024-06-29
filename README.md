@@ -326,7 +326,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Masters of Anima | `0100CC7009196000` | `B1C8B55EBD400E57` (◯, v1, 1.0.1) | 🟢 |  |
 | MEGATON MUSASHI W: WIRED | `01003EB01C2F0000` | `0D28F064B3A5D030` ([✅](SaltySD/plugins/FPSLocker/patches/01003EB01C2F0000/0D28F064B3A5D030.yaml), v3, 3.0.3) | 🟡 |  |
 | Metal Gear Solid 2: Sons of Liberty | `0100A4301AA0C000` | `FA8A6B3A9E27FD33` (❌, v8, 1.5.0) | 🟡 |  |
-| Metal Gear Solid 3: Snake Eater | `010047F01AA10000` | `BAFD3A1CA57EEAA9` (❌, v8, 1.5.0) | 🟡 |  |
+| Metal Gear Solid 3: Snake Eater | `010047F01AA10000` | `95CAF716CA58FDD9` (❌, v9, 1.5.1) | 🟡 |  |
 | Metro 2033 Redux | `0100D4900E82C000` | `85C362CC9790F0ED` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4900E82C000/85C362CC9790F0ED.yaml), v0, 1.0.0) | 🔵 | [LINK](Methodology/Metro%20Redux%20Collection) |
 | Metro: Last Light Redux | `0100F0400E850000` | `85C362CC9790F0ED` ([✅](SaltySD/plugins/FPSLocker/patches/0100F0400E850000/85C362CC9790F0ED.yaml), v0, 1.0.0) | 🔵 | [LINK](Methodology/Metro%20Redux%20Collection) |
 | Miitopia | `01003DA010E8A000` | `3378B75A3DD2ADA9` (❌, v3, 1.0.3) | 🟡 |  |
