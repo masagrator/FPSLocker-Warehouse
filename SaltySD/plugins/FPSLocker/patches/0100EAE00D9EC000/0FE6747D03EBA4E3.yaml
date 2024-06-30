@@ -10,7 +10,7 @@ ALL_FPS:
     type: evaluate_write
     address: [MAIN, 0x5271FE8, 0x10A0]
     value_type: float
-    value: "TruncDec(1 / FPS_TARGET, 2) - 0.001"
+    value: "TruncDec(1 / FPS_TARGET, 3) - 0.001"
   # Dynamic Resolution Timing
   -
     type: evaluate_write
