@@ -469,7 +469,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Sonic Frontiers | `01004AD014BF0000` | `D7A05D106FF46FC0` ([✅](SaltySD/plugins/FPSLocker/patches/01004AD014BF0000/D7A05D106FF46FC0.yaml), v7, 1.4.1) | 🔴 |  |
 | Soundfall | `0100B7A01386E000` | `39F1BCCB912A12DF` ([✅](SaltySD/plugins/FPSLocker/patches/0100B7A01386E000/39F1BCCB912A12DF.yaml), v3, 1.3.17957) | 🔵 | [LINK](Methodology/Soundfall) |
 | South of the Circle | `0100E97016F60000` | `4FB83BAB154A2B56` (◯, v3, 1.0.3) | 🟢 |  |
-| SOUTH PARK: SNOW DAY! | `0100D1501ABAE000` | `086789EC0FDA4BF1` ([✅](SaltySD/plugins/FPSLocker/patches/0100D1501ABAE000/086789EC0FDA4BF1.yaml), v5, 1.0.5) | 🔵 |  |
+| SOUTH PARK: SNOW DAY! | `0100D1501ABAE000` | `086789EC0FDA4BF1` ([✅](SaltySD/plugins/FPSLocker/patches/0100D1501ABAE000/086789EC0FDA4BF1.yaml), v5, 1.0.5) <br> `2B7E5D5B9A730F77` ([✅](SaltySD/plugins/FPSLocker/patches/0100D1501ABAE000/2B7E5D5B9A730F77.yaml), v6, 1.0.6) | 🔵 |  |
 | South Park: The Fractured But Whole | `01008F2005154000` | `DF15EDAAF603E00C` (❌, v5, 1.05) | 🔵 | [LINK](Methodology/South%20Park%20The%20Fractured%20But%20Whole) |
 | South Park: The Stick Of Truth | `010095300B6A4000` <br> `010043600B6A6000` | `BB789D7392B165F5` (❌, v1, 1.01) <br> `5BEA90B5335C9B60` (❌, v1, 1.01) | 🔴 | [LINK](Methodology/South%20Park%20The%20Stick%20of%20Truth) |
 | Space Tail: Every Journey Leads Home | `0100C37019BC2000` | `0CD7D5F5600CB448` (◯, v1, 1.0.1) | 🟢 |  |
