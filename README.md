@@ -430,6 +430,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Road 96 | `010031B0145B4000` | `EAF3511193618B2A` (◯, v5, 1.05) | 🟢 |  |
 | Road 96: Mile 0 | `01008600180CE000` | `DF1EBBA8DE722A3B` (◯, v0, 1.00) | 🟢 |  |
 | ROMANCE OF THE THREE KINGDOMS XIV | `0100ED7012DB2000` | `1A971CC40B6D5B3F` ([✅](SaltySD/plugins/FPSLocker/patches/0100ED7012DB2000/1A971CC40B6D5B3F.yaml), v7, 1.0.10) | 🔴 |  |
+| Roxy Racoon's Pinball Panic | `0100E070196FE000` | `E1D2D5C27F045CA0` (◯, v0, 1.0.0) | 🟢 |  |
 | Ruined King: A League of Legends Story | `0100947013122000` | `9FC46F388F6C684C` ([✅](SaltySD/plugins/FPSLocker/patches/0100947013122000/9FC46F388F6C684C.yaml), v7, 1.7) | 🔵 |  |
 | Ruiner | `01006EC00F2CC000` | `F199FFD7D83F399E` ([✅](SaltySD/plugins/FPSLocker/patches/01006EC00F2CC000/F199FFD7D83F399E.yaml), v3, 1.3) | 🔵 | [LINK](Methodology/Ruiner) |
 | Rune Factory 5 | `0100CDC013238000` | `D626F7A72AF54744` ([✅](SaltySD/plugins/FPSLocker/patches/0100CDC013238000/D626F7A72AF54744.yaml), v2, 1.0.2) | 🔵 |  |
