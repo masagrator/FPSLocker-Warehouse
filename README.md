@@ -189,7 +189,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Disney Dreamlight Valley | `0100D39012C1A000` | `4E142562D4E73F76` (◯, v31, 1.11.0) | 🟢 |  |
 | Divinity: Original Sin 2 | `010027400CDC6000` | `4979B200D53BB282` ([✅](SaltySD/plugins/FPSLocker/patches/010027400CDC6000/4979B200D53BB282.yaml), v10, 1.0.10) | 🔵 |  |
 | Dolphin Spirit - Ocean Mission | `0100150018200000` | `47B7DC55D707D10A` (◯, v1, 1.00.02) | 🟢 |  |
-| DOOM | `0100416004C00000` | `01ACE43E724259C3` ([✅](SaltySD/plugins/FPSLocker/patches/0100416004C00000/01ACE43E724259C3.yaml), v3, 1.2) | 🟡 |  |
+| DOOM | `0100416004C00000` | `01ACE43E724259C3` ([✅](SaltySD/plugins/FPSLocker/patches/0100416004C00000/01ACE43E724259C3.yaml), v3, 1.2) <br> `2847991952B3D7AB` ([✅](SaltySD/plugins/FPSLocker/patches/0100416004C00000/2847991952B3D7AB.yaml), v4, 1.4) | 🟡 |  |
 | DOOM Eternal | `0100B1A00D8CE000` | `B059C2C77AD834B8` ([✅](SaltySD/plugins/FPSLocker/patches/0100B1A00D8CE000/B059C2C77AD834B8.yaml), v14, 1.14) | 🟡 | [LINK](Methodology/DOOM%20Eternal) |
 | Dragon's Dogma: Dark Arisen | `010032C00AC58000` <br> `010057E00AC56000` | `2CDB9B9D70010E88` ([✅](SaltySD/plugins/FPSLocker/patches/010032C00AC58000/2CDB9B9D70010E88.yaml), v1, 1.0.1) <br> `2D5B93C856CDF009` ([✅](SaltySD/plugins/FPSLocker/patches/010057E00AC56000/2D5B93C856CDF009.yaml), v1, 1.0.1) | 🔴 |  |
 | DRAGON BALL XENOVERSE 2 | `010078D000F88000` | `ACD8DFEFD0EA5316` (❌, v27, 1.20.01) | 🔴 |  |
