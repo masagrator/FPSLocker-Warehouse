@@ -24,10 +24,10 @@ ALL_FPS:
     value: "0.99 * FRAMETIME_TARGET"
   # com_adaptiveTickMaxHz (default is 30)
   -
-    type: write
+    type: evaluate_write
     address: [MAIN, 0x66BAF50]
     value_type: int32
-    value: 120
+    value: FPS_TARGET
   # com_adaptiveTickMinHz (default is 30)
   -
     type: write
