@@ -6,7 +6,7 @@ unsafeCheck: true
 ALL_FPS:
   # r.VSync
   -
-    type: evaluate_write
+    type: write
     address: [MAIN, 0x70B99A0, 0]
     value_type: uint32
     value: [0, 0]
