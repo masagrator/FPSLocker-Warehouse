@@ -156,7 +156,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Cris Tales | `0100B0400EBC4000` | `8A1DF79432172B4D` (◯, v3, 1.03) | 🟢 |  |
 | CRISIS CORE -FINAL FANTASY VII- REUNION | `01004BC0166CC000` | `44D207EA6428E3F1` ([✅](SaltySD/plugins/FPSLocker/patches/01004BC0166CC000/44D207EA6428E3F1.yaml), v4, 1.0.4) | 🔴 | [LINK](Methodology/CRISIS%20CORE) |
 | Cry Babies Magic Tears: The Big Game | `0100A1201B82A000` | `7C1D1E7A2B689E40` (◯, v1, 1.1) | 🟢 |  |
-| CRYMACHINA | `010055B01AA08000` | `4CBD150A248DA39C` ([✅](SaltySD/plugins/FPSLocker/patches/010055B01AA08000/4CBD150A248DA39C.yaml), v2, 1.0.8) | 🔵 |  |
+| CRYMACHINA | `010055B01AA08000` | `4CBD150A248DA39C` ([✅](SaltySD/plugins/FPSLocker/patches/010055B01AA08000/4CBD150A248DA39C.yaml), v2, 1.0.8) <br> `E196E389FD9E0364` ([✅](SaltySD/plugins/FPSLocker/patches/010055B01AA08000/E196E389FD9E0364.yaml), v3, 1.2.0) | 🔵 |  |
 | Crysis Remastered | `0100E66010ADE000` | `45CE2B6625A35771` ([✅](SaltySD/plugins/FPSLocker/patches/0100E66010ADE000/45CE2B6625A35771.yaml), v8, 1.8.0) | 🔴 |  |
 | Crysis 2 Remastered | `0100582010AE0000` | `B3967105033ACC08` ([✅](SaltySD/plugins/FPSLocker/patches/0100582010AE0000/B3967105033ACC08.yaml), v3, 1.3.0) | 🔴 |  |
 | Crysis 3 Remastered | `0100CD3010AE2000` | `53EA0196A4AEB260` ([✅](SaltySD/plugins/FPSLocker/patches/0100CD3010AE2000/53EA0196A4AEB260.yaml), v4, 1.3.0) | 🔴 |  |
