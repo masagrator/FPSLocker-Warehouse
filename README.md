@@ -376,6 +376,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | OCTOPATH TRAVELER II | `0100A3501946E000` | `0D9649011312F62E` ([✅](SaltySD/plugins/FPSLocker/patches/0100A3501946E000/0D9649011312F62E.yaml), v2, 1.1.1) | 🔴 | [LINK](Methodology/OCTOPATH%20TRAVELER%20II) |
 | Oddworld: Soulstorm | `0100D210177C6000` | `9510D677DCCE4447` ([✅](SaltySD/plugins/FPSLocker/patches/0100D210177C6000/9510D677DCCE4447.yaml), v3, 1.1.3) | 🔵 |  |
 | Off the Road Unleashed | `010045C0112F8000` | `5E8316D212D6D7BD` (◯, v1, 1.0.1) | 🟢 |  |
+| ONE PIECE ODYSSEY | `0100D9601A994000` | `28ED06F94D767478` ([✅](SaltySD/plugins/FPSLocker/patches/0100D9601A994000/28ED06F94D767478.yaml), v0, 1.0.0) | 🔴 |  |
 | Oninaki | `01001AF00CE54000` | `C949E2576F532C43` (◯, v2, 1.0.2) | 🟢 |  |
 | Open Roads | `010034401672A000` | `1C651256CC812D06` (◯, v2, 1.0.2) | 🟢 |  |
 | Othercide | `0100E5900F49A000` | `A8BA2A8F93AAE647` ([✅](SaltySD/plugins/FPSLocker/patches/0100E5900F49A000/A8BA2A8F93AAE647.yaml), v3, 1.3.0.5) | 🔵 |  |
