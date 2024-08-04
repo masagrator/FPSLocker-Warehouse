@@ -274,6 +274,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Hogwarts Legacy | `0100F7E00C70E000` | `1C42BC734E792AFB` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7E00C70E000/1C42BC734E792AFB.yaml), v3, 1.0.3) <br> `2980E59C32A0E147` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7E00C70E000/2980E59C32A0E147.yaml), v4, 1.0.4) | 🔵 |  |
 | Hokko Life | `010022A016250000` | `D9D13603133F3D89` (◯, v5, 1.0.5) | 🟢 |  |
 | Horizon Chase 2 | `0100001019F6E000` | `F80EEC237D0963EE` ([✅](SaltySD/plugins/FPSLocker/patches/0100001019F6E000/F80EEC237D0963EE.yaml), v6, 1.6.3) | 🔵 |  |
+| Hot Lap Racing | `010059301E612000` | `9D34CCC09EED50A2` (◯, v1, 1.0.2) | 🟢 |  |
 | HOT WHEELS UNLEASHED | `0100AA60136D2000` | `F73C6504D378C38B` ([✅](SaltySD/plugins/FPSLocker/patches/0100AA60136D2000/F73C6504D378C38B.yaml), v13, 1.0.13) | 🔵 | [LINK](Methodology/HOT%20WHEELS%20UNLEASHED) |
 | HOT WHEELS UNLEASHED 2 | `01001BE01908C000` | `C95F34910CE1CDC0` ([✅](SaltySD/plugins/FPSLocker/patches/01001BE01908C000/C95F34910CE1CDC0.yaml), v9, 1.0.9) | 🔵 | [LINK](Methodology/HOT%20WHEELS%20UNLEASHED%202) |
 | House Flipper | `0100CAE00EB02000` | `E137EF110988444F` (◯, v10, 1.10.0) | 🟢 |  |
