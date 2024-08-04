@@ -128,6 +128,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Broken Roads | `0100FAD01861C000` | `CD03C3E1CE70D7E8` (◯, v0, 1.2.8522) | 🟢 |  |
 | Builder Simulator | `01000B101E3D8000` | `05DCD7F9AE5727D8` (◯, v0, 1.0.0) | 🟢 |  |
 | Bulletstorm | `01003DD00D658000` | `32FC35DF1C50E1F1` (◯, v0, 1.0.0) | 🟢 |  |
+| Bum Simulator | `01008E101E868000` | `42AD50169E847BA2` ([✅](SaltySD/plugins/FPSLocker/patches/01008E101E868000/42AD50169E847BA2.yaml), v2, 1.0.2) | 🔵 |  |
 | C.A.R.D.S. RPG: The Misty Battlefield | `010066D01D0F0000` | `C65FB27BFA1C438F` (◯, v6, 1.1.0) | 🟢 |  |
 | Call of Cthulhu | `010046000EE40000` | `8F6B002FEB5D0F8E` ([✅](SaltySD/plugins/FPSLocker/patches/010046000EE40000/8F6B002FEB5D0F8E.yaml), v3, 0.1.6) | 🔴 |  |
 | Call of Juarez: Gunslinger | `0100B4700BFC6000` | `EBF7DE558D554C7E` (◯, v5, 1.0.5) | 🟢 |  |
