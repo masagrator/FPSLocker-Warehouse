@@ -213,6 +213,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Endless Ocean Luminous | `010067B017588000` | `E5EFB5ABA3601B97` ([✅](SaltySD/plugins/FPSLocker/patches/010067B017588000/E5EFB5ABA3601B97.yaml), v1, 1.0.1) | 🟡 |  |
 | Everdream Valley | `0100B9801AA3C000` | `17141947C3E71F1D` (◯, v9, 1.0.9) | 🟢 |  |
 | Everspace | `0100DCF0093EC000` | `71873FEB4648FA39` ([✅](SaltySD/plugins/FPSLocker/patches/0100DCF0093EC000/71873FEB4648FA39.yaml), v5, 1.0.5) | 🔴 | [LINK](Methodology/Everspace) |
+| Exhausted Man | `010017D01F5E6000` | `5F25015C83749FFA` (◯, v3, 1.0.3) | 🟢 |  |
 | Expeditions: A Mudrunner Game | `01002C101C1AA000` | `0542802E014A7312` ([✅](SaltySD/plugins/FPSLocker/patches/01002C101C1AA000/0542802E014A7312.yaml), v5, 1.5.0.0) <br> `8D76B30C877FED66` ([✅](SaltySD/plugins/FPSLocker/patches/01002C101C1AA000/8D76B30C877FED66.yaml), v6, 1.6.0.0) | 🔵 |  |
 | F1 Manager 2024 | `010072E01CE0E000` | `645C3BE90D4ED3D5` ([✅](SaltySD/plugins/FPSLocker/patches/010072E01CE0E000/645C3BE90D4ED3D5.yaml), v3, 1.3) | 🔵 |  |
 | FAR: Changing Tides | `01008A0014A92000` | `7041BC78D64745A1` (◯, v2, 1.2.0) | 🟢 |  |
