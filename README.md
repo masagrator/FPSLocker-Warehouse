@@ -367,7 +367,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS | `01005A20190A6000` | `7CE9429D1FCBBD80` (❌, v3, 1.1.1) | 🔴 |  |
 | NASCAR Heat | `0100DC7013938000` | `E0E11E95C0DE34D3` (◯, v5, 1.0.5) | 🟢 |  |
 | NASCAR Rivals | `0100545016D5E000` | `71A1520B89DEC904` (◯, v5, 1.0.5) | 🟢 |  |
-| NBA 2K23 | `0100ACA017E4E000` | `337DBCF525B7AC4E` (◯, v9, 1.0.9) | 🟢 |  |
+| NBA 2K23 | `0100ACA017E4E000` | `B583AA4A5DA59F46` (◯, v11, 1.0.11) | 🟢 |  |
 | NBA 2K24 | `010006501A8D8000` | `3C37AD3626651C40` (◯, v4, 1.04) | 🟢 |  |
 | Need For Speed Hot Pursuit | `010029B0118E8000` | `799D1061182C1302` ([✅](SaltySD/plugins/FPSLocker/patches/010029B0118E8000/799D1061182C1302.yaml), v3, 1.0.3) | 🔴 |  |
 | Nelke & the Legendary Alchemists | `01006ED00BC76000` | `DBD272113FD196D5` (◯, v3, 1.0.3) | 🟢 |  |
