@@ -1,7 +1,7 @@
 # Immortals Fenyx Rising 1.3.4
 # BID: 70F3F6751D73C644
 
-unsafeCheck: false
+unsafeCheck: true
 
 MASTER_WRITE:
   # Game switches resolution to 13/15 of normal resolution when moving camera with right stick and game cannot handle target FPS
