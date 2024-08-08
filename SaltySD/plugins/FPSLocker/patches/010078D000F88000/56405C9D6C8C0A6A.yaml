@@ -37,7 +37,7 @@ ALL_FPS:
     type: evaluate_write
     address: [MAIN, 0x2402190]
     value_type: float
-    value: "(1 / FPS_TARGET) * VSYNC_TARGET"
+    value: "(1 / FPS_TARGET) / VSYNC_TARGET"
   # Dynamic Resolution FPS Target
   # REF: 62 18 22 1E 61 2A 43 BD  41 08 21 1E 00 20 21 1E, is divided by rodata 60
   -
