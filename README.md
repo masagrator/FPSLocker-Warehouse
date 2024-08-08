@@ -64,7 +64,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Aragami 2 | `0100787018198000` | `3FFD52E56DD8ADB3` (◯, v1, 1.0.30195.0) | 🟢 |  |
 | Arise: A Simple Story | `0100FE201680A000` | `8F2536786EECCEE5` ([✅](SaltySD/plugins/FPSLocker/patches/0100FE201680A000/8F2536786EECCEE5.yaml), v5, 1.0.5) | 🔴 |  |
 | ARK: Dinosaur Discovery | `0100A6B01900E000` | `9E0901B84058B5B4` ([✅](SaltySD/plugins/FPSLocker/patches/0100A6B01900E000/9E0901B84058B5B4.yaml), v2, 1.5.0) | 🔴 |  |
-| ARK: Survival Evolved | `0100D4A00B284000` | `D1E3FFBA414F4929` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4A00B284000/D1E3FFBA414F4929.yaml), v14, 2.0.11) <br> `DE62C644228E63CC` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4A00B284000/DE62C644228E63CC.yaml), v15, 2.0.12) | 🔴 |  |
+| ARK: Survival Evolved | `0100D4A00B284000` | `D1E3FFBA414F4929` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4A00B284000/D1E3FFBA414F4929.yaml), v14, 2.0.11) <br> `DE62C644228E63CC` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4A00B284000/DE62C644228E63CC.yaml), v15, 2.0.12) <br> `44E0F3E8F4996F55` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4A00B284000/44E0F3E8F4996F55.yaml), v16, 2.0.14) | 🔴 |  |
 | art of rally | `0100A88012504000` | `0D17FD76B32F3040` ([✅](SaltySD/plugins/FPSLocker/patches/0100A88012504000/0D17FD76B32F3040.yaml), v6, 1.1.8) | 🔵 |  |
 | Assassin's Creed II | `0100670014482000` | `824B38A25986B2AB` ([✅](SaltySD/plugins/FPSLocker/patches/0100670014482000/824B38A25986B2AB.yaml), v3, 1.3) | 🔵 |  |
 | Assassin's Creed Brotherhood | `0100670014482001` | `2B59D6C677258A2A` ([✅](SaltySD/plugins/FPSLocker/patches/0100670014482001/2B59D6C677258A2A.yaml), v3, 1.3) | 🔵 |  |
