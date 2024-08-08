@@ -1,7 +1,7 @@
 # NieR:Automata The End of YoRHa Edition US/EU 1.0.2
 # BID: E43525F22282A477
 
-unsafeCheck: false
+unsafeCheck: true
 
 MASTER_WRITE:
   # Redirect DR timings to MAIN + 0x2BE6F00, [Bad, Optimal, Good]
