@@ -1,0 +1,13 @@
+# Sherlock Holmes: The Devil's Daughter 1.0.0
+# BID: 2B37ED2A971948F3
+
+unsafeCheck: true
+
+ALL_FPS:
+  # UGameEngine::GetMaxTickRate()
+  # Bool Lock FPS
+  -
+    type: write
+    address: [MAIN, 0x30D1B7C]
+    value_type: uint8
+    value: 0
