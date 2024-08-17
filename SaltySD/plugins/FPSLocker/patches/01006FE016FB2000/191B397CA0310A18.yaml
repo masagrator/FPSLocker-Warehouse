@@ -1,11 +1,11 @@
-﻿# Gal*Gun: Double Peace 1.0.2
+# Gal*Gun: Double Peace 1.0.2
 # BID: 191B397CA0310A18
 
 unsafeCheck: true
 
 ALL_FPS:
   # Bool Lock FPS
-  # REF: LDR S0, [X0,#0x70C]
+  # REF: LDR S0, [X0, 0x70C]
   -
     type: write
     address: [MAIN, 0x1E71BD4]
