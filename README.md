@@ -221,7 +221,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Everspace | `0100DCF0093EC000` | `71873FEB4648FA39` ([✅](SaltySD/plugins/FPSLocker/patches/0100DCF0093EC000/71873FEB4648FA39.yaml), v5, 1.0.5) | 🔴 | [LINK](Methodology/Everspace) |
 | Exhausted Man | `010017D01F5E6000` | `5F25015C83749FFA` (◯, v3, 1.0.3) | 🟢 |  |
 | Expeditions: A Mudrunner Game | `01002C101C1AA000` | `0542802E014A7312` ([✅](SaltySD/plugins/FPSLocker/patches/01002C101C1AA000/0542802E014A7312.yaml), v5, 1.5.0.0) <br> `8D76B30C877FED66` ([✅](SaltySD/plugins/FPSLocker/patches/01002C101C1AA000/8D76B30C877FED66.yaml), v6, 1.6.0.0) | 🔵 |  |
-| F1 Manager 2024 | `010072E01CE0E000` | `645C3BE90D4ED3D5` ([✅](SaltySD/plugins/FPSLocker/patches/010072E01CE0E000/645C3BE90D4ED3D5.yaml), v3, 1.3) <br> `42350FCC758887D1` ([✅](SaltySD/plugins/FPSLocker/patches/010072E01CE0E000/42350FCC758887D1.yaml), v4, 1.4) | 🔵 |  |
+| F1 Manager 2024 | `010072E01CE0E000` | `645C3BE90D4ED3D5` ([✅](SaltySD/plugins/FPSLocker/patches/010072E01CE0E000/645C3BE90D4ED3D5.yaml), v3, 1.3) <br> `42350FCC758887D1` ([✅](SaltySD/plugins/FPSLocker/patches/010072E01CE0E000/42350FCC758887D1.yaml), v4, 1.4) <br> `CA23556FE5EF2EB1` ([✅](SaltySD/plugins/FPSLocker/patches/010072E01CE0E000/CA23556FE5EF2EB1.yaml), v5, 1.5) | 🔵 |  |
 | FAR: Changing Tides | `01008A0014A92000` | `7041BC78D64745A1` (◯, v2, 1.2.0) | 🟢 |  |
 | FAR: Lone Sails | `010022700E7D6000` | `CE59C773211A1A49` (◯, v0, 1.0.0) <br> `8FD06AB8DA27EC40` (◯, v1, 1.3) | 🟢 |  |
 | Farming Simulator 23 | `01001E3017A10000` | `17F37A56B17DD9CC` ([✅](SaltySD/plugins/FPSLocker/patches/01001E3017A10000/17F37A56B17DD9CC.yaml), v6, 1.6.0.0) | 🔴 |  |
