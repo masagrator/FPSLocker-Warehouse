@@ -271,7 +271,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | GRIME | `0100F300169B6000` | `A4C925E4772CB39D` (◯, v5, 1.3.7) | 🟢 |  |
 | GRIP | `0100459009A2A000` | `ACF717E72EA920C2` ([✅](SaltySD/plugins/FPSLocker/patches/0100459009A2A000/ACF717E72EA920C2.yaml), v8, 1.0.8) | 🔵 |  |
 | Gripper | `010099C01896C000` | `60B9AE6094566A23` ([✅](SaltySD/plugins/FPSLocker/patches/010099C01896C000/60B9AE6094566A23.yaml), v2, 1.1.0) | 🔵 |  |
-| Grounded | `01006F301AE9C000` | `6C91A8A476E70C5D` ([✅](SaltySD/plugins/FPSLocker/patches/01006F301AE9C000/6C91A8A476E70C5D.yaml), v5, 1.05) <br> `97D2B53D2C0B35EA` ([✅](SaltySD/plugins/FPSLocker/patches/01006F301AE9C000/97D2B53D2C0B35EA.yaml), v7, 1.07) | 🔴 |  |
+| Grounded | `01006F301AE9C000` | `6C91A8A476E70C5D` ([✅](SaltySD/plugins/FPSLocker/patches/01006F301AE9C000/6C91A8A476E70C5D.yaml), v5, 1.05) <br> `97D2B53D2C0B35EA` ([✅](SaltySD/plugins/FPSLocker/patches/01006F301AE9C000/97D2B53D2C0B35EA.yaml), v7, 1.07) <br> `E9A887A36762C526` ([✅](SaltySD/plugins/FPSLocker/patches/01006F301AE9C000/E9A887A36762C526.yaml), v8, 1.08) | 🔴 |  |
 | Gungrave G.O.R.E | `010088801B324000` | `9B743181AB8A26F9` ([✅](SaltySD/plugins/FPSLocker/patches/010088801B324000/9B743181AB8A26F9.yaml), v4, 1.0.4) | 🔵 |  |
 | GYLT | `0100AC601DCA8000` | `4584432786F462DB` ([✅](SaltySD/plugins/FPSLocker/patches/0100AC601DCA8000/4584432786F462DB.yaml), v2, 1.2) | 🔵 |  |
 | Hammerwatch Anniversary Edition | `0100321017CC0000` | `D147CAEF2BC74574` ([✅](SaltySD/plugins/FPSLocker/patches/0100321017CC0000/D147CAEF2BC74574.yaml), v3, 1.0.3) | 🔴 |  |
