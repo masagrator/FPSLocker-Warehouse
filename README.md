@@ -256,6 +256,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Gigantosaurus The Game | `01002C400E526000` | `1FF442C5ABEB0459` ([✅](SaltySD/plugins/FPSLocker/patches/01002C400E526000/1FF442C5ABEB0459.yaml), v2, 1.0.2) | 🔴 | [LINK](Methodology/Gigantosaurus%20The%20Game) |
 | Gigantosaurus: Dino Kart | `01001890167FE000` | `5F7A2866D8E20BBA` ([✅](SaltySD/plugins/FPSLocker/patches/01001890167FE000/5F7A2866D8E20BBA.yaml), v0, 1.0.0) <br> `512FB8C2D12C4F36` ([✅](SaltySD/plugins/FPSLocker/patches/01001890167FE000/512FB8C2D12C4F36.yaml), v1, 1.1.0) | 🔴 | [LINK](Methodology/Gigantosaurus%20Dino%20Kart) |
 | GO VACATION | `0100C1800A9B6000` | `174471C5192F8647` (❌, v0, 1.0.0) | 🔵 |  |
+| Goat Simulator 3 | `01001CC01B2D4000` | `0DE3020411F4232B` ([✅](SaltySD/plugins/FPSLocker/patches/01001CC01B2D4000/0DE3020411F4232B.yaml), v1, 1.0.7.1) | 🔵 |  |
 | GOD EATER 3 | `01001C700873E000` | `C0F144F5139F542E` ([✅](SaltySD/plugins/FPSLocker/patches/01001C700873E000/C0F144F5139F542E.yaml), v11, 2.5.1) | 🔵 |  |
 | GOD WARS The Complete Legend | `0100F3D00B032000` | `3A0835D09F6D1544` (❌, v1, 1.1) | 🔵 | [LINK](Methodology/God%20Wars) |
 | Gods Will Fall | `0100CFA0111C8000` | `2C22089ABC14264F` (◯, v4, 1.0.4) | 🟢 |  |
