@@ -191,8 +191,8 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Destroy All Humans! | `01009E701356A000` | `72E8F20EBBDBA296` ([✅](SaltySD/plugins/FPSLocker/patches/01009E701356A000/72E8F20EBBDBA296.yaml), v1, 1.0.1) | 🔵 | [LINK](Methodology/Destroy%20All%20Humans) |
 | Detective Pikachu Returns | `010007500F27C000` | `A2A5ABEF988ABAA2` (◯, v0, 1.0.0) | 🟢 |  |
 | Diablo II: Resurrected | `0100726014352000` | `786D5F0A9B0591B9` (◯, v25, 1.0.25.0) | 🟢 |  |
-| Dino Ranch: Ride to the Rescue | `010038301ABDA000` | `DDF3A99F0EC84E1` (◯, v1, 1.0.3) | 🟢 |  |
-| Disco Elysium - The Final Cut | `01006C5015E84000` | `106CBB97C8DF4A3B` (◯, v10, 1.0.10) | 🟢 |  |
+| Dino Ranch: Ride to the Rescue | `010038301ABDA000` | `DDF3A995F0EC84E1` (◯, v1, 1.0.3) | 🟢 |  |
+| Disco Elysium - The Final Cut | `01006C5015E84000` | `26BDCC17F782A7B1` (◯, v12, 1.0.12) | 🟢 |  |
 | Disney Dreamlight Valley | `0100D39012C1A000` | `860B92418EBFCB45` (◯, v32, 1.11.1) | 🟢 |  |
 | Divinity: Original Sin 2 | `010027400CDC6000` | `4979B200D53BB282` ([✅](SaltySD/plugins/FPSLocker/patches/010027400CDC6000/4979B200D53BB282.yaml), v10, 1.0.10) | 🔵 |  |
 | Dolphin Spirit - Ocean Mission | `0100150018200000` | `47B7DC55D707D10A` (◯, v1, 1.00.02) | 🟢 |  |
