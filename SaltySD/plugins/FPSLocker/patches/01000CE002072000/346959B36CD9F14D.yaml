@@ -1,7 +1,7 @@
 # The LEGO NINJAGO Movie Video Game 1.0.3
 # BID: 346959B36CD9F14D
 
-unsafeCheck: false
+unsafeCheck: true
 
 ALL_FPS:
   # Block to 30 FPS when prerendered cutscene is played
