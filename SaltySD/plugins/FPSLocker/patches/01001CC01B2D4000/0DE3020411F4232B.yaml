@@ -1,7 +1,7 @@
 # Goat Simulator 3 1.0.7.1
 # BID: 0DE3020411F4232B
 
-unsafeCheck: false
+unsafeCheck: true
 
 ALL_FPS:
   # r.DynamicRes.FrameTimeBudget
