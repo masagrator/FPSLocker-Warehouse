@@ -316,7 +316,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Kirby Star Allies | `01007E3006DDA000` | `D55608916FA56C18`  ([✅](SaltySD/plugins/FPSLocker/patches/01007E3006DDA000/D55608916FA56C18.yaml), v5, 4.0.0) | 🔴 |  |
 | Kirby's Dream Buffet | `0100A8E016236000` | `82AF4E16BBC0BEC8` ([✅](SaltySD/plugins/FPSLocker/patches/0100A8E016236000/82AF4E16BBC0BEC8.yaml), v0, 1.0.0) | 🔴 |  |
 | L.A. Noire | `0100830004FB6000` | `40F973CE3B5EC8D7` ([✅](SaltySD/plugins/FPSLocker/patches/0100830004FB6000/40F973CE3B5EC8D7.yaml), v2, 1.2) | 🟡 | [LINK](Methodology/L.A.%20Noire) |
-| Lara Croft and the Guardian of Light | `010079C017F5E002` | `BD5CD5189BC90093` (◯, v0, 1.1_65791) | 🟢 |  |
+| Lara Croft and the Guardian of Light | `010079C017F5E002` | `BD5CD5189BC90093` (❌, v0, 1.1_65791) | 🔵 |  |
 | Lara Croft and the Temple of Osiris | `010079C017F5E001` | `F47C697C2B59443B` (❌, v0, 1.1_65791) | 🔴 |  |
 | LEGO 2K Drive | `0100739018020000` | `B75E7D3DB78D69C1` ([✅](SaltySD/plugins/FPSLocker/patches/0100739018020000/B75E7D3DB78D69C1.yaml), v17, 1.17) | 🔴 |  |
 | LEGO City Undercover | `010085500130A000` | `32C590B064956546` (◯, v3, 1.0.3) | 🟢 |  |
