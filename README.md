@@ -243,7 +243,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | FROGUN DELUXE EDITION | `0100A0A018D3A000` | `7FA5168E6BEA2A40` (◯, v3, 1.3) | 🟢 |  |
 | From Space | `010015F018C3C000` | `9806FB67CE24E904` ([✅](SaltySD/plugins/FPSLocker/patches/010015F018C3C000/9806FB67CE24E904.yaml), v3, 1.3.480) | 🔵 |  |
 | FRONT MISSION 1st: Remake | `0100F200178F4000` | `188BF4CBE682C3AC` (◯, v5, 2.0.5) | 🟢 |  |
-| FRONT MISSION 2: Remake | `0100C4E018A24000` | `C275C9D959899572` (◯, v7, 1.0.5.1) | 🟢 |  |
+| FRONT MISSION 2: Remake | `0100C4E018A24000` | `FA425936F5294B73` (◯, v8, 1.0.7.2) | 🟢 |  |
 | Fueled Up | `010022A01E1F0000` | `F0F6265AEBF4AE2C` (◯, v0, 1.0.0) | 🟢 |  |
 | Gal*Gun: Double Peace | `01006FE016FB2000` | `191B397CA0310A18` ([✅](SaltySD/plugins/FPSLocker/patches/01006FE016FB2000/191B397CA0310A18.yaml), v2, 1.0.2) | 🔴 |  |
 | Gamedec - Definitive Edition | `01002A501869E000` | `BFA92380757EF97D` ([✅](SaltySD/plugins/FPSLocker/patches/01002A501869E000/BFA92380757EF97D.yaml), v3, 1.3.0) | 🔴 | [LINK](Methodology/Gamedec) |
