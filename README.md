@@ -281,6 +281,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Hamster Playground | `010035901701A000` | `34D3936A1721AFAA` (◯, v4, 1.0.4) | 🟢 |  |
 | HARVESTELLA | `0100521017B2A000` | `249EAB9BF046C5EA` ([✅](SaltySD/plugins/FPSLocker/patches/0100521017B2A000/249EAB9BF046C5EA.yaml), v2, 1.0.2) | 🔴 | [LINK](Methodology/HARVESTELLA) |
 | Hellblade: Senua's Sacrifice | `010044500CF8E000` | `9B3DDF2FB9100E51` ([✅](SaltySD/plugins/FPSLocker/patches/010044500CF8E000/9B3DDF2FB9100E51.yaml), v1, 1.1.0) | 🔴 |  |
+| Hero's Hour | `010005E01E5E6000` | `4A0E3AFA4838D73C` (❌, v1, 2.5.2) | 🔴 |  |
 | Highwater | `0100D1A019EBA000` | `3A38653015036D51` (◯, v1, 1.0.1) | 🟢 |  |
 | Hitman: Blood Money - Reprisal | `010083A018262000` | `59AF76C13F680B7C` ([✅](SaltySD/plugins/FPSLocker/patches/010083A018262000/59AF76C13F680B7C.yaml), v1, 1.2_71586) | 🔴 |  |
 | Hoa | `010022E013A1A000` | `1A9DF794AC0099F3` (◯, v3, 1.0.3) | 🟢 |  |
