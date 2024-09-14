@@ -269,7 +269,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Graveyard Keeper | `0100B6800B5C8000` | `9356531EDD2EC448` (◯, v6, 1.0.0.4633) | 🟢 |  |
 | Gray Dawn | `0100A5700C0B2000` | `BA74A217AF6DCB32` (◯, v0, 1.0.0) | 🟢 |  |
 | GRID Autosport | `0100DC800A602000` | `347A44223C9537A5` (◯, v10, 1.10.1_70328) | 🟢 |  |
-| GRIME | `0100F300169B6000` | `A4C925E4772CB39D` (◯, v5, 1.3.7) | 🟢 |  |
+| GRIME | `0100F300169B6000` | `326AC32516E23370` (◯, v7, 1.3.9) | 🟢 |  |
 | GRIP | `0100459009A2A000` | `ACF717E72EA920C2` ([✅](SaltySD/plugins/FPSLocker/patches/0100459009A2A000/ACF717E72EA920C2.yaml), v8, 1.0.8) | 🔵 |  |
 | Gripper | `010099C01896C000` | `60B9AE6094566A23` ([✅](SaltySD/plugins/FPSLocker/patches/010099C01896C000/60B9AE6094566A23.yaml), v2, 1.1.0) | 🔵 |  |
 | Grounded | `01006F301AE9C000` | `6C91A8A476E70C5D` ([✅](SaltySD/plugins/FPSLocker/patches/01006F301AE9C000/6C91A8A476E70C5D.yaml), v5, 1.05) <br> `97D2B53D2C0B35EA` ([✅](SaltySD/plugins/FPSLocker/patches/01006F301AE9C000/97D2B53D2C0B35EA.yaml), v7, 1.07) <br> `E9A887A36762C526` ([✅](SaltySD/plugins/FPSLocker/patches/01006F301AE9C000/E9A887A36762C526.yaml), v8, 1.08) | 🔴 |  |
