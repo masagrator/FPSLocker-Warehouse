@@ -178,6 +178,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Daydream: Forgotten Sorrow | `0100B8901AE88000` | `8AF36A929664A94D` ([✅](SaltySD/plugins/FPSLocker/patches/0100B8901AE88000/8AF36A929664A94D.yaml), v1, 1.0.1) | 🔵 |  |
 | DC Super Hero Girls: Teen Power | `0100F8F00C4F2000` | `BC714E2D7D32AB41` ([✅](SaltySD/plugins/FPSLocker/patches/0100F8F00C4F2000/BC714E2D7D32AB41.yaml), v1, 1.0.1) | 🟡 |  |
 | DC's Justice League: Cosmic Chaos | `0100157015DD8000` | `3386C3BE1DE696DF` (◯, v5, 1.0.5) | 🟢 |  |
+| DEAD OR ALIVE Xtreme 3 Scarlet | `01009CC00C97C000` | `71102550C57D57DB` (❌, v6, 1.0.6) | 🟡 |  |
 | Death end re;Quest | `0100AEC013DDA000` | `2F5554EBECAE652B` (❌, v1, 1.0.1) | 🔵 | [LINK](Methodology/Death%20End%20Re%3BQuest) |
 | Death end re;Quest 2 | `0100EB701568A000` | `6A06F3A2582C0954` (❌, v0, 1.0.0) | 🔵 | [LINK](Methodology/Death%20End%20Re%3BQuest%202) |
 | Death's Door | `0100B31015AF8000` | `0D20B5FF11828346` (◯, v3, 1.1.6a) | 🟢 |  |
