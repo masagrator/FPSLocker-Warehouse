@@ -308,7 +308,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Ironsmith: Medieval Simulator | `010025A01CD86000` | `D2A5A1FC6EEADF31` ([✅](SaltySD/plugins/FPSLocker/patches/010025A01CD86000/D2A5A1FC6EEADF31.yaml), v1, 1.1.0) | 🔵 |  |
 | It Takes Two | `010092A0172E4000` | `C4067E8CB3258656` ([✅](SaltySD/plugins/FPSLocker/patches/010092A0172E4000/C4067E8CB3258656.yaml), v2, 1.0.2) | 🔵 | [LINK](Methodology/It%20Takes%20Two) |
 | Jojo's Bizarre Adventure: All-Star Battle R | `010017A0128C4000` | `3D4E3A9252AA6C63` ([✅](SaltySD/plugins/FPSLocker/patches/010017A0128C4000/3D4E3A9252AA6C63.yaml), v16, 2.3.3) | 🔴 |  |
-| Jujutsu Kaisen Cursed Clash | `01002FC012548000` <br> `010085401A454000` <br> `010000B01A452000` | `2F33996FD9C81253` ([✅](SaltySD/plugins/FPSLocker/patches/01002FC012548000/2F33996FD9C81253.yaml), v4, 1.2.0) | 🔴 |  |
+| Jujutsu Kaisen Cursed Clash | `01002FC012548000` <br> `010085401A454000` <br> `010000B01A452000` | `2F33996FD9C81253` ([✅](SaltySD/plugins/FPSLocker/patches/010085401A454000/2F33996FD9C81253.yaml), v4, 1.2.0) <br> `2E7487767D0CA0EE` ([✅](SaltySD/plugins/FPSLocker/patches/010085401A454000/2E7487767D0CA0EE.yaml), v5, 1.3.0) | 🔴 |  |
 | JUMP FORCE | `010019D010F0E000` <br> `0100183010F12000` | `1667568420912C73` (❌, v7, 1.08) | 🟡 |  |
 | Kao the Kangaroo | `0100956016464000` <br> `010078C01769A000` | `F9C83728910E28A4` ([✅](SaltySD/plugins/FPSLocker/patches/0100956016464000/F9C83728910E28A4.yaml), v5, 1.5) <br> `7BA282E94D34C620` ([✅](SaltySD/plugins/FPSLocker/patches/010078C01769A000/7BA282E94D34C620.yaml), v5, 1.5) | 🔵 | [LINK](Methodology/Kao%20The%20Kangaroo) |
 | Katamari Damacy REROLL | `0100D7000C2C6000` | `B528B17AD9C71F41` (❌, v2, 1.2) | 🟡 |  |
