@@ -86,7 +86,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Atelier Rorona | `010088600C66E000` | `967D32BE4B10B67E` (◯, v1, 1.0.1) | 🟢 |  |
 | Atelier Ryza | `0100D1900EC80000` | `3474FAEE2B35BCAD` (◯, v9, 1.0.9) | 🟢 |  |
 | Atelier Ryza 2 | `01009A9012022000` | `2275D20A581F37E3` (◯, v8, 1.0.8) | 🟢 |  |
-| Atelier Ryza 3 | `010095E018944000` | `E116C2CF4896A4F2` (◯, v8, 1.6.0) | 🟢 |  |
+| Atelier Ryza 3 | `010095E018944000` | `C29B86A5D924BD38` (◯, v9, 1.7.0) | 🟢 |  |
 | Atelier Shallie | `010005C00EE90000` | `AAB0450A965202EC` (◯, v0, 1.0.0) | 🟢 |  |
 | Atelier Sophie | `0100D8701421C000` | `9C95108FD8F7464A` (◯, v3, 1.0.3) | 🟢 |  |
 | Atelier Sophie 2 | `010082A01538E000` | `4A1B406278346C2B` (◯, v8, 1.0.8) | 🟢 |  |
