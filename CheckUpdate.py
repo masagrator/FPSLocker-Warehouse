@@ -54,15 +54,14 @@ for line in file:
         pos = versionColumn.find(", v", pos) + 3
         version = int(re.sub("\D", "", versionColumn[pos:pos+2]))
     try:
-        latestUpdate = DATA.database[titleid]
-    except:
-        print(f"Titleid not found: {titleid}")
-        print(f"Title:{gameTitle}\n")
-        continue
-    try:
         latestUpdate = DATA.database[titleid[:13] + "800"]
     except:
-        pass
+        try:
+            latestUpdate = DATA.database[titleid]
+        except:
+            print(f"Titleid not found: {titleid}")
+            print(f"Title:{gameTitle}\n")
+            continue
     if (version != latestUpdate):
         print(titleid)
         print(f"Title:{gameTitle}")
