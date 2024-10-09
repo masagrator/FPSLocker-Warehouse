@@ -483,7 +483,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Sherlock Holmes: Crimes and Punishments | `0100651014DBA000` | `789C2939A757C0CD` ([✅](SaltySD/plugins/FPSLocker/patches/0100651014DBA000/789C2939A757C0CD.yaml), v0, 1.0.0) | 🔴 |  |
 | Sherlock Holmes: The Devil's Daughter | `010020F014DBE000` | `2B37ED2A971948F3` ([✅](SaltySD/plugins/FPSLocker/patches/010020F014DBE000/2B37ED2A971948F3.yaml), v0, 1.0.0) | 🔴 |  |
 | Sherlock Holmes and The<br>Hound of The Baskervilles | `010003D018708000` | `4A06EBBB5A2E4FE4` (✝️, v2, 1.0.2) | 🟣 |  |
-| Shin chan: Me and the Professor on Summer Vacation The Endless Seven-Day Journey | `0100ACC0185FC000` | `E8D7AEADEFB6F249` (◯, v1, 1.1.0) | 🟢 |  |
+| Shin chan: Me and the Professor<br>on Summer Vacation<br>The Endless Seven-Day Journey | `0100ACC0185FC000` | `E8D7AEADEFB6F249` (◯, v1, 1.1.0) | 🟢 |  |
 | Shin Megami Tensei III Nocturne | `01003B0012DC2000` | `F8098979DBC7F34E` (❌, v3, 1.0.3) | 🟡 | [LINK](Methodology/Shin%20Megami%20Tensei%20III) |
 | SHIN MEGAMI TENSEI V | `0100B870126CE000` | `019FBFE7738EA314` ([✅](SaltySD/plugins/FPSLocker/patches/0100B870126CE000/019FBFE7738EA314.yaml), v2, 1.0.2) | 🔵 | [LINK](Methodology/SHIN%20MEGAMI%20TENSEI%20V) |
 | SHIN MEGAMI TENSEI V: Vengeance | `010069C01AB82000` | `541F680F325BD5AC` ([✅](SaltySD/plugins/FPSLocker/patches/010069C01AB82000/541F680F325BD5AC.yaml), v1, 1.0.1) <br> `E1BD1040BFBDDAFF` ([✅](SaltySD/plugins/FPSLocker/patches/010069C01AB82000/E1BD1040BFBDDAFF.yaml), v2, 1.0.2) | 🔴 |  |
