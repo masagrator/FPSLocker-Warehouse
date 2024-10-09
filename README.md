@@ -493,7 +493,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | SIGNALIS | `0100307018934000` | `3A533EC563D74BE2` (◯, v3, 1.3) | 🟢 |  |
 | SINNER: Sacrifice for Redemption | `0100B16009C10000` | `490D681909609015` ([✅](SaltySD/plugins/FPSLocker/patches/0100B16009C10000/490D681909609015.yaml), v3, 1.1.0319) | 🔴 | [LINK](Methodology/SINNER%20Sacrifice%20for%20Redemption) |
 | Skylanders Imaginators | `0100CCC0002E6000` | `8B03CB047C01EE43` (◯, v2, 1.1.1) | 🟢 |  |
-| Smurfs Kart | `01009790186FE000` | `7B09D23CFABD67E8` (◯, v3, 1.03.1) | 🟢 |  |
+| Smurfs Kart | `01009790186FE000` | `4A8A1A08FCEBE648` (◯, v4, 1.04.3) | 🟢 |  |
 | Snake Pass | `0100C0F0020E8000` | `D0798521F563E6A7` ([✅](SaltySD/plugins/FPSLocker/patches/0100C0F0020E8000/D0798521F563E6A7.yaml), v5, 1.4) | 🔴 | [LINK](Methodology/Snake%20Pass) |
 | Solar Ash | `010083501AB36000` | `0959D87753F9FED4` ([✅](SaltySD/plugins/FPSLocker/patches/010083501AB36000/0959D87753F9FED4.yaml), v1, 1.06.0) | 🔵 |  | 
 | Sniper Elite 3 | `010075A00BA14000` | `6888027D61CF603D` ([✅](SaltySD/plugins/FPSLocker/patches/010075A00BA14000/6888027D61CF603D.yaml), v1, 1.0.1) | 🔵 |  | 
