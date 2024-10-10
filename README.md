@@ -195,7 +195,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Diablo II: Resurrected | `0100726014352000` | `BE7AD359B5CF5AA2` (◯, v26, 1.0.26.0) | 🟢 |  |
 | Dino Ranch: Ride to the Rescue | `010038301ABDA000` | `DDF3A995F0EC84E1` (◯, v1, 1.0.3) | 🟢 |  |
 | Disco Elysium - The Final Cut | `01006C5015E84000` | `26BDCC17F782A7B1` (◯, v12, 1.0.12) | 🟢 |  |
-| Disney Dreamlight Valley | `0100D39012C1A000` | `858C4CC82E9A89DF` (◯, v35, 1.12.2) | 🟢 |  |
+| Disney Dreamlight Valley | `0100D39012C1A000` | `87AED0590098E347` (◯, v36, 1.13.0) | 🟢 |  |
 | Disney Epic Mickey: Rebrushed | `0100DA201EBF8000` | `21F90AA03BED43F0` ([✅](SaltySD/plugins/FPSLocker/patches/0100DA201EBF8000/21F90AA03BED43F0.yaml), v2, 1.0.2) | 🔵 |  |
 | Divinity: Original Sin 2 | `010027400CDC6000` | `4979B200D53BB282` ([✅](SaltySD/plugins/FPSLocker/patches/010027400CDC6000/4979B200D53BB282.yaml), v10, 1.0.10) | 🔵 |  |
 | Dolphin Spirit - Ocean Mission | `0100150018200000` | `47B7DC55D707D10A` (◯, v1, 1.00.02) | 🟢 |  |
