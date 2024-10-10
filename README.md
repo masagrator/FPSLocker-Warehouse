@@ -584,6 +584,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | TT Isle of Man 3 | `0100FA2019AC2000` | `91CE601F6A7174CF` ([✅](SaltySD/plugins/FPSLocker/patches/0100FA2019AC2000/91CE601F6A7174CF.yaml), v7, 1.7.0) | 🔵 |  |
 | Twilight Survivors | `01006F401D934000` | `8AA7D10343CB3870` ([✅](SaltySD/plugins/FPSLocker/patches/01006F401D934000/8AA7D10343CB3870.yaml), v7, 0.22.2) <br> `D71970AAA5D34DD0` ([✅](SaltySD/plugins/FPSLocker/patches/01006F401D934000/D71970AAA5D34DD0.yaml), v8, 1.0.8) | 🔴 |  |
 | TY the Tasmanian Tiger 2 | `0100BC701417A000` | `1F8808E4FC7516D2` (❌, v1, 1.0.1) | 🔵 | [LINK](Methodology/TY%20the%20Tasmanian%20Tiger%202) |
+| UFO ROBOT GRENDIZER - The Feast of the Wolves | `0100F1601EF78000` | `DA191FE408D39038` (◯, v1, 1.1) | 🟢 |  |
 | Ultra Age | `01008D4015904000` | `CA77083E259D87A2` ([✅](SaltySD/plugins/FPSLocker/patches/01008D4015904000/CA77083E259D87A2.yaml), v7, 2.0.4) | 🔵 | [LINK](Methodology/Ultra%20Age) |
 | Ultra Kaiju Monster Rancher | `01008E0019388000` | `53384CC3D2B4CA9F` (❌, v0, 1.0.1) | 🟡 | [LINK](Methodology/Ultra%20Kaiju%20Monster%20Rancher) |
 | Undungeon | `0100CA3018EA4000` | `6A5B168E1D2C6647` (◯, v0, 0.002) | 🟢 |  |
