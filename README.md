@@ -627,6 +627,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Young Souls | `010097900F550000` | `E43952D95F17FA48` (◯, v3, 1.0.3) | 🟢 |  |
 | Ys VIII: Lacrimosa of DANA | `01007F200B0C0000` | `F7C4835FD8AE9D10`  (◯, v5, 1.05) | 🟢 |  |
 | Ys IX: Monstrum Nox | `0100E390124D8000` | `4D33981B6DB6125A` (◯, v3, 1.0.3) | 🟢 |  |
+| Ys X: Nordics | `0100BAC01E57E000` | `E5816E16CC5D72A5` (◯, v2, 1.0.2) | 🟡 |  |
 | Zombie Army Trilogy | `0100C7300EEE4000` | `54211726D36A8D9C` ([✅](SaltySD/plugins/FPSLocker/patches/0100C7300EEE4000/54211726D36A8D9C.yaml), v2, 1.0.2) | 🔵 |  |
 | Zombie Army 4: Dead War | `01000BF0152FA000` | `12024D08CCFD25EB` ([✅](SaltySD/plugins/FPSLocker/patches/01000BF0152FA000/12024D08CCFD25EB.yaml), v2, 1.1.1) | 🔵 |  | 
 | Zomborg | `01006401D48A000` | `A371513D3E16409B` (◯, v0, 1.0.0) | 🟢 |  |
