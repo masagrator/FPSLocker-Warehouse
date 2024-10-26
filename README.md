@@ -573,7 +573,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | The Outer Worlds | `0100626011656000` | `761CD556AB357C87` ([✅](SaltySD/plugins/FPSLocker/patches/0100626011656000/761CD556AB357C87.yaml), v5, 1.0.5) | 🔵 | [LINK](Methodology/The%20Outer%20Worlds) 
 | The Settlers: New Allies | `0100F3200E7CA000` | `EAA0B789264F2A75` ([✅](SaltySD/plugins/FPSLocker/patches/0100F3200E7CA000/EAA0B789264F2A75.yaml), v7, 1.0.7) | 🔴 |  |
 | The Sinking City | `010028D00BA1A000` | `85E49C169A8B988A` ([✅](SaltySD/plugins/FPSLocker/patches/010028D00BA1A000/85E49C169A8B988A.yaml), v2, 1.2.0) | 🔵 | [LINK](Methodology/The%20Sinking%20City) |
-| The Smurfs - Dreams | `010073C01B7FE000` | `C124FFD193F533B4` ([✅](SaltySD/plugins/FPSLocker/patches/010073C01B7FE000/C124FFD193F533B4.yaml), v1, 1.0.1) | 🔵 |  |
+| The Smurfs - Dreams | `01008E401E6D0000` | `C124FFD193F533B4` ([✅](SaltySD/plugins/FPSLocker/patches/01008E401E6D0000/C124FFD193F533B4.yaml), v1, 1.0.1) | 🔵 |  |
 | The Smurfs Mission Vileaf | `010040A01407E000` | `BBBBB9891F01415E` (◯, v4, 1.0.19.1) | 🟢 |  |
 | The Smurfs 2: The Prisoner of the Green Stone | `01008E401E6D0000` | `F294A4EBE966E8A9` ([✅](SaltySD/plugins/FPSLocker/patches/01008E401E6D0000/F294A4EBE966E8A9.yaml), v3, 1.03.03) | 🔵 |  |
 | The Stretchers | `0100AA400A238000` | `14D7D1537BD5A986` ([✅](SaltySD/plugins/FPSLocker/patches/0100AA400A238000/14D7D1537BD5A986.yaml), v0, 1.0.0) | 🔴 | [LINK](Methodology/The%20Stretchers) |
