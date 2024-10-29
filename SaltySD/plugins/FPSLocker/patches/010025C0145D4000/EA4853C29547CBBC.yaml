@@ -1,7 +1,7 @@
 # GUNDAM BREAKER 4 1.6.0
 # BID: EA4853C29547CBBC
 
-unsafeCheck: false
+unsafeCheck: true
 
 ALL_FPS:
   # r.DynamicRes.FrameTimeBudget
