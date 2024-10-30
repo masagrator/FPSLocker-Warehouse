@@ -115,7 +115,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | BioShock Infinite | `0100D560102C8000` | `48681F1D90704F6C` ([✅](SaltySD/plugins/FPSLocker/patches/0100D560102C8000/48681F1D90704F6C.yaml), v1, 1.0.2) | 🔵 | [LINK](Methodology/BioShock%20Infinite) |
 | Blade Assault | `0100EA1018A2E000` | `0DF84BFE1556A443` (◯, v1, 1.0.1) | 🟢 |  |
 | Blair Witch | `01006CC01182C000` | `C31E59266A218855` ([✅](SaltySD/plugins/FPSLocker/patches/01006CC01182C000/C31E59266A218855.yaml), v3, 1.0.3) | 🔴 | [LINK](Methodology/Blair%20Witch) |
-| Bloodstained: Ritual of the Night | `0100BF500207C000` | `E380EB35262B4F9C` ([✅](SaltySD/plugins/FPSLocker/patches/0100BF500207C000/E380EB35262B4F9C.yaml), v12, 1.50) | 🔵 | [LINK](Methodology/Bloodstained%20Ritual%20of%20the%20Night) <br> `461B14E505AB9555` ([✅](SaltySD/plugins/FPSLocker/patches/0100BF500207C000/461B14E505AB9555.yaml), v13, 1.60) |
+| Bloodstained: Ritual of the Night | `0100BF500207C000` | `E380EB35262B4F9C` ([✅](SaltySD/plugins/FPSLocker/patches/0100BF500207C000/E380EB35262B4F9C.yaml), v12, 1.50)   <br> `461B14E505AB9555` ([✅](SaltySD/plugins/FPSLocker/patches/0100BF500207C000/461B14E505AB9555.yaml), v13, 1.60) | 🔵 | [LINK](Methodology/Bloodstained%20Ritual%20of%20the%20Night) |
 | Boomerang X | `0100C09014530000` | `D92F465FE9920BB6` ([✅](SaltySD/plugins/FPSLocker/patches/0100C09014530000/D92F465FE9920BB6.yaml), v2, 1.0.2) | 🔵 |  |
 | Borderlands | `010064800F66A000` | `1C37C3673E0E4E7A` (◯, v2, 1.0.2) | 🟢 |  |
 | Borderlands 2 | `010096F00FF22000` | `F7C233469F20EE3F` (◯, v2, 1.0.2) | 🟢 |  |
