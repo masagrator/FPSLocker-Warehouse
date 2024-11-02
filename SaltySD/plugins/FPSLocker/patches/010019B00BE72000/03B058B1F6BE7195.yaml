@@ -1,0 +1,11 @@
+# Cel Damage HD 1.0.0
+# BID: 03B058B1F6BE7195
+
+unsafeCheck: true
+
+ALL_FPS:
+  -
+    type: evaluate_write
+    address: [MAIN, 0x32EE1C]
+    value_type: float
+    value: ["1/FPS_TARGET", "FPS_TARGET"]
