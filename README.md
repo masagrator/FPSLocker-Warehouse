@@ -139,7 +139,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Castle Renovator | `010013801A0E4000` | `34E094252A069FE9` (◯, v0, 1.0.0) | 🟢 |  |
 | Cat Quest III | `010088501B8F2000` | `7DC2AACD6B3EF428` (◯, v6, 1.1.8) | 🟢 |  |
 | Catherine: Full Body | `0100BF00112C0000` | `93A79C77DA81F7F1` (❌, v1, 1.0.1) | 🟡 |  |
-| Cel Damage HD | `010019B00BE72000` | `03B058B1F6BE7195` (❌, v0, 1.0.0) | 🔴 |  |
+| Cel Damage HD | `010019B00BE72000` | `03B058B1F6BE7195` ([✅](SaltySD/plugins/FPSLocker/patches/010019B00BE72000/03B058B1F6BE7195.yaml), v0, 1.0.0) | 🔴 |  |
 | Chants of Sennaar | `0100543019CB0000` | `CEFFC8421D584F8C` (◯, v2, 1.0.2) | 🟢 |  |
 | Chef Life - A Restaurant Simulator | `0100F24014280000` | `CB098B1BD77BDD1A` (◯, v5, 1.8.0) | 🟢 |  |
 | Choo-Choo Charles | `01006F901C7F2000` | `406F004D76F961F3` ([✅](SaltySD/plugins/FPSLocker/patches/01006F901C7F2000/406F004D76F961F3.yaml), v0, 1.0.1) | 🔵 |  |
