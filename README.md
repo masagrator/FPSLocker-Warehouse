@@ -357,6 +357,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Lysfanga: The Time Shift Warrior | `0100ED601B876000` | `3B47E57FD8B8EE7B` (◯, v2, 1.0.2) | 🟢 |  |
 | Maglam Lord | `01002C0015644000` | `3A3C781930CB8201` ([✅](SaltySD/plugins/FPSLocker/patches/01002C0015644000/3A3C781930CB8201.yaml), v0, 1.00) | 🔴 |  |
 | Maquette | `0100861018480000` | `B0F09EE3E404D549` (❌, v0, 1.0.0) | 🔵 |  |
+| Mario & Luigi: Brothership | `01006D0017F7A000` | `59874C9B530095AC` ([✅](SaltySD/plugins/FPSLocker/patches/01006D0017F7A000/59874C9B530095AC.yaml), v0, 1.0.0) | 🔴 |  |
 | Mario + Rabbids Kingdom Battle | `010067300059A000` | `3B39E0C06B8841F1` (◯, v9, 1.9.589692) | 🟢 |  |
 | Mario + Rabbids Sparks of Hope | `0100317013770000` | `5B76A43B231E0640` (◯, v6, 1.6.2225577) | 🟢 |  |
 | Mark of the Ninja: Remastered | `01009A700A538000` | `AE324830FE37FC72` (◯, v2, 1.0.2) | 🟢 |  |
