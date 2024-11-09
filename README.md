@@ -272,7 +272,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Going Under | `01004D501113C000` | `3AC30B12FEAD3149` (◯, v4, 1.0.4) | 🟢 |  |
 | Golazo 2 | `0100997014004000` | `8057D5A82615847E` (◯, v2, 1.2.3) | 🟢 |  |
 | Good Job! | `0100B0500FE4E000` | `951D09EECE122A47` (◯, v0, 1.0.0) | 🟢 |  |
-| Gori: Cuddly Carnage | `010000A017F96000` | `EEE598377C0A5966` ([✅](SaltySD/plugins/FPSLocker/patches/010000A017F96000/EEE598377C0A5966.yaml), v5, 1.0.5) | 🔵 |  |
+| Gori: Cuddly Carnage | `010000A017F96000` | `EEE598377C0A5966` ([✅](SaltySD/plugins/FPSLocker/patches/010000A017F96000/EEE598377C0A5966.yaml), v5, 1.0.5) <br> `1146A5AA87A93969` ([✅](SaltySD/plugins/FPSLocker/patches/010000A017F96000/1146A5AA87A93969.yaml), v6, 1.0.6) | 🔵 |  |
 | Grand Theft Auto III | `0100C3C012718000` | `2CF52C8DA4468946` ([✅](SaltySD/plugins/FPSLocker/patches/0100C3C012718000/2CF52C8DA4468946.yaml), v7, 1.0.7) | 🔴 | [LINK](Methodology/Grand%20Theft%20Auto%20III) |
 | Grand Theft Auto: San Andreas | `010065A014024000` | `6FB56071CCB321B6` ([✅](SaltySD/plugins/FPSLocker/patches/010065A014024000/6FB56071CCB321B6.yaml), v7, 1.0.7) | 🔴 | [LINK](Methodology/Grand%20Theft%20Auto%20San%20Andreas) |
 | Grand Theft Auto: Vice City | `0100182014022000` | `56EEFA704373BDB3` ([✅](SaltySD/plugins/FPSLocker/patches/0100182014022000/56EEFA704373BDB3.yaml), v7, 1.0.7) | 🔴 | [LINK](Methodology/Grand%20Theft%20Auto%20Vice%20City) |
