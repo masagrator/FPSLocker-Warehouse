@@ -9,7 +9,7 @@ ALL_FPS:
     type: compare
     compare_type: "!="
     compare_value_type: uint64
-    compare_address: [MAIN, 0x14CA070]
+    compare_address: [MAIN, 0x2596E00]
     compare_value: 0
     address: [MAIN]
     value_type: refresh_rate
