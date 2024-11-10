@@ -642,7 +642,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | WW2: Bunker Simulator | `01009A601B032000` | `0C2E9A763F9AB7A2` (◯, v0, 01.00) | 🟢 |  |
 | WWE 2K18 | `010009800203E000` | `DEEE18D307C81634` (❌, v5, 1.04) | 🔵 |  |
 | Xenoblade Chronicles: Definitive Edition | `0100FF500E34A000` | `92C78BB3DCBBC3F7` ([✅](SaltySD/plugins/FPSLocker/patches/0100FF500E34A000/92C78BB3DCBBC3F7.yaml), v3, 1.1.2) | 🔴 | [LINK](Methodology/Xenoblade%20Chronicles) |
-| Xenoblade Chronicles 2 | `0100E95004038000` | `F77F1559371C0EC6` (❌, v15, 2.1.0) | 🔴 |  |
+| Xenoblade Chronicles 2 | `0100E95004038000` | `F77F1559371C0EC6` ([✅](SaltySD/plugins/FPSLocker/patches/0100E95004038000/F77F1559371C0EC6.yaml), v15, 2.1.0) | 🔴 |  |
 | Xenoblade Chronicles 3 | `010074F013262000` | `82D187FE9EF9BE92` ([✅](SaltySD/plugins/FPSLocker/patches/010074F013262000/82D187FE9EF9BE92.yaml), v10, 2.2.0) | 🔴 | [LINK](Methodology/Xenoblade%20Chronicles%203) |
 | XUAN YUAN SWORD 7 | `010029F01BA3E000` | `F8EA898027152437` ([✅](SaltySD/plugins/FPSLocker/patches/010029F01BA3E000/F8EA898027152437.yaml), v0, 1.0.0) | 🔴 |  |
 | Yakuza Kiwami | `0100C9801FEE6000` | `53F407A2CFBF5202` ([✅](SaltySD/plugins/FPSLocker/patches/0100C9801FEE6000/53F407A2CFBF5202.yaml), v0, 1.00) | 🟡 |  |
