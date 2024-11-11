@@ -1,0 +1,34 @@
+# Pikmin 1 1.0.1
+# BID: C32B29CB5FBA96D9
+
+unsafeCheck: true
+
+ALL_FPS:
+  # Block cutscenes to 30 FPS
+  -
+    type: compare
+    compare_address: [MAIN, 0x749A3C]
+    compare_type: "!="
+    compare_value_type: uint32
+    compare_value: 0
+    address: [MAIN]
+    value_type: refresh_rate
+    value: 60
+  -
+    type: compare
+    compare_address: [MAIN, 0x749A3C]
+    compare_type: "!="
+    compare_value_type: uint32
+    compare_value: 0
+    address: [MAIN, 0x7606A0]
+    value_type: uint32
+    value: 2
+  -
+    type: evaluate_compare
+    compare_address: [MAIN, 0x749A3C]
+    compare_type: "=="
+    compare_value_type: uint32
+    compare_value: 0
+    address: [MAIN, 0x7606A0]
+    value_type: uint32
+    value: VSYNC_TARGET
