@@ -15,11 +15,7 @@ ALL_FPS:
     value_type: refresh_rate
     value: 30
   -
-    type: evaluate_compare
-    compare_address: [MAIN, 0x749A3C]
-    compare_type: "=="
-    compare_value_type: uint32
-    compare_value: 0
+    type: evaluate_write
     address: [MAIN, 0x7606A0]
     value_type: uint32
     value: VSYNC_TARGET
