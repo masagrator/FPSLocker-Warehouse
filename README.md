@@ -615,7 +615,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Tiny Troopers: Global Ops | `0100347013E4C000` | `63F1A8874A936747` (◯, v2, 1.0.0.2) | 🟢 |  |
 | TinTin Reporter - Cigars of the Pharaoh | `0100E9001A94C000` | `57B6B2062EC8C38A` ([✅](SaltySD/plugins/FPSLocker/patches/0100E9001A94C000/57B6B2062EC8C38A.yaml), v3, 1.3.0) <br> `ACBD89C999804FD2` ([✅](SaltySD/plugins/FPSLocker/patches/0100E9001A94C000/ACBD89C999804FD2.yaml), v4, 1.4.0) | 🔵 |  |
 | Tinykin | `0100A73016576000` | `4E2AA28721AFF2C1` ([✅](SaltySD/plugins/FPSLocker/patches/0100A73016576000/4E2AA28721AFF2C1.yaml), v4, 1.1.1) | 🔵 |  |
-| Tokyo Mirage Sessions<br>#FE Encore | `0100A9400C9C2000` | `33463E11899166BB` (❌, v0, 1.0.0) | 🟡 |  |
+| Tokyo Mirage Sessions<br>#FE Encore | `0100A9400C9C2000` | `33463E11899166BB` ([✅](SaltySD/plugins/FPSLocker/patches/0100A9400C9C2000/33463E11899166BB.yaml), v0, 1.0.0) | 🟡 |  |
 | Tony Hawk's Pro Skater 1 + 2 | `0100CC00102B4000` | `8AFCBE6A930CD42E` ([✅](SaltySD/plugins/FPSLocker/patches/0100CC00102B4000/8AFCBE6A930CD42E.yaml), v3, 1.0.3) | 🔴 | [LINK](Methodology/Tony%20Hawk's%20Pro%20Skater%201%20%2B%202) |
 | Train Life: A Railway Simulator | `0100FC101513E000` | `A9CE4E0196706EC8` (❌, v1, 1.0.1) | 🔵 |  |
 | TRANSFORMERS: EARTHSPARK - Expedition | `010005001A8CA000` | `F87BEAF2C5CE13E3` ([✅](SaltySD/plugins/FPSLocker/patches/010005001A8CA000/F87BEAF2C5CE13E3.yaml), v5, 1.0.5) | 🔴 |  |
