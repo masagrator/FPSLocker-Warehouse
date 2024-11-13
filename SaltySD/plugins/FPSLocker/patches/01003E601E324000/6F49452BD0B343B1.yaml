@@ -10,6 +10,12 @@ ALL_FPS:
     address: [MAIN, 0x5A9D3E8, 0]
     value_type: int32
     value: [0, 0]
+  # r.DynamicRes.FrameTimeBudget (1000/FPS) cutted to 2 decimals
+  -
+    type: evaluate_write
+    address: [MAIN, 0x6289E28, 0]
+    value_type: float
+    value: ["TruncDec(FRAMETIME_TARGET, 2)", "TruncDec(FRAMETIME_TARGET, 2)"]
   # t.MaxFPS
   -
     type: evaluate_write
