@@ -16,12 +16,3 @@ ALL_FPS:
     address: [MAIN, 0x8E62560, 0]
     value_type: float
     value: [FPS_LOCK_TARGET, FPS_LOCK_TARGET]
-  # r.VSync
-  -
-    type: write
-    address: [MAIN, 0x866A610, 0]
-    value_type: uint32
-    value: [0, 0]
-  -
-    type: block
-    what: timing
