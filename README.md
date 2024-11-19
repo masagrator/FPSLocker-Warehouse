@@ -54,7 +54,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Alterity Experience | `010056F0186D0000` | `E4F041624093998D` (◯, v2, 2.0) | 🟢 |  |
 | American Fugitive | `010002B00C534000` | `375A0E11B2397340` (◯, v9, 1.1.1) | 🟢 |  |
 | Ancestors Legacy | `01009EE0111CC000` | `E1F0CFC02F449EF3` ([✅](SaltySD/plugins/FPSLocker/patches/01009EE0111CC000/E1F0CFC02F449EF3.yaml), v2, 1.2.0) | 🔴 | [LINK](Methodology/Ancestors%20Legacy) |
-| Ancient Weapon Holly | `0100F7201D1B0000` | `BF3F18101CBCFB33` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7201D1B0000/BF3F18101CBCFB33.yaml), v3, 1.7.0) | 🔵 |  |
+| Ancient Weapon Holly | `0100F7201D1B0000` | `BF3F18101CBCFB33` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7201D1B0000/BF3F18101CBCFB33.yaml), v3, 1.7.0) <br> `3BBD72F0EB13C1AE` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7201D1B0000/3BBD72F0EB13C1AE.yaml), v4, 1.7.1) | 🔵 |  |
 | Animal Crossing: New Horizons | `01006F8002326000` | `15765149DF53BA41` (❌, v28, 2.0.6) | 🟡 | [LINK](Methodology/Animal%20Crossing%20New%20Horizons) |
 | Animal Shelter Simulator | `0100B1C01B104000` | `AB9EFB08DB5FE4F1` (❌, v1, 1.1.0) | 🟡 |  |
 | Another Code: Recollection | `0100CB9018F5A000` | `DED0F920799151BE` (❌, v0, 1.0.0) | 🔵 |  |
