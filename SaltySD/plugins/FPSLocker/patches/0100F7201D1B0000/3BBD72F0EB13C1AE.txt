@@ -1,0 +1,784 @@
+{SDK MW+UnityTechnologies+Unity-2021_3_25_f1}
+{MAIN: 0xe18204000}
+
+{float=0.000000}
+[UnityEngine.Time::get_maximumDeltaTime]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe1867e820
+mov w0, #0x7
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldr s0, [x0, #0x100]
+ldp x29, x30, [sp], #0x10
+
+{float=0.000000}
+[UnityEngine.Time::get_maximumParticleDeltaTime]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe1867e820
+mov w0, #0x7
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldr s0, [x0, #0x104]
+ldp x29, x30, [sp], #0x10
+
+{float=0.000000}
+[UnityEngine.Time::get_fixedDeltaTime]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe1867e820
+mov w0, #0x7
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldr s0, [x0, #0x48]
+ldp x29, x30, [sp], #0x10
+
+{int32=30}
+[UnityEngine.Application::get_targetFrameRate]
+b 0xe1867dc40
+adrp x8, 0xe1d3cb000
+ldr w0, [x8, #0xa78]
+
+{int32=0}
+[UnityEngine.QualitySettings::get_pixelLightCount]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr w0, [x8, #0x28]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.QualitySettings::get_shadows]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr w0, [x8, #0x2c]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.QualitySettings::get_shadowProjection]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr w0, [x8, #0x34]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.QualitySettings::get_shadowCascades]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr w0, [x8, #0x38]
+ldp x29, x30, [sp], #0x10
+
+{float=0.000000}
+[UnityEngine.QualitySettings::get_shadowDistance]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr s0, [x8, #0x3c]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.QualitySettings::get_shadowResolution]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr w0, [x8, #0x30]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.QualitySettings::get_shadowmaskMode]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr w0, [x8, #0x54]
+ldp x29, x30, [sp], #0x10
+
+{float=0.000000}
+[UnityEngine.QualitySettings::get_shadowNearPlaneOffset]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr s0, [x8, #0x40]
+ldp x29, x30, [sp], #0x10
+
+{float=0.000000}
+[UnityEngine.QualitySettings::get_shadowCascade2Split]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr s0, [x8, #0x44]
+ldp x29, x30, [sp], #0x10
+
+{float=0.000000}
+[UnityEngine.QualitySettings::get_lodBias]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr s0, [x8, #0x70]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.QualitySettings::get_anisotropicFiltering]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr w0, [x8, #0x60]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.QualitySettings::get_maximumLODLevel]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr w0, [x8, #0x74]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.QualitySettings::get_particleRaycastBudget]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr w0, [x8, #0x78]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.QualitySettings::get_softParticles]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldrb w0, [x8, #0x6c]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.QualitySettings::get_softVegetation]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldrb w0, [x8, #0x6d]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.QualitySettings::get_vSyncCount]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr w0, [x8, #0x68]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.QualitySettings::get_antiAliasing]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr w0, [x8, #0x64]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.QualitySettings::get_realtimeReflectionProbes]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldrb w0, [x8, #0x6e]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.QualitySettings::get_billboardsFaceCameraPosition]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldrb w0, [x8, #0x6f]
+ldp x29, x30, [sp], #0x10
+
+{float=0.000000}
+[UnityEngine.QualitySettings::get_resolutionScalingFixedDPIFactor]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr s0, [x8, #0x9c]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.QualitySettings::get_blendWeights]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr w0, [x8, #0x58]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.QualitySettings::get_skinWeights]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr w0, [x8, #0x58]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.QualitySettings::get_streamingMipmapsActive]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldrb w0, [x8, #0x7c]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.QualitySettings::get_streamingMipmapsMaxLevelReduction]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19264d90
+mov w0, #0xb
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrsw x8, [x0, #0x4c]
+mov w10, #0xa8
+ldr x9, [x0, #0x30]
+madd x8, x8, x10, x9
+ldr w0, [x8, #0x88]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.RenderSettings::get_fog]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe1882f740
+mov w0, #0x15
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrb w0, [x0, #0x164]
+ldp x29, x30, [sp], #0x10
+
+{float=1.000000}
+[UnityEngine.RenderSettings::get_fogStartDistance]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe1882f740
+mov w0, #0x15
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldr s0, [x0, #0x17c]
+ldp x29, x30, [sp], #0x10
+
+{float=1.000000}
+[UnityEngine.RenderSettings::get_fogEndDistance]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe1882f740
+mov w0, #0x15
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldr s0, [x0, #0x180]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.RenderSettings::get_fogMode]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe1882f740
+mov w0, #0x15
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldr w0, [x0, #0x168]
+ldp x29, x30, [sp], #0x10
+
+{float=0.000000}
+[UnityEngine.RenderSettings::get_fogDensity]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe1882f740
+mov w0, #0x15
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldr s0, [x0, #0x184]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.RenderSettings::get_ambientMode]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe1882f740
+mov w0, #0x15
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldr w0, [x0, #0xd4]
+ldp x29, x30, [sp], #0x10
+
+{float=0.000000}
+[UnityEngine.RenderSettings::get_ambientIntensity]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe1882f740
+mov w0, #0x15
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldr s0, [x0, #0xd0]
+ldp x29, x30, [sp], #0x10
+
+{float=0.000000}
+[UnityEngine.RenderSettings::get_reflectionIntensity]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe1882f740
+mov w0, #0x15
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldr s0, [x0, #0x198]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.RenderSettings::get_reflectionBounces]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe1882f740
+mov w0, #0x15
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldr w0, [x0, #0x1a4]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.RenderSettings::get_defaultReflectionMode]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe1882f740
+mov w0, #0x15
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldr w0, [x0, #0x19c]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.RenderSettings::get_defaultReflectionResolution]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe1882f740
+mov w0, #0x15
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldr w0, [x0, #0x1a0]
+ldp x29, x30, [sp], #0x10
+
+{float=1.000000}
+[UnityEngine.RenderSettings::get_haloStrength]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe1882f740
+mov w0, #0x15
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldr s0, [x0, #0x158]
+ldp x29, x30, [sp], #0x10
+
+{float=1.000000}
+[UnityEngine.RenderSettings::get_flareStrength]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe1882f740
+mov w0, #0x15
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldr s0, [x0, #0x15c]
+ldp x29, x30, [sp], #0x10
+
+{float=1.000000}
+[UnityEngine.RenderSettings::get_flareFadeSpeed]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe1882f740
+mov w0, #0x15
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldr s0, [x0, #0x160]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.Texture::get_masterTextureLimit]
+b 0xe18698bb0
+adrp x8, 0xe1d742000
+ldr w0, [x8, #0xf28]
+
+{int32=0}
+[UnityEngine.Texture::get_anisotropicFiltering]
+b 0xe18697db0
+adrp x8, 0xe1d3cc000
+ldr w0, [x8, #0x4f0]
+
+{int32=0}
+[UnityEngine.Rendering.GraphicsSettings::get_realtimeDirectRectangularAreaLights]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe187677c0
+mov w0, #0x6
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrb w0, [x0, #0x154]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.Rendering.GraphicsSettings::get_lightsUseLinearIntensity]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe187677c0
+mov w0, #0x6
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrb w0, [x0, #0x14c]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.Rendering.GraphicsSettings::get_lightsUseColorTemperature]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe187677c0
+mov w0, #0x6
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrb w0, [x0, #0x14d]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.Rendering.GraphicsSettings::get_cameraRelativeLightCulling]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe187677c0
+mov w0, #0x6
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldrb w0, [x0, #0x157]
+ldp x29, x30, [sp], #0x10
+
+{int32=0}
+[UnityEngine.LightmapSettings::get_lightmapsMode]
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe19259310
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe187d6fd0
+adrp x8, 0xe1d782000
+ldr x0, [x8, #0x6d0]
+ret
+ldp x29, x30, [sp], #0x10
+b 0xe187d75f4
+mov w0, #0x16
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldp x29, x30, [sp], #0x10
+b 0xe1925a4f8
+stp x29, x30, [sp, #-0x10]!
+mov x29, sp
+bl 0xe187d6fd0
+adrp x8, 0xe1d782000
+ldr x0, [x8, #0x6d0]
+ret
+bl 0xe187d75f4
+mov w0, #0x16
+b 0xe18660c80
+adrp x8, 0xe1d73c000
+add x8, x8, #0xb68
+ldr x0, [x8, w0, sxtw #3]
+ret
+ldr x8, [x0, #0x30]
+ldr w0, [x8, #0xc]
+ldp x29, x30, [sp], #0x10
