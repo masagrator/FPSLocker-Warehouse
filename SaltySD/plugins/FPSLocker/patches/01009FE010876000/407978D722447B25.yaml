@@ -1,5 +1,6 @@
 # Persona 5 Scramble 1.0.1
 # BID: 407978D722447B25
+# Some 2D animations speed is still tied to framerate
 
 unsafeCheck: true
 
