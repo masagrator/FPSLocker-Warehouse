@@ -1,5 +1,6 @@
 # Persona 5 Strikers 1.0.0
 # BID: C4DF04F647BDC727
+# Some 2D animations speed is still tied to framerate
 
 unsafeCheck: true
 
