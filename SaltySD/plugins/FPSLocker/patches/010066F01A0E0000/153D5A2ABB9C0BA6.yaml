@@ -9,7 +9,7 @@ ALL_FPS:
     type: evaluate_write
     address: [MAIN, 0x30AAAE0, 0x24]
     value_type: int32
-    value: FPS_LOCK_TARGET
+    value: FPS_TARGET
   # debug/settings/fps/force_fps
   -
     type: evaluate_write
