@@ -11,7 +11,7 @@ MASTER_WRITE:
     value_type: uint32
     value: # 68 EB 01 F0 08 E9 44 B9 01 01 23 1E 00 10 2e 1e 00 18 21 1e
      - 0xD001EA08 # adrp x8, 0x562d000
-     - 0xB94B3908 # ldr w8, [x8, #0x4e8]
+     - 0xB94B3908 # ldr w8, [x8, #0xb38]
      - 0x1E230101 # ucvtf s1, w8
      - 0x1E2E1000 # fmov s0, #1.00000000
      - 0x1E211800 # fdiv s0, s0, s1
@@ -21,7 +21,7 @@ MASTER_WRITE:
     value_type: uint32
     value: # 88 EB 01 D0 08 E9 44 B9 01 01 23 1E 00 10 2e 1e 00 18 21 1e
      - 0xD001E9E8 # adrp x8, 0x562d000
-     - 0xB94B3908 # ldr w8, [x8, #0x4e8]
+     - 0xB94B3908 # ldr w8, [x8, #0xb38]
      - 0x1E230101 # ucvtf s1, w8
      - 0x1E2E1000 # fmov s0, #1.00000000
      - 0x1E211800 # fdiv s0, s0, s1
