@@ -15,21 +15,35 @@ Column `ISSUES` represents what issues you can expect from game when trying to g
 Patches status concern only FPSLocker "LOCK" patch format. There may exist cheat/IPS patch/mod that unlocks 60 FPS already.<br>
 As the list is filled by community, it may not be up to date.
 
-🟢 - No issues<br>
-🔐 - Internal FPS Lock (must be removed or adjusted, example: `ABZU`)<br>
-📏 - Dynamic Resolution (must be adjusted to target other FPS, example: `SHADOW GENERATIONS`)<br>
-⚔️ - Double Buffer (changing it to triple buffer allows staying more often at higher FPS, example: `The Legend of Zelda: Breath of the Wild`. It doesn't include games using two front buffers and one back buffer or games that can be set to triple buffer with Set Buffering in FPSLocker)<br>
-👄 - Lipsync (must be adjusted to work correctly at different FPS, example: `The Legend of Heroes: Trails of Cold Steel 3`)<br>
-⏱️ - Gameplay speed (must be adjusted to work correctly at different FPS, example: `The Legend of Zelda: Breath of the Wild`)<br>
-🏃 - Physics (must be adjusted to work correctly at different FPS, example: `The Legend of Zelda: Breath of the Wild`)<br>
-🛑 - Fake frames (game must be adjusted to not show them at higher FPS, example: `DAVE THE DIVER`)<br>
-🌤️ - Graphics effects (game must be adjusted to have them rendered correctly at higher FPS, example: `Gear.Club Unlimited 2`)<br>
-🖥️ - UI speed (game must be adjusted to have them rendered correctly at higher FPS, example: `The Legend of Zelda: Breath of the Wild`)<br>
-🖌️ - UI broken animations (game must be adjusted to have them rendered correctly at higher FPS, example: `Another Code: Recollection`)<br>
-📺 - Cutscenes (they must be blocked to certain framerate to not be have issues, example: `The Legend of Zelda: Breath of the Wild`)<br>
-🎮 - Button polling (it must be adjusted to not miss button presses at higher FPS, example: `NARUTO SHIPPUDEN: Ultimate Ninja STORM 4 ROAD TO BORUTO`)<br>
-🔢 - Logic (it must be fixed to work correctly at higher FPS, example: `Pikmin 4`)<br>
-🔧 - Hindered performance (something in game is causing performance issues at higher FPS, either on its own (`r.Sync` setting in UE4/UE5 games) or when something from the above is adjusted, example: `Outer Wilds`)<br>
+> 🟢 - No issues
+
+> 🔐 - *Internal FPS Lock* - must be removed or adjusted, example: `ABZU`
+
+> 📏 - *Dynamic Resolution* - must be adjusted to target other FPS, example: `SHADOW GENERATIONS`
+
+> ⚔️ - *Double Buffer* - changing it to triple buffer allows staying more often at higher FPS, example: `The Legend of Zelda: Breath of the Wild`. It doesn't include games using two front buffers and one back buffer or games that can be set to triple buffer with Set Buffering in FPSLocker
+
+> 👄 - *Lipsync* - must be adjusted to work correctly at different FPS, example: `The Legend of Heroes: Trails of Cold Steel 3`
+
+> ⏱️ - *Gameplay speed* - must be adjusted to work correctly at different FPS, example: `The Legend of Zelda: Breath of the Wild`
+
+> 🏃 - *Physics* - must be adjusted to work correctly at different FPS, example: `The Legend of Zelda: Breath of the Wild`
+
+> 🛑 - *Fake frames* - game must be adjusted to not show them at higher FPS, example: `DAVE THE DIVER`
+
+> 🌤️ - *Graphics effects* - game must be adjusted to have them rendered correctly at higher FPS, example: `Gear.Club Unlimited 2`
+
+> 🖥️ - *UI speed* - game must be adjusted to have them rendered correctly at higher FPS, example: `The Legend of Zelda: Breath of the Wild`
+
+> 🖌️ - *UI broken animations* - game must be adjusted to have them rendered correctly at higher FPS, example: `Another Code: Recollection`
+
+> 📺 - *Cutscenes* - they must be blocked to certain framerate to not be have issues, example: `The Legend of Zelda: Breath of the Wild`
+
+> 🎮 - *Button polling* - it must be adjusted to not miss button presses at higher FPS, example: `NARUTO SHIPPUDEN: Ultimate Ninja STORM 4 ROAD TO BORUTO`
+
+> 🔢 - *Logic* - it must be fixed to work correctly at higher FPS, example: `Pikmin 4`
+
+> 🔧 - *Hindered performance* - something in game is causing performance issues at higher FPS, either on its own - `r.Sync` setting in UE4/UE5 games) or when something from the above is adjusted, example: `Outer Wilds`
 
 PATCH AVAILABILITY<br>
 ✝️ - patch is not possible to create<br>
