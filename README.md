@@ -512,7 +512,7 @@ PATCH AVAILABILITY<br>
 | Remnant: From the Ashes | `010010F01418E000` | `49CF6B0B0A62F9E2` ([✅](SaltySD/plugins/FPSLocker/patches/010010F01418E000/49CF6B0B0A62F9E2.yaml), v1, 1.0.1) | 📏 |
 | Remothered: Broken Porcelain | `0100FBD00F5F6000` | `5EFAB20F5C1F0F68` ([✅](SaltySD/plugins/FPSLocker/patches/0100FBD00F5F6000/5EFAB20F5C1F0F68.yaml), v9, 2.0.0) | 🔐📏⚔️🔧 |
 | Remothered Tormented Fathers | `01008F600F2D0000` | `EB57CF3434044523` ([✅](SaltySD/plugins/FPSLocker/patches/01008F600F2D0000/EB57CF3434044523.yaml), v3, 1.3.0) | 🔐⚔️🔧 |
-| REYNATIS | `010050F01DF9C000` | `456F89F80D657095` ([✅](SaltySD/plugins/FPSLocker/patches/010050F01DF9C000/456F89F80D657095.yaml), v4, 1.0.4) <br> `C370209AECC8D2FB` ([✅](SaltySD/plugins/FPSLocker/patches/010050F01DF9C000/C370209AECC8D2FB.yaml), v5, 1.0.5) | 📏 |
+| REYNATIS | `010050F01DF9C000` | `456F89F80D657095` ([✅](SaltySD/plugins/FPSLocker/patches/010050F01DF9C000/456F89F80D657095.yaml), v4, 1.0.4) <br> `C370209AECC8D2FB` ([✅](SaltySD/plugins/FPSLocker/patches/010050F01DF9C000/C370209AECC8D2FB.yaml), v5, 1.0.5) <br> `25A4C89527E7A6E6` ([✅](SaltySD/plugins/FPSLocker/patches/010050F01DF9C000/25A4C89527E7A6E6.yaml), v6, 1.0.6) | 📏 |
 | RiME | `0100A62002042000` | `B426F56F027E8231` (◯, v2, 1.0.2) | 🟢 |
 | Road 96 | `010031B0145B4000` | `EAF3511193618B2A` (◯, v5, 1.05) | 🟢 |
 | Road 96: Mile 0 | `01008600180CE000` | `DF1EBBA8DE722A3B` (◯, v0, 1.00) | 🟢 |
