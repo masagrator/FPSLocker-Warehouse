@@ -78,7 +78,7 @@ PATCH AVAILABILITY<br>
 | Animal Crossing: New Horizons | `01006F8002326000` | `15765149DF53BA41` (❌, v28, 2.0.6) | ⚔️⏱️🏃🖥 |
 | Animal Shelter Simulator | `0100B1C01B104000` | `AB9EFB08DB5FE4F1` (❌, v1, 1.1.0) | ⏱️ |
 | Another Code: Recollection | `0100CB9018F5A000` | `DED0F920799151BE` (❌, v0, 1.0.0) | 🖌️ |
-| Another Crab's Treasure | `0100A21017C42000` | `3980F76403AE4CF2` ([✅](SaltySD/plugins/FPSLocker/patches/0100A21017C42000/3980F76403AE4CF2.yaml), v4, 1.0.101.1) | 📏⏱️🏃 |
+| Another Crab's Treasure | `0100A21017C42000` | `3980F76403AE4CF2` ([✅](SaltySD/plugins/FPSLocker/patches/0100A21017C42000/3980F76403AE4CF2.yaml), v4, 1.0.101.1) <br> `01CBDFDED43B80F5` ([✅](SaltySD/plugins/FPSLocker/patches/0100A21017C42000/01CBDFDED43B80F5.yaml), v5, 1.0.103.9) | 📏⏱️🏃 |
 | Apollo Justice Trilogy | `010020D01B890000` | `F1A7E0DB6B0EC65F` (❌, v1, 1.0.1) | 🔐⏱🖥️ |
 | Aragami 2 | `0100787018198000` | `3FFD52E56DD8ADB3` (◯, v1, 1.0.30195.0) | 🟢 |
 | Arise: A Simple Story | `0100FE201680A000` | `8F2536786EECCEE5` ([✅](SaltySD/plugins/FPSLocker/patches/0100FE201680A000/8F2536786EECCEE5.yaml), v5, 1.0.5) | 🔐📏 |
