@@ -523,9 +523,9 @@ PATCH AVAILABILITY<br>
 | Ruined King: A League of Legends Story | `0100947013122000` | `9FC46F388F6C684C` ([✅](SaltySD/plugins/FPSLocker/patches/0100947013122000/9FC46F388F6C684C.yaml), v7, 1.7) | 📏 |
 | Ruiner | `01006EC00F2CC000` | `F199FFD7D83F399E` ([✅](SaltySD/plugins/FPSLocker/patches/01006EC00F2CC000/F199FFD7D83F399E.yaml), v3, 1.3) | 📏 |
 | Rune Factory 5 | `0100CDC013238000` | `D626F7A72AF54744` ([✅](SaltySD/plugins/FPSLocker/patches/0100CDC013238000/D626F7A72AF54744.yaml), v2, 1.0.2) | 📏 |
-| S.T.A.L.K.E.R.: Call of Prypiat | `010008E01E32A000` | `823FE359B4A99A4D` ([✅](SaltySD/plugins/FPSLocker/patches/010008E01E32A000/823FE359B4A99A4D.yaml), v1, 1.0.1) | 🔐📏 |
-| S.T.A.L.K.E.R.: Clear Sky | `010027B01E32C000` | `38171F8A5687B940` ([✅](SaltySD/plugins/FPSLocker/patches/010027B01E32C000/38171F8A5687B940.yaml), v1, 1.0.1) | 🔐📏 |
-| S.T.A.L.K.E.R.: Shadow Of Chornobyl | `01004A001E32E000` | `0214CA2211DE8313` ([✅](SaltySD/plugins/FPSLocker/patches/01004A001E32E000/0214CA2211DE8313.yaml), v1, 1.0.1) | 🔐📏 |
+| S.T.A.L.K.E.R.: Call of Prypiat | `010008E01E32A000` | `823FE359B4A99A4D` ([✅](SaltySD/plugins/FPSLocker/patches/010008E01E32A000/823FE359B4A99A4D.yaml), v1, 1.0.1) <br> `BBA39C65C1CC6463` ([✅](SaltySD/plugins/FPSLocker/patches/010008E01E32A000/BBA39C65C1CC6463.yaml), v2, 1.0.2) | 🔐📏 |
+| S.T.A.L.K.E.R.: Clear Sky | `010027B01E32C000` | `38171F8A5687B940` ([✅](SaltySD/plugins/FPSLocker/patches/010027B01E32C000/38171F8A5687B940.yaml), v1, 1.0.1) <br> `227837B490A51033` ([✅](SaltySD/plugins/FPSLocker/patches/010027B01E32C000/227837B490A51033.yaml), v2, 1.0.2) | 🔐📏 |
+| S.T.A.L.K.E.R.: Shadow Of Chornobyl | `01004A001E32E000` | `0214CA2211DE8313` ([✅](SaltySD/plugins/FPSLocker/patches/01004A001E32E000/0214CA2211DE8313.yaml), v1, 1.0.1) <br> `8E8BFFE66292CFF1` ([✅](SaltySD/plugins/FPSLocker/patches/01004A001E32E000/8E8BFFE66292CFF1.yaml), v2, 1.0.2) | 🔐📏 |
 | SaGa Emerald Beyond | `01008BE01E1C2000` | `9FD4FB446CEDB012` (◯, v4, 1.04) | 🟢 |
 | Sakuna: Of Rice and Ruin | `0100B1400E8FE000` | `A4F17AB0C365545B` (◯, v9, 1.0.9) | 🟢 |
 | Samurai Bringer | `01007E30176E6000` | `20F6DC74F8FB9601` (◯, v4, 1.05.0) | 🟢 |
