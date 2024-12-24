@@ -397,14 +397,14 @@ PATCH AVAILABILITY<br>
 | Master Detective Archives: RAIN CODE `GLOBAL` | `01004800197F0000` | `B9E42653FB44EF2B` ([✅](SaltySD/plugins/FPSLocker/patches/0100149019460000/B9E42653FB44EF2B.yaml), v7, 1.4.0) | 🔐🔧 |
 | Masters of Anima | `0100CC7009196000` | `B1C8B55EBD400E57` (◯, v1, 1.0.1) | 🟢 |
 | MEGATON MUSASHI W: WIRED | `01003EB01C2F0000` | `0D28F064B3A5D030` ([✅](SaltySD/plugins/FPSLocker/patches/01003EB01C2F0000/0D28F064B3A5D030.yaml), v3, 3.0.3) <br> `4183AB952B599826` ([✅](SaltySD/plugins/FPSLocker/patches/01003EB01C2F0000/4183AB952B599826.yaml), v4, 3.1.0) <br> `F1E096F78DFB8263` ([✅](SaltySD/plugins/FPSLocker/patches/01003EB01C2F0000/F1E096F78DFB8263.yaml), v5, 3.1.1) <br> `452F9C150D1D17B7` ([✅](SaltySD/plugins/FPSLocker/patches/01003EB01C2F0000/452F9C150D1D17B7.yaml), v6, 3.1.2) <br> `FF46A0C56BAD0A32` ([✅](SaltySD/plugins/FPSLocker/patches/01003EB01C2F0000/FF46A0C56BAD0A32.yaml), v7, 3.1.3) <br> `8286C091117CAECF` ([✅](SaltySD/plugins/FPSLocker/patches/01003EB01C2F0000/8286C091117CAECF.yaml), v8, 3.2.0) <br> `1EC3E6373D7DA9A6` ([✅](SaltySD/plugins/FPSLocker/patches/01003EB01C2F0000/1EC3E6373D7DA9A6.yaml), v9, 3.2.2) | 🛑 |
-| Metal Gear Solid 2: Sons of Liberty | `0100A4301AA0C000` | `03C2232966780A16` (❌, v9, 2.0.0) | ⚔️⏱️🖥 |
-| Metal Gear Solid 3: Snake Eater | `010047F01AA10000` | `AE937A8EA9B815AD` (❌, v10, 2.0.0) | ⚔️⏱️🖥🔢 |
+| Metal Gear Solid 2: Sons of Liberty | `0100A4301AA0C000` | `03C2232966780A16` (❌, v9, 2.0.0) | ⚔️⏱️🖥️ |
+| Metal Gear Solid 3: Snake Eater | `010047F01AA10000` | `AE937A8EA9B815AD` (❌, v10, 2.0.0) | ⚔️⏱️🖥️🔢 |
 | Metro 2033 Redux | `0100D4900E82C000` | `85C362CC9790F0ED` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4900E82C000/85C362CC9790F0ED.yaml), v0, 1.0.0) | 📏 |
 | Metro: Last Light Redux | `0100F0400E850000` | `85C362CC9790F0ED` ([✅](SaltySD/plugins/FPSLocker/patches/0100F0400E850000/85C362CC9790F0ED.yaml), v0, 1.0.0) | 📏 |
 | Miitopia | `01003DA010E8A000` | `3378B75A3DD2ADA9` (❌, v3, 1.0.3) | ⏱️🖥️ |
 | Minecraft Dungeons | `01006C100EC08000` | `13F573E3017996E4` (◯, v27, 1.17.0.0) | 🟢 |
 | Modern Combat Blackout | `0100D8700B712000` | `C56E6F514FADC5C5` ([✅](SaltySD/plugins/FPSLocker/patches/0100D8700B712000/C56E6F514FADC5C5.yaml), v3, 1.1.9) | 🔐📏 |
-| Momotaro Dentetsu: Showa, Heisei, Reiwa no Teiban! Asia | `010021801DD26000` | `B2D4462B71536EC6` (❌, v1, 1.0.1) | 🔐 |
+| Momotaro Dentetsu: Showa, Heisei, Reiwa no Teiban! Asia Edition | `010021801DD26000` | `B2D4462B71536EC6` ([✅](SaltySD/plugins/FPSLocker/patches/010021801DD26000/B2D4462B71536EC6.yaml), v1, 1.0.1) | 🔐⏱️🖥️⚔️🔢 |
 | MONARK | `0100E4A01548C000` | `85EB6295023DD394` (◯, v1, 1.0.1) | 🟢 |
 | MONOPOLY | `01002C201BC40000` | `4E01593741A531D4` (◯, v4, 1.4) | 🟢 |
 | Monster Hunter Generations Ultimate | `0100770008DD8000` | `FB08F1D20FD1204F` ([✅](SaltySD/plugins/FPSLocker/patches/0100770008DD8000/FB08F1D20FD1204F.yaml), v4, 1.4.0) | 🔐 |
