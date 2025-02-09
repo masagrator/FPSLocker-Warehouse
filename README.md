@@ -317,7 +317,7 @@ PATCH AVAILABILITY<br>
 | Hammerwatch 2 | `0100367016DF0000` | `38896FEC1B4ADB1C` ([✅](SaltySD/plugins/FPSLocker/patches/0100367016DF0000/38896FEC1B4ADB1C.yaml), v3, 1.0.4) | 🔐 |
 | Hamster Playground | `010035901701A000` | `388EF7F085939FC2` (◯, v6, 1.0.6) | 🟢 |
 | HARVESTELLA | `0100521017B2A000` | `249EAB9BF046C5EA` ([✅](SaltySD/plugins/FPSLocker/patches/0100521017B2A000/249EAB9BF046C5EA.yaml), v2, 1.0.2) | 🔐📏 |
-| HEAVEN SEEKER ――The Savior of This Cruel World | `0100EE00205BA000` | `E7011BF08747297B` ([✅](SaltySD/plugins/FPSLocker/patches/0100EE00205BA000/E7011BF08747297B.yaml), v1, 1.0.4.126) <br> `F2D03CFFB8DE5E4C` ([✅](SaltySD/plugins/FPSLocker/patches/0100EE00205BA000/F2D03CFFB8DE5E4C.yaml), v2, 1.0.4.127) | 🛑 |
+| HEAVEN SEEKER ――The Savior of This Cruel World | `0100EE00205BA000` | `E7011BF08747297B` ([✅](SaltySD/plugins/FPSLocker/patches/0100EE00205BA000/E7011BF08747297B.yaml), v1, 1.0.4.126) <br> `F2D03CFFB8DE5E4C` ([✅](SaltySD/plugins/FPSLocker/patches/0100EE00205BA000/F2D03CFFB8DE5E4C.yaml), v2, 1.0.4.127) <br> `21B3E4EA75F16551` ([✅](SaltySD/plugins/FPSLocker/patches/0100EE00205BA000/21B3E4EA75F16551.yaml), v3, 1.0.5.130) | 🛑 |
 | Hellblade: Senua's Sacrifice | `010044500CF8E000` | `9B3DDF2FB9100E51` ([✅](SaltySD/plugins/FPSLocker/patches/010044500CF8E000/9B3DDF2FB9100E51.yaml), v1, 1.1.0) | 🔐📏 |
 | Hero's Hour | `010005E01E5E6000` | `8B0C5F41A0CCDFD9` (❌, v2, 2.5.3) | 🔐⏱️🖥️ |
 | Highwater | `0100D1A019EBA000` | `3A38653015036D51` (◯, v1, 1.0.1) | 🟢 |
