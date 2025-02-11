@@ -336,7 +336,7 @@ PATCH AVAILABILITY<br>
 | I Am Setsuna. | `0100849000BDA000` | `0BBA2167AED893BE` (◯, v1, 1.1.0) | 🟢 |
 | Imagine Earth | `0100E2701A3D8000` | `A656BABB00F8C6A0` (◯, v3, 1.17.2.6343) | 🟢 |
 | Immortal Redneck | `01000F400435A000` | `DB367E57EDA9E84F` (◯, v1, 1.3.5) | 🟢 |
-| Immortals Fenyx Rising | `01004A600EC0A000` | `70F3F6751D73C644` ([✅](SaltySD/plugins/FPSLocker/patches/01004A600EC0A000/70F3F6751D73C644.yaml), v11, 1.3.4) | 📏 |
+| Immortals Fenyx Rising | `01004A600EC0A000` | `70F3F6751D73C644` (❌, v11, 1.3.4) | 📏 |
 | In rays of the Light | `0100A760129A0000` | `AB4C861FD0C87F47` (◯, v2, 1.0.2) | 🟢 |
 | In Sound Mind | `01006DF014682000` | `5FCC5A8EDF6244C4` (❌, v4, 1.0.4) | 📏 |
 | Inertial Drift | `01002BD00F626000` | `4C277E67AB50D547` (◯, v10, 1.2.1) | 🟢 |
