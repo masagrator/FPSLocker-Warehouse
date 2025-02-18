@@ -73,6 +73,7 @@ PATCH AVAILABILITY<br>
 | Alfred Hitchcock - Vertigo | `0100DC7013F14000` | `9D5ABEC66FEC1D77` (◯, v1, 1.0.1) | 🟢 |
 | Alien: Isolation | `010075D00E8BA000` | `397C054A3D25D488` (◯, v5, 1.1.5_64113) | 🟢 |
 | Alterity Experience | `010056F0186D0000` | `E4F041624093998D` (◯, v2, 2.0) | 🟢 |
+| Amber Isle | `010073601DF1A000` | `D36459588F85315D` ([✅](SaltySD/plugins/FPSLocker/patches/010073601DF1A000/D36459588F85315D.yaml), v2, 1.0.2) | 📏 |
 | American Fugitive | `010002B00C534000` | `375A0E11B2397340` (◯, v9, 1.1.1) | 🟢 |
 | Ancestors Legacy | `01009EE0111CC000` | `E1F0CFC02F449EF3` ([✅](SaltySD/plugins/FPSLocker/patches/01009EE0111CC000/E1F0CFC02F449EF3.yaml), v2, 1.2.0) | 🔐⚔️ |
 | Ancient Weapon Holly | `0100F7201D1B0000` | `BF3F18101CBCFB33` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7201D1B0000/BF3F18101CBCFB33.yaml), v3, 1.7.0) <br> `3BBD72F0EB13C1AE` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7201D1B0000/3BBD72F0EB13C1AE.yaml), v4, 1.7.1) | 🏃 |
