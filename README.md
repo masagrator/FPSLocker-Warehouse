@@ -130,6 +130,7 @@ PATCH AVAILABILITY<br>
 | Beyond Galaxyland | `01006E101DBA0000` | `3B3ACCF3458CE10D` (◯, v3, 1.0.4) | 🟢 |
 | Beyond Good & Evil | `0100E0A01DD20000` | `AC7FD7804398393D` (❌, v1, 1.0.1) | ⚔️ |
 | Beyond Enemy Lines | `0100AE7010434000` | `5915CDDDC4EEA6CD` ([✅](SaltySD/plugins/FPSLocker/patches/0100AE7010434000/5915CDDDC4EEA6CD.yaml), v1, 1.1.0) | 📏 |
+| Big Helmet Heroes | `010044B01E786000` | `2CF926BBD5D1AB4D` ([✅](SaltySD/plugins/FPSLocker/patches/010044B01E786000/2CF926BBD5D1AB4D.yaml), v2, 1.0.3) | 🔧 |
 | Biomutant | `01004BA017CD6000` | `4B86FC4FDF7B1A70` ([✅](SaltySD/plugins/FPSLocker/patches/01004BA017CD6000/4B86FC4FDF7B1A70.yaml), v1, 1.0.1) <br> `5BE02E1373BDE2CC` ([✅](SaltySD/plugins/FPSLocker/patches/01004BA017CD6000/5BE02E1373BDE2CC.yaml), v2, 1.0.2) | 📏🔧 |
 | BioShock Remastered | `0100AD10102B2000` | `D89FFAA2062E373D` ([✅](SaltySD/plugins/FPSLocker/patches/0100AD10102B2000/D89FFAA2062E373D.yaml), v1, 1.0.2) | 📏 |
 | BioShock 2 Remastered | `01002620102C6000` | `7D1714279435589C` ([✅](SaltySD/plugins/FPSLocker/patches/01002620102C6000/7D1714279435589C.yaml), v1, 1.0.2) | 📏 |
