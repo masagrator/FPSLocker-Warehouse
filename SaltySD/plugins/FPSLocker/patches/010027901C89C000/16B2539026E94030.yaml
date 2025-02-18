@@ -1,0 +1,12 @@
+# Hello Kitty Island Adventure 1.10.1
+# BID: 16B2539026E94030
+
+unsafeCheck: true
+
+ALL_FPS:
+  # UnityEngine.Time::fixedDeltaTime 
+  -
+    type: evaluate_write
+    address: [MAIN, 0xA508420, 0x48]
+    value_type: float
+    value: "1 / FPS_TARGET"
