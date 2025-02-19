@@ -2,13 +2,13 @@
 # BID: F6FB99E54347E740
 # Double buffer is hardcoded line by line, it's hard to make it triple
 
-unsafeCheck: false
+unsafeCheck: true
 
 MASTER_WRITE:
   # Redirect FPS Lock and Dynamic Resolution target values to MAIN + 0x21036F00
   -
     type: bytes
-    main_offset: 0x132824
+    main_offset: 0x13281C
     value_type: uint32
     value: 
       - 0x90107828 # ADRP X8, 0x21036000
@@ -23,7 +23,7 @@ MASTER_WRITE:
   # NOP updating Dynamic Resolution target value
   -
     type: bytes
-    main_offset: 0x2D94F0
+    main_offset: 0x2D94E8
     value_type: uint32
     value:
       - 0xB0106AE9 # ADRP X9, 0x21036000
