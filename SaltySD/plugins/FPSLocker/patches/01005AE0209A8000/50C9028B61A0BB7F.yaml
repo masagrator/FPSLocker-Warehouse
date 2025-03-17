@@ -68,9 +68,8 @@ ALL_FPS:
     address: [MAIN, 0xEC84C8]
     value_type: float
     value: "FPS_TARGET"
-  # Dynamic Resolution target, we change preference from resolution to framerate
   -
     type: evaluate_write
     address: [MAIN, 0x1359F00]
     value_type: float
-    value: ["1000 / (FPS_TARGET + 5)", "FRAMETIME_TARGET"]
+    value: ["1.5 * FRAMETIME_TARGET", "1.2 * FRAMETIME_TARGET"]
