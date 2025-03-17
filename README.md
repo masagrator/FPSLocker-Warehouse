@@ -703,6 +703,7 @@ PATCH AVAILABILITY<br>
 | Vampyr | `01000BD00CE64000` | `E417100FFEEFD1DE` ([✅](SaltySD/plugins/FPSLocker/patches/01000BD00CE64000/E417100FFEEFD1DE.yaml), v2, 0.4) | 📏 |
 | Warhammer 40,000: Boltgun | `01005FD017E60000` | `7C992B6A003C599F` ([✅](SaltySD/plugins/FPSLocker/patches/01005FD017E60000/7C992B6A003C599F.yaml), v3, 1.0.0.3) <br> `B8630C6EE3A22FE8` ([✅](SaltySD/plugins/FPSLocker/patches/01005FD017E60000/B8630C6EE3A22FE8.yaml), v5, 1.0.0.6) <br> `3E961285846C72A5` ([✅](SaltySD/plugins/FPSLocker/patches/01005FD017E60000/3E961285846C72A5.yaml), v6, 1.0.0.7) | 🔐📏🔧 |
 | Warhammer 40000: Shootas, Blood & Teef | `010088B0155E2000` | `C9300E99B4975DCF` (◯, v3, 1.0.3_Switch) | 🟢 |
+| WARRIORS: Abyss | `01005AE0209A8000` | `50C9028B61A0BB7F` ([✅](SaltySD/plugins/FPSLocker/patches/01005AE0209A8000/50C9028B61A0BB7F.yaml), v3, 1.1.0) | 🔐📏 |
 | WARRIORS OROCHI 4 | `010016A00AEC0000` | `5C9CCD358BE85FC9` ([✅](SaltySD/plugins/FPSLocker/patches/010016A00AEC0000/5C9CCD358BE85FC9.yaml), v8, 1.0.13) | 🔐 |
 | We Love Katamari REROLL+ Royal Reverie | `0100E71018D1A000` | `8B1BC6D7B367605F` (❌, v3, 1.0.3) | ⏱️ |
 | What Remains of Edith Finch | `010038900DFE0000` | `E9578A470B175851` ([✅](SaltySD/plugins/FPSLocker/patches/010038900DFE0000/E9578A470B175851.yaml), v0, 1.0.0) | 🔐📏 |
