@@ -115,6 +115,7 @@ PATCH AVAILABILITY<br>
 | Atelier Sophie | `0100D8701421C000` | `9C95108FD8F7464A` (◯, v3, 1.0.3) | 🟢 |
 | Atelier Sophie 2 | `010082A01538E000` | `4A1B406278346C2B` (◯, v8, 1.0.8) | 🟢 |
 | Atelier Totori | `01009BC00C6F6000` | `4FD4BFE66C5353D4` (◯, v1, 1.0.1) | 🟢 |
+| Atelier Yumia | `0100544020572000` | `A947DDE7826A3562` ([✅](SaltySD/plugins/FPSLocker/patches/0100544020572000/A947DDE7826A3562.yaml), v1, 1.0.1) | 🔐 |
 | Attack on Titan 2 | `010034500641A000` | `586EA519C1CDFAE7` (◯, v14, 1.0.14) | 🟢 |
 | Aztech Forgotten Gods | `01006B4014564000` | `65EF4BC77B974E05` (◯, v8, 1.0.8) | 🟢 |
 | Bakery Simulator | `010018601E9E0000` | `31A37D73E22F1059` ([✅](SaltySD/plugins/FPSLocker/patches/010018601E9E0000/31A37D73E22F1059.yaml), v1, 1.1.0) | 🔐🔧 |
