@@ -234,6 +234,22 @@ MASTER_WRITE:
       - 0x90023740
       - 0xD000E3E9
       - 0xBD426808
+  # Adjust QTE Speed 
+  ## Code cave
+  -
+    type: bytes
+    main_offset: 0x1744E74
+    value_type: uint32
+    value:
+      - 0xB0018454
+      - 0xBD426A81
+      - 0x17BA027E
+  ## Connect function
+  -
+    type: bytes
+    main_offset: 0x5C5870
+    value_type: uint32
+    value: 0x1445FD81
 ALL_FPS:
   # FPS Target
   -
