@@ -1,7 +1,7 @@
 # Xenoblade Chronicles X: Definitive Edition 1.0.1
 # BID: 3F2425864CF22684
 
-unsafeCheck: false
+unsafeCheck: true
 
 MASTER_WRITE:
   # Dynamic speed mod for stuff like UI, lipsync, grass and rain
