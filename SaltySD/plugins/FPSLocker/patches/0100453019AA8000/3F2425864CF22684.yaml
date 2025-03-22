@@ -266,6 +266,21 @@ MASTER_WRITE:
       - 0xBD426801
       - 0x1E210800
       - 0x17A681C9
+  # Fix long jump when not running
+  -
+    type: bytes
+    main_offset: 0x23EAD0
+    value_type: uint32
+    value: 0x145418DB
+  ## Code cave
+  -
+    type: bytes
+    main_offset: 0x1744E3C
+    value_type: uint32
+    value:
+      - 0xB001844A
+      - 0xBD426D4B
+      - 0x17ABE724
 ALL_FPS:
   # FPS Target
   -
