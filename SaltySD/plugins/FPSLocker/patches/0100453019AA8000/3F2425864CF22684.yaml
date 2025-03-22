@@ -133,17 +133,6 @@ MASTER_WRITE:
     main_offset: 0x1E24F8
     value_type: uint32
     value: 0xBD427120
-  # Function 9 to "1.0 / speed factor" // Gun speed
-  -
-    type: bytes
-    main_offset: 0x30F624
-    value_type: uint32
-    value: 
-      - 0x1E2E1001
-      - 0xD00225E0
-      - 0xBD426808
-      - 0x1E281828
-      - 0x1E200900
   # Adjust various elements related to fighting
   -
     type: bytes
@@ -159,6 +148,12 @@ MASTER_WRITE:
       - 0xB0018449
       - 0xBD426920
       - 0x17AA8F14
+  ## Fix gun speed
+  -
+    type: bytes
+    main_offset: 0x30F62C
+    value_type: uint32
+    value: 0xD503201F
   # Redirect DR Target to MAIN+0x47CDF00
   -
     type: bytes
