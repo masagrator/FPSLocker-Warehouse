@@ -122,18 +122,7 @@ MASTER_WRITE:
       - 0x1E390000
       - 0x528000C9
       - 0x1AC90808
-  ## Function 7 to Frametime in s // Gameplay speed
-  -
-    type: bytes
-    main_offset: 0x1E24E4
-    value_type: uint32
-    value: 0xF0022F49
-  -
-    type: bytes
-    main_offset: 0x1E24F8
-    value_type: uint32
-    value: 0xBD427120
-  ## Function 8 to Frametime in s // Cutscene speed
+  ## Function 7 to Frametime in s // Gameplay + cutscene speed
   -
     type: bytes
     main_offset: 0x1E24E4
