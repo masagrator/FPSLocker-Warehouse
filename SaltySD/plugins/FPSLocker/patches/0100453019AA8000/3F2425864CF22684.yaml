@@ -203,7 +203,7 @@ MASTER_WRITE:
     value_type: uint32
     value: 0x94558EB3
   # Force 1s sleep to synchronize audio if cutscene detected
-  ## Use function responsible for writing type of cutscene to write its ID if it's 8 or 16 to MAIN+0x47CDFFF
+  ## Use function responsible for writing type of cutscene to write its ID if it's 8 or 16 (or 0 for any other) to MAIN+0x47CDFFF
   -
     type: bytes
     main_offset: 0x2CFEB4
@@ -249,6 +249,23 @@ MASTER_WRITE:
       - 0x90023740
       - 0xD000E3E9
       - 0xBD426808
+  ## Fix for FN Site
+  -
+    type: bytes
+    main_offset: 0xE5558
+    value_type: uint32
+    value: 0x14597E34
+  ### Code cave
+  -
+    type: bytes
+    main_offset: 0x1744E28
+    value_type: uint32
+    value:
+      - 0xBD40D260
+      - 0xB0018440
+      - 0xBD426801
+      - 0x1E210800
+      - 0x17A681C9
 ALL_FPS:
   # FPS Target
   -
