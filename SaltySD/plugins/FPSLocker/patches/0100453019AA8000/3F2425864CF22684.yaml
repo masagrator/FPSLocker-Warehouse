@@ -298,6 +298,22 @@ MASTER_WRITE:
     main_offset: 0x5C5870
     value_type: uint32
     value: 0x1445FD81
+  # Adjust Overdrive counter, Follow Ball speed
+  ## Code cave
+  -
+    type: bytes
+    main_offset: 0x1744EC0
+    value_type: uint32
+    value:
+      - 0xB0018440
+      - 0xBD427000
+      - 0xD65F03C0
+  ## Connect function
+  -
+    type: bytes
+    main_offset: 0x67354
+    value_type: uint32
+    value: 0x945B76DB
 ALL_FPS:
   # FPS Target
   -
