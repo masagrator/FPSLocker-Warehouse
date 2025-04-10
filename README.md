@@ -607,6 +607,7 @@ PATCH AVAILABILITY<br>
 | SpongeBob SquarePants: The Patrick Star Game | `01008AF01AD22000` | `8F3E77E1322E9F6F` ([✅](SaltySD/plugins/FPSLocker/patches/01008AF01AD22000/8F3E77E1322E9F6F.yaml), v1, 1.0.1) <br> `222C0A2546723943` ([✅](SaltySD/plugins/FPSLocker/patches/01008AF01AD22000/222C0A2546723943.yaml), v2, 1.0.2) | ~~🏃~~ |
 | Spyro Reignited Trilogy | `010077B00E046000` | `D2775FAFCF4835CB` ([✅](SaltySD/plugins/FPSLocker/patches/010077B00E046000/D2775FAFCF4835CB.yaml), v1, 1.01) | ~~🔐📏~~ |
 | STAR OCEAN THE SECOND STORY R | `010065301A2E0000` | `D214BA64D902AEDA` (◯, v3, 1.1.0) | 🟢 |
+| Star Overdrive | `010047E01EA24000` | `C0D9B410A09A4ADD` ([✅](SaltySD/plugins/FPSLocker/patches/010047E01EA24000/C0D9B410A09A4ADD.yaml), v5, 1.0.5) | ~~🔐📏🔧~~ |
 | Starlink: Battle for Atlas | `01002CC003FE6000` | `13C816F2A273653C` (❌, v6, 1.0.6) | 📏 |
 | SteamWorld Build | `01004E401B3EA000` | `017834F19C49FA71` (◯, v16, 1.0.156) | 🟢 |
 | STORY OF SEASONS: A Wonderful Life | `010076801929A000` | `FDBD3A3B672290F8` (❌, v2, 1.0.2) | ⚔️ |
