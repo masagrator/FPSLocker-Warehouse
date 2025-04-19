@@ -337,7 +337,7 @@ PATCH AVAILABILITY<br>
 | Hoa | `010022E013A1A000` | `1A9DF794AC0099F3` (◯, v3, 1.0.3) | 🟢 |
 | Hogwarts Legacy | `0100F7E00C70E000` | `1C42BC734E792AFB` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7E00C70E000/1C42BC734E792AFB.yaml), v3, 1.0.3) <br> `2980E59C32A0E147` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7E00C70E000/2980E59C32A0E147.yaml), v4, 1.0.4) | ~~📏🔧~~ |
 | Hokko Life | `010022A016250000` | `D9D13603133F3D89` (◯, v5, 1.0.5) | 🟢 |
-| Horizon Chase 2 | `0100001019F6E000` | `F80EEC237D0963EE` ([✅](SaltySD/plugins/FPSLocker/patches/0100001019F6E000/F80EEC237D0963EE.yaml), v6, 1.6.3) <br> `D60A7F43A98034BE` ([✅](SaltySD/plugins/FPSLocker/patches/0100001019F6E000/D60A7F43A98034BE.yaml), v7, 1.6.6) | ~~🔐📏🔧~~ |
+| Horizon Chase 2 | `0100001019F6E000` | `F80EEC237D0963EE` ([✅](SaltySD/plugins/FPSLocker/patches/0100001019F6E000/F80EEC237D0963EE.yaml), v6, 1.6.3) <br> `D60A7F43A98034BE` ([✅](SaltySD/plugins/FPSLocker/patches/0100001019F6E000/D60A7F43A98034BE.yaml), v7, 1.6.6) <br> `E13F632FC2A66EEB` ([✅](SaltySD/plugins/FPSLocker/patches/0100001019F6E000/E13F632FC2A66EEB.yaml), v8, 1.6.9) | ~~🔐📏🔧~~ |
 | Hot Lap Racing | `010059301E612000` | `8E8C96D9B3FD9D83` (◯, v6, 1.1.3) | 🟢 |
 | Hot Wheels Monster Trucks: Stunt Mayhem | `010055D01C8D4000` | `444303671674DD91` ([✅](SaltySD/plugins/FPSLocker/patches/010055D01C8D4000/444303671674DD91.yaml), v1, 1.0.1) | ~~🔐📏🔧~~ |
 | HOT WHEELS UNLEASHED | `0100AA60136D2000` | `F73C6504D378C38B` ([✅](SaltySD/plugins/FPSLocker/patches/0100AA60136D2000/F73C6504D378C38B.yaml), v13, 1.0.13) <br> `A7F32A28D882D046` ([✅](SaltySD/plugins/FPSLocker/patches/0100AA60136D2000/A7F32A28D882D046.yaml), v14, 1.0.14) | ~~📏🔧~~ |
