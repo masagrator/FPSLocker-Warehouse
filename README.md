@@ -153,6 +153,7 @@ PATCH AVAILABILITY<br>
 | Bramble The Mountain King | `0100E87017D0E000` | `ACF3FF125C2A3E68` ([✅](SaltySD/plugins/FPSLocker/patches/0100E87017D0E000/ACF3FF125C2A3E68.yaml), v5, 1.0.7) | ~~📏~~ |
 | BRAVELY DEFAULT II | `01006DC010326000` | `05DE5A7F20BD1532` ([✅](SaltySD/plugins/FPSLocker/patches/01006DC010326000/05DE5A7F20BD1532.yaml), v0, 1.0.0) | ~~🔐📏~~ |
 | Bravery and Greed | `0100F60017D4E000` | `C660EA2CC0478E4B` (◯, v3, 1.0.3) | 🟢 |
+| Breathedge | `01000AA013A5E000` | `B26DE1669B729335` ([✅](SaltySD/plugins/FPSLocker/patches/01000AA013A5E000/B26DE1669B729335.yaml), v2, 1.0.2) | ~~🔐🔧~~ |
 | Bright Memory: Infinite | `01001A9018560000` | `DD425ECC07C305DF` ([✅](SaltySD/plugins/FPSLocker/patches/01001A9018560000/DD425ECC07C305DF.yaml), v3, 1.3) | ~~🔐📏🔧~~ |
 | Bro Falls | `01005EF01A12E000` | `A07FFE2F32878CE9` (◯, v0, 1.57) | 🟢 |
 | Broken Roads | `0100FAD01861C000` | `D84426C8D6B8D947` ([✅](SaltySD/plugins/FPSLocker/patches/0100FAD01861C000/D84426C8D6B8D947.yaml), v1, 1.2.11059) | ~~📏~~ |
