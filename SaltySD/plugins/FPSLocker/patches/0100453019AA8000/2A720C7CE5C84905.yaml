@@ -180,7 +180,7 @@ MASTER_WRITE:
   ## Connect function 1
   -
     type: bytes
-    main_offset: 0x1E1360
+    main_offset: 0x1E17A0
     value_type: uint32
     value: 0x94554E5A
   ## Connect function 2
@@ -195,7 +195,7 @@ MASTER_WRITE:
     value_type: uint32
     value: 0x94554E53
   # Force 1s sleep to synchronize audio if cutscene detected
-  ## Use function responsible for writing type of cutscene to write its ID if it's 8 or 16 (or 0 for any other) to MAIN+0x47BEFFF
+  ## Use function responsible for writing type 4 of cutscene
   -
     type: bytes
     main_offset: 0x2FB0D8
