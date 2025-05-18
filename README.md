@@ -11,7 +11,7 @@ Read SaltyNX readme to check which games are not compatible.
 
 ---
 
-Column `ISSUES` represents what issues you can expect from game when trying to go above default FPS target without using patch. It is valid only for the game's latest version listed here. In older versions it may be different (Example: Horizon Chase 2 1.6.6 uses internal FPS lock, but 1.6.3 doesn't).<br>
+Column `ISSUES` represents what issues you can expect from game when trying to go above default FPS target without using patch. It is valid only for the game's latest version listed here. In older versions it may be different (Example: Horizon Chase 2 1.6.6 uses internal FPS lock, but 1.6.3 doesn't).<br>at
 Patches status concern only FPSLocker "LOCK" patch format. There may exist cheat/IPS patch/mod that unlocks 60 FPS already.<br>
 As the list is filled by community, it may not be up to date.
 
@@ -307,7 +307,7 @@ PATCH AVAILABILITY<br>
 | Gigantosaurus The Game | `01002C400E526000` | `1FF442C5ABEB0459` ([✅](SaltySD/plugins/FPSLocker/patches/01002C400E526000/1FF442C5ABEB0459.yaml), v2, 1.0.2) | ~~🔐📏~~ |
 | Gigantosaurus: Dino Kart | `01001890167FE000` | `5F7A2866D8E20BBA` ([✅](SaltySD/plugins/FPSLocker/patches/01001890167FE000/5F7A2866D8E20BBA.yaml), v0, 1.0.0) <br> `512FB8C2D12C4F36` ([✅](SaltySD/plugins/FPSLocker/patches/01001890167FE000/512FB8C2D12C4F36.yaml), v1, 1.1.0) | ~~🔐📏🔧~~ |
 | GO VACATION | `0100C1800A9B6000` | `174471C5192F8647` (❌, v0, 1.0.0) | ⚔️ |
-| Goat Simulator 3 | `01001CC01B2D4000` | `0DE3020411F4232B` ([✅](SaltySD/plugins/FPSLocker/patches/01001CC01B2D4000/0DE3020411F4232B.yaml), v1, 1.0.7.1) <br> `26AB1CB54DD4508D` ([✅](SaltySD/plugins/FPSLocker/patches/01001CC01B2D4000/26AB1CB54DD4508D.yaml), v3, 1.0.7.3) <br> `A5DA93E6537350D8` ([✅](SaltySD/plugins/FPSLocker/patches/01001CC01B2D4000/A5DA93E6537350D8.yaml), v4, 1.0.7.4) <br> `C606C7DC1C0EC88F` ([✅](SaltySD/plugins/FPSLocker/patches/01001CC01B2D4000/C606C7DC1C0EC88F.yaml), v5, 1.0.7.5) <br> `8D4FD57DB7D63120` ([✅](SaltySD/plugins/FPSLocker/patches/01001CC01B2D4000/8D4FD57DB7D63120.yaml), v6, 1.0.7.6) | ~~📏🔧~~ |
+| Goat Simulator 3 | `01001CC01B2D4000` | `0DE3020411F4232B` ([✅](SaltySD/plugins/FPSLocker/patches/01001CC01B2D4000/0DE3020411F4232B.yaml), v1, 1.0.7.1) <br> `26AB1CB54DD4508D` ([✅](SaltySD/plugins/FPSLocker/patches/01001CC01B2D4000/26AB1CB54DD4508D.yaml), v3, 1.0.7.3) <br> `A5DA93E6537350D8` ([✅](SaltySD/plugins/FPSLocker/patches/01001CC01B2D4000/A5DA93E6537350D8.yaml), v4, 1.0.7.4) <br> `C606C7DC1C0EC88F` ([✅](SaltySD/plugins/FPSLocker/patches/01001CC01B2D4000/C606C7DC1C0EC88F.yaml), v5, 1.0.7.5) <br> `8D4FD57DB7D63120` ([✅](SaltySD/plugins/FPSLocker/patches/01001CC01B2D4000/8D4FD57DB7D63120.yaml), v6, 1.0.7.6) <br> `504EBEAB62E802AD` ([✅](SaltySD/plugins/FPSLocker/patches/01001CC01B2D4000/504EBEAB62E802AD.yaml), v7, 1.0.7.7) | ~~📏🔧~~ |
 | GOD EATER 3 | `01001C700873E000` | `C0F144F5139F542E` ([✅](SaltySD/plugins/FPSLocker/patches/01001C700873E000/C0F144F5139F542E.yaml), v11, 2.5.1) | ~~⚔️~~ |
 | GOD WARS The Complete Legend | `0100F3D00B032000` | `3A0835D09F6D1544` (❌, v1, 1.1) | 🏃 |
 | Gods Will Fall | `0100CFA0111C8000` | `2C22089ABC14264F` (◯, v4, 1.0.4) | 🟢 |
