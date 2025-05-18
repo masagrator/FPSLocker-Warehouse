@@ -689,6 +689,7 @@ PATCH AVAILABILITY<br>
 | The Witcher 3: Wild Hunt | `0100E67012924000` | `B151A224A429F9A7` ([✅](SaltySD/plugins/FPSLocker/patches/0100E67012924000/B151A224A429F9A7.yaml), v4, 4.04b) | ~~🔐📏~~ |
 | Thronebreaker: The Witcher Tales | `0100E910103B4000` | `1BD046113635234D` (◯, v2, 1.0.2) | 🟢 |
 | Thirsty Suitors | `0100982019374000` | `9DD9149968A0B8D3` ([✅](SaltySD/plugins/FPSLocker/patches/0100982019374000/9DD9149968A0B8D3.yaml), v0, NS27619.127559) | ~~📏~~ |
+| Tiebreak+ | `010008301AA96000` | `2A5244CCB17B44AC` ([✅](SaltySD/plugins/FPSLocker/patches/010008301AA96000/2A5244CCB17B44AC.yaml), v1, 1.1.0) | ~~⚔️📏~~ |
 | TinTin Reporter - Cigars of the Pharaoh | `0100E9001A94C000` | `57B6B2062EC8C38A` ([✅](SaltySD/plugins/FPSLocker/patches/0100E9001A94C000/57B6B2062EC8C38A.yaml), v3, 1.3.0) <br> `ACBD89C999804FD2` ([✅](SaltySD/plugins/FPSLocker/patches/0100E9001A94C000/ACBD89C999804FD2.yaml), v4, 1.4.0) | ~~📏🔧~~ |
 | Tiny Terry's Turbo Trip | `01002B202075A000` | `BDCCA3BAAC2D40DE` (◯, v4, 1.3.1) | 🟢 |
 | Tiny Troopers: Global Ops | `0100347013E4C000` | `63F1A8874A936747` (◯, v2, 1.0.0.2) | 🟢 |
