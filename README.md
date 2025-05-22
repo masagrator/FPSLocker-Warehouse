@@ -524,6 +524,7 @@ PATCH AVAILABILITY<br>
 | Potion Permit | `010025F0126FE000` | `EAD19EF59A52CC14` (◯, v13, 1.0.13) | 🟢 |
 | PowerWash Simulator | `0100926016012000` | `8EACFE3E9E92B0FE` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/8EACFE3E9E92B0FE.yaml), v12, 1.7.0) <br> `7FF42DE6AA57290B` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/7FF42DE6AA57290B.yaml), v16, 1.9.1) <br> `B2395B882C2BCB24` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/B2395B882C2BCB24.yaml), v17, 1.9.2) <br> `30997D8F7566EBB5` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/30997D8F7566EBB5.yaml), v18, 1.10.0) | ~~🔐~~ |
 | PROJECT ZERO: MAIDEN OF BLACK WATER | `0100BEB015604000` | `B38D51E0391187EC` ([✅](SaltySD/plugins/FPSLocker/patches/0100BEB015604000/B38D51E0391187EC.yaml), v4, 1.0.4) | ~~🔐⏱️🖥️~~ |
+| PROJECT ZERO: Mask of the Lunar Eclipse | `0100DAE019110000` | `0248DC99035AD28A` ([✅](SaltySD/plugins/FPSLocker/patches/0100DAE019110000/0248DC99035AD28A.yaml), v3, 1.0.3) | ~~🔐⏱️🖥️~~ |
 | Princess Peach Showtime! | `01007A3009184000` | `928EFE2954F68055` ([✅](SaltySD/plugins/FPSLocker/patches/01007A3009184000/928EFE2954F68055.yaml), v0, 1.0.0) | ~~📏🔧~~ |
 | Prison Simulator | `010094C017B06000` | `56C709E1A63CF9EA` (◯, v0, 1.0.0) | 🟢 |
 | Project Warlock | `0100BDB01150E000` | `D597DE8544D8ED4F` (◯, v4, 1.0.4) | 🟢 |
