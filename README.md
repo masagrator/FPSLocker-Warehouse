@@ -275,6 +275,7 @@ PATCH AVAILABILITY<br>
 | Farming Simulator 23 | `01001E3017A10000` | `17F37A56B17DD9CC` ([✅](SaltySD/plugins/FPSLocker/patches/01001E3017A10000/17F37A56B17DD9CC.yaml), v7, 1.7.0.0) | ~~🔐~~ |
 | Fashion Dreamer | `0100E99019B3A000` | `628BE46730A3B09D` (◯, v7, 1.5.1) | 🟢 |
 | F.I.S.T.: Forged in Shadow Torch | `01009F8017F48000` | `69EE5F71F187EAA9` ([✅](SaltySD/plugins/FPSLocker/patches/01009F8017F48000/69EE5F71F187EAA9.yaml), v4, 1.0.4) | ~~📏~~ |
+| 零 ～濡鴉ノ巫女～ | `010082F015576000` | `8BFBF5B8A7098443` ([✅](SaltySD/plugins/FPSLocker/patches/010082F015576000/8BFBF5B8A7098443.yaml), v5, 1.0.5) | ~~🔐⏱️🖥️~~ |
 | FATAL FRAME: MAIDEN OF BLACK WATER | `0100BEB015604000` | `B38D51E0391187EC` ([✅](SaltySD/plugins/FPSLocker/patches/0100BEB015604000/B38D51E0391187EC.yaml), v4, 1.0.4) | ~~🔐⏱️🖥️~~ |
 | Fate/EXTELLA | `010053E002EA2000` | `76EC789B99A25BA5` ([✅](SaltySD/plugins/FPSLocker/patches/010053E002EA2000/76EC789B99A25BA5.yaml), v0, 1.0.0) | ~~⚔️~~ |
 | Fate/EXTELLA LINK | `01001A700C832000` | `97FC79E063E26C9B` ([✅](SaltySD/plugins/FPSLocker/patches/01001A700C832000/97FC79E063E26C9B.yaml), v2, 1.0.2) | ~~⚔️~~ |
