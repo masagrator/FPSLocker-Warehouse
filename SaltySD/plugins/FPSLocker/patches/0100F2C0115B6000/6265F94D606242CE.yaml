@@ -17,7 +17,7 @@ MASTER_WRITE:
   # Code Injected, $x1 + 0xD8 - last frametime without compensation long ticks, $x0 + 0x50 - fps target used for calculatuon int,
   # $x0 + 0x24 - our fps target used for calculation but as float, originally is stored there 30 FPS int that seems to do nothing outside of this function
   ## MAIN + 0x3ACFFFC = FPS target for reference
-  ## REF: nvnSetPresentInterval
+  ## REF: nvnWindowSetPresentInterval
   - 
     type: bytes
     main_offset: 0x3E0F64
