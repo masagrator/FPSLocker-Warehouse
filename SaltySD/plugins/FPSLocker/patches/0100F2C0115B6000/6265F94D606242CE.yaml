@@ -14,7 +14,8 @@ MASTER_WRITE:
     main_offset: 0xBD1F08
     value_type: uint32
     value: 0x52800021
-  # Code Injected, $x1 + 0xD8 - last frametime without compensation long ticks, $x0 + 0x50 - fps target used for calculatuon int, $x0 + 0x4C - our fps target used for calculation but as float
+  # Code Injected, $x1 + 0xD8 - last frametime without compensation long ticks, $x0 + 0x50 - fps target used for calculatuon int,
+  # $x0 + 0x24 - our fps target used for calculation but as float, originally is stored there 30 FPS int that seems to do nothing outside of this function
   ## MAIN + 0x3ACFFFC = FPS target for reference
   ## REF: nvnSetPresentInterval
   - 
