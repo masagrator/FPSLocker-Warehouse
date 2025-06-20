@@ -15,6 +15,11 @@ Game is using internal FPS lock that must be patched.
 
 # How to find offsets
 
+Prefered method: Run this tool
+https://github.com/masagrator/FSPLocker-Dump-Helpers/releases/tag/FC25-release
+
+Second method:
+
 We need to use disassembler in this case. I will provide instructions based on IDA with enabled analysis macros.
 
 After finishing disassembling main, we need to find those bytes:
