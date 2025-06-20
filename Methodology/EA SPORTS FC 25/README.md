@@ -15,7 +15,7 @@ Game is using internal FPS lock that must be patched.
 
 # How to find offsets
 
-Prefered method: Run this tool
+Preferred method: Run this tool:<br>
 https://github.com/masagrator/FSPLocker-Dump-Helpers/releases/tag/FC25-release
 
 Second method:
