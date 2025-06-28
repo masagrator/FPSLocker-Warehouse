@@ -648,6 +648,7 @@ PATCH AVAILABILITY<br>
 | Tales from the Borderlands | `0100F0C011A68000` | `818C98B885460561` (◯, v0, 1.0.0) | 🟢 |
 | Tales of Graces f Remastered | `01005E701D168000` | `49700C9DA58DAD47` (◯, v3, 1.0.3) | 🟢 |
 | Tales of Symphonia Remastered | `0100A410169A4000` | `42673F5DE16DC698` (❌, v4, 1.3.1) | ⏱️🖥️ |
+| Tamagotchi Plaza | `010040601A9B8000` | `9ACE779510EC93C9` ([✅](SaltySD/plugins/FPSLocker/patches/010040601A9B8000/9ACE779510EC93C9.yaml), v2, 1.0.2) | ~~🔐~~ |
 | Taxi Chaos | `0100B76011DAA000` | `C5D73D3EDAADACB2` ([✅](SaltySD/plugins/FPSLocker/patches/0100B76011DAA000/C5D73D3EDAADACB2.yaml), v2, 1.0.3) | ~~🔐📏~~ |
 | TCG Card Market Simulator | `01001560214B8000` | `15532623187C22FF` (◯, v1, 1.0.1) | 🟢 |
 | Tchia | `0100CEE01D23C000` | `76B6E5E830A43D97` ([✅](SaltySD/plugins/FPSLocker/patches/0100CEE01D23C000/76B6E5E830A43D97.yaml), v1, 1.1) | ~~📏🔧~~ |
