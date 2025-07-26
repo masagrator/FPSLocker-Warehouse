@@ -8,7 +8,7 @@ MASTER_WRITE:
 # Redirect DR frametime target to MAIN+0x36D4F00
   -
     type: bytes
-    main_offset: 0x17358B0
+    main_offset: 0x17358B4
     value_type: uint32
     value: 
       - 0xF000FCED # adrp x13, #0x36D4000
