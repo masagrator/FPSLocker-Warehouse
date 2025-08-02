@@ -381,7 +381,8 @@ PATCH AVAILABILITY<br>
 | Kao the Kangaroo `US` | `010078C01769A000` | `7BA282E94D34C620` ([✅](SaltySD/plugins/FPSLocker/patches/010078C01769A000/7BA282E94D34C620.yaml), v5, 1.5) | ~~📏🔧~~ |
 | Katamari Damacy REROLL | `0100D7000C2C6000` | `B528B17AD9C71F41` (❌, v2, 1.2) | ⏱️ |
 | Kiki | `0100E2D01F290000` | `722D0E06169C2458` (◯, v0, 1.0.0) | 🟢 |
-| Kingdom Come: Deliverance | `0100650018FE0000` | `7A450848CFDEC18E` ([✅](SaltySD/plugins/FPSLocker/patches/0100650018FE0000/7A450848CFDEC18E.yaml), v2, 1.9.6H) | ~~🔐📏~~ |
+| Kingdom Come: Deliverance `GLOBAL` | `0100650018FE0000` | `7A450848CFDEC18E` ([✅](SaltySD/plugins/FPSLocker/patches/0100650018FE0000/7A450848CFDEC18E.yaml), v2, 1.9.6H) | ~~🔐📏~~ |
+| Kingdom Come: Deliverance `JPN` | `010021601C496000` | `7A450848CFDEC18E` ([✅](SaltySD/plugins/FPSLocker/patches/010021601C496000/7A450848CFDEC18E.yaml), v2, 1.9.6H) | ~~🔐📏~~ |
 | Kingdoms of Amalur: Re-Reckoning | `0100EF50132BE000` | `FA48B344ED72F24D` (◯, v7, 1.0.7) | 🟢 |
 | Kitaria Fables | `0100F30013BFC000` | `220AA80516734F4C` (◯, v3, 1.0.3) | 🟢 |
 | Kirby and the Forgotten Land | `01004D300C5AE000` | `D9BA7DB72FFAFECD` ([✅](SaltySD/plugins/FPSLocker/patches/01004D300C5AE000/D9BA7DB72FFAFECD.yaml), v0, 1.0.0) | ~~🔐📏⚔️⏱️🖥️~~ |
