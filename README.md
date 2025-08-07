@@ -531,6 +531,7 @@ PATCH AVAILABILITY<br>
 | Pokemon Violet | `01008F6008C5E000` | `709BFD6611529864` (❌, v12, 4.0.0) | ⚔️🏃⏱️🖥️ |
 | Poppy Playtime: Chapter 2 | `0100D3801E6CE000` | `E3A3FC8EEC76A4FB` ([✅](SaltySD/plugins/FPSLocker/patches/0100D3801E6CE000/E3A3FC8EEC76A4FB.yaml), v1, 1.1) | ~~📏🔧~~ |
 | Poppy Playtime: Chapter 3 | `0100BD601EC3E000` | `5AF163DEF288F098` ([✅](SaltySD/plugins/FPSLocker/patches/0100BD601EC3E000/5AF163DEF288F098.yaml), v1, 1.0.0.2) | ~~🔐📏🔧~~ |
+| Poppy Playtime: Chapter 4 | `0100A2902051A000` | `05ADD0D5FD677639` ([✅](SaltySD/plugins/FPSLocker/patches/0100A2902051A000/05ADD0D5FD677639.yaml), v1, 1.1) | ~~🔐📏🔧~~ |
 | Portal Knights | `0100437004170000` | `D59D81C06F923846` (❌, v8, 1.7.2) | ⚔️ |
 | Potion Permit | `010025F0126FE000` | `EAD19EF59A52CC14` (◯, v13, 1.0.13) | 🟢 |
 | PowerWash Simulator | `0100926016012000` | `8EACFE3E9E92B0FE` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/8EACFE3E9E92B0FE.yaml), v12, 1.7.0) <br> `7FF42DE6AA57290B` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/7FF42DE6AA57290B.yaml), v16, 1.9.1) <br> `B2395B882C2BCB24` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/B2395B882C2BCB24.yaml), v17, 1.9.2) <br> `30997D8F7566EBB5` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/30997D8F7566EBB5.yaml), v18, 1.10.0) <br> `561B0F485E699E4E` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/561B0F485E699E4E.yaml), v19, 1.11.0) | ~~🔐~~ |
