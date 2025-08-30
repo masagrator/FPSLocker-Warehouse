@@ -11,11 +11,3 @@ MASTER_WRITE:
     instructions: [
       [mov, x8, 0x300000003]
     ]
-ALL_FPS:
-  # DUMMY
-  -
-    type: write
-    address: [MAIN, 0x4740500]
-    value_type: uint8
-    value: 0
-

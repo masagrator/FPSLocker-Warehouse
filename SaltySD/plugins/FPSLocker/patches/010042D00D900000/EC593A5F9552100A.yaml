@@ -3,8 +3,21 @@
 
 unsafeCheck: true
 
+DECLARATIONS:
+  -
+    type: variable
+    name: dr_target1
+    value_type: float
+    default_value: 24
+    evaluate: "0.72 * FRAMETIME_TARGET"
+  -
+    type: variable
+    name: dr_target2
+    value_type: float
+    default_value: 31
+    evaluate: "0.93 * FRAMETIME_TARGET"
 MASTER_WRITE:
-  # redirect reading Dynamic Resolution timing min & max to MAIN + 0xC3C0A50
+  # redirect reading Dynamic Resolution timing min & max
   -
     type: asm_a64
     main_offset: 0x6171A0
@@ -12,33 +25,20 @@ MASTER_WRITE:
       [nop],
       [ldr, s3, [x11, 0xe04]],
       [fadd, s1, s1, s3],
-      [adrp, x12, 0xc3c0000],
-      [ldr, s2, [x12, 0xa50]]
+      [adrp, x12, $dr_target1],
+      [ldr, s2, [x12, $dr_target1]]
     ]
   -
     type: asm_a64
     main_offset: 0x6171F0
     instructions: [
-      [adrp, x11, 0xc3c0000],
-      [ldr, s2, [x11, 0xa54]]
+      [adrp, x11, $dr_target2],
+      [ldr, s2, [x11, $dr_target2]]
     ]
-  # Default DR timings
-  -
-    type: bytes
-    main_offset: 0xC3C0A50
-    value_type: float
-    value: [24, 31]
 ALL_FPS:
   # g_video_swap_mode
   -
     type: write
     address: [MAIN, 0xAA62FF0]
     value_type: int32
-    value: 2
-  # Min + max dynamic resolution timing in ms
-  -
-    type: evaluate_write
-    address: [MAIN, 0xC3C0A50]
-    value_type: float
-    value: ["0.72 * FRAMETIME_TARGET", "0.93 * FRAMETIME_TARGET"]
-
+    value: 1

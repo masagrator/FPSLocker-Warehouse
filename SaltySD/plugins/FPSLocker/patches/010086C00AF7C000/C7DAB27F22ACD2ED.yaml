@@ -26,10 +26,3 @@ MASTER_WRITE:
       [nop],
       [nop]
     ]
-ALL_FPS:
-  # DUMMY
-  -
-    type: write
-    address: [MAIN, 0x6AE8500]
-    value_type: uint8
-    value: 0

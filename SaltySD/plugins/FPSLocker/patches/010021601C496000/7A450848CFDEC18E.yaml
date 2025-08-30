@@ -40,10 +40,10 @@ ALL_FPS:
     value: FPS_LOCK_TARGET
   # Renderer thread delay
   -
-    type: write
+    type: evaluate_write
     address: [MAIN, 0x5704028]
     value_type: float
-    value: 0.01
+    value: "0.66 * (1/FPS_TARGET)"
   # DR timings
   -
     type: evaluate_write
@@ -53,4 +53,5 @@ ALL_FPS:
   -
     type: block
     what: timing
+
 
