@@ -1,4 +1,4 @@
-# TinTin Reporter - Cigars of the Pharaoh 1.4.1
+# TinTin Reporter - Cigars of the Pharaoh 1.4.0/1.4.1
 # BID: ACBD89C999804FD2
 
 ALL_FPS:
@@ -23,3 +23,4 @@ ALL_FPS:
   -
     type: block
     what: timing
+
