@@ -24,7 +24,7 @@ As the list is filled by community, it may not be up to date.
 
 If any issue is crossed out, it means it was solved to - subjectively - acceptable level.
 
-> <a id="a"></a>🟢 - No issues
+> <a id="🟢"></a>🟢 - No issues
 
 > 🔐 - *Internal FPS Lock* - must be removed or adjusted, example: `A Hat in Time`
 
@@ -72,7 +72,7 @@ PATCH AVAILABILITY<br>
 | ACE COMBAT™7 SKIES UNKNOWN | `0100E3401D660000` | `FDBEE885A65A2B92` ([✅](SaltySD/plugins/FPSLocker/patches/0100E3401D660000/FDBEE885A65A2B92.yaml), v0, 1.0.0) | ~~🔐🔧~~ |
 | Achilles Legends Untold | `01007BE01FCC2000` | `BDDD7E8FA07C8C75` ([✅](SaltySD/plugins/FPSLocker/patches/01007BE01FCC2000/BDDD7E8FA07C8C75.yaml), v2, 1.0.2) | ~~📏🔧~~ |
 | Advance Wars 1+2: Re-Boot Camp | `0100300012F2A000` | `320A17744AEFD67F`  ([✅](SaltySD/plugins/FPSLocker/patches/0100300012F2A000/320A17744AEFD67F.yaml), v0, 1.0.0) | ~~🔐~~ |
-| Adventure Time: Pirates of the Enchiridion | `0100C4E004406000` | `550CC8AAD902C04F` (◯, v4, 1.0.4.26870) | [🟢](#a) |
+| Adventure Time: Pirates of the Enchiridion | `0100C4E004406000` | `550CC8AAD902C04F` (◯, v4, 1.0.4.26870) | [🟢](#🟢) |
 | AEW: Fight Forever | `0100BD10190C0000` | `45C15AE4450708FD` ([✅](SaltySD/plugins/FPSLocker/patches/0100BD10190C0000/45C15AE4450708FD.yaml), v9, 1.10.0) | ~~🔐📏🔧~~ |
 | Against the Storm | `010062F01F2CC000` | `99AFEE8180CE93D8` (◯, v3, 1.18) | 🟢 |
 | Agent Intercept | `0100B80013C1C000` | `A475D0073EA170B0` (◯, v0, 1.0.0) | 🟢 |
