@@ -450,6 +450,7 @@ PATCH AVAILABILITY<br>
 | Metro: Last Light Redux | `0100F0400E850000` | `85C362CC9790F0ED` ([✅](SaltySD/plugins/FPSLocker/patches/0100F0400E850000/85C362CC9790F0ED.yaml), v0, 1.0.0) | ~~📏~~ |
 | Miitopia | `01003DA010E8A000` | `3378B75A3DD2ADA9` (❌, v3, 1.0.3) | ⏱️🖥️ |
 | Minecraft Dungeons | `01006C100EC08000` | `13F573E3017996E4` (◯, v27, 1.17.0.0) | 🟢 |
+| MOBILE SUIT GUNDAM SEED BATTLE DESTINY REMASTERED | `010093C01F256000` | `CABB3B5447C2F79F` ([✅](SaltySD/plugins/FPSLocker/patches/010093C01F256000/CABB3B5447C2F79F.yaml), v1, 1.0.1) | ~~📏🔧~~ |
 | Modern Combat Blackout | `0100D8700B712000` | `C56E6F514FADC5C5` ([✅](SaltySD/plugins/FPSLocker/patches/0100D8700B712000/C56E6F514FADC5C5.yaml), v3, 1.1.9) | ~~🔐📏~~ |
 | Momotaro Dentetsu: Showa, Heisei, Reiwa no Teiban! Asia Edition | `010021801DD26000` | `B2D4462B71536EC6` ([✅](SaltySD/plugins/FPSLocker/patches/010021801DD26000/B2D4462B71536EC6.yaml), v1, 1.0.1) | ~~🔐⏱️🖥️⚔️🔢~~ |
 | MONARK | `0100E4A01548C000` | `85EB6295023DD394` (◯, v1, 1.0.1) | 🟢 |
