@@ -26,33 +26,33 @@ If any issue is crossed out, it means it was solved to - subjectively - acceptab
 
 > <a id="🟢"></a>🟢 - No issues
 
-> 🔐 - *Internal FPS Lock* - must be removed or adjusted, example: `A Hat in Time`
+> <a id="🔐"></a>🔐 - *Internal FPS Lock* - must be removed or adjusted, example: `A Hat in Time`
 
-> 📏 - *Dynamic Resolution* - must be adjusted to target other FPS, example: `SHADOW GENERATIONS`
+> <a id="📏"></a>📏 - *Dynamic Resolution* - must be adjusted to target other FPS, example: `SHADOW GENERATIONS`
 
-> ⚔️ - *Double Buffer* - changing it to triple buffer allows staying more often at higher FPS, example: `The Legend of Zelda: Breath of the Wild`. It doesn't include games that are not rendering double buffer in `Acquire->Render->Present` order (like `Present->Render->Acquire`), f.e. `The Witcher 3`
+> <a id="⚔️"></a>⚔️ - *Double Buffer* - changing it to triple buffer allows staying more often at higher FPS, example: `The Legend of Zelda: Breath of the Wild`. It doesn't include games that are not rendering double buffer in `Acquire->Render->Present` order (like `Present->Render->Acquire`), f.e. `The Witcher 3`
 
-> 👄 - *Lipsync* - must be adjusted to work correctly at different FPS, example: `The Legend of Heroes: Trails of Cold Steel 3`
+> <a id="👄"></a>👄 - *Lipsync* - must be adjusted to work correctly at different FPS, example: `The Legend of Heroes: Trails of Cold Steel 3`
 
-> ⏱️ - *Gameplay speed* - must be adjusted to work correctly at different FPS, example: `The Legend of Zelda: Breath of the Wild`
+> <a id="⏱️"></a>⏱️ - *Gameplay speed* - must be adjusted to work correctly at different FPS, example: `The Legend of Zelda: Breath of the Wild`
 
-> 🏃 - *Physics* - must be adjusted to work correctly at different FPS, example: `The Legend of Zelda: Breath of the Wild`
+> <a id="🏃"></a>🏃 - *Physics* - must be adjusted to work correctly at different FPS, example: `The Legend of Zelda: Breath of the Wild`
 
-> 🛑 - *Fake frames* - game must be adjusted to not show them at higher FPS, example: `DAVE THE DIVER`
+> <a id="🛑"></a>🛑 - *Fake frames* - game must be adjusted to not show them at higher FPS, example: `DAVE THE DIVER`
 
-> 🌤️ - *Graphics effects* - game must be adjusted to have them rendered correctly at higher FPS, example: `Gear.Club Unlimited 2`
+> <a id="🌤️"></a>🌤️ - *Graphics effects* - game must be adjusted to have them rendered correctly at higher FPS, example: `Gear.Club Unlimited 2`
 
-> 🖥️ - *UI speed* - game must be adjusted to have them rendered correctly at higher FPS, example: `The Legend of Zelda: Breath of the Wild`
+> <a id="🖥️"></a>🖥️ - *UI speed* - game must be adjusted to have them rendered correctly at higher FPS, example: `The Legend of Zelda: Breath of the Wild`
 
-> 🖌️ - *UI broken animations* - game must be adjusted to have them rendered correctly at higher FPS, example: `Another Code: Recollection`
+> <a id="🖌️"></a>🖌️ - *UI broken animations* - game must be adjusted to have them rendered correctly at higher FPS, example: `Another Code: Recollection`
 
-> 📺 - *Cutscenes* - they must be blocked to certain framerate to not cause issues, example: `The Legend of Zelda: Breath of the Wild`
+> <a id="📺"></a>📺 - *Cutscenes* - they must be blocked to certain framerate to not cause issues, example: `The Legend of Zelda: Breath of the Wild`
 
-> 🎮 - *Button polling* - it must be adjusted to not miss button presses at higher FPS, example: `NARUTO SHIPPUDEN: Ultimate Ninja STORM 4 ROAD TO BORUTO`
+> <a id="🎮"></a>🎮 - *Button polling* - it must be adjusted to not miss button presses at higher FPS, example: `NARUTO SHIPPUDEN: Ultimate Ninja STORM 4 ROAD TO BORUTO`
 
-> 🔢 - *Logic* - it must be fixed to work correctly at higher FPS, example: `Pikmin 4`
+> <a id="🔢"></a>🔢 - *Logic* - it must be fixed to work correctly at higher FPS, example: `Pikmin 4`
 
-> 🔧 - *Hindered performance* - something in game is causing performance issues at higher FPS, either on its own (`r.VSync` setting in UE4/UE5 games) or when something from the above is adjusted, example: `Outer Wilds`
+> <a id="🔧"></a>🔧 - *Hindered performance* - something in game is causing performance issues at higher FPS, either on its own (`r.VSync` setting in UE4/UE5 games) or when something from the above is adjusted, example: `Outer Wilds`
 
 PATCH AVAILABILITY<br>
 ✝️ - patch is not possible to create<br>
