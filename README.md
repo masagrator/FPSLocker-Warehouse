@@ -748,6 +748,7 @@ PATCH AVAILABILITY<br>
 | Trials Rising | `01003E800A102000` | `283095029A5AB467` ([✅](SaltySD/plugins/FPSLocker/patches/01003E800A102000/283095029A5AB467.yaml), v13, 1.0.13) | ~~📏⏱️🖥️~~⚔️ |
 | Triangle Strategy | `0100CC80140F8000` | `9CB4490E8A718BAE` ([✅](SaltySD/plugins/FPSLocker/patches/0100CC80140F8000/9CB4490E8A718BAE.yaml), v4, 1.1.1) | ~~📏🔧~~ |
 | Trine 5: A Clockwork Conspiracy | `0100E2701A888000` | `8322528255D2CC63` ([✅](SaltySD/plugins/FPSLocker/patches/0100E2701A888000/8322528255D2CC63.yaml), v5, 1.0.5) | ~~📏⚔️~~ |
+| Troublemaker | `01001040220E8000` | `336E56D09501A52E` ([✅](SaltySD/plugins/FPSLocker/patches/01001040220E8000/336E56D09501A52E.yaml), v1, 1.0.2) | ~~🔐🔧~~ |
 | TT Isle of Man | `010099900CAB2000` | `F2F739A2F1CAFF72` ([✅](SaltySD/plugins/FPSLocker/patches/010099900CAB2000/F2F739A2F1CAFF72.yaml), v1, 1.1.0) | ~~📏~~ |
 | TT Isle of Man 3 | `0100FA2019AC2000` | `91CE601F6A7174CF` ([✅](SaltySD/plugins/FPSLocker/patches/0100FA2019AC2000/91CE601F6A7174CF.yaml), v7, 1.7.0) | ~~📏~~ |
 | Turbo Overkill | `0100D1A01D7BA000` | `D42E8EBCE24C4976` (◯, v2, 1.1.1) | 🟢 |
