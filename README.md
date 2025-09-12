@@ -820,7 +820,7 @@ PATCH AVAILABILITY<br>
 
 ---
 
-> Patches for games not locked to 30 FPS, but with graphics settings targeting 30 FPS
+> Patches for games not locked to 30 FPS, but with graphics settings targeting strictly 30 or 60 FPS
 
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | ISSUES |
 | --- | --- | --- | --- |
@@ -829,7 +829,7 @@ PATCH AVAILABILITY<br>
 | City of Brass | `01009BC00B872000` | `53116900DC7BBE11` ([✅](SaltySD/plugins/FPSLocker/patches/01009BC00B872000/53116900DC7BBE11.yaml), v2, 1.2.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Misc. A Tiny Tale | `0100A5E014196000` | `0E9D849EF47198D8` ([✅](SaltySD/plugins/FPSLocker/patches/0100A5E014196000/0E9D849EF47198D8.yaml), v5, 1.0.4) <br> `D24A46A2618C9E38` ([✅](SaltySD/plugins/FPSLocker/patches/0100A5E014196000/D24A46A2618C9E38.yaml), v6, 1.0.5) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Mortal Shell | `0100154019A7C000` | `6D9F6C7B79F5197F` ([✅](SaltySD/plugins/FPSLocker/patches/0100154019A7C000/6D9F6C7B79F5197F.yaml), v2, 1.2.0) | ~~[📏](#📏)~~ |
-| NINJA GAIDEN: Ragebound | `0100781020710000` | `C7BD9BFC5F202073` ([✅](SaltySD/plugins/FPSLocker/patches/0100781020710000/C7BD9BFC5F202073.yaml), v3, 1.0.3) | ~~[🛑](#🛑)~~ |
+| NINJA GAIDEN: Ragebound | `0100781020710000` | `C7BD9BFC5F202073` ([✅](SaltySD/plugins/FPSLocker/patches/0100781020710000/C7BD9BFC5F202073.yaml), v3, 1.0.3) <br> `48D35EF3C7EFBF5F` ([✅](SaltySD/plugins/FPSLocker/patches/0100781020710000/48D35EF3C7EFBF5F.yaml), v4, 1.0.4) | ~~[🛑](#🛑)~~ |
 | RiMS Racing | `01003CD01299E000` | `4232D493269475B2` ([✅](SaltySD/plugins/FPSLocker/patches/01003CD01299E000/4232D493269475B2.yaml), v2, 1.2.0) | ~~[📏](#📏)~~ |
 | The Plucky Squire | `01006BD018B54000` | `B771B34505774A8E` ([✅](SaltySD/plugins/FPSLocker/patches/01006BD018B54000/B771B34505774A8E.yaml), v3, 1.0.3) <br> `D53CF6573CAED4B1` ([✅](SaltySD/plugins/FPSLocker/patches/01006BD018B54000/D53CF6573CAED4B1.yaml), v4, 1.0.4) <br> `0A1AC10CCFE46061` ([✅](SaltySD/plugins/FPSLocker/patches/01006BD018B54000/0A1AC10CCFE46061.yaml), v5, 1.0.5) <br> `FD3AC4FFB1B769D5` ([✅](SaltySD/plugins/FPSLocker/patches/01006BD018B54000/FD3AC4FFB1B769D5.yaml), v6, 1.0.6) <br> `AFDEB128252898AC` ([✅](SaltySD/plugins/FPSLocker/patches/01006BD018B54000/AFDEB128252898AC.yaml), v7, 1.0.7) <br> `892E6C4FE0D850B5` ([✅](SaltySD/plugins/FPSLocker/patches/01006BD018B54000/892E6C4FE0D850B5.yaml), v8, 1.0.8) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | TT Isle of Man 2 | `010000400F582000` | `02F2E5C8CBF5A92F` ([✅](SaltySD/plugins/FPSLocker/patches/010000400F582000/02F2E5C8CBF5A92F.yaml), v1, 1.0.1) | ~~[📏](#📏)~~ |
