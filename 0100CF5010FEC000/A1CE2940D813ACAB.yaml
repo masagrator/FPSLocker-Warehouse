@@ -36,3 +36,10 @@ MASTER_WRITE:
     instructions: [
       [mov, w10, w9]
     ]
+  # Force default interval to 2
+  -
+    type: asm_a64
+    main_offset: 0xFFB01C
+    instructions: [
+      [mov, w1, 2]
+    ]
