@@ -132,13 +132,14 @@ PATCH AVAILABILITY<br>
 | Bang-On Balls: Chronicles | `010081E01A45C000` | `25D3C2E9040D1A9A` ([✅](SaltySD/plugins/FPSLocker/patches/010081E01A45C000/25D3C2E9040D1A9A.yaml), v4, 1.0.4) <br> `36C7E946E6C11C8E` ([✅](SaltySD/plugins/FPSLocker/patches/010081E01A45C000/36C7E946E6C11C8E.yaml), v5, 1.0.5) | ~~[📏](#📏)[🔧](#🔧)~~ | 
 | Baldo The Guardian Owls | `0100A75005E92000` | `9E29077BE56B5E4D` (◯, v17, 1.0.17) | [🟢](#🟢) |
 | Bandle Tale: A League of Legends Story | `010052B01BEC0000` | `8BF051A6E3110A30` (◯, v1, 1.062) | [🟢](#🟢) |
+| Bassmaster Fishing 2022 | `0100B8501771A000` | `78BF042012CF9EE8` ([✅](SaltySD/plugins/FPSLocker/patches/0100B8501771A000/78BF042012CF9EE8.yaml), v2, 1.02) | ~~[📏](#📏)~~ |
 | Batman - The Telltale Series | `0100011005D92000` | `A3A998AF3252D110` ([✅](SaltySD/plugins/FPSLocker/patches/0100011005D92000/A3A998AF3252D110.yaml), v3, 1.0.4) | ~~[⚔️](#⚔️)~~ |
 | Batman: Arkham Asylum | `0100E870163CA000` | `621EE66A6743D750` ([✅](SaltySD/plugins/FPSLocker/patches/0100E870163CA000/621EE66A6743D750.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
 | Batman: Arkham City | `01003F00163CE000` | `8983C5A34B178E5C` (◯, v2, 1.0.2) | [🟢](#🟢) |
 | Batman: Arkham Knight | `0100ACD0163D0000` | `7DC6FDFAD9368F08` (◯, v3, 1.0.3) | [🟢](#🟢) |
 | Batman: The Enemy Within | `0100E6300AA3A000` | `AAC6FB02E03062EF` ([✅](SaltySD/plugins/FPSLocker/patches/0100E6300AA3A000/AAC6FB02E03062EF.yaml), v1, 1.0.3) | ~~[⚔️](#⚔️)~~ |
 | Batora: Lost Haven | `0100A93016BF4000` | `770A07C35E631CB2` ([✅](SaltySD/plugins/FPSLocker/patches/0100A93016BF4000/770A07C35E631CB2.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[📏](#📏)~~ |
-| Bassmaster Fishing 2022 | `0100B8501771A000` | `78BF042012CF9EE8` ([✅](SaltySD/plugins/FPSLocker/patches/0100B8501771A000/78BF042012CF9EE8.yaml), v2, 1.02) | ~~[📏](#📏)~~ |
+| Bayonetta Origins: Cereza and the Lost Demon | `0100CF5010FEC000` | `A1CE2940D813ACAB` ([✅](SaltySD/plugins/FPSLocker/patches/0100CF5010FEC000/A1CE2940D813ACAB.yaml), v0, 1.0.0) | ~~[⏱️](#⏱️)~~ |
 | Bendy: Lone Wolf | `010071B022A36000` | `E301AFDBCDF9F9AD` (◯, v3, 2.0.5) | [🟢](#🟢) |
 | Bendy and the Dark Revival | `0100207021C3C000` | `2C2D599E55912C6C` (❌, v1, 1.6.9s) | [📏](#📏)[🛑](#🛑) |
 | Bendy and the Ink Machine | `0100D4C00C6C0000` | `91B6BD011F0C2C46` (◯, v2, 1.6.0.0) | [🟢](#🟢) |
