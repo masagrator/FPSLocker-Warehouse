@@ -434,7 +434,7 @@ PATCH AVAILABILITY<br>
 | Lysfanga: The Time Shift Warrior | `0100ED601B876000` | `3B47E57FD8B8EE7B` (◯, v2, 1.0.2) | [🟢](#🟢) |
 | Maglam Lord | `01002C0015644000` | `3A3C781930CB8201` ([✅](SaltySD/plugins/FPSLocker/patches/01002C0015644000/3A3C781930CB8201.yaml), v0, 1.00) | ~~[🔐](#🔐)[📏](#📏)~~[🏃](#🏃) |
 | Maquette | `0100861018480000` | `B0F09EE3E404D549` (❌, v0, 1.0.0) | [⚔️](#⚔️) |
-| Mandragora: Whispers of the Witch Tree `EUR` | `0100D1202322A000` | `89E4C9599C96D7DE` ([✅](SaltySD/plugins/FPSLocker/patches/0100D1202322A000/89E4C9599C96D7DE.yaml), v1, 1.5.3.135819) | ~~[📏](#📏)[🔧](#🔧)~~ |
+| Mandragora: Whispers of the Witch Tree `EUR` | `0100D1202322A000` | `89E4C9599C96D7DE` ([✅](SaltySD/plugins/FPSLocker/patches/0100D1202322A000/89E4C9599C96D7DE.yaml), v1, 1.5.3.135819) <br> `E04F5D58727DDE13` ([✅](SaltySD/plugins/FPSLocker/patches/0100D1202322A000/E04F5D58727DDE13.yaml), v2, 1.5.4.135908) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Mandragora：Whispers of the Witch Tree `JPN` | `0100B2002330E000` | `637F8C946F7C512D` ([✅](SaltySD/plugins/FPSLocker/patches/0100B2002330E000/637F8C946F7C512D.yaml), v1, 1.5.3.135819) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Mario & Luigi: Brothership | `01006D0017F7A000` | `59874C9B530095AC` ([✅](SaltySD/plugins/FPSLocker/patches/01006D0017F7A000/59874C9B530095AC.yaml), v0, 1.0.0) <br> `BF0607AC795B593A` ([✅](SaltySD/plugins/FPSLocker/patches/01006D0017F7A000/BF0607AC795B593A.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | Mario + Rabbids Kingdom Battle | `010067300059A000` | `3B39E0C06B8841F1` (◯, v9, 1.9.589692) | [🟢](#🟢) |
