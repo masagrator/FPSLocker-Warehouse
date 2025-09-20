@@ -370,6 +370,7 @@ PATCH AVAILABILITY<br>
 | HOT WHEELS UNLEASHED | `0100AA60136D2000` | `F73C6504D378C38B` ([✅](SaltySD/plugins/FPSLocker/patches/0100AA60136D2000/F73C6504D378C38B.yaml), v13, 1.0.13) <br> `A7F32A28D882D046` ([✅](SaltySD/plugins/FPSLocker/patches/0100AA60136D2000/A7F32A28D882D046.yaml), v14, 1.0.14) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | HOT WHEELS UNLEASHED 2 | `01001BE01908C000` | `C95F34910CE1CDC0`  ([✅](SaltySD/plugins/FPSLocker/patches/01001BE01908C000/C95F34910CE1CDC0.yaml), v9, 1.0.9) <br> `E1F81DC590FDE0B5` ([✅](SaltySD/plugins/FPSLocker/patches/01001BE01908C000/E1F81DC590FDE0B5.yaml), v10, 1.0.10) <br> `FE78C7B94C4E791A` ([✅](SaltySD/plugins/FPSLocker/patches/01001BE01908C000/FE78C7B94C4E791A.yaml), v11, 1.0.11) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | House Flipper | `0100CAE00EB02000` | `0764284443A86245` (◯, v11, 1.11.0) | [🟢](#🟢) |
+| HYKE:Northern Light(s) | `0100EF401D9B2000` | `35FAA72E03DDE0D1` ([✅](SaltySD/plugins/FPSLocker/patches/0100EF401D9B2000/35FAA72E03DDE0D1.yaml), v0, 1.0.0) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | HYPERCHARGE: Unboxed | `0100A8B00F0B4000` | `92511355705EA8C5` ([✅](SaltySD/plugins/FPSLocker/patches/0100A8B00F0B4000/92511355705EA8C5.yaml), v5, 0.1.2341.233) | ~~[📏](#📏)~~ |
 | Hyrule Warriors: Age of Calamity | `01002B00111A2000` | `C3CF52BF2B05D731` ([✅](SaltySD/plugins/FPSLocker/patches/01002B00111A2000/C3CF52BF2B05D731.yaml), v5, 1.3.0) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~[📺](#📺) |
 | I Am Setsuna. | `0100849000BDA000` | `0BBA2167AED893BE` (◯, v1, 1.1.0) | [🟢](#🟢) |
