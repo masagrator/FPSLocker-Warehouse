@@ -1,0 +1,10 @@
+# EA SPORTS FC 26 1.80.11a0
+# BID: 39296BB1FD4A3F20
+
+ALL_FPS:
+  # Internal FPS Lock
+  -
+    type: evaluate_write
+    address: [MAIN, 0xCEEFA88, 8]
+    value_type: double
+    value: FPS_TARGET
