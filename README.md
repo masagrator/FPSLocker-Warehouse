@@ -720,9 +720,9 @@ PATCH AVAILABILITY<br>
 | The Knight Witch | `0100E8501816E000` | `9C09F15234A270E4` (◯, v5, 1.0.5) | [🟢](#🟢) |
 | The Last Worker | `0100ADC014CDE000` | `DAAADE43EA48F66B` (◯, v2, 1.0.4) | [🟢](#🟢) |
 | The Legend of Heroes: Trails into Reverie | `01008CB0156BC000` | `7735C8DD89D145F2` ([✅](SaltySD/plugins/FPSLocker/patches/01008CB0156BC000/7735C8DD89D145F2.yaml), v4, 1.0.4) | ~~[🔐](#🔐)[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)[🔧](#🔧)~~ |
-| The Legend of Heroes: Trails of Cold Steel III | `01005420101DA000` | `134EC3D8BE75126F` ([✅](SaltySD/plugins/FPSLocker/patches/01005420101DA000/134EC3D8BE75126F.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)[🔧](#🔧)~~[🔢](#🔢) |
-| 英雄伝説 閃の軌跡Ⅲ | `0100E57010542000` | `3FB33205C25D3436` ([✅](SaltySD/plugins/FPSLocker/patches/0100E57010542000/3FB33205C25D3436.yaml), v0, 1.0.0) | ~~[🔐](#🔐)[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)[🔧](#🔧)~~[🔢](#🔢) |
-| 英雄傳說 閃之軌跡III | `010044D015F4A000` | `37C3FAEFC9A4C374` ([✅](SaltySD/plugins/FPSLocker/patches/010044D015F4A000/37C3FAEFC9A4C374.yaml), v0, 1.0.0) | ~~[🔐](#🔐)[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)[🔧](#🔧)~~[🔢](#🔢) |
+| The Legend of Heroes: Trails of Cold Steel III | `01005420101DA000` | `134EC3D8BE75126F` ([✅](SaltySD/plugins/FPSLocker/patches/01005420101DA000/134EC3D8BE75126F.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢)[🔧](#🔧)~~ |
+| 英雄伝説 閃の軌跡Ⅲ | `0100E57010542000` | `3FB33205C25D3436` ([✅](SaltySD/plugins/FPSLocker/patches/0100E57010542000/3FB33205C25D3436.yaml), v0, 1.0.0) | ~~[🔐](#🔐)[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢)[🔧](#🔧)~~ |
+| 英雄傳說 閃之軌跡III | `010044D015F4A000` | `37C3FAEFC9A4C374` ([✅](SaltySD/plugins/FPSLocker/patches/010044D015F4A000/37C3FAEFC9A4C374.yaml), v0, 1.0.0) | ~~[🔐](#🔐)[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢)[🔧](#🔧)~~ |
 | The Legend of Heroes: Trails of Cold Steel IV | `0100D3C010DE8000` | `59159483CF88330F` ([✅](SaltySD/plugins/FPSLocker/patches/0100D3C010DE8000/59159483CF88330F.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢)[🔧](#🔧)~~ |
 | The Legend of Heroes: Trails through Daybreak | `010040C01D248000` | `43D0D0D68A22E370` ([✅](SaltySD/plugins/FPSLocker/patches/010040C01D248000/43D0D0D68A22E370.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
 | The Legend of Heroes: Trails through Daybreak II | `0100F6701FED4000` | `7CE83658C7B53BB6` ([✅](SaltySD/plugins/FPSLocker/patches/0100F6701FED4000/7CE83658C7B53BB6.yaml), v1, 1.0.1) <br> `EBB5459731354538` ([✅](SaltySD/plugins/FPSLocker/patches/0100F6701FED4000/EBB5459731354538.yaml), v2, 1.0.2) | ~~[⏱️](#⏱️)~~ |
