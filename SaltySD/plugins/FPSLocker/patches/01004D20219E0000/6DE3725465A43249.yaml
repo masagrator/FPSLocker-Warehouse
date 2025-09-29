@@ -37,7 +37,7 @@ ALL_FPS:
   ## REF: First function in .init_array section, ADRP + ADD + 0x220 (default float: 2)
   ## Adding there 0.9 by myself because game seems to have issues with reaching 60 FPS without it
   -
-    type: evaluate_write
+    type: write
     address: [MAIN, 0x65E368]
     value_type: float
-    value: "(60 / FPS_TARGET) * 0.95"
+    value: 0.95
