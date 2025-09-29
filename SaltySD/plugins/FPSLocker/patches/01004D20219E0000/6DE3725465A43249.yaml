@@ -8,7 +8,7 @@ DECLARATIONS:
     name: adjustDrResToNativeInHH
     instructions: [
       [cmp, w9, 1280],
-      [b.lt, :goto1],
+      [b.le, :goto1],
       [adrp, x21, 0x65E000],
       [ldr, w21, [x21, 0x820]], ## REF: nn::oe::GetOperationMode in nnMain
       [cbnz, w21, :goto1],
@@ -41,3 +41,4 @@ ALL_FPS:
     address: [MAIN, 0x65E368]
     value_type: float
     value: 0.95
+
