@@ -724,6 +724,8 @@ PATCH AVAILABILITY<br>
 | 英雄伝説 閃の軌跡Ⅲ | `0100E57010542000` | `3FB33205C25D3436` ([✅](SaltySD/plugins/FPSLocker/patches/0100E57010542000/3FB33205C25D3436.yaml), v0, 1.0.0) | ~~[🔐](#🔐)[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢)[🔧](#🔧)~~ |
 | 英雄傳說 閃之軌跡III | `010044D015F4A000` | `37C3FAEFC9A4C374` ([✅](SaltySD/plugins/FPSLocker/patches/010044D015F4A000/37C3FAEFC9A4C374.yaml), v0, 1.0.0) | ~~[🔐](#🔐)[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢)[🔧](#🔧)~~ |
 | The Legend of Heroes: Trails of Cold Steel IV | `0100D3C010DE8000` | `59159483CF88330F` ([✅](SaltySD/plugins/FPSLocker/patches/0100D3C010DE8000/59159483CF88330F.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢)[🔧](#🔧)~~ |
+| 英雄伝説 閃の軌跡Ⅳ | `010064101356C000` | `652D04C4BD51AE83` ([✅](SaltySD/plugins/FPSLocker/patches/010064101356C000/652D04C4BD51AE83.yaml), v2, 1.0.2) | ~~[🔐](#🔐)[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢)[🔧](#🔧)~~ |
+| 영웅전설 섬의 궤적 IV | `0100DE90162A0000` | `0BBD86F62F380844` ([✅](SaltySD/plugins/FPSLocker/patches/0100DE90162A0000/0BBD86F62F380844.yaml), v0, 1.0.0) | ~~[🔐](#🔐)[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢)[🔧](#🔧)~~ |
 | The Legend of Heroes: Trails through Daybreak | `010040C01D248000` | `43D0D0D68A22E370` ([✅](SaltySD/plugins/FPSLocker/patches/010040C01D248000/43D0D0D68A22E370.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
 | The Legend of Heroes: Trails through Daybreak II | `0100F6701FED4000` | `7CE83658C7B53BB6` ([✅](SaltySD/plugins/FPSLocker/patches/0100F6701FED4000/7CE83658C7B53BB6.yaml), v1, 1.0.1) <br> `EBB5459731354538` ([✅](SaltySD/plugins/FPSLocker/patches/0100F6701FED4000/EBB5459731354538.yaml), v2, 1.0.2) | ~~[⏱️](#⏱️)~~ |
 | The Legend of Legacy HD Remastered | `010099F01C258000` | `3E659DB2F020AC3B` (❌, v3, 1.0.3) | [⏱️](#⏱️)[🖥️](#🖥️) |
