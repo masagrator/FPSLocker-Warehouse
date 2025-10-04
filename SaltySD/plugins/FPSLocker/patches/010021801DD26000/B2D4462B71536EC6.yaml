@@ -49,4 +49,3 @@ ALL_FPS:
     address: [MAIN, 0x10D8028]
     value_type: uint32
     value: "VSYNC_TARGET - 1"
-
