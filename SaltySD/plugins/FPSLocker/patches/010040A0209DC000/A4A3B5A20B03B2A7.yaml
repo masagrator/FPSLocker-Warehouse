@@ -27,7 +27,7 @@ ALL_FPS:
     value: [FPS_TARGET, "60 / FPS_TARGET"]
   # Blocking game to max 60 FPS because setting game speed ratio below 1 causes glitches
   - 
-    type: evaluate_compare
+    type: compare
     compare_address: [MAIN, 0xFF6098]
     compare_type: ">"
     compare_value_type: float
@@ -36,7 +36,7 @@ ALL_FPS:
     value_type: float
     value: 60
   - 
-    type: evaluate_compare
+    type: compare
     compare_address: [MAIN, 0xFF6098]
     compare_type: "=="
     compare_value_type: float
