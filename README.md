@@ -462,6 +462,7 @@ PATCH AVAILABILITY<br>
 | MOBILE SUIT GUNDAM SEED BATTLE DESTINY REMASTERED | `010093C01F256000` | `CABB3B5447C2F79F` ([✅](SaltySD/plugins/FPSLocker/patches/010093C01F256000/CABB3B5447C2F79F.yaml), v1, 1.0.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Modern Combat Blackout | `0100D8700B712000` | `C56E6F514FADC5C5` ([✅](SaltySD/plugins/FPSLocker/patches/0100D8700B712000/C56E6F514FADC5C5.yaml), v3, 1.1.9) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Momotaro Dentetsu: Showa, Heisei, Reiwa no Teiban! Asia Edition | `010021801DD26000` | `B2D4462B71536EC6` ([✅](SaltySD/plugins/FPSLocker/patches/010021801DD26000/B2D4462B71536EC6.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)[⚔️](#⚔️)[🔢](#🔢)~~ |
+| 모모타로전철 ～쇼와 헤이세이 레이와에서도 국룰！～ Korea Edition | `010040A0209DC000` | `A4A3B5A20B03B2A7` ([✅](SaltySD/plugins/FPSLocker/patches/010040A0209DC000/A4A3B5A20B03B2A7.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)[⚔️](#⚔️)[🔢](#🔢)~~ |
 | MONARK | `0100E4A01548C000` | `85EB6295023DD394` (◯, v1, 1.0.1) | [🟢](#🟢) |
 | MONOPOLY | `01002C201BC40000` | `1AAA3C7D76026D29` (◯, v5, 1.5) | [🟢](#🟢) |
 | Monster Hunter Generations Ultimate | `0100770008DD8000` | `FB08F1D20FD1204F` ([✅](SaltySD/plugins/FPSLocker/patches/0100770008DD8000/FB08F1D20FD1204F.yaml), v4, 1.4.0) | ~~[🔐](#🔐)~~ |
