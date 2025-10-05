@@ -269,7 +269,7 @@ PATCH AVAILABILITY<br>
 | Dying Light | `01008C8012920000` | `8C93B930348C9787` ([✅](SaltySD/plugins/FPSLocker/patches/01008C8012920000/8C93B930348C9787.yaml), v5, 1.0.5) | ~~[📏](#📏)~~ |
 | EA SPORTS FC 24 | `0100BDB01A0E6000` | `217A5C011269C81E` ([✅](SaltySD/plugins/FPSLocker/patches/0100BDB01A0E6000/217A5C011269C81E.yaml), v24, 1.5a.9115) | ~~[🔐](#🔐)~~[📏](#📏) |
 | EA SPORTS FC 25 | `010054E01D878000` | `39296BB1FD4A3F20` ([✅](SaltySD/plugins/FPSLocker/patches/010054E01D878000/39296BB1FD4A3F20.yaml), v26, 1.7e.e73a) | ~~[🔐](#🔐)~~[📏](#📏) |
-| EA SPORTS FC 26 | `01004FF021942000` | `5D738626CE19A40F` ([✅](SaltySD/plugins/FPSLocker/patches/01004FF021942000/5D738626CE19A40F.yaml), v4, 1.80.11a0) | ~~[🔐](#🔐)~~[📏](#📏) |
+| EA SPORTS FC 26 | `01004FF021942000` | `5D738626CE19A40F` ([✅](SaltySD/plugins/FPSLocker/patches/01004FF021942000/5D738626CE19A40F.yaml), v4, 1.80.11a0) <br> `DF48D885EB914AC7` ([✅](SaltySD/plugins/FPSLocker/patches/01004FF021942000/DF48D885EB914AC7.yaml), v5, 1.80.43d0) | ~~[🔐](#🔐)~~[📏](#📏) |
 | Earthfall: Alien Horde | `0100DFC00E472000` | `448C08A9533F3CAD` ([✅](SaltySD/plugins/FPSLocker/patches/0100DFC00E472000/448C08A9533F3CAD.yaml), v1, 1.0.1) | ~~[📏](#📏)~~ |
 | EarthX | `010069001B820000` | `1F9EA163A82C7D8F` (◯, v2, 1.0.2) | [🟢](#🟢) |
 | Easy Come Easy Golf | `0100ECF01800C000` | `FF85957804C83DA9` (◯, v5, 1.9.8) | [🟢](#🟢) |
