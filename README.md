@@ -308,7 +308,7 @@ PATCH AVAILABILITY<br>
 | Fishing: North Atlantic | `0100A55019C38000` | `B9DB6040F70BE58F` ([✅](SaltySD/plugins/FPSLocker/patches/0100A55019C38000/B9DB6040F70BE58F.yaml), v1, 1.1) | ~~[📏](#📏)~~ |
 | Flooded | `010022201D254000` | `AF274CB758733A56` (❌, v1, 1.0.1) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️) |
 | Forgive Me Father | `0100A2A01A026000` | `008F995D1A63B383` ([✅](SaltySD/plugins/FPSLocker/patches/0100A2A01A026000/008F995D1A63B383.yaml), v2, 1.5.4.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
-| Formula Legends | `0100690020FBE000` | `CC93EA5C0A2F96FE` ([✅](SaltySD/plugins/FPSLocker/patches/0100690020FBE000/CC93EA5C0A2F96FE.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
+| Formula Legends | `0100690020FBE000` | `CC93EA5C0A2F96FE` ([✅](SaltySD/plugins/FPSLocker/patches/0100690020FBE000/CC93EA5C0A2F96FE.yaml), v3, 1.0.3) <br> `8FDB10262446CB3D` ([✅](SaltySD/plugins/FPSLocker/patches/0100690020FBE000/8FDB10262446CB3D.yaml), v4, 1.0.4) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Forrader Hero | `01007C801D5B8000` | `D62574E9298D0AAE` (◯, v0, 1.0) |  |
 | FREEDOM WARS | `010075201F578000` | `03AF225D1FE74673` (❌, v9, 1.9.0) | [🔐](#🔐)[⚔️](#⚔️)[👄](#👄)[🖥️](#🖥️)[🏃](#🏃) |
 | Fresh Start | `0100AA001BAB8000` | `9B2BC4BAF72D350A` (❌, v0, 1.0.0) | [⚔️](#⚔️) |
