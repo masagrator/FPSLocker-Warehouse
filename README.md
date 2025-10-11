@@ -560,7 +560,7 @@ PATCH AVAILABILITY<br>
 | Pokemon Shining Pearl | `010018E011D92000` | `38F59CBDA2EB9C44` (❌, v6, 1.3.0) | [🏃](#🏃) |
 | Pokemon Sword | `0100ABF008968000` | `A3B75BCD3311385A` (❌, v7, 1.3.3) | [⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️) |
 | Pokemon Violet | `01008F6008C5E000` | `709BFD6611529864` (❌, v12, 4.0.0) | [⚔️](#⚔️)[🏃](#🏃)[⏱️](#⏱️)[🖥️](#🖥️) |
-| Poppy Playtime: Chapter 2 | `0100D3801E6CE000` | `E3A3FC8EEC76A4FB` ([✅](SaltySD/plugins/FPSLocker/patches/0100D3801E6CE000/E3A3FC8EEC76A4FB.yaml), v1, 1.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
+| Poppy Playtime: Chapter 2 | `0100D3801E6CE000` | `E3A3FC8EEC76A4FB` ([✅](SaltySD/plugins/FPSLocker/patches/0100D3801E6CE000/E3A3FC8EEC76A4FB.yaml), v1, 1.1) <br> `ACCFF102CED838CE` ([✅](SaltySD/plugins/FPSLocker/patches/0100D3801E6CE000/ACCFF102CED838CE.yaml), v4, 1.4) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Poppy Playtime: Chapter 3 | `0100BD601EC3E000` | `5AF163DEF288F098` ([✅](SaltySD/plugins/FPSLocker/patches/0100BD601EC3E000/5AF163DEF288F098.yaml), v1, 1.0.0.2) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Poppy Playtime: Chapter 4 | `0100A2902051A000` | `05ADD0D5FD677639` ([✅](SaltySD/plugins/FPSLocker/patches/0100A2902051A000/05ADD0D5FD677639.yaml), v1, 1.1) <br> `3D6E4BDE905836BC` ([✅](SaltySD/plugins/FPSLocker/patches/0100A2902051A000/3D6E4BDE905836BC.yaml), v2, 1.2) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Portal Knights | `0100437004170000` | `D59D81C06F923846` (❌, v8, 1.7.2) | [⚔️](#⚔️) |
