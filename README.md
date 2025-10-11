@@ -436,7 +436,7 @@ PATCH AVAILABILITY<br>
 | LOST SPHEAR | `010077B0038B2000` | `641A9243BA35C638` (◯, v5, 1.3.1) |  |
 | Luigi's Mansion 2 HD | `010048701995E000` | `A71EC0B9FF4F54CB` (❌, v0, 1.0.0) | [⚔️](#⚔️) |
 | Luigi's Mansion 3 | `0100DCA0064A6000` | `79E5950FFA85ACF6` ([✅](SaltySD/plugins/FPSLocker/patches/0100DCA0064A6000/79E5950FFA85ACF6.yaml), v5, 1.4.0) | ~~[🔐](#🔐)~~[📏](#📏) |
-| Lynked: Banner of the Spark | `0100711022E24000` | `BCEB97447A39F9FE` ([✅](SaltySD/plugins/FPSLocker/patches/0100711022E24000/BCEB97447A39F9FE.yaml), v2, 1.2.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
+| Lynked: Banner of the Spark | `0100711022E24000` | `BCEB97447A39F9FE` ([✅](SaltySD/plugins/FPSLocker/patches/0100711022E24000/BCEB97447A39F9FE.yaml), v2, 1.2.0) <br> `15AFE82282E0EF30` ([✅](SaltySD/plugins/FPSLocker/patches/0100711022E24000/15AFE82282E0EF30.yaml), v3, 1.2.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Lysfanga: The Time Shift Warrior | `0100ED601B876000` | `3B47E57FD8B8EE7B` (◯, v2, 1.0.2) |  |
 | Maglam Lord | `01002C0015644000` | `3A3C781930CB8201` ([✅](SaltySD/plugins/FPSLocker/patches/01002C0015644000/3A3C781930CB8201.yaml), v0, 1.00) | ~~[🔐](#🔐)[📏](#📏)~~[🏃](#🏃) |
 | Maquette | `0100861018480000` | `B0F09EE3E404D549` (❌, v0, 1.0.0) | [⚔️](#⚔️) |
