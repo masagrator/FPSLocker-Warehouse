@@ -498,6 +498,7 @@ PATCH AVAILABILITY<br>
 | Neptunia: Sisters VS Sisters | `0100A9001C042000` | `3565E26E8827C846` ([✅](SaltySD/plugins/FPSLocker/patches/0100A9001C042000/3565E26E8827C846.yaml), v0, 1.0.0) | ~~[📏](#📏)~~ |
 | Neptunia Game Maker R:Evolution | `010082901D6F2000` | `FCA830BAE649B898` ([✅](SaltySD/plugins/FPSLocker/patches/010082901D6F2000/FCA830BAE649B898.yaml), v0, 1.00) | ~~[📏](#📏)~~ |
 | Neptunia x SENRAN KAGURA: Ninja Wars | `01008D0016AF4000` | `FB827BF029E0778A` ([✅](SaltySD/plugins/FPSLocker/patches/01008D0016AF4000/FB827BF029E0778A.yaml), v0, 1.0.0) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~ |
+| - 閃亂忍忍忍者大戰戰機少女-少女們的響艷-<br>- 섬란 닌닌닌자 대전 넵튠 -소녀들의 향염- | `010088B017734000` | `288908CE7F6177CC` ([✅](SaltySD/plugins/FPSLocker/patches/010088B017734000/288908CE7F6177CC.yaml), v0, 1.0.0) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | Never Alone (Kisima Ingitchuna) | `0100A6B01712C000` | `B489970C5C8E79A7` (❌, v2, 1.0.2) | [⚔️](#⚔️) |
 | New Super Lucky's Tale | `010017700B6C2000` | `14872049185C584C` (◯, v3, 1.5.9) |  |
 | New Tales from the Borderlands | `01002B7013440000` | `A19E113723E5C32E` ([✅](SaltySD/plugins/FPSLocker/patches/01002B7013440000/A19E113723E5C32E.yaml), v2, 1.0.2) | ~~[🔐](#🔐)[📏](#📏)~~ |
