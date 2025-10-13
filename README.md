@@ -727,6 +727,7 @@ PATCH AVAILABILITY<br>
 | The Knight Witch | `0100E8501816E000` | `9C09F15234A270E4` (◯, v5, 1.0.5) |  |
 | The Last Worker | `0100ADC014CDE000` | `DAAADE43EA48F66B` (◯, v2, 1.0.4) |  |
 | The Legend of Heroes: Trails into Reverie | `01008CB0156BC000` | `7735C8DD89D145F2` ([✅](SaltySD/plugins/FPSLocker/patches/01008CB0156BC000/7735C8DD89D145F2.yaml), v4, 1.0.4) | ~~[🔐](#🔐)[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)[🔧](#🔧)~~ |
+| 英雄伝説 創の軌跡 | `010053D014C44000` | `086367BD573D1899` ([✅](SaltySD/plugins/FPSLocker/patches/010053D014C44000/086367BD573D1899.yaml), v6, 1.0.6) | ~~[🔐](#🔐)~~ |
 | The Legend of Heroes: Trails of Cold Steel III | `01005420101DA000` | `134EC3D8BE75126F` ([✅](SaltySD/plugins/FPSLocker/patches/01005420101DA000/134EC3D8BE75126F.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢)[🔧](#🔧)~~ |
 | 英雄伝説 閃の軌跡Ⅲ | `0100E57010542000` | `3FB33205C25D3436` ([✅](SaltySD/plugins/FPSLocker/patches/0100E57010542000/3FB33205C25D3436.yaml), v0, 1.0.0) | ~~[🔐](#🔐)[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢)[🔧](#🔧)~~ |
 | 英雄傳說 閃之軌跡III | `010044D015F4A000` | `37C3FAEFC9A4C374` ([✅](SaltySD/plugins/FPSLocker/patches/010044D015F4A000/37C3FAEFC9A4C374.yaml), v0, 1.0.0) | ~~[🔐](#🔐)[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢)[🔧](#🔧)~~ |
