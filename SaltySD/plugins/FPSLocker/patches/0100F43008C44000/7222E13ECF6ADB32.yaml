@@ -74,6 +74,13 @@ DECLARATIONS:
       [ret]
     ]
 MASTER_WRITE:
+  # Restore original 30 FPS lock
+  -
+    type: asm_a64
+    main_offset: 0x175E864
+    instructions: [
+      [mov, w1, 2]
+    ]
   # Dynamic Resolution
   ## REF: 21 D8 61 5E 21 18 68 1E 00 18 61 1E, replace ADRP + ADD + LDR above it
   -
@@ -100,7 +107,7 @@ MASTER_WRITE:
       [b, _readDynamicFPS()]
     ]
   # Force game to start in 60 FPS mode for better game thread synchronization (writing 0 to 0x20) + enable constantly updating speed (writing 1 to 0x21)
-  ## REF: 40 23 00 F9  08 04 40 F9
+  ## REF: 40 23 00 F9 08 04 40 F9
   -
     type: asm_a64
     main_offset: 0x19DD334
