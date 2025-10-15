@@ -73,6 +73,14 @@ DECLARATIONS:
       [strh, w8, [x0, 0x20]],
       [ret]
     ]
+  -
+    type: code
+    name: setTo60FPSMode2
+    instructions: [
+      [mov, w8, 0x100],
+      [strh, w8, [x0, 0x20]],
+      [ret]
+    ]
 MASTER_WRITE:
   # Restore original 30 FPS lock
   -
@@ -113,4 +121,11 @@ MASTER_WRITE:
     main_offset: 0x19DD334
     instructions: [
       [bl, _setTo60FPSMode()]
+    ]
+  ## REF: D4 C2 94 1A 08 85 40 39
+  -
+    type: asm_a64
+    main_offset: 0x19E37D4
+    instructions: [
+      [bl, _setTo60FPSMode2()]
     ]
