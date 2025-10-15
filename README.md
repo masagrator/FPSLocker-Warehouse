@@ -559,7 +559,7 @@ PATCH AVAILABILITY<br>
 | Pokemon: Let's Go, Pikachu! | `010003F003A34000` | `C208DB6A4EF4361F` (❌, v2, 1.0.2) | [⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️) |
 | Pokemon Brilliant Diamond | `0100000011D90000` | `94CEAE325C205C4B` (❌, v6, 1.3.0) | [🏃](#🏃) |
 | Pokemon Legends: Arceus | `01001F5010DFA000` | `AEE8F150DDA1B5A8` (❌, v4, 1.1.1) | [⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️) |
-| Pokemon Legends: Z-A | `0100F43008C44000` | `7222E13ECF6ADB32` (❌, v1, 1.0.1) | [⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️) |
+| Pokemon Legends: Z-A | `0100F43008C44000` | `7222E13ECF6ADB32` ([✅](SaltySD/plugins/FPSLocker/patches/0100F43008C44000/7222E13ECF6ADB32.yaml), v1, 1.0.1) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~[⚔️](#⚔️) |
 | Pokemon Mystery Dungeon: Rescue Team DX | `01003D200BAA2000` | `3AB632DEE82D5944` (❌, v2, 1.0.2) | [🏃](#🏃) |
 | Pokemon Scarlet | `0100A3D008C5C000` | `421C5411B487EB4D` (❌, v12, 4.0.0) | [⚔️](#⚔️)[🏃](#🏃)[⏱️](#⏱️)[🖥️](#🖥️) |
 | Pokemon Shield | `01008DB008C2C000` | `A16802625E7826BF` (❌, v7, 1.3.2) | [⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️) |
