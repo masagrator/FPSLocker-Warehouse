@@ -16,7 +16,7 @@ DECLARATIONS:
     name: min_delta
     value_type: uint64
     default_value: 33333334
-    evaluate: "FRAMETIME_TARGET * 1000000"
+    evaluate: "FRAMETIME_TARGET * 1000000.02"
   -
     type: variable
     name: frametime
