@@ -8,8 +8,8 @@ DECLARATIONS:
     name: adjustDrResToNativeInHH
     instructions: [
       [cmp, w10, 1280],
-      [b.lt, :goto1],
-      [adrp, x21, 0x65E000],
+      [b.le, :goto1],
+      [adrp, x21, 0x72F000],
       [ldr, w21, [x21, 0x820]], ## REF: nn::oe::GetOperationMode in nnMain
       [cbnz, w21, :goto1],
       [mov, w10, 1280],
