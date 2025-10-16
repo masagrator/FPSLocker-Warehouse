@@ -134,30 +134,6 @@ MASTER_WRITE:
 ALL_FPS:
   -
     type: evaluate_compare
-    compare_address: [MAIN, 0x5F0C600]
-    compare_type: "=="
-    compare_value_type: uint8
-    compare_value: 1
-    address: [VARIABLE, max_delta]
-    value: "VSYNC_TARGET * 16666667"
-  -
-    type: evaluate_compare
-    compare_address: [MAIN, 0x5F0C600]
-    compare_type: "=="
-    compare_value_type: uint8
-    compare_value: 1
-    address: [VARIABLE, min_delta]
-    value: "VSYNC_TARGET * 16666667"
-  -
-    type: evaluate_compare
-    compare_address: [MAIN, 0x5F0C600]
-    compare_type: "=="
-    compare_value_type: uint8
-    compare_value: 1
-    address: [VARIABLE, max_delta]
-    value: "VSYNC_TARGET * 16666667"
-  -
-    type: evaluate_compare
     compare_address: [MAIN, 0x5F2BBF0]
     compare_type: "=="
     compare_value_type: uint8
@@ -172,3 +148,19 @@ ALL_FPS:
     compare_value: 1
     address: [VARIABLE, max_delta]
     value: "1000000000 / FPS_TARGET"
+  -
+    type: evaluate_compare
+    compare_address: [MAIN, 0x5F0C600]
+    compare_type: "=="
+    compare_value_type: uint8
+    compare_value: 1
+    address: [VARIABLE, max_delta]
+    value: "VSYNC_TARGET * 16666667"
+  -
+    type: evaluate_compare
+    compare_address: [MAIN, 0x5F0C600]
+    compare_type: "=="
+    compare_value_type: uint8
+    compare_value: 1
+    address: [VARIABLE, min_delta]
+    value: "VSYNC_TARGET * 16666667"
