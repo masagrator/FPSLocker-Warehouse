@@ -8,32 +8,37 @@ DECLARATIONS:
     value_type: uint64
     default_value: 0
   -
-    type: variable
+    type: const
     name: max_delta
-    value_type: uint64
-    default_value: 66666667
-    evaluate: "66666667"
+    value: 66666667
   -
     type: variable
     name: min_delta
     value_type: uint64
     default_value: 33333334
-    evaluate: "FRAMETIME_TARGET * 1000000.02"
+    evaluate: "(FRAMETIME_TARGET * 1000000) + 1"
+  -
+    type: variable
+    name: fps_target
+    value_type: uint32
+    default_value: 30
+    evaluate: FPS_TARGET
+  -
+    type: variable
+    name: ladder_delta
+    value_type: uint64
+    default_value: 33333334
+    evaluate: "VSYNC_TARGET * 16666667"
   -
     type: variable
     name: frametime
     value_type: uint64
     default_value: 0
   -
-    type: code
-    name: readDynamicFPS
-    instructions: [
-      [adrp, x10, $frametime],
-      [ldr, x10, [x10, $frametime]],
-      [cmp, x10, 0],
-      [csel, x2, x2, x10, eq],
-      [br, x3]
-    ]
+    type: variable
+    name: roll_flag
+    value_type: uint32
+    default_value: 0
   -
     type: code
     name: dynamicFPS
@@ -52,8 +57,8 @@ DECLARATIONS:
       [mul, x10, x10, x11],
       [mov, x11, 12],
       [udiv, x10, x10, x11],
-      [adrp, x11, $max_delta],
-      [ldr, x11, [x11, $max_delta]],
+      [mov, x11, $max_delta],
+      [movk, x11, $max_delta, 16],
       [cmp, x10, x11],
       [csel, x10, x10, x11, lt],
       [adrp, x11, $min_delta],
@@ -62,9 +67,37 @@ DECLARATIONS:
       [csel, x2, x10, x11, gt],
       [adrp, x10, $frametime],
       [str, x2, [x10, $frametime]],
-      :goto1, [ldp, x29, x30, [sp], 16],
+      :goto1, [adrp, x10, $roll_flag],
+      [ldr, w11, [x10, $roll_flag]],
+      [cmp, w11, 0],
+      [b.eq, :goto2],
+      [sub, w11, w11, 1],
+      [str, w11, [x10, $roll_flag]],
+      :goto2, [ldp, x29, x30, [sp], 16],
       [ret]
-
+    ]
+  -
+    type: code
+    name: readDynamicFPS
+    instructions: [
+      [adrp, x10, $frametime],
+      [ldr, x10, [x10, $frametime]],
+      [cmp, x10, 0],
+      [csel, x2, x2, x10, eq],
+      [adrp, x10, $roll_flag],
+      [ldr, w10, [x10, $roll_flag]],
+      [cmp, w10, 0],
+      [adrp, x10, $min_delta],
+      [ldr, x10, [x10, $min_delta]],
+      [csel, x2, x2, x10, eq],
+      [adrp, x10, 0x5F0C000],
+      [add, x10, x10, 0x600], # Offset where is written flag when ladder is in use
+      [ldrb, w10, [x10]],
+      [cmp, w10, 0],
+      [adrp, x10, $ladder_delta],
+      [ldr, x10, [x10, $ladder_delta]], # Climbing animation expects from us animation to be multiplication of 1/60s, otherwise climbing speed is uneven and eventually we fall
+      [csel, x2, x2, x10, eq],
+      [br, x3]
     ]
   -
     type: code
@@ -83,7 +116,31 @@ DECLARATIONS:
       [strh, w9, [x8, 0x20]],
       [ret]
     ]
+  -
+    type: code
+    name: rollFix
+    instructions: [
+      [ldr, x8, [x0, 0x120]],
+      [cmp, x8, 2], # Value 2 = ladder/rolling
+      [b.ne, :goto1],
+      [adrp, x22, $fps_target],
+      [ldr, w22, [x22, $fps_target]],
+      [cmp, w22, 55],
+      [b.le, :goto1], # If our FPS target is not above 55, don't do anything
+      [mov, w21, 6],
+      [udiv, w22, w22, w21], # Divide FPS target by 6 to get amount of frames necessary for rolling animation to not stuck our character
+      [adrp, x19, $roll_flag],
+      [str, w22, [x19, $roll_flag]],
+      :goto1, [ret]
+    ]
 MASTER_WRITE:
+  # Roll Fix, thanks to Fl4sh9174 for address
+  -
+    type: asm_a64
+    main_offset: 0x2962A74
+    instructions: [
+      [bl, _rollFix()]
+    ]
   # Restore original 30 FPS lock
   -
     type: asm_a64
@@ -131,20 +188,3 @@ MASTER_WRITE:
     instructions: [
       [bl, _setTo60FPSMode2()]
     ]
-ALL_FPS:
-  -
-    type: evaluate_compare
-    compare_address: [MAIN, 0x5F0C600]
-    compare_type: "=="
-    compare_value_type: uint8
-    compare_value: 1
-    address: [VARIABLE, max_delta]
-    value: "VSYNC_TARGET * 16666667"
-  -
-    type: evaluate_compare
-    compare_address: [MAIN, 0x5F0C600]
-    compare_type: "=="
-    compare_value_type: uint8
-    compare_value: 1
-    address: [VARIABLE, min_delta]
-    value: "VSYNC_TARGET * 16666667"
