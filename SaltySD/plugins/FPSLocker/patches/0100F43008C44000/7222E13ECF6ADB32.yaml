@@ -133,26 +133,18 @@ MASTER_WRITE:
     ]
 ALL_FPS:
   -
-    type: compare
-    compare_address: [MAIN, 0x5F0C600]
-    compare_type: "=="
-    compare_value_type: uint8
-    compare_value: 1
-    value_type: refresh_rate
-    value: 60
-  -
-    type: compare
+    type: evaluate_compare
     compare_address: [MAIN, 0x5F0C600]
     compare_type: "=="
     compare_value_type: uint8
     compare_value: 1
     address: [VARIABLE, max_delta]
-    value: 16666667
+    value: "VSYNC_TARGET * 16666667"
   -
-    type: compare
+    type: evaluate_compare
     compare_address: [MAIN, 0x5F0C600]
     compare_type: "=="
     compare_value_type: uint8
     compare_value: 1
     address: [VARIABLE, min_delta]
-    value: 16666667
+    value: "VSYNC_TARGET * 16666667"
