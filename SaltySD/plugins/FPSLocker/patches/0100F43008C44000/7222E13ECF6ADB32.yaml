@@ -128,7 +128,7 @@ DECLARATIONS:
       [cmp, w22, 55],
       [b.le, :goto1], # If our FPS target is not above 55, don't do anything
       [mov, w21, 3],
-      [udiv, w22, w22, w21], # Divide FPS target by 6 to get amount of frames necessary for rolling animation to not stuck our character
+      [udiv, w22, w22, w21], # Divide FPS target by 3 to get amount of frames necessary for rolling animation to not stuck our character
       [adrp, x19, $roll_flag],
       [str, w22, [x19, $roll_flag]],
       :goto1, [ret]
@@ -187,4 +187,5 @@ MASTER_WRITE:
     main_offset: 0x19E37D4
     instructions: [
       [bl, _setTo60FPSMode2()]
+
     ]
