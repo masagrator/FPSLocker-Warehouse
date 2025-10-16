@@ -8,9 +8,11 @@ DECLARATIONS:
     value_type: uint64
     default_value: 0
   -
-    type: const
-    name: maxDelta
-    value: 66666667
+    type: variable
+    name: max_delta
+    value_type: uint64
+    default_value: 66666667
+    evaluate: "66666667"
   -
     type: variable
     name: min_delta
@@ -50,8 +52,8 @@ DECLARATIONS:
       [mul, x10, x10, x11],
       [mov, x11, 12],
       [udiv, x10, x10, x11],
-      [mov, x11, $maxDelta],
-      [movk, x11, $maxDelta, 16],
+      [adrp, x11, $max_delta],
+      [ldr, x11, [x11, $max_delta]],
       [cmp, x10, x11],
       [csel, x10, x10, x11, lt],
       [adrp, x11, $min_delta],
@@ -129,3 +131,28 @@ MASTER_WRITE:
     instructions: [
       [bl, _setTo60FPSMode2()]
     ]
+ALL_FPS:
+  -
+    type: compare
+    compare_address: [MAIN, 0x5F0C600]
+    compare_type: "=="
+    compare_value_type: uint8
+    compare_value: 1
+    value_type: refresh_rate
+    value: 60
+  -
+    type: compare
+    compare_address: [MAIN, 0x5F0C600]
+    compare_type: "=="
+    compare_value_type: uint8
+    compare_value: 1
+    address: [VARIABLE, max_delta]
+    value: 16666667
+  -
+    type: compare
+    compare_address: [MAIN, 0x5F0C600]
+    compare_type: "=="
+    compare_value_type: uint8
+    compare_value: 1
+    address: [VARIABLE, min_delta]
+    value: 16666667
