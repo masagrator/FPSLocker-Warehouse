@@ -128,6 +128,7 @@ PATCH AVAILABILITY<br>
 | - 유미아의 아틀리에<br>- 優米雅的鍊金工房 | `010054A020574000` | `6CB3E54C5F648410` ([✅](SaltySD/plugins/FPSLocker/patches/010054A020574000/6CB3E54C5F648410.yaml), v6, 1.3.0) <br> `EF85880A244D33EC` ([✅](SaltySD/plugins/FPSLocker/patches/010054A020574000/EF85880A244D33EC.yaml), v9, 1.4.2) <br> `FB3497202E5934FB` ([✅](SaltySD/plugins/FPSLocker/patches/010054A020574000/FB3497202E5934FB.yaml), v11, 1.5.1) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Attack on Titan 2 | `010034500641A000` | `586EA519C1CDFAE7` (◯, v14, 1.0.14) |  |
 | Aztech Forgotten Gods | `01006B4014564000` | `65EF4BC77B974E05` (◯, v8, 1.0.8) |  |
+| Azur Lane: Crosswave | `010065D012FA0000` | `C403B87FCDAD7604` ([✅](SaltySD/plugins/FPSLocker/patches/010065D012FA0000/C403B87FCDAD7604.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | Bakery Simulator | `010018601E9E0000` | `31A37D73E22F1059` ([✅](SaltySD/plugins/FPSLocker/patches/010018601E9E0000/31A37D73E22F1059.yaml), v1, 1.1.0) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | BALAN WONDERWORLD | `0100438012EC8000` | `1A0EAEC3AE90B018` ([✅](SaltySD/plugins/FPSLocker/patches/0100438012EC8000/1A0EAEC3AE90B018.yaml), v1, 1.01) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Bang-On Balls: Chronicles | `010081E01A45C000` | `25D3C2E9040D1A9A` ([✅](SaltySD/plugins/FPSLocker/patches/010081E01A45C000/25D3C2E9040D1A9A.yaml), v4, 1.0.4) <br> `36C7E946E6C11C8E` ([✅](SaltySD/plugins/FPSLocker/patches/010081E01A45C000/36C7E946E6C11C8E.yaml), v5, 1.0.5) | ~~[📏](#📏)[🔧](#🔧)~~ | 
