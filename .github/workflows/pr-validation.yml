@@ -1,0 +1,82 @@
+name: PR Validation - FPSLocker Patches
+
+on:
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  validate-patches:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up GCC and build tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential gcc g++ cmake
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Clone FPSLocker repository
+        run: |
+          git clone https://github.com/masagrator/FPSLocker.git FPSLocker
+
+      - name: Build FPSLocker tester
+        run: |
+          cd FPSLocker/tester
+          python run.py
+
+      - name: Verify my_program executable exists
+        run: |
+          if [ ! -f "FPSLocker/tester/my_program" ]; then
+            echo "Error: my_program executable not found"
+            exit 1
+          fi
+
+      - name: Find and validate all YAML patch files
+        run: |
+          PATCH_DIR="${GITHUB_WORKSPACE}/SaltySD/plugins/FPSLocker/patches"
+          EXECUTABLE="${GITHUB_WORKSPACE}/FPSLocker/tester/my_program"
+          FAILED=0
+          
+          if [ ! -d "$PATCH_DIR" ]; then
+            echo "Error: Patches directory not found at $PATCH_DIR"
+            exit 1
+          fi
+          
+          # Find all .yaml files recursively
+          while IFS= read -r yaml_file; do
+            echo "Validating: $yaml_file"
+            
+            # Execute my_program with the yaml file path
+            if ! "$EXECUTABLE" "$yaml_file"; then
+              echo "Failed validation for: $yaml_file"
+              FAILED=1
+            fi
+          done < <(find "$PATCH_DIR" -type f -name "*.yaml")
+          
+          if [ $FAILED -eq 1 ]; then
+            echo "One or more patch files failed validation"
+            exit 1
+          fi
+          
+          echo "All patch files validated successfully"
+
+      - name: Report results
+        if: always()
+        run: |
+          if [ $? -eq 0 ]; then
+            echo "✓ PR validation passed"
+          else
+            echo "✗ PR validation failed"
+            exit 1
+          fi
