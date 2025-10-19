@@ -5,7 +5,7 @@ Here you will find a list with 30 FPS locked games, if they have FPSLocker confi
 Currently this repository is dedicated only to FPSLocker 3.0.0 or newer.
 
 ### Some 30 FPS game is not on the list, some game cannot go past 60 FPS? Write about it [HERE](https://github.com/masagrator/FPSLocker-Warehouse/issues/895).
-
+a
 ---
 
 > [!IMPORTANT]
