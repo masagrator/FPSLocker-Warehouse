@@ -796,11 +796,11 @@ PATCH AVAILABILITY<br>
 | Twilight Monk | `0100D7C021496000` | `5D63D46226DB106F` ([✅](SaltySD/plugins/FPSLocker/patches/0100D7C021496000/5D63D46226DB106F.yaml), v2, 1.0.0) <br> `7926A67119144CFD` ([✅](SaltySD/plugins/FPSLocker/patches/0100D7C021496000/7926A67119144CFD.yaml), v4, 1.2.0) <br> `E9A189C0CA87A30C` ([✅](SaltySD/plugins/FPSLocker/patches/0100D7C021496000/E9A189C0CA87A30C.yaml), v5, 1.3.0) <br> `6D560144F6B09A98` ([✅](SaltySD/plugins/FPSLocker/patches/0100D7C021496000/6D560144F6B09A98.yaml), v6, 1.4.0) <br> `23E85FEDEC96439C` ([✅](SaltySD/plugins/FPSLocker/patches/0100D7C021496000/23E85FEDEC96439C.yaml), v7, 1.4.1) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Twilight Survivors | `01006F401D934000` | `8AA7D10343CB3870` ([✅](SaltySD/plugins/FPSLocker/patches/01006F401D934000/8AA7D10343CB3870.yaml), v7, 0.22.2) <br> `D71970AAA5D34DD0` ([✅](SaltySD/plugins/FPSLocker/patches/01006F401D934000/D71970AAA5D34DD0.yaml), v8, 1.0.8) <br> `66FCB9B306005BBA` ([✅](SaltySD/plugins/FPSLocker/patches/01006F401D934000/66FCB9B306005BBA.yaml), v9, 1.0.9) <br> `E3FBEB5A9C7788CD` ([✅](SaltySD/plugins/FPSLocker/patches/01006F401D934000/E3FBEB5A9C7788CD.yaml), v10, 1.0.10) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | TY the Tasmanian Tiger 2 | `0100BC701417A000` | `1F8808E4FC7516D2` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
-| Unbox: Newbie's Adventure | `0100592005164000` | `83A6B710A3F3F4F9` ([✅](SaltySD/plugins/FPSLocker/patches/0100592005164000/83A6B710A3F3F4F9.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | UFO ROBOT GRENDIZER - The Feast of the Wolves | `0100F1601EF78000` | `848AF40012A27078` (◯, v2, 1.2) |  |
 | Ultra Age | `01008D4015904000` | `CA77083E259D87A2` ([✅](SaltySD/plugins/FPSLocker/patches/01008D4015904000/CA77083E259D87A2.yaml), v7, 2.0.4) | ~~[📏](#📏)~~ |
 | Ultra Kaiju Monster Rancher | `01008E0019388000` | `53384CC3D2B4CA9F` (❌, v0, 1.0.1) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | Umurangi Generation | `0100CA3014ADE000` | `372AB37327DB2C31` ([✅](SaltySD/plugins/FPSLocker/patches/0100CA3014ADE000/372AB37327DB2C31.yaml), v6, 1.6.6.0) | ~~[🔐](#🔐)~~ |
+| Unbox: Newbie's Adventure | `0100592005164000` | `83A6B710A3F3F4F9` ([✅](SaltySD/plugins/FPSLocker/patches/0100592005164000/83A6B710A3F3F4F9.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | Undertale | `010080B00AD66000` | `24DB41FCD513D080` (❌, v2, 1.11) | [🔐](#🔐)[⏱️](#⏱️) |
 | Undungeon | `0100CA3018EA4000` | `6A5B168E1D2C6647` (◯, v0, 0.002) |  |
 | Unravel Two | `0100E5D00CC0C000` | `F04D4FE8BF580369` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
