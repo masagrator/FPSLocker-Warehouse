@@ -60,6 +60,9 @@ PATCH AVAILABILITY<br>
 
 ---
 
+<details>
+<summary>List of 30 FPS locked games</summary>
+  
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | ISSUES |
 | --- | --- | --- | --- |
 | .hack//G.U. Last Recode | `0100BA9014A02000` | `4C0ED5711263A6D9` (❌, v0, 1.0.0) | [⏱️](#⏱️)[🖥️](#🖥️)[🎮](#🎮) |
@@ -858,9 +861,10 @@ PATCH AVAILABILITY<br>
 | 牧場物語 Let's！風のグランドバザール | `0100DAE01E4C8000` | `BA5C311BACCD1480` (◯, v5, 1.0.4) |  |
 | 창세기전 \~회색의 잔영\~ | `0100276019E96000` | `EC983B9153629AC8` ([✅](SaltySD/plugins/FPSLocker/patches/0100276019E96000/EC983B9153629AC8.yaml), v1, 1.1.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 
----
+</details>
 
-> Patches for games not locked to 30 FPS, but with graphics settings targeting strictly 30 or 60 FPS
+<details>
+<summary>Patches for games not locked to 30 FPS, but with graphics settings targeting strictly 30 or 60 FPS</summary>
 
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | ISSUES |
 | --- | --- | --- | --- |
@@ -879,3 +883,5 @@ PATCH AVAILABILITY<br>
 | TT Isle of Man 2 | `010000400F582000` | `02F2E5C8CBF5A92F` ([✅](SaltySD/plugins/FPSLocker/patches/010000400F582000/02F2E5C8CBF5A92F.yaml), v1, 1.0.1) | ~~[📏](#📏)~~ |
 | WRC8 | `010087800DCEA000` | `6B0B26802F0DAAAF` ([✅](SaltySD/plugins/FPSLocker/patches/010087800DCEA000/6B0B26802F0DAAAF.yaml), v4, 1.4.0) | ~~[📏](#📏)~~ |
 | WRC9 | `01001A0011798000` | `66B2DEA98B5CDF65` ([✅](SaltySD/plugins/FPSLocker/patches/01001A0011798000/66B2DEA98B5CDF65.yaml), v2, 1.2.0) | ~~[📏](#📏)~~ |
+
+</details>
