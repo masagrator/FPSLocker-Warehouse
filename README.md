@@ -290,6 +290,7 @@ PATCH AVAILABILITY<br>
 | Eiyuden Chronicle: Rising | `010039B015CB6000` | `39DC785D9073C22B` ([✅](SaltySD/plugins/FPSLocker/patches/010039B015CB6000/39DC785D9073C22B.yaml), v2, 1.02) | ~~[📏](#📏)~~ |
 | Embr | `0100CC6013432000` | `473D222EB1BDAD47` (◯, v6, 1.0.6) |  |
 | Endless Ocean Luminous | `010067B017588000` | `E5EFB5ABA3601B97` ([✅](SaltySD/plugins/FPSLocker/patches/010067B017588000/E5EFB5ABA3601B97.yaml), v1, 1.0.1) | ~~[📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
+| Endling | `0100E9400FE34000` | `33DBE39C8A83F1E6` ([✅](SaltySD/plugins/FPSLocker/patches/0100E9400FE34000/33DBE39C8A83F1E6.yaml), v3, 1.3.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Eternights | `010018F01E0A0000` | `1AA4FD0FCA644CD3` (◯, v2, 1.0.2) |  |
 | Europa | `0100C8E01DD16000` | `3F2E96A4396944A1` ([✅](SaltySD/plugins/FPSLocker/patches/0100C8E01DD16000/3F2E96A4396944A1.yaml), v4, 1.4.0) | ~~[🔧](#🔧)~~ |
 | Everdream Valley | `0100B9801AA3C000` | `9860ED8101DC731B` (◯, v11, 1.0.11) |  |
