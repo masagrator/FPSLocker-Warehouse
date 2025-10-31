@@ -443,7 +443,7 @@ PATCH AVAILABILITY<br>
 | Little Kitty, Big City | `01000A4019FA2000` | `D3276F6AA64F6DE0` (◯, v16, 1.25.10.07_5538) |  |
 | Little Noah: Scion of Paradise | `0100535014D76000` | `5BA1C162571DBD01` (◯, v6, 1.40) |  |
 | Little Nightmares II | `010097100EDD6000` | `7F4216B6E784A4B2` ([✅](SaltySD/plugins/FPSLocker/patches/010097100EDD6000/7F4216B6E784A4B2.yaml), v4, 1.4) | ~~[📏](#📏)~~ |
-| Little Nightmares III | `010066101A55A000` | `338C569A607B7C30` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/338C569A607B7C30.yaml), v1, 1.0.2) | ~~[🔧](#🔧)~~ |
+| Little Nightmares III | `010066101A55A000` | `338C569A607B7C30` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/338C569A607B7C30.yaml), v1, 1.0.2) <br> `F3FFA17B5E56809F` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/F3FFA17B5E56809F.yaml), v2, 1.0.3) | ~~[🔧](#🔧)~~ |
 | Little Town Hero | `01000FB00AA90000` | `2BE4AF8B1A137445` (❌, v2, 1.2.0) | [🏃](#🏃) |
 | LIVE A LIVE | `0100CF801776C000` | `CF22083371DDACB2` (◯, v1, 1.0.1) |  |
 | Lost In Random | `01005FE01291A000` | `416914C121775277` (◯, v1, 1.0.1) |  |
