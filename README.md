@@ -270,6 +270,7 @@ PATCH AVAILABILITY<br>
 | DRAGON QUEST III HD-2D Remake | `01003E601E324000` | `6F49452BD0B343B1` ([✅](SaltySD/plugins/FPSLocker/patches/01003E601E324000/6F49452BD0B343B1.yaml), v1, 1.0.1) <br> `4F41309B39EEBE5E` ([✅](SaltySD/plugins/FPSLocker/patches/01003E601E324000/4F41309B39EEBE5E.yaml), v2, 1.1.0) <br> `A6BD61CFB142E663` ([✅](SaltySD/plugins/FPSLocker/patches/01003E601E324000/A6BD61CFB142E663.yaml), v4, 1.1.2) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | DRAGON QUEST MONSTERS: The Dark Prince | `0100A77018EA0000` | `99C5DEFFA2A401BA` (◯, v6, 1.0.6) |  |
 | DRAGON QUEST XI S: Echoes of an Elusive Age | `01006C300E9F0000` | `1719AABFA5EAE42B` ([✅](SaltySD/plugins/FPSLocker/patches/01006C300E9F0000/1719AABFA5EAE42B.yaml), v4, 1.0.4) | ~~[📏](#📏)[🔧](#🔧)~~ |
+| ドラゴンクエストXI　過ぎ去りし時を求めて S | `010054A0085CA000` | `325E49E94A030B7E` ([✅](SaltySD/plugins/FPSLocker/patches/010054A0085CA000/325E49E94A030B7E.yaml), v4, 1.0.4) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | DRAGON QUEST TREASURES | `010049B017774000` | `2F81A2EC9B298B37` ([✅](SaltySD/plugins/FPSLocker/patches/0100217014266000/2F81A2EC9B298B37.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | ドラゴンクエスト トレジャーズ | `0100217014266000` | `2F81A2EC9B298B37` ([✅](SaltySD/plugins/FPSLocker/patches/0100217014266000/2F81A2EC9B298B37.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | DreadOut Remastered Collection | `01000B202041A000` | `725731C74E4CA6A9` ([✅](SaltySD/plugins/FPSLocker/patches/01000B202041A000/725731C74E4CA6A9.yaml), v1, 1.0.2) | ~~[📏](#📏)~~ |
