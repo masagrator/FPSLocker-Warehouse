@@ -1,0 +1,10 @@
+# Dinkum 1.0.2
+# BID: 4934F837C6D573D0
+
+ALL_FPS:
+  # UnityEngine.Time::fixedDeltaTime 
+  -
+    type: evaluate_write
+    address: [MAIN, 0x5C5DA60, 0x48]
+    value_type: float
+    value: "1 / FPS_TARGET"
