@@ -250,7 +250,7 @@ PATCH AVAILABILITY<br>
 | Destroy All Humans! | `01009E701356A000` | `72E8F20EBBDBA296` ([✅](SaltySD/plugins/FPSLocker/patches/01009E701356A000/72E8F20EBBDBA296.yaml), v1, 1.0.1) | ~~[📏](#📏)~~ |
 | Detective Pikachu Returns | `010007500F27C000` | `A2A5ABEF988ABAA2` (◯, v0, 1.0.0) |  |
 | Diablo II: Resurrected | `0100726014352000` | `BE7AD359B5CF5AA2` (◯, v27, 1.0.27.0) |  |
-| Dinkum | `0100A5A020D5E000` | `4934F837C6D573D0` ([✅](SaltySD/plugins/FPSLocker/patches/0100A5A020D5E000/4934F837C6D573D0.yaml), v0, 1.0.2) | [📷](#📷) |
+| Dinkum | `0100A5A020D5E000` | `8B3609ECB49DBBED` ([✅](SaltySD/plugins/FPSLocker/patches/0100A5A020D5E000/8B3609ECB49DBBED.yaml), v3, 1.0.2.44) | [📷](#📷) |
 | Dino Ranch: Ride to the Rescue | `010038301ABDA000` | `DDF3A995F0EC84E1` (◯, v2, 1.0.4) |  |
 | Disco Elysium - The Final Cut | `01006C5015E84000` | `26BDCC17F782A7B1` (◯, v12, 1.0.12) |  |
 | Disney Dreamlight Valley | `0100D39012C1A000` | `DD44F396D4C95D68` (◯, v49, 1.19.1) |  |
