@@ -443,7 +443,7 @@ PATCH AVAILABILITY<br>
 | Life is Strange: Double Exposure | `0100B2301F4A8000` | `C4DD7E5256163FF1` ([✅](SaltySD/plugins/FPSLocker/patches/0100B2301F4A8000/C4DD7E5256163FF1.yaml), v1, 1.0.1) <br> `FF8EFD0E0E71BB03` ([✅](SaltySD/plugins/FPSLocker/patches/0100B2301F4A8000/FF8EFD0E0E71BB03.yaml), v2, 1.0.2) <br> `BBEA8745A7893750` ([✅](SaltySD/plugins/FPSLocker/patches/0100B2301F4A8000/BBEA8745A7893750.yaml), v3, 1.0.3) | ~~[🔧](#🔧)~~ |
 | Life is Strange: True Colors | `0100500012AB4000` | `118AA7B71E824B3B` ([✅](SaltySD/plugins/FPSLocker/patches/0100500012AB4000/118AA7B71E824B3B.yaml), v4, 1.0.4) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Little Kitty, Big City | `01000A4019FA2000` | `D3276F6AA64F6DE0` (◯, v16, 1.25.10.07_5538) |  |
-| Little Noah: Scion of Paradise | `0100535014D76000` | `5BA1C162571DBD01` (◯, v6, 1.40) |  |
+| Little Noah: Scion of Paradise | `0100535014D76000` | `8CCC67A5A75CB8E5` ([✅](SaltySD/plugins/FPSLocker/patches/0100535014D76000/8CCC67A5A75CB8E5.yaml), v7, 1.41) | [📷](#📷) |
 | Little Nightmares II | `010097100EDD6000` | `7F4216B6E784A4B2` ([✅](SaltySD/plugins/FPSLocker/patches/010097100EDD6000/7F4216B6E784A4B2.yaml), v4, 1.4) | ~~[📏](#📏)~~ |
 | Little Nightmares III | `010066101A55A000` | `338C569A607B7C30` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/338C569A607B7C30.yaml), v1, 1.0.2) <br> `F3FFA17B5E56809F` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/F3FFA17B5E56809F.yaml), v2, 1.0.3) | ~~[🔧](#🔧)~~ |
 | Little Town Hero | `01000FB00AA90000` | `2BE4AF8B1A137445` (❌, v2, 1.2.0) | [🏃](#🏃) |
