@@ -1,4 +1,4 @@
-# DRAGON BALL: Sparking! Zero 2.0.73
+# DRAGON BALL: Sparking! ZERO 2.0.73
 # BID: 7B53433FA04477FC
 
 ALL_FPS:
@@ -29,3 +29,4 @@ ALL_FPS:
   -
     type: block
     what: timing
+
