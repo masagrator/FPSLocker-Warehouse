@@ -760,6 +760,7 @@ PATCH AVAILABILITY<br>
 | The Dark Pictures Anthology: Man of Medan | `0100711017B30000` | `2C7A626BA5F25D5F` ([✅](SaltySD/plugins/FPSLocker/patches/0100711017B30000/2C7A626BA5F25D5F.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ | 
 | The Elder Scrolls V: Skyrim | `01000A10041EA000` | `4F7995092FAA5DC0` ([✅](SaltySD/plugins/FPSLocker/patches/01000A10041EA000/4F7995092FAA5DC0.yaml), v5, 1.1.392.3925134) | ~~[📏](#📏)~~ |
 | The Entropy Centre | `0100DDD01ACAA000` | `7AF502E140C13759` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
+| The Exit 8 | `01003BF01E940000` | `5346BDF1EEC2BA4C` ([✅](SaltySD/plugins/FPSLocker/patches/01003BF01E940000/5346BDF1EEC2BA4C.yaml), v9, 1.0.9) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | The Forest Quartet | `010010A01BBF4000` | `47A022F858BA09B1` ([✅](SaltySD/plugins/FPSLocker/patches/010010A01BBF4000/47A022F858BA09B1.yaml), v2, 4.0.2) | ~~[📏](#📏)~~ |
 | The Great Ace Attorney Chronicles `GLOBAL` | `010036E00FB20000` | `1DA748FC9499882F` ([✅](SaltySD/plugins/FPSLocker/patches/010036E00FB20000/1DA748FC9499882F.yaml), v0, 1.0.0) | ~~[🔐](#🔐)~~ |
 | The Great Ace Attorney Chronicles `ASIA` | `0100D7F00FB1A000` | `D871B992E95B71C5` ([✅](SaltySD/plugins/FPSLocker/patches/0100D7F00FB1A000/D871B992E95B71C5.yaml), v0, 1.0.0) | ~~[🔐](#🔐)~~ |
