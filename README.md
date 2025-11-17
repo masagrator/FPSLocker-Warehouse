@@ -564,6 +564,7 @@ PATCH AVAILABILITY<br>
 | Overcooked! 2 | `01006FD0080B2000` | `616640F27B936250` (◯, v19, 1.0.19) |  |
 | Oxenfree II: Lost Signals | `010061F0176F6000` | `F722A80C29EF4275` (◯, v4, 1.4.8) |  |
 | PAC-MAN WORLD Re-PAC | `0100D4401565E000` | `0058D033DAA48B17` (◯, v2, 1.0.2) |  |
+| PAC-MAN WORLD 2 Re-PAC | `0100B69017120000` | `02D54DEBD40AF215` ([✅](SaltySD/plugins/FPSLocker/patches/0100B69017120000/02D54DEBD40AF215.yaml), v3, 1.0.3) | ~~[📷](#📷)~~ |
 | Pandemic Shooter | `0100B69017120000` | `02D54DEBD40AF215` ([✅](SaltySD/plugins/FPSLocker/patches/0100B69017120000/02D54DEBD40AF215.yaml), v0, 1.0.0) | ~~[🔧](#🔧)~~ |
 | Paper Mario: The Origami King | `0100A3900C3E2000` | `E74395F066FD8CCB` (❌, v1, 1.0.1) | [🔐](#🔐)[⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢) |
 | Paper Mario: The Thousand-Year Door | `0100ECD018EBE000` | `0EFFE4AF1DEC3A79` (❌, v1, 1.0.1) | [🔐](#🔐)[⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️) |
