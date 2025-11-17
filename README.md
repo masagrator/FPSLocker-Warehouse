@@ -579,7 +579,8 @@ PATCH AVAILABILITY<br>
 | Pikmin 3 Deluxe | `0100F4C009322000` | `D467F5AD367BBEE8` (❌, v4, 1.1.3) | [⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️) |
 | Pikmin 4 | `0100B7C00933A000` | `999AAC4CC07E36BC` (❌, v3, 1.1.0) | [📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢) |
 | PJ Masks Power Heroes: Mighty Alliance | `0100FE301A2B4000` | `A91A7BB200C51B01` (◯, v1, 1.0.1) |  |
-| Plants vs. Zombies: Battle for Neighborville | `0100C56010FD8000` | `82051A9C802D0A4C` ([✅](SaltySD/plugins/FPSLocker/patches/0100C56010FD8000/82051A9C802D0A4C.yaml), v3, 1.0.3) <br> `5AD255D6667B6EB5` ([✅](SaltySD/plugins/FPSLocker/patches/0100C56010FD8000/5AD255D6667B6EB5.yaml), v4, 1.0.4) | ~~[📏](#📏)~~ | 
+| Plants vs. Zombies: Battle for Neighborville | `0100C56010FD8000` | `82051A9C802D0A4C` ([✅](SaltySD/plugins/FPSLocker/patches/0100C56010FD8000/82051A9C802D0A4C.yaml), v3, 1.0.3) <br> `5AD255D6667B6EB5` ([✅](SaltySD/plugins/FPSLocker/patches/0100C56010FD8000/5AD255D6667B6EB5.yaml), v4, 1.0.4) | ~~[📏](#📏)~~ |
+| Platform 8 | `010036F0201D4000` | `42A0B64E45AD9ABA` ([✅](SaltySD/plugins/FPSLocker/patches/010036F0201D4000/42A0B64E45AD9ABA.yaml), v4, 1.0.4) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Pokemon: Let's Go, Eevee! | `0100187003A36000` | `5831EC64D6B696FD` (❌, v2, 1.0.2) | [⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️) |
 | Pokemon: Let's Go, Pikachu! | `010003F003A34000` | `C208DB6A4EF4361F` (❌, v2, 1.0.2) | [⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️) |
 | Pokemon Brilliant Diamond | `0100000011D90000` | `94CEAE325C205C4B` (❌, v6, 1.3.0) | [🏃](#🏃) |
