@@ -829,6 +829,7 @@ PATCH AVAILABILITY<br>
 | Trine | `0100D9000A930000` | `32B4BBE0D88214D3` (◯, v2, 1.0.2) |  |
 | Trine 2 | `010064E00A932000` | `525B902E6F916EA5` (❌📌, v1, 1.0.1) | ~~[🏃](#🏃)~~ |
 | Trine 3: The Artifacts of Power | `0100DEC00A934000` | `86D9EA9CA4680295` (◯, v0, 1.0.0) |  |
+| Trine 4: The Nightmare Prince | `010055E00CA68000` | `B70F06EAC87FA2AF` ([✅](SaltySD/plugins/FPSLocker/patches/010055E00CA68000/B70F06EAC87FA2AF.yaml), v3, 1.0.3) | ~~[📏](#📏)~~ |
 | Trine 5: A Clockwork Conspiracy | `0100E2701A888000` | `8322528255D2CC63` ([✅](SaltySD/plugins/FPSLocker/patches/0100E2701A888000/8322528255D2CC63.yaml), v5, 1.0.5) | ~~[📏](#📏)[⚔️](#⚔️)~~ |
 | Troublemaker | `01001040220E8000` | `336E56D09501A52E` ([✅](SaltySD/plugins/FPSLocker/patches/01001040220E8000/336E56D09501A52E.yaml), v1, 1.0.2) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | TT Isle of Man | `010099900CAB2000` | `F2F739A2F1CAFF72` ([✅](SaltySD/plugins/FPSLocker/patches/010099900CAB2000/F2F739A2F1CAFF72.yaml), v1, 1.1.0) | ~~[📏](#📏)~~ |
