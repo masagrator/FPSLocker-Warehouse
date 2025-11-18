@@ -878,6 +878,7 @@ PATCH AVAILABILITY<br>
 | Wolfenstein: Youngblood | `01003BD00CAAE000` | `8B40EBBA7244C94A` ([✅](SaltySD/plugins/FPSLocker/patches/01003BD00CAAE000/8B40EBBA7244C94A.yaml), v5, 1.5) | ~~[📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | Wolfenstein II: The New Colossus | `01009040091E0000` | `F2FE5EF877839F4F` ([✅](SaltySD/plugins/FPSLocker/patches/01009040091E0000/F2FE5EF877839F4F.yaml), v2, 1.2) | ~~[📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | WORLD OF FINAL FANTASY MAXIMA | `010072000BD32000` | `5767FD44C331B44B` (❌, v1, 1.0.1) | [⚔️](#⚔️)[👄](#👄)[📺](#📺) |
+| World's End Club | `01005A2014362000` | `F00EFE6846627B4A` ([✅](SaltySD/plugins/FPSLocker/patches/01005A2014362000/F00EFE6846627B4A.yaml), v6, 1.0.6) | ~~[🛑](#🛑)~~ |
 | WRATH Aeon of Ruin | `0100C1E00CF30000` | `9587F6793464E033` (◯, v3, 1.0.3) |  |
 | WRC10 | `01003E3014AFE000` | `69CACEEC5F01C41B` ([✅](SaltySD/plugins/FPSLocker/patches/01003E3014AFE000/69CACEEC5F01C41B.yaml), v1, 1.1.0) | ~~[📏](#📏)~~ |
 | WRC Generations | `0100041018810000` | `B8BE1CFAE53CAEBE` ([✅](SaltySD/plugins/FPSLocker/patches/0100041018810000/B8BE1CFAE53CAEBE.yaml), v4, 1.2.2) | ~~[📏](#📏)~~ |
