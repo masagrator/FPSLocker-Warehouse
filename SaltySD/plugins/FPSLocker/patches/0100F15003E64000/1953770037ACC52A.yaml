@@ -1,0 +1,30 @@
+# Fire Emblem Warriors 1.5.0
+# BID: 1953770037ACC52A
+
+MASTER_WRITE:
+  # Block updating DR target
+  ## REF: E8 0F 1E 32 E9 0F 1F 32 28 11 88 1A, nop STR below
+  -
+    type: asm_a64
+    main_offset: 0x8CA2BC
+    instructions: [
+      [nop]
+    ]
+ALL_FPS:
+  # FPS Lock + Game Speed
+  -
+    type: evaluate_write
+    address: [MAIN, 0x12BBCC4]
+    value_type: float
+    value: FPS_TARGET
+  -
+    type: evaluate_write
+    address: [MAIN, 0x12BBCCC]
+    value_type: uint32
+    value: VSYNC_TARGET
+  # DR Target
+  -
+    type: evaluate_write
+    address: [MAIN, 0x12A0FB0]
+    value_type: uint32
+    value: FPS_TARGET
