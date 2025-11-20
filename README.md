@@ -405,6 +405,7 @@ PATCH AVAILABILITY<br>
 | Hitman: Absolution | `010037C022390000` | `96B7F9BD973D298E` ([✅](SaltySD/plugins/FPSLocker/patches/010037C022390000/96B7F9BD973D298E.yaml), v0, 1.2.2RC1) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Hitman: Blood Money - Reprisal | `010083A018262000` | `59AF76C13F680B7C` ([✅](SaltySD/plugins/FPSLocker/patches/010083A018262000/59AF76C13F680B7C.yaml), v1, 1.2_71586) | ~~[🔐](#🔐)~~ |
 | Hoa | `010022E013A1A000` | `33C97D772C057EF9` (◯, v4, 1.0.4) |  |
+| Hob: The Definitive Edition | `01004B100A5CC000` | `4E7978E35F9D7490` ([✅](SaltySD/plugins/FPSLocker/patches/01004B100A5CC000/4E7978E35F9D7490.yaml), v4, 1.1.3) | ~~[📏](#📏)~~ |
 | Hogwarts Legacy | `0100F7E00C70E000` | `1C42BC734E792AFB` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7E00C70E000/1C42BC734E792AFB.yaml), v3, 1.0.3) <br> `2980E59C32A0E147` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7E00C70E000/2980E59C32A0E147.yaml), v4, 1.0.4) <br> `0C00FC37B0610FBD` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7E00C70E000/0C00FC37B0610FBD.yaml), v5, 1.0.5) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Hokko Life | `010022A016250000` | `D9D13603133F3D89` (◯, v5, 1.0.5) |  |
 | Hollow 2 | `01007DE016E9E000` | `6348715E851F18EE` ([✅](SaltySD/plugins/FPSLocker/patches/01007DE016E9E000/6348715E851F18EE.yaml), v0, 1.0.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
