@@ -1,5 +1,5 @@
-# Don't Starve Together 1.22.0
-# BID: 8F26DEF435008AE2
+# Don't Starve Together 1.23.0
+# BID: 05D2208140190484
 
 DECLARATIONS:
   -
@@ -63,4 +63,5 @@ MASTER_WRITE:
     main_offset: 0x24A5C0
     instructions: [
       [mov, w1, 2]
+
     ]
