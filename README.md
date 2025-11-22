@@ -271,7 +271,7 @@ PATCH AVAILABILITY<br>
 | Divinity: Original Sin 2 | `010027400CDC6000` | `4979B200D53BB282` ([✅](SaltySD/plugins/FPSLocker/patches/010027400CDC6000/4979B200D53BB282.yaml), v10, 1.0.10) | [⚔️](#⚔️)~~[📏](#📏)~~ |
 | DOKAPON KiNGDOM CONNECT | `01006FD019A36000` | `4B8DE16DA675C702` (❌, v5, 1.1.2) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | Dolphin Spirit - Ocean Mission | `0100150018200000` | `47B7DC55D707D10A` (◯, v1, 1.00.02) |  |
-| Don't Starve Together | `010090100E334000` | `8F26DEF435008AE2` ([✅](SaltySD/plugins/FPSLocker/patches/010090100E334000/8F26DEF435008AE2.yaml), v24, 1.22.0) | [⚔️](#⚔️)~~[🔐](#🔐)[🖥️](#🖥️)~~ |
+| Don't Starve Together | `010090100E334000` | `8F26DEF435008AE2` ([✅](SaltySD/plugins/FPSLocker/patches/010090100E334000/8F26DEF435008AE2.yaml), v24, 1.22.0) <br> `05D2208140190484` ([✅](SaltySD/plugins/FPSLocker/patches/010090100E334000/05D2208140190484.yaml), v25, 1.23.0) | [⚔️](#⚔️)~~[🔐](#🔐)[🖥️](#🖥️)~~ |
 | DOOM | `0100416004C00000` | `01ACE43E724259C3` ([✅](SaltySD/plugins/FPSLocker/patches/0100416004C00000/01ACE43E724259C3.yaml), v3, 1.2) <br> `2847991952B3D7AB` ([✅](SaltySD/plugins/FPSLocker/patches/0100416004C00000/2847991952B3D7AB.yaml), v4, 1.4) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | DOOM Eternal | `0100B1A00D8CE000` | `B059C2C77AD834B8` ([✅](SaltySD/plugins/FPSLocker/patches/0100B1A00D8CE000/B059C2C77AD834B8.yaml), v14, 1.14) <br> `B059C2C77AD834B8` ([✅](SaltySD/plugins/FPSLocker/patches/0100B1A00D8CE000/B059C2C77AD834B8.yaml), v15, 1.15) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | Double Dragon Revive | `01006AE02236C000` | `DBD5C9EC799E65A9` ([✅](SaltySD/plugins/FPSLocker/patches/01006AE02236C000/DBD5C9EC799E65A9.yaml), v1, N1.10) | ~~[📏](#📏)[🔧](#🔧)~~ |
