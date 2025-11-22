@@ -519,6 +519,7 @@ PATCH AVAILABILITY<br>
 | Monster Truck Championship | `0100D30010C42000` | `682F4A502035678D` ([✅](SaltySD/plugins/FPSLocker/patches/0100D30010C42000/682F4A502035678D.yaml), v2, 1.2.0) | ~~[📏](#📏)~~ |
 | Monster Train | `01006D9013894000` | `9DCA1A70C6414A49` (◯, v1, 2.2.0) |  |
 | Morbid: The Lords of Ire | `01007B0017C90000` | `55DFB4A664D8B596` ([✅](SaltySD/plugins/FPSLocker/patches/01007B0017C90000/55DFB4A664D8B596.yaml), v2, 1.02) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
+| Moto Racer 4 | `01002ED00B01C000` | `31F61EC3A4FEFDF7` ([✅](SaltySD/plugins/FPSLocker/patches/01002ED00B01C000/31F61EC3A4FEFDF7.yaml), v3, 1.0.3) | ~~[🔧](#🔧)~~ |
 | MotoGP 23 | `0100B750198C6000` | `FF0DDCCB9C3B9375` ([✅](SaltySD/plugins/FPSLocker/patches/0100B750198C6000/FF0DDCCB9C3B9375.yaml), v7, 1.0.7) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | MotoGP 24 | `010040401D564000` | `1053EA8AD2A50F15` ([✅](SaltySD/plugins/FPSLocker/patches/010040401D564000/1053EA8AD2A50F15.yaml), v5, 1.0.5) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | MotoGP 25 | `01006C7021024000` | `72D353380DD03B52` ([✅](SaltySD/plugins/FPSLocker/patches/01006C7021024000/72D353380DD03B52.yaml), v1, 1.0.1) <br> `BD9B46CAE607D7E8` ([✅](SaltySD/plugins/FPSLocker/patches/01006C7021024000/BD9B46CAE607D7E8.yaml), v2, 1.0.2) <br> `03DBE839CAA0632B` ([✅](SaltySD/plugins/FPSLocker/patches/01006C7021024000/03DBE839CAA0632B.yaml), v3, 1.0.3) <br> `499A85D046C70186` ([✅](SaltySD/plugins/FPSLocker/patches/01006C7021024000/499A85D046C70186.yaml), v4, 1.0.4) | ~~[📏](#📏)[🔧](#🔧)~~ |
