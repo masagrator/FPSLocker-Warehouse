@@ -339,7 +339,7 @@ PATCH AVAILABILITY<br>
 | Fire Emblem Warriors | `0100F15003E64000` | `1953770037ACC52A` ([✅](SaltySD/plugins/FPSLocker/patches/0100F15003E64000/1953770037ACC52A.yaml), v5, 1.5.0) | ~~[🔐](#🔐)~~[📏](#📏) |
 | Fishing: North Atlantic | `0100A55019C38000` | `B9DB6040F70BE58F` ([✅](SaltySD/plugins/FPSLocker/patches/0100A55019C38000/B9DB6040F70BE58F.yaml), v1, 1.1) | ~~[📏](#📏)~~ |
 | Five Nights at Freddy's: Help Wanted | `0100F7901118C000` | `668FE05AA1AAC5A1` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7901118C000/668FE05AA1AAC5A1.yaml), v4, 1.25) | ~~[🔧](#🔧)~~ |
-| Five Nights at Freddy's: Help Wanted 2 | `010032F01F7CC000` | `F7EB23F0D8E5A933` ([✅](SaltySD/plugins/FPSLocker/patches/010032F01F7CC000/F7EB23F0D8E5A933.yaml), v1, 0.2) | ~~[📏](#📏)[🔧](#🔧)~~ |
+| Five Nights at Freddy's: Help Wanted 2 | `010032F01F7CC000` | `F7EB23F0D8E5A933` ([✅](SaltySD/plugins/FPSLocker/patches/010032F01F7CC000/F7EB23F0D8E5A933.yaml), v1, 0.2) <br> `DE7B50B9FEF89856` ([✅](SaltySD/plugins/FPSLocker/patches/010032F01F7CC000/DE7B50B9FEF89856.yaml), v2, 0.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Five Nights at Freddy's: Security Breach | `01009060193C4000` | `B880EEE5B8946289` ([✅](SaltySD/plugins/FPSLocker/patches/01009060193C4000/B880EEE5B8946289.yaml), v4, 0.5) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Flooded | `010022201D254000` | `AF274CB758733A56` (❌, v1, 1.0.1) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️) |
 | Forgive Me Father | `0100A2A01A026000` | `008F995D1A63B383` ([✅](SaltySD/plugins/FPSLocker/patches/0100A2A01A026000/008F995D1A63B383.yaml), v2, 1.5.4.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
