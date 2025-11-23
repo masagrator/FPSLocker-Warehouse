@@ -1,0 +1,33 @@
+# Red Faction Guerrilla Re-Mars-tered 1.0.0
+# BID: F1D71307616AB7E4
+
+DECLARATIONS:
+  -
+    type: variable
+    name: dr_frametime_max
+    value_type: float
+    default_value: 0.03448276
+    evaluate: "(1 / FPS_TARGET) + 0.00115"
+  -
+    type: variable
+    name: dr_frametime_min
+    value_type: float
+    default_value: 0.033333333
+    evaluate: "1 / FPS_TARGET"
+MASTER_WRITE:
+  -
+    type: asm_a64
+    main_offset: 0x119A30
+    instructions: [
+      [adrp, x9, $dr_frametime_max],
+      [ldr, s2, [x22, 0xc]],
+      [ldr, s3, [x9, $dr_frametime_max]]
+    ]
+  -
+    type: asm_a64
+    main_offset: 0x119A98
+    instructions: [
+      [adrp, x9, $dr_frametime_min],
+      [ldr, s0, [x22, 0xc]],
+      [ldr, s1, [x9, $dr_frametime_min]]
+    ]
