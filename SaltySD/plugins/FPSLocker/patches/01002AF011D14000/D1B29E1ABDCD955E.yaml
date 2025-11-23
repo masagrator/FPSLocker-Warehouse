@@ -7,7 +7,7 @@ DECLARATIONS:
     name: dr_target
     value_type: float
     default_value: 0.03333333333
-    evaluate: "1 / FPS_TARGET" # we are using this trick because function is overengineered and it's not easy to just use standard 1 / FPS_TARGET
+    evaluate: "1 / FPS_TARGET"
   -
     type: code
     name: tripleBuffer
