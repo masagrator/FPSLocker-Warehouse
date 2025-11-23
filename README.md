@@ -66,6 +66,7 @@ PATCH AVAILABILITY<br>
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | ISSUES |
 | --- | --- | --- | --- |
 | .hack//G.U. Last Recode | `0100BA9014A02000` | `4C0ED5711263A6D9` (❌, v0, 1.0.0) | [⏱️](#⏱️)[🖥️](#🖥️)[🎮](#🎮) |
+| 60 Parsecs! | `010010100FF14000` | `12F93E2DBBCFA54F` ([✅](SaltySD/plugins/FPSLocker/patches/010010100FF14000/12F93E2DBBCFA54F.yaml), v10, 1.0.10) | [📷](#📷) |
 | 8-Bit Adventures 2 | `010008B00D682000` | `89777FD8569E563D` (❌, v3, 1.0.3) | [⚔️](#⚔️)[⏱️](#⏱️) |
 | A Hat in Time | `010056E00853A000` | `746F0D697EEEE2DD` ([✅](SaltySD/plugins/FPSLocker/patches/010056E00853A000/746F0D697EEEE2DD.yaml), v4, 1.0.4) | ~~[🔐](#🔐)~~ |
 | A Monster's Expedition | `0100C01013302000` | `09CB487D63E4827E` (◯, v3, 1.2.0) |  |
