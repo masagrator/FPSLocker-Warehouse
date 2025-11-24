@@ -845,6 +845,7 @@ PATCH AVAILABILITY<br>
 | The LEGO Movie 2 - Videogame | `0100A4400BE74000` | `BAC1309DDF75B14D` (◯, v3, 1.0.3) |  |
 | The LEGO NINJAGO Movie Video Game | `01000CE002072000` | `346959B36CD9F14D` ([✅](SaltySD/plugins/FPSLocker/patches/01000CE002072000/346959B36CD9F14D.yaml), v3, 1.0.3) | ~~[📺](#📺)~~ |
 | The Long Dark | `01007A700A87C000` | `88C035C2E44076ED` ([✅](SaltySD/plugins/FPSLocker/patches/01007A700A87C000/88C035C2E44076ED.yaml), v12, 2.40.153678) | ~~[📏](#📏)~~ |
+| The Long Dark: Tales from the Far Territory | `01007A700A87C001` | `F7A872504BDA3100` ([✅](SaltySD/plugins/FPSLocker/patches/01007A700A87C000/F7A872504BDA3100.yaml), v12, 2.40.153678) | ~~[📏](#📏)~~ |
 | The Outer Worlds | `0100626011656000` | `761CD556AB357C87` ([✅](SaltySD/plugins/FPSLocker/patches/0100626011656000/761CD556AB357C87.yaml), v5, 1.0.5) | ~~[📏](#📏)~~ |
 | The Settlers: New Allies | `0100F3200E7CA000` | `EAA0B789264F2A75` ([✅](SaltySD/plugins/FPSLocker/patches/0100F3200E7CA000/EAA0B789264F2A75.yaml), v7, 1.0.7) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | The Sinking City | `010028D00BA1A000` | `85E49C169A8B988A` ([✅](SaltySD/plugins/FPSLocker/patches/010028D00BA1A000/85E49C169A8B988A.yaml), v2, 1.2.0) | ~~[📏](#📏)~~ |
