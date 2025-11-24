@@ -265,6 +265,7 @@ PATCH AVAILABILITY<br>
 | 귀멸의 칼날 히노카미 혈풍담2 | `01001080208AA000` | `B74F2DA687878275` (❌, v7, 1.20) | [🔐](#🔐)[🔧](#🔧)[🏃](#🏃) |
 | Demon Turf | `0100FF5015492000` | `9D3270945708DE4A` (◯, v2, 1.0.1) |  |
 | Demon Turf: Neon Splash | `010010C017B28000` | `500BE42BCD41604F` (◯, v0, 1.0.0) |  |
+| Descenders | `0100D4600D0E4000` | `899B8B12DCD0864F` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4600D0E4000/899B8B12DCD0864F.yaml), v7, 1.0.7) | ~~[📏](#📏)~~ |
 | Destiny Connect: Tick-Tock Travelers | `010069500DD86000` | `5AD84EFD9D28FDDE` ([✅](SaltySD/plugins/FPSLocker/patches/010069500DD86000/5AD84EFD9D28FDDE.yaml), v0, 1.0.0) | ~~[📏](#📏)~~ |
 | Destroy All Humans! | `01009E701356A000` | `72E8F20EBBDBA296` ([✅](SaltySD/plugins/FPSLocker/patches/01009E701356A000/72E8F20EBBDBA296.yaml), v1, 1.0.1) | ~~[📏](#📏)~~ |
 | Detective Pikachu Returns | `010007500F27C000` | `A2A5ABEF988ABAA2` (◯, v0, 1.0.0) |  |
