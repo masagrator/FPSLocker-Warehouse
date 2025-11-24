@@ -7,7 +7,7 @@ DECLARATIONS:
     name: fps_target
     value_type: float
     default_value: 30
-    evaluate: "FPS_TARGET * 1.04"
+    evaluate: FPS_TARGET
 MASTER_WRITE:
   # DynamicResolutionCamera::Update
   -
