@@ -12,4 +12,4 @@ ALL_FPS:
     type: evaluate_write
     address: [MAIN, 0x6B71BB8, 0xB8, 0x50]
     value_type: double
-    value: FRAMERATE_TARGET
+    value: FRAMETIME_TARGET
