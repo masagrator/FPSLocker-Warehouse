@@ -157,7 +157,7 @@ PATCH AVAILABILITY<br>
 | Batora: Lost Haven | `0100A93016BF4000` | `770A07C35E631CB2` ([✅](SaltySD/plugins/FPSLocker/patches/0100A93016BF4000/770A07C35E631CB2.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Bayonetta Origins: Cereza and the Lost Demon | `0100CF5010FEC000` | `A1CE2940D813ACAB` ([✅](SaltySD/plugins/FPSLocker/patches/0100CF5010FEC000/A1CE2940D813ACAB.yaml), v0, 1.0.0) | ~~[⏱️](#⏱️)~~ |
 | Bendy: Lone Wolf | `010071B022A36000` | `E301AFDBCDF9F9AD` (◯, v3, 2.0.5) |  |
-| Bendy and the Dark Revival | `0100207021C3C000` | `2C2D599E55912C6C` (❌📌, v1, 1.6.3s) | [📏](#📏)[🛑](#🛑) |
+| Bendy and the Dark Revival | `0100207021C3C000` | `2C2D599E55912C6C` ([✅](SaltySD/plugins/FPSLocker/patches/0100207021C3C000/2C2D599E55912C6C.yaml), v1, 1.6.3s) | ~~[📏](#📏)[📷](#📷)~~ |
 | Bendy and the Ink Machine | `0100D4C00C6C0000` | `91B6BD011F0C2C46` (◯, v2, 1.6.0.0) |  |
 | BEYBLADE X EVOBATTLE | `01009F002286E000` | `DF9D9CE09ACC1810` (◯, v1, 1.0.1) |  |
 | ベイブレードエックス エボバトル | `0100D9702286C000` | `92A57698A4F90E7D` (◯, v2, 1.0.2) |  |
