@@ -589,7 +589,7 @@ PATCH AVAILABILITY<br>
 | Okami HD | `0100276009872000` | `A4FDDC7FD35B30CB` (❌, v0, 1.0.0) | [⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢) |
 | Olympic Games Tokyo 2020 `EUR` | `010034B00E14C000` | `C4D1BCED9D8C5B81` (❌, v2, 1.0.2) | [⏱️](#⏱️) |
 | 東京2020オリンピック | `01004CE00AAE2000` | `66A8EB853DE90A1A` (❌, v9, 1.0.9) | [⏱️](#⏱️) |
-| Once Upon A KATAMARI | `0100BDF0197C8000` | `FF53171B18C7701A` ([✅](SaltySD/plugins/FPSLocker/patches/0100BDF0197C8000/FF53171B18C7701A.yaml), v1, 1.0.2) | ~~[📏](#📏)~~ |
+| Once Upon A KATAMARI | `0100BDF0197C8000` | `FF53171B18C7701A` ([✅](SaltySD/plugins/FPSLocker/patches/0100BDF0197C8000/FF53171B18C7701A.yaml), v1, 1.0.2) <br> `41F236A333370F55` ([✅](SaltySD/plugins/FPSLocker/patches/0100BDF0197C8000/41F236A333370F55.yaml), v2, 1.0.3) | ~~[📏](#📏)~~ |
 | ONE PIECE ODYSSEY | `0100D9601A994000` | `28ED06F94D767478` ([✅](SaltySD/plugins/FPSLocker/patches/0100D9601A994000/28ED06F94D767478.yaml), v0, 1.0.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Oninaki | `01001AF00CE54000` | `C949E2576F532C43` (◯, v2, 1.0.2) |  |
 | Open Roads | `010034401672A000` | `1C651256CC812D06` (◯, v2, 1.0.2) |  |
