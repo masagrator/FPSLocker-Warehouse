@@ -2,6 +2,13 @@
 # BID: EB58D577539E9151
 
 ALL_FPS:
+  # Disable bUseFixedFrameRate
+  -
+    type: write
+    address: [MAIN, 0x64AD448, 0x7A4]
+    address_unsafe: true
+    value_type: uint32
+    value: 7
   # t.MaxFPS
   -
     type: evaluate_write
