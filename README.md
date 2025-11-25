@@ -811,6 +811,7 @@ PATCH AVAILABILITY<br>
 | Team Sonic Racing `US` | `010092B0091D0000` | `AD75285A65EB6FFD` (◯, v2, 1.0.3) |  |
 | Terra Nil | `01006D501D14A000` | `C8BCCB615DA4BD6C` (◯, v7, 1.2.10) |  |
 | Terraformers | `0100C1B01872A000` | `EFA897C8B97F1C9E` (◯, v6, 1.6.21) |  |
+| The Beast Inside | `010028901FF00000` | `EB58D577539E9151` ([✅](SaltySD/plugins/FPSLocker/patches/010028901FF00000/EB58D577539E9151.yaml), v2, 1.2.0) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | The Bridge Curse - Road to Salvation | `01006BD019A78000` | `F54FC539CAF24C64` ([✅](SaltySD/plugins/FPSLocker/patches/01006BD019A78000/F54FC539CAF24C64.yaml), v1, 1.6.0.1) | ~~[🔧](#🔧)~~ |
 | The Bridge Curse 2: The Extrication | `010033501FF38000` | `B7F344920B6D140E` ([✅](SaltySD/plugins/FPSLocker/patches/010033501FF38000/B7F344920B6D140E.yaml), v1, 1.0.1) | ~~[🔧](#🔧)~~ |
 | The Caligula Effect: Overdose | `010069100B7F0000` | `A953B35A45BEA33D` ([✅](SaltySD/plugins/FPSLocker/patches/010069100B7F0000/A953B35A45BEA33D.yaml), v1, 1.01) | ~~[📏](#📏)~~ |
