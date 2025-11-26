@@ -813,6 +813,7 @@ PATCH AVAILABILITY<br>
 | Tamagotchi Plaza | `010064C01A9BA000` | `1BA8D8FD3897F22F` ([✅](SaltySD/plugins/FPSLocker/patches/010064C01A9BA000/1BA8D8FD3897F22F.yaml), v4, 1.0.4) <br> `FB852EECDE7A745D` ([✅](SaltySD/plugins/FPSLocker/patches/010064C01A9BA000/FB852EECDE7A745D.yaml), v5, 1.0.5) <br> `E73AB32BD1B16098` ([✅](SaltySD/plugins/FPSLocker/patches/010064C01A9BA000/E73AB32BD1B16098.yaml), v6, 1.0.6) | ~~[🔐](#🔐)~~ |
 | たまごっちのプチプチおみせっち おまちど～さま！ | `010040601A9B8000` | `9ACE779510EC93C9` ([✅](SaltySD/plugins/FPSLocker/patches/010040601A9B8000/9ACE779510EC93C9.yaml), v2, 1.0.2) | ~~[🔐](#🔐)~~ |
 | Taxi Chaos | `0100B76011DAA000` | `C5D73D3EDAADACB2` ([✅](SaltySD/plugins/FPSLocker/patches/0100B76011DAA000/C5D73D3EDAADACB2.yaml), v2, 1.0.3) | ~~[🔐](#🔐)[📏](#📏)~~ |
+| Taxi Driver - The Simulation | `010073A010430000` | `2972E95EEFF95144` ([✅](SaltySD/plugins/FPSLocker/patches/010073A010430000/2972E95EEFF95144.yaml), v0, 1.0.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | TCG Card Market Simulator | `01001560214B8000` | `15532623187C22FF` (◯, v1, 1.0.1) |  |
 | Tchia | `0100CEE01D23C000` | `76B6E5E830A43D97` ([✅](SaltySD/plugins/FPSLocker/patches/0100CEE01D23C000/76B6E5E830A43D97.yaml), v1, 1.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Team Sonic Racing | `010084B00B36E000` | `7D942261130F42A7` (◯, v3, 1.0.3) |  |
