@@ -980,6 +980,7 @@ PATCH AVAILABILITY<br>
 
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | ISSUES |
 | --- | --- | --- | --- |
+| AO Tennis 2 | `010047000E9AA000` | `01EB7A6DE827BFD9` ([✅](SaltySD/plugins/FPSLocker/patches/010047000E9AA000/01EB7A6DE827BFD9.yaml), v7, 1.7.0) | ~~[⚔️](#⚔️)[📏](#📏)~~ |
 | Borderlands 3 | `01009970122E4000` | `AE2768797E3337EE` ([✅](SaltySD/plugins/FPSLocker/patches/01009970122E4000/AE2768797E3337EE.yaml), v3, 1.0.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Caravan SandWitch | `0100D5801E904000` | `CE493FC8CDD3D7B2` ([✅](SaltySD/plugins/FPSLocker/patches/0100D5801E904000/CE493FC8CDD3D7B2.yaml), v5, 1.0.5) <br> `89349071D2B0BFF7` ([✅](SaltySD/plugins/FPSLocker/patches/0100D5801E904000/89349071D2B0BFF7.yaml), v7, 1.0.7) | ~~[📏](#📏)~~ |
 | City of Brass | `01009BC00B872000` | `53116900DC7BBE11` ([✅](SaltySD/plugins/FPSLocker/patches/01009BC00B872000/53116900DC7BBE11.yaml), v2, 1.2.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
