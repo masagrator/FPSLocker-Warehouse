@@ -976,7 +976,7 @@ PATCH AVAILABILITY<br>
 </details>
 
 <details>
-<summary>Patches for games not locked to 30 FPS, but with graphics settings targeting strictly 30 or 60 FPS (23 titles)</summary>
+<summary>Patches for games not locked to 30 FPS, but with graphics settings targeting strictly 30 or 60 FPS (24 titles)</summary>
 
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | ISSUES |
 | --- | --- | --- | --- |
