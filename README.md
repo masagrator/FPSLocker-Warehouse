@@ -323,7 +323,8 @@ PATCH AVAILABILITY<br>
 | Dredge | `01008CD0172D6000` | `B9CC2F4DE53D4F94` ([✅](SaltySD/plugins/FPSLocker/patches/01008CD0172D6000/B9CC2F4DE53D4F94.yaml), v8, 1.4.2) <br> `E711B99C30E041F7` ([✅](SaltySD/plugins/FPSLocker/patches/01008CD0172D6000/E711B99C30E041F7.yaml), v10, 1.5.1) <br> `2B1C8B24F6744644` ([✅](SaltySD/plugins/FPSLocker/patches/01008CD0172D6000/2B1C8B24F6744644.yaml), v11, 1.5.2) <br> `F716D367A6D7F5BA` ([✅](SaltySD/plugins/FPSLocker/patches/01008CD0172D6000/F716D367A6D7F5BA.yaml), v12, 1.5.3) | ~~[🛑](#🛑)~~ |
 | Dusk Diver | `0100B2B00E7AA000` | `FAD1AF4EDC6DB267` ([✅](SaltySD/plugins/FPSLocker/patches/0100B2B00E7AA000/FAD1AF4EDC6DB267.yaml), v6, 1.0.6) | ~~[🔐](#🔐)[🔧](#🔧)[📏](#📏)~~ |
 | Dusk Diver 酉閃町 | `010011C00E636000` | `FAD1AF4EDC6DB267` ([✅](SaltySD/plugins/FPSLocker/patches/010011C00E636000/FAD1AF4EDC6DB267.yaml), v6, 1.0.6) | ~~[🔐](#🔐)[🔧](#🔧)[📏](#📏)~~ |
-| Dusk Diver 2 | `01003980174BC000` | `217C9ECF258C0312` ([✅](SaltySD/plugins/FPSLocker/patches/01003980174BC000/217C9ECF258C0312.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
+| Dusk Diver 2 | `0100F0E01753E000` | `217C9ECF258C0312` ([✅](SaltySD/plugins/FPSLocker/patches/0100F0E01753E000/217C9ECF258C0312.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
+| Dusk Diver 2 `US` | `01003980174BC000` | `217C9ECF258C0312` ([✅](SaltySD/plugins/FPSLocker/patches/01003980174BC000/217C9ECF258C0312.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | Dusk Diver 2 崑崙靈動 | `01008AF016240000` | `217C9ECF258C0312` ([✅](SaltySD/plugins/FPSLocker/patches/01008AF016240000/217C9ECF258C0312.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | DYNASTY WARRIORS 9 Empires | `010095D012E5E000` | `929D9160BA57A570` ([✅](SaltySD/plugins/FPSLocker/patches/010095D012E5E000/929D9160BA57A570.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[⏱️](#⏱️)~~ |
 | 真・三國無双８ Empires | `01002B9012E28000` | `6C3F685C62070885` ([✅](SaltySD/plugins/FPSLocker/patches/01002B9012E28000/6C3F685C62070885.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[⏱️](#⏱️)~~ |
