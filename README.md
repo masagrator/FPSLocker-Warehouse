@@ -276,6 +276,8 @@ PATCH AVAILABILITY<br>
 | 귀멸의 칼날: 도전, 최강의 대원! | `0100D3201B808000` | `BCC955FF933FEF2E` ([✅](SaltySD/plugins/FPSLocker/patches/0100D3201B808000/BCC955FF933FEF2E.yaml), v8, 1.20) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | 鬼滅の刃 目指せ！最強隊士！ | `0100A3D0199AC000` | `BCC955FF933FEF2E` ([✅](SaltySD/plugins/FPSLocker/patches/0100A3D0199AC000/BCC955FF933FEF2E.yaml), v8, 1.20) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles | `0100309016E7A000` | `14C878ECCA9D7CB5` ([✅](SaltySD/plugins/FPSLocker/patches/0100309016E7A000/14C878ECCA9D7CB5.yaml), v9, 1.53) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
+| 鬼滅の刃 ヒノカミ血風譚 | `0100285016010000` | `14C878ECCA9D7CB5` ([✅](SaltySD/plugins/FPSLocker/patches/0100285016010000/14C878ECCA9D7CB5.yaml), v9, 1.53) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
+| 귀멸의 칼날 히노카미 혈풍담 | `01004B2016E7C000` | `14C878ECCA9D7CB5` ([✅](SaltySD/plugins/FPSLocker/patches/01004B2016E7C000/14C878ECCA9D7CB5.yaml), v9, 1.53) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2 | `0100AD80208A8000` | `B74F2DA687878275` (❌, v7, 1.20) | [🔐](#🔐)[🔧](#🔧)[🏃](#🏃) |
 | 귀멸의 칼날 히노카미 혈풍담2 | `01001080208AA000` | `B74F2DA687878275` (❌, v7, 1.20) | [🔐](#🔐)[🔧](#🔧)[🏃](#🏃) |
 | Demon Turf | `0100FF5015492000` | `9D3270945708DE4A` (◯, v2, 1.0.1) |  |
