@@ -324,6 +324,7 @@ PATCH AVAILABILITY<br>
 | Dusk Diver | `0100B2B00E7AA000` | `FAD1AF4EDC6DB267` ([✅](SaltySD/plugins/FPSLocker/patches/0100B2B00E7AA000/FAD1AF4EDC6DB267.yaml), v6, 1.0.6) | ~~[🔐](#🔐)[🔧](#🔧)[📏](#📏)~~ |
 | Dusk Diver 酉閃町 | `010011C00E636000` | `FAD1AF4EDC6DB267` ([✅](SaltySD/plugins/FPSLocker/patches/010011C00E636000/FAD1AF4EDC6DB267.yaml), v6, 1.0.6) | ~~[🔐](#🔐)[🔧](#🔧)[📏](#📏)~~ |
 | Dusk Diver 2 | `01003980174BC000` | `217C9ECF258C0312` ([✅](SaltySD/plugins/FPSLocker/patches/01003980174BC000/217C9ECF258C0312.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
+| Dusk Diver 2 崑崙靈動 | `01008AF016240000` | `217C9ECF258C0312` ([✅](SaltySD/plugins/FPSLocker/patches/01008AF016240000/217C9ECF258C0312.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | DYNASTY WARRIORS 9 Empires | `010095D012E5E000` | `929D9160BA57A570` ([✅](SaltySD/plugins/FPSLocker/patches/010095D012E5E000/929D9160BA57A570.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[⏱️](#⏱️)~~ |
 | 真・三國無双８ Empires | `01002B9012E28000` | `6C3F685C62070885` ([✅](SaltySD/plugins/FPSLocker/patches/01002B9012E28000/6C3F685C62070885.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[⏱️](#⏱️)~~ |
 | Dying Light | `01008C8012920000` | `8C93B930348C9787` ([✅](SaltySD/plugins/FPSLocker/patches/01008C8012920000/8C93B930348C9787.yaml), v5, 1.0.5) | ~~[📏](#📏)~~ |
