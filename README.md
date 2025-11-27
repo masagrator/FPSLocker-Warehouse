@@ -367,6 +367,8 @@ PATCH AVAILABILITY<br>
 | Fate/EXTELLA | `010053E002EA2000` | `76EC789B99A25BA5` ([✅](SaltySD/plugins/FPSLocker/patches/010053E002EA2000/76EC789B99A25BA5.yaml), v0, 1.0.0) | ~~[⚔️](#⚔️)~~ |
 | Fate/EXTELLA LINK | `01001A700C832000` | `97FC79E063E26C9B` ([✅](SaltySD/plugins/FPSLocker/patches/01001A700C832000/97FC79E063E26C9B.yaml), v2, 1.0.2) | ~~[⚔️](#⚔️)~~ |
 | Fate/Samurai Remnant | `01003AE01AA76000` | `85D00BDAADD369E6` ([✅](SaltySD/plugins/FPSLocker/patches/01003AE01AA76000/85D00BDAADD369E6.yaml), v10, 1.2.1) <br> `8D6606B544CBCBC8` ([✅](SaltySD/plugins/FPSLocker/patches/01003AE01AA76000/8D6606B544CBCBC8.yaml), v12, 1.3.1) <br> `6C46135714ABB870` ([✅](SaltySD/plugins/FPSLocker/patches/01003AE01AA76000/6C46135714ABB870.yaml), v13, 1.3.2) | ~~[🔐](#🔐)[⚔️](#⚔️)~~ |
+| Fate/Samurai Remnant `JPN` | `01000DA017CF0000` | `6C46135714ABB870` ([✅](SaltySD/plugins/FPSLocker/patches/01000DA017CF0000/6C46135714ABB870.yaml), v13, 1.3.2) | ~~[🔐](#🔐)[⚔️](#⚔️)~~ |
+| Fate/Samurai Remnant `Asia` | `0100B0701AA78000` | `6C46135714ABB870` ([✅](SaltySD/plugins/FPSLocker/patches/0100B0701AA78000/6C46135714ABB870.yaml), v13, 1.3.2) | ~~[🔐](#🔐)[⚔️](#⚔️)~~ |
 | Fe | `0100D2600736A000` | `4FF8F56B697A0949` (◯, v0, 1.0.0) |  |
 | FINAL FANTASY CRYSTAL CHRONICLES `US` | `0100CE4010AAC000` | `E1D8B399B787AE41` (❌, v3, 1.0.3) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | FINAL FANTASY CRYSTAL CHRONICLES | `0100BE0010AAE000` | `4C3D7BA90267A44F` (❌, v3, 1.0.3) | [⏱️](#⏱️)[🖥️](#🖥️) |
