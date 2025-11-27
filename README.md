@@ -273,6 +273,8 @@ PATCH AVAILABILITY<br>
 | DELTARUNE | `0100A0D022A68000` | `59972BE5A4FE0696` (❌, v5, 1.04) | [🔐](#🔐)[⏱️](#⏱️) |
 | DEMON GAZE EXTRA | `0100FCC0168FC000` | `58EE9A90F6FE6D4B` (❌, v2, 1.0.2) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | Demon Slayer -Kimetsu no Yaiba- Sweep the Board! | `0100A7101B806000` | `BCC955FF933FEF2E` ([✅](SaltySD/plugins/FPSLocker/patches/0100A7101B806000/BCC955FF933FEF2E.yaml), v8, 1.20) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
+| 귀멸의 칼날: 도전, 최강의 대원! | `0100D3201B808000` | `BCC955FF933FEF2E` ([✅](SaltySD/plugins/FPSLocker/patches/0100D3201B808000/BCC955FF933FEF2E.yaml), v8, 1.20) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
+| 鬼滅の刃 目指せ！最強隊士！ | `0100A3D0199AC000` | `BCC955FF933FEF2E` ([✅](SaltySD/plugins/FPSLocker/patches/0100A3D0199AC000/BCC955FF933FEF2E.yaml), v8, 1.20) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles | `0100309016E7A000` | `14C878ECCA9D7CB5` ([✅](SaltySD/plugins/FPSLocker/patches/0100309016E7A000/14C878ECCA9D7CB5.yaml), v9, 1.53) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2 | `0100AD80208A8000` | `B74F2DA687878275` (❌, v7, 1.20) | [🔐](#🔐)[🔧](#🔧)[🏃](#🏃) |
 | 귀멸의 칼날 히노카미 혈풍담2 | `01001080208AA000` | `B74F2DA687878275` (❌, v7, 1.20) | [🔐](#🔐)[🔧](#🔧)[🏃](#🏃) |
