@@ -61,7 +61,7 @@ PATCH AVAILABILITY<br>
 ---
 
 <details>
-<summary>List of 30 FPS locked games (910 titles)</summary>
+<summary>List of 30 FPS locked games (911 titles)</summary>
 
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | ISSUES |
 | --- | --- | --- | --- |
