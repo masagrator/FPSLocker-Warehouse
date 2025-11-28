@@ -789,6 +789,9 @@ PATCH AVAILABILITY<br>
 | Shin chan: Shiro and the Coal Town | `0100A8B01E0C8000` | `2AD4407726EEAB86` (◯, v3, 1.0.3) |  |
 | Shin Megami Tensei III Nocturne | `01003B0012DC2000` | `F8098979DBC7F34E` (❌, v3, 1.0.3) | [⏱️](#⏱️)[🏃](#🏃)[🖥️](#🖥️) |
 | SHIN MEGAMI TENSEI V | `0100B870126CE000` | `019FBFE7738EA314` ([✅](SaltySD/plugins/FPSLocker/patches/0100B870126CE000/019FBFE7738EA314.yaml), v2, 1.0.2) | ~~[📏](#📏)~~ |
+| 真・女神転生Ⅴ | `01006BD0095F4000` | `019FBFE7738EA314` ([✅](SaltySD/plugins/FPSLocker/patches/01006BD0095F4000/019FBFE7738EA314.yaml), v2, 1.0.2) | ~~[📏](#📏)~~ |
+| 진･여신전생5 | `0100FB70133C0000` | `019FBFE7738EA314` ([✅](SaltySD/plugins/FPSLocker/patches/0100FB70133C0000/019FBFE7738EA314.yaml), v2, 1.0.2) | ~~[📏](#📏)~~ |
+| 真・女神轉生Ⅴ `HK` | `010038D0133C2000` | `019FBFE7738EA314` ([✅](SaltySD/plugins/FPSLocker/patches/010038D0133C2000/019FBFE7738EA314.yaml), v2, 1.0.2) | ~~[📏](#📏)~~ |
 | SHIN MEGAMI TENSEI V: Vengeance | `010069C01AB82000` | `541F680F325BD5AC` ([✅](SaltySD/plugins/FPSLocker/patches/010069C01AB82000/541F680F325BD5AC.yaml), v1, 1.0.1) <br> `E1BD1040BFBDDAFF` ([✅](SaltySD/plugins/FPSLocker/patches/010069C01AB82000/E1BD1040BFBDDAFF.yaml), v2, 1.0.2) <br> `0A4F14A5C12F470A` ([✅](SaltySD/plugins/FPSLocker/patches/010069C01AB82000/0A4F14A5C12F470A.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | 진・여신전생5 Vengeance | `0100FD401AB0E000` | `C60BBEE6786A16DB` (❌📌, v3, 1.0.3) | [🔐](#🔐)[📏](#📏)[🔧](#🔧) |
 | Shining Resonance Refrain | `01009A5009A9E000` | `069E3EFC16365FFD` ([✅](SaltySD/plugins/FPSLocker/patches/01009A5009A9E000/069E3EFC16365FFD.yaml), v1, 1.0.1) | ~~[⚔️](#⚔️)[🔐](#🔐)[👄](#👄)~~ |
