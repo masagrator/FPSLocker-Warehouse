@@ -998,6 +998,7 @@ PATCH AVAILABILITY<br>
 | UFO ROBOT GRENDIZER - The Feast of the Wolves | `0100F1601EF78000` | `848AF40012A27078` (◯, v2, 1.2) |  |
 | UFOロボ グレンダイザー：たとえ我が命つきるとも | `01007950202C4000` | `848AF40012A27078` (◯, v2, 1.2) |  |
 | Ultra Age | `01008D4015904000` | `CA77083E259D87A2` ([✅](SaltySD/plugins/FPSLocker/patches/01008D4015904000/CA77083E259D87A2.yaml), v7, 2.0.4) | ~~[📏](#📏)~~ |
+| ウルトラエージ | `01006DD00FE16000` | `CA77083E259D87A2` ([✅](SaltySD/plugins/FPSLocker/patches/01006DD00FE16000/CA77083E259D87A2.yaml), v7, 2.0.4) | ~~[📏](#📏)~~ |
 | Ultra Kaiju Monster Rancher | `01008E0019388000` | `53384CC3D2B4CA9F` (❌, v0, 1.0.1) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | Umurangi Generation | `0100CA3014ADE000` | `372AB37327DB2C31` ([✅](SaltySD/plugins/FPSLocker/patches/0100CA3014ADE000/372AB37327DB2C31.yaml), v6, 1.6.6.0) | ~~[🔐](#🔐)~~ |
 | Unbox: Newbie's Adventure | `0100592005164000` | `83A6B710A3F3F4F9` ([✅](SaltySD/plugins/FPSLocker/patches/0100592005164000/83A6B710A3F3F4F9.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
