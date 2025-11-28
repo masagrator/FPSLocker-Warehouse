@@ -905,7 +905,8 @@ PATCH AVAILABILITY<br>
 | カリギュラ オーバードーズ | `010026E00CDF8000` | `A953B35A45BEA33D` ([✅](SaltySD/plugins/FPSLocker/patches/010026E00CDF8000/A953B35A45BEA33D.yaml), v1, 1.01) | ~~[📏](#📏)~~ |
 | The Caligula Effect 2 | `0100CC3014886000` | `9265FE6C4DE9600E` ([✅](SaltySD/plugins/FPSLocker/patches/0100CC3014886000/9265FE6C4DE9600E.yaml), v1, 1.1.0) | ~~[🔧](#🔧)~~ |
 | The Dark Pictures Anthology: Little Hope | `010084F017B32000` | `2BFF5F7711EE6C9F` ([✅](SaltySD/plugins/FPSLocker/patches/010084F017B32000/2BFF5F7711EE6C9F.yaml), v0, 1.0.0) | ~~[🔐](#🔐)~~ | 
-| The Dark Pictures Anthology: Man of Medan | `0100711017B30000` | `2C7A626BA5F25D5F` ([✅](SaltySD/plugins/FPSLocker/patches/0100711017B30000/2C7A626BA5F25D5F.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ | 
+| The Dark Pictures Anthology: Man of Medan | `0100711017B30000` | `2C7A626BA5F25D5F` ([✅](SaltySD/plugins/FPSLocker/patches/0100711017B30000/2C7A626BA5F25D5F.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
+| The Dark Pictures Anthology: マン・オブ・メダン | `0100DB1017CDC000` | `2C7A626BA5F25D5F` ([✅](SaltySD/plugins/FPSLocker/patches/0100DB1017CDC000/2C7A626BA5F25D5F.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
 | The Elder Scrolls V: Skyrim | `01000A10041EA000` | `4F7995092FAA5DC0` ([✅](SaltySD/plugins/FPSLocker/patches/01000A10041EA000/4F7995092FAA5DC0.yaml), v5, 1.1.392.3925134) | ~~[📏](#📏)~~ |
 | The Entropy Centre | `0100DDD01ACAA000` | `7AF502E140C13759` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
 | The Exit 8 | `01003BF01E940000` | `5346BDF1EEC2BA4C` ([✅](SaltySD/plugins/FPSLocker/patches/01003BF01E940000/5346BDF1EEC2BA4C.yaml), v9, 1.0.9) | ~~[📏](#📏)[🔧](#🔧)~~ |
