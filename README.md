@@ -1033,6 +1033,8 @@ PATCH AVAILABILITY<br>
 | Wobbly Life | `010039501F11C000` | `B174F363C2823CBE` (❌📌, v5, 1.0.0.3) | [📏](#📏) |
 | 워블리 라이프 | `010083602099A000` | `B174F363C2823CBE` (❌📌, v5, 1.0.0.3) | [📏](#📏) |
 | Wolfenstein: Youngblood | `01003BD00CAAE000` | `8B40EBBA7244C94A` ([✅](SaltySD/plugins/FPSLocker/patches/01003BD00CAAE000/8B40EBBA7244C94A.yaml), v5, 1.5) | ~~[📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
+| Wolfenstein: Youngblood (Deutsche Version) | `0100B4D00E6B0000` | `8B40EBBA7244C94A` ([✅](SaltySD/plugins/FPSLocker/patches/0100B4D00E6B0000/8B40EBBA7244C94A.yaml), v5, 1.5) | ~~[📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
+| Wolfenstein: Youngblood `JPN` | `0100D1F00EB72000` | `8B40EBBA7244C94A` ([✅](SaltySD/plugins/FPSLocker/patches/0100D1F00EB72000/8B40EBBA7244C94A.yaml), v5, 1.5) | ~~[📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | Wolfenstein II: The New Colossus | `01009040091E0000` | `F2FE5EF877839F4F` ([✅](SaltySD/plugins/FPSLocker/patches/01009040091E0000/F2FE5EF877839F4F.yaml), v2, 1.2) | ~~[📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | WORLD OF FINAL FANTASY MAXIMA | `010072000BD32000` | `5767FD44C331B44B` (❌, v1, 1.0.1) | [⚔️](#⚔️)[👄](#👄)[📺](#📺) |
 | World's End Club | `01005A2014362000` | `F00EFE6846627B4A` ([✅](SaltySD/plugins/FPSLocker/patches/01005A2014362000/F00EFE6846627B4A.yaml), v6, 1.0.6) | ~~[🛑](#🛑)~~ |
