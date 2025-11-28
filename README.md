@@ -1009,6 +1009,7 @@ PATCH AVAILABILITY<br>
 | Unravel Two | `0100E5D00CC0C000` | `F04D4FE8BF580369` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
 | Upin & Ipin Universe | `010058C01F3EE000` | `A15393F630A9767F` ([✅](SaltySD/plugins/FPSLocker/patches/010058C01F3EE000/A15393F630A9767F.yaml), v1, 1.0.1) <br> `301E4A1FB0BA1575` ([✅](SaltySD/plugins/FPSLocker/patches/010058C01F3EE000/301E4A1FB0BA1575.yaml), v2, 1.0.2) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | V-Rally 4 | `010064400B138000` | `EB8A679B5DDD0060` ([✅](SaltySD/plugins/FPSLocker/patches/010064400B138000/EB8A679B5DDD0060.yaml), v2, 1.2.0) | ~~[📏](#📏)~~ |
+| V-Rally 4 `JPN` | `010015800B178000` | `EB8A679B5DDD0060` ([✅](SaltySD/plugins/FPSLocker/patches/010015800B178000/EB8A679B5DDD0060.yaml), v2, 1.2.0) | ~~[📏](#📏)~~ |
 | Valkyria Chronicles | `0100CAF00B744000` | `FE77FFB8CBFB3A5C` ([✅](SaltySD/plugins/FPSLocker/patches/0100CAF00B744000/FE77FFB8CBFB3A5C.yaml), v1, 1.0.1) | ~~[⏱️](#⏱️)~~[🖥️](#🖥️)[⚔️](#⚔️) |
 | 戦場のヴァルキュリア | `0100E6900A5A8000` | `A184B59D5091B68A` ([✅](SaltySD/plugins/FPSLocker/patches/0100E6900A5A8000/A184B59D5091B68A.yaml), v1, 1.0.1) | ~~[⏱️](#⏱️)~~[🖥️](#🖥️)[⚔️](#⚔️) |
 | Valkyria Chronicles 4 | `01005C600AC68000` | `3758602AA47ADD37` (❌, v0, 1.0.0) | [👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️) |
