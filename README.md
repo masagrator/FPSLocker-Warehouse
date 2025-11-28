@@ -551,6 +551,7 @@ PATCH AVAILABILITY<br>
 | Mario + Rabbids Sparks of Hope | `0100317013770000` | `5B76A43B231E0640` (◯, v6, 1.6.2225577) |  |
 | 마리오 + 래비드 반짝이는 희망 | `0100FC60185AE000` | `2545826CA04FC82C` (◯, v6, 1.6.2225577) |  |
 | Made in Abyss: Binary Star Falling into Darkness | `01006080117C2000` | `DFC7E8979528DE44` ([✅](SaltySD/plugins/FPSLocker/patches/01006080117C2000/DFC7E8979528DE44.yaml), v3, 1.0.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
+| メイドインアビス 闇を目指した連星 | `010078D010BD6000` | `DFC7E8979528DE44` ([✅](SaltySD/plugins/FPSLocker/patches/010078D010BD6000/DFC7E8979528DE44.yaml), v3, 1.0.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Majogami | `0100BEA0244FC000` | `9FD75204E7C17463` ([✅](SaltySD/plugins/FPSLocker/patches/0100BEA0244FC000/9FD75204E7C17463.yaml), v3, 1.1.1) <br> `4AC071F9B9540985` ([✅](SaltySD/plugins/FPSLocker/patches/0100BEA0244FC000/4AC071F9B9540985.yaml), v4, 1.1.3) | ~~[🔐](#🔐)[⏱️](#⏱️)~~[⚔️](#⚔️) |
 | Mark of the Ninja: Remastered | `01009A700A538000` | `AE324830FE37FC72` (◯, v2, 1.0.2) |  |
 | Marvel Ultimate Alliance 3: The Black Order | `010060700AC50000` | `E853C44FDF18B88F` ([✅](SaltySD/plugins/FPSLocker/patches/010060700AC50000/E853C44FDF18B88F.yaml), v8, 4.0.1) | ~~[🔐](#🔐)[📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
