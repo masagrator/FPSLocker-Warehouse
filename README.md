@@ -716,6 +716,7 @@ PATCH AVAILABILITY<br>
 | Prison Simulator | `010094C017B06000` | `56C709E1A63CF9EA` (◯, v0, 1.0.0) |  |
 | Project Warlock | `0100BDB01150E000` | `D597DE8544D8ED4F` (◯, v4, 1.0.4) |  |
 | Pumpkin Jack | `01006C10131F6000` | `0F73F1D52820F90B` ([✅](SaltySD/plugins/FPSLocker/patches/01006C10131F6000/0F73F1D52820F90B.yaml), v4, 1.4.4) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
+| パンプキン・ジャック | `0100B8A0136D4000` | `0F73F1D52820F90B` ([✅](SaltySD/plugins/FPSLocker/patches/0100B8A0136D4000/0F73F1D52820F90B.yaml), v4, 1.4.4) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | Rabbids Party of Legends | `01008970149B0000` | `7C0876057EE29DF3` (❌, v1, 1.0.1) | [🛑](#🛑) |
 | Raccoo Venture | `0100C1E01CDEE000` | `27BB06DD145F39F5` ([✅](SaltySD/plugins/FPSLocker/patches/0100C1E01CDEE000/27BB06DD145F39F5.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[🏃](#🏃)~~ |
 | Rad Rodgers: Radical Edition | `010000600CD54000` | `78885A1CA987C04C` ([✅](SaltySD/plugins/FPSLocker/patches/010000600CD54000/78885A1CA987C04C.yaml), v2, 1.2.0) | ~~[🔐](#🔐)~~ |
