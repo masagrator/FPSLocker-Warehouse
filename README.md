@@ -668,6 +668,7 @@ PATCH AVAILABILITY<br>
 | Paper Mario: The Origami King | `0100A3900C3E2000` | `E74395F066FD8CCB` (❌, v1, 1.0.1) | [🔐](#🔐)[⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢) |
 | Paper Mario: The Thousand-Year Door | `0100ECD018EBE000` | `0EFFE4AF1DEC3A79` (❌, v1, 1.0.1) | [🔐](#🔐)[⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️) |
 | Paradise Killer | `01007FB010DC8000` | `D3744AF2C376CDC4` ([✅](SaltySD/plugins/FPSLocker/patches/01007FB010DC8000/D3744AF2C376CDC4.yaml), v7, 1.2.1) | ~~[📏](#📏)~~ |
+| パラダイスキラー | `0100EC5013ED2000` | `D3744AF2C376CDC4` ([✅](SaltySD/plugins/FPSLocker/patches/0100EC5013ED2000/D3744AF2C376CDC4.yaml), v7, 1.2.1) | ~~[📏](#📏)~~ |
 | Paradise Lost | `010077A012A5C000` | `F5ECE696120B65B3` ([✅](SaltySD/plugins/FPSLocker/patches/010077A012A5C000/F5ECE696120B65B3.yaml), v0, 1.0.0) | ~~[📏](#📏)~~ |
 | Pascal's Wager | `01009B9017D8E000` | `3F9A7276F039B226` (◯, v2, 2.0.0) |  | 
 | Passpartout 2: The Lost Artist | `010094E01AA20000` | `ED2F8EEA20A7943D` (◯, v3, 1.1.1) |  | 
