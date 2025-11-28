@@ -1042,6 +1042,8 @@ PATCH AVAILABILITY<br>
 | WRATH Aeon of Ruin | `0100C1E00CF30000` | `9587F6793464E033` (◯, v3, 1.0.3) |  |
 | WRC10 | `01003E3014AFE000` | `69CACEEC5F01C41B` ([✅](SaltySD/plugins/FPSLocker/patches/01003E3014AFE000/69CACEEC5F01C41B.yaml), v1, 1.1.0) | ~~[📏](#📏)~~ |
 | WRC Generations | `0100041018810000` | `B8BE1CFAE53CAEBE` ([✅](SaltySD/plugins/FPSLocker/patches/0100041018810000/B8BE1CFAE53CAEBE.yaml), v4, 1.2.2) | ~~[📏](#📏)~~ |
+| WRCジェネレーションズ | `01006B4018ECA000` | `B8BE1CFAE53CAEBE` ([✅](SaltySD/plugins/FPSLocker/patches/01006B4018ECA000/B8BE1CFAE53CAEBE.yaml), v4, 1.2.2) | ~~[📏](#📏)~~ |
+| WRC 제너레이션 | `0100B4F0196B8000` | `B8BE1CFAE53CAEBE` ([✅](SaltySD/plugins/FPSLocker/patches/0100B4F0196B8000/B8BE1CFAE53CAEBE.yaml), v4, 1.2.2) | ~~[📏](#📏)~~ |
 | Wreckfest | `0100DC0012E48000` | `7BCD694B69C98104` (◯, v2, 1.0.2) |  |
 | WW2: Bunker Simulator | `01009A601B032000` | `0C2E9A763F9AB7A2` (◯, v0, 01.00) |  |
 | WWE 2K18 | `010009800203E000` | `DEEE18D307C81634` (❌, v5, 1.04) | [⏱️](#⏱️)[📏](#📏)[⚔️](#⚔️) |
