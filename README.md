@@ -982,6 +982,7 @@ PATCH AVAILABILITY<br>
 | Trine 2 | `010064E00A932000` | `525B902E6F916EA5` (❌, v1, 1.0.1) | [🏃](#🏃) |
 | Trine 3: The Artifacts of Power | `0100DEC00A934000` | `86D9EA9CA4680295` (◯, v0, 1.0.0) |  |
 | Trine 4: The Nightmare Prince | `010055E00CA68000` | `B70F06EAC87FA2AF` ([✅](SaltySD/plugins/FPSLocker/patches/010055E00CA68000/B70F06EAC87FA2AF.yaml), v3, 1.0.3) | ~~[📏](#📏)~~ |
+| トライン4：ザ・ナイトメア プリンス | `0100BDD00EF5A000` | `B70F06EAC87FA2AF` ([✅](SaltySD/plugins/FPSLocker/patches/0100BDD00EF5A000/B70F06EAC87FA2AF.yaml), v3, 1.0.3) | ~~[📏](#📏)~~ |
 | Trine 5: A Clockwork Conspiracy | `0100E2701A888000` | `8322528255D2CC63` ([✅](SaltySD/plugins/FPSLocker/patches/0100E2701A888000/8322528255D2CC63.yaml), v5, 1.0.5) | ~~[📏](#📏)[⚔️](#⚔️)~~ |
 | Troublemaker | `01001040220E8000` | `336E56D09501A52E` ([✅](SaltySD/plugins/FPSLocker/patches/01001040220E8000/336E56D09501A52E.yaml), v1, 1.0.2) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | Truck Driver | `0100CB50107BA000` | `8D94D7CA2A09FF5D` (◯, v8, 1.36) |  |
