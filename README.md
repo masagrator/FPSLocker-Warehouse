@@ -102,6 +102,7 @@ PATCH AVAILABILITY<br>
 | Apollo Justice Trilogy | `010020D01B890000` | `F1A7E0DB6B0EC65F` (❌, v1, 1.0.1) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️) |
 | Aragami 2 | `0100787018198000` | `3FFD52E56DD8ADB3` (◯, v1, 1.0.30195.0) |  |
 | 아라가미 2 | `0100021019A18000` | `AE1A9D2E97C95384` (◯, v2, 1.0.30196.0) |  |
+| Architect's Life: A House Design Simulator | `0100B8401EED6000` | `D23C95A5A7AB19C9` ([✅](SaltySD/plugins/FPSLocker/patches/0100B8401EED6000/D23C95A5A7AB19C9.yaml), v3, 1.0.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Arise: A Simple Story | `0100FE201680A000` | `8F2536786EECCEE5` ([✅](SaltySD/plugins/FPSLocker/patches/0100FE201680A000/8F2536786EECCEE5.yaml), v5, 1.0.5) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | ARK: Dinosaur Discovery | `0100A6B01900E000` | `9E0901B84058B5B4` ([✅](SaltySD/plugins/FPSLocker/patches/0100A6B01900E000/9E0901B84058B5B4.yaml), v2, 1.5.0) | ~~[🔐](#🔐)~~ |
 | ARK: Survival Evolved | `0100D4A00B284000` | `D1E3FFBA414F4929` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4A00B284000/D1E3FFBA414F4929.yaml), v14, 2.0.11) <br> `DE62C644228E63CC` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4A00B284000/DE62C644228E63CC.yaml), v15, 2.0.12) <br> `44E0F3E8F4996F55` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4A00B284000/44E0F3E8F4996F55.yaml), v16, 2.0.14) <br> `2B70B1A7B478FCA3` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4A00B284000/2B70B1A7B478FCA3.yaml), v17, 2.0.15) | ~~[🔐](#🔐)[📏](#📏)~~ |
