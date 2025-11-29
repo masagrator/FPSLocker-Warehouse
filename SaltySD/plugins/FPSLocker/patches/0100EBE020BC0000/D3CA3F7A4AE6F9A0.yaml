@@ -1,6 +1,6 @@
 # EVERYBODY'S GOLF: Hot Shots EUR 1.1.3
 # BID: D3CA3F7A4AE6F9A0
-# Used different frametime target values because math is completely unsuited for 60 FPS target
+# Changed frametime target value math formula because default one sucks at 60 FPS target
 
 DECLARATIONS:
   -
@@ -8,13 +8,13 @@ DECLARATIONS:
     name: dr_frametime_max
     value_type: double
     default_value: 40
-    evaluate: "FRAMETIME_TARGET"
+    evaluate: "0.9 * FRAMETIME_TARGET"
   -
     type: variable
     name: dr_frametime_min
     value_type: double
     default_value: 33.3333333333
-    evaluate: "0.86 * FRAMETIME_TARGET"
+    evaluate: "(0.9 * FRAMETIME_TARGET) - 6"
 MASTER_WRITE:
   -
     type: asm_a64
