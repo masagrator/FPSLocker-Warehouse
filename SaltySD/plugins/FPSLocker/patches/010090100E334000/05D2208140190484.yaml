@@ -3,6 +3,7 @@
 
 ALL_FPS:
   # FPS Lock
+  # REF: find instruction 36 D9 34 F8, set breakpoint in GDB, use X9 to find main offset
   -
     type: evaluate_write
     address: [MAIN, 0xD692DF0, 0x320]
