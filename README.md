@@ -300,7 +300,7 @@ PATCH AVAILABILITY<br>
 | DOKAPON KiNGDOM CONNECT | `01006FD019A36000` | `4B8DE16DA675C702` (❌, v5, 1.1.2) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | Dollmare | `0100F09024254000` | `EC30FA360F7BFF02` ([✅](SaltySD/plugins/FPSLocker/patches/0100F09024254000/EC30FA360F7BFF02.yaml), v0, 1.0.0) | ~~[📏](#📏)~~ |
 | Dolphin Spirit - Ocean Mission | `0100150018200000` | `47B7DC55D707D10A` (◯, v1, 1.00.02) |  |
-| Don't Starve Together | `010090100E334000` | `8F26DEF435008AE2` ([✅](SaltySD/plugins/FPSLocker/patches/010090100E334000/8F26DEF435008AE2.yaml), v24, 1.22.0) <br> `05D2208140190484` ([✅](SaltySD/plugins/FPSLocker/patches/010090100E334000/05D2208140190484.yaml), v25, 1.23.0) | [⚔️](#⚔️)~~[🔐](#🔐)[🖥️](#🖥️)~~ |
+| Don't Starve Together | `010090100E334000` | `05D2208140190484` ([✅](SaltySD/plugins/FPSLocker/patches/010090100E334000/05D2208140190484.yaml), v25, 1.23.0) | [⚔️](#⚔️)~~[🔐](#🔐)[🖥️](#🖥️)~~ |
 | DOOM `West` | `0100416004C00000` | `01ACE43E724259C3` ([✅](SaltySD/plugins/FPSLocker/patches/0100416004C00000/01ACE43E724259C3.yaml), v3, 1.2) <br> `2847991952B3D7AB` ([✅](SaltySD/plugins/FPSLocker/patches/0100416004C00000/2847991952B3D7AB.yaml), v4, 1.4) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | DOOM `JPN` | `0100D76006EF8000` | `2847991952B3D7AB` ([✅](SaltySD/plugins/FPSLocker/patches/0100D76006EF8000/2847991952B3D7AB.yaml), v3, 1.4) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | DOOM Eternal | `0100B1A00D8CE000` | `B059C2C77AD834B8` ([✅](SaltySD/plugins/FPSLocker/patches/0100B1A00D8CE000/B059C2C77AD834B8.yaml), v14, 1.14) <br> `B059C2C77AD834B8` ([✅](SaltySD/plugins/FPSLocker/patches/0100B1A00D8CE000/B059C2C77AD834B8.yaml), v15, 1.15) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~ |
