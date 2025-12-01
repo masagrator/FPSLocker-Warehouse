@@ -535,6 +535,7 @@ PATCH AVAILABILITY<br>
 | ライフ イズ ストレンジ ダブルエクスポージャー | `0100DF301FA3C000` | `BBEA8745A7893750` ([✅](SaltySD/plugins/FPSLocker/patches/0100DF301FA3C000/BBEA8745A7893750.yaml), v3, 1.0.3) | ~~[🔧](#🔧)~~ |
 | Life is Strange: True Colors | `0100500012AB4000` | `118AA7B71E824B3B` ([✅](SaltySD/plugins/FPSLocker/patches/0100500012AB4000/118AA7B71E824B3B.yaml), v4, 1.0.4) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Little Big Adventure - Twinsen's Quest | `0100BB901FA12000` | `52802B73E6C71920` (◯, v4, 1.1.2) |  |
+| Little Droid | `0100DB6020CCE000` | `0A0630C01D7130B7` ([✅](SaltySD/plugins/FPSLocker/patches/0100DB6020CCE000/0A0630C01D7130B7.yaml), v4, 1.0.4) | ~~[📷](#📷)~~ |
 | Little Kitty, Big City | `01000A4019FA2000` | `D3276F6AA64F6DE0` (◯, v16, 1.25.10.07_5538) |  |
 | Little Noah: Scion of Paradise | `0100535014D76000` | `8CCC67A5A75CB8E5` ([✅](SaltySD/plugins/FPSLocker/patches/0100535014D76000/8CCC67A5A75CB8E5.yaml), v7, 1.41) | ~~[📷](#📷)~~ |
 | Little Nightmares II | `010097100EDD6000` | `7F4216B6E784A4B2` ([✅](SaltySD/plugins/FPSLocker/patches/010097100EDD6000/7F4216B6E784A4B2.yaml), v4, 1.4) | ~~[📏](#📏)~~ |
