@@ -1114,7 +1114,7 @@ PATCH AVAILABILITY<br>
 | Empire of Sin | `010058600E530000` | `BD5F1ED30FDBA245` ([✅](SaltySD/plugins/FPSLocker/patches/010058600E530000/BD5F1ED30FDBA245.yaml), v10, 1.10.0) | ~~[📏](#📏)~~ |
 | EVERYBODY'S GOLF: Hot Shots `EUR` | `0100EBE020BC0000` | `D3CA3F7A4AE6F9A0` ([✅](SaltySD/plugins/FPSLocker/patches/0100EBE020BC0000/D3CA3F7A4AE6F9A0.yaml), v4, 1.1.3) <br> `386C265C45562002` ([✅](SaltySD/plugins/FPSLocker/patches/0100EBE020BC0000/386C265C45562002.yaml), v5, 1.1.4) | ~~[📏](#📏)~~ |
 | EVERYBODY'S GOLF: Hot Shots `US` | `0100821020BBC000` | `D45002D206976B20` (❌, v5, 1.1.4) | [📏](#📏) |
-| みんなのGOLF WORLD | `0100760020BBA000` | `734C4A6ED33AE189` ([✅](SaltySD/plugins/FPSLocker/patches/0100760020BBA000/734C4A6ED33AE189.yaml), v4, 1.1.3) | ~~[📏](#📏)~~ |
+| みんなのGOLF WORLD | `0100760020BBA000` | `734C4A6ED33AE189` ([✅](SaltySD/plugins/FPSLocker/patches/0100760020BBA000/734C4A6ED33AE189.yaml), v4, 1.1.3) <br> `8E3D8436FCAA4C78` ([✅](SaltySD/plugins/FPSLocker/patches/0100760020BBA000/8E3D8436FCAA4C78.yaml), v5, 1.1.4) | ~~[📏](#📏)~~ |
 | - 모두의 골프 월드<br>- 全民高爾夫 環球之旅 | `0100422020BC4000` | `A179DD4F4BFB3A04` ([✅](SaltySD/plugins/FPSLocker/patches/0100422020BC4000/A179DD4F4BFB3A04.yaml), v4, 1.1.3) | ~~[📏](#📏)~~ |
 | Misc. A Tiny Tale | `0100A5E014196000` | `0E9D849EF47198D8` ([✅](SaltySD/plugins/FPSLocker/patches/0100A5E014196000/0E9D849EF47198D8.yaml), v5, 1.0.4) <br> `D24A46A2618C9E38` ([✅](SaltySD/plugins/FPSLocker/patches/0100A5E014196000/D24A46A2618C9E38.yaml), v6, 1.0.5) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Mortal Shell | `0100154019A7C000` | `6D9F6C7B79F5197F` ([✅](SaltySD/plugins/FPSLocker/patches/0100154019A7C000/6D9F6C7B79F5197F.yaml), v2, 1.2.0) | ~~[📏](#📏)~~ |
