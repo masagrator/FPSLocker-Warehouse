@@ -732,6 +732,7 @@ PATCH AVAILABILITY<br>
 | Project Nightmares Case 36: Henrietta Kedward | `0100736019D8E000` | `72AE4B77322A5B1B` ([✅](SaltySD/plugins/FPSLocker/patches/0100736019D8E000/72AE4B77322A5B1B.yaml), v3, 1.0.3) | ~~[📏](#📏)~~ |
 | PROJECT ZERO: MAIDEN OF BLACK WATER | `0100BEB015604000` | `B38D51E0391187EC` ([✅](SaltySD/plugins/FPSLocker/patches/0100BEB015604000/B38D51E0391187EC.yaml), v4, 1.0.4) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | 零 ～月蝕的假面～ | `010091B01A438000` | `A735894277FF90F3` ([✅](SaltySD/plugins/FPSLocker/patches/010091B01A438000/A735894277FF90F3.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
+| PROGRESS ORDERS | `01000F801EC5A000` | `33E7D684796F363B` ([✅](SaltySD/plugins/FPSLocker/patches/01000F801EC5A000/33E7D684796F363B.yaml), v3, 1.0.3) | ~~[🔧](#🔧)~~ |
 | PROJECT ZERO: Mask of the Lunar Eclipse | `0100DAE019110000` | `0248DC99035AD28A` ([✅](SaltySD/plugins/FPSLocker/patches/0100DAE019110000/0248DC99035AD28A.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | Princess Peach Showtime! | `01007A3009184000` | `928EFE2954F68055` ([✅](SaltySD/plugins/FPSLocker/patches/01007A3009184000/928EFE2954F68055.yaml), v0, 1.0.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Prison Simulator | `010094C017B06000` | `56C709E1A63CF9EA` (◯, v0, 1.0.0) |  |
