@@ -651,9 +651,11 @@ PATCH AVAILABILITY<br>
 | Noctuary | `01003A10208FA000` | `07D3F6E45AD3C3C1` (◯, v2, 1.4.1) |  |
 | Nuclear Throne | `0100CFE00CE6E000` | `920C5E25051824EC` (❌, v1, 1.0.11) | [🔐](#🔐)[⏱️](#⏱️) |
 | Oceanhorn 2: Knights of the Lost Realm | `01006CB010840000` | `9F2F187D1C6E44EC` ([✅](SaltySD/plugins/FPSLocker/patches/01006CB010840000/9F2F187D1C6E44EC.yaml), v2, 1.2) | ~~[📏](#📏)[🔧](#🔧)~~ |
-| OCTOPATH TRAVELER 歧路旅人 | `01000E200DC58000` | `9E6B0D0023F9DB3B` ([✅](SaltySD/plugins/FPSLocker/patches/01000E200DC58000/9E6B0D0023F9DB3B.yaml), v3, 1.0.5) | ~~[🔐](#🔐)~~ |
 | OCTOPATH TRAVELER | `010057D006492000` | `67DACC049CEEE858` ([✅](SaltySD/plugins/FPSLocker/patches/010057D006492000/67DACC049CEEE858.yaml), v5, 1.0.5) | ~~[🔐](#🔐)~~ |
 | OCTOPATH TRAVELER `JPN` | `0100E66006406000` | `AA4277E6A92FEBE6` ([✅](SaltySD/plugins/FPSLocker/patches/0100E66006406000/AA4277E6A92FEBE6.yaml), v4, 1.0.4) | ~~[🔐](#🔐)~~ |
+| 歧路旅人 | `01000E200DC58000` | `9E6B0D0023F9DB3B` ([✅](SaltySD/plugins/FPSLocker/patches/01000E200DC58000/9E6B0D0023F9DB3B.yaml), v3, 1.0.5) | ~~[🔐](#🔐)~~ |
+| OCTOPATH TRAVELER 0 | `01005270232F2000` | `FEABC8D141EECCA5` ([✅](SaltySD/plugins/FPSLocker/patches/01005270232F2000/FEABC8D141EECCA5.yaml), v2, 1.0.2) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
+| - 옥토패스 트래블러 0<br>- 歧路旅人0 | `01001300232F4000` | `6070FC72448EE560` (❌📌, v2, 1.0.2) | [🔐](#🔐)[🔧](#🔧) |
 | OCTOPATH TRAVELER II | `0100A3501946E000` | `0D9649011312F62E` ([✅](SaltySD/plugins/FPSLocker/patches/0100A3501946E000/0D9649011312F62E.yaml), v2, 1.1.1) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | Oddworld: Soulstorm | `0100D210177C6000` | `9510D677DCCE4447` ([✅](SaltySD/plugins/FPSLocker/patches/0100D210177C6000/9510D677DCCE4447.yaml), v3, 1.1.3) | ~~[📏](#📏)~~ |
 | Off the Road Unleashed | `010045C0112F8000` | `5E8316D212D6D7BD` (◯, v1, 1.0.1) |  |
