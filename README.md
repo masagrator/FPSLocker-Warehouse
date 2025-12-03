@@ -91,6 +91,7 @@ PATCH AVAILABILITY<br>
 | Alterity Experience | `010056F0186D0000` | `E4F041624093998D` (◯, v2, 2.0) |  |
 | アルティリティエクスペリエンス | `01007D8019D22000` | `E4F041624093998D` (◯, v2, 2.0) |  |
 | Amber Isle | `010073601DF1A000` | `D36459588F85315D` ([✅](SaltySD/plugins/FPSLocker/patches/010073601DF1A000/D36459588F85315D.yaml), v2, 1.0.2) <br> `E8BF195297B63BA2` ([✅](SaltySD/plugins/FPSLocker/patches/010073601DF1A000/E8BF195297B63BA2.yaml), v3, 1.0.3) | ~~[📏](#📏)~~ |
+| American Arcadia | `01003A70209AE000` | `2CE51030AF9800A5` ([✅](SaltySD/plugins/FPSLocker/patches/01003A70209AE000/2CE51030AF9800A5.yaml), v3, 1.0.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | American Fugitive | `010002B00C534000` | `375A0E11B2397340` (◯, v9, 1.1.1) |  |
 | Amnesia Collection | `01003CC00D0BE000` | `F6FB99E54347E740` ([✅](SaltySD/plugins/FPSLocker/patches/01003CC00D0BE000/F6FB99E54347E740.yaml), v3, 1.3.0) | ~~[🔐](#🔐)[📏](#📏)~~[⚔️](#⚔️) |
 | Ancestors Legacy | `01009EE0111CC000` | `E1F0CFC02F449EF3` ([✅](SaltySD/plugins/FPSLocker/patches/01009EE0111CC000/E1F0CFC02F449EF3.yaml), v2, 1.2.0) | ~~[🔐](#🔐)[⚔️](#⚔️)~~ |
