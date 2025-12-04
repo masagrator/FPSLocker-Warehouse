@@ -1,0 +1,37 @@
+# Wasteland 2: Director's Cut 1.0.1
+# BID: 77009C1234634A4E
+
+DECLARATIONS:
+  -
+    type: variable
+    name: dr_fps_min
+    value_type: float
+    default_value: 20
+    evaluate: "(2/3) * FPS_TARGET"
+  -
+    type: variable
+    name: dr_fps_max
+    value_type: float
+    default_value: 33
+    evaluate: "FPS_TARGET"
+  -
+    type: code
+    name: getDrFpsTargetMin
+    instructions: [
+      [adrp, x20, $dr_fps_min],
+      [ldr, s1, [x20, $dr_fps_min]]
+    ]
+MASTER_WRITE:
+  -
+    type: asm_a64
+    main_offset: 0x36EE98
+    instructions: [
+      [bl, _getDrFpsTargetMin()]
+    ]
+  -
+    type: asm_a64
+    main_offset: 0x36EEF4
+    instructions: [
+      [adrp, x8, $dr_fps_max],
+      [ldr, s1, [x8, $dr_fps_max]]
+    ]
