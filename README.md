@@ -1073,6 +1073,7 @@ PATCH AVAILABILITY<br>
 | White Day: A Labirynth Named School | `010076601839C000` | `36D6740B3873CE4A` (◯, v1, 1.0.2) |  |
 | Winter Burrow | `01006690239D8000` | `DD49E7493C34E809` (◯, v2, 1.0.2) |  |
 | WitchSpringR | `010018401EEA8000` | `5E3F71147A485112` (◯, v6, 1.4.9) |  |
+| Wizard of Legend 2 | `01006BB0203CA000` | `F8FA82D6A1BFE328` ([✅](SaltySD/plugins/FPSLocker/patches/01006BB0203CA000/F8FA82D6A1BFE328.yaml), v2, 1.1.0b) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Wobbly Life | `010039501F11C000` | `B174F363C2823CBE` ([✅](SaltySD/plugins/FPSLocker/patches/010039501F11C000/B174F363C2823CBE.yaml), v5, 1.0.0.3) | ~~[📏](#📏)~~ |
 | 워블리 라이프 | `010083602099A000` | `B174F363C2823CBE` ([✅](SaltySD/plugins/FPSLocker/patches/010083602099A000/B174F363C2823CBE.yaml), v4, 1.0.0.3) | ~~[📏](#📏)~~ |
 | Wolfenstein: Youngblood | `01003BD00CAAE000` | `8B40EBBA7244C94A` ([✅](SaltySD/plugins/FPSLocker/patches/01003BD00CAAE000/8B40EBBA7244C94A.yaml), v5, 1.5) | ~~[📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
