@@ -1136,7 +1136,7 @@ PATCH AVAILABILITY<br>
 | --- | --- | --- | --- |
 | AO Tennis 2 | `010047000E9AA000` | `01EB7A6DE827BFD9` ([✅](SaltySD/plugins/FPSLocker/patches/010047000E9AA000/01EB7A6DE827BFD9.yaml), v7, 1.7.0) | ~~[⚔️](#⚔️)[📏](#📏)~~ |
 | Borderlands 3 | `01009970122E4000` | `AE2768797E3337EE` ([✅](SaltySD/plugins/FPSLocker/patches/01009970122E4000/AE2768797E3337EE.yaml), v3, 1.0.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
-| Caravan SandWitch | `0100D5801E904000` | `CE493FC8CDD3D7B2` ([✅](SaltySD/plugins/FPSLocker/patches/0100D5801E904000/CE493FC8CDD3D7B2.yaml), v5, 1.0.5) <br> `89349071D2B0BFF7` ([✅](SaltySD/plugins/FPSLocker/patches/0100D5801E904000/89349071D2B0BFF7.yaml), v7, 1.0.7) | ~~[📏](#📏)~~ |
+| Caravan SandWitch | `0100D5801E904000` | `CE493FC8CDD3D7B2` ([✅](SaltySD/plugins/FPSLocker/patches/0100D5801E904000/CE493FC8CDD3D7B2.yaml), v5, 1.0.5) <br> `89349071D2B0BFF7` ([✅](SaltySD/plugins/FPSLocker/patches/0100D5801E904000/89349071D2B0BFF7.yaml), v7, 1.0.7) <br> `2079893CE8402E04` ([✅](SaltySD/plugins/FPSLocker/patches/0100D5801E904000/2079893CE8402E04.yaml), v8, 1.0.8) | ~~[📏](#📏)~~ |
 | City of Brass | `01009BC00B872000` | `53116900DC7BBE11` ([✅](SaltySD/plugins/FPSLocker/patches/01009BC00B872000/53116900DC7BBE11.yaml), v2, 1.2.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | DreamWorks All-Star Kart Racing | `010037401A374000` | `3C3A2E68DBD1BBEC` ([✅](SaltySD/plugins/FPSLocker/patches/010037401A374000/3C3A2E68DBD1BBEC.yaml), v1, 0.1.0.11740) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Empire of Sin | `010058600E530000` | `BD5F1ED30FDBA245` ([✅](SaltySD/plugins/FPSLocker/patches/010058600E530000/BD5F1ED30FDBA245.yaml), v10, 1.10.0) | ~~[📏](#📏)~~ |
