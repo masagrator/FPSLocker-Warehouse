@@ -19,7 +19,8 @@ DECLARATIONS:
     name: getDrFpsTargetMin
     instructions: [
       [adrp, x20, $dr_fps_min],
-      [ldr, s1, [x20, $dr_fps_min]]
+      [ldr, s1, [x20, $dr_fps_min]],
+      [ret]
     ]
 MASTER_WRITE:
   -
