@@ -2,6 +2,8 @@
 # BID: 77009C1234634A4E
 
 DECLARATIONS:
+  # Dynamic resolution is botched because it relies on whole frame rendering loop time, 
+  # which means we cannot set min to 60 FPS because otherwise it will never get back to higher resolutions
   -
     type: variable
     name: dr_fps_min
