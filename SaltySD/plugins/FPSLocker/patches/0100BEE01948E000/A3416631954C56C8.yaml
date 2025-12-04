@@ -2,18 +2,19 @@
 # BID: A3416631954C56C8
 
 DECLARATIONS:
+  # Changed math because frametime peaks at 60 FPS
   -
     type: variable
     name: fps_target
     value_type: uint32
     default_value: 30
-    evaluate: FPS_TARGET
+    evaluate: FPS_TARGET - 5
   -
     type: variable
     name: fps_target_max
     value_type: uint32
     default_value: 40
-    evaluate: FPS_TARGET + 10
+    evaluate: FPS_TARGET - 1
   -
     type: code
     name: getFpsTarget
