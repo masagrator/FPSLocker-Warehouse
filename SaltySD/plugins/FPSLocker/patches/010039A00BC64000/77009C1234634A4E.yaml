@@ -7,7 +7,7 @@ DECLARATIONS:
     name: dr_fps_min
     value_type: float
     default_value: 20
-    evaluate: "(2/3) * FPS_TARGET"
+    evaluate: "0.9 * FPS_TARGET"
   -
     type: variable
     name: dr_fps_max
