@@ -1,0 +1,25 @@
+# MudRunner - American Wilds Edition
+# BID: 028C5AB881F17582
+# REF: 0x42055555
+
+DECLARATIONS:
+  -
+    type: variable
+    name: dr_target
+    value_type: float
+    default_value: 33.333333
+    evaluate: FRAMETIME_TARGET
+MASTER_WRITE:
+  # Redirect DR frametime target
+  -
+    type: asm_a64
+    main_offset: 0xDB850
+    instructions: [
+      [adrp, x8, $dr_target]
+    ]
+  -
+    type: asm_a64
+    main_offset: 0xDB858
+    instructions: [
+      [ldr, s0, [x8, $dr_target]]
+    ]
