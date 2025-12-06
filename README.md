@@ -523,6 +523,7 @@ PATCH AVAILABILITY<br>
 | Kentum | `01008F0022CD2000` | `BC18BFC4C64571A9` (◯, v1, 1.0.1) |  |
 | Kiki | `0100E2D01F290000` | `722D0E06169C2458` (◯, v0, 1.0.0) |  |
 | King of Seas | `01008D80148C8000` | `BC82DB38671F8468` ([✅](SaltySD/plugins/FPSLocker/patches/01008D80148C8000/BC82DB38671F8468.yaml), v4, 1.0.4) | ~~[🔧](#🔧)~~ |
+| King's Bounty II | `010026F013B3A000` | `5EAF1BB0E2B89AF4` ([✅](SaltySD/plugins/FPSLocker/patches/010026F013B3A000/5EAF1BB0E2B89AF4.yaml), v7, 1.7) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Kingdom Come: Deliverance `GLOBAL` | `0100650018FE0000` | `7A450848CFDEC18E` ([✅](SaltySD/plugins/FPSLocker/patches/0100650018FE0000/7A450848CFDEC18E.yaml), v2, 1.9.6H) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Kingdom Come: Deliverance `JPN` | `010021601C496000` | `7A450848CFDEC18E` ([✅](SaltySD/plugins/FPSLocker/patches/010021601C496000/7A450848CFDEC18E.yaml), v2, 1.9.6H) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Kingdom Two Crowns | `01005EF003FF2000` | `B0FB68A0A71307D3` (◯, v32, 2.3.1) |  |
