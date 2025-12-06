@@ -5,21 +5,29 @@
 DECLARATIONS:
   -
     type: variable
-    name: dr_target
+    name: dr_gpu_target_max
     value_type: float
-    default_value: 33.333333
-    evaluate: FRAMETIME_TARGET
+    default_value: 21.5
+    evaluate: 0.645 * FRAMETIME_TARGET
+  -
+    type: variable
+    name: dr_gpu_target_min
+    value_type: float
+    default_value: 19.5
+    evaluate: (0.645 * FRAMETIME_TARGET) - 2
 MASTER_WRITE:
   # Redirect DR frametime target
   -
     type: asm_a64
-    main_offset: 0xDB850
+    main_offset: 0xA30A0
     instructions: [
-      [adrp, x8, $dr_target]
+      [adrp, x9, $dr_gpu_target_max],
+      [ldr, s1, [x9, $dr_gpu_target_max]]
     ]
   -
     type: asm_a64
-    main_offset: 0xDB858
+    main_offset: 0xA30D8
     instructions: [
-      [ldr, s0, [x8, $dr_target]]
+      [adrp, x9, $dr_gpu_target_min],
+      [ldr, s1, [x9, $dr_gpu_target_min]]
     ]
