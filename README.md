@@ -656,7 +656,7 @@ PATCH AVAILABILITY<br>
 | Ni no Kuni: Wrath of the White Witch | `0100E5600D446000` | `C32B29CB5FBA96D9` ([✅](SaltySD/plugins/FPSLocker/patches/0100E5600D446000/C32B29CB5FBA96D9.yaml), v2, 1.0.2) | ~~[⏱️](#⏱️)[🖥️](#🖥️)[📺](#📺)~~ |
 | Nickelodeon All-Star Brawl 2 | `010010701AFB2000` | `533BE14853365083` (◯, v14, 1.14.0) |  |
 | Nickelodeon Kart Racers 3 | `01003BA01575E000` | `EF2694EA89E001DB` ([✅](SaltySD/plugins/FPSLocker/patches/01003BA01575E000/EF2694EA89E001DB.yaml), v2, 0.3.2.15969) | ~~[📏](#📏)[🔧](#🔧)~~ |
-| Nice Day for Fishing | `010074C021210000` | `1D9F49E321B8C939` ([✅](SaltySD/plugins/FPSLocker/patches/010074C021210000/1D9F49E321B8C939.yaml), v6, 1.0.6) | ~~[📷](#📷)~~ |
+| Nice Day for Fishing | `010074C021210000` | `1D9F49E321B8C939` ([✅](SaltySD/plugins/FPSLocker/patches/010074C021210000/1D9F49E321B8C939.yaml), v6, 1.0.6) <br> `1A371F609F4B6172` ([✅](SaltySD/plugins/FPSLocker/patches/010074C021210000/1A371F609F4B6172.yaml), v7, 1.0.7) | ~~[📷](#📷)~~ |
 | NieR:Automata `ASIA` | `0100B8E016F76000` | `992787E2B5425994` ([✅](SaltySD/plugins/FPSLocker/patches/0100B8E016F76000/992787E2B5425994.yaml), v1, 1.0.2) | ~~[📏](#📏)~~ |
 | NieR:Automata `GLOBAL` | `010056B015FE8000` | `E43525F22282A477` ([✅](SaltySD/plugins/FPSLocker/patches/010056B015FE8000/E43525F22282A477.yaml), v1, 1.0.2) | ~~[📏](#📏)~~ |
 | Nights Of Azure 2: Bride of the New Moon | `0100628004BCE000` | `81DA4F9E1E961CA6` ([✅](SaltySD/plugins/FPSLocker/patches/0100628004BCE000/81DA4F9E1E961CA6.yaml), v1, 1.0.1) | ~~[⚔️](#⚔️)~~ |
