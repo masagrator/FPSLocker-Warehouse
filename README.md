@@ -901,6 +901,7 @@ PATCH AVAILABILITY<br>
 | Super Crazy Rhythm Castle | `01005B7017828000` | `90B9B162B022DCBF` (◯, v0, 1.0.0.0) |  |
 | Super Kirby Clash | `01003FB00C5A8000` | `DCDFA5A4AD9A175D` ([✅](SaltySD/plugins/FPSLocker/patches/01003FB00C5A8000/DCDFA5A4AD9A175D.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[⚔️](#⚔️)~~ |
 | Super Neptunia RPG | `01001CE00D7B6000` | `CE5C50E07FBF1E42` (◯, v2, 1.02) |  |
+| Super Street: Racer | `010074200E910000` | `8E82D24A9B7504FB` ([✅](SaltySD/plugins/FPSLocker/patches/010074200E910000/8E82D24A9B7504FB.yaml), v1, 1.0.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Superliminal | `010075701153A000` | `66E549A16EFC5449` (◯, v1, 1.0.1) |  |
 | SWORD ART ONLINE Alicization Lycoris | `010034501225C000` | `B6AF2C0FA614CC87` (❌, v8, 3.0.1) | [⚔️](#⚔️) |
 | SWORD ART ONLINE Alicization Lycoris `US` | `0100115012260000` | `33360EA29C2FBEF2` (❌, v8, 3.0.1) | [⚔️](#⚔️) |
