@@ -1,0 +1,10 @@
+# The Walking Dead: Destinies 1.3.0.8
+# BID: 3D3FEFC161B49AB8
+
+ALL_FPS:
+  # UnityEngine.Time::fixedDeltaTime 
+  -
+    type: evaluate_write
+    address: [MAIN, 0x666C420, 0x48]
+    value_type: float
+    value: "1 / FPS_TARGET"
