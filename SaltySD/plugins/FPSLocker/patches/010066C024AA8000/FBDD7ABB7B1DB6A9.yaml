@@ -1,0 +1,9 @@
+# Becastled 1.3
+# BID: FBDD7ABB7B1DB6A9
+
+ALL_FPS:
+  -
+    type: evaluate_write
+    address: [MAIN, 0xA04B708, 0xB8, 0, 0x58]
+    value_type: float
+    value: "0.996 * FRAMETIME_TARGET"
