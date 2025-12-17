@@ -166,6 +166,7 @@ PATCH AVAILABILITY<br>
 | Batman: The Enemy Within | `0100E6300AA3A000` | `AAC6FB02E03062EF` ([✅](SaltySD/plugins/FPSLocker/patches/0100E6300AA3A000/AAC6FB02E03062EF.yaml), v1, 1.0.3) | ~~[⚔️](#⚔️)~~ |
 | Batora: Lost Haven | `0100A93016BF4000` | `770A07C35E631CB2` ([✅](SaltySD/plugins/FPSLocker/patches/0100A93016BF4000/770A07C35E631CB2.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Bayonetta Origins: Cereza and the Lost Demon | `0100CF5010FEC000` | `A1CE2940D813ACAB` ([✅](SaltySD/plugins/FPSLocker/patches/0100CF5010FEC000/A1CE2940D813ACAB.yaml), v0, 1.0.0) | ~~[⏱️](#⏱️)~~ |
+| Becastled | `010066C024AA8000` | `FBDD7ABB7B1DB6A9` ([✅](SaltySD/plugins/FPSLocker/patches/010066C024AA8000/FBDD7ABB7B1DB6A9.yaml), v3, 1.3) | ~~[📏](#📏)~~ |
 | Beholder 2 | `01000DF00EBBA000` | `5D3FE9C0FAA44B4C` ([✅](SaltySD/plugins/FPSLocker/patches/01000DF00EBBA000/5D3FE9C0FAA44B4C.yaml), v3, 1.0.3) | ~~[📷](#📷)~~ |
 | Beholder 3 | `0100BEE01948E000` | `A3416631954C56C8` ([✅](SaltySD/plugins/FPSLocker/patches/0100BEE01948E000/A3416631954C56C8.yaml), v1, 1.0.1) | ~~[📏](#📏)~~ |
 | Bendy: Lone Wolf | `010071B022A36000` | `E301AFDBCDF9F9AD` (◯, v3, 2.0.5) |  |
