@@ -1,0 +1,26 @@
+# KAMEN RIDER memory of heroez Premium Sound Edition 1.0.2
+# BID: B0ADB498E82BC644
+
+DECLARATIONS:
+  -
+    type: variable
+    name: dr_target
+    value_type: double
+    default_value: 40
+    evaluate: "0.96 * FRAMETIME_TARGET"
+  -
+    type: code
+    name: getDrTarget
+    instructions: [
+      [adrp, x0, $dr_target],
+      [ldr, d1, [x0, $dr_target]],
+      [ret]
+    ]
+MASTER_WRITE:
+  # REF: 01 8d 47 fd
+  -
+    type: asm_a64
+    main_offset: 0xAC6368
+    instructions: [
+      [bl, _getDrTarget()]
+    ]
