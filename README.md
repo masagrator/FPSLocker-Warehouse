@@ -898,6 +898,7 @@ PATCH AVAILABILITY<br>
 | Space Tail: Every Journey Leads Home | `0100C37019BC2000` | `0CD7D5F5600CB448` (◯, v1, 1.0.1) |  |
 | Spark The Electric Jester 3 | `0100D9901DD98000` | `BACDD75FE7F8882F` (◯, v1, 1.1) |  |
 | Speed Crew | `0100C1201A558000` | `998838513F72152F` (◯, v6, 1.2.0) |  |
+| Spirit of the North | `01005E101122E000` | `44AA379DE2A71A9F` ([✅](SaltySD/plugins/FPSLocker/patches/01005E101122E000/44AA379DE2A71A9F.yaml), v5, 1.3.1) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Spiritfarer | `0100BD400DC52000` | `482B575F4CCE512B` (◯, v15, 1.15) |  |
 | Split | `010071801AB2A000` | `D008ADF7F5DA3315` (◯, v1, 1.1.0) |  |
 | SpongeBob SquarePants: The Cosmic Shake | `01009FB0172F4000` | `F712547C68C66A0A` ([✅](SaltySD/plugins/FPSLocker/patches/01009FB0172F4000/F712547C68C66A0A.yaml), v7, 1.0.7) | ~~[📏](#📏)[🔧](#🔧)~~ |
