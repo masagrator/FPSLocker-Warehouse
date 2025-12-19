@@ -372,7 +372,8 @@ PATCH AVAILABILITY<br>
 | Expeditions: A Mudrunner Game | `01002C101C1AA000` | `9ACB108D8DC59245` ([✅](SaltySD/plugins/FPSLocker/patches/01002C101C1AA000/9ACB108D8DC59245.yaml), v18, 1.18.0.0) <br> `0F7616E6F5EE08CE` ([✅](SaltySD/plugins/FPSLocker/patches/01002C101C1AA000/0F7616E6F5EE08CE.yaml), v19, 1.19.0.0) | ~~[📏](#📏)~~ |
 | F.I.S.T.: Forged in Shadow Torch | `01009F8017F48000` | `69EE5F71F187EAA9` ([✅](SaltySD/plugins/FPSLocker/patches/01009F8017F48000/69EE5F71F187EAA9.yaml), v4, 1.0.4) | ~~[📏](#📏)~~ |
 | F1 Manager 2024 | `010072E01CE0E000` | `85F60F87D19B5270` ([✅](SaltySD/plugins/FPSLocker/patches/010072E01CE0E000/85F60F87D19B5270.yaml), v11, 1.11) | ~~[📏](#📏)[🔧](#🔧)~~ |
-| Fading Afternoon | `01004E601E168000` | `B7D2694AEFBF2AFE` (❌, v3, 1.3.0) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️) |
+| Fading Afternoon | `01004E601E168000` | `B7D2694AEFBF2AFE` (❌, v3, 1.3.0) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️) 
+| Fabledom | `0100B6001E6D6000` | `6895E4F3E01808C4` ([✅](SaltySD/plugins/FPSLocker/patches/0100B6001E6D6000/6895E4F3E01808C4.yaml), v7, 1.0.7) | ~~[📏](#📏)[🏃](#🏃)~~ |
 | Fairy Tail 2 | `0100B9801F872000` | `007EA5E2E2541C6F` ([✅](SaltySD/plugins/FPSLocker/patches/0100B9801F872000/007EA5E2E2541C6F.yaml), v8, 1.4.2) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Fallout Shelter | `010043500A17A000` | `196C9038A4445F4C` (◯, v2, 1.0.2) |  |
 | Family Feud | `010060200FC44000` | `45EDF909AE2A3A41` (◯, v2, 1.1) |  |
