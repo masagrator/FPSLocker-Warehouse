@@ -1,0 +1,33 @@
+# Detective - Stella Porta Case 1.0.0
+# BID: 50F47EC19A33A73E
+# Game has bug that makes it work 2x slower than in other platforms, so with this patch we are also fixing the issue across all FPS ranges
+
+ALL_FPS:
+  # Disable bUseFixedFrameRagte
+  -
+    type: write
+    address: [MAIN, 0x73379C8, 0x9DC]
+    address_unsafe: true
+    value_type: uint32
+    value: 7
+  # r.DynamicRes.FrameTimeBudget
+  -
+    type: evaluate_write
+    address: [MAIN, 0x7303CF0, 0]
+    value_type: float
+    value: ["0.9 * FRAMETIME_TARGET", "0.9 * FRAMETIME_TARGET"]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x6B5FCB8, 0]
+    value_type: uint32
+    value: [0, 0]
+  # t.MaxFPS
+  -
+    type: evaluate_write
+    address: [MAIN, 0x7338158, 0]
+    value_type: float
+    value: [FPS_LOCK_TARGET, FPS_LOCK_TARGET]
+  -
+    type: block
+    what: timing
