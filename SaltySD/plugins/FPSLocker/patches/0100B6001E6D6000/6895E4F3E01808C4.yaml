@@ -1,0 +1,16 @@
+# Fabledom 1.0.7
+# BID: 6895E4F3E01808C4
+
+ALL_FPS:
+  # DynamicResolution_TypeInfo
+  -
+    type: evaluate_write
+    address: [MAIN, 0x673C9A0, 0xB8, 0]
+    value_type: double
+    value: [FPS_TARGET, FRAMETIME_TARGET]
+  # UnityEngine.Time::fixedDeltaTime 
+  -
+    type: evaluate_write
+    address: [MAIN, 0x6BFF660, 0x48]
+    value_type: float
+    value: "1 / FPS_TARGET"
