@@ -1,0 +1,10 @@
+# Hollow Coccon 1.0.4
+# BID: A6F7BF79EBCBCC70
+
+ALL_FPS:
+  # REF: OptionData::SetNewScale()
+  -
+    type: evaluate_write
+    address: [MAIN, 0x5E0B0F8, 0, 0xB8, 0]
+    value_type: double
+    value: [FPS_TARGET, FRAMETIME_TARGET]
