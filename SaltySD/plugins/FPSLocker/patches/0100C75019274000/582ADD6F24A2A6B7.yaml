@@ -1,0 +1,25 @@
+# TEMPUS 1.0.0
+# BID: 582ADD6F24A2A6B7
+
+ALL_FPS:
+  # r.DynamicRes.FrameTimeBudget
+  -
+    type: evaluate_write
+    address: [MAIN, 0x69881C8, 0]
+    value_type: float
+    value: ["TruncDec(FRAMETIME_TARGET, 1)", "TruncDec(FRAMETIME_TARGET, 1)"]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x61BA938, 0]
+    value_type: uint32
+    value: [0, 0]
+  # t.MaxFPS
+  -
+    type: evaluate_write
+    address: [MAIN, 0x69B5D98, 0]
+    value_type: float
+    value: [FPS_LOCK_TARGET, FPS_LOCK_TARGET]
+  -
+    type: block
+    what: timing
