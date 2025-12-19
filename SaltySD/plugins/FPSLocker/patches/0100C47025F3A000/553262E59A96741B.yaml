@@ -1,0 +1,33 @@
+# Detective - Rainy Night 1.0.1
+# BID: 553262E59A96741B
+# Game has bug that makes it work 2x slower than in other platforms, so with this patch we are also fixing the issue across all FPS ranges
+
+ALL_FPS:
+  # Disable bUseFixedFrameRagte
+  -
+    type: write
+    address: [MAIN, 0x7EEA3E8, 0x9DC]
+    address_unsafe: true
+    value_type: uint32
+    value: 7
+  # r.DynamicRes.FrameTimeBudget
+  -
+    type: evaluate_write
+    address: [MAIN, 0x7EA95E0, 0]
+    value_type: float
+    value: ["0.9 * FRAMETIME_TARGET", "0.9 * FRAMETIME_TARGET"]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x6ED4290, 0]
+    value_type: uint32
+    value: [0, 0]
+  # t.MaxFPS
+  -
+    type: evaluate_write
+    address: [MAIN, 0x7EEAAB8, 0]
+    value_type: float
+    value: [FPS_LOCK_TARGET, FPS_LOCK_TARGET]
+  -
+    type: block
+    what: timing
