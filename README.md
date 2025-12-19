@@ -970,6 +970,7 @@ PATCH AVAILABILITY<br>
 | Team Sonic Racing | `010084B00B36E000` | `7D942261130F42A7` (◯, v3, 1.0.3) |  |
 | Team Sonic Racing `US` | `010092B0091D0000` | `AD75285A65EB6FFD` (◯, v2, 1.0.3) |  |
 | チームソニックレーシング 新価格版 | `010029D00B72A000` | `7D942261130F42A7` (◯, v3, 1.0.3) |  |
+| TEMPUS | `0100C75019274000` | `582ADD6F24A2A6B7` ([✅](SaltySD/plugins/FPSLocker/patches/0100C75019274000/582ADD6F24A2A6B7.yaml), v0, 1.0.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Terra Nil | `01006D501D14A000` | `C8BCCB615DA4BD6C` (◯, v7, 1.2.10) |  |
 | Terraformers | `0100C1B01872A000` | `EFA897C8B97F1C9E` (◯, v6, 1.6.21) |  |
 | The Alliance Alive HD Remastered | `01003CF00DCFA000` | `4DF9DA0BD7A61546` (❌📌, v2, 1.03) | [⏱️](#⏱️)[🖥️](#🖥️) |
