@@ -1,0 +1,22 @@
+# Little Goody Two Shoes 1.0.5
+# BID: 6895FE7D0D1B8E2F
+
+ALL_FPS:
+  # UnityEngine.Time::fixedDeltaTime 
+  -
+    type: evaluate_write
+    address: [MAIN, 0x70CFF00, 0x48]
+    value_type: float
+    value: "1 / FPS_TARGET"
+  # UnityEngine.Time::maximumDeltaTime / UnityEngine.Time::maximumParticleDeltaTime
+  -
+    type: write
+    address: [MAIN, 0x70CFF00, 0x100]
+    value_type: float
+    value: [0.06666666666, 0.06666666666]
+  # UnityEngine.Application::targetFrameRate
+  -
+    type: evaluate_write
+    address: [MAIN, 0x6D58DA8]
+    value_type: uint32
+    value: FPS_TARGET
