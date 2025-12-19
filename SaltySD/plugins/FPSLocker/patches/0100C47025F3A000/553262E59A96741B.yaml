@@ -6,7 +6,7 @@ ALL_FPS:
   # Disable bUseFixedFrameRagte
   -
     type: write
-    address: [MAIN, 0x7EEA3E8, 0x9DC]
+    address: [MAIN, 0x7EEA3E8, 0xC34]
     address_unsafe: true
     value_type: uint32
     value: 7
