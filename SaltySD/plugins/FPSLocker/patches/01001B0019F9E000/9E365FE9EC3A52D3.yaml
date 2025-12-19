@@ -1,0 +1,10 @@
+# Escape Academy: The Complete Edition 3.0.6.2
+# BID: 9E365FE9EC3A52D3
+
+ALL_FPS:
+  # UnityEngine.Time::fixedDeltaTime 
+  -
+    type: evaluate_write
+    address: [MAIN, 0x54AFB80, 0x48]
+    value_type: float
+    value: "1 / FPS_TARGET"
