@@ -166,7 +166,7 @@ for i in range(len_bid_keys):
 print("                                                 ")
 
 BLACKLIST = ["E4F041624093998D", "937209E79E2E0E5D", "473D222EB1BDAD47", "217C9ECF258C0312", "DFC7E8979528DE44", "2284DFB25F387719",
-            "0F73F1D52820F90B", "6D9EA94F8AAC00A8", "3749BFEA64DC98DF", "AA9BF85240409E60", "4BC4A8A814FD46A4", "D27FD8A515077F34"]
+            "0F73F1D52820F90B", "6D9EA94F8AAC00A8", "3749BFEA64DC98DF", "AA9BF85240409E60", "4BC4A8A814FD46A4"]
 
 tid_keys = list(TIDS_found.keys())
 for i in range(len(tid_keys)):
@@ -178,3 +178,4 @@ for i in range(len(tid_keys)):
     print("\n")
 
 print("Script finished execution.")
+
