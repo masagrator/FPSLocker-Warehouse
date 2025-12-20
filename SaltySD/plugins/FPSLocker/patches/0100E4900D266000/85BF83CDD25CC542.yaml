@@ -1,0 +1,30 @@
+# Jet Kave Adventure 1.1.0
+# BID: 85BF83CDD25CC542
+
+MASTER_WRITE:
+  # Remove custom FPS lock
+  # REF: FrameLimiter.<Limit>d__3::MoveNext()
+  -
+    type: asm_a64
+    main_offset: 0x16CDC8C
+    instructions: [
+      [mov, w0, wzr]
+    ]
+  # Set nvn interval to 2 to lock game back to 30 FPS
+  -
+    type: bytes
+    main_offset: 0x3EEDEC8
+    value_type: uint32
+    value: 2
+  -
+    type: asm_a64
+    main_offset: 0x1A2334C
+    instructions: [
+      [nop]
+    ]
+  -
+    type: asm_a64
+    main_offset: 0x1A1554C
+    instructions: [
+      [nop]
+    ]
