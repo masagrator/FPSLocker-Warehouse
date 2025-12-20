@@ -1,0 +1,11 @@
+# Inertial Drift 1.2.1
+# BID: 4C277E67AB50D547
+
+ALL_FPS:
+  # Assets.Source.Tools.CorePlugin_TypeInfo
+  -
+    type: evaluate_write
+    address: [MAIN, 0x577BF78, 0xB8, 0, 0xF0, 0xD8, 0x28, 0x20]
+    address_unsafe: true
+    value_type: uint32
+    value: FPS_TARGET
