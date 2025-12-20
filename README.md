@@ -805,6 +805,7 @@ PATCH AVAILABILITY<br>
 | 修道院：破碎的瓷器 | `01000E10133B2000` | `5EFAB20F5C1F0F68` ([✅](SaltySD/plugins/FPSLocker/patches/01000E10133B2000/5EFAB20F5C1F0F68.yaml), v3, 2.0.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~[⚔️](#⚔️) |
 | リマザード：ブロークン ポーセリン | `01000DF01234A000` | `5EFAB20F5C1F0F68` ([✅](SaltySD/plugins/FPSLocker/patches/01000DF01234A000/5EFAB20F5C1F0F68.yaml), v4, 2.0.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~[⚔️](#⚔️) |
 | Remothered Tormented Fathers | `01008F600F2D0000` | `EB57CF3434044523` ([✅](SaltySD/plugins/FPSLocker/patches/01008F600F2D0000/EB57CF3434044523.yaml), v3, 1.3.0) | ~~[🔐](#🔐)[🔧](#🔧)~~[⚔️](#⚔️) |
+| Remothered Tormented Fathers `Cartridge only` | `01001F100E8AE000` | `EB57CF3434044523` ([✅](SaltySD/plugins/FPSLocker/patches/01001F100E8AE000/EB57CF3434044523.yaml), v2, 1.2.0) | ~~[🔐](#🔐)[🔧](#🔧)~~[⚔️](#⚔️) |
 | resident evil 0 | `010097000BC10000` | `FB4239AA962B429B` ([✅](SaltySD/plugins/FPSLocker/patches/010097000BC10000/FB4239AA962B429B.yaml), v0, 1.0.0) | ~~[🔐](#🔐)[📺](#📺)~~ |
 | biohazard 0 | `0100F3000BC0C000` | `F2F3CCA2F8E11965` (❌📌, v0, 1.0.0) | [🔐](#🔐)[📺](#📺) |
 | Resident Evil | `010050F00BC1A000` | `6BEC9B23B09DF46C` ([✅](SaltySD/plugins/FPSLocker/patches/010050F00BC1A000/6BEC9B23B09DF46C.yaml), v0, 1.0.0) | ~~[🔐](#🔐)[📺](#📺)~~ |
