@@ -323,7 +323,7 @@ PATCH AVAILABILITY<br>
 | DOOM `West` | `0100416004C00000` | `01ACE43E724259C3` ([✅](SaltySD/plugins/FPSLocker/patches/0100416004C00000/01ACE43E724259C3.yaml), v3, 1.2) <br> `2847991952B3D7AB` ([✅](SaltySD/plugins/FPSLocker/patches/0100416004C00000/2847991952B3D7AB.yaml), v4, 1.4) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | DOOM `JPN` | `0100D76006EF8000` | `2847991952B3D7AB` ([✅](SaltySD/plugins/FPSLocker/patches/0100D76006EF8000/2847991952B3D7AB.yaml), v3, 1.4) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | DOOM Eternal | `0100B1A00D8CE000` | `B059C2C77AD834B8` ([✅](SaltySD/plugins/FPSLocker/patches/0100B1A00D8CE000/B059C2C77AD834B8.yaml), v14, 1.14) <br> `B059C2C77AD834B8` ([✅](SaltySD/plugins/FPSLocker/patches/0100B1A00D8CE000/B059C2C77AD834B8.yaml), v15, 1.15) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~ |
-| Double Dragon Revive | `01006AE02236C000` | `DBD5C9EC799E65A9` ([✅](SaltySD/plugins/FPSLocker/patches/01006AE02236C000/DBD5C9EC799E65A9.yaml), v1, N1.10) | ~~[📏](#📏)[🔧](#🔧)~~ |
+| Double Dragon Revive | `01006AE02236C000` | `DBD5C9EC799E65A9` ([✅](SaltySD/plugins/FPSLocker/patches/01006AE02236C000/DBD5C9EC799E65A9.yaml), v1, N1.10) <br> `43B775EC81DB2B63` ([✅](SaltySD/plugins/FPSLocker/patches/01006AE02236C000/43B775EC81DB2B63.yaml), v2, N1.30) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Dragon Star VARNIR | `0100A8B014930000` | `E26A54F785A76EE7` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
 | 용의 별 바르니르 - Ecdysis of the dragon | `0100FB30148EC000` | `253470EA1AD22B4A` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
 | Dragon's Dogma: Dark Arisen | `010032C00AC58000` | `2CDB9B9D70010E88` ([✅](SaltySD/plugins/FPSLocker/patches/010032C00AC58000/2CDB9B9D70010E88.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
