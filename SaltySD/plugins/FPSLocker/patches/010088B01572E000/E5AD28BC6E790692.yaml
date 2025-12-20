@@ -1,0 +1,10 @@
+# Commandos 3 - HD Remaster 1.00.053
+# BID: E5AD28BC6E790692
+
+ALL_FPS:
+  # REF: 0x3D042108 hardcoded in assembly
+  -
+    type: evaluate_write
+    address: [MAIN, 0xB282A0]
+    value_type: float
+    value: "1 / FPS_LOCK_TARGET"
