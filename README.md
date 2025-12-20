@@ -525,6 +525,7 @@ PATCH AVAILABILITY<br>
 | Ironsmith: Medieval Simulator | `010025A01CD86000` | `D2A5A1FC6EEADF31` ([✅](SaltySD/plugins/FPSLocker/patches/010025A01CD86000/D2A5A1FC6EEADF31.yaml), v1, 1.1.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | ISLANDERS: New Shores | `0100522020894000` | `DC3D0BC46FF698B6` (◯, v7, 1.0.7) |  |
 | It Takes Two | `010092A0172E4000` | `C4067E8CB3258656` ([✅](SaltySD/plugins/FPSLocker/patches/010092A0172E4000/C4067E8CB3258656.yaml), v2, 1.0.2) | ~~[📏](#📏)[⚔️](#⚔️)~~ |
+| Jet Kave Adventure | `0100E4900D266000` | `85BF83CDD25CC542` ([✅](SaltySD/plugins/FPSLocker/patches/0100E4900D266000/85BF83CDD25CC542.yaml), v3, 1.1.0) | ~~[🔐](#🔐)~~ |
 | Jojo's Bizarre Adventure: All-Star Battle R | `010017A0128C4000` | `3D4E3A9252AA6C63` ([✅](SaltySD/plugins/FPSLocker/patches/010017A0128C4000/3D4E3A9252AA6C63.yaml), v16, 2.3.3) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | ジョジョの奇妙な冒険 オールスターバトル R | `01008120128C2000` | `3D4E3A9252AA6C63` ([✅](SaltySD/plugins/FPSLocker/patches/01008120128C2000/3D4E3A9252AA6C63.yaml), v16, 2.3.3) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | - 죠죠의 기묘한 모험 올 스타 배틀 R<br>- JOJO的奇妙冒險 群星之戰 重製版 | `010098A0128C6000` | `3D4E3A9252AA6C63` ([✅](SaltySD/plugins/FPSLocker/patches/010098A0128C6000/3D4E3A9252AA6C63.yaml), v17, 2.3.3) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
