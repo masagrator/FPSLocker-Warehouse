@@ -240,6 +240,7 @@ PATCH AVAILABILITY<br>
 | Cobra Kai 2: Dojos Rising | `0100BD9015B54000` | `BAD8504B110A21AE` (◯, v4, 2.20.8) |  |
 | Cocoon | `01002E700C366000` | `5D8B61D234DCE809` (◯, v3, 1.0.3) |  |
 | Company of Heroes Collection | `0100ABD0156F8000` | `F18BDC1CD8947ACA` (◯, v1, 1.8_83956) |  |
+| Commandos 3 | `010088B01572E000` | `E5AD28BC6E790692` ([✅](SaltySD/plugins/FPSLocker/patches/010088B01572E000/E5AD28BC6E790692.yaml), v3, 1.00.053) | ~~[🔐](#🔐)~~ |
 | Combat Forces | `0100134025F8E000` | `81C9C793B5370E9B` ([✅](SaltySD/plugins/FPSLocker/patches/0100134025F8E000/81C9C793B5370E9B.yaml), v0, 1.0.0) | ~~[🔧](#🔧)~~ |
 | Contra: Operation Galuga | `0100CF401A98E000` | `5ECFB8F85105FE3C` ([✅](SaltySD/plugins/FPSLocker/patches/0100CF401A98E000/5ECFB8F85105FE3C.yaml), v2, 1.0.882291) | ~~[📏](#📏)~~ |
 | CONTRA: ROGUE CORPS | `0100F2600D710000` | `4CCD2F6D331DD104` ([✅](SaltySD/plugins/FPSLocker/patches/0100F2600D710000/4CCD2F6D331DD104.yaml), v5, 1.3.0) | ~~[📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
