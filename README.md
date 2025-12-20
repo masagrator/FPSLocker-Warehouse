@@ -517,7 +517,7 @@ PATCH AVAILABILITY<br>
 | In Sound Mind | `01006DF014682000` | `5FCC5A8EDF6244C4` (❌📌, v4, 1.0.4) | [📏](#📏) |
 | INAZUMA ELEVEN: Victory Road | `0100B36008F90000` | `09AD6947189FC6D9` ([✅](SaltySD/plugins/FPSLocker/patches/0100B36008F90000/09AD6947189FC6D9.yaml), v4, 1.2.0) <br> `F9648F3865C8B1AE` ([✅](SaltySD/plugins/FPSLocker/patches/0100B36008F90000/F9648F3865C8B1AE.yaml), v5, 1.3.0) <br> `062189E9CF83BA5D` ([✅](SaltySD/plugins/FPSLocker/patches/0100B36008F90000/062189E9CF83BA5D.yaml), v6, 1.4.0) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | INDIKA | `0100DE302439E000` | `C4E2284BFB7D534C` ([✅](SaltySD/plugins/FPSLocker/patches/0100DE302439E000/C4E2284BFB7D534C.yaml), v0, 1.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
-| Inertial Drift | `01002BD00F626000` | `4C277E67AB50D547` (◯, v10, 1.2.1) |  |
+| Inertial Drift | `01002BD00F626000` | `4C277E67AB50D547` ([✅](SaltySD/plugins/FPSLocker/patches/01002BD00F626000/4C277E67AB50D547.yaml), v10, 1.2.1) | ~~[📏](#📏)~~ |
 | Infinity Strash: DRAGON QUEST The Adventure of Dai | `01006FA018D40000` | `DB7E474BEFABB6A0` (❌📌, v2, 1.0.2) | [📏](#📏)[🔧](#🔧) |
 | INMOST | `0100F1401161E000` | `16CEFEA33FE6E24F` (❌📌, v6, 1.0.4.3) | [📏](#📏) |
 | Inscryption | `010027F017B12000` | `036A768CDCDCD742` (◯, v3, 1.41.2) |  |
