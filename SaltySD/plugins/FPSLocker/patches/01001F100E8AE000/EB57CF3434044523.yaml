@@ -1,8 +1,6 @@
-# Remothered Tormented Fathers 1.3.0
+# Remothered Tormented Fathers `Cartridge only` 1.2.0
 # BID: EB57CF3434044523
 # Game stores textures inside fixed size class, so it's hard to get triple buffer
-
-unsafeCheck: false
 
 ALL_FPS:
   # Disable bUseFixedFrameRate and bSmoothFrameRate
