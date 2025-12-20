@@ -1051,6 +1051,7 @@ PATCH AVAILABILITY<br>
 | The Witcher 3: Wild Hunt - The Complete Edition `KOR` | `010085500E9D0000` | `D27FD8A515077F34` ([✅](SaltySD/plugins/FPSLocker/patches/010085500E9D0000/D27FD8A515077F34.yaml), v7, 4.04b) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | 《巫師 3：狂獵》－完全版 | `010019C00E9CC000` | `4BC4A8A814FD46A4` ([✅](SaltySD/plugins/FPSLocker/patches/010019C00E9CC000/4BC4A8A814FD46A4.yaml), v7, 4.04b) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | ウィッチャー３ ワイルドハント コンプリートエディション | `01000BB00E9D2000` | `4BC4A8A814FD46A4` ([✅](SaltySD/plugins/FPSLocker/patches/01000BB00E9D2000/4BC4A8A814FD46A4.yaml), v7, 4.04b) | ~~[🔐](#🔐)[📏](#📏)~~ |
+| ウィッチャー３ ワイルドハント コンプリートエディション `Cartridge only` | `01009EB00EBAA000` | `4BC4A8A814FD46A4` ([✅](SaltySD/plugins/FPSLocker/patches/01009EB00EBAA000/4BC4A8A814FD46A4.yaml), v6, 4.04b) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | The Witcher 3: Wild Hunt - The Complete Edition `LV/LT/EST/RU` | `0100A0800E9C4000` | `D27FD8A515077F34` ([✅](SaltySD/plugins/FPSLocker/patches/0100A0800E9C4000/D27FD8A515077F34.yaml), v7, 4.04b) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | The Witcher 3: Wild Hunt - The Complete Edition `Cartridge only` | `01002E800E9D4000` | `B151A224A429F9A7` ([✅](SaltySD/plugins/FPSLocker/patches/01002E800E9D4000/B151A224A429F9A7.yaml), v7, 4.04b) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | The Witcher 3: Wild Hunt - The Complete Edition `Cartridge only 2` | `010016C00F474000` | `4BC4A8A814FD46A4` ([✅](SaltySD/plugins/FPSLocker/patches/010016C00F474000/4BC4A8A814FD46A4.yaml), v6, 4.04b) | ~~[🔐](#🔐)[📏](#📏)~~ |
