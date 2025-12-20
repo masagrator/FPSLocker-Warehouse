@@ -1,0 +1,25 @@
+# The Witcher 3: Wild Hunt - The Complete Edition `Cartridge only` 4.04a-4.04b
+# BID: B151A224A429F9A7
+
+ALL_FPS:
+  # DRGameTargetFrameTimeInMs
+  -
+    type: evaluate_write
+    address: [MAIN, 0x41312B4]
+    value_type: float
+    value: "0.945 * FRAMETIME_TARGET"
+  # DRCinematicTargetFrameTimeInMs
+  -
+    type: evaluate_write
+    address: [MAIN, 0x41312E4]
+    value_type: float
+    value: "0.945 * FRAMETIME_TARGET"
+  # LimitFPS
+  -
+    type: evaluate_write
+    address: [MAIN, 0x411DCFC]
+    value_type: int32
+    value: FPS_LOCK_TARGET
+  -
+    type: block
+    what: timing
