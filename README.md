@@ -401,6 +401,7 @@ PATCH AVAILABILITY<br>
 | Fate/Samurai Remnant `Asia` | `0100B0701AA78000` | `6C46135714ABB870` ([✅](SaltySD/plugins/FPSLocker/patches/0100B0701AA78000/6C46135714ABB870.yaml), v13, 1.3.2) | ~~[🔐](#🔐)[⚔️](#⚔️)~~ |
 | Fe | `0100D2600736A000` | `4FF8F56B697A0949` (◯, v0, 1.0.0) |  |
 | Fida Puti Samurai | `01003190255F4000` | `96AC36051D38A70D` (◯, v0, 1.0.1) |  |
+| Figment | `0100118009C68000` | `6401F57C7D6D3728` ([✅](SaltySD/plugins/FPSLocker/patches/0100118009C68000/6401F57C7D6D3728.yaml), v5, 1.6.0) | ~~[🏃](#🏃)~~ |
 | FINAL FANTASY CRYSTAL CHRONICLES `US` | `0100CE4010AAC000` | `E1D8B399B787AE41` (❌, v3, 1.0.3) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | FINAL FANTASY CRYSTAL CHRONICLES | `0100BE0010AAE000` | `4C3D7BA90267A44F` (❌, v3, 1.0.3) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | FINAL FANTASY VIII Remastered | `01008B900DC0A000` | `7F59549F6E792936` (❌, v3, 1.0.1_5) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢) |
