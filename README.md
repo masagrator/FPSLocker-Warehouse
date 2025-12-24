@@ -970,7 +970,7 @@ PATCH AVAILABILITY<br>
 | テイルズ オブ シンフォニア リマスター | `01002B8014440000` | `42673F5DE16DC698` (❌, v4, 1.3.1) | [⏱️](#⏱️)[🖥️](#🖥️)[⚔️](#⚔️) |
 | Tales of the Shire | `010094D01DC7E000` | `80876AF5CEF98E23` (◯, v5, 1.0.5) |  |
 | Tales of Xillia Remastered | `0100F1101BB9E000` | `171806C35E4152E7` ([✅](SaltySD/plugins/FPSLocker/patches/0100F1101BB9E000/171806C35E4152E7.yaml), v1, 1.0.1) | ~~[⏱️](#⏱️)~~ |
-| テイルズ オブ エクシリア リマスター | `010058301BB98000` | `4779B3A56B655418` ([✅](SaltySD/plugins/FPSLocker/patches/010058301BB98000/4779B3A56B655418.yaml), v1, 1.0.1) | ~~[⏱️](#⏱️)~~ |
+| テイルズ オブ エクシリア リマスター | `010058301BB98000` | `4779B3A56B655418` ([✅](SaltySD/plugins/FPSLocker/patches/010058301BB98000/4779B3A56B655418.yaml), v1, 1.0.1) <br> `CAEAFFC2CD152394` ([✅](SaltySD/plugins/FPSLocker/patches/010058301BB98000/CAEAFFC2CD152394.yaml), v2, 1.0.2) | ~~[⏱️](#⏱️)~~ |
 | 테일즈 오브 엑실리아 리마스터 | `01003CC01BBA0000` | `D64B8283BD5CEA63` ([✅](SaltySD/plugins/FPSLocker/patches/01003CC01BBA0000/D64B8283BD5CEA63.yaml), v1, 1.0.1) | ~~[⏱️](#⏱️)~~ |
 | Tamagotchi Plaza | `010064C01A9BA000` | `1BA8D8FD3897F22F` ([✅](SaltySD/plugins/FPSLocker/patches/010064C01A9BA000/1BA8D8FD3897F22F.yaml), v4, 1.0.4) <br> `FB852EECDE7A745D` ([✅](SaltySD/plugins/FPSLocker/patches/010064C01A9BA000/FB852EECDE7A745D.yaml), v5, 1.0.5) <br> `E73AB32BD1B16098` ([✅](SaltySD/plugins/FPSLocker/patches/010064C01A9BA000/E73AB32BD1B16098.yaml), v6, 1.0.6) | ~~[🔐](#🔐)~~ |
 | たまごっちのプチプチおみせっち おまちど～さま！ | `010040601A9B8000` | `9ACE779510EC93C9` ([✅](SaltySD/plugins/FPSLocker/patches/010040601A9B8000/9ACE779510EC93C9.yaml), v2, 1.0.2) | ~~[🔐](#🔐)~~ |
