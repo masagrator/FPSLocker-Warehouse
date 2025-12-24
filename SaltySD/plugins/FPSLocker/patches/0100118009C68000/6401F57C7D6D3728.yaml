@@ -1,0 +1,10 @@
+# Figment 1.6.0
+# BID: 6401F57C7D6D3728
+
+ALL_FPS:
+  # UnityEngine.Time::fixedDeltaTime 
+  -
+    type: evaluate_write
+    address: [MAIN, 0x450C7C0, 0x48]
+    value_type: float
+    value: "1 / FPS_TARGET"
