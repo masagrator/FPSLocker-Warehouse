@@ -5,6 +5,6 @@ ALL_FPS:
   # UnityEngine.Time::fixedDeltaTime 
   -
     type: evaluate_write
-    address: [MAIN, 0x43E7EF8, 0x48]
+    address: [MAIN, 0x43E7FB8, 0x48]
     value_type: float
     value: "1 / FPS_TARGET"
