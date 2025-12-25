@@ -1,0 +1,19 @@
+# Storm Lancers 1.1.0.5
+# BID: E5D70A1E288F74A7
+
+ALL_FPS:
+  # t.MaxFPS
+  -
+    type: evaluate_write
+    address: [MAIN, 0x7ED6D60, 0]
+    value_type: float
+    value: [FPS_LOCK_TARGET, FPS_LOCK_TARGET]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x6EB8F28, 0]
+    value_type: uint32
+    value: [0, 0]
+  -
+    type: block
+    what: timing
