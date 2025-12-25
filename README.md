@@ -940,7 +940,7 @@ PATCH AVAILABILITY<br>
 | スター・オーバードライブ | `01001E20203DC000` | `6D05923E7005E182` ([✅](SaltySD/plugins/FPSLocker/patches/01001E20203DC000/6D05923E7005E182.yaml), v8, 1.0.10) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Starlink: Battle for Atlas | `01002CC003FE6000` | `13C816F2A273653C` (❌📌, v6, 1.0.6) | [📏](#📏) |
 | SteamWorld Build | `01004E401B3EA000` | `017834F19C49FA71` (◯, v16, 1.0.156) |  |
-| Storm Lancers | `01002A4021B86000` | `99519C9259122E4F` ([✅](SaltySD/plugins/FPSLocker/patches/01002A4021B86000/99519C9259122E4F.yaml), v3, 1.0.1.72) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
+| Storm Lancers | `01002A4021B86000` | `99519C9259122E4F` ([✅](SaltySD/plugins/FPSLocker/patches/01002A4021B86000/99519C9259122E4F.yaml), v3, 1.0.1.72) <br> `E5D70A1E288F74A7` ([✅](SaltySD/plugins/FPSLocker/patches/01002A4021B86000/E5D70A1E288F74A7.yaml), v4, 1.1.0.5) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | STORY OF SEASONS: A Wonderful Life | `010076801929A000` | `FDBD3A3B672290F8` (❌, v2, 1.0.2) | [⚔️](#⚔️) |
 | Stray | `010075101EF84000` | `109D974E180A5AA1` ([✅](SaltySD/plugins/FPSLocker/patches/010075101EF84000/109D974E180A5AA1.yaml), v2, 1.6.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Strike Force 3 | `010060200F080000` | `8507336565D4C86B` (❌📌, v1, 1.1.0) | [📏](#📏) |
