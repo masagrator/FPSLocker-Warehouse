@@ -1,0 +1,25 @@
+# System Shock 2.0.3
+# BID: 14A66A472139D638
+
+ALL_FPS:
+  # r.DynamicRes.FrameTimeBudget
+  -
+    type: evaluate_write
+    address: [MAIN, 0x63C3408, 0]
+    value_type: float
+    value: ["TruncDec(FRAMETIME_TARGET, 2)", "TruncDec(FRAMETIME_TARGET, 2)"]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x5BF4108, 0]
+    value_type: int32
+    value: [0, 0]
+  # t.MaxFPS
+  -
+    type: evaluate_write
+    address: [MAIN, 0x63F10C8, 0]
+    value_type: float
+    value: [FPS_LOCK_TARGET, FPS_LOCK_TARGET]
+  -
+    type: block
+    what: timing
