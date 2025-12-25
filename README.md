@@ -645,6 +645,7 @@ PATCH AVAILABILITY<br>
 | MONARK | `0100E4A01548C000` | `85EB6295023DD394` (◯, v1, 1.0.1) |  |
 | MONOPOLY | `01002C201BC40000` | `1AAA3C7D76026D29` (◯, v5, 1.5) |  |
 | Monopoly Madness | `01005FF013DC2000` | `78B532D348D69BD5` (◯, v5, 1.0.5) |  |
+| Monster Energy Supercross - The Official Videogame 2 | `0100F8100B982000` | `3CAC2B84D43AF415` ([](SaltySD/plugins/FPSLocker/patches/0100F8100B982000/3CAC2B84D43AF415.yaml), v6, 1.0.6) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Monster Energy Supercross - The Official Videogame 3 | `010097800EA20000` | `4EFCE075BCA581C4` (❌📌, v3, 1.0.3) | [📏](#📏)[🔧](#🔧) |
 | Monster Hunter Generations Ultimate | `0100770008DD8000` | `FB08F1D20FD1204F` ([✅](SaltySD/plugins/FPSLocker/patches/0100770008DD8000/FB08F1D20FD1204F.yaml), v4, 1.4.0) | ~~[🔐](#🔐)~~ |
 | モンスターハンターダブルクロス | `0100C3800049C000` | `9D4C86E6EF74504A` ([✅](SaltySD/plugins/FPSLocker/patches/0100C3800049C000/9D4C86E6EF74504A.yaml), v6, 1.5.1) | ~~[🔐](#🔐)~~ |
