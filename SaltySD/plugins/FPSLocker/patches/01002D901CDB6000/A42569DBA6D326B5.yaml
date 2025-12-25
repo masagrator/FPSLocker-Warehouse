@@ -1,0 +1,10 @@
+# Just Crow Things 1.0.21
+# BID: A42569DBA6D326B5
+
+ALL_FPS:
+  # UnityEngine.Time::fixedDeltaTime 
+  -
+    type: evaluate_write
+    address: [MAIN, 0x53B5280, 0x48]
+    value_type: float
+    value: "1 / FPS_TARGET"
