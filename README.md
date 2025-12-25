@@ -971,7 +971,8 @@ PATCH AVAILABILITY<br>
 | Sword of the Necromancer: Resurrection | `01006AC01F630000` | `B70551B5A2D0F15F` ([✅](SaltySD/plugins/FPSLocker/patches/01006AC01F630000/B70551B5A2D0F15F.yaml), v3, 1.0.3) <br> `7C37B073B19F3CCF` ([✅](SaltySD/plugins/FPSLocker/patches/01006AC01F630000/7C37B073B19F3CCF.yaml), v4, 1.0.4) <br> `FFF55266A618D06A` ([✅](SaltySD/plugins/FPSLocker/patches/01006AC01F630000/FFF55266A618D06A.yaml), v5, 1.0.5) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | SWORD OF THE VAGRANT | `0100BD000CB2C000` | `1F1363EC8CC83C73` ([✅](SaltySD/plugins/FPSLocker/patches/0100BD000CB2C000/1F1363EC8CC83C73.yaml), v1, 1.1) | ~~[📏](#📏)~~ |
 | SWORN | `0100BED01E6EE000` | `87F1CEF6D52392AE` ([✅](SaltySD/plugins/FPSLocker/patches/0100BED01E6EE000/87F1CEF6D52392AE.yaml), v2, 1.0.2) | ~~[📏](#📏)~~ |
-| Tails Noir | `01006DC012B00000` | `EAAB46ED1E4989C0` ([✅](SaltySD/plugins/FPSLocker/patches/01006DC012B00000/EAAB46ED1E4989C0.yaml), v1, 1.0.1) | ~~[📏](#📏)[🔧](#🔧)~~ |\
+| System Shock | `0100F18023E72000` | `14A66A472139D638` ([✅](SaltySD/plugins/FPSLocker/patches/0100F18023E72000/14A66A472139D638.yaml), v2, 2.0.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
+| Tails Noir | `01006DC012B00000` | `EAAB46ED1E4989C0` ([✅](SaltySD/plugins/FPSLocker/patches/01006DC012B00000/EAAB46ED1E4989C0.yaml), v1, 1.0.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Tails of Iron | `0100EF3013F60000` | `6A28EE5E39F76B6A` (◯, v4, 5) |  |
 | Tails of Iron 2: Whiskers of Winter | `01002A701DB9E000` | `435907EA16A90FC5` (◯, v5, 2.4) |  |
 | Tales of Kenzera: TAU | `01005C7015D30000` | `110D8FB47B55EA19` ([✅](SaltySD/plugins/FPSLocker/patches/01005C7015D30000/110D8FB47B55EA19.yaml), v4, 1.4.0) <br> `9E7FB72540D748BA` ([✅](SaltySD/plugins/FPSLocker/patches/01005C7015D30000/9E7FB72540D748BA.yaml), v5, 1.5.0) | ~~[🔧](#🔧)~~ |
