@@ -542,6 +542,7 @@ PATCH AVAILABILITY<br>
 | 주술회전 전화향명 | `0100AFC01A456000` | `7C724F497564C027` ([✅](SaltySD/plugins/FPSLocker/patches/0100AFC01A456000/7C724F497564C027.yaml), v6, 1.4.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | JUMP FORCE `EUR` | `010019D010F0E000` | `E1F650BD480CB465` (❌, v7, 1.08) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | JUMP FORCE `US` | `0100183010F12000` | `1667568420912C73` (❌, v7, 1.08) | [⏱️](#⏱️)[🖥️](#🖥️) |
+| Just Crow Things | `01002D901CDB6000` | `A42569DBA6D326B5` ([✅](SaltySD/plugins/FPSLocker/patches/01002D901CDB6000/A42569DBA6D326B5.yaml), v4, 1.0.21) | ~~[🏃](#🏃)~~ |
 | KAMEN RIDER memory of heroez Premium Sound Edition | `0100A9801180E000` | `B0ADB498E82BC644` ([✅](SaltySD/plugins/FPSLocker/patches/0100A9801180E000/B0ADB498E82BC644.yaml), v2, 1.0.2) | ~~[📏](#📏)~~ |
 | KAMiBAKO - Mythology of Cube - | `01008B40212D2000` | `91925CB98ED597AB` (◯, v1, 1.1.1) |  |
 | 神箱 - Mythology of Cube - | `01006E701C06E000` | `91925CB98ED597AB` (◯, v6, 1.1.1) |  |
