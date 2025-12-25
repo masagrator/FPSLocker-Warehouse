@@ -1,0 +1,10 @@
+# Succubus With Guns 1.0.1
+# BID: A5EC643318B3A543
+
+ALL_FPS:
+  # UnityEngine.Time::fixedDeltaTime 
+  -
+    type: evaluate_write
+    address: [MAIN, 0x4577FC0, 0x48]
+    value_type: float
+    value: "1 / FPS_TARGET"
