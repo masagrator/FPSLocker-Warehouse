@@ -1,0 +1,19 @@
+# Monster Energy Supercross - The Official Videogame 1.0.2
+# BID: A03FD278F67CDFD2
+
+ALL_FPS:
+  # t.MaxFPS
+  -
+    type: evaluate_write
+    address: [MAIN, 0x67FD408, 0]
+    value_type: float
+    value: [FPS_LOCK_TARGET, FPS_LOCK_TARGET]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x6551268, 0]
+    value_type: uint32
+    value: [0, 0]
+  -
+    type: block
+    what: timing
