@@ -1213,7 +1213,7 @@ PATCH AVAILABILITY<br>
 | DreamWorks All-Star Kart Racing | `010037401A374000` | `3C3A2E68DBD1BBEC` ([✅](SaltySD/plugins/FPSLocker/patches/010037401A374000/3C3A2E68DBD1BBEC.yaml), v1, 0.1.0.11740) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Empire of Sin | `010058600E530000` | `BD5F1ED30FDBA245` ([✅](SaltySD/plugins/FPSLocker/patches/010058600E530000/BD5F1ED30FDBA245.yaml), v10, 1.10.0) | ~~[📏](#📏)~~ |
 | EVERYBODY'S GOLF: Hot Shots `EUR` | `0100EBE020BC0000` | `D3CA3F7A4AE6F9A0` ([✅](SaltySD/plugins/FPSLocker/patches/0100EBE020BC0000/D3CA3F7A4AE6F9A0.yaml), v4, 1.1.3) <br> `386C265C45562002` ([✅](SaltySD/plugins/FPSLocker/patches/0100EBE020BC0000/386C265C45562002.yaml), v5, 1.1.4) | ~~[📏](#📏)~~ |
-| EVERYBODY'S GOLF: Hot Shots `US` | `0100821020BBC000` | `D45002D206976B20` (❌📌, v5, 1.1.4) | [📏](#📏) |
+| EVERYBODY'S GOLF: Hot Shots `US` | `0100821020BBC000` | `D45002D206976B20` ([✅](SaltySD/plugins/FPSLocker/patches/0100821020BBC000/D45002D206976B20.yaml), v5, 1.1.4) | ~~[📏](#📏)~~ |
 | みんなのGOLF WORLD | `0100760020BBA000` | `734C4A6ED33AE189` ([✅](SaltySD/plugins/FPSLocker/patches/0100760020BBA000/734C4A6ED33AE189.yaml), v4, 1.1.3) <br> `8E3D8436FCAA4C78` ([✅](SaltySD/plugins/FPSLocker/patches/0100760020BBA000/8E3D8436FCAA4C78.yaml), v5, 1.1.4) | ~~[📏](#📏)~~ |
 | - 모두의 골프 월드<br>- 全民高爾夫 環球之旅 | `0100422020BC4000` | `A179DD4F4BFB3A04` ([✅](SaltySD/plugins/FPSLocker/patches/0100422020BC4000/A179DD4F4BFB3A04.yaml), v4, 1.1.3) | ~~[📏](#📏)~~ |
 | Hot Blood | `01006FC01B540000` | `B9F02B03CE485DCA` ([✅](SaltySD/plugins/FPSLocker/patches/01006FC01B540000/B9F02B03CE485DCA.yaml), v0, 1.0.0) | ~~[📏](#📏)~~ |
