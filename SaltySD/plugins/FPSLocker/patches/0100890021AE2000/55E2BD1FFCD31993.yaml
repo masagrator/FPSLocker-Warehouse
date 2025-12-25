@@ -1,0 +1,11 @@
+# 옛날 옛적에 괴혼 / 從前從前有個塊魂 1.0.3
+# BID: 55E2BD1FFCD31993
+
+ALL_FPS:
+  # Dynamic Resolution
+  ## REF: App.KatamariSin.AppSupport_TypeInfo
+  -
+    type: evaluate_write
+    address: [MAIN, 0x8F858B8, 0xB8, 0x18]
+    value_type: double
+    value: "0.9 * FRAMETIME_TARGET"
