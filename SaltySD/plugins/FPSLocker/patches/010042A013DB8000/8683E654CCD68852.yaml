@@ -1,0 +1,25 @@
+# GetsuFumaDen: Undying Moon 1.1.1
+# BID: 8683E654CCD68852
+
+ALL_FPS:
+  # r.DynamicRes.FrameTimeBudget
+  -
+    type: evaluate_write
+    address: [MAIN, 0x79020E8, 0]
+    value_type: float
+    value: ["TruncDec(FRAMETIME_TARGET, 2)", "TruncDec(FRAMETIME_TARGET, 2)"]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x7136C78, 0]
+    value_type: int32
+    value: [0, 0]
+  # t.MaxFPS
+  -
+    type: evaluate_write
+    address: [MAIN, 0x792F998, 0]
+    value_type: float
+    value: [FPS_LOCK_TARGET, FPS_LOCK_TARGET]
+  -
+    type: block
+    what: timing
