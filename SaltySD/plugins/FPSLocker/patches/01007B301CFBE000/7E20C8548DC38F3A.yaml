@@ -1,0 +1,19 @@
+# Warhammer 40,000: Dakka Squadron 1.0.2
+# BID: 7E20C8548DC38F3A
+
+ALL_FPS:
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x4C7D408, 0]
+    value_type: int32
+    value: [0, 0]
+  # t.MaxFPS
+  -
+    type: evaluate_write
+    address: [MAIN, 0x5810650, 0]
+    value_type: float
+    value: [FPS_LOCK_TARGET, FPS_LOCK_TARGET]
+  -
+    type: block
+    what: timing
