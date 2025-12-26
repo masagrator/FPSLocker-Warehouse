@@ -56,7 +56,7 @@ ALL_FPS:
   # UnityEngine.Time::fixedDeltaTime
   -
     type: evaluate_write
-    address: [MAIN, 0x9FCEC278, 0x48]
+    address: [MAIN, 0x9FEC278, 0x48]
     value_type: float
     value: "1 / FPS_TARGET"
   # UnityEngine.Application::targetFrameRate
