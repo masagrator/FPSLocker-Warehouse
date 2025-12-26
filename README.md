@@ -756,8 +756,8 @@ PATCH AVAILABILITY<br>
 | Pandemic Shooter | `0100B69017120000` | `02D54DEBD40AF215` ([✅](SaltySD/plugins/FPSLocker/patches/0100B69017120000/02D54DEBD40AF215.yaml), v0, 1.0.0) | ~~[🔧](#🔧)~~ |
 | Paper Mario: The Origami King | `0100A3900C3E2000` | `E74395F066FD8CCB` (❌, v1, 1.0.1) | [🔐](#🔐)[⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢) |
 | Paper Mario: The Thousand-Year Door | `0100ECD018EBE000` | `0EFFE4AF1DEC3A79` (❌, v1, 1.0.1) | [🔐](#🔐)[⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️) |
-| Paradise Killer | `01007FB010DC8000` | `D3744AF2C376CDC4` ([✅](SaltySD/plugins/FPSLocker/patches/01007FB010DC8000/D3744AF2C376CDC4.yaml), v7, 1.2.1) | ~~[📏](#📏)~~ |
-| パラダイスキラー | `0100EC5013ED2000` | `D3744AF2C376CDC4` ([✅](SaltySD/plugins/FPSLocker/patches/0100EC5013ED2000/D3744AF2C376CDC4.yaml), v3, 1.2.1) | ~~[📏](#📏)~~ |
+| Paradise Killer | `01007FB010DC8000` | `D3744AF2C376CDC4` ([✅](SaltySD/plugins/FPSLocker/patches/01007FB010DC8000/D3744AF2C376CDC4.yaml), v7, 1.2.1) <br> `3C1DC69847A35C30` ([✅](SaltySD/plugins/FPSLocker/patches/01007FB010DC8000/3C1DC69847A35C30.yaml), v8, 1.3.0) | ~~[📏](#📏)~~ |
+| パラダイスキラー | `0100EC5013ED2000` | `D3744AF2C376CDC4` ([✅](SaltySD/plugins/FPSLocker/patches/0100EC5013ED2000/D3744AF2C376CDC4.yaml), v3, 1.2.1) <br> `3C1DC69847A35C30` ([✅](SaltySD/plugins/FPSLocker/patches/0100EC5013ED2000/3C1DC69847A35C30.yaml), v4, 1.3.0) | ~~[📏](#📏)~~ |
 | Paradise Lost | `010077A012A5C000` | `F5ECE696120B65B3` ([✅](SaltySD/plugins/FPSLocker/patches/010077A012A5C000/F5ECE696120B65B3.yaml), v0, 1.0.0) | ~~[📏](#📏)~~ |
 | PARANORMASIGHT: The Seven Mysteries of Honjo | `01006E5019C5A000` | `BF6466FEA06BEA4E` (◯, v2, 1.2) |  |
 | Pascal's Wager | `01009B9017D8E000` | `3F9A7276F039B226` (◯, v2, 2.0.0) |  | 
