@@ -1,0 +1,19 @@
+# WRITHE 1.3.0
+# BID: 97313EA9E2BD0EC1
+
+ALL_FPS:
+  # r.DynamicRes.FrameTimeBudget
+  -
+    type: evaluate_write
+    address: [MAIN, 0x5853008, 0]
+    value_type: float
+    value: ["TruncDec(FRAMETIME_TARGET, 1)", "TruncDec(FRAMETIME_TARGET, 1)"]
+  # t.MaxFPS
+  -
+    type: evaluate_write
+    address: [MAIN, 0x587FAD0, 0]
+    value_type: float
+    value: [FPS_LOCK_TARGET, FPS_LOCK_TARGET]
+  -
+    type: block
+    what: timing
