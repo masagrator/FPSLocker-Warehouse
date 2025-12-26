@@ -1,0 +1,32 @@
+# Metamorphosis 1.0.1
+# BID: 9F1B5FB4C53E321F
+
+ALL_FPS:
+  # Disable SmoothFrameRate
+  -
+    type: write
+    address: [MAIN, 0x58C2C68, 0x7C0]
+    address_unsafe: true
+    value_type: uint32
+    value: 7
+  # r.DynamicRes.FrameTimeBudget (Default is 42)
+  -
+    type: evaluate_write
+    address: [MAIN, 0x58991A8, 0]
+    value_type: float
+    value: ["TruncDec(FRAMETIME_TARGET, 2)", "TruncDec(FRAMETIME_TARGET, 2)"]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x4D2EFF8, 0]
+    value_type: int32
+    value: [0, 0]
+  # t.MaxFPS
+  -
+    type: evaluate_write
+    address: [MAIN, 0x58C33A0, 0]
+    value_type: float
+    value: [FPS_LOCK_TARGET, FPS_LOCK_TARGET]
+  -
+    type: block
+    what: timing
