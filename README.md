@@ -1255,5 +1255,6 @@ PATCH AVAILABILITY<br>
 | WRC8 | `010087800DCEA000` | `6B0B26802F0DAAAF` ([✅](SaltySD/plugins/FPSLocker/patches/010087800DCEA000/6B0B26802F0DAAAF.yaml), v4, 1.4.0) | ~~[📏](#📏)~~ |
 | WRC 8 FIA 월드 랠리 챔피언십 1.4.0 | `010079500FD5C000` | `6B0B26802F0DAAAF` ([✅](SaltySD/plugins/FPSLocker/patches/010079500FD5C000/6B0B26802F0DAAAF.yaml), v1, 1.1.0) | ~~[📏](#📏)~~ |
 | WRC9 | `01001A0011798000` | `66B2DEA98B5CDF65` ([✅](SaltySD/plugins/FPSLocker/patches/01001A0011798000/66B2DEA98B5CDF65.yaml), v2, 1.2.0) | ~~[📏](#📏)~~ |
+| WRITHE | `0100567011972000` | `97313EA9E2BD0EC1` ([✅](SaltySD/plugins/FPSLocker/patches/0100567011972000/97313EA9E2BD0EC1.yaml), v8, 1.3.0) | ~~[🔐](#🔐)[📏](#📏)~~ |
 
 </details>
