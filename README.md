@@ -1172,6 +1172,7 @@ PATCH AVAILABILITY<br>
 | WRC 제너레이션 | `0100B4F0196B8000` | `B8BE1CFAE53CAEBE` ([✅](SaltySD/plugins/FPSLocker/patches/0100B4F0196B8000/B8BE1CFAE53CAEBE.yaml), v3, 1.2.2) | ~~[📏](#📏)~~ |
 | Wreckfest | `0100DC0012E48000` | `7BCD694B69C98104` (◯, v2, 1.0.2) |  |
 | レックフェスト | `0100908017CC8000` | `7BCD694B69C98104` (◯, v2, 1.0.2) |  |
+| WRITHE | `0100567011972000` | `97313EA9E2BD0EC1` ([✅](SaltySD/plugins/FPSLocker/patches/0100567011972000/97313EA9E2BD0EC1.yaml), v8, 1.3.0) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | WW2: Bunker Simulator | `01009A601B032000` | `0C2E9A763F9AB7A2` (◯, v0, 01.00) |  |
 | WWE 2K18 | `010009800203E000` | `DEEE18D307C81634` (❌, v5, 1.04) | [⏱️](#⏱️)[📏](#📏)[⚔️](#⚔️) |
 | X-Morph Defense | `0100DF100B97C000` | `B0D911BC4C9A3760` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
@@ -1255,6 +1256,5 @@ PATCH AVAILABILITY<br>
 | WRC8 | `010087800DCEA000` | `6B0B26802F0DAAAF` ([✅](SaltySD/plugins/FPSLocker/patches/010087800DCEA000/6B0B26802F0DAAAF.yaml), v4, 1.4.0) | ~~[📏](#📏)~~ |
 | WRC 8 FIA 월드 랠리 챔피언십 1.4.0 | `010079500FD5C000` | `6B0B26802F0DAAAF` ([✅](SaltySD/plugins/FPSLocker/patches/010079500FD5C000/6B0B26802F0DAAAF.yaml), v1, 1.1.0) | ~~[📏](#📏)~~ |
 | WRC9 | `01001A0011798000` | `66B2DEA98B5CDF65` ([✅](SaltySD/plugins/FPSLocker/patches/01001A0011798000/66B2DEA98B5CDF65.yaml), v2, 1.2.0) | ~~[📏](#📏)~~ |
-| WRITHE | `0100567011972000` | `97313EA9E2BD0EC1` ([✅](SaltySD/plugins/FPSLocker/patches/0100567011972000/97313EA9E2BD0EC1.yaml), v8, 1.3.0) | ~~[🔐](#🔐)[📏](#📏)~~ |
 
 </details>
