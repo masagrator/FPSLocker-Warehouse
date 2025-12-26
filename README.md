@@ -650,6 +650,7 @@ PATCH AVAILABILITY<br>
 | MONOPOLY | `01002C201BC40000` | `1AAA3C7D76026D29` (◯, v5, 1.5) |  |
 | Monopoly Madness | `01005FF013DC2000` | `78B532D348D69BD5` (◯, v5, 1.0.5) |  |
 | Monster Energy Supercross - The Official Videogame | `0100742007266000` | `A03FD278F67CDFD2` ([✅](SaltySD/plugins/FPSLocker/patches/0100742007266000/A03FD278F67CDFD2.yaml), v2, 1.0.2) | ~~[📏](#📏)~~ |
+| モンスターエナジースーパークロス　オフィシャルビデオゲーム | `0100479008552000` | `A03FD278F67CDFD2` ([✅](SaltySD/plugins/FPSLocker/patches/0100479008552000/A03FD278F67CDFD2.yaml), v1, 1.0.1) | ~~[📏](#📏)~~ |
 | Monster Energy Supercross - The Official Videogame 2 | `0100F8100B982000` | `3CAC2B84D43AF415` ([✅](SaltySD/plugins/FPSLocker/patches/0100F8100B982000/3CAC2B84D43AF415.yaml), v6, 1.0.6) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Monster Energy Supercross - The Official Videogame 3 | `010097800EA20000` | `4EFCE075BCA581C4` (❌📌, v3, 1.0.3) | [📏](#📏)[🔧](#🔧) |
 | Monster Hunter Generations Ultimate | `0100770008DD8000` | `FB08F1D20FD1204F` ([✅](SaltySD/plugins/FPSLocker/patches/0100770008DD8000/FB08F1D20FD1204F.yaml), v4, 1.4.0) | ~~[🔐](#🔐)~~ |
