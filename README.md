@@ -445,6 +445,7 @@ PATCH AVAILABILITY<br>
 | Gamedec - Definitive Edition | `01002A501869E000` | `BFA92380757EF97D` ([✅](SaltySD/plugins/FPSLocker/patches/01002A501869E000/BFA92380757EF97D.yaml), v3, 1.3.0) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Garden Witch Life | `0100B6C01CDA0000` | `01660DB6F4D0FA81` ([✅](SaltySD/plugins/FPSLocker/patches/0100B6C01CDA0000/01660DB6F4D0FA81.yaml), v3, 1.0.3) <br> `CFC1C6A56575F83A` ([✅](SaltySD/plugins/FPSLocker/patches/0100B6C01CDA0000/CFC1C6A56575F83A.yaml), v4, 1.0.4) <br> `13824B290C931FE5` ([✅](SaltySD/plugins/FPSLocker/patches/0100B6C01CDA0000/13824B290C931FE5.yaml), v5, 1.0.5) | ~~[🔧](#🔧)~~ |
 | Garfield Kart Furious Racing | `010061E00E8BE000` | `4A67AFB9EAC0DF44` (◯, v3, 1.0.3) |  |
+| Garfield Kart 2 - All You Can Drift  | `0100DC9020B30000` | `3F6808C5518371F9` ([✅](SaltySD/plugins/FPSLocker/patches/0100DC9020B30000/3F6808C5518371F9.yaml), v2, 1.0.5) | ~~[📏](#📏)~~ |
 | Gas Station Simulator | `0100A2601720A000` | `DD6F5AF530CC2072` ([✅](SaltySD/plugins/FPSLocker/patches/0100A2601720A000/DD6F5AF530CC2072.yaml), v2, 1.1.6) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Gear.Club Unlimited | `010065E003FD8000` | `CD94FCB8CC23B24A` (◯, v2, 1.2.0) |  |
 | Gear.Club Unlimited 2 | `010072900AFF0000` | `FE757810B45C3444` ([✅](SaltySD/plugins/FPSLocker/patches/010072900AFF0000/FE757B10B45C3444.yaml), v14, 1.7.2) | ~~[🔐](#🔐)[📏](#📏)[🌤️](#🌤️)~~ |
