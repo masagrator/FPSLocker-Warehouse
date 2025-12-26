@@ -1,0 +1,10 @@
+# たまごっちのプチプチおみせっち おまちど～さま！ 1.0.6
+# BID: 1E965D5B338E3D05
+
+ALL_FPS:
+  # UnityEngine.Rendering.OnDemandRendering_TypeInfo
+  -
+    type: write
+    address: [MAIN, 0x68B81F8, 0xB8, 0]
+    value_type: int32
+    value: -1
