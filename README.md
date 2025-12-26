@@ -1018,8 +1018,8 @@ PATCH AVAILABILITY<br>
 | The Dark Pictures Anthology: Little Hope | `010084F017B32000` | `2BFF5F7711EE6C9F` ([✅](SaltySD/plugins/FPSLocker/patches/010084F017B32000/2BFF5F7711EE6C9F.yaml), v0, 1.0.0) | ~~[🔐](#🔐)~~ | 
 | The Dark Pictures Anthology: Man of Medan | `0100711017B30000` | `2C7A626BA5F25D5F` ([✅](SaltySD/plugins/FPSLocker/patches/0100711017B30000/2C7A626BA5F25D5F.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
 | The Dark Pictures Anthology: マン・オブ・メダン | `0100DB1017CDC000` | `2C7A626BA5F25D5F` ([✅](SaltySD/plugins/FPSLocker/patches/0100DB1017CDC000/2C7A626BA5F25D5F.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
-| The Elder Scrolls V: Skyrim | `01000A10041EA000` | `4F7995092FAA5DC0` ([✅](SaltySD/plugins/FPSLocker/patches/01000A10041EA000/4F7995092FAA5DC0.yaml), v5, 1.1.392.3925134) | ~~[📏](#📏)~~ |
-| The Elder Scrolls V: Skyrim `JPN` | `010028D005A3C000` | `4F7995092FAA5DC0` ([✅](SaltySD/plugins/FPSLocker/patches/010028D005A3C000/4F7995092FAA5DC0.yaml), v5, 1.1.392.3925134) | ~~[📏](#📏)~~ |
+| The Elder Scrolls V: Skyrim | `01000A10041EA000` | `4F7995092FAA5DC0` ([✅](SaltySD/plugins/FPSLocker/patches/01000A10041EA000/4F7995092FAA5DC0.yaml), v5, 1.1.392.3925134) <br> `0C0CAC3FCF0F0BEB` ([✅](SaltySD/plugins/FPSLocker/patches/01000A10041EA000/0C0CAC3FCF0F0BEB.yaml), v6, 1.1.404.0) | ~~[📏](#📏)~~ |
+| The Elder Scrolls V: Skyrim `JPN` | `010028D005A3C000` | `4F7995092FAA5DC0` ([✅](SaltySD/plugins/FPSLocker/patches/010028D005A3C000/4F7995092FAA5DC0.yaml), v5, 1.1.392.3925134) `0C0CAC3FCF0F0BEB` ([✅](SaltySD/plugins/FPSLocker/patches/010028D005A3C000/0C0CAC3FCF0F0BEB.yaml), v6, 1.1.404.0)  | ~~[📏](#📏)~~ |
 | The Entropy Centre | `0100DDD01ACAA000` | `7AF502E140C13759` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
 | The Escapists 2 | `0100CA100489C000` | `A6B724569BC27D41` (◯, v3, 1.3.0) |  |
 | The Exit 8 | `01003BF01E940000` | `5346BDF1EEC2BA4C` ([✅](SaltySD/plugins/FPSLocker/patches/01003BF01E940000/5346BDF1EEC2BA4C.yaml), v9, 1.0.9) | ~~[📏](#📏)[🔧](#🔧)~~ |
