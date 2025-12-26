@@ -69,6 +69,7 @@ PATCH AVAILABILITY<br>
 | 60 Parsecs! | `010010100FF14000` | `12F93E2DBBCFA54F` ([✅](SaltySD/plugins/FPSLocker/patches/010010100FF14000/12F93E2DBBCFA54F.yaml), v10, 1.0.10) | ~~[📷](#📷)~~ |
 | 8-Bit Adventures 2 | `010008B00D682000` | `89777FD8569E563D` (❌, v3, 1.0.3) | [⚔️](#⚔️)[⏱️](#⏱️) |
 | A Hat in Time | `010056E00853A000` | `746F0D697EEEE2DD` ([✅](SaltySD/plugins/FPSLocker/patches/010056E00853A000/746F0D697EEEE2DD.yaml), v4, 1.0.4) | ~~[🔐](#🔐)~~ |
+| A Juggler's Tale | `0100CFD01517A000` | `2438B00670539268` ([✅](SaltySD/plugins/FPSLocker/patches/0100CFD01517A000/2438B00670539268.yaml), v3, 1.17) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | A Monster's Expedition | `0100C01013302000` | `09CB487D63E4827E` (◯, v3, 1.2.0) |  |
 | ABYSS SEEKER――What Do You See Deep in Abyss | `01003990220BE000` | `C17F9C48EEFAB9DF` ([✅](SaltySD/plugins/FPSLocker/patches/01003990220BE000/C17F9C48EEFAB9DF.yaml), v0, 1.1.0.012) <br> `FE67FB035271B5E4` ([✅](SaltySD/plugins/FPSLocker/patches/01003990220BE000/FE67FB035271B5E4.yaml), v1, 1.2.0.020) <br> `820EF220126FF10A` ([✅](SaltySD/plugins/FPSLocker/patches/01003990220BE000/820EF220126FF10A.yaml), v2, 1.3.0.105) | ~~[🛑](#🛑)~~ |
 | ABZU | `0100C1300BBC6000` | `59719CFCD1671B98` ([✅](SaltySD/plugins/FPSLocker/patches/0100C1300BBC6000/59719CFCD1671B98.yaml), v1, 1.0.01) | ~~[🔧](#🔧)~~ |
