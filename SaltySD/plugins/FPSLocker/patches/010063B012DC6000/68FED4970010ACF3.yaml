@@ -1,10 +1,8 @@
-# SHIN MEGAMI TENSEI V 1.0.2
+# SHIN MEGAMI TENSEI V `The Americas` 1.0.2
 # BID: 68FED4970010ACF3
 
-unsafeCheck: true
-
 ALL_FPS:
-  # r.DynamicRes.FrameTimeBudget (1000/FPS) cutted to 2 decimals
+  # r.DynamicRes.FrameTimeBudget
   -
     type: evaluate_write
     address: [MAIN, 0x75F81D0, 0]
