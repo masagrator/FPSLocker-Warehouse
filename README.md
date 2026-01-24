@@ -176,7 +176,7 @@ PATCH AVAILABILITY<br>
 | Beholder 2 | `01000DF00EBBA000` | `5D3FE9C0FAA44B4C` ([✅](SaltySD/plugins/FPSLocker/patches/01000DF00EBBA000/5D3FE9C0FAA44B4C.yaml), v3, 1.0.3) | ~~[📷](#📷)~~ |
 | Beholder 3 | `0100BEE01948E000` | `A3416631954C56C8` ([✅](SaltySD/plugins/FPSLocker/patches/0100BEE01948E000/A3416631954C56C8.yaml), v1, 1.0.1) | ~~[📏](#📏)~~ |
 | Bendy: Lone Wolf | `010071B022A36000` | `42555F20B7CF4718` (◯, v4, 2.0.8) |  |
-| Bendy and the Dark Revival | `0100207021C3C000` | `2C2D599E55912C6C` ([✅](SaltySD/plugins/FPSLocker/patches/0100207021C3C000/2C2D599E55912C6C.yaml), v1, 1.6.3s) | ~~[📏](#📏)[📷](#📷)~~ |
+| Bendy and the Dark Revival | `0100207021C3C000` | `2C2D599E55912C6C` ([✅](SaltySD/plugins/FPSLocker/patches/0100207021C3C000/2C2D599E55912C6C.yaml), v1, 1.6.3s) <br> `E917F319E4233FCD` ([✅](SaltySD/plugins/FPSLocker/patches/0100207021C3C000/E917F319E4233FCD.yaml), v2, 1.6.4s) | ~~[📏](#📏)[📷](#📷)~~ |
 | Bendy and the Ink Machine | `0100D4C00C6C0000` | `DAC99B7AC6E59E49` (◯, v3, 2.0.2a) |  |
 | Bendy and the Ink Machine `US/JP` | `010074500BBC4000` | `BA2E0A56055639D7` (◯, v4, 2.0.3a) |  |
 | BEYBLADE X EVOBATTLE | `01009F002286E000` | `5ADD6034D304EED9` (◯, v5, 1.0.5) |  |
