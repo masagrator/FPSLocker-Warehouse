@@ -1144,7 +1144,7 @@ PATCH AVAILABILITY<br>
 | Undertale | `010080B00AD66000` | `24DB41FCD513D080` (❌, v2, 1.11) | [🔐](#🔐)[⏱️](#⏱️) |
 | Undungeon | `0100CA3018EA4000` | `6A5B168E1D2C6647` (◯, v0, 0.002) |  |
 | Unravel Two | `0100E5D00CC0C000` | `F04D4FE8BF580369` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
-| Upin & Ipin Universe | `010058C01F3EE000` | `A15393F630A9767F` ([✅](SaltySD/plugins/FPSLocker/patches/010058C01F3EE000/A15393F630A9767F.yaml), v1, 1.0.1) <br> `301E4A1FB0BA1575` ([✅](SaltySD/plugins/FPSLocker/patches/010058C01F3EE000/301E4A1FB0BA1575.yaml), v2, 1.0.2) | ~~[📏](#📏)[🔧](#🔧)~~ |
+| Upin & Ipin Universe | `010058C01F3EE000` | `A15393F630A9767F` ([✅](SaltySD/plugins/FPSLocker/patches/010058C01F3EE000/A15393F630A9767F.yaml), v1, 1.0.1) <br> `301E4A1FB0BA1575` ([✅](SaltySD/plugins/FPSLocker/patches/010058C01F3EE000/301E4A1FB0BA1575.yaml), v2, 1.0.2) <br> `97EBD09FA8327AFB` ([✅](SaltySD/plugins/FPSLocker/patches/010058C01F3EE000/97EBD09FA8327AFB.yaml), v3, 1.0.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | V-Rally 4 | `010064400B138000` | `EB8A679B5DDD0060` ([✅](SaltySD/plugins/FPSLocker/patches/010064400B138000/EB8A679B5DDD0060.yaml), v2, 1.2.0) | ~~[📏](#📏)~~ |
 | V-Rally 4 `JPN` | `010015800B178000` | `EB8A679B5DDD0060` ([✅](SaltySD/plugins/FPSLocker/patches/010015800B178000/EB8A679B5DDD0060.yaml), v1, 1.1.0) | ~~[📏](#📏)~~ |
 | Valkyria Chronicles | `0100CAF00B744000` | `FE77FFB8CBFB3A5C` ([✅](SaltySD/plugins/FPSLocker/patches/0100CAF00B744000/FE77FFB8CBFB3A5C.yaml), v1, 1.0.1) | ~~[⏱️](#⏱️)~~[🖥️](#🖥️)[⚔️](#⚔️) |
