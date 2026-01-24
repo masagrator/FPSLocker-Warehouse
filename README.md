@@ -1137,7 +1137,7 @@ PATCH AVAILABILITY<br>
 | Ultra Age | `01008D4015904000` | `CA77083E259D87A2` ([✅](SaltySD/plugins/FPSLocker/patches/01008D4015904000/CA77083E259D87A2.yaml), v7, 2.0.4) | ~~[📏](#📏)~~ |
 | ウルトラエージ | `01006DD00FE16000` | `CA77083E259D87A2` ([✅](SaltySD/plugins/FPSLocker/patches/01006DD00FE16000/CA77083E259D87A2.yaml), v7, 2.0.4) | ~~[📏](#📏)~~ |
 | Ultra Kaiju Monster Rancher | `01008E0019388000` | `53384CC3D2B4CA9F` (❌, v0, 1.0.1) | [⏱️](#⏱️)[🖥️](#🖥️) |
-| Umurangi Generation | `0100CA3014ADE000` | `372AB37327DB2C31` ([✅](SaltySD/plugins/FPSLocker/patches/0100CA3014ADE000/372AB37327DB2C31.yaml), v6, 1.6.6.0) | ~~[🔐](#🔐)~~ |
+| Umurangi Generation | `0100CA3014ADE000` | `372AB37327DB2C31` ([✅](SaltySD/plugins/FPSLocker/patches/0100CA3014ADE000/372AB37327DB2C31.yaml), v6, 1.6.6.0) <br> `C13C79B14C33D0E1` ([✅](SaltySD/plugins/FPSLocker/patches/0100CA3014ADE000/C13C79B14C33D0E1.yaml), v7, 1.6.9.0) | ~~[🔐](#🔐)~~ |
 | ウムランギジェネレーション | `0100670014B3E000` | `372AB37327DB2C31` ([✅](SaltySD/plugins/FPSLocker/patches/0100670014B3E000/372AB37327DB2C31.yaml), v6, 1.6.6.0) | ~~[🔐](#🔐)~~ |
 | Unbox: Newbie's Adventure | `0100592005164000` | `83A6B710A3F3F4F9` ([✅](SaltySD/plugins/FPSLocker/patches/0100592005164000/83A6B710A3F3F4F9.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | Unbound: Worlds Apart | `0100C5A013B7A000` | `1B98D227021142B1` ([✅](SaltySD/plugins/FPSLocker/patches/0100C5A013B7A000/1B98D227021142B1.yaml), v3, 1.0.3) | ~~[🔧](#🔧)~~ |
