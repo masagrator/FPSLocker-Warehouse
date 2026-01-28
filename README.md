@@ -558,7 +558,6 @@ PATCH AVAILABILITY<br>
 | Jujutsu Kaisen Cursed Clash `US` | `010000B01A452000` | `2F33996FD9C81253` ([✅](SaltySD/plugins/FPSLocker/patches/010000B01A452000/2F33996FD9C81253.yaml), v4, 1.2.0) <br> `2E7487767D0CA0EE` ([✅](SaltySD/plugins/FPSLocker/patches/010000B01A452000/2E7487767D0CA0EE.yaml), v5, 1.3.0) <br> `7C724F497564C027` ([✅](SaltySD/plugins/FPSLocker/patches/010000B01A452000/7C724F497564C027.yaml), v6, 1.4.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | 呪術廻戦 戦華双乱 | `01002FC012548000` | `2F33996FD9C81253` ([✅](SaltySD/plugins/FPSLocker/patches/01002FC012548000/2F33996FD9C81253.yaml), v4, 1.2.0) <br> `2E7487767D0CA0EE` ([✅](SaltySD/plugins/FPSLocker/patches/01002FC012548000/2E7487767D0CA0EE.yaml), v5, 1.3.0) <br> `7C724F497564C027` ([✅](SaltySD/plugins/FPSLocker/patches/01002FC012548000/7C724F497564C027.yaml), v6, 1.4.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | 주술회전 전화향명 | `0100AFC01A456000` | `7C724F497564C027` ([✅](SaltySD/plugins/FPSLocker/patches/0100AFC01A456000/7C724F497564C027.yaml), v6, 1.4.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
-| Jumanji | `0100B4D00C76E000` | `54E9C7460334EEB4` ([✅](SaltySD/plugins/FPSLocker/patches/0100B4D00C76E000/54E9C7460334EEB4.yaml), v1, 1.0.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | JUMP FORCE `EUR` | `010019D010F0E000` | `E1F650BD480CB465` (❌, v7, 1.08) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | JUMP FORCE `US` | `0100183010F12000` | `1667568420912C73` (❌, v7, 1.08) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | JUMP FORCE `Asia` | `01008CD01187E000` | `B1EB1134392975BF` (❌, v6, 1.08) | [⏱️](#⏱️)[🖥️](#🖥️) |
@@ -1265,6 +1264,7 @@ PATCH AVAILABILITY<br>
 | みんなのGOLF WORLD | `0100760020BBA000` | `734C4A6ED33AE189` ([✅](SaltySD/plugins/FPSLocker/patches/0100760020BBA000/734C4A6ED33AE189.yaml), v4, 1.1.3) <br> `8E3D8436FCAA4C78` ([✅](SaltySD/plugins/FPSLocker/patches/0100760020BBA000/8E3D8436FCAA4C78.yaml), v5, 1.1.4) | ~~[📏](#📏)~~ |
 | - 모두의 골프 월드<br>- 全民高爾夫 環球之旅 | `0100422020BC4000` | `A179DD4F4BFB3A04` ([✅](SaltySD/plugins/FPSLocker/patches/0100422020BC4000/A179DD4F4BFB3A04.yaml), v4, 1.1.3) <br> `C2D14E1A5A788D6A` ([✅](SaltySD/plugins/FPSLocker/patches/0100422020BC4000/C2D14E1A5A788D6A.yaml), v5, 1.1.4) | ~~[📏](#📏)~~ |
 | Hot Blood | `01006FC01B540000` | `B91475B2ADE6F74D` ([✅](SaltySD/plugins/FPSLocker/patches/01006FC01B540000/B91475B2ADE6F74D.yaml), v1, 1.0.1) | ~~[📏](#📏)~~ |
+| Jumanji | `0100B4D00C76E000` | `54E9C7460334EEB4` ([✅](SaltySD/plugins/FPSLocker/patches/0100B4D00C76E000/54E9C7460334EEB4.yaml), v1, 1.0.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Little Goody Two Shoes | `010036E019EA2000` | `B9F02B03CE485DCA` ([✅](SaltySD/plugins/FPSLocker/patches/010036E019EA2000/6895FE7D0D1B8E2F.yaml), v0, 1.0.5) | ~~[📷](#📷)~~ |
 | Misc. A Tiny Tale | `0100A5E014196000` | `0E9D849EF47198D8` ([✅](SaltySD/plugins/FPSLocker/patches/0100A5E014196000/0E9D849EF47198D8.yaml), v5, 1.0.4) <br> `D24A46A2618C9E38` ([✅](SaltySD/plugins/FPSLocker/patches/0100A5E014196000/D24A46A2618C9E38.yaml), v6, 1.0.5) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Mortal Shell | `0100154019A7C000` | `6D9F6C7B79F5197F` ([✅](SaltySD/plugins/FPSLocker/patches/0100154019A7C000/6D9F6C7B79F5197F.yaml), v2, 1.2.0) | ~~[📏](#📏)~~ |
