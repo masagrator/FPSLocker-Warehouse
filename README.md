@@ -558,6 +558,7 @@ PATCH AVAILABILITY<br>
 | Jujutsu Kaisen Cursed Clash `US` | `010000B01A452000` | `2F33996FD9C81253` ([✅](SaltySD/plugins/FPSLocker/patches/010000B01A452000/2F33996FD9C81253.yaml), v4, 1.2.0) <br> `2E7487767D0CA0EE` ([✅](SaltySD/plugins/FPSLocker/patches/010000B01A452000/2E7487767D0CA0EE.yaml), v5, 1.3.0) <br> `7C724F497564C027` ([✅](SaltySD/plugins/FPSLocker/patches/010000B01A452000/7C724F497564C027.yaml), v6, 1.4.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | 呪術廻戦 戦華双乱 | `01002FC012548000` | `2F33996FD9C81253` ([✅](SaltySD/plugins/FPSLocker/patches/01002FC012548000/2F33996FD9C81253.yaml), v4, 1.2.0) <br> `2E7487767D0CA0EE` ([✅](SaltySD/plugins/FPSLocker/patches/01002FC012548000/2E7487767D0CA0EE.yaml), v5, 1.3.0) <br> `7C724F497564C027` ([✅](SaltySD/plugins/FPSLocker/patches/01002FC012548000/7C724F497564C027.yaml), v6, 1.4.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | 주술회전 전화향명 | `0100AFC01A456000` | `7C724F497564C027` ([✅](SaltySD/plugins/FPSLocker/patches/0100AFC01A456000/7C724F497564C027.yaml), v6, 1.4.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
+| Jumanji | `0100B4D00C76E000` | `54E9C7460334EEB4` ([✅](SaltySD/plugins/FPSLocker/patches/0100B4D00C76E000/54E9C7460334EEB4.yaml), v1, 1.0.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | JUMP FORCE `EUR` | `010019D010F0E000` | `E1F650BD480CB465` (❌, v7, 1.08) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | JUMP FORCE `US` | `0100183010F12000` | `1667568420912C73` (❌, v7, 1.08) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | JUMP FORCE `Asia` | `01008CD01187E000` | `B1EB1134392975BF` (❌, v6, 1.08) | [⏱️](#⏱️)[🖥️](#🖥️) |
