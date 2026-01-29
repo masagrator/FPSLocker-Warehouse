@@ -1142,6 +1142,7 @@ PATCH AVAILABILITY<br>
 | トライン５：ぜんまい仕掛けの陰謀 | `010052701BB0A000` | `8322528255D2CC63` ([✅](SaltySD/plugins/FPSLocker/patches/010052701BB0A000/8322528255D2CC63.yaml), v4, 1.0.4) | ~~[📏](#📏)[⚔️](#⚔️)~~ |
 | Trinity Fusion | `0100DE201C212000` | `920ECAA44BCA680C` (◯, v1, 1.5) |  |
 | Troublemaker | `01001040220E8000` | `336E56D09501A52E` ([✅](SaltySD/plugins/FPSLocker/patches/01001040220E8000/336E56D09501A52E.yaml), v1, 1.0.2) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
+| Trover Saves the Universe | `010089600FB72000` | `9D4553105795CD81` ([✅](SaltySD/plugins/FPSLocker/patches/010089600FB72000/9D4553105795CD81.yaml), v1, 1.0.0.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Truck Driver | `0100CB50107BA000` | `8D94D7CA2A09FF5D` (◯, v8, 1.36) |  |
 | TT Isle of Man | `010099900CAB2000` | `F2F739A2F1CAFF72` ([✅](SaltySD/plugins/FPSLocker/patches/010099900CAB2000/F2F739A2F1CAFF72.yaml), v1, 1.1.0) | ~~[📏](#📏)~~ |
 | TT Isle of Man 3 | `0100FA2019AC2000` | `91CE601F6A7174CF` ([✅](SaltySD/plugins/FPSLocker/patches/0100FA2019AC2000/91CE601F6A7174CF.yaml), v7, 1.7.0) | ~~[📏](#📏)~~ |
