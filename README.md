@@ -847,6 +847,7 @@ PATCH AVAILABILITY<br>
 | Redout | `0100DA20021D0000` | `1C81D0BC7BA01EE2` (◯, v2, 1.0.2) |  |
 | Redout 2 | `0100664016D5C000` | `D45B9332B5742A70` ([✅](SaltySD/plugins/FPSLocker/patches/0100664016D5C000/D45B9332B5742A70.yaml), v6, 1.0.6) <br> `E47783ECB944D857` ([✅](SaltySD/plugins/FPSLocker/patches/0100664016D5C000/E47783ECB944D857.yaml), v7, 1.0.7) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Remnant: From the Ashes | `010010F01418E000` | `49CF6B0B0A62F9E2` ([✅](SaltySD/plugins/FPSLocker/patches/010010F01418E000/49CF6B0B0A62F9E2.yaml), v1, 1.0.1) | ~~[📏](#📏)~~ |
+| Remorse: The list | `0100068018ECC000` | `8019D7D61A81AF2B` ([✅](SaltySD/plugins/FPSLocker/patches/0100068018ECC000/8019D7D61A81AF2B.yaml), v2, 1.2) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Remothered: Broken Porcelain | `0100FBD00F5F6000` | `5EFAB20F5C1F0F68` ([✅](SaltySD/plugins/FPSLocker/patches/0100FBD00F5F6000/5EFAB20F5C1F0F68.yaml), v9, 2.0.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~[⚔️](#⚔️) |
 | 修道院：破碎的瓷器 | `01000E10133B2000` | `5EFAB20F5C1F0F68` ([✅](SaltySD/plugins/FPSLocker/patches/01000E10133B2000/5EFAB20F5C1F0F68.yaml), v3, 2.0.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~[⚔️](#⚔️) |
 | リマザード：ブロークン ポーセリン | `01000DF01234A000` | `5EFAB20F5C1F0F68` ([✅](SaltySD/plugins/FPSLocker/patches/01000DF01234A000/5EFAB20F5C1F0F68.yaml), v4, 2.0.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~[⚔️](#⚔️) |
