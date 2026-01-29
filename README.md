@@ -804,6 +804,7 @@ PATCH AVAILABILITY<br>
 | Pikmin 2 | `0100D680194B2000` | `9A257FAB83444214` ([✅](SaltySD/plugins/FPSLocker/patches/0100D680194B2000/9A257FAB83444214.yaml), v1, 1.1.0) | ~~[🔐](#🔐)[📺](#📺)~~ |
 | Pikmin 3 Deluxe | `0100F4C009322000` | `D467F5AD367BBEE8` (❌, v4, 1.1.3) | [⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️) |
 | Pikmin 4 | `0100B7C00933A000` | `060F827BD2B38703` (❌, v4, 1.1.1) | [📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢) |
+| PixARK | `0100CC700B2B4000` | `32B8DF89E535639A` ([✅](SaltySD/plugins/FPSLocker/patches/0100CC700B2B4000/32B8DF89E535639A.yaml), v4, 1.4.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | PJ Masks Power Heroes: Mighty Alliance | `0100FE301A2B4000` | `A91A7BB200C51B01` (◯, v1, 1.0.1) |  |
 | Plants vs. Zombies: Battle for Neighborville | `0100C56010FD8000` | `82051A9C802D0A4C` ([✅](SaltySD/plugins/FPSLocker/patches/0100C56010FD8000/82051A9C802D0A4C.yaml), v3, 1.0.3) <br> `5AD255D6667B6EB5` ([✅](SaltySD/plugins/FPSLocker/patches/0100C56010FD8000/5AD255D6667B6EB5.yaml), v4, 1.0.4) | ~~[📏](#📏)~~ |
 | Platform 8 | `010036F0201D4000` | `42A0B64E45AD9ABA` ([✅](SaltySD/plugins/FPSLocker/patches/010036F0201D4000/42A0B64E45AD9ABA.yaml), v4, 1.0.4) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
