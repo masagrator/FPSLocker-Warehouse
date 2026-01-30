@@ -202,6 +202,7 @@ PATCH AVAILABILITY<br>
 | Biped 2 | `01004240237F6000` | `760BBB1B0812AE99` (◯, v4, 1.8.6) |  |
 | Black Skylands | `0100FA601A58C000` | `C13490454BA10AE4` (◯, v3, 1.0.3) |  |
 | Blade Assault | `0100EA1018A2E000` | `0DF84BFE1556A443` (◯, v1, 1.0.1) |  |
+| Blade Jumper | `0100BBB01C7FE000` | `0A3CBB829DB69221` ([✅](SaltySD/plugins/FPSLocker/patches/0100BBB01C7FE000/0A3CBB829DB69221.yaml), v0, 1.0.0) | ~~[🏃](#🏃)~~ |
 | Blades of Time | `0100CFA00CC74000` | `679B5FC4F46F5DB7` (❌, v4, 1.2.200127) | [🔐](#🔐) |
 | Blair Witch | `01006CC01182C000` | `C31E59266A218855` ([✅](SaltySD/plugins/FPSLocker/patches/01006CC01182C000/C31E59266A218855.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Bloodstained: Ritual of the Night | `0100BF500207C000` | `E380EB35262B4F9C` ([✅](SaltySD/plugins/FPSLocker/patches/0100BF500207C000/E380EB35262B4F9C.yaml), v12, 1.50) <br> `461B14E505AB9555` ([✅](SaltySD/plugins/FPSLocker/patches/0100BF500207C000/461B14E505AB9555.yaml), v13, 1.60) | ~~[⚔️](#⚔️)[📏](#📏)[🔧](#🔧)~~ |
