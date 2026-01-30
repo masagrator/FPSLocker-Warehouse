@@ -7,7 +7,7 @@ DECLARATIONS:
     name: frametime_target
     value_type: double
     default_value: 33.333332061767578
-    evaluate: FRAMETIME_TARGET
+    evaluate: "FRAMETIME_TARGET - 1.0" # Default value is FRAMETIME_TARGET, but it has issues with reaching 60 FPS
   -
     type: code
     name: getFrametimeTarget1
