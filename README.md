@@ -1182,6 +1182,7 @@ PATCH AVAILABILITY<br>
 | Vampyr | `01000BD00CE64000` | `E417100FFEEFD1DE` ([✅](SaltySD/plugins/FPSLocker/patches/01000BD00CE64000/E417100FFEEFD1DE.yaml), v2, 0.4) | ~~[📏](#📏)~~ |
 | VARIOUS DAYLIFE | `0100538017BAC000` | `A2DDF741D0E37D15` ([✅](SaltySD/plugins/FPSLocker/patches/0100538017BAC000/A2DDF741D0E37D15.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | VARLET | `0100BAE01EEA0000` | `23E535E2967725BD` ([✅](SaltySD/plugins/FPSLocker/patches/0100BAE01EEA0000/23E535E2967725BD.yaml), v1, 1.0.1) | ~~[🔧](#🔧)~~ |
+| VARLET `Asia` | `01003E4022A1C000` | `23E535E2967725BD` ([✅](SaltySD/plugins/FPSLocker/patches/01003E4022A1C000/23E535E2967725BD.yaml), v1, 1.0.1) | ~~[🔧](#🔧)~~ |
 | Viewfinder | `0100F9D023176000` | `40F9641A24F5512C` (◯, v1, 1.1.8) |  |
 | WAIFU IMPACT | `0100393016D7E000` | `DC33AFEE8682A86C` ([✅](SaltySD/plugins/FPSLocker/patches/0100393016D7E000/DC33AFEE8682A86C.yaml), v2, 1.0.2) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Warhammer 40,000: Boltgun | `01005FD017E60000` | `7C992B6A003C599F` ([✅](SaltySD/plugins/FPSLocker/patches/01005FD017E60000/7C992B6A003C599F.yaml), v3, 1.0.0.3) <br> `B8630C6EE3A22FE8` ([✅](SaltySD/plugins/FPSLocker/patches/01005FD017E60000/B8630C6EE3A22FE8.yaml), v5, 1.0.0.6) <br> `3E961285846C72A5` ([✅](SaltySD/plugins/FPSLocker/patches/01005FD017E60000/3E961285846C72A5.yaml), v6, 1.0.0.7) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
