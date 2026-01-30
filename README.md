@@ -869,6 +869,7 @@ PATCH AVAILABILITY<br>
 | Road 96: Mile 0 | `01008600180CE000` | `DF1EBBA8DE722A3B` (◯, v0, 1.00) |  |
 | ROBOBEAT | `01009AC01F8E4000` | `D94E7982DF38E96C` (◯, v2, 1.1.4) |  |
 | ROMANCE OF THE THREE KINGDOMS 8 REMAKE | `0100C2A01A730000` | `9F7C33E21279D3E6` ([✅](SaltySD/plugins/FPSLocker/patches/0100C2A01A730000/9F7C33E21279D3E6.yaml), v8, 1.0.8) <br> `0DF8AB5EBE689C3C` ([✅](SaltySD/plugins/FPSLocker/patches/0100C2A01A730000/0DF8AB5EBE689C3C.yaml), v10, 1.1.0) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
+| ROMANCE OF THE THREE KINGDOMS 8 REMAKE with Power Up Kit | `0100C2A01A730001` | `DC65CFC2ABA3C5DF` ([✅](SaltySD/plugins/FPSLocker/patches/0100C2A01A730000/DC65CFC2ABA3C5DF.yaml), v10, 1.1.0) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | 삼국지8 REMAKE | `010019D01D736000` | `3BA6C7665F67A711` ([✅](SaltySD/plugins/FPSLocker/patches/010019D01D736000/3BA6C7665F67A711.yaml), v8, 1.0.8) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | ROMANCE OF THE THREE KINGDOMS XIV | `0100ED7012DB2000` | `1A971CC40B6D5B3F` ([✅](SaltySD/plugins/FPSLocker/patches/0100ED7012DB2000/1A971CC40B6D5B3F.yaml), v7, 1.0.10) | ~~[🔐](#🔐)[⏱️](#⏱️)~~[🖥️](#🖥️) |
 | 三國志14 with 威力加強版 | `0100CD4012DCA000` | `B067B077906C6208` ([✅](SaltySD/plugins/FPSLocker/patches/0100CD4012DCA000/B067B077906C6208.yaml), v10, 1.0.10) | ~~[🔐](#🔐)[⏱️](#⏱️)~~[🖥️](#🖥️) |
