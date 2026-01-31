@@ -873,7 +873,7 @@ PATCH AVAILABILITY<br>
 | ROBOBEAT | `01009AC01F8E4000` | `D94E7982DF38E96C` (◯, v2, 1.1.4) |  |
 | ROMANCE OF THE THREE KINGDOMS 8 REMAKE | `0100C2A01A730000` | `9F7C33E21279D3E6` ([✅](SaltySD/plugins/FPSLocker/patches/0100C2A01A730000/9F7C33E21279D3E6.yaml), v8, 1.0.8) <br> `0DF8AB5EBE689C3C` ([✅](SaltySD/plugins/FPSLocker/patches/0100C2A01A730000/0DF8AB5EBE689C3C.yaml), v10, 1.1.0) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | ROMANCE OF THE THREE KINGDOMS 8 REMAKE with Power Up Kit | `0100C2A01A730001` | `DC65CFC2ABA3C5DF` ([✅](SaltySD/plugins/FPSLocker/patches/0100C2A01A730000/DC65CFC2ABA3C5DF.yaml), v10, 1.1.0) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
-| 삼국지8 REMAKE | `010019D01D736000` | `3BA6C7665F67A711` ([✅](SaltySD/plugins/FPSLocker/patches/010019D01D736000/3BA6C7665F67A711.yaml), v8, 1.0.8) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
+| 삼국지8 REMAKE | `010019D01D736000` | `3BA6C7665F67A711` ([✅](SaltySD/plugins/FPSLocker/patches/010019D01D736000/3BA6C7665F67A711.yaml), v8, 1.0.8) <br> `C7C39A0A301587DB` ([✅](SaltySD/plugins/FPSLocker/patches/010019D01D736000/C7C39A0A301587DB.yaml), v10, 1.1.0) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | 三國志8 REMAKE | `0100BD501A72E000` | `EA25D006EF0732C2` ([✅](SaltySD/plugins/FPSLocker/patches/0100BD501A72E000/EA25D006EF0732C2.yaml), v10, 1.1.0) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | 三國志8 REMAKE with パワーアップキット | `0100BD501A72E001` | `C9C510630375FFE6` ([✅](SaltySD/plugins/FPSLocker/patches/0100BD501A72E001/C9C510630375FFE6.yaml), v10, 1.1.0) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | ROMANCE OF THE THREE KINGDOMS XIV | `0100ED7012DB2000` | `1A971CC40B6D5B3F` ([✅](SaltySD/plugins/FPSLocker/patches/0100ED7012DB2000/1A971CC40B6D5B3F.yaml), v7, 1.0.10) | ~~[🔐](#🔐)[⏱️](#⏱️)~~[🖥️](#🖥️) |
