@@ -189,9 +189,10 @@ PATCH AVAILABILITY<br>
 | BEYBLADE X XONE `EU/US` | `0100E2301FB1E000` | `7CDECA46F6E69ADF` (◯, v11, 1.0.12) |  |
 | BEYBLADE X XONE `ASIA` | `0100FC90205FE000` | `AE69E1BB81CD6FDE` (◯, v9, 1.0.10) |  |
 | ベイブレードエックス XONE | `0100E0901E2AA000` | `BEB69A37E9B16A56` (◯, v12, 1.0.12) |  |
+| Beyond Enemy Lines | `0100AE7010434000` | `5915CDDDC4EEA6CD` ([✅](SaltySD/plugins/FPSLocker/patches/0100AE7010434000/5915CDDDC4EEA6CD.yaml), v1, 1.1.0) | ~~[📏](#📏)~~ |
 | Beyond Galaxyland | `01006E101DBA0000` | `3B3ACCF3458CE10D` (◯, v3, 1.0.4) |  |
 | Beyond Good & Evil | `0100E0A01DD20000` | `AC7FD7804398393D` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
-| Beyond Enemy Lines | `0100AE7010434000` | `5915CDDDC4EEA6CD` ([✅](SaltySD/plugins/FPSLocker/patches/0100AE7010434000/5915CDDDC4EEA6CD.yaml), v1, 1.1.0) | ~~[📏](#📏)~~ |
+| Beyond Hanwell | `01004310229EE000` | `D3C96553221659B0` ([✅](SaltySD/plugins/FPSLocker/patches/01004310229EE000/D3C96553221659B0.yaml), v0, 1.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Big Helmet Heroes | `010044B01E786000` | `2CF926BBD5D1AB4D` ([✅](SaltySD/plugins/FPSLocker/patches/010044B01E786000/2CF926BBD5D1AB4D.yaml), v2, 1.0.3) | ~~[🔧](#🔧)~~ |
 | Biker Garage: Mechanic Simulator | `01009E1016B10000` | `D7B0EAFA18222422` (◯, v2, 1.1.1) |  |
 | Biomutant | `01004BA017CD6000` | `4B86FC4FDF7B1A70` ([✅](SaltySD/plugins/FPSLocker/patches/01004BA017CD6000/4B86FC4FDF7B1A70.yaml), v1, 1.0.1) <br> `5BE02E1373BDE2CC` ([✅](SaltySD/plugins/FPSLocker/patches/01004BA017CD6000/5BE02E1373BDE2CC.yaml), v2, 1.0.2) | ~~[📏](#📏)[🔧](#🔧)~~ |
