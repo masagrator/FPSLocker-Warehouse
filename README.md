@@ -1277,7 +1277,7 @@ PATCH AVAILABILITY<br>
 </details>
 
 <details>
-<summary>Patches for games not locked to 30 FPS, but with graphics settings targeting strictly 30 or 60 FPS (40 titles)</summary>
+<summary>Patches for games not locked to 30 FPS, but with graphics settings targeting strictly 30 FPS or having some other issues (40 titles)</summary>
 
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | ISSUES |
 | --- | --- | --- | --- |
@@ -1311,6 +1311,7 @@ PATCH AVAILABILITY<br>
 | The Long Dark: Tales from the Far Territory | `01007A700A87C001` | `F7A872504BDA3100` ([✅](SaltySD/plugins/FPSLocker/patches/01007A700A87C001/F7A872504BDA3100.yaml), v12, 2.40.153678) | ~~[📏](#📏)~~ |
 | The Pathless | `0100D5501522C000` | `54E89AF3414E549A` ([✅](SaltySD/plugins/FPSLocker/patches/0100D5501522C000/54E89AF3414E549A.yaml), v0, 1.0) | ~~[📏](#📏)~~ |
 | The Plucky Squire | `01006BD018B54000` | `B771B34505774A8E` ([✅](SaltySD/plugins/FPSLocker/patches/01006BD018B54000/B771B34505774A8E.yaml), v3, 1.0.3) <br> `D53CF6573CAED4B1` ([✅](SaltySD/plugins/FPSLocker/patches/01006BD018B54000/D53CF6573CAED4B1.yaml), v4, 1.0.4) <br> `0A1AC10CCFE46061` ([✅](SaltySD/plugins/FPSLocker/patches/01006BD018B54000/0A1AC10CCFE46061.yaml), v5, 1.0.5) <br> `FD3AC4FFB1B769D5` ([✅](SaltySD/plugins/FPSLocker/patches/01006BD018B54000/FD3AC4FFB1B769D5.yaml), v6, 1.0.6) <br> `AFDEB128252898AC` ([✅](SaltySD/plugins/FPSLocker/patches/01006BD018B54000/AFDEB128252898AC.yaml), v7, 1.0.7) <br> `892E6C4FE0D850B5` ([✅](SaltySD/plugins/FPSLocker/patches/01006BD018B54000/892E6C4FE0D850B5.yaml), v8, 1.0.8) | ~~[📏](#📏)[🔧](#🔧)~~ |
+| The Turing Test | `0100EA100F516000` | `FF516B8965730B27` ([✅](SaltySD/plugins/FPSLocker/patches/0100EA100F516000/FF516B8965730B27.yaml), v0, 1.0.0) | ~~[🔐](#🔐)~~ |
 | There Is No Light | `0100FD0014B76000` | `76EB8E0320472553` ([✅](SaltySD/plugins/FPSLocker/patches/0100FD0014B76000/76EB8E0320472553.yaml), v3, 1.0.3) | ~~[📷](#📷)~~ |
 | Trails in the Sky 1st Chapter | `01002C9022770000` | `2AD8CC7892EBF9FA` ([✅](SaltySD/plugins/FPSLocker/patches/01002C9022770000/2AD8CC7892EBF9FA.yaml), v3, 1.0.4) <br> `E5F70FFCBD0DD378` ([✅](SaltySD/plugins/FPSLocker/patches/01002C9022770000/E5F70FFCBD0DD378.yaml), v4, 1.0.5) <br> `2B18130BD191CAC5` ([✅](SaltySD/plugins/FPSLocker/patches/01002C9022770000/2B18130BD191CAC5.yaml), v5, 1.0.6) | ~~[⏱️](#⏱️)[📏](#📏)~~ |
 | 하늘의 궤적 the 1st | `01001E9023920000` | `4FC3CB13E1D3292E` ([✅](SaltySD/plugins/FPSLocker/patches/01001E9023920000/4FC3CB13E1D3292E.yaml), v2, 1.0.3) <br> `169AD641E042A8B4` ([✅](SaltySD/plugins/FPSLocker/patches/01001E9023920000/169AD641E042A8B4.yaml), v3, 1.0.4) <br> `8CFF66758D7BD507` ([✅](SaltySD/plugins/FPSLocker/patches/01001E9023920000/8CFF66758D7BD507.yaml), v4, 1.0.5) <br> `6656BA1B5B8AC30A` ([✅](SaltySD/plugins/FPSLocker/patches/01001E9023920000/6656BA1B5B8AC30A.yaml), v6, 1.0.6.1) | ~~[⏱️](#⏱️)[📏](#📏)~~ |
