@@ -1202,6 +1202,7 @@ PATCH AVAILABILITY<br>
 | We Love Katamari REROLL+ Royal Reverie `US` | `0100E71018D1A000` | `8B1BC6D7B367605F` (❌, v3, 1.0.3) | [⏱️](#⏱️) |
 | - 아바마마와 돌아온 데굴데굴~쫀득쫀득~ 괴혼<br>- 人見人愛的塊魂 安可+ 國王大人的小小回憶 | `0100075018D24000` | `8B1BC6D7B367605F` (❌, v2, 1.0.2) | [⏱️](#⏱️) |
 | みんな大好き塊魂アンコール＋ 王様プチメモリー | `010089D018D18000` | `9FC7AF389B98F61A` (❌, v2, 1.0.3) | [⏱️](#⏱️) |
+| Welcome to Hanwell | `010096000EEBA000` | `F906DB75DEE0B019` ([✅](SaltySD/plugins/FPSLocker/patches/010096000EEBA000/F906DB75DEE0B019.yaml), v0, 1.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | What Remains of Edith Finch | `010038900DFE0000` | `E9578A470B175851` ([✅](SaltySD/plugins/FPSLocker/patches/010038900DFE0000/E9578A470B175851.yaml), v0, 1.0.0) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | While Waiting | `0100E9A021946000` | `47C0168998492210` (◯, v1, 1.1.2) |  |
 | White Day: A Labirynth Named School | `010076601839C000` | `36D6740B3873CE4A` (◯, v1, 1.0.2) |  |
