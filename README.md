@@ -624,7 +624,7 @@ PATCH AVAILABILITY<br>
 | Little Kitty, Big City | `01000A4019FA2000` | `75D31685CF32386E` (◯, v17, 1.25.12.10_5904) |  |
 | Little Noah: Scion of Paradise | `0100535014D76000` | `8CCC67A5A75CB8E5` ([✅](SaltySD/plugins/FPSLocker/patches/0100535014D76000/8CCC67A5A75CB8E5.yaml), v7, 1.41) | ~~[📷](#📷)~~ |
 | Little Nightmares II | `010097100EDD6000` | `7F4216B6E784A4B2` ([✅](SaltySD/plugins/FPSLocker/patches/010097100EDD6000/7F4216B6E784A4B2.yaml), v4, 1.4) | ~~[📏](#📏)~~ |
-| Little Nightmares III | `010066101A55A000` | `338C569A607B7C30` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/338C569A607B7C30.yaml), v1, 1.0.2) <br> `F3FFA17B5E56809F` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/F3FFA17B5E56809F.yaml), v2, 1.0.3) <br> `911284C45A26DD34` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/911284C45A26DD34.yaml), v3, 1.0.4) | ~~[🔧](#🔧)~~ |
+| Little Nightmares III | `010066101A55A000` | `338C569A607B7C30` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/338C569A607B7C30.yaml), v1, 1.0.2) <br> `F3FFA17B5E56809F` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/F3FFA17B5E56809F.yaml), v2, 1.0.3) <br> `911284C45A26DD34` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/911284C45A26DD34.yaml), v3, 1.0.4) <br> `59B2891BAB23B8AE` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/59B2891BAB23B8AE.yaml), v4, 1.0.5) | ~~[🔧](#🔧)~~ |
 | Little Town Hero | `01000FB00AA90000` | `2BE4AF8B1A137445` (❌, v2, 1.2.0) | [🏃](#🏃) |
 | LIVE A LIVE | `0100CF801776C000` | `CF22083371DDACB2` (◯, v1, 1.0.1) |  |
 | Loddlenaut | `010086501F826000` | `C000FD620D6A92F0` (◯, v3, 1.2.4) |  |
