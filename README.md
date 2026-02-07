@@ -898,7 +898,7 @@ PATCH AVAILABILITY<br>
 | Ruiner | `01006EC00F2CC000` | `F199FFD7D83F399E` ([✅](SaltySD/plugins/FPSLocker/patches/01006EC00F2CC000/F199FFD7D83F399E.yaml), v3, 1.3) | ~~[📏](#📏)~~ |
 | Rune Factory 5 | `0100CDC013238000` | `D626F7A72AF54744` ([✅](SaltySD/plugins/FPSLocker/patches/0100CDC013238000/D626F7A72AF54744.yaml), v2, 1.0.2) | ~~[📏](#📏)~~ |
 | Rune Factory 5 `US` | `01002F7013224000` | `54DE72AFB1AFCC43` (❌📌, v2, 1.0.2) | [📏](#📏) |
-| - 룬 팩토리 5<br>- 符文工廠5 | `01007B4014086000` | `082815456F5BD744` (❌📌, v6, 1.1.2) | [📏](#📏) |
+| - 룬 팩토리 5<br>- 符文工廠5 | `01007B4014086000` | `082815456F5BD744` ([✅](SaltySD/plugins/FPSLocker/patches/01007B4014086000/082815456F5BD744.yaml), v6, 1.1.2) | ~~[📏](#📏)~~ |
 | Rune Factory: Guardians of Azuma | `01003AF0200B0000` | `7F731AAE7DDCAF66` ([✅](SaltySD/plugins/FPSLocker/patches/01003AF0200B0000/7F731AAE7DDCAF66.yaml), v3, 1.0.3) <br> `5F96AEDEA20AE78F` ([✅](SaltySD/plugins/FPSLocker/patches/01003AF0200B0000/5F96AEDEA20AE78F.yaml), v4, 1.0.4) <br> `E43BBBBFACE60867` ([✅](SaltySD/plugins/FPSLocker/patches/01003AF0200B0000/E43BBBBFACE60867.yaml), v5, 1.0.5) <br> `742CA53262A767AE` ([✅](SaltySD/plugins/FPSLocker/patches/01003AF0200B0000/742CA53262A767AE.yaml), v6, 1.1.0) <br> `F678FD2BB197125B` ([✅](SaltySD/plugins/FPSLocker/patches/01003AF0200B0000/F678FD2BB197125B.yaml), v7, 1.1.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Rune Factory: Guardians of Azuma `US` | `010022A02008C000` |`F678FD2BB197125B` ([✅](SaltySD/plugins/FPSLocker/patches/010022A02008C000/F678FD2BB197125B.yaml), v7, 1.1.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Rune Factory: Guardians of Azuma `Cartridge only` | `0100CFB01CDCE000` |`F678FD2BB197125B` ([✅](SaltySD/plugins/FPSLocker/patches/0100CFB01CDCE000/F678FD2BB197125B.yaml), v7, 1.1.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
