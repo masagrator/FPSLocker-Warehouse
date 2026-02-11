@@ -769,7 +769,7 @@ PATCH AVAILABILITY<br>
 | Olympic Games Tokyo 2020 `US` | `0100A8B00E14A000` | `C4D1BCED9D8C5B81` (❌, v2, 1.0.2) | [⏱️](#⏱️) |
 | 東京2020オリンピック | `01004CE00AAE2000` | `66A8EB853DE90A1A` (❌, v9, 1.0.9) | [⏱️](#⏱️) |
 | Once Upon A KATAMARI | `0100A78021ADE000` | `140809A5980FB2E2` ([✅](SaltySD/plugins/FPSLocker/patches/0100A78021ADE000/140809A5980FB2E2.yaml), v3, 1.0.3) | ~~[📏](#📏)~~ |
-| Once Upon A KATAMARI `US` | `0100C63021ADC000` | `C65BE8468BF1EC89` ([✅](SaltySD/plugins/FPSLocker/patches/0100C63021ADC000/C65BE8468BF1EC89.yaml), v3, 1.0.3) | ~~[📏](#📏)~~ |
+| Once Upon A KATAMARI `US` | `0100C63021ADC000` | `C65BE8468BF1EC89` ([✅](SaltySD/plugins/FPSLocker/patches/0100C63021ADC000/C65BE8468BF1EC89.yaml), v3, 1.0.3) <br> `2C7522B79ADB834B` ([✅](SaltySD/plugins/FPSLocker/patches/0100C63021ADC000/2C7522B79ADB834B.yaml), v4, 1.0.4) | ~~[📏](#📏)~~ |
 | - 옛날 옛적에 괴혼<br>- 從前從前有個塊魂 | `0100890021AE2000` | `55E2BD1FFCD31993` ([✅](SaltySD/plugins/FPSLocker/patches/0100890021AE2000/55E2BD1FFCD31993.yaml), v2, 1.0.3) | ~~[📏](#📏)~~ |
 | ワンス・アポン・ア・塊魂 | `0100BDF0197C8000` | `FF53171B18C7701A` ([✅](SaltySD/plugins/FPSLocker/patches/0100BDF0197C8000/FF53171B18C7701A.yaml), v1, 1.0.2) <br> `41F236A333370F55` ([✅](SaltySD/plugins/FPSLocker/patches/0100BDF0197C8000/41F236A333370F55.yaml), v2, 1.0.3) <br> `B7242BF0E5B17B6F` ([✅](SaltySD/plugins/FPSLocker/patches/0100BDF0197C8000/B7242BF0E5B17B6F.yaml), v3, 1.0.4) | ~~[📏](#📏)~~ |
 | ONE PIECE ODYSSEY | `0100D9601A994000` | `28ED06F94D767478` ([✅](SaltySD/plugins/FPSLocker/patches/0100D9601A994000/28ED06F94D767478.yaml), v0, 1.0.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
