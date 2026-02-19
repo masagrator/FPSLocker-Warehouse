@@ -53,14 +53,14 @@ DECLARATIONS:
     instructions: [
       [fcmp, s1, 0.0],
       [b.ne, :goto1],
-      [ldurh, w8, [x25, -6]],
+      [ldurh, w8, [x24, -6]],
       [cmp, w8, 5],
       [b.ne, :goto1],
-      [ldurh, w8, [x25, -8]],
+      [ldurh, w8, [x24, -8]],
       [cmp, w8, 5],
       [b.ne, :goto1],
       [fmov, s8, 1.0],
-      :goto1, [fmadd, s9, s0, s8, s1],
+      :goto1, [fmadd, s10, s0, s8, s1],
       [ret]
     ]
 MASTER_WRITE:
@@ -164,6 +164,15 @@ MASTER_WRITE:
     instructions: [
       [adrp, x8, $dr_factor],
       [ldr, s1, [x8, $dr_factor]]
+    ]
+  # Fix black background for D-pad menu
+  ## REF: 08 20 20 1E 0A 04 08 1F
+  -
+    type: asm_a64
+    main_offset: 0x1FBC80
+    instructions: [
+      [bl, _blackBackgroundFix()], # Jump to Code Cave 3
+      [fcmp, s0, 0.0]
     ]
 ALL_FPS:
   -
