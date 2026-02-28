@@ -5,30 +5,40 @@ ALL_FPS:
   # rs_460Threshold (default is 0.285)
   -
     type: write
-    address: [MAIN, 0x593E4F8]
+    address: [MAIN, 0x593E52C]
     value_type: float
     value: 1
   # rs_raiseMilliseconds
   -
     type: evaluate_write
-    address: [MAIN, 0x593E9B8]
+    address: [MAIN, 0x593E9EC]
     value_type: float
     value: "0.966 * FRAMETIME_TARGET"
   # rs_dropMilliseconds
   -
     type: evaluate_write
-    address: [MAIN, 0x593E920]
+    address: [MAIN, 0x593E954]
     value_type: float
     value: "0.99 * FRAMETIME_TARGET"
   # com_adaptiveTickMaxHz (default is 30)
   -
     type: evaluate_write
-    address: [MAIN, 0x66B3F20]
+    address: [MAIN, 0x66B3F50]
     value_type: int32
+    value: FPS_TARGET
+  -
+    type: evaluate_write
+    address: [MAIN, 0x66B3F54]
+    value_type: float
     value: FPS_TARGET
   # com_adaptiveTickMinHz (default is 30)
   -
     type: write
-    address: [MAIN, 0x66B3E88]
+    address: [MAIN, 0x66B3EB8]
     value_type: int32
+    value: 15
+  -
+    type: write
+    address: [MAIN, 0x66B3EBC]
+    value_type: float
     value: 15
