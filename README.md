@@ -1046,6 +1046,10 @@ PATCH AVAILABILITY<br>
 | SWORN | `0100BED01E6EE000` | `87F1CEF6D52392AE` ([✅](SaltySD/plugins/FPSLocker/patches/0100BED01E6EE000/87F1CEF6D52392AE.yaml), v2, 1.0.2) | ~~[📏](#📏)~~ |
 | System Shock | `0100F18023E72000` | `14A66A472139D638` ([✅](SaltySD/plugins/FPSLocker/patches/0100F18023E72000/14A66A472139D638.yaml), v2, 2.0.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Tails Noir | `01006DC012B00000` | `EAAB46ED1E4989C0` ([✅](SaltySD/plugins/FPSLocker/patches/01006DC012B00000/EAAB46ED1E4989C0.yaml), v1, 1.0.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
+| Tales of Berseria Remastered | `0100C2801F22C000` | `F4DB705AA11D45F3` ([✅](SaltySD/plugins/FPSLocker/patches/0100C2801F22C000/F4DB705AA11D45F3.yaml), v2, 1.0.2) | ~~[⏱️](#⏱️)~~ |
+| Tales of Berseria Remastered `US` | `010008801F228000` | `F4DB705AA11D45F3` ([✅](SaltySD/plugins/FPSLocker/patches/010008801F228000/F4DB705AA11D45F3.yaml), v2, 1.0.2) | [⏱️](#⏱️) |
+| テイルズ オブ ベルセリア リマスター | `0100E0D01F224000` | `F4DB705AA11D45F3` ([✅](SaltySD/plugins/FPSLocker/patches/0100E0D01F224000/F4DB705AA11D45F3.yaml), v2, 1.0.2) | ~~[⏱️](#⏱️)~~ |
+| - 테일즈 오브 베르세리아 리마스터<br>- 緋夜傳奇 Remastered | `01003FD01F22E000` | `F4DB705AA11D45F3` ([✅](SaltySD/plugins/FPSLocker/patches/01003FD01F22E000/F4DB705AA11D45F3.yaml), v2, 1.0.2) | ~~[⏱️](#⏱️)~~ |
 | Tails of Iron | `0100EF3013F60000` | `6A28EE5E39F76B6A` (◯, v4, 5) |  |
 | Tails of Iron 2: Whiskers of Winter | `01002A701DB9E000` | `435907EA16A90FC5` (◯, v5, 2.4) |  |
 | Tales of Kenzera: TAU | `01005C7015D30000` | `110D8FB47B55EA19` ([✅](SaltySD/plugins/FPSLocker/patches/01005C7015D30000/110D8FB47B55EA19.yaml), v4, 1.4.0) <br> `9E7FB72540D748BA` ([✅](SaltySD/plugins/FPSLocker/patches/01005C7015D30000/9E7FB72540D748BA.yaml), v5, 1.5.0) | ~~[🔧](#🔧)~~ |
