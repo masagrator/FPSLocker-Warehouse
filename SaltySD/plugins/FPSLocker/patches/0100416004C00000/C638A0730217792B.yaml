@@ -1,0 +1,34 @@
+# DOOM `West` 1.4.1
+# BID: C638A0730217792B
+
+ALL_FPS:
+  # rs_460Threshold (default is 0.285)
+  -
+    type: write
+    address: [MAIN, 0x593E4F8]
+    value_type: float
+    value: 1
+  # rs_raiseMilliseconds
+  -
+    type: evaluate_write
+    address: [MAIN, 0x593E9B8]
+    value_type: float
+    value: "0.966 * FRAMETIME_TARGET"
+  # rs_dropMilliseconds
+  -
+    type: evaluate_write
+    address: [MAIN, 0x593E920]
+    value_type: float
+    value: "0.99 * FRAMETIME_TARGET"
+  # com_adaptiveTickMaxHz (default is 30)
+  -
+    type: evaluate_write
+    address: [MAIN, 0x66B3F20]
+    value_type: int32
+    value: FPS_TARGET
+  # com_adaptiveTickMinHz (default is 30)
+  -
+    type: write
+    address: [MAIN, 0x66B3E88]
+    value_type: int32
+    value: 15
