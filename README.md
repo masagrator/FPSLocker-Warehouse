@@ -1046,18 +1046,18 @@ PATCH AVAILABILITY<br>
 | SWORN | `0100BED01E6EE000` | `87F1CEF6D52392AE` ([✅](SaltySD/plugins/FPSLocker/patches/0100BED01E6EE000/87F1CEF6D52392AE.yaml), v2, 1.0.2) | ~~[📏](#📏)~~ |
 | System Shock | `0100F18023E72000` | `14A66A472139D638` ([✅](SaltySD/plugins/FPSLocker/patches/0100F18023E72000/14A66A472139D638.yaml), v2, 2.0.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Tails Noir | `01006DC012B00000` | `EAAB46ED1E4989C0` ([✅](SaltySD/plugins/FPSLocker/patches/01006DC012B00000/EAAB46ED1E4989C0.yaml), v1, 1.0.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
-| Tales of Berseria Remastered | `0100C2801F22C000` | `F4DB705AA11D45F3` ([✅](SaltySD/plugins/FPSLocker/patches/0100C2801F22C000/F4DB705AA11D45F3.yaml), v2, 1.0.2) | ~~[⏱️](#⏱️)~~ |
-| Tales of Berseria Remastered `US` | `010008801F228000` | `F4DB705AA11D45F3` ([✅](SaltySD/plugins/FPSLocker/patches/010008801F228000/F4DB705AA11D45F3.yaml), v2, 1.0.2) | [⏱️](#⏱️) |
-| テイルズ オブ ベルセリア リマスター | `0100E0D01F224000` | `F4DB705AA11D45F3` ([✅](SaltySD/plugins/FPSLocker/patches/0100E0D01F224000/F4DB705AA11D45F3.yaml), v2, 1.0.2) | ~~[⏱️](#⏱️)~~ |
-| - 테일즈 오브 베르세리아 리마스터<br>- 緋夜傳奇 Remastered | `01003FD01F22E000` | `F4DB705AA11D45F3` ([✅](SaltySD/plugins/FPSLocker/patches/01003FD01F22E000/F4DB705AA11D45F3.yaml), v2, 1.0.2) | ~~[⏱️](#⏱️)~~ |
 | Tails of Iron | `0100EF3013F60000` | `6A28EE5E39F76B6A` (◯, v4, 5) |  |
 | Tails of Iron 2: Whiskers of Winter | `01002A701DB9E000` | `435907EA16A90FC5` (◯, v5, 2.4) |  |
-| Tales of Kenzera: TAU | `01005C7015D30000` | `110D8FB47B55EA19` ([✅](SaltySD/plugins/FPSLocker/patches/01005C7015D30000/110D8FB47B55EA19.yaml), v4, 1.4.0) <br> `9E7FB72540D748BA` ([✅](SaltySD/plugins/FPSLocker/patches/01005C7015D30000/9E7FB72540D748BA.yaml), v5, 1.5.0) | ~~[🔧](#🔧)~~ |
 | Tales from the Borderlands | `0100F0C011A68000` | `818C98B885460561` (◯, v0, 1.0.0) |  |
+| Tales of Berseria Remastered | `0100C2801F22C000` | `F4DB705AA11D45F3` ([✅](SaltySD/plugins/FPSLocker/patches/0100C2801F22C000/F4DB705AA11D45F3.yaml), v2, 1.0.2) | ~~[🔐](#🔐)[⏱️](#⏱️)~~ |
+| Tales of Berseria Remastered `US` | `010008801F228000` | `F4DB705AA11D45F3` ([✅](SaltySD/plugins/FPSLocker/patches/010008801F228000/F4DB705AA11D45F3.yaml), v2, 1.0.2) | ~~[🔐](#🔐)[⏱️](#⏱️)~~ |
+| テイルズ オブ ベルセリア リマスター | `0100E0D01F224000` | `F4DB705AA11D45F3` ([✅](SaltySD/plugins/FPSLocker/patches/0100E0D01F224000/F4DB705AA11D45F3.yaml), v2, 1.0.2) | ~~[🔐](#🔐)[⏱️](#⏱️)~~ |
+| - 테일즈 오브 베르세리아 리마스터<br>- 緋夜傳奇 Remastered | `01003FD01F22E000` | `F4DB705AA11D45F3` ([✅](SaltySD/plugins/FPSLocker/patches/01003FD01F22E000/F4DB705AA11D45F3.yaml), v2, 1.0.2) | ~~[🔐](#🔐)[⏱️](#⏱️)~~ |
 | Tales of Graces f Remastered | `01005E701D168000` | `49700C9DA58DAD47` (◯, v3, 1.0.3) |  |
 | Tales of Graces f Remastered `US` | `0100B2E01D166000` | `043776CF06E71CD0` (◯, v3, 1.0.3) |  |
 | - 테일즈 오브 그레이세스 f 리마스터<br>- 美德傳奇f Remastered | `0100F6D01D16A000` | `7056432071F36FB6` (◯, v4, 1.0.4) |  |
 | テイルズ オブ グレイセス エフ リマスター | `0100A4401D164000` | `883122D2176BC4F5` (◯, v4, 1.0.4) |  |
+| Tales of Kenzera: TAU | `01005C7015D30000` | `110D8FB47B55EA19` ([✅](SaltySD/plugins/FPSLocker/patches/01005C7015D30000/110D8FB47B55EA19.yaml), v4, 1.4.0) <br> `9E7FB72540D748BA` ([✅](SaltySD/plugins/FPSLocker/patches/01005C7015D30000/9E7FB72540D748BA.yaml), v5, 1.5.0) | ~~[🔧](#🔧)~~ |
 | Tales of Symphonia Remastered | `0100A410169A4000` | `42673F5DE16DC698` (❌, v4, 1.3.1) | [⏱️](#⏱️)[🖥️](#🖥️)[⚔️](#⚔️) |
 | - 테일즈 오브 심포니아 리마스터<br>- 交響傳奇 Remastered | `010074201698A000` | `42673F5DE16DC698` (❌, v4, 1.3.1) | [⏱️](#⏱️)[🖥️](#🖥️)[⚔️](#⚔️) |
 | テイルズ オブ シンフォニア リマスター | `01002B8014440000` | `42673F5DE16DC698` (❌, v4, 1.3.1) | [⏱️](#⏱️)[🖥️](#🖥️)[⚔️](#⚔️) |
