@@ -739,6 +739,7 @@ PATCH AVAILABILITY<br>
 | Nelke & the Legendary Alchemists | `01006ED00BC76000` | `DBD272113FD196D5` (◯, v3, 1.0.3) |  |
 | Neon Blood | `0100E3901959C000` | `1320AB8B2F03BEDF` ([✅](SaltySD/plugins/FPSLocker/patches/0100E3901959C000/1320AB8B2F03BEDF.yaml), v5, 1.0.5) | ~~[📷](#📷)~~ |
 | Neptunia: Sisters VS Sisters | `0100A9001C042000` | `3565E26E8827C846` ([✅](SaltySD/plugins/FPSLocker/patches/0100A9001C042000/3565E26E8827C846.yaml), v0, 1.0.0) | ~~[📏](#📏)~~ |
+| 超次元游汐 戰機少女 Sisters vs Sisters | `010021801D014000` | `3514446FD50DCF95` ([✅](SaltySD/plugins/FPSLocker/patches/010021801D014000/3514446FD50DCF95.yaml), v0, 1.0.0) | ~~[📏](#📏)~~ |
 | Neptunia Game Maker R:Evolution | `010082901D6F2000` | `FCA830BAE649B898` ([✅](SaltySD/plugins/FPSLocker/patches/010082901D6F2000/FCA830BAE649B898.yaml), v0, 1.00) | ~~[📏](#📏)~~ |
 | Neptunia x SENRAN KAGURA: Ninja Wars | `01008D0016AF4000` | `FB827BF029E0778A` ([✅](SaltySD/plugins/FPSLocker/patches/01008D0016AF4000/FB827BF029E0778A.yaml), v0, 1.0.0) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | - 閃亂忍忍忍者大戰戰機少女-少女們的響艷-<br>- 섬란 닌닌닌자 대전 넵튠 -소녀들의 향염- | `010088B017734000` | `288908CE7F6177CC` ([✅](SaltySD/plugins/FPSLocker/patches/010088B017734000/288908CE7F6177CC.yaml), v0, 1.0.0) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~ |
