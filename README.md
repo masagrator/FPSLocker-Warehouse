@@ -139,7 +139,7 @@ PATCH AVAILABILITY<br>
 | Atelier Marie Remake | `0100EAE019904000` | `743CD6A40363900C` (◯, v1, 1.0.0a) |  | 
 | Atelier Meruru | `0100ADD00C6FA000` | `E76C3624D3AE3DCE` (◯, v2, 1.0.2) |  |
 | Atelier Resleriana | `01000F9020CD4000` | `6ACDAEE7DDC5E503` ([✅](SaltySD/plugins/FPSLocker/patches/01000F9020CD4000/6ACDAEE7DDC5E503.yaml), v4, 1.2a) <br> `F140F141FDC4C331` ([✅](SaltySD/plugins/FPSLocker/patches/01000F9020CD4000/F140F141FDC4C331.yaml), v5, 1.3) <br> `8593E6008F5A883D` ([✅](SaltySD/plugins/FPSLocker/patches/01000F9020CD4000/8593E6008F5A883D.yaml), v6, 1.4) <br> `B87B6963DF4DA555` ([✅](SaltySD/plugins/FPSLocker/patches/01000F9020CD4000/B87B6963DF4DA555.yaml), v7, 1.4a) <br> `5E6F9D0C5161586B` ([✅](SaltySD/plugins/FPSLocker/patches/01000F9020CD4000/5E6F9D0C5161586B.yaml), v8, 1.4b) | ~~[🏃](#🏃)~~ |
-| レスレリアーナのアトリエ | `010051A020C6E000` | `2B08D49BD9504E41` (❌📌, v8, 1.4b) | [🏃](#🏃) |
+| レスレリアーナのアトリエ | `010051A020C6E000` | `2B08D49BD9504E41` ([✅](SaltySD/plugins/FPSLocker/patches/010051A020C6E000/2B08D49BD9504E41.yaml), v8, 1.4b) | [🏃](#🏃) |
 | - 레슬레리아나의 아틀리에<br>- 蕾斯萊莉婭娜的鍊金工房 | `0100B4E020CE2000` | `0D40355807EEC6E0` (❌📌, v8, 1.4b) | [🏃](#🏃) |
 | Atelier Rorona DX | `010088600C66E000` | `967D32BE4B10B67E` (◯, v1, 1.0.1) |  |
 | Atelier Ryza | `0100D1900EC80000` | `3474FAEE2B35BCAD` (◯, v9, 1.0.9) |  |
