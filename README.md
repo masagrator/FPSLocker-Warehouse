@@ -783,7 +783,6 @@ PATCH AVAILABILITY<br>
 | Operation: Polygon Storm | `010084501F592000` | `3025AF1CB2515489` (◯, v2, 1.0.2) |  |
 | OPUS: Echo of Starsong | `01009B601676C000` | `BFF92D9D3F4CE84D` (◯, v5, 2.3.2f4) |  |
 | Othercide | `0100E5900F49A000` | `A8BA2A8F93AAE647` ([✅](SaltySD/plugins/FPSLocker/patches/0100E5900F49A000/A8BA2A8F93AAE647.yaml), v4, 1.3.1.0) | ~~[📏](#📏)~~ |
-| Out of Sight | `010098A02288A000` | `7E610F688F92412B` ([✅](SaltySD/plugins/FPSLocker/patches/010098A02288A000/7E610F688F92412B.yaml), v3, 1.0.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Outer Wilds | `01003DC0144B6000` | `CD9AF768102ED946` (❌, v5, 1.1.15.1027) | [📏](#📏)[📷](#📷)[🔧](#🔧) |
 | Outlast | `01008D4007A1E000` | `C3D46BB3C7059DB1` ([✅](SaltySD/plugins/FPSLocker/patches/01008D4007A1E000/C3D46BB3C7059DB1.yaml), v1, 1.0.1) | ~~[⚔️](#⚔️)~~ |
 | Outlast 2 | `0100DE70085E8000` | `F18ACDA7A71CB287` ([✅](SaltySD/plugins/FPSLocker/patches/0100DE70085E8000/F18ACDA7A11CB287.yaml), v0, 1.0.0) | ~~[⚔️](#⚔️)~~ |
@@ -1329,6 +1328,7 @@ PATCH AVAILABILITY<br>
 | MudRunner - American Wilds Edition | `01009D200952E000` | `028C5AB881F17582` ([✅](SaltySD/plugins/FPSLocker/patches/01009D200952E000/028C5AB881F17582.yaml), v2, 4.5) | ~~[📏](#📏)~~ |
 | MY HERO ONE'S JUSTICE 2 | `01007E700DBF6000` | `29E1CD0FBB24697E` ([✅](SaltySD/plugins/FPSLocker/patches/01007E700DBF6000/29E1CD0FBB24697E.yaml), v15, 1.1.5) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | NINJA GAIDEN: Ragebound | `0100781020710000` | `C7BD9BFC5F202073` ([✅](SaltySD/plugins/FPSLocker/patches/0100781020710000/C7BD9BFC5F202073.yaml), v3, 1.0.3) <br> `48D35EF3C7EFBF5F` ([✅](SaltySD/plugins/FPSLocker/patches/0100781020710000/48D35EF3C7EFBF5F.yaml), v4, 1.0.4) <br> `CEDA530B146C0260` ([✅](SaltySD/plugins/FPSLocker/patches/0100781020710000/CEDA530B146C0260.yaml), v5, 1.0.5) <br> `1FF44387A22D39F8` ([✅](SaltySD/plugins/FPSLocker/patches/0100781020710000/1FF44387A22D39F8.yaml), v6, 1.0.6) <br> `5CBAF9E303664284` ([✅](SaltySD/plugins/FPSLocker/patches/0100781020710000/5CBAF9E303664284.yaml), v7, 1.0.7) | ~~[🛑](#🛑)~~ |
+| Out of Sight | `010098A02288A000` | `7E610F688F92412B` ([✅](SaltySD/plugins/FPSLocker/patches/010098A02288A000/7E610F688F92412B.yaml), v3, 1.0.3) <br> `0D2C301B9A0C4B8C` ([✅](SaltySD/plugins/FPSLocker/patches/010098A02288A000/0D2C301B9A0C4B8C.yaml), v4, 1.0.4) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Ragtag Adventurers | `010032200BBC0000` | `D560C3C55CD23811` ([✅](SaltySD/plugins/FPSLocker/patches/010032200BBC0000/D560C3C55CD23811.yaml), v1, 1.1.5.6) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Red Faction Guerrilla | `010075000C608000` | `F1D71307616AB7E4` ([✅](SaltySD/plugins/FPSLocker/patches/010075000C608000/F1D71307616AB7E4.yaml), v0, 1.0.0) | ~~[📏](#📏)~~ |
 | RiMS Racing | `01003CD01299E000` | `4232D493269475B2` ([✅](SaltySD/plugins/FPSLocker/patches/01003CD01299E000/4232D493269475B2.yaml), v2, 1.2.0) | ~~[📏](#📏)~~ |
