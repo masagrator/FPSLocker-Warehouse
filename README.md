@@ -983,7 +983,7 @@ PATCH AVAILABILITY<br>
 | Sonic Colours: Ultimate | `010040E0116B8000` | `957E1E19958A93F9` (◯, v7, 1.0.9) |  |
 | SONIC FORCES | `01001270012B6000` | `6D9EA94F8AAC00A8` ([✅](SaltySD/plugins/FPSLocker/patches/01001270012B6000/6D9EA94F8AAC00A8.yaml), v2, 1.2.0) | ~~[🔐](#🔐)[⚔️](#⚔️)~~[🔢](#🔢) |
 | SONIC FORCES DIGITAL BONUS EDITION | `0100111004460000` | `6D9EA94F8AAC00A8` ([✅](SaltySD/plugins/FPSLocker/patches/0100111004460000/6D9EA94F8AAC00A8.yaml), v1, 1.1.0) | ~~[🔐](#🔐)[⚔️](#⚔️)~~[🔢](#🔢) |
-| ソニックフォース 新価格版 | `010079B0045C2000` | `972D8BF172E86C18` (❌📌, v3, 1.3.0) | [🔐](#🔐)[⚔️](#⚔️)[🔢](#🔢) |
+| ソニックフォース 新価格版 | `010079B0045C2000` | `972D8BF172E86C18` ([✅](SaltySD/plugins/FPSLocker/patches/010079B0045C2000/972D8BF172E86C18.yaml), v3, 1.3.0) | ~~[🔐](#🔐)[⚔️](#⚔️)[🔢](#🔢)~~ |
 | Sonic Frontiers | `01004AD014BF0000` | `D7A05D106FF46FC0` ([✅](SaltySD/plugins/FPSLocker/patches/01004AD014BF0000/D7A05D106FF46FC0.yaml), v7, 1.4.1) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | SONIC GENERATIONS | `01005EA01C0FC001` | `D91C67509C6AED8D` ([✅](SaltySD/plugins/FPSLocker/patches/01005EA01C0FC001/D91C67509C6AED8D.yaml), v2, 1.1.0) | ~~[🔐](#🔐)~~ |
 | Sonic Racing: CrossWorlds | `01006E001823C000` | `05A4A7225F20EBC0` (❌, v5, 1.22) | [🔐](#🔐)[⏱️](#⏱️)[🏃](#🏃) |
