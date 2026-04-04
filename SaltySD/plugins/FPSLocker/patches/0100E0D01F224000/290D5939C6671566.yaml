@@ -1,4 +1,4 @@
-# 테일즈 오브 베르세리아 리마스터 / 緋夜傳奇 Remastered 1.0.4
+# テイルズ オブ ベルセリア リマスター 1.0.4
 # BID: 290D5939C6671566
 # Known issue: Using barrier devices may not be triggering animation for any other FPS targets than 30, 50, 60, 100, 120.
 # Known issue: Opening gate may not happen if you use any other FPS than 30, 60 or 120. 
