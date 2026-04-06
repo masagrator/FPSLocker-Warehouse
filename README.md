@@ -1315,6 +1315,9 @@ PATCH AVAILABILITY<br>
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | ISSUES |
 | --- | --- | --- | --- |
 | AO Tennis 2 | `010047000E9AA000` | `01EB7A6DE827BFD9` ([✅](SaltySD/plugins/FPSLocker/patches/010047000E9AA000/01EB7A6DE827BFD9.yaml), v7, 1.7.0) | ~~[⚔️](#⚔️)[📏](#📏)~~ |
+| Ariana and the Elder Codex `EUR` | `0100A09025938000` | `73140E0A9688F3E8` ([✅](SaltySD/plugins/FPSLocker/patches/0100A09025938000/73140E0A9688F3E8.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
+| - 마법사서 아리아나 칠영걸의 서<br>- 魔法司書阿莉艾娜 七英傑之書 | `01004CE02574E000` | `EE53B0DDC797E251` ([✅](SaltySD/plugins/FPSLocker/patches/01004CE02574E000/EE53B0DDC797E251.yaml), v0, 1.0.0) | ~~[🔐](#🔐)~~ |
+| 魔法司書アリアナ ～七英傑の書～ | `01007AD02208A000` | `EF962C7811275F83` (❌📌, v3, 1.0.3) | [🔐](#🔐) |
 | Borderlands 3 | `01009970122E4000` | `AE2768797E3337EE` ([✅](SaltySD/plugins/FPSLocker/patches/01009970122E4000/AE2768797E3337EE.yaml), v3, 1.0.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Caravan SandWitch | `0100D5801E904000` | `CE493FC8CDD3D7B2` ([✅](SaltySD/plugins/FPSLocker/patches/0100D5801E904000/CE493FC8CDD3D7B2.yaml), v5, 1.0.5) <br> `89349071D2B0BFF7` ([✅](SaltySD/plugins/FPSLocker/patches/0100D5801E904000/89349071D2B0BFF7.yaml), v7, 1.0.7) <br> `2079893CE8402E04` ([✅](SaltySD/plugins/FPSLocker/patches/0100D5801E904000/2079893CE8402E04.yaml), v8, 1.0.8) | ~~[📏](#📏)~~ |
 | City of Brass | `01009BC00B872000` | `53116900DC7BBE11` ([✅](SaltySD/plugins/FPSLocker/patches/01009BC00B872000/53116900DC7BBE11.yaml), v2, 1.2.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
