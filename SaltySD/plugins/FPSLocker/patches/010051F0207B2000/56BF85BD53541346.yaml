@@ -1,4 +1,4 @@
-# Tomodachi Life: Living the Dream 1.0.0
+# Tomodachi Life
 # BID: 56BF85BD53541346
 
 DECLARATIONS:
@@ -10,613 +10,789 @@ DECLARATIONS:
     evaluate: "60 / FPS_TARGET"
   -
     type: code
-    name: vsyncS0
+    name: vsync_S0
     instructions: [
-      [stp, x16, xzr, [sp, -16], "!"],
-      [adrp, x16, $vsync_ratio],
-      [ldr, s0, [x16, $vsync_ratio]],
-      [ldp, x16, xzr, [sp], 16],
+      [stp, x0, xzr, [sp, -16], "!"],
+      [adrp, x0, $vsync_ratio],
+      [ldr, s0, [x0, $vsync_ratio]],
+      [ldp, x0, xzr, [sp], 16],
       [ret]
     ]
   -
     type: code
-    name: vsyncS1
+    name: vsync_S1
     instructions: [
-      [stp, x16, xzr, [sp, -16], "!"],
-      [adrp, x16, $vsync_ratio],
-      [ldr, s1, [x16, $vsync_ratio]],
-      [ldp, x16, xzr, [sp], 16],
+      [stp, x0, xzr, [sp, -16], "!"],
+      [adrp, x0, $vsync_ratio],
+      [ldr, s1, [x0, $vsync_ratio]],
+      [ldp, x0, xzr, [sp], 16],
       [ret]
     ]
   -
     type: code
-    name: vsyncS2
+    name: vsync_S2
     instructions: [
-      [stp, x16, xzr, [sp, -16], "!"],
-      [adrp, x16, $vsync_ratio],
-      [ldr, s2, [x16, $vsync_ratio]],
-      [ldp, x16, xzr, [sp], 16],
+      [stp, x0, xzr, [sp, -16], "!"],
+      [adrp, x0, $vsync_ratio],
+      [ldr, s2, [x0, $vsync_ratio]],
+      [ldp, x0, xzr, [sp], 16],
       [ret]
     ]
   -
     type: code
-    name: vsyncS3
+    name: vsync_S8
     instructions: [
-      [stp, x16, xzr, [sp, -16], "!"],
-      [adrp, x16, $vsync_ratio],
-      [ldr, s3, [x16, $vsync_ratio]],
-      [ldp, x16, xzr, [sp], 16],
+      [stp, x0, xzr, [sp, -16], "!"],
+      [adrp, x0, $vsync_ratio],
+      [ldr, s8, [x0, $vsync_ratio]],
+      [ldp, x0, xzr, [sp], 16],
       [ret]
     ]
   -
     type: code
-    name: vsyncS4
+    name: vsync_S9
     instructions: [
-      [stp, x16, xzr, [sp, -16], "!"],
-      [adrp, x16, $vsync_ratio],
-      [ldr, s4, [x16, $vsync_ratio]],
-      [ldp, x16, xzr, [sp], 16],
+      [stp, x0, xzr, [sp, -16], "!"],
+      [adrp, x0, $vsync_ratio],
+      [ldr, s9, [x0, $vsync_ratio]],
+      [ldp, x0, xzr, [sp], 16],
       [ret]
     ]
   -
     type: code
-    name: vsyncS6
+    name: vsync_S10
     instructions: [
-      [stp, x16, xzr, [sp, -16], "!"],
-      [adrp, x16, $vsync_ratio],
-      [ldr, s6, [x16, $vsync_ratio]],
-      [ldp, x16, xzr, [sp], 16],
+      [stp, x0, xzr, [sp, -16], "!"],
+      [adrp, x0, $vsync_ratio],
+      [ldr, s10, [x0, $vsync_ratio]],
+      [ldp, x0, xzr, [sp], 16],
       [ret]
     ]
   -
     type: code
-    name: vsyncS8
+    name: vsync_S11
     instructions: [
-      [stp, x16, xzr, [sp, -16], "!"],
-      [adrp, x16, $vsync_ratio],
-      [ldr, s8, [x16, $vsync_ratio]],
-      [ldp, x16, xzr, [sp], 16],
+      [stp, x0, xzr, [sp, -16], "!"],
+      [adrp, x0, $vsync_ratio],
+      [ldr, s11, [x0, $vsync_ratio]],
+      [ldp, x0, xzr, [sp], 16],
       [ret]
     ]
   -
     type: code
-    name: vsyncS9
+    name: vsync_S12
     instructions: [
-      [stp, x16, xzr, [sp, -16], "!"],
-      [adrp, x16, $vsync_ratio],
-      [ldr, s9, [x16, $vsync_ratio]],
-      [ldp, x16, xzr, [sp], 16],
+      [stp, x0, xzr, [sp, -16], "!"],
+      [adrp, x0, $vsync_ratio],
+      [ldr, s12, [x0, $vsync_ratio]],
+      [ldp, x0, xzr, [sp], 16],
       [ret]
     ]
   -
     type: code
-    name: vsyncS10
+    name: vsync_S13
     instructions: [
-      [stp, x16, xzr, [sp, -16], "!"],
-      [adrp, x16, $vsync_ratio],
-      [ldr, s10, [x16, $vsync_ratio]],
-      [ldp, x16, xzr, [sp], 16],
-      [ret]
-    ]
-  -
-    type: code
-    name: vsyncS11
-    instructions: [
-      [stp, x16, xzr, [sp, -16], "!"],
-      [adrp, x16, $vsync_ratio],
-      [ldr, s11, [x16, $vsync_ratio]],
-      [ldp, x16, xzr, [sp], 16],
-      [ret]
-    ]
-  -
-    type: code
-    name: vsyncS12
-    instructions: [
-      [stp, x16, xzr, [sp, -16], "!"],
-      [adrp, x16, $vsync_ratio],
-      [ldr, s12, [x16, $vsync_ratio]],
-      [ldp, x16, xzr, [sp], 16],
-      [ret]
-    ]
-  -
-    type: code
-    name: vsyncS13
-    instructions: [
-      [stp, x16, xzr, [sp, -16], "!"],
-      [adrp, x16, $vsync_ratio],
-      [ldr, s13, [x16, $vsync_ratio]],
-      [ldp, x16, xzr, [sp], 16],
+      [stp, x0, xzr, [sp, -16], "!"],
+      [adrp, x0, $vsync_ratio],
+      [ldr, s13, [x0, $vsync_ratio]],
+      [ldp, x0, xzr, [sp], 16],
       [ret]
     ]
 
 MASTER_WRITE:
-  # LDR S0,[X8,#0x10]  / SCVTF S0,S0  @ 0x6ea14
+  # S0 split: adrp@0x6e9ec ldr@0x6ea14 gap=9
+  -
+    type: asm_a64
+    main_offset: 0x6e9ec
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x6ea14
     instructions: [
-      [bl, _vsyncS0()]
+      [ldr, s0, [x0, $vsync_ratio]]
     ]
-  # LDR S1,[X8,#0x18]  / SCVTF S1,S1  @ 0x6ea1c
+  # S1 split: adrp@0x6e9f0 ldr@0x6ea1c gap=10
+  -
+    type: asm_a64
+    main_offset: 0x6e9f0
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x6ea1c
     instructions: [
-      [bl, _vsyncS1()]
+      [ldr, s1, [x0, $vsync_ratio]]
     ]
-  # LDR S0,[X9,#0x10]  / SCVTF S0,S0  @ 0x6f820
+  # S0 split: adrp@0x6f7f8 ldr@0x6f820 gap=9
+  -
+    type: asm_a64
+    main_offset: 0x6f7f8
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x6f820
     instructions: [
-      [bl, _vsyncS0()]
+      [ldr, s0, [x0, $vsync_ratio]]
     ]
-  # LDR S1,[X9,#0x18]  / SCVTF S1,S1  @ 0x6f828
+  # S1 split: adrp@0x6f7fc ldr@0x6f828 gap=10
+  -
+    type: asm_a64
+    main_offset: 0x6f7fc
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x6f828
     instructions: [
-      [bl, _vsyncS1()]
+      [ldr, s1, [x0, $vsync_ratio]]
     ]
-  # LDR S1,[X10,#0x10] / SCVTF S1,S1  @ 0x70090
+  # S1 @ 0x70090
   -
     type: asm_a64
     main_offset: 0x70090
     instructions: [
-      [bl, _vsyncS1()]
+      [bl, _vsync_S1()]
     ]
-  # LDR S1,[X10,#0x10] / SCVTF S1,S1  @ 0x75eb8
+  # S1 @ 0x75eb8
   -
     type: asm_a64
     main_offset: 0x75eb8
     instructions: [
-      [bl, _vsyncS1()]
+      [bl, _vsync_S1()]
     ]
-  # LDR W9,[Xn,#0x10]  / SCVTF S3,W9  @ 0x7926c
+  # S3 split: adrp@0x79210 ldr@0x7926c gap=22
+  -
+    type: asm_a64
+    main_offset: 0x79210
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x7926c
     instructions: [
-      [bl, _vsyncS3()]
+      [ldr, s3, [x0, $vsync_ratio]]
     ]
-  # LDR W9,[Xn,#0x10]  / SCVTF S4,W9  @ 0x79784
+  # S4 split: adrp@0x79720 ldr@0x79784 gap=24
+  -
+    type: asm_a64
+    main_offset: 0x79720
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x79784
     instructions: [
-      [bl, _vsyncS4()]
+      [ldr, s4, [x0, $vsync_ratio]]
     ]
-  # LDR W8,[X8,#0x10]  / SCVTF S1,W8  @ 0x7e974
+  # S1 split: adrp@0x7e934 ldr@0x7e974 gap=15
+  -
+    type: asm_a64
+    main_offset: 0x7e934
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x7e974
     instructions: [
-      [bl, _vsyncS1()]
+      [ldr, s1, [x0, $vsync_ratio]]
     ]
-  # LDR W8,[X8,#0x10]  / SCVTF S1,W8  @ 0x7ea1c
+  # S1 split: adrp@0x7e9dc ldr@0x7ea1c gap=15
+  -
+    type: asm_a64
+    main_offset: 0x7e9dc
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x7ea1c
     instructions: [
-      [bl, _vsyncS1()]
+      [ldr, s1, [x0, $vsync_ratio]]
     ]
-  # LDR S1,[X8,#0x10]  / SCVTF S1,S1  @ 0x815e0
+  # S1 @ 0x815e0
   -
     type: asm_a64
     main_offset: 0x815e0
     instructions: [
-      [bl, _vsyncS1()]
+      [bl, _vsync_S1()]
     ]
-  # LDR S1,[X8,#0x10]  / SCVTF S1,S1  @ 0x88374
+  # S1 split: adrp@0x8836c ldr@0x88374 gap=1
+  -
+    type: asm_a64
+    main_offset: 0x8836c
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x88374
     instructions: [
-      [bl, _vsyncS1()]
+      [ldr, s1, [x0, $vsync_ratio]]
     ]
-  # LDR S0,[X9,#0x10]  / SCVTF S0,S0  @ 0x8de80
+  # S0 split: adrp@0x8de5c ldr@0x8de80 gap=8
+  -
+    type: asm_a64
+    main_offset: 0x8de5c
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x8de80
     instructions: [
-      [bl, _vsyncS0()]
+      [ldr, s0, [x0, $vsync_ratio]]
     ]
-  # LDR S1,[X9,#0x18]  / SCVTF S1,S1  @ 0x8de84
+  # S1 split: adrp@0x8de60 ldr@0x8de84 gap=8
+  -
+    type: asm_a64
+    main_offset: 0x8de60
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x8de84
     instructions: [
-      [bl, _vsyncS1()]
+      [ldr, s1, [x0, $vsync_ratio]]
     ]
-  # LDR S1,[X8,#0x10]  / SCVTF S1,S1  @ 0xa6f70
+  # S1 @ 0xa6f70
   -
     type: asm_a64
     main_offset: 0xa6f70
     instructions: [
-      [bl, _vsyncS1()]
+      [bl, _vsync_S1()]
     ]
-  # LDR S0,[X8,#0x10]  / SCVTF S0,S0  @ 0xcd634
+  # S0 split: adrp@0xcd628 ldr@0xcd634 gap=2
+  -
+    type: asm_a64
+    main_offset: 0xcd628
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0xcd634
     instructions: [
-      [bl, _vsyncS0()]
+      [ldr, s0, [x0, $vsync_ratio]]
     ]
-  # LDR S0,[X8,#0x18]  / SCVTF S0,S0  @ 0xdf778
+  # S0 split: adrp@0xdf764 ldr@0xdf778 gap=4
+  -
+    type: asm_a64
+    main_offset: 0xdf764
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0xdf778
     instructions: [
-      [bl, _vsyncS0()]
+      [ldr, s0, [x0, $vsync_ratio]]
     ]
-  # LDR S0,[X8,#0x18]  / SCVTF S0,S0  @ 0xdf7f0
+  # S0 split: adrp@0xdf7e8 ldr@0xdf7f0 gap=1
+  -
+    type: asm_a64
+    main_offset: 0xdf7e8
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0xdf7f0
     instructions: [
-      [bl, _vsyncS0()]
+      [ldr, s0, [x0, $vsync_ratio]]
     ]
-  # LDR W8,[X8,#0x18]  / SCVTF S1,W8  @ 0xe18c8
+  # S1 split: adrp@0xe18bc ldr@0xe18c8 gap=2
+  -
+    type: asm_a64
+    main_offset: 0xe18bc
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0xe18c8
     instructions: [
-      [bl, _vsyncS1()]
+      [ldr, s1, [x0, $vsync_ratio]]
     ]
-  # LDR S3,[X8,#0x18]  / SCVTF S3,S3  @ 0xe2030
+  # S3 split: adrp@0xe2024 ldr@0xe2030 gap=2
+  -
+    type: asm_a64
+    main_offset: 0xe2024
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0xe2030
     instructions: [
-      [bl, _vsyncS3()]
+      [ldr, s3, [x0, $vsync_ratio]]
     ]
-  # LDR S0,[X9,#0x10]  / SCVTF S0,S0  @ 0xebf60
+  # S0 split: adrp@0xebf54 ldr@0xebf60 gap=2
+  -
+    type: asm_a64
+    main_offset: 0xebf54
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0xebf60
     instructions: [
-      [bl, _vsyncS0()]
+      [ldr, s0, [x0, $vsync_ratio]]
     ]
-  # LDR S0,[X8,#0x18]  / SCVTF S0,S0  @ 0xebf80
+  # S0 split: adrp@0xebf74 ldr@0xebf80 gap=2
+  -
+    type: asm_a64
+    main_offset: 0xebf74
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0xebf80
     instructions: [
-      [bl, _vsyncS0()]
+      [ldr, s0, [x0, $vsync_ratio]]
     ]
-  # LDR S2,[X8,#0x10]  / SCVTF S2,S2  @ 0x101334
+  # S2 split: adrp@0x101328 ldr@0x101334 gap=2
+  -
+    type: asm_a64
+    main_offset: 0x101328
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x101334
     instructions: [
-      [bl, _vsyncS2()]
+      [ldr, s2, [x0, $vsync_ratio]]
     ]
-  # LDR S2,[X8,#0x18]  / SCVTF S8,S2  @ 0x22f444
+  # S8 split: adrp@0x22f434 ldr@0x22f444 gap=3
+  -
+    type: asm_a64
+    main_offset: 0x22f434
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x22f444
     instructions: [
-      [bl, _vsyncS8()]
+      [ldr, s8, [x0, $vsync_ratio]]
     ]
-  # LDR S0,[Xn,#0x10]  / SCVTF S10,S0 @ 0x22f9e8
+  # S10 @ 0x22f9e8
   -
     type: asm_a64
     main_offset: 0x22f9e8
     instructions: [
-      [bl, _vsyncS10()]
+      [bl, _vsync_S10()]
     ]
-  # LDR S0,[Xn,#0x10]  / SCVTF S11,S0 @ 0x22fa5c
+  # S11 @ 0x22fa5c
   -
     type: asm_a64
     main_offset: 0x22fa5c
     instructions: [
-      [bl, _vsyncS11()]
+      [bl, _vsync_S11()]
     ]
-  # LDR W8,[X8,#0x10]  / SCVTF S2,W8  @ 0x240160
+  # S2 split: adrp@0x240154 ldr@0x240160 gap=2
+  -
+    type: asm_a64
+    main_offset: 0x240154
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x240160
     instructions: [
-      [bl, _vsyncS2()]
+      [ldr, s2, [x0, $vsync_ratio]]
     ]
-  # LDR W8,[X8,#0x10]  / SCVTF S8,W8  @ 0x244ce8
+  # S8 split: adrp@0x244ce0 ldr@0x244ce8 gap=1
+  -
+    type: asm_a64
+    main_offset: 0x244ce0
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x244ce8
     instructions: [
-      [bl, _vsyncS8()]
+      [ldr, s8, [x0, $vsync_ratio]]
     ]
-  # LDR S0,[X8,#0x10]  / SCVTF S1,S0  @ 0x252fd8
+  # S1 split: adrp@0x252fd4 ldr@0x252fd8 gap=0
+  -
+    type: asm_a64
+    main_offset: 0x252fd4
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x252fd8
     instructions: [
-      [bl, _vsyncS1()]
+      [ldr, s1, [x0, $vsync_ratio]]
     ]
-  # LDR S0,[X8,#0x10]  / SCVTF S1,S0  @ 0x253058
+  # S1 @ 0x253058
   -
     type: asm_a64
     main_offset: 0x253058
     instructions: [
-      [bl, _vsyncS1()]
+      [bl, _vsync_S1()]
     ]
-  # LDR S0,[X8,#0x10]  / SCVTF S0,S0  @ 0x2ce164
+  # S0 split: adrp@0x2ce154 ldr@0x2ce164 gap=3
+  -
+    type: asm_a64
+    main_offset: 0x2ce154
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x2ce164
     instructions: [
-      [bl, _vsyncS0()]
+      [ldr, s0, [x0, $vsync_ratio]]
     ]
-  # LDR W10,[X10,#0x10]/ SCVTF S0,W10 @ 0x2ce400
+  # S0 split: adrp@0x2ce3f4 ldr@0x2ce400 gap=2
+  -
+    type: asm_a64
+    main_offset: 0x2ce3f4
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x2ce400
     instructions: [
-      [bl, _vsyncS0()]
+      [ldr, s0, [x0, $vsync_ratio]]
     ]
-  # LDR W8,[X8,#0x10]  / SCVTF S0,W8  @ 0x2ce440
+  # S0 split: adrp@0x2ce430 ldr@0x2ce440 gap=3
+  -
+    type: asm_a64
+    main_offset: 0x2ce430
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x2ce440
     instructions: [
-      [bl, _vsyncS0()]
+      [ldr, s0, [x0, $vsync_ratio]]
     ]
-  # LDR S1,[Xn,#0x10]  / SCVTF S1,S1  @ 0x35b3f8
+  # S1 split: adrp@0x35b3e8 ldr@0x35b3f8 gap=3
+  -
+    type: asm_a64
+    main_offset: 0x35b3e8
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x35b3f8
     instructions: [
-      [bl, _vsyncS1()]
+      [ldr, s1, [x0, $vsync_ratio]]
     ]
-  # LDR S2,[X9,#0x18]  / SCVTF S2,S2  @ 0x3f8110
+  # S2 @ 0x3f8110
   -
     type: asm_a64
     main_offset: 0x3f8110
     instructions: [
-      [bl, _vsyncS2()]
+      [bl, _vsync_S2()]
     ]
-  # LDR W8,[X8,#0x10]  / SCVTF S1,W8  @ 0x424d38
+  # S1 split: adrp@0x424d20 ldr@0x424d38 gap=5
+  -
+    type: asm_a64
+    main_offset: 0x424d20
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x424d38
     instructions: [
-      [bl, _vsyncS1()]
+      [ldr, s1, [x0, $vsync_ratio]]
     ]
-  # LDR S1,[X8,#0x18]  / SCVTF S1,S1  @ 0x436b40
+  # S1 @ 0x436b40
   -
     type: asm_a64
     main_offset: 0x436b40
     instructions: [
-      [bl, _vsyncS1()]
+      [bl, _vsync_S1()]
     ]
-  # LDR W25,[X8,#0x18] / SCVTF S9,W25 @ 0x44da38
+  # S9 @ 0x44da38
   -
     type: asm_a64
     main_offset: 0x44da38
     instructions: [
-      [bl, _vsyncS9()]
+      [bl, _vsync_S9()]
     ]
-  # LDR S1,[Xn,#0x10]  / SCVTF S10,S1 @ 0x44dc3c
+  # S10 @ 0x44dc3c
   -
     type: asm_a64
     main_offset: 0x44dc3c
     instructions: [
-      [bl, _vsyncS10()]
+      [bl, _vsync_S10()]
     ]
-  # LDR S1,[Xn,#0x10]  / SCVTF S9,S1  @ 0x44dc5c
+  # S9 @ 0x44dc5c
   -
     type: asm_a64
     main_offset: 0x44dc5c
     instructions: [
-      [bl, _vsyncS9()]
+      [bl, _vsync_S9()]
     ]
-  # LDR S0,[Xn,#0x10]  / SCVTF S11,S0 @ 0x44de0c
+  # S11 @ 0x44de0c
   -
     type: asm_a64
     main_offset: 0x44de0c
     instructions: [
-      [bl, _vsyncS11()]
+      [bl, _vsync_S11()]
     ]
-  # LDR S2,[X8,#0x10]  / SCVTF S8,S2  @ 0x44e37c
+  # S8 @ 0x44e37c
   -
     type: asm_a64
     main_offset: 0x44e37c
     instructions: [
-      [bl, _vsyncS8()]
+      [bl, _vsync_S8()]
     ]
-  # LDR S0,[Xn,#0x10]  / SCVTF S9,S0  @ 0x44e4fc
+  # S9 @ 0x44e4fc
   -
     type: asm_a64
     main_offset: 0x44e4fc
     instructions: [
-      [bl, _vsyncS9()]
+      [bl, _vsync_S9()]
     ]
-  # LDR S1,[Xn,#0x10]  / SCVTF S12,S1 @ 0x44ec78
+  # S12 @ 0x44ec78
   -
     type: asm_a64
     main_offset: 0x44ec78
     instructions: [
-      [bl, _vsyncS12()]
+      [bl, _vsync_S12()]
     ]
-  # LDR S0,[Xn,#0x10]  / SCVTF S11,S0 @ 0x44ec90
+  # S11 @ 0x44ec90
   -
     type: asm_a64
     main_offset: 0x44ec90
     instructions: [
-      [bl, _vsyncS11()]
+      [bl, _vsync_S11()]
     ]
-  # LDR S0,[Xn,#0x10]  / SCVTF S9,S0  @ 0x44eca8
+  # S9 @ 0x44eca8
   -
     type: asm_a64
     main_offset: 0x44eca8
     instructions: [
-      [bl, _vsyncS9()]
+      [bl, _vsync_S9()]
     ]
-  # LDR S0,[X11,#0x10] / SCVTF S0,S0  @ 0x498e40
+  # S0 @ 0x498e40
   -
     type: asm_a64
     main_offset: 0x498e40
     instructions: [
-      [bl, _vsyncS0()]
+      [bl, _vsync_S0()]
     ]
-  # LDR S0,[X8,#0x18]  / SCVTF S0,S0  @ 0x4fa298
+  # S0 @ 0x4fa298
   -
     type: asm_a64
     main_offset: 0x4fa298
     instructions: [
-      [bl, _vsyncS0()]
+      [bl, _vsync_S0()]
     ]
-  # LDR S0,[X8,#0x10]  / SCVTF S6,S0  @ 0x529094
+  # S6 split: adrp@0x529084 ldr@0x529094 gap=3
+  -
+    type: asm_a64
+    main_offset: 0x529084
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x529094
     instructions: [
-      [bl, _vsyncS6()]
+      [ldr, s6, [x0, $vsync_ratio]]
     ]
-  # LDR S1,[X8,#0x10]  / SCVTF S8,S1  @ 0x5290cc
+  # S8 @ 0x5290cc
   -
     type: asm_a64
     main_offset: 0x5290cc
     instructions: [
-      [bl, _vsyncS8()]
+      [bl, _vsync_S8()]
     ]
-  # LDR W8,[X9,#0x18]  / SCVTF S1,W8  @ 0x5299fc
+  # S1 split: adrp@0x5299f4 ldr@0x5299fc gap=1
+  -
+    type: asm_a64
+    main_offset: 0x5299f4
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x5299fc
     instructions: [
-      [bl, _vsyncS1()]
+      [ldr, s1, [x0, $vsync_ratio]]
     ]
-  # LDR S2,[X8,#0x10]  / SCVTF S2,S2  @ 0x52a11c
+  # S2 @ 0x52a11c
   -
     type: asm_a64
     main_offset: 0x52a11c
     instructions: [
-      [bl, _vsyncS2()]
+      [bl, _vsync_S2()]
     ]
-  # LDR S0,[X10,#0x18] / SCVTF S0,S0  @ 0x558110
+  # S0 @ 0x558110
   -
     type: asm_a64
     main_offset: 0x558110
     instructions: [
-      [bl, _vsyncS0()]
+      [bl, _vsync_S0()]
     ]
-  # LDR S0,[Xn,#0x10]  / SCVTF S0,S0  @ 0x566700
+  # S0 split: adrp@0x5666f0 ldr@0x566700 gap=3
+  -
+    type: asm_a64
+    main_offset: 0x5666f0
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x566700
     instructions: [
-      [bl, _vsyncS0()]
+      [ldr, s0, [x0, $vsync_ratio]]
     ]
-  # LDR S0,[X8,#0x10]  / SCVTF S0,S0  @ 0x5e1cb0
+  # S0 split: adrp@0x5e1ca0 ldr@0x5e1cb0 gap=3
+  -
+    type: asm_a64
+    main_offset: 0x5e1ca0
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x5e1cb0
     instructions: [
-      [bl, _vsyncS0()]
+      [ldr, s0, [x0, $vsync_ratio]]
     ]
-  # LDR S0,[X8,#0x10]  / SCVTF S0,S0  @ 0x5e1cd8
+  # S0 @ 0x5e1cd8
   -
     type: asm_a64
     main_offset: 0x5e1cd8
     instructions: [
-      [bl, _vsyncS0()]
+      [bl, _vsync_S0()]
     ]
-  # LDR S0,[X8,#0x18]  / SCVTF S0,S0  @ 0x5e1cec
+  # S0 split: adrp@0x5e1ce0 ldr@0x5e1cec gap=2
+  -
+    type: asm_a64
+    main_offset: 0x5e1ce0
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x5e1cec
     instructions: [
-      [bl, _vsyncS0()]
+      [ldr, s0, [x0, $vsync_ratio]]
     ]
-  # LDR S3,[X8,#0x10]  / SCVTF S3,S3  @ 0x6caf7c
+  # S3 split: adrp@0x6caf70 ldr@0x6caf7c gap=2
+  -
+    type: asm_a64
+    main_offset: 0x6caf70
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x6caf7c
     instructions: [
-      [bl, _vsyncS3()]
+      [ldr, s3, [x0, $vsync_ratio]]
     ]
-  # LDR S0,[X8,#0x10]  / SCVTF S0,S0  @ 0x71a30c
-  -
-    type: asm_a64
-    main_offset: 0x71a30c
-    instructions: [
-      [ldr, s0, [x8, $vsync_ratio]]
-    ]
+  # S0 split: adrp@0x71a304 ldr@0x71a30c gap=1
   -
     type: asm_a64
     main_offset: 0x71a304
     instructions: [
-      [adrp, x8, $vsync_ratio]
+      [adrp, x0, $vsync_ratio]
     ]
-  # LDR S0,[Xn,#0x10]  / SCVTF S2,S0  @ 0x76dd54
+  -
+    type: asm_a64
+    main_offset: 0x71a30c
+    instructions: [
+      [ldr, s0, [x0, $vsync_ratio]]
+    ]
+  # S2 @ 0x76dd54
   -
     type: asm_a64
     main_offset: 0x76dd54
     instructions: [
-      [bl, _vsyncS2()]
+      [bl, _vsync_S2()]
     ]
-  # LDR S1,[Xn,#0x10]  / SCVTF S13,S1 @ 0x76de7c
+  # S13 @ 0x76de7c
   -
     type: asm_a64
     main_offset: 0x76de7c
     instructions: [
-      [bl, _vsyncS13()]
+      [bl, _vsync_S13()]
     ]
-  # LDR S2,[X8,#0x18]  / SCVTF S2,S2  @ 0x16d0abc
+  # S2 split: adrp@0x16d0ab4 ldr@0x16d0abc gap=1
+  -
+    type: asm_a64
+    main_offset: 0x16d0ab4
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x16d0abc
     instructions: [
-      [bl, _vsyncS2()]
+      [ldr, s2, [x0, $vsync_ratio]]
     ]
-  # LDR W8,[X8,#0x18]  / SCVTF S1,W8  @ 0x16d0ba8
+  # S1 split: adrp@0x16d0b98 ldr@0x16d0ba8 gap=3
+  -
+    type: asm_a64
+    main_offset: 0x16d0b98
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x16d0ba8
     instructions: [
-      [bl, _vsyncS1()]
+      [ldr, s1, [x0, $vsync_ratio]]
     ]
-  # LDR S1,[Xn,#0x10]  / SCVTF S1,S1  @ 0x16d9d94
+  # S1 split: adrp@0x16d9d88 ldr@0x16d9d94 gap=2
+  -
+    type: asm_a64
+    main_offset: 0x16d9d88
+    instructions: [
+      [adrp, x0, $vsync_ratio]
+    ]
   -
     type: asm_a64
     main_offset: 0x16d9d94
     instructions: [
-      [bl, _vsyncS1()]
+      [ldr, s1, [x0, $vsync_ratio]]
     ]
-  # LDR S1,[Xn,#0x10]  / SCVTF S1,S1  @ 0x16f2df8
-  -
-    type: asm_a64
-    main_offset: 0x16f2df8
-    instructions: [
-      [ldr, s1, [x7, $vsync_ratio]]
-    ]
+  # S1 split: adrp@0x16f2dec ldr@0x16f2df8 gap=2
   -
     type: asm_a64
     main_offset: 0x16f2dec
     instructions: [
-      [adrp, x7, $vsync_ratio]
+      [adrp, x0, $vsync_ratio]
     ]
-  # LDR S2,[X8,#0x10]  / SCVTF S2,S2  @ 0x170e0b8
+  -
+    type: asm_a64
+    main_offset: 0x16f2df8
+    instructions: [
+      [ldr, s1, [x0, $vsync_ratio]]
+    ]
+  # S2 @ 0x170e0b8
   -
     type: asm_a64
     main_offset: 0x170e0b8
     instructions: [
-      [bl, _vsyncS2()]
+      [bl, _vsync_S2()]
     ]
-ALL_FPS:
-  -
-    type: evaluate_write
-    address: [MAIN, 0x39687F0, 0]
-    value_type: int32
-    value: VSYNC_TARGET
-  -
-    type: evaluate_write
-    address: [MAIN, 0x39687F0, 0x44]
-    value_type: int32
-    value: VSYNC_TARGET
-  -
-    type: evaluate_write
-    address: [MAIN, 0x39687F0, 0x20]
-    value_type: int32
-    value: FPS_TARGET
