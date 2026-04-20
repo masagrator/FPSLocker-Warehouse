@@ -95,6 +95,16 @@ DECLARATIONS:
     ]
   -
     type: code
+    name: vsync_S4
+    instructions: [
+      [stp, x0, xzr, [sp, -16], "!"],
+      [adrp, x0, $vsync_ratio],
+      [ldr, s4, [x0, $vsync_ratio]],
+      [ldp, x0, xzr, [sp], 16],
+      [ret]
+    ]
+  -
+    type: code
     name: vsync_S8
     instructions: [
       [stp, x0, xzr, [sp, -16], "!"],
@@ -174,6 +184,13 @@ MASTER_WRITE:
       [adrp, x8, $dr_factor],
       [ldr, s1, [x8, $dr_factor]]
     ]
+  # Cursor speed
+  -
+    type: asm_a64
+    main_offset: 0x44f050
+    instructions: [
+      [bl, _vsync_S0()]
+    ]  
   # S0 split: adrp@0x6e9ec ldr@0x6ea14 gap=9
   # S1 split: adrp@0x6e9f0 ldr@0x6ea1c gap=10
   -
@@ -337,6 +354,13 @@ MASTER_WRITE:
     main_offset: 0xcd634
     instructions: [
       [ldr, s0, [x7, $vsync_ratio]]
+    ]
+  #
+  -
+    type: asm_a64
+    main_offset: 0xddc10
+    instructions: [
+      [bl, _vsync_S4()]
     ]
   # S0 split: adrp@0xdf764 ldr@0xdf778 gap=4
   -
@@ -542,6 +566,13 @@ MASTER_WRITE:
     instructions: [
       [adrp, x8, $vsync_ratio],
       [ldr, s1, [x8, $vsync_ratio]]
+    ]
+  # 
+  -
+    type: asm_a64
+    main_offset: 0x44cc5c
+    instructions: [
+      [bl, _vsync_S2()]
     ]
   # S9 @ 0x44da38
   -
@@ -815,4 +846,11 @@ MASTER_WRITE:
     instructions: [
       [adrp, x8, $vsync_ratio],
       [ldr, s2, [x8, $vsync_ratio]]
+    ]
+  -
+    type: asm_a64
+    main_offset: 0x182c790
+    instructions: [
+      [adrp, x8, $vsync_ratio],
+      [ldr, s1, [x8, $vsync_ratio]]
     ]
