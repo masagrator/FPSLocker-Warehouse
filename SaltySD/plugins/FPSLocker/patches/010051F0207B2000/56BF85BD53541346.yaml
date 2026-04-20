@@ -8,7 +8,61 @@ DECLARATIONS:
     name: vsync_ratio
     value_type: float
     default_value: 2.0
-    evaluate: "60 / FPS_TARGET"
+  -
+    type: variable
+    name: last_tick
+    value_type: uint64
+    default_value: 0
+  -
+    type: variable
+    name: frame_target
+    value_type: uint32
+    default_value: 33333333
+    evaluate: "1000000000 / FPS_TARGET"
+  -
+    type: const
+    name: max_delta
+    value: 66666666
+  -
+    type: const
+    name: frame_target_base
+    value: 16666667
+  -
+    type: code
+    name: dynamicSpeed
+    instructions: [
+      [stp, x29, x30, [sp, -16], "!"],
+      [mov, x29, sp],
+      [blr, x8],
+      [mrs, x0, cntpct_el0],
+      [adrp, x8, $last_tick],
+      [ldr, x7, [x8, $last_tick]],
+      [str, x0, [x8, $last_tick]],
+      [cbz, x7, :goto1],
+      [sub, x0, x0, x7],
+      [bl, _convertTickToTimeSpan()],
+      [adrp, x8, $frame_target],
+      [ldr, w1, [x8, $frame_target]],
+      [cmp, x1, x0],
+      [b.lt, :goto2],
+      [mov, x0, x1],
+      :goto2, [mov, x1, $max_delta],
+      [movk, x1, $max_delta, 16],
+      [cmp, x1, x0],
+      [b.gt, :goto3],
+      [mov, x0, x1],
+      :goto3, [ucvtf, s0, w0],
+      [mov, w1, $frame_target_base],
+      [movk, w1, $frame_target_base, 16],
+      [ucvtf, s1, w1],
+      # s0 = current frametime
+      # s1 = frametime for division
+      [fdiv, s0, s0, s1],
+      [adrp, x0, $vsync_ratio],
+      [str, s0, [x0, $vsync_ratio]],
+      :goto1, [ldp, x29, x30, [sp], 16],
+      [ret]
+    ]
   -
     type: code
     name: vsync_S0
@@ -106,7 +160,13 @@ DECLARATIONS:
     default_value: 0.001
     evaluate: FPS_TARGET / 30000
 MASTER_WRITE:
-  # DR Ratio
+  -
+    type: asm_a64
+    main_offset: 0x45A1A4
+    instructions: [
+      [bl, _dynamicSpeed()]
+    ]
+  # DR Ratio (it's broken anyway above 30 FPS)
   -
     type: asm_a64
     main_offset: 0x18FF40
