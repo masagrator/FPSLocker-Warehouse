@@ -331,7 +331,7 @@ PATCH AVAILABILITY<br>
 | Detective Pikachu Returns | `010007500F27C000` | `A2A5ABEF988ABAA2` (◯, v0, 1.0.0) |  |
 | Diablo II: Resurrected | `0100726014352000` | `DB08613A7528A1C8` (◯, v32, 1.0.32.0) |  |
 | Diesel Legacy: The Brazen Age | `010076001F5DA000` | `DE2461E141ED0958` (❌, v4, 1.0.4) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️) |
-| Dinkum | `0100A5A020D5E000` | `8B3609ECB49DBBED` ([✅](SaltySD/plugins/FPSLocker/patches/0100A5A020D5E000/8B3609ECB49DBBED.yaml), v3, 1.0.2.44) <br> `16346DDFF65961FF` ([✅](SaltySD/plugins/FPSLocker/patches/0100A5A020D5E000/16346DDFF65961FF.yaml), v4, 1.0.2.47) | ~~[📷](#📷)~~ |
+| Dinkum | `0100A5A020D5E000` | `8B3609ECB49DBBED` ([✅](SaltySD/plugins/FPSLocker/patches/0100A5A020D5E000/8B3609ECB49DBBED.yaml), v3, 1.0.2.44) <br> `16346DDFF65961FF` ([✅](SaltySD/plugins/FPSLocker/patches/0100A5A020D5E000/16346DDFF65961FF.yaml), v4, 1.0.2.47) <br> `7919EB22D79D420B` ([✅](SaltySD/plugins/FPSLocker/patches/0100A5A020D5E000/7919EB22D79D420B.yaml), v5, 1.0.7) | ~~[📷](#📷)~~ |
 | Dino Ranch: Ride to the Rescue | `010038301ABDA000` | `DDF3A995F0EC84E1` (◯, v2, 1.0.4) |  |
 | Disco Elysium - The Final Cut | `01006C5015E84000` | `26BDCC17F782A7B1` (◯, v12, 1.0.12) |  |
 | Disney Dreamlight Valley | `0100D39012C1A000` | `C628EFBF7F2E380E` (◯, v57, 1.22.0) |  |
