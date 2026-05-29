@@ -1050,7 +1050,7 @@ PATCH AVAILABILITY<br>
 | ソードアート・オンライン -ホロウ・リアリゼーション- | `0100A1100B70E000` | `7C8571B3F244B6DC` (❌, v2, 1.0.2) | [⚔️](#⚔️) |
 | Sword of the Necromancer: Resurrection | `01006AC01F630000` | `B70551B5A2D0F15F` ([✅](SaltySD/plugins/FPSLocker/patches/01006AC01F630000/B70551B5A2D0F15F.yaml), v3, 1.0.3) <br> `7C37B073B19F3CCF` ([✅](SaltySD/plugins/FPSLocker/patches/01006AC01F630000/7C37B073B19F3CCF.yaml), v4, 1.0.4) <br> `FFF55266A618D06A` ([✅](SaltySD/plugins/FPSLocker/patches/01006AC01F630000/FFF55266A618D06A.yaml), v5, 1.0.5) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | SWORD OF THE VAGRANT | `0100BD000CB2C000` | `1F1363EC8CC83C73` ([✅](SaltySD/plugins/FPSLocker/patches/0100BD000CB2C000/1F1363EC8CC83C73.yaml), v1, 1.1) | ~~[📏](#📏)~~ |
-| SWORN | `0100BED01E6EE000` | `87F1CEF6D52392AE` ([✅](SaltySD/plugins/FPSLocker/patches/0100BED01E6EE000/87F1CEF6D52392AE.yaml), v2, 1.0.2) | ~~[📏](#📏)~~ |
+| SWORN | `0100BED01E6EE000` | `87F1CEF6D52392AE` ([✅](SaltySD/plugins/FPSLocker/patches/0100BED01E6EE000/87F1CEF6D52392AE.yaml), v2, 1.0.2) <br> `7CEB989706B7E24C` ([✅](SaltySD/plugins/FPSLocker/patches/0100BED01E6EE000/7CEB989706B7E24C.yaml), v4, 1.0.4) | ~~[📏](#📏)~~ |
 | System Shock | `0100F18023E72000` | `14A66A472139D638` ([✅](SaltySD/plugins/FPSLocker/patches/0100F18023E72000/14A66A472139D638.yaml), v2, 2.0.3) <br> `86D7747720E11817` ([✅](SaltySD/plugins/FPSLocker/patches/0100F18023E72000/86D7747720E11817.yaml), v3, 2.1.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Tails Noir | `01006DC012B00000` | `EAAB46ED1E4989C0` ([✅](SaltySD/plugins/FPSLocker/patches/01006DC012B00000/EAAB46ED1E4989C0.yaml), v1, 1.0.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Tails of Iron | `0100EF3013F60000` | `6A28EE5E39F76B6A` (◯, v4, 5) |  |
