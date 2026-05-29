@@ -652,7 +652,7 @@ PATCH AVAILABILITY<br>
 | 마리오 + 래비드 반짝이는 희망 | `0100FC60185AE000` | `2545826CA04FC82C` (◯, v6, 1.6.2225577) |  |
 | Made in Abyss: Binary Star Falling into Darkness | `01006080117C2000` | `DFC7E8979528DE44` ([✅](SaltySD/plugins/FPSLocker/patches/01006080117C2000/DFC7E8979528DE44.yaml), v3, 1.0.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | メイドインアビス 闇を目指した連星 | `010078D010BD6000` | `DFC7E8979528DE44` ([✅](SaltySD/plugins/FPSLocker/patches/010078D010BD6000/DFC7E8979528DE44.yaml), v3, 1.0.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
-| Majogami | `0100BEA0244FC000` | `9FD75204E7C17463` ([✅](SaltySD/plugins/FPSLocker/patches/0100BEA0244FC000/9FD75204E7C17463.yaml), v3, 1.1.1) <br> `4AC071F9B9540985` ([✅](SaltySD/plugins/FPSLocker/patches/0100BEA0244FC000/4AC071F9B9540985.yaml), v4, 1.1.3) | ~~[🔐](#🔐)[⏱️](#⏱️)~~[⚔️](#⚔️) |
+| Majogami | `0100BEA0244FC000` | `9FD75204E7C17463` ([✅](SaltySD/plugins/FPSLocker/patches/0100BEA0244FC000/9FD75204E7C17463.yaml), v3, 1.1.1) <br> `4AC071F9B9540985` ([✅](SaltySD/plugins/FPSLocker/patches/0100BEA0244FC000/4AC071F9B9540985.yaml), v4, 1.1.3) <br> `77F8EE220A7157FF` ([✅](SaltySD/plugins/FPSLocker/patches/0100BEA0244FC000/77F8EE220A7157FF.yaml), v5, 1.2.1) | ~~[🔐](#🔐)[⏱️](#⏱️)~~[⚔️](#⚔️) |
 | Maneater | `010093D00CB22000` | `E8418C6B4BDCC1EE` ([✅](SaltySD/plugins/FPSLocker/patches/010093D00CB22000/E8418C6B4BDCC1EE.yaml), v2, 1.02) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Maneater `Asia` | `01007D70145F4000` | `E8418C6B4BDCC1EE` ([✅](SaltySD/plugins/FPSLocker/patches/01007D70145F4000/E8418C6B4BDCC1EE.yaml), v2, 1.02) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Mark of the Ninja: Remastered | `01009A700A538000` | `AE324830FE37FC72` (◯, v2, 1.0.2) |  |
