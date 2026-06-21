@@ -530,7 +530,7 @@ PATCH AVAILABILITY<br>
 | Hero's Hour | `010005E01E5E6000` | `97FA84EAB42AFE5B` (❌, v3, 2.5.4) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️) |
 | High On Life | `0100C1101EE5A000` | `950FB0C3D58D6A7B` ([✅](SaltySD/plugins/FPSLocker/patches/0100C1101EE5A000/950FB0C3D58D6A7B.yaml), v5, 1.0.5) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Highwater | `0100D1A019EBA000` | `3A38653015036D51` (◯, v1, 1.0.1) |  |
-| Hitman: Absolution | `010037C022390000` | `96B7F9BD973D298E` ([✅](SaltySD/plugins/FPSLocker/patches/010037C022390000/96B7F9BD973D298E.yaml), v0, 1.2.2RC1) | ~~[🔐](#🔐)[📏](#📏)~~ |
+| Hitman: Absolution | `010037C022390000` | `96B7F9BD973D298E` ([✅](SaltySD/plugins/FPSLocker/patches/010037C022390000/96B7F9BD973D298E.yaml), v0, 1.2.2RC1) <br> `54162AA1F1F9870F` ([✅](SaltySD/plugins/FPSLocker/patches/010037C022390000/54162AA1F1F9870F.yaml), v1, 1.3.1_101097) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Hitman: Blood Money - Reprisal | `010083A018262000` | `59AF76C13F680B7C` ([✅](SaltySD/plugins/FPSLocker/patches/010083A018262000/59AF76C13F680B7C.yaml), v1, 1.2_71586) | ~~[🔐](#🔐)~~ |
 | Hive Jump | `01001B000CAF0000` | `607225C397745747` (◯, v0, 1.0.0) |  |
 | Hoa | `010022E013A1A000` | `33C97D772C057EF9` (◯, v4, 1.0.4) |  |
