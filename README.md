@@ -227,6 +227,7 @@ PATCH AVAILABILITY<br>
 | Bright Memory: Infinite | `01001A9018560000` | `DD425ECC07C305DF` ([✅](SaltySD/plugins/FPSLocker/patches/01001A9018560000/DD425ECC07C305DF.yaml), v3, 1.3) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Bro Falls | `01005EF01A12E000` | `A07FFE2F32878CE9` (◯, v0, 1.57) |  |
 | Broken Roads | `0100FAD01861C000` | `D84426C8D6B8D947` ([✅](SaltySD/plugins/FPSLocker/patches/0100FAD01861C000/D84426C8D6B8D947.yaml), v1, 1.2.11059) | ~~[📏](#📏)~~ |
+| Bubsy 4D | `010070402533E000` | `2A8408073157B4BC` ([✅](SaltySD/plugins/FPSLocker/patches/010070402533E000/2A8408073157B4BC.yaml), v3, 1.2.1) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Builder Simulator | `01000B101E3D8000` | `05DCD7F9AE5727D8` (◯, v0, 1.0.0) |  |
 | Bullets & Brains | `01006F0020DDE000` | `CFF5119703DDD83F` (◯, v0, 1.0) |  |
 | Bulletstorm | `01003DD00D658000` | `32FC35DF1C50E1F1` (◯, v0, 1.0.0) |  |
