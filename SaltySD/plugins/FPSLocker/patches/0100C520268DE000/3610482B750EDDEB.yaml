@@ -2,8 +2,8 @@
 # BID: 3610482B750EDDEB
 
 ALL_FPS:
-  # Used to set min delta timing for various parts of game + DR target
-  # REF: C9 03 80 52 C1 03 80 52 first ADRP above it
+  # Used to set min delta timing for various parts of game
+  # REF: C9 03 80 52 first result, look where is written
   -
     type: evaluate_write
     address: [MAIN, 0x7D6810, 0x2C]
