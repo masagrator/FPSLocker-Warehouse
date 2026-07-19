@@ -1029,7 +1029,7 @@ PATCH AVAILABILITY<br>
 | Stray | `010075101EF84000` | `109D974E180A5AA1` ([✅](SaltySD/plugins/FPSLocker/patches/010075101EF84000/109D974E180A5AA1.yaml), v2, 1.6.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Strike Force 3 | `010060200F080000` | `8507336565D4C86B` (❌📌, v1, 1.1.0) | [📏](#📏) |
 | Stubbs the Zombie in Rebel Without a Pulse | `0100964012528000` | `10C14AD346AE02E3` (❌, v3, 1.0.3) | [⚔️](#⚔️) |
-| Subnautica | `0100429011144000` | `B3DB5A1EDAF8454F` (◯, v5, 1.21.71113) |  |
+| Subnautica | `0100429011144000` | `B3DB5A1EDAF8454F` (◯, v6, 1.22.83277) |  |
 | Subnautica Below Zero | `010014C011146000` | `5B050C55B8264040` ([✅](SaltySD/plugins/FPSLocker/patches/010014C011146000/5B050C55B8264040.yaml), v9, 1.22.54460) | ~~[📏](#📏)~~ |
 | Succubus With Guns | `01003820186A2000` | `A5EC643318B3A543` ([✅](SaltySD/plugins/FPSLocker/patches/01003820186A2000/A5EC643318B3A543.yaml), v1, 1.0.1) | ~~[📷](#📷)~~ |
 | Suikoden I&II HD Remaster | `01004BD017080000` | `A481E5E6A88FDFB7` (❌, v3, 1.0.3) | [⏱️](#⏱️) |
