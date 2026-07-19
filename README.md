@@ -1372,7 +1372,7 @@ PATCH AVAILABILITY<br>
 | TT Isle of Man 2 | `010000400F582000` | `02F2E5C8CBF5A92F` ([✅](SaltySD/plugins/FPSLocker/patches/010000400F582000/02F2E5C8CBF5A92F.yaml), v1, 1.0.1) | ~~[📏](#📏)~~ |
 | Wasteland 2: Director's Cut | `010039A00BC64000` | `77009C1234634A4E` ([✅](SaltySD/plugins/FPSLocker/patches/010039A00BC64000/77009C1234634A4E.yaml), v1, 1.0.1) | ~~[📏](#📏)~~ |
 | WRC8 | `010087800DCEA000` | `6B0B26802F0DAAAF` ([✅](SaltySD/plugins/FPSLocker/patches/010087800DCEA000/6B0B26802F0DAAAF.yaml), v4, 1.4.0) | ~~[📏](#📏)~~ |
-| WRC 8 FIA 월드 랠리 챔피언십 1.4.0 | `010079500FD5C000` | `6B0B26802F0DAAAF` ([✅](SaltySD/plugins/FPSLocker/patches/010079500FD5C000/6B0B26802F0DAAAF.yaml), v1, 1.1.0) | ~~[📏](#📏)~~ |
+| WRC 8 FIA 월드 랠리 챔피언십 | `010079500FD5C000` | `6B0B26802F0DAAAF` ([✅](SaltySD/plugins/FPSLocker/patches/010079500FD5C000/6B0B26802F0DAAAF.yaml), v1, 1.4.0) | ~~[📏](#📏)~~ |
 | WRC9 | `01001A0011798000` | `66B2DEA98B5CDF65` ([✅](SaltySD/plugins/FPSLocker/patches/01001A0011798000/66B2DEA98B5CDF65.yaml), v2, 1.2.0) | ~~[📏](#📏)~~ |
 
 </details>
