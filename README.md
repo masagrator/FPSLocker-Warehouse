@@ -321,9 +321,9 @@ PATCH AVAILABILITY<br>
 | Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles | `0100309016E7A000` | `14C878ECCA9D7CB5` ([✅](SaltySD/plugins/FPSLocker/patches/0100309016E7A000/14C878ECCA9D7CB5.yaml), v9, 1.53) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | 鬼滅の刃 ヒノカミ血風譚 | `0100285016010000` | `14C878ECCA9D7CB5` ([✅](SaltySD/plugins/FPSLocker/patches/0100285016010000/14C878ECCA9D7CB5.yaml), v9, 1.53) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | 귀멸의 칼날 히노카미 혈풍담 | `01004B2016E7C000` | `14C878ECCA9D7CB5` ([✅](SaltySD/plugins/FPSLocker/patches/01004B2016E7C000/14C878ECCA9D7CB5.yaml), v9, 1.53) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
-| Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2 | `0100AD80208A8000` | `DADF52C97D951FBC` (❌, v14, 1.80) | [🔐](#🔐)[🔧](#🔧)[🏃](#🏃) |
-| 귀멸의 칼날 히노카미 혈풍담2 | `01001080208AA000` | `DADF52C97D951FBC` (❌, v14, 1.80) | [🔐](#🔐)[🔧](#🔧)[🏃](#🏃) |
-| 鬼滅の刃 ヒノカミ血風譚2 | `010059301B7F0000` | `DADF52C97D951FBC` (❌, v14, 1.80) | [🔐](#🔐)[🔧](#🔧)[🏃](#🏃) |
+| Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2 | `0100AD80208A8000` | `68E3A0EA176A79F4` (❌, v15, 1.81) | [🔐](#🔐)[🔧](#🔧)[🏃](#🏃) |
+| 귀멸의 칼날 히노카미 혈풍담2 | `01001080208AA000` | `68E3A0EA176A79F4` (❌, v15, 1.81) | [🔐](#🔐)[🔧](#🔧)[🏃](#🏃) |
+| 鬼滅の刃 ヒノカミ血風譚2 | `010059301B7F0000` | `68E3A0EA176A79F4` (❌, v15, 1.81) | [🔐](#🔐)[🔧](#🔧)[🏃](#🏃) |
 | Demon Turf | `0100FF5015492000` | `9D3270945708DE4A` (◯, v2, 1.0.1) |  |
 | Demon Turf: Neon Splash | `010010C017B28000` | `500BE42BCD41604F` (◯, v0, 1.0.0) |  |
 | Descenders | `0100D4600D0E4000` | `899B8B12DCD0864F` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4600D0E4000/899B8B12DCD0864F.yaml), v7, 1.0.7) | ~~[📏](#📏)~~ |
