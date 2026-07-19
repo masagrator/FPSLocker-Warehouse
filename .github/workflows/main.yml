@@ -29,4 +29,4 @@ jobs:
 
       # 5. Run your Python script
       - name: Check game updates, look at result here
-        run: python CheckUpdate.py
+        run: python -u CheckUpdate.py
