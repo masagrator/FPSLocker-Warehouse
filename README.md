@@ -910,7 +910,7 @@ PATCH AVAILABILITY<br>
 | 三國志14 with パワーアップキット | `0100598012906000` | `8BE776135DB6769C` (❌📌, v9, 1.0.10) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️) |
 | Romancing SaGa 2: Revenge of the Seven | `010045301B86C000` | `791D79EBD7A0115E` ([✅](SaltySD/plugins/FPSLocker/patches/010045301B86C000/791D79EBD7A0115E.yaml), v1, 1.0.1) <br> `1933FBAFE977FA75` ([✅](SaltySD/plugins/FPSLocker/patches/010045301B86C000/1933FBAFE977FA75.yaml), v2, 1.0.2) <br> `D7A32C718E9D6363` ([✅](SaltySD/plugins/FPSLocker/patches/010045301B86C000/D7A32C718E9D6363.yaml), v3, 1.1.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Rooftops & Alleys: The Parkour Game | `0100FC20214B2000` | `1E41120D264E12C5` (◯, v10, 1.10) |  |
-| ルーフトップス＆アリーズ | `0100290025040000` | `958A588818E05F70` (◯, v2, 1.2) |  |
+| ルーフトップス＆アリーズ | `0100290025040000` | `1E41120D264E12C5` (◯, v5, 1.10) |  |
 | Roxy Raccoon's Pinball Panic | `0100E070196FE000` | `E1D2D5C27F045CA0` (◯, v0, 1.0.0) |  |
 | Ruined King: A League of Legends Story | `0100947013122000` | `9FC46F388F6C684C` ([✅](SaltySD/plugins/FPSLocker/patches/0100947013122000/9FC46F388F6C684C.yaml), v7, 1.7) | ~~[📏](#📏)~~ |
 | Ruiner | `01006EC00F2CC000` | `F199FFD7D83F399E` ([✅](SaltySD/plugins/FPSLocker/patches/01006EC00F2CC000/F199FFD7D83F399E.yaml), v3, 1.3) | ~~[📏](#📏)~~ |
