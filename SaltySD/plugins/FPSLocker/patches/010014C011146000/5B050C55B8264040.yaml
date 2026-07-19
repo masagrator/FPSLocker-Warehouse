@@ -8,10 +8,4 @@ ALL_FPS:
     address: [MAIN, 0x5BDC3F0, 0xB8, 0]
     address_unsafe: true
     value_type: double
-    value: FPS_TARGET
-  -
-    type: evaluate_write
-    address: [MAIN, 0x5BDC3F0, 0xB8, 8]
-    address_unsafe: true
-    value_type: double
-    value: FRAMETIME_TARGET
+    value: [FPS_TARGET, FRAMETIME_TARGET]
