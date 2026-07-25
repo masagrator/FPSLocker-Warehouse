@@ -312,7 +312,7 @@ PATCH AVAILABILITY<br>
 | Decay of Logos | `010027700FD2E000` | `B77B17D7A517384F` (◯, v1, 1.0.1) |  |
 | Deer & Boy | `0100A18021FCC000` | `A7056FF380DB1F26` ([✅](SaltySD/plugins/FPSLocker/patches/0100A18021FCC000/A7056FF380DB1F26.yaml), v1, 1.1.3) <br> `E00CCCDB4F5F435D` ([✅](SaltySD/plugins/FPSLocker/patches/0100A18021FCC000/E00CCCDB4F5F435D.yaml), v2, 1.1.4) | ~~[🔐](#🔐)[🏃](#🏃)~~ |
 | Deliver Us The Moon | `010047401EA8E000` | `928AF9461536F5E3` ([✅](SaltySD/plugins/FPSLocker/patches/010047401EA8E000/928AF9461536F5E3.yaml), v0, 1.0.0) | ~~[📏](#📏)~~ |
-| DELTARUNE | `0100A0D022A68000` | `6F37D381A0A8A1EF` (❌, v7, 1.07) | [🔐](#🔐)[⏱️](#⏱️) |
+| DELTARUNE | `0100A0D022A68000` | `83614275C2376A7F` (❌, v8, 1.08) | [🔐](#🔐)[⏱️](#⏱️) |
 | DEMON GAZE EXTRA | `0100FCC0168FC000` | `58EE9A90F6FE6D4B` (❌, v2, 1.0.2) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | 데몬 게이즈 엑스트라 | `01000C30162A6000` | `A2919B047E388540` (❌, v4, 1.0.4) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | Demon Slayer -Kimetsu no Yaiba- Sweep the Board! | `0100A7101B806000` | `BCC955FF933FEF2E` ([✅](SaltySD/plugins/FPSLocker/patches/0100A7101B806000/BCC955FF933FEF2E.yaml), v8, 1.20) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
