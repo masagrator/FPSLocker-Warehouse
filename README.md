@@ -1176,7 +1176,7 @@ PATCH AVAILABILITY<br>
 | Tinykin | `0100A73016576000` | `4E2AA28721AFF2C1` ([✅](SaltySD/plugins/FPSLocker/patches/0100A73016576000/4E2AA28721AFF2C1.yaml), v4, 1.1.1) | ~~[📏](#📏)~~ |
 | Tokyo Mirage Sessions<br>#FE Encore | `0100A9400C9C2000` | `33463E11899166BB` ([✅](SaltySD/plugins/FPSLocker/patches/0100A9400C9C2000/33463E11899166BB.yaml), v0, 1.0.0) | ~~[⚔️](#⚔️)[⏱️](#⏱️)[🏃](#🏃)~~[🖥️](#🖥️) |
 | Tomb Raider: Definitive Edition | `0100092021C80000` | `97EB11E9B56A96E5` ([✅](SaltySD/plugins/FPSLocker/patches/0100092021C80000/97EB11E9B56A96E5.yaml), v4, 1.0.4) | ~~[📏](#📏)~~ |
-| Tomodachi Life: Living the Dream | `010051F0207B2000` | `6291E14453EE6309` (❌, v3, 1.0.3) | [⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️) |
+| Tomodachi Life: Living the Dream | `010051F0207B2000` | `B39FEF373FB12154` (❌, v4, 1.0.4) | [⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️) |
 | Tony Hawk's Pro Skater 1 + 2 | `0100CC00102B4000` | `8AFCBE6A930CD42E` ([✅](SaltySD/plugins/FPSLocker/patches/0100CC00102B4000/8AFCBE6A930CD42E.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Tony Hawk's Pro Skater 3 + 4 | `01000AD01F94A000` | `52DA46C0166A8643` ([✅](SaltySD/plugins/FPSLocker/patches/01000AD01F94A000/52DA46C0166A8643.yaml), v6, 1.07) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Towa and the Guardians of the Sacred Tree | `0100F52019002000` | `08BCA9E5E68794AA` (◯, v3, 1.3) |  |
