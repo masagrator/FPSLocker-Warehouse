@@ -1088,7 +1088,7 @@ PATCH AVAILABILITY<br>
 | チームソニックレーシング 新価格版 | `010029D00B72A000` | `7D942261130F42A7` (◯, v3, 1.0.3) |  |
 | TEMPUS | `0100C75019274000` | `582ADD6F24A2A6B7` ([✅](SaltySD/plugins/FPSLocker/patches/0100C75019274000/582ADD6F24A2A6B7.yaml), v0, 1.0.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Terra Nil | `01006D501D14A000` | `C8BCCB615DA4BD6C` (◯, v7, 1.2.10) |  |
-| Terraformers | `0100C1B01872A000` | `EFA897C8B97F1C9E` (◯, v6, 1.6.21) |  |
+| Terraformers | `0100C1B01872A000` | `3A72F51B6DF98CC7` (◯, v8, 1.7.82) |  |
 | The Alliance Alive HD Remastered | `01003CF00DCFA000` | `4DF9DA0BD7A61546` (❌📌, v2, 1.03) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | The Beast Inside | `010028901FF00000` | `EB58D577539E9151` ([✅](SaltySD/plugins/FPSLocker/patches/010028901FF00000/EB58D577539E9151.yaml), v2, 1.2.0) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | The Bridge Curse - Road to Salvation | `01006BD019A78000` | `F54FC539CAF24C64` ([✅](SaltySD/plugins/FPSLocker/patches/01006BD019A78000/F54FC539CAF24C64.yaml), v1, 1.6.0.1) | ~~[🔧](#🔧)~~ |
