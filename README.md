@@ -310,7 +310,7 @@ PATCH AVAILABILITY<br>
 | Death end re;Quest 2 | `0100EB701568A000` | `6A06F3A2582C0954` (❌, v0, 1.0.0) | [⚔️](#⚔️) |
 | Death's Door | `0100B31015AF8000` | `0D20B5FF11828346` (◯, v3, 1.1.6a) |  |
 | Decay of Logos | `010027700FD2E000` | `B77B17D7A517384F` (◯, v1, 1.0.1) |  |
-| Deer & Boy | `0100A18021FCC000` | `A7056FF380DB1F26` ([✅](SaltySD/plugins/FPSLocker/patches/0100A18021FCC000/A7056FF380DB1F26.yaml), v1, 1.1.3) <br> `E00CCCDB4F5F435D` ([✅](SaltySD/plugins/FPSLocker/patches/0100A18021FCC000/E00CCCDB4F5F435D.yaml), v2, 1.1.4) | ~~[🔐](#🔐)[🏃](#🏃)~~ |
+| Deer & Boy | `0100A18021FCC000` | `A7056FF380DB1F26` ([✅](SaltySD/plugins/FPSLocker/patches/0100A18021FCC000/A7056FF380DB1F26.yaml), v1, 1.1.3) <br> `E00CCCDB4F5F435D` ([✅](SaltySD/plugins/FPSLocker/patches/0100A18021FCC000/E00CCCDB4F5F435D.yaml), v2, 1.1.4) <br> `3E5F01690365FBF4` ([✅](SaltySD/plugins/FPSLocker/patches/0100A18021FCC000/3E5F01690365FBF4.yaml), v3, 1.3.2) | ~~[🔐](#🔐)[🏃](#🏃)~~ |
 | Deliver Us The Moon | `010047401EA8E000` | `928AF9461536F5E3` ([✅](SaltySD/plugins/FPSLocker/patches/010047401EA8E000/928AF9461536F5E3.yaml), v0, 1.0.0) | ~~[📏](#📏)~~ |
 | DELTARUNE | `0100A0D022A68000` | `83614275C2376A7F` (❌, v8, 1.08) | [🔐](#🔐)[⏱️](#⏱️) |
 | DEMON GAZE EXTRA | `0100FCC0168FC000` | `58EE9A90F6FE6D4B` (❌, v2, 1.0.2) | [⏱️](#⏱️)[🖥️](#🖥️) |
