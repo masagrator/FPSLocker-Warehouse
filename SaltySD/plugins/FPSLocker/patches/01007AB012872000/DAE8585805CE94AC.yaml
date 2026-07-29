@@ -32,6 +32,6 @@ MASTER_WRITE:
       [adrp, x8, $fps_target],
       [ldr, w1, [x8, $lock30]],
       [ldp, w8, w9, [x8]],
-      [str, w1, [x19, 0xD0]],
+      [str, w1, [x19, 0xCC]],
       [stp, w8, w9, [x21]]
     ]
