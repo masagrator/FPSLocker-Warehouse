@@ -337,7 +337,7 @@ PATCH AVAILABILITY<br>
 | Digimon Story Time Stranger | `010062E01FE0C000` | `8567DF0B7DC16822` ([✅](SaltySD/plugins/FPSLocker/patches/010062E01FE0C000/8567DF0B7DC16822.yaml), v3, 1.2.1) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Dinkum | `0100A5A020D5E000` | `84EA61B9C54E65FA` (◯, v6, 1.0.7.13) |  |
 | Dino Ranch: Ride to the Rescue | `010038301ABDA000` | `DDF3A995F0EC84E1` (◯, v2, 1.0.4) |  |
-| Disco Elysium - The Final Cut | `01006C5015E84000` | `26BDCC17F782A7B1` (◯, v12, 1.0.12) |  |
+| Disco Elysium - The Final Cut | `01006C5015E84000` | `7C463C12553BAB2D` (◯, v13, 1.0.13) |  |
 | Disney Dreamlight Valley | `0100D39012C1A000` | `F6A41BFC6255336B` (◯, v62, 1.24.11) |  |
 | Disney Epic Mickey: Rebrushed | `01004D901AFDA000` | `D334BC060F1FA3AE` ([✅](SaltySD/plugins/FPSLocker/patches/01004D901AFDA000/D334BC060F1FA3AE.yaml), v4, 1.0.4) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | ディズニー エピックミッキー：Rebrushed | `0100DA201EBF8000` | `10844A7A20C5597E` ([✅](SaltySD/plugins/FPSLocker/patches/0100DA201EBF8000/10844A7A20C5597E.yaml), v4, 1.0.4) | ~~[📏](#📏)[🔧](#🔧)~~ |
