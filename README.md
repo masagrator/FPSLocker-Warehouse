@@ -204,7 +204,7 @@ PATCH AVAILABILITY<br>
 | BioShock Infinite | `0100D560102C8000` | `48681F1D90704F6C` ([✅](SaltySD/plugins/FPSLocker/patches/0100D560102C8000/48681F1D90704F6C.yaml), v1, 1.0.2) | ~~[📏](#📏)~~ |
 | Biped | `010053B0117F8000` | `8892A966A756BEDF` (◯, v3, 2.0.0) |  |
 | Biped `Asia` | `010067E01198A000` | `AA0666074EB85215` (◯, v4, 2.0.0) |  |
-| Biped 2 | `01004240237F6000` | `2E9B23BC4C30950B` (◯, v5, 2.0.0) |  |
+| Biped 2 | `01004240237F6000` | `5491941E1D0B18C2` (◯, v6, 2.0.1) |  |
 | Black Skylands | `0100FA601A58C000` | `C13490454BA10AE4` (◯, v3, 1.0.3) |  |
 | Blade Assault | `0100EA1018A2E000` | `0DF84BFE1556A443` (◯, v1, 1.0.1) |  |
 | Blade Jumper | `0100BBB01C7FE000` | `0A3CBB829DB69221` ([✅](SaltySD/plugins/FPSLocker/patches/0100BBB01C7FE000/0A3CBB829DB69221.yaml), v0, 1.0.0) | ~~[🏃](#🏃)~~ |
