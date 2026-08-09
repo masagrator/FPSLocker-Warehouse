@@ -485,7 +485,7 @@ PATCH AVAILABILITY<br>
 | Ghostbusters: Spirits Unleashed Ecto Edition | `01005D2016934000` | `49F6F257348A42A1` ([✅](SaltySD/plugins/FPSLocker/patches/01005D2016934000/49F6F257348A42A1.yaml), v8, 1.11.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Ghostbusters: The Video Game Remastered | `0100EAE00D9EC000` | `0FE6747D03EBA4E3` ([✅](SaltySD/plugins/FPSLocker/patches/0100EAE00D9EC000/0FE6747D03EBA4E3.yaml), v2, 1.2) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Ghostrunner | `010090F012916000` | `D3DD5B220DCEB626` ([✅](SaltySD/plugins/FPSLocker/patches/010090F012916000/D3DD5B220DCEB626.yaml), v8, 1.8) | ~~[🔐](#🔐)[📏](#📏)~~ |
-| 고스트러너 | `0100465013578000` | `F05A2BD2BD050256` (❌📌, v7, 1.7) | [🔐](#🔐)[📏](#📏) |
+| 고스트러너 | `0100465013578000` | `F05A2BD2BD050256` ([✅](SaltySD/plugins/FPSLocker/patches/0100465013578000/F05A2BD2BD050256.yaml), v7, 1.7) | [🔐](#🔐)[📏](#📏) |
 | ゴーストランナー | `0100AAA013598000` | `9F47662984305651` (❌📌, v7, 1.7) | [🔐](#🔐)[📏](#📏) |
 | Gigantosaurus The Game | `01002C400E526000` | `1FF442C5ABEB0459` ([✅](SaltySD/plugins/FPSLocker/patches/01002C400E526000/1FF442C5ABEB0459.yaml), v2, 1.0.2) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Gigantosaurus: Dino Kart | `01001890167FE000` | `512FB8C2D12C4F36` ([✅](SaltySD/plugins/FPSLocker/patches/01001890167FE000/512FB8C2D12C4F36.yaml), v1, 1.1.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
