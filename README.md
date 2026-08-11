@@ -602,6 +602,9 @@ PATCH AVAILABILITY<br>
 | Kingdom Come: Deliverance `GLOBAL` | `0100650018FE0000` | `7A450848CFDEC18E` ([✅](SaltySD/plugins/FPSLocker/patches/0100650018FE0000/7A450848CFDEC18E.yaml), v2, 1.9.6H) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Kingdom Come: Deliverance `JPN` | `010021601C496000` | `7A450848CFDEC18E` ([✅](SaltySD/plugins/FPSLocker/patches/010021601C496000/7A450848CFDEC18E.yaml), v2, 1.9.6H) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Kingdom Eighties | `010003201A0B4000` | `9C2F41EF5C383D1E` (◯, v1, 1.1.1) |  |
+| Kingdom Rush | `0100A280121F6000` | `11813C311AF1737F` ([✅](SaltySD/plugins/FPSLocker/patches/0100A280121F6000/11813C311AF1737F.yaml), v1, 5.6.10) | ~~[🔐](#🔐)~~ |
+| Kingdom Rush Frontiers | `010046200FC62000` | `B1C0E2F9DBF2ADFB` ([✅](SaltySD/plugins/FPSLocker/patches/010046200FC62000/B1C0E2F9DBF2ADFB.yaml), v3, 3.2.23) | ~~[🔐](#🔐)~~ |
+| Kingdom Rush Origins | `0100ABE0121F8000` | `C1A74A28CBF48C3C` ([✅](SaltySD/plugins/FPSLocker/patches/0100ABE0121F8000/C1A74A28CBF48C3C.yaml), v1, 4.2.27.1) | ~~[🔐](#🔐)~~ |
 | Kingdom Two Crowns | `01005EF003FF2000` | `8D99F60DDC52C81E` (◯, v34, 2.4.0) |  |
 | Kingdoms of Amalur: Re-Reckoning | `0100EF50132BE000` | `FA48B344ED72F24D` (◯, v7, 1.0.7) |  |
 | Kirby and the Forgotten Land | `01004D300C5AE000` | `A6CE40DC3AEDB1BE` ([✅](SaltySD/plugins/FPSLocker/patches/01004D300C5AE000/A6CE40DC3AEDB1BE.yaml), v1, 1.1.0) | ~~[🔐](#🔐)[📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)~~[⚔️](#⚔️) |
