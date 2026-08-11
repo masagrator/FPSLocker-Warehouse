@@ -2,7 +2,7 @@
 # BID: 11813C311AF1737F
 
 MASTER_WRITE:
-  - # REF: vtable with string "sleep" above actual function, patch BLX X1
+  - # REF: vtable with string "getAverageDelta", search inside that vtable "sleep", it's above actual function, patch BLX X1 inside that function
     type: bytes
     main_offset: 0xF5514
     value_type: uint32
