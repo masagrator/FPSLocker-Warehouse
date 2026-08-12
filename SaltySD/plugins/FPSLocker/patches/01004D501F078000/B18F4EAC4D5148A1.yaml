@@ -1,8 +1,6 @@
 # The Lord of the Rings: War in the North - Legacy Edition 1.0.1
 # BID: B18F4EAC4D5148A1
 # INFO: RenderThreadWaitOnGPU blocks game to 59 FPS and causes CPU cores to rampage if not adjusted, but if adjusted to allow perfect 60 FPS image starts tearing, so i decided to not change it
-# RenderThreadWaitOnGPU REF: A8 B2 8C 52 08 91 A7 72
-# Somewhere below value 0.01605 shit happens
 
 DECLARATIONS:
   -
@@ -11,6 +9,12 @@ DECLARATIONS:
     value_type: uint32
     default_value: 33333
     evaluate: 1000000 / FPS_LOCK_TARGET
+  -
+    type: variable
+    name: half_frametime
+    value_type: float
+    default_value: 0.01665
+    evaluate: 0.999 * (1 / FPS_TARGET)
   -
     type: code
     name: sleep
@@ -45,6 +49,15 @@ MASTER_WRITE:
     main_offset: 0x1B6D2C
     instructions: [
       [b, _sleep2()]
+    ]
+  # RenderThreadWaitOnGPU
+  # REF: A8 B2 8C 52 08 91 A7 72
+  -
+    type: asm_a64
+    main_offset: 0x25C998
+    instructions: [
+      [adrp, x8, $half_frametime],
+      [ldr, w8, [x8, $half_frametime]]
     ]
 ALL_FPS:
   -
