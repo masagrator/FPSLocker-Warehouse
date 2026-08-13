@@ -1322,7 +1322,7 @@ PATCH AVAILABILITY<br>
 | ドラゴンクエストヒーローズI・II | `0100CD3000BDC000` | `5C598E5025BF97BC` ([✅](SaltySD/plugins/FPSLocker/patches/0100CD3000BDC000/5C598E5025BF97BC.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[⏱️](#⏱️)[⚔️](#⚔️)~~
 | エアコンフリクト：パシフィックキャリアー | `010020700C952000` | `E0875F171671C8F7` (❌, v0, 1.0.0) | [⚔️](#⚔️) |
 | 仮面ライダー クライマックススクランブル ジオウ | `0100BDC00A664000` | `1EAD461ABA0F154A` (❌📌, v3, 1.2.0) | [⏱️](#⏱️)[🖥️](#🖥️) |
-| 亰都ザナドゥ -桜花幻舞- | `0100C520268DE000` | `3610482B750EDDEB` ([✅](SaltySD/plugins/FPSLocker/patches/0100C520268DE000/3610482B750EDDEB.yaml), v3, 1.0.3) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~ |
+| 亰都ザナドゥ -桜花幻舞- | `0100C520268DE000` | `3610482B750EDDEB` ([✅](SaltySD/plugins/FPSLocker/patches/0100C520268DE000/3610482B750EDDEB.yaml), v3, 1.0.3) <br> `E9E041CDF870F33C` ([✅](SaltySD/plugins/FPSLocker/patches/0100C520268DE000/E9E041CDF870F33C.yaml), v4, 1.0.4) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | - 쿄토 재너두 -앵화환무-<br>- 亰都幻都 -櫻花幻舞- | `0100D20027AB6000` | `45BFC9E681BE8A02` ([✅](SaltySD/plugins/FPSLocker/patches/0100D20027AB6000/45BFC9E681BE8A02.yaml), v3, 1.0.3) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | 無双OROCHI２ Ultimate | `0100153006300000` | `C632B6C8CD8250B1` ([✅](SaltySD/plugins/FPSLocker/patches/0100153006300000/C632B6C8CD8250B1.yaml), v2, 1.0.2) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 
