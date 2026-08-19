@@ -14,14 +14,14 @@ DECLARATIONS:
       [cbnz, w21, :goto1],
       [mov, w10, 1280],
       [mov, w8, 720],
-      :goto1, [stp, w10, w8, [x19, 0x10]],
+      :goto1, [stp, w10, w8, [x0, 0x10]],
       [ret]
     ]
 MASTER_WRITE:
-  ## REF: 6A 22 02 29
+  ## REF: 40 18 20 1E 00 08 21 1E, patch STP W10, W8 after it
   -
     type: asm_a64
-    main_offset: 0x4FA224
+    main_offset: 0x2CF6E4
     instructions: [
       [bl, _adjustDrResToNativeInHH()]
     ]
