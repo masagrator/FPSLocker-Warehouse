@@ -21,7 +21,7 @@ MASTER_WRITE:
   ## REF: 40 18 20 1E 00 08 21 1E, patch STP W10, W8 after it
   -
     type: asm_a64
-    main_offset: 0x2CF6E4
+    main_offset: 0x2C5D1C
     instructions: [
       [bl, _adjustDrResToNativeInHH()]
     ]
