@@ -1336,6 +1336,7 @@ PATCH AVAILABILITY<br>
 | --- | --- | --- | --- |
 | AO Tennis 2 | `010047000E9AA000` | `01EB7A6DE827BFD9` ([✅](SaltySD/plugins/FPSLocker/patches/010047000E9AA000/01EB7A6DE827BFD9.yaml), v7, 1.7.0) | ~~[⚔️](#⚔️)[📏](#📏)~~ |
 | Ariana and the Elder Codex `EUR` | `0100A09025938000` | `73140E0A9688F3E8` ([✅](SaltySD/plugins/FPSLocker/patches/0100A09025938000/73140E0A9688F3E8.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
+| Ariana and the Elder Codex `US` | `01006D60258EC000` | `C99AC4C0BEDEBEE5` ([✅](SaltySD/plugins/FPSLocker/patches/01006D60258EC000/C99AC4C0BEDEBEE5.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
 | - 마법사서 아리아나 칠영걸의 서<br>- 魔法司書阿莉艾娜 七英傑之書 | `01004CE02574E000` | `EE53B0DDC797E251` ([✅](SaltySD/plugins/FPSLocker/patches/01004CE02574E000/EE53B0DDC797E251.yaml), v0, 1.0.0) | ~~[🔐](#🔐)~~ |
 | 魔法司書アリアナ ～七英傑の書～ | `01007AD02208A000` | `EF962C7811275F83` (❌📌, v3, 1.0.3) | [🔐](#🔐) |
 | Borderlands 3 | `01009970122E4000` | `AE2768797E3337EE` ([✅](SaltySD/plugins/FPSLocker/patches/01009970122E4000/AE2768797E3337EE.yaml), v3, 1.0.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
