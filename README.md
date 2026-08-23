@@ -1373,7 +1373,7 @@ PATCH AVAILABILITY<br>
 | The Plucky Squire | `01006BD018B54000` | `892E6C4FE0D850B5` ([✅](SaltySD/plugins/FPSLocker/patches/01006BD018B54000/892E6C4FE0D850B5.yaml), v8, 1.0.8) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | The Turing Test | `0100EA100F516000` | `FF516B8965730B27` ([✅](SaltySD/plugins/FPSLocker/patches/0100EA100F516000/FF516B8965730B27.yaml), v0, 1.0.0) | ~~[🔐](#🔐)~~ |
 | There Is No Light | `0100FD0014B76000` | `76EB8E0320472553` ([✅](SaltySD/plugins/FPSLocker/patches/0100FD0014B76000/76EB8E0320472553.yaml), v3, 1.0.3) | ~~[📷](#📷)~~ |
-| Trails in the Sky 1st Chapter | `01002C9022770000` | `2B18130BD191CAC5` ([✅](SaltySD/plugins/FPSLocker/patches/01002C9022770000/2B18130BD191CAC5.yaml), v5, 1.0.6) | ~~[⏱️](#⏱️)[📏](#📏)~~ |
+| Trails in the Sky 1st Chapter | `01002C9022770000` | `2B18130BD191CAC5` ([✅](SaltySD/plugins/FPSLocker/patches/01002C9022770000/2B18130BD191CAC5.yaml), v5, 1.0.6) <br> `8963A531FA7F27A5` ([✅](SaltySD/plugins/FPSLocker/patches/01002C9022770000/8963A531FA7F27A5.yaml), v6, 1.0.7) | ~~[⏱️](#⏱️)[📏](#📏)~~ |
 | 하늘의 궤적 the 1st | `01001E9023920000` | `6656BA1B5B8AC30A` ([✅](SaltySD/plugins/FPSLocker/patches/01001E9023920000/6656BA1B5B8AC30A.yaml), v6, 1.0.6.1) | ~~[⏱️](#⏱️)[📏](#📏)~~ |
 | 空の軌跡 the 1st | `01004D20219E0000` | `4583D73E326FFE7B` ([✅](SaltySD/plugins/FPSLocker/patches/01004D20219E0000/4583D73E326FFE7B.yaml), v5, 1.0.6) <br> `90EAF9A228DEB038` ([✅](SaltySD/plugins/FPSLocker/patches/01004D20219E0000/90EAF9A228DEB038.yaml), v6, 1.0.7) | ~~[⏱️](#⏱️)[📏](#📏)~~ |
 | Trials of Mana | `0100D7800E9E0000` | `92C25172D38DFEDB` ([✅](SaltySD/plugins/FPSLocker/patches/0100D7800E9E0000/92C25172D38DFEDB.yaml), v3, 1.1.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
