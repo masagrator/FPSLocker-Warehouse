@@ -186,8 +186,8 @@ PATCH AVAILABILITY<br>
 | Bendy and the Dark Revival | `0100207021C3C000` | `E917F319E4233FCD` ([✅](SaltySD/plugins/FPSLocker/patches/0100207021C3C000/E917F319E4233FCD.yaml), v2, 1.6.4s) | ~~[📏](#📏)[📷](#📷)~~ |
 | Bendy and the Ink Machine | `0100D4C00C6C0000` | `DAC99B7AC6E59E49` (◯, v3, 2.0.2a) |  |
 | Bendy and the Ink Machine `US/JP` | `010074500BBC4000` | `BA2E0A56055639D7` (◯, v4, 2.0.3a) |  |
-| BEYBLADE X EVOBATTLE | `01009F002286E000` | `4047E0CB2AEDA36A` (◯, v13, 1.1.3) |  |
-| ベイブレードエックス エボバトル | `0100D9702286C000` | `A0E641C4675E0BC3` (◯, v14, 1.1.3) |  |
+| BEYBLADE X EVOBATTLE | `01009F002286E000` | `DDEFC6DCD96D056F` (◯, v9, 1.0.9) |  |
+| ベイブレードエックス エボバトル | `0100D9702286C000` | `963BB00BF48D6C09` (◯, v13, 1.1.2) |  |
 | BEYBLADE X XONE `EU/US` | `0100E2301FB1E000` | `7CDECA46F6E69ADF` (◯, v11, 1.0.12) |  |
 | BEYBLADE X XONE `ASIA` | `0100FC90205FE000` | `12C323F4E97912BB` (◯, v11, 1.0.12) |  |
 | ベイブレードエックス XONE | `0100E0901E2AA000` | `BEB69A37E9B16A56` (◯, v12, 1.0.12) |  |
@@ -313,7 +313,7 @@ PATCH AVAILABILITY<br>
 | Decay of Logos | `010027700FD2E000` | `B77B17D7A517384F` (◯, v1, 1.0.1) |  |
 | Deer & Boy | `0100A18021FCC000` | `A7056FF380DB1F26` ([✅](SaltySD/plugins/FPSLocker/patches/0100A18021FCC000/A7056FF380DB1F26.yaml), v1, 1.1.3) <br> `E00CCCDB4F5F435D` ([✅](SaltySD/plugins/FPSLocker/patches/0100A18021FCC000/E00CCCDB4F5F435D.yaml), v2, 1.1.4) <br> `3E5F01690365FBF4` ([✅](SaltySD/plugins/FPSLocker/patches/0100A18021FCC000/3E5F01690365FBF4.yaml), v3, 1.3.2) | ~~[🔐](#🔐)[🏃](#🏃)~~ |
 | Deliver Us The Moon | `010047401EA8E000` | `928AF9461536F5E3` ([✅](SaltySD/plugins/FPSLocker/patches/010047401EA8E000/928AF9461536F5E3.yaml), v0, 1.0.0) | ~~[📏](#📏)~~ |
-| DELTARUNE | `0100A0D022A68000` | `1B5B66A96DCA6E76` (❌, v10, 1.10) | [🔐](#🔐)[⏱️](#⏱️) |
+| DELTARUNE | `0100A0D022A68000` | `83614275C2376A7F` (❌, v8, 1.08) | [🔐](#🔐)[⏱️](#⏱️) |
 | DEMON GAZE EXTRA | `0100FCC0168FC000` | `58EE9A90F6FE6D4B` (❌, v2, 1.0.2) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | 데몬 게이즈 엑스트라 | `01000C30162A6000` | `A2919B047E388540` (❌, v4, 1.0.4) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | Demon Slayer -Kimetsu no Yaiba- Sweep the Board! | `0100A7101B806000` | `BCC955FF933FEF2E` ([✅](SaltySD/plugins/FPSLocker/patches/0100A7101B806000/BCC955FF933FEF2E.yaml), v8, 1.20) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
@@ -333,7 +333,7 @@ PATCH AVAILABILITY<br>
 | Detective - Rainy Night | `0100C47025F3A000` | `553262E59A96741B` ([✅](SaltySD/plugins/FPSLocker/patches/0100C47025F3A000/553262E59A96741B.yaml), v2, 1.0.2) | ~~[📏](#📏)[⏱️](#⏱️)[🔧](#🔧)~~ |
 | Detective - Stella Porta Case | `01005AB01DAD0000` | `50F47EC19A33A73E` ([✅](SaltySD/plugins/FPSLocker/patches/01005AB01DAD0000/50F47EC19A33A73E.yaml), v0, 1.0.0) | ~~[📏](#📏)[⏱️](#⏱️)[🔧](#🔧)~~ |
 | Detective Pikachu Returns | `010007500F27C000` | `A2A5ABEF988ABAA2` (◯, v0, 1.0.0) |  |
-| Diablo II: Resurrected | `0100726014352000` | `32153D9896AE0C7C` (◯, v34, 1.0.34.0) |  |
+| Diablo II: Resurrected | `0100726014352000` | `194361731C7B9F30` (◯, v33, 1.0.33.0) |  |
 | Diesel Legacy: The Brazen Age | `010076001F5DA000` | `DE2461E141ED0958` (❌, v4, 1.0.4) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️) |
 | Digimon Story Time Stranger | `010062E01FE0C000` | `8567DF0B7DC16822` ([✅](SaltySD/plugins/FPSLocker/patches/010062E01FE0C000/8567DF0B7DC16822.yaml), v3, 1.2.1) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Dinkum | `0100A5A020D5E000` | `84EA61B9C54E65FA` (◯, v6, 1.0.7.13) |  |
