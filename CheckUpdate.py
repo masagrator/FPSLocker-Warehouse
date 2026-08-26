@@ -58,25 +58,48 @@ def DownloadDatabase():
         elif DATA.database[array[0]] < version_value:
             DATA.database[array[0]] = version_value
 
-    # 3. Download cnmts.json to map Title IDs to Build IDs
+    # 3. Download and parse cnmts.json
     print("Downloading cnmts.json...")
     site2 = "https://github.com/blawar/titledb/raw/refs/heads/master/cnmts.json"
     request_site = Request(site2, headers={"User-Agent": "Mozilla/5.0"})
     raw_dump = urlopen(request_site).read().decode("UTF-8")
     cnmt_dump = json.loads(raw_dump)
 
-    for entry in cnmt_dump.values():
-        if not isinstance(entry, dict) or "buildId" not in entry or not entry["buildId"]:
-            continue
-        tid = entry.get("titleId", "").upper()
-        if not tid:
-            continue
-        bid = entry["buildId"][:16].upper()
+    def process_entry(tid, entry):
+        if not isinstance(entry, dict):
+            return
+        bid = entry.get("buildId") or entry.get("buildid") or entry.get("bid")
+        if not bid:
+            return
+        bid = str(bid)[:16].upper()
         ver = entry.get("version", 0)
-        ver = int(ver) // 65536 if ver and int(ver) >= 65536 else int(ver or 0)
+        try:
+            ver = int(ver)
+        except (ValueError, TypeError):
+            ver = 0
+        ver = ver // 65536 if ver >= 65536 else ver
 
+        tid = tid.upper()
         if tid not in DATA.cnmt_bids or ver >= DATA.cnmt_bids[tid]["version"]:
             DATA.cnmt_bids[tid] = {"version": ver, "bid": bid}
+
+    if isinstance(cnmt_dump, dict):
+        for key, val in cnmt_dump.items():
+            if len(key) == 16:
+                # Top level key is Title ID
+                if isinstance(val, dict):
+                    if any(k.lower() in ("buildid", "bid") for k in val.keys()):
+                        process_entry(key, val)
+                    else:
+                        for sub_val in val.values():
+                            process_entry(key, sub_val)
+                elif isinstance(val, list):
+                    for sub_val in val:
+                        process_entry(key, sub_val)
+            elif isinstance(val, dict):
+                tid = val.get("titleId") or val.get("titleid") or val.get("id")
+                if tid:
+                    process_entry(str(tid), val)
 
 print("Downloading database...")
 DownloadDatabase()
@@ -118,12 +141,16 @@ for line in file:
             print("---")
             continue
 
-    # Retrieve BID from cnmts.json (checks Update TID ending with '800' first, then Base TID)
+    # Retrieve BID (checks Update TID ...800, exact TID, and Base TID ...000)
     update_tid = titleid[:13] + "800"
+    base_tid = titleid[:13] + "000"
+
     if update_tid in DATA.cnmt_bids:
         newestBID = DATA.cnmt_bids[update_tid]["bid"]
     elif titleid in DATA.cnmt_bids:
         newestBID = DATA.cnmt_bids[titleid]["bid"]
+    elif base_tid in DATA.cnmt_bids:
+        newestBID = DATA.cnmt_bids[base_tid]["bid"]
     else:
         newestBID = "N/A"
 
