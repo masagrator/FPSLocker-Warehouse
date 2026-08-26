@@ -481,7 +481,7 @@ PATCH AVAILABILITY<br>
 | Garfield Kart 2 - All You Can Drift  | `0100DC9020B30000` | `42D27CE0955EDF99` ([✅](SaltySD/plugins/FPSLocker/patches/0100DC9020B30000/42D27CE0955EDF99.yaml), v3, 1.1.0) | ~~[📏](#📏)~~ |
 | Gas Station Simulator | `0100A2601720A000` | `DD6F5AF530CC2072` ([✅](SaltySD/plugins/FPSLocker/patches/0100A2601720A000/DD6F5AF530CC2072.yaml), v2, 1.1.6) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Gear.Club Unlimited | `010065E003FD8000` | `CD94FCB8CC23B24A` (◯, v2, 1.2.0) |  |
-| Gear.Club Unlimited 2 | `010072900AFF0000` | `FE757810B45C3444` ([✅](SaltySD/plugins/FPSLocker/patches/010072900AFF0000/FE757B10B45C3444.yaml), v14, 1.7.2) | ~~[🔐](#🔐)[📏](#📏)[🌤️](#🌤️)~~ |
+| Gear.Club Unlimited 2 | `010072900AFF0000` | `FE757B10B45C3444` ([✅](SaltySD/plugins/FPSLocker/patches/010072900AFF0000/FE757B10B45C3444.yaml), v14, 1.7.2) | ~~[🔐](#🔐)[📏](#📏)[🌤️](#🌤️)~~ |
 | GetsuFumaDen: Undying Moon | `010042A013DB8000` | `8683E654CCD68852` ([✅](SaltySD/plugins/FPSLocker/patches/010042A013DB8000/8683E654CCD68852.yaml), v2, 1.1.1) | ~~[📏](#📏)~~ |
 | Ghostbusters: Spirits Unleashed Ecto Edition | `01005D2016934000` | `49F6F257348A42A1` ([✅](SaltySD/plugins/FPSLocker/patches/01005D2016934000/49F6F257348A42A1.yaml), v8, 1.11.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Ghostbusters: The Video Game Remastered | `0100EAE00D9EC000` | `0FE6747D03EBA4E3` ([✅](SaltySD/plugins/FPSLocker/patches/0100EAE00D9EC000/0FE6747D03EBA4E3.yaml), v2, 1.2) | ~~[🔐](#🔐)[📏](#📏)~~ |
