@@ -670,8 +670,8 @@ PATCH AVAILABILITY<br>
 | Marvel Ultimate Alliance 3: The Black Order | `010060700AC50000` | `E853C44FDF18B88F` ([✅](SaltySD/plugins/FPSLocker/patches/010060700AC50000/E853C44FDF18B88F.yaml), v8, 4.0.1) | ~~[🔐](#🔐)[📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | Mary Skelter Finale | `0100530014438000` | `B1AFBB02475AD7E3` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
 | Märchen Forest | `01001B2012D5E000` | `7A7C634CDAFE7D42` (◯, v7, 1.0.7) |  |
-| Master Detective Archives: RAIN CODE `US` | `0100149019460000` | `F4685ACC91FEDB12` ([✅](SaltySD/plugins/FPSLocker/patches/01004800197F0000/F4685ACC91FEDB12.yaml), v7, 1.4.0) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
-| Master Detective Archives: RAIN CODE `GLOBAL` | `01004800197F0000` | `B9E42653FB44EF2B` ([✅](SaltySD/plugins/FPSLocker/patches/0100149019460000/B9E42653FB44EF2B.yaml), v7, 1.4.0) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
+| Master Detective Archives: RAIN CODE `US` | `0100149019460000` | `B9E42653FB44EF2B` ([✅](SaltySD/plugins/FPSLocker/patches/0100149019460000/B9E42653FB44EF2B.yaml), v7, 1.4.0) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
+| Master Detective Archives: RAIN CODE `GLOBAL` | `01004800197F0000` | `F4685ACC91FEDB12` ([✅](SaltySD/plugins/FPSLocker/patches/01004800197F0000/F4685ACC91FEDB12.yaml), v7, 1.4.0) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | 超探偵事件簿 レインコード | `0100F4401940A000` | `86DFF996CE04CC6A` (❌📌, v5, 1.4.0) | [🔐](#🔐)[🔧](#🔧) |
 | Masters of Anima | `0100CC7009196000` | `B1C8B55E8D400E57` (◯, v1, 1.0.1) |  |
 | Max: The Curse Of Brotherhood | `01001C9007614000` | `F99E70DF48B3DC49` (◯, v1, 1.0.1) |  |
