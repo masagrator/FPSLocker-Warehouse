@@ -190,13 +190,3 @@ for i in range(len(tid_keys)):
     print("\n")
 
 print("Script finished execution.")
-
-
-
-
-
-
-
-
-
-
