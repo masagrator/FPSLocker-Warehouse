@@ -7,12 +7,12 @@ on:
   push:
     branches:
       - v4
-  workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   validate-patches:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout PR branch
         uses: actions/checkout@v6
@@ -33,7 +33,13 @@ jobs:
         run: |
           git clone https://github.com/masagrator/FPSLocker.git FPSLocker
 
+      - name: Clone SaltyNX repository
+        run: |
+          git clone https://github.com/masagrator/SaltyNX.git SaltyNX
+
       - name: Build FPSLocker tester
+        env:
+          SALTYNX_PATH: ${{ github.workspace }}/SaltyNX
         run: |
           cd FPSLocker/tester
           python run.py
@@ -49,50 +55,68 @@ jobs:
         run: |
           PATCH_DIR="${GITHUB_WORKSPACE}/SaltySD/plugins/FPSLocker/patches"
           EXECUTABLE="${GITHUB_WORKSPACE}/FPSLocker/tester/my_program"
-          FAILED=0
-          
+
           if [ ! -d "$PATCH_DIR" ]; then
             echo "Error: Patches directory not found at $PATCH_DIR"
             exit 1
           fi
-          
-          # Find all .yaml files recursively
-          while IFS= read -r yaml_file; do
-            echo "Validating: $yaml_file"
-            
-            # Execute my_program with the yaml file path
-            if "$EXECUTABLE" "$yaml_file"; then
-              # Extract filename without extension
-              filename=$(basename "$yaml_file" .yaml)
-              
-              echo "Checking if '$filename' exists in the file with a leading space..."
-              
-              # Check if the filename (with a leading space) exists in the file
-              if grep -q " $filename" "$yaml_file"; then
-                echo "✓ Found ' $filename' in $yaml_file"
-              else
-                echo "✗ Error: ' $filename' not found in $yaml_file"
-                FAILED=1
-              fi
-            else
-              echo "Failed validation for: $yaml_file"
-              FAILED=1
-            fi
-          done < <(find "$PATCH_DIR" -type f -name "*.yaml")
-          
-          if [ $FAILED -eq 1 ]; then
-            echo "One or more patch files failed validation"
-            exit 1
-          fi
-          
-          echo "All patch files validated successfully"
 
-      - name: Report results
-        if: always()
-        run: |
-          if [ $? -eq 0 ]; then
-            echo "✓ PR validation passed"
-          else
-            echo "✗ PR validation failed"
+          TOTAL=0
+          FAILED=0
+          FAILED_LIST=""
+
+          # The tester writes test.bin next to the CWD, so give it a scratch dir.
+          WORKDIR="$(mktemp -d)"
+          cd "$WORKDIR"
+
+          while IFS= read -r yaml_file; do
+            TOTAL=$((TOTAL + 1))
+            filename=$(basename "$yaml_file" .yaml)
+            problem=""
+
+            # Compile the patch, then load and apply it through SaltyNX's patcher.
+            if ! output=$("$EXECUTABLE" "$yaml_file" 2>&1); then
+              problem="patch validation failed"
+            # The build ID must appear in the file, preceded by a space.
+            elif ! grep -q " $filename" "$yaml_file"; then
+              problem="build ID '$filename' not found in the file"
+              output=""
+            fi
+
+            if [ -n "$problem" ]; then
+              FAILED=$((FAILED + 1))
+              rel="${yaml_file#$GITHUB_WORKSPACE/}"
+              echo "::error file=$rel::$problem"
+              echo "FAIL $rel - $problem"
+              if [ -n "$output" ]; then
+                echo "$output" | sed 's/^/     /'
+              fi
+              FAILED_LIST="${FAILED_LIST}- \`$rel\` - $problem"$'\n'
+            fi
+          done < <(find "$PATCH_DIR" -type f -name "*.yaml" | sort)
+
+          PASSED=$((TOTAL - FAILED))
+          echo
+          echo "Validated $TOTAL patch file(s): $PASSED passed, $FAILED failed"
+
+          {
+            echo "## FPSLocker patch validation"
+            echo
+            echo "| Result | Count |"
+            echo "| --- | ---: |"
+            echo "| Passed | $PASSED |"
+            echo "| Failed | $FAILED |"
+            echo "| Total | $TOTAL |"
+            if [ "$FAILED" -ne 0 ]; then
+              echo
+              echo "### Failures"
+              echo
+              printf '%s' "$FAILED_LIST"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if [ "$FAILED" -ne 0 ]; then
             exit 1
           fi
+
+          echo "All patch files validated successfully"
