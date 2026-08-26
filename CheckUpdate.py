@@ -1,103 +1,217 @@
 import json
+import re
 import sys
-from pathlib import Path
+from urllib.request import Request, urlopen
+from github import Github
 
 
-def load_json(filepath):
+class DATA:
+    database = {}
+
+
+def DownloadDatabase():
+    g = Github()
     try:
-        with open(filepath, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError) as e:
-        print(f"[!] Error loading {filepath}: {e}")
-        return {}
+        repo = g.get_repo("blawar/titledb")
+    except:
+        print("Github API requests limit was achieved.")
+        print("We cannot check when last time file was updated.")
+    else:
+        commits = repo.get_commits(path="versions.txt")
+        print("Last titledb update (YYYY/MM/DD):")
+        print(commits[0].commit.committer.date)
+        print("\n---\n")
+    try:
+        repo = g.get_repo("masagrator/version_dump")
+    except:
+        print("Github API requests limit was achieved.")
+        print("We cannot check when last time file was updated.")
+    else:
+        commits = repo.get_commits(path="version_dump.txt")
+        print("Last version_dump update (YYYY/MM/DD):")
+        print(commits[0].commit.committer.date)
+        print("\n---\n")
+
+    site = "https://github.com/blawar/titledb/raw/master/versions.txt"
+    request_site = Request(site, headers={"User-Agent": "Mozilla/5.0"})
+    text = urlopen(request_site).read().decode("ascii").split("\n")
+    for line in text:
+        if line.find("id") != -1:
+            continue
+        array = line.rstrip("\n").rstrip("\r").split("|")
+        if len(array) < 3 or array[2] == "":
+            continue
+        DATA.database[array[0]] = int(int(array[2]) / 65536)
+
+    site = "https://raw.githubusercontent.com/masagrator/version_dump/refs/heads/main/version_dump.txt"
+    request_site = Request(site, headers={"User-Agent": "Mozilla/5.0"})
+    text = urlopen(request_site).read().decode("ascii").split("\n")
+    for line in text:
+        if line.find("id") != -1:
+            continue
+        array = line.rstrip("\n").rstrip("\r").split("|")
+        if len(array) < 3 or array[2] == "":
+            continue
+        version_value = int(int(array[2]) / 65536)
+        if array[0] not in DATA.database:
+            DATA.database[array[0]] = version_value
+        elif DATA.database[array[0]] < version_value:
+            DATA.database[array[0]] = version_value
 
 
-def extract_build_id(entry):
-    """Extracts and standardizes the 32-character Build ID from a program NCA entry."""
-    # Only Program NCAs (Type 1) contain executable Build IDs
-    if entry.get("type") != 1:
-        return None
+print("Downloading database...")
+DownloadDatabase()
 
-    raw_id = entry.get("buildId")
-    if not raw_id:
-        return None
+with open("README.md", "r", encoding="UTF-8") as file:
+    readme_dump = file.readlines()
 
-    # Truncate 64-character padded string to standard 32-char hex and lowercase
-    clean_id = str(raw_id)[:32].lower()
+for line in readme_dump:
+    if line.find("| `0100") == -1:
+        continue
+    gameTitle = line.split("|")[1]
+    pos = line.find("| `0100") + 3
+    titleid = line[pos : pos + 16].upper()
+    if titleid[15:16] != "0":
+        continue
+    versionColumn = line.split("|")[3]
 
-    # Filter out empty or zeroed Build IDs
-    if clean_id == "0" * 32 or not clean_id:
-        return None
+    # Robust extraction of version number regardless of string length
+    version_matches = re.findall(r"v(\d+)", versionColumn)
+    if not version_matches:
+        continue
+    version = int(version_matches[-1])
 
-    return clean_id
+    try:
+        latestUpdate = DATA.database[titleid[:13] + "800"]
+    except KeyError:
+        try:
+            latestUpdate = DATA.database[titleid]
+        except KeyError:
+            print(f"Titleid not found: {titleid}")
+            print(f"Title:{gameTitle}")
+            print("---")
+            continue
 
+    if version != latestUpdate:
+        print(titleid)
+        print(f"Title:{gameTitle}")
+        print(f"Newest update: v{latestUpdate}")
+        print(f"Latest patch: v{version}")
+        if line.count("`0100") > 1:
+            print("Game has more than one titleid! Possible mismatch")
+        print("---")
 
-def process_cnmts(cnmts_data):
-    """Parses cnmts.json data into a structured lookup dictionary."""
-    parsed_titles = {}
+print("------------------------\n")
+print("Searching for duplicated BIDs...")
 
-    for title_id, versions in cnmts_data.items():
-        clean_tid = title_id.lower()
-        parsed_titles[clean_tid] = {}
+site2 = "https://github.com/blawar/titledb/raw/refs/heads/master/cnmts.json"
 
-        for version_key, meta in versions.items():
-            version_num = int(meta.get("version", version_key))
-            build_ids = []
+print("Downloading cnmts.json...")
+request_site = Request(site2, headers={"User-Agent": "Mozilla/5.0"})
+raw_dump = urlopen(request_site).read().decode("UTF-8")
+print("Downloading finished.")
+DUMP = json.loads(raw_dump)
 
-            for entry in meta.get("contentEntries", []):
-                bid = extract_build_id(entry)
-                if bid:
-                    build_ids.append(bid)
+BIDS = {}
 
-            parsed_titles[clean_tid][version_num] = {
-                "version": version_num,
-                "buildIds": build_ids if build_ids else ["n/a"],
-                "meta": meta,
-            }
+for line in readme_dump:
+    if line.find("| `0100") == -1:
+        continue
+    gameTitle = line.split("|")[1]
+    pos = line.find("| `0100") + 3
+    titleid = line[pos : pos + 16].upper()
+    if titleid[15:16] != "0":
+        continue
+    versionColumn = line.split("|")[3]
+    pos2 = versionColumn.find(" `") + 2
+    pos = versionColumn.find(", v") + 3
+    BID = versionColumn[pos2 : pos2 + 16].upper()
 
-    return parsed_titles
+    if versionColumn.find("<br>") != -1:
+        pos = versionColumn.rfind("<br>")
+        pos2 = versionColumn.find(" `", pos) + 2
+        BID = versionColumn[pos2 : pos2 + 16].upper()
 
+    BIDS[BID] = BIDS.get(BID, 0) + 1
 
-def check_updates(cnmts_path, titledb_path):
-    cnmts_data = load_json(cnmts_path)
-    titledb_data = load_json(titledb_path)
+BIDS_NOT_ENOUGH = []
+keys = list(BIDS.keys())
+len_keys = len(keys)
 
-    if not cnmts_data:
-        print("[!] No valid CNMT data found to check.")
-        return
+for i in range(len_keys):
+    if i % 100 == 0:
+        print("Step 1/3: %d/%d" % (i, len_keys), end="\r")
+    count = raw_dump.count('"%s' % keys[i])
+    if count > BIDS[keys[i]]:
+        BIDS_NOT_ENOUGH.append(keys[i])
 
-    parsed_cnmts = process_cnmts(cnmts_data)
+# Step 2/3: Parse nested cnmts.json to map Build IDs to Title IDs
+TIDS = {}
+dump_items = list(DUMP.items())
+len_dump = len(dump_items)
 
-    print(f"\n{'Title ID':<18} | {'Latest Ver':<10} | {'Build ID':<34} | {'Status'}")
-    print("-" * 80)
+for i, (title_id, versions) in enumerate(dump_items):
+    if i % 10000 == 0:
+        print("Step 2/3: %d/%d" % (i, len_dump), end="\r")
 
-    for title_id, versions in parsed_cnmts.items():
-        # Find the highest version present in local CNMT
-        latest_version = max(versions.keys())
-        ver_data = versions[latest_version]
+    base_tid = title_id[:13].upper() + "000"
 
-        build_id_str = (
-            ver_data["buildIds"][0] if ver_data["buildIds"] else "n/a"
-        )
+    if isinstance(versions, dict):
+        for ver_key, ver_data in versions.items():
+            if isinstance(ver_data, dict):
+                entries = ver_data.get("contentEntries", [])
+                for entry in entries:
+                    bid = entry.get("buildId")
+                    if bid:
+                        bid_16 = str(bid)[:16].upper()
+                        if bid_16 not in TIDS:
+                            TIDS[bid_16] = [base_tid]
+                        elif base_tid not in TIDS[bid_16]:
+                            TIDS[bid_16].append(base_tid)
 
-        # Compare against TitleDB if available
-        remote_info = titledb_data.get(title_id, {})
-        remote_latest_ver = int(remote_info.get("version", 0))
+TIDS_found = {}
+len_bid_keys = len(BIDS_NOT_ENOUGH)
 
-        if remote_latest_ver > latest_version:
-            status = f"Update Available (v{remote_latest_ver})"
-        elif remote_latest_ver == latest_version:
-            status = "Up to date"
-        else:
-            status = "Local version newer / Unknown"
+for i in range(len_bid_keys):
+    if i % 100 == 0:
+        print("Step 3/3: %d/%d" % (i, len_bid_keys), end="\r")
+    bid = BIDS_NOT_ENOUGH[i]
+    if bid not in TIDS or len(TIDS[bid]) == 1:
+        continue
+    count = BIDS[bid]
+    if readme_dump.count(bid) != count:
+        TIDS_found[bid] = TIDS[bid]
 
-        print(
-            f"{title_id:<18} | v{latest_version:<9} | {build_id_str:<34} | {status}"
-        )
+print("                                                 ")
 
+BLACKLIST = [
+    "E4F041624093998D",
+    "937209E79E2E0E5D",
+    "473D222EB1BDAD47",
+    "217C9ECF258C0312",
+    "DFC7E8979528DE44",
+    "2284DFB25F387719",
+    "0F73F1D52820F90B",
+    "6D9EA94F8AAC00A8",
+    "3749BFEA64DC98DF",
+    "AA9BF85240409E60",
+    "4BC4A8A814FD46A4",
+    "B151A224A429F9A7",
+    "D27FD8A515077F34",
+    "33DBE39C8A83F1E6",
+    "A8C6A84FBCF08724",
+    "372AB37327DB2C31",
+    "11D7F970861DFA66",
+    "39467922663ACFBC",
+]
 
-if __name__ == "__main__":
-    cnmts_file = "cnmts.json"
-    titledb_file = "titledb.json"
+tid_keys = list(TIDS_found.keys())
+for i in range(len(tid_keys)):
+    if tid_keys[i] in BLACKLIST:
+        continue
+    print("BID:", tid_keys[i])
+    for x in range(len(TIDS_found[tid_keys[i]])):
+        print("TID %d: %s" % (x, TIDS_found[tid_keys[i]][x]))
+    print("\n")
 
-    check_updates(cnmts_file, titledb_file)
+print("Script finished execution.")
