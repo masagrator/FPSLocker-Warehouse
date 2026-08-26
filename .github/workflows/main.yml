@@ -12,11 +12,21 @@ jobs:
     runs-on: ubuntu-slim
 
     steps:
+      # 1. Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout Repository
+        uses: actions/checkout@v6
+
+      # 2. Set up the newest Python 3 version
       - name: Set up Python 3
         uses: actions/setup-python@v6
         with:
           python-version: '3.14'
 
+      # 3. Install the newest Git client
+      - name: Install newest PyGithub
+        run: |
+          pip install PyGithub
+
       # 5. Run your Python script
       - name: Check game updates, look at result here
-        run: python -u CheckUpdate.py --check-warehouse
+        run: python -u CheckUpdate.py
