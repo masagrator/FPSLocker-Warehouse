@@ -1068,7 +1068,7 @@ PATCH AVAILABILITY<br>
 | System Shock | `0100F18023E72000` | `86D7747720E11817` ([✅](SaltySD/plugins/FPSLocker/patches/0100F18023E72000/86D7747720E11817.yaml), v3, 2.1.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Tails Noir | `01006DC012B00000` | `EAAB46ED1E4989C0` ([✅](SaltySD/plugins/FPSLocker/patches/01006DC012B00000/EAAB46ED1E4989C0.yaml), v1, 1.0.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Tails of Iron | `0100EF3013F60000` | `6A28EE5E39F76B6A` (◯, v4, 5) |  |
-| Tails of Iron 2: Whiskers of Winter | `01002A701DB9E000` | `435907EA16A90FC5` (◯, v5, 2.4) |  |
+| Tails of Iron 2: Whiskers of Winter | `01002A701DB9E000` | `E8AEBBE1FBD80A5F` (◯, v6, 2.5) |  |
 | Tales from the Borderlands | `0100F0C011A68000` | `818C98B885460561` (◯, v0, 1.0.0) |  |
 | Tales of Berseria Remastered | `0100C2801F22C000` | `F4DB705AA11D45F3` ([✅](SaltySD/plugins/FPSLocker/patches/0100C2801F22C000/F4DB705AA11D45F3.yaml), v2, 1.0.2) <br> `290D5939C6671566` ([✅](SaltySD/plugins/FPSLocker/patches/0100C2801F22C000/290D5939C6671566.yaml), v3, 1.0.4) <br> `7CE7738C90E39908` ([✅](SaltySD/plugins/FPSLocker/patches/0100C2801F22C000/7CE7738C90E39908.yaml), v4, 1.0.5) | ~~[🔐](#🔐)[⏱️](#⏱️)~~ 🔢 |
 | Tales of Berseria Remastered `US` | `010008801F228000` | `F4DB705AA11D45F3` ([✅](SaltySD/plugins/FPSLocker/patches/010008801F228000/F4DB705AA11D45F3.yaml), v2, 1.0.2) <br> `290D5939C6671566` ([✅](SaltySD/plugins/FPSLocker/patches/010008801F228000/290D5939C6671566.yaml), v3, 1.0.4) | ~~[🔐](#🔐)[⏱️](#⏱️)~~ 🔢 |
