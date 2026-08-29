@@ -414,7 +414,7 @@ PATCH AVAILABILITY<br>
 | Fairy Tail 2 | `0100B9801F872000` | `007EA5E2E2541C6F` ([✅](SaltySD/plugins/FPSLocker/patches/0100B9801F872000/007EA5E2E2541C6F.yaml), v8, 1.4.2) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Fallout Shelter | `010043500A17A000` | `196C9038A4445F4C` (◯, v2, 1.0.2) |  |
 | Family Feud | `010060200FC44000` | `45EDF909AE2A3A41` (◯, v2, 1.1) |  |
-| FANTASY LIFE i: The Girl Who Steals Time | `0100755017EE0000` | `26CE9F3CC0393826` ([✅](SaltySD/plugins/FPSLocker/patches/0100755017EE0000/26CE9F3CC0393826.yaml), v12, 2.1.2) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
+| FANTASY LIFE i: The Girl Who Steals Time | `0100755017EE0000` | `26CE9F3CC0393826` ([✅](SaltySD/plugins/FPSLocker/patches/0100755017EE0000/26CE9F3CC0393826.yaml), v12, 2.1.2) <br> `6E4502B822CB1204` ([✅](SaltySD/plugins/FPSLocker/patches/0100755017EE0000/6E4502B822CB1204.yaml), v14, 2.2.0) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | Farmagia | `01002C101E2C4000` | `32E79F7A83531FFC` (◯, v1, 1.0.1) |  |
 | FAR: Changing Tides | `01008A0014A92000` | `7041BC78D64745A1` (◯, v2, 1.2.0) |  |
 | FAR: Lone Sails | `010022700E7D6000` | `CE59C773211A1A49` (◯, v0, 1.0.0) <br> `8FD06AB8DA27EC40` (◯, v1, 1.3) |  |
