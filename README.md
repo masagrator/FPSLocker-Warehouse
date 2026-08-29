@@ -184,8 +184,8 @@ PATCH AVAILABILITY<br>
 | Beholder 3 | `0100BEE01948E000` | `A3416631954C56C8` ([✅](SaltySD/plugins/FPSLocker/patches/0100BEE01948E000/A3416631954C56C8.yaml), v1, 1.0.1) | ~~[📏](#📏)~~ |
 | Bendy: Lone Wolf | `010071B022A36000` | `42555F20B7CF4718` (◯, v4, 2.0.8) |  |
 | Bendy and the Dark Revival | `0100207021C3C000` | `E917F319E4233FCD` ([✅](SaltySD/plugins/FPSLocker/patches/0100207021C3C000/E917F319E4233FCD.yaml), v2, 1.6.4s) | ~~[📏](#📏)[📷](#📷)~~ |
-| Bendy and the Ink Machine | `0100D4C00C6C0000` | `DAC99B7AC6E59E49` (◯, v3, 2.0.2a) |  |
-| Bendy and the Ink Machine `US/JP` | `010074500BBC4000` | `BA2E0A56055639D7` (◯, v4, 2.0.3a) |  |
+| Bendy and the Ink Machine | `0100D4C00C6C0000` | `8852A1C8D61310B9` (◯, v4, 2.1.0a) |  |
+| Bendy and the Ink Machine `US/JP` | `010074500BBC4000` | `4FF3BB3E51E4B4B7` (◯, v5, 2.1.0a) |  |
 | BEYBLADE X EVOBATTLE | `01009F002286E000` | `DDEFC6DCD96D056F` (◯, v9, 1.0.9) |  |
 | ベイブレードエックス エボバトル | `0100D9702286C000` | `963BB00BF48D6C09` (◯, v13, 1.1.2) |  |
 | BEYBLADE X XONE `EU/US` | `0100E2301FB1E000` | `7CDECA46F6E69ADF` (◯, v11, 1.0.12) |  |
