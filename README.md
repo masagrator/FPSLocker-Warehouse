@@ -763,7 +763,7 @@ PATCH AVAILABILITY<br>
 | Nickelodeon All-Star Brawl 2 | `010010701AFB2000` | `533BE14853365083` (◯, v14, 1.14.0) |  |
 | Nickelodeon Kart Racers 3 | `01003BA01575E000` | `EF2694EA89E001DB` ([✅](SaltySD/plugins/FPSLocker/patches/01003BA01575E000/EF2694EA89E001DB.yaml), v2, 0.3.2.15969) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Nice Day for Fishing | `010074C021210000` | `1A371F609F4B6172` ([✅](SaltySD/plugins/FPSLocker/patches/010074C021210000/1A371F609F4B6172.yaml), v7, 1.0.7) | ~~[📷](#📷)~~ |
-| Nicktoons & The Dice of Destiny | `0100668022DF4000` | `DCBCB511177F87F6` ([✅](SaltySD/plugins/FPSLocker/patches/0100668022DF4000/DCBCB511177F87F6.yaml), v3, 1.3.0) | ~~[🔧](#🔧)~~ |
+| Nicktoons & The Dice of Destiny | `0100668022DF4000` | `DCBCB511177F87F6` ([✅](SaltySD/plugins/FPSLocker/patches/0100668022DF4000/DCBCB511177F87F6.yaml), v3, 1.3.0) <br> `9EC3012250F0D0B7` ([✅](SaltySD/plugins/FPSLocker/patches/0100668022DF4000/9EC3012250F0D0B7.yaml), v4, 1.4.0) | ~~[🔧](#🔧)~~ |
 | NieR:Automata `ASIA` | `0100B8E016F76000` | `98397A1041989465` ([✅](SaltySD/plugins/FPSLocker/patches/0100B8E016F76000/98397A1041989465.yaml), v2, 1.0.3) | ~~[📏](#📏)~~ |
 | NieR:Automata `GLOBAL` | `010056B015FE8000` | `3C10EC35C5EF4C36` ([✅](SaltySD/plugins/FPSLocker/patches/010056B015FE8000/3C10EC35C5EF4C36.yaml), v2, 1.0.3) | ~~[📏](#📏)~~ |
 | Nights Of Azure 2: Bride of the New Moon | `0100628004BCE000` | `81DA4F9E1E961CA6` ([✅](SaltySD/plugins/FPSLocker/patches/0100628004BCE000/81DA4F9E1E961CA6.yaml), v1, 1.0.1) | ~~[⚔️](#⚔️)~~ |
