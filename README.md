@@ -238,6 +238,7 @@ PATCH AVAILABILITY<br>
 | Call of Sentinels | `0100DC2020C50000` | `4A64A3713EEA60CA` ([✅](SaltySD/plugins/FPSLocker/patches/0100DC2020C50000/4A64A3713EEA60CA.yaml), v0, 1.0.1.7) | ~~[🛑](#🛑)~~ |
 | Call of the Sea | `010091102424A000` | `FA5ADB594BCE0C88` ([✅](SaltySD/plugins/FPSLocker/patches/010091102424A000/FA5ADB594BCE0C88.yaml), v0, 1.0.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Candleman | `010034400CB5E000` | `926DB1056F50372A` (◯, v3, 1.0.3) |  |
+| CAPTAIN TSUBASA 2: WORLD FIGHTERS | `01009720213B0000` | `A91A62F1EF498080` (◯, v2, 1.0.2) |  |
 | Card-en-Ciel | `0100E6B01BD3A000` | `D072AD5F9C249041` ([✅](SaltySD/plugins/FPSLocker/patches/0100E6B01BD3A000/D072AD5F9C249041.yaml), v18, 1.9.1) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~[⚔️](#⚔️) |
 | Cars 3: Driven to Win | `0100744001588000` | `6E191829548C2A41` (❌, v2, 1.0.2) | [⚔️](#⚔️) |
 | Cars 3: Driven to Win `US` | `01008D1001512000` | `6E191829548C2A41` (❌, v2, 1.0.2) | [⚔️](#⚔️) |
