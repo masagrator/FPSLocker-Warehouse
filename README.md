@@ -1113,7 +1113,7 @@ PATCH AVAILABILITY<br>
 | The Elder Scrolls V: Skyrim `JPN` | `010028D005A3C000` | `0C0CAC3FCF0F0BEB` ([✅](SaltySD/plugins/FPSLocker/patches/010028D005A3C000/0C0CAC3FCF0F0BEB.yaml), v6, 1.1.404.0) | ~~[📏](#📏)~~ |
 | The Entropy Centre | `0100DDD01ACAA000` | `7AF502E140C13759` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
 | The Escapists 2 | `0100CA100489C000` | `A6B724569BC27D41` (◯, v3, 1.3.0) |  |
-| The Exit 8 | `01003BF01E940000` | `5346BDF1EEC2BA4C` ([✅](SaltySD/plugins/FPSLocker/patches/01003BF01E940000/5346BDF1EEC2BA4C.yaml), v9, 1.0.9) | ~~[📏](#📏)[🔧](#🔧)~~ |
+| The Exit 8 | `01003BF01E940000` | `5346BDF1EEC2BA4C` ([✅](SaltySD/plugins/FPSLocker/patches/01003BF01E940000/5346BDF1EEC2BA4C.yaml), v10, 1.1.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | The Forest Quartet | `010010A01BBF4000` | `47A022F858BA09B1` ([✅](SaltySD/plugins/FPSLocker/patches/010010A01BBF4000/47A022F858BA09B1.yaml), v2, 4.0.2) | ~~[📏](#📏)~~ |
 | The friends of Ringo Ishikawa | `010030700CBBC000` | `3749BFEA64DC98DF` (❌, v3, 1.0.3) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️) |
 | The Great Ace Attorney Chronicles `GLOBAL` | `010036E00FB20000` | `1DA748FC9499882F` ([✅](SaltySD/plugins/FPSLocker/patches/010036E00FB20000/1DA748FC9499882F.yaml), v0, 1.0.0) | ~~[🔐](#🔐)~~ |
