@@ -937,6 +937,7 @@ PATCH AVAILABILITY<br>
 | S.T.A.L.K.E.R.: Call of Prypiat | `010008E01E32A000` | `AD4CBC4878008E1E` ([✅](SaltySD/plugins/FPSLocker/patches/010008E01E32A000/AD4CBC4878008E1E.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | S.T.A.L.K.E.R.: Clear Sky | `010027B01E32C000` | `C7E4E6F4167C8E3A` ([✅](SaltySD/plugins/FPSLocker/patches/010027B01E32C000/C7E4E6F4167C8E3A.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | S.T.A.L.K.E.R.: Shadow Of Chornobyl | `01004A001E32E000` | `F7D1E815E44D0A56` ([✅](SaltySD/plugins/FPSLocker/patches/01004A001E32E000/F7D1E815E44D0A56.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[📏](#📏)~~ |
+| Sacred 2 | `010074402766A000` | `3471ED7EE80D9A1A` ([✅](SaltySD/plugins/FPSLocker/patches/010074402766A000/3471ED7EE80D9A1A.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
 | SaGa Emerald Beyond | `01008BE01E1C2000` | `9FD4FB446CEDB012` (◯, v4, 1.04) |  |
 | Sakuna: Of Rice and Ruin | `0100B1500EF32000` | `A4F17AB0C365545B` (◯, v9, 1.0.9) |  |
 | Sakuna: Of Rice and Ruin `US` | `0100B1400E8FE000` | `A4F17AB0C365545B` (◯, v9, 1.0.9) |  |
