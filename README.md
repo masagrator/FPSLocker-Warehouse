@@ -1358,7 +1358,7 @@ PATCH AVAILABILITY<br>
 | - 모두의 골프 월드<br>- 全民高爾夫 環球之旅 | `0100422020BC4000` | `A179DD4F4BFB3A04` ([✅](SaltySD/plugins/FPSLocker/patches/0100422020BC4000/A179DD4F4BFB3A04.yaml), v4, 1.1.3) <br> `C2D14E1A5A788D6A` ([✅](SaltySD/plugins/FPSLocker/patches/0100422020BC4000/C2D14E1A5A788D6A.yaml), v5, 1.1.4) <br> `7B51DC4B113F4F52` ([✅](SaltySD/plugins/FPSLocker/patches/0100422020BC4000/7B51DC4B113F4F52.yaml), v8, 1.1.7) | ~~[📏](#📏)~~ |
 | Hot Blood | `01006FC01B540000` | `B91475B2ADE6F74D` ([✅](SaltySD/plugins/FPSLocker/patches/01006FC01B540000/B91475B2ADE6F74D.yaml), v1, 1.0.1) | ~~[📏](#📏)~~ |
 | Jumanji | `0100B4D00C76E000` | `54E9C7460334EEB4` ([✅](SaltySD/plugins/FPSLocker/patches/0100B4D00C76E000/54E9C7460334EEB4.yaml), v1, 1.0.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
-| Little Goody Two Shoes | `010036E019EA2000` | `B9F02B03CE485DCA` ([✅](SaltySD/plugins/FPSLocker/patches/010036E019EA2000/6895FE7D0D1B8E2F.yaml), v0, 1.0.5) | ~~[📷](#📷)~~ |
+| Little Goody Two Shoes | `010036E019EA2000` | `6895FE7D0D1B8E2F` ([✅](SaltySD/plugins/FPSLocker/patches/010036E019EA2000/6895FE7D0D1B8E2F.yaml), v0, 1.0.5) | ~~[📷](#📷)~~ |
 | Misc. A Tiny Tale | `0100A5E014196000` | `D24A46A2618C9E38` ([✅](SaltySD/plugins/FPSLocker/patches/0100A5E014196000/D24A46A2618C9E38.yaml), v6, 1.0.5) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Mortal Shell | `0100154019A7C000` | `6D9F6C7B79F5197F` ([✅](SaltySD/plugins/FPSLocker/patches/0100154019A7C000/6D9F6C7B79F5197F.yaml), v2, 1.2.0) | ~~[📏](#📏)~~ |
 | MudRunner - American Wilds Edition | `01009D200952E000` | `028C5AB881F17582` ([✅](SaltySD/plugins/FPSLocker/patches/01009D200952E000/028C5AB881F17582.yaml), v2, 4.5) | ~~[📏](#📏)~~ |
