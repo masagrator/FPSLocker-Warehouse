@@ -840,7 +840,7 @@ PATCH AVAILABILITY<br>
 | Phantom Brave: The Lost Hero | `01000AE01E316000` | `5CBE310E8D25E740` ([✅](SaltySD/plugins/FPSLocker/patches/01000AE01E316000/5CBE310E8D25E740.yaml), v5, 1.24) | ~~[📏](#📏)~~ |
 | Pikmin 1 | `0100AA80194B0000` | `3A8E744D8F65CDEA` ([✅](SaltySD/plugins/FPSLocker/patches/0100AA80194B0000/3A8E744D8F65CDEA.yaml), v1, 1.1.0) | ~~[🔐](#🔐)[📺](#📺)~~ |
 | Pikmin 2 | `0100D680194B2000` | `9A257FAB83444214` ([✅](SaltySD/plugins/FPSLocker/patches/0100D680194B2000/9A257FAB83444214.yaml), v1, 1.1.0) | ~~[🔐](#🔐)[📺](#📺)~~ |
-| Pikmin 3 Deluxe | `0100F4C009322000` | `D467F5AD367BBEE8` (❌, v4, 1.1.3) | [⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️) |
+| Pikmin 3 Deluxe | `0100F4C009322000` | `D467F5AD367BBEE8` (❌, v5, 1.2.0) | [⚔️](#⚔️)[⏱️](#⏱️)[🖥️](#🖥️) |
 | Pikmin 4 | `0100B7C00933A000` | `060F827BD2B38703` (❌, v4, 1.1.1) | [📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢) |
 | PixARK | `0100CC700B2B4000` | `32B8DF89E535639A` ([✅](SaltySD/plugins/FPSLocker/patches/0100CC700B2B4000/32B8DF89E535639A.yaml), v4, 1.4.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | PJ Masks Power Heroes: Mighty Alliance | `0100FE301A2B4000` | `A91A7BB200C51B01` (◯, v1, 1.0.1) |  |
