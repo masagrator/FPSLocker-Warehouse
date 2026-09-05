@@ -784,7 +784,7 @@ PATCH AVAILABILITY<br>
 | OCTOPATH TRAVELER `JPN` | `0100E66006406000` | `AA4277E6A92FEBE6` ([✅](SaltySD/plugins/FPSLocker/patches/0100E66006406000/AA4277E6A92FEBE6.yaml), v4, 1.0.4) | ~~[🔐](#🔐)~~ |
 | 歧路旅人 | `01000E200DC58000` | `9E6B0D0023F9DB3B` ([✅](SaltySD/plugins/FPSLocker/patches/01000E200DC58000/9E6B0D0023F9DB3B.yaml), v3, 1.0.5) | ~~[🔐](#🔐)~~ |
 | OCTOPATH TRAVELER 0 | `01005270232F2000` | `9FE60A212CFF9B9A` ([✅](SaltySD/plugins/FPSLocker/patches/01005270232F2000/9FE60A212CFF9B9A.yaml), v5, 1.0.5) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
-| - 옥토패스 트래블러 0<br>- 歧路旅人0 | `01001300232F4000` | `C7C4E3FE091EB9A0` ([✅](SaltySD/plugins/FPSLocker/patches/01001300232F4000/C7C4E3FE091EB9A0.yaml), v4, 1.0.4) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
+| - 옥토패스 트래블러 0<br>- 歧路旅人0 | `01001300232F4000` | `C7C4E3FE091EB9A0` ([✅](SaltySD/plugins/FPSLocker/patches/01001300232F4000/C7C4E3FE091EB9A0.yaml), v4, 1.0.4) <br> `E3E401C28D9FD3B1` ([✅](SaltySD/plugins/FPSLocker/patches/01001300232F4000/E3E401C28D9FD3B1.yaml), v5, 1.0.5) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | OCTOPATH TRAVELER II | `0100A3501946E000` | `0D9649011312F62E` ([✅](SaltySD/plugins/FPSLocker/patches/0100A3501946E000/0D9649011312F62E.yaml), v2, 1.1.1) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | Oddworld: Soulstorm | `0100D210177C6000` | `9510D677DCCE4447` ([✅](SaltySD/plugins/FPSLocker/patches/0100D210177C6000/9510D677DCCE4447.yaml), v3, 1.1.3) | ~~[📏](#📏)~~ |
 | Off the Road Unleashed | `010045C0112F8000` | `5E8316D212D6D7BD` (◯, v1, 1.0.1) |  |
