@@ -1114,6 +1114,7 @@ PATCH AVAILABILITY<br>
 | The Dark Pictures Anthology: Little Hope | `010084F017B32000` | `2BFF5F7711EE6C9F` ([✅](SaltySD/plugins/FPSLocker/patches/010084F017B32000/2BFF5F7711EE6C9F.yaml), v0, 1.0.0) | ~~[🔐](#🔐)~~ | 
 | The Dark Pictures Anthology: Man of Medan | `0100711017B30000` | `2C7A626BA5F25D5F` ([✅](SaltySD/plugins/FPSLocker/patches/0100711017B30000/2C7A626BA5F25D5F.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
 | The Dark Pictures Anthology: マン・オブ・メダン | `0100DB1017CDC000` | `2C7A626BA5F25D5F` ([✅](SaltySD/plugins/FPSLocker/patches/0100DB1017CDC000/2C7A626BA5F25D5F.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
+| The DioField Chronicle | `010032B015D66000` | `742C48981DBC4F2C` ([✅](SaltySD/plugins/FPSLocker/patches/010032B015D66000/742C48981DBC4F2C.yaml), v2, 1.2.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | The Elder Scrolls V: Skyrim | `01000A10041EA000` | `0C0CAC3FCF0F0BEB` ([✅](SaltySD/plugins/FPSLocker/patches/01000A10041EA000/0C0CAC3FCF0F0BEB.yaml), v6, 1.1.404.0) | ~~[📏](#📏)~~ |
 | The Elder Scrolls V: Skyrim `JPN` | `010028D005A3C000` | `0C0CAC3FCF0F0BEB` ([✅](SaltySD/plugins/FPSLocker/patches/010028D005A3C000/0C0CAC3FCF0F0BEB.yaml), v6, 1.1.404.0) | ~~[📏](#📏)~~ |
 | The Entropy Centre | `0100DDD01ACAA000` | `7AF502E140C13759` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
