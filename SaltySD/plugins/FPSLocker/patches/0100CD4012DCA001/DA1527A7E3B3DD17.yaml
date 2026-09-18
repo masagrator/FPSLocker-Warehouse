@@ -1,5 +1,5 @@
-# 三國志14 with パワーアップキット 1.1.1
-# BID: 0C5CBA5E5DED6FDD
+# 三國志14 with 威力加強版 1.1.1
+# BID: DA1527A7E3B3DD17
 # Cursor speed is tied to framerate, main menu animations speed is not adjusted properly in range from 35 to 55 FPS
 
 DECLARATIONS:
@@ -27,7 +27,7 @@ MASTER_WRITE:
   # Redirect adjusting game speed to FPS Lock, REF: 20 79 68 BC 01 10 2E 1E 00 D8 21 7E, patch ADRP + ADD above it
   -
     type: asm_a64
-    main_offset: 0xB8F878
+    main_offset: 0xB8F568
     instructions: [
       [adrp, x9, $fps_lock],
       [add, x9, x9, $fps_lock]
@@ -35,7 +35,7 @@ MASTER_WRITE:
   # Redirect FPS Lock, REF: C8 32 40 B9 E8 C2 00 B9, patch CBNZ + LDR
   -
     type: asm_a64
-    main_offset: 0x896D70
+    main_offset: 0x896DE0
     instructions: [
       [adrp, x8, $fps_lock],
       [ldr, w8, [x8, $fps_lock]]
@@ -43,7 +43,7 @@ MASTER_WRITE:
   # Redirect game speed, REF: 00 28 21 1E 00 A0 00 BD C0 03 5F D6
   -
     type: asm_a64
-    main_offset: 0x111198C
+    main_offset: 0x1116D8C
     instructions: [
       [adrp, x8, $game_speed],
       [ldr, s0, [x0, 0xa0]],
@@ -52,7 +52,7 @@ MASTER_WRITE:
 ALL_FPS:
   - # Adjust min delta for menus, 0 - 30 FPS, 1 - 60 FPS, REF: 20 79 68 BC 01 10 2E 1E 00 D8 21 7E, ADRP + LDR above
     type: evaluate_write
-    address: [MAIN, 0x25512A0]
+    address: [MAIN, 0x2552AD)]
     value_type: uint32
     value: "FPS_TARGET / 60"
   -

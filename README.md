@@ -919,10 +919,11 @@ PATCH AVAILABILITY<br>
 | 三國志8 REMAKE | `0100BD501A72E000` | `EA25D006EF0732C2` ([✅](SaltySD/plugins/FPSLocker/patches/0100BD501A72E000/EA25D006EF0732C2.yaml), v10, 1.1.0) <br> `A929586A8724C5FE` ([✅](SaltySD/plugins/FPSLocker/patches/0100BD501A72E000/A929586A8724C5FE.yaml), v12, 1.1.2) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | 三國志8 REMAKE with パワーアップキット | `0100BD501A72E001` | `C9C510630375FFE6` ([✅](SaltySD/plugins/FPSLocker/patches/0100BD501A72E001/C9C510630375FFE6.yaml), v10, 1.1.0) <br> `6BD9DA9F0D6AA634` ([✅](SaltySD/plugins/FPSLocker/patches/0100BD501A72E001/6BD9DA9F0D6AA634.yaml), v12, 1.1.2) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | ROMANCE OF THE THREE KINGDOMS XIV | `0100ED7012DB2000` | `1A971CC40B6D5B3F` ([✅](SaltySD/plugins/FPSLocker/patches/0100ED7012DB2000/1A971CC40B6D5B3F.yaml), v7, 1.0.10) | ~~[🔐](#🔐)[⏱️](#⏱️)~~[🖥️](#🖥️) |
-| 三國志14 with 威力加強版 | `0100CD4012DCA000` | `B067B077906C6208` ([✅](SaltySD/plugins/FPSLocker/patches/0100CD4012DCA000/B067B077906C6208.yaml), v10, 1.0.10) | ~~[🔐](#🔐)[⏱️](#⏱️)~~[🖥️](#🖥️) |
-| 삼국지14 with 파워업키트 | `01006C5012DCE000` | `C00AA2EBF01D3A48` ([✅](SaltySD/plugins/FPSLocker/patches/01006C5012DCE000/C00AA2EBF01D3A48.yaml), v9, 1.0.10) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
-| 三國志14 | `0100598012906000` | `E76B23E5AB278083` ([✅](SaltySD/plugins/FPSLocker/patches/0100598012906000/E76B23E5AB278083.yaml), v11, 1.0.11) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
-| 三國志14 with パワーアップキット | `0100598012906001` | `0C5CBA5E5DED6FDD` ([✅](SaltySD/plugins/FPSLocker/patches/0100598012906001/0C5CBA5E5DED6FDD.yaml), v11, 1.0.11) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
+| 三國志14 | `0100CD4012DCA000` | `B067B077906C6208` ([✅](SaltySD/plugins/FPSLocker/patches/0100CD4012DCA000/B067B077906C6208.yaml), v10, 1.0.10) <br> `33E595CFF4FCB981` ([✅](SaltySD/plugins/FPSLocker/patches/0100CD4012DCA000/33E595CFF4FCB981.yaml), v12, 1.1.1) | ~~[🔐](#🔐)[⏱️](#⏱️)~~[🖥️](#🖥️) |
+| 三國志14 with 威力加強版 | `0100CD4012DCA001` | `DA1527A7E3B3DD17` ([✅](SaltySD/plugins/FPSLocker/patches/0100CD4012DCA001/DA1527A7E3B3DD17.yaml), v12, 1.1.1) | ~~[🔐](#🔐)[⏱️](#⏱️)~~[🖥️](#🖥️) |
+| 삼국지14 with 파워업키트 | `01006C5012DCE000` | `C00AA2EBF01D3A48` ([✅](SaltySD/plugins/FPSLocker/patches/01006C5012DCE000/C00AA2EBF01D3A48.yaml), v9, 1.0.10) | ~~[🔐](#🔐)[⏱️](#⏱️)~~[🖥️](#🖥️) |
+| 三國志14 | `0100598012906000` | `E76B23E5AB278083` ([✅](SaltySD/plugins/FPSLocker/patches/0100598012906000/E76B23E5AB278083.yaml), v11, 1.1.1) | ~~[🔐](#🔐)[⏱️](#⏱️)~~[🖥️](#🖥️) |
+| 三國志14 with パワーアップキット | `0100598012906001` | `0C5CBA5E5DED6FDD` ([✅](SaltySD/plugins/FPSLocker/patches/0100598012906001/0C5CBA5E5DED6FDD.yaml), v11, 1.1.1) | ~~[🔐](#🔐)[⏱️](#⏱️)~~[🖥️](#🖥️) |
 | Romancing SaGa 2: Revenge of the Seven | `010045301B86C000` | `D7A32C718E9D6363` ([✅](SaltySD/plugins/FPSLocker/patches/010045301B86C000/D7A32C718E9D6363.yaml), v3, 1.1.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Rooftops & Alleys: The Parkour Game | `0100FC20214B2000` | `1E41120D264E12C5` (◯, v10, 1.10) |  |
 | ルーフトップス＆アリーズ | `0100290025040000` | `1E41120D264E12C5` (◯, v5, 1.10) |  |
