@@ -52,7 +52,7 @@ MASTER_WRITE:
 ALL_FPS:
   - # Adjust min delta for menus, 0 - 30 FPS, 1 - 60 FPS, REF: 20 79 68 BC 01 10 2E 1E 00 D8 21 7E, ADRP + LDR above
     type: evaluate_write
-    address: [MAIN, 0x2552AD)]
+    address: [MAIN, 0x2552AD0]
     value_type: uint32
     value: "FPS_TARGET / 60"
   -
