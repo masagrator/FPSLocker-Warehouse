@@ -1189,7 +1189,7 @@ PATCH AVAILABILITY<br>
 | Thief Simulator | `0100CE400E34E000` | `3188434D02663149` (◯, v2, 1.4.0) |  |
 | Thronebreaker: The Witcher Tales | `0100E910103B4000` | `1BD046113635234D` (◯, v2, 1.0.2) |  |
 | Thirsty Suitors | `0100982019374000` | `9DD9149968A0B8D3` (❌, v0, NS27619.127559) | [📏](#📏) |
-| Tiebreak+ | `010008301AA96000` | `612E3D607D2A13BB` ([✅](SaltySD/plugins/FPSLocker/patches/010008301AA96000/612E3D607D2A13BB.yaml), v4, 1.4.0) | ~~[⚔️](#⚔️)[📏](#📏)~~ |
+| Tiebreak+ | `010008301AA96000` | `612E3D607D2A13BB` ([✅](SaltySD/plugins/FPSLocker/patches/010008301AA96000/612E3D607D2A13BB.yaml), v4, 1.4.0) <br> `FEDCF99FA055B68A` ([✅](SaltySD/plugins/FPSLocker/patches/010008301AA96000/FEDCF99FA055B68A.yaml), v5, 1.5.0) | ~~[⚔️](#⚔️)[📏](#📏)~~ |
 | TinTin Reporter - Cigars of the Pharaoh | `0100E9001A94C000` | `ACBD89C999804FD2` ([✅](SaltySD/plugins/FPSLocker/patches/0100E9001A94C000/ACBD89C999804FD2.yaml), v5, 1.4.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Tiny Bookshop | `0100F7A023F14000` | `0FD058796B39B08D` (◯, v8, 1.0.8) |  |
 | Tiny Terry's Turbo Trip | `01002B202075A000` | `05620E57969164C7` (◯, v8, 1.7) |  |
