@@ -360,11 +360,12 @@ PATCH AVAILABILITY<br>
 | ドラゴンボールZ KAKAROT | `0100EF00134F4000` | `5F5D07376E9D78F6` ([✅](SaltySD/plugins/FPSLocker/patches/0100EF00134F4000/5F5D07376E9D78F6.yaml), v16, 1.70) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | DRAGON QUEST I & II HD-2D Remake | `0100D7C01F254000` | `DDB633241838C090` ([✅](SaltySD/plugins/FPSLocker/patches/0100D7C01F254000/DDB633241838C090.yaml), v2, 1.0.2) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | DRAGON QUEST III HD-2D Remake | `01003E601E324000` | `A6BD61CFB142E663` ([✅](SaltySD/plugins/FPSLocker/patches/01003E601E324000/A6BD61CFB142E663.yaml), v4, 1.1.2) | ~~[📏](#📏)[🔧](#🔧)~~ |
-| DRAGON QUEST MONSTERS: The Dark Prince | `0100A77018EA0000` | `99C5DEFFA2A401BA` (◯, v6, 1.0.6) |  |
 | DRAGON QUEST VII Reimagined | `0100A9D01C446000` | `F7EC03E4CB9DE3BD` ([✅](SaltySD/plugins/FPSLocker/patches/0100A9D01C446000/F7EC03E4CB9DE3BD.yaml), v2, 1.2.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | - 드래곤 퀘스트 VII Reimagined<br>- 勇者鬥惡龍 VII Reimagined | `0100505021440000` | `F7EC03E4CB9DE3BD` ([✅](SaltySD/plugins/FPSLocker/patches/0100505021440000/F7EC03E4CB9DE3BD.yaml), v2, 1.2.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | DRAGON QUEST XI S: Echoes of an Elusive Age | `01006C300E9F0000` | `1719AABFA5EAE42B` ([✅](SaltySD/plugins/FPSLocker/patches/01006C300E9F0000/1719AABFA5EAE42B.yaml), v4, 1.0.4) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | ドラゴンクエストXI　過ぎ去りし時を求めて S | `010054A0085CA000` | `325E49E94A030B7E` ([✅](SaltySD/plugins/FPSLocker/patches/010054A0085CA000/325E49E94A030B7E.yaml), v4, 1.0.4) | ~~[📏](#📏)[🔧](#🔧)~~ |
+| Dragon Quest Heroes: Torneko's Mystery Dungeon | `010040B0270A2000` | `724C36A143F3F225` ([✅](SaltySD/plugins/FPSLocker/patches/010040B0270A2000/724C36A143F3F225.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
+| DRAGON QUEST MONSTERS: The Dark Prince | `0100A77018EA0000` | `99C5DEFFA2A401BA` (◯, v6, 1.0.6) |  |
 | DRAGON QUEST TREASURES | `010049B017774000` | `2F81A2EC9B298B37` ([✅](SaltySD/plugins/FPSLocker/patches/0100217014266000/2F81A2EC9B298B37.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | ドラゴンクエスト トレジャーズ | `0100217014266000` | `2F81A2EC9B298B37` ([✅](SaltySD/plugins/FPSLocker/patches/0100217014266000/2F81A2EC9B298B37.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Dragon Star VARNIR | `0100A8B014930000` | `E26A54F785A76EE7` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
