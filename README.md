@@ -1148,7 +1148,7 @@ PATCH AVAILABILITY<br>
 | 영웅전설 섬의 궤적 IV | `0100DE90162A0000` | `0BBD86F62F380844` ([✅](SaltySD/plugins/FPSLocker/patches/0100DE90162A0000/0BBD86F62F380844.yaml), v0, 1.0.0) | ~~[🔐](#🔐)[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢)[🔧](#🔧)~~ |
 | The Legend of Heroes: Trails through Daybreak | `010040C01D248000` | `43D0D0D68A22E370` ([✅](SaltySD/plugins/FPSLocker/patches/010040C01D248000/43D0D0D68A22E370.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
 | 英雄伝説 黎の軌跡 | `010001B01B678000` | `30A96B38F0B7428C` (❌📌, v1, 1.0.1) | [🔐](#🔐) |
-| 영웅전설 여의 궤적 | `0100DE901D06A000` | `5A225D8AE0943744` (❌📌, v1, 1.0.1) | [🔐](#🔐) |
+| 영웅전설 여의 궤적 | `0100DE901D06A000` | `5A225D8AE0943744` ([✅](SaltySD/plugins/FPSLocker/patches/0100DE901D06A000/5A225D8AE0943744.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
 | 英雄傳說 黎之軌跡 | `0100F8A01D068000` | `6118AD617884C404` (❌📌, v1, 1.0.1) | [🔐](#🔐) |
 | The Legend of Heroes: Trails through Daybreak II | `0100F6701FED4000` | `EBB5459731354538` ([✅](SaltySD/plugins/FPSLocker/patches/0100F6701FED4000/EBB5459731354538.yaml), v2, 1.0.2) | ~~[⏱️](#⏱️)~~ |
 | 英雄傳說 黎之軌跡Ⅱ | `010033801EF3A000` | `503ACC27B3F97603` ([✅](SaltySD/plugins/FPSLocker/patches/010033801EF3A000/503ACC27B3F97603.yaml), v1, 1.0.1) | ~~[⏱️](#⏱️)~~ |
