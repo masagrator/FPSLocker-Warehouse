@@ -1317,7 +1317,7 @@ PATCH AVAILABILITY<br>
 | Ys X: Nordics | `0100BAC01E57E000` | `C55F6B8AEFA54324` ([✅](SaltySD/plugins/FPSLocker/patches/0100BAC01E57E000/C55F6B8AEFA54324.yaml), v3, 1.0.3) | ~~[📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | 伊蘇X -北境歷險- | `0100A0C01BED8000` | `7E06539B5874B9C4` ([✅](SaltySD/plugins/FPSLocker/patches/0100A0C01BED8000/7E06539B5874B9C4.yaml), v5, 1.0.5) | ~~[📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | イースX -NORDICS- | `0100CC401A16C000` | `ACF8E5931E38EAA0` ([✅](SaltySD/plugins/FPSLocker/patches/0100CC401A16C000/ACF8E5931E38EAA0.yaml), v4, 1.0.4) | ~~[📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
-| 이스 X -노딕스- 무삭제판 | `0100F8701C182000` | `D5C2734C0F14D43D` (❌📌, v5, 1.0.5) | [📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️) |
+| 이스 X -노딕스- 무삭제판 | `0100F8701C182000` | `D5C2734C0F14D43D` ([✅](SaltySD/plugins/FPSLocker/patches/0100F8701C182000/D5C2734C0F14D43D.yaml), v5, 1.0.5) | ~~[📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | Zombie Army Trilogy | `0100C7300EEE4000` | `54211726D36A8D9C` ([✅](SaltySD/plugins/FPSLocker/patches/0100C7300EEE4000/54211726D36A8D9C.yaml), v2, 1.0.2) | ~~[📏](#📏)~~ |
 | Zombie Army 4: Dead War | `01000BF0152FA000` | `12024D08CCFD25EB` ([✅](SaltySD/plugins/FPSLocker/patches/01000BF0152FA000/12024D08CCFD25EB.yaml), v2, 1.1.1) | ~~[📏](#📏)~~ |
 | Zombie Army 4: Dead War `Asia` | `0100255016498000` | `12024D08CCFD25EB` ([✅](SaltySD/plugins/FPSLocker/patches/0100255016498000/12024D08CCFD25EB.yaml), v3, 1.1.1) | ~~[📏](#📏)~~ |
