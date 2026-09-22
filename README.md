@@ -979,7 +979,7 @@ PATCH AVAILABILITY<br>
 | 진･여신전생5 | `0100FB70133C0000` | `019FBFE7738EA314` ([✅](SaltySD/plugins/FPSLocker/patches/0100FB70133C0000/019FBFE7738EA314.yaml), v2, 1.0.2) | ~~[📏](#📏)~~ |
 | 真・女神轉生Ⅴ `HK` | `010038D0133C2000` | `019FBFE7738EA314` ([✅](SaltySD/plugins/FPSLocker/patches/010038D0133C2000/019FBFE7738EA314.yaml), v2, 1.0.2) | ~~[📏](#📏)~~ |
 | SHIN MEGAMI TENSEI V: Vengeance | `010069C01AB82000` | `0A4F14A5C12F470A` ([✅](SaltySD/plugins/FPSLocker/patches/010069C01AB82000/0A4F14A5C12F470A.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
-| 진・여신전생5 Vengeance | `0100FD401AB0E000` | `C60BBEE6786A16DB` ([✅](SaltySD/plugins/FPSLocker/patches/0100FD401AB0E000/C60BBEE6786A16DB.yaml), v3, 1.0.3) | [🔐](#🔐)[📏](#📏)[🔧](#🔧) |
+| 진・여신전생5 Vengeance | `0100FD401AB0E000` | `C60BBEE6786A16DB` ([✅](SaltySD/plugins/FPSLocker/patches/0100FD401AB0E000/C60BBEE6786A16DB.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | 真・女神転生Ⅴ Vengeance | `01007BF01A86A000` | `21502D0863ED6F58` ([✅](SaltySD/plugins/FPSLocker/patches/01007BF01A86A000/21502D0863ED6F58.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Shining Resonance Refrain | `01009A5009A9E000` | `069E3EFC16365FFD` ([✅](SaltySD/plugins/FPSLocker/patches/01009A5009A9E000/069E3EFC16365FFD.yaml), v1, 1.0.1) | ~~[⚔️](#⚔️)[🔐](#🔐)[👄](#👄)~~ |
 | 光明之響 龍奏回音 | `0100D7700AF88000` | `F5AC009011277359` ([✅](SaltySD/plugins/FPSLocker/patches/0100D7700AF88000/F5AC009011277359.yaml), v0, 1.0.0) | ~~[⚔️](#⚔️)[🔐](#🔐)[👄](#👄)~~ |
