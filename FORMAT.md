@@ -73,9 +73,9 @@ This is used to write data into main executable, it can write to any part of exe
 - `main_offset` - where value should be written relative to `main` executable start in RAM.
 - `value_type` - check "Supported types".
 - `value` - what value we will write into provided address. Remember that if `value_type` is set to any integer, don't use decimals. You may write a list of values into it that will be applied one after another.
-> type: asm_a64 (64-bit games only)
+> type: `asm_a64` and `asm_a32`
 
-This is used to write assembly instructions instead of integers for better maintenance. FPSLocker automatically calculates offsets based of main_offset value.
+This is used to write assembly instructions instead of integers for better maintenance. FPSLocker automatically calculates offsets based of main_offset value. a64 is for 64-bit games, a32 is for 32-bit games.
 - `main_offset` - where value should be written relative to `main` executable start in RAM.
 - `instructions` - it's always a list, it stores instructions in list format. Read about instructions [HERE](#asm-instructions).
 
@@ -170,8 +170,11 @@ As you can see, they are written in very similar way, but avoiding writing whole
 - Avoid using `#` before immediates, that's because it's used to inform parser that everything after hash is a comment
 
 Only some instructions are supported, some of them don't cover every single case.
-Supported mnemonics (read how they work in ARM64/AArch64 documentation, `V` registers are not supported):
+Supported mnemonics in asm_a64 (read how they work in ARM64/AArch64 documentation, `V` registers are not supported):
 `ADD`, `ADRP`, `B`, `B.EQ`, `B.NE`, `B.CS`, `B.HS`, `B.CC`, `B.LO`, `B.MI`, `B.PL`, `B.VS`, `B.VC`, `B.HI`, `B.LS`, `B.GE`, `B.LT`, `B.GT`, `B.LE`, `B.AL`, `B.NV`, `BL`, `BLR`, `BR`, `CBNZ`, `CBZ`, `CMP`, `CSEL`, `FADD`, `FCMP`, `FCMPE`, `FCSEL`, `FCVT`, `FCVTZU`, `FDIV`, `FMADD`, `FMINNM`, `FMOV`, `FMUL`, `FNEG`, `FSQRT`, `FSUB`, `LDP`, `LDR`, `LDRB`, `LDRH`, `LDUR`, `LDURH`, `LSL`, `MADD`, `MOV`, `MOVK`, `MRS`, `MUL`, `NOP`, `RET`, `SCVTF`, `SDIV`, `STP`, `STR`, `STRB`, `STRH`, `STUR`, `STURH`, `SUB`, `SVC`, `TBNZ`, `TBZ`, `UCVTF`, `UDIV`
+
+Supported mnemonics in asm_a32 (read how they work in ARM/AArch32 documentation, `sl` register is not supported):
+`ADC`, `ADCS`, `ADD`, `ADDS`, `AND`, `ANDS`, `ASR`, `ASRS`, `B`, `BIC`, `BICS`, `BL`, `BLX`, `BX`, `CMN`, `CMP`, `EOR`, `EORS`, `LDR`, `LDRB`, `LDRD`, `LDRH`, `LDRSB`, `LDRSH`, `LSL`, `LSLS`, `LSR`, `LSRS`, `MLA`, `MLAS`, `MLS`, `MOV`, `MOVS`, `MOVT`, `MOVW`, `MUL`, `MULS`, `MVN`, `MVNS`, `NOP`, `ORR`, `ORRS`, `POP`, `PUSH`, `ROR`, `RORS`, `RSB`, `RSBS`, `SBC`, `SBCS`, `SDIV`, `SMULL`, `STR`, `STRB`, `STRD`, `STRH`, `SUB`, `SUBS`, `SVC`, `SXTB`, `SXTH`, `TEQ`, `TST`, `UDIV`, `UMULL`, `UXTB`, `UXTH`, `VABS`, `VADD`, `VCMP`, `VCMPE`, `VCVT`, `VCVTR`, `VDIV`, `VFMA`, `VFMS`, `VLDR`, `VMAXNM`, `VMINNM`, `VMLA`, `VMLS`, `VMOV`, `VMRS`, `VMSR`, `VMUL`, `VNEG`, `VNMUL`, `VPOP`, `VPUSH`, `VSQRT`, `VSTR`, `VSUB`
 
 Additional feature is supported by `B` (conditional branches included), `BL`, `CBNZ`, `CBZ`, `TBNZ`, `TBZ` - if for immediate you will write + or - sign, you can use it to inform that it's a relative amount of bytes you want to jump. So if you write for example `[b, -4]`, it will go to previous instruction.
 
@@ -230,30 +233,4 @@ MASTER_WRITE:
     ]
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Bitness of code type in DECLARATIONS is detected based on type of MASTER_WRITE entry `asm_*` that calls it.
