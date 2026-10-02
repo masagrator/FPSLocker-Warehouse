@@ -90,7 +90,7 @@ PATCH AVAILABILITY<br>
 | Alan Wake Remastered | `0100623017A58000` | `6520258D00AEA915` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
 | Alba | `01007FB013B10000` | `E0A4AB13942D904C` (◯, v1, 1.2.4) |  |
 | Alba `JPN` | `0100A7A01538C000` | `E0A4AB13942D904C` (◯, v1, 1.2.4) |  |
-| Alchemy Garden | `0100A4101AC26000` | `FB73B824FB53892E` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
+| Alchemy Garden | `0100A4101AC26000` | `FB73B824FB53892E` (◯, v1, 1.0.1) |  |
 | Alfred Hitchcock - Vertigo | `0100DC7013F14000` | `9D5ABEC66FEC1D77` (◯, v1, 1.0.1) |  |
 | Alien: Isolation | `010075D00E8BA000` | `397C054A3D25D488` (◯, v5, 1.1.5_64113) |  |
 | Alterity Experience | `010056F0186D0000` | `E4F041624093998D` (◯, v2, 2.0) |  |
