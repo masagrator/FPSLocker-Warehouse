@@ -494,8 +494,8 @@ PATCH AVAILABILITY<br>
 | ゴーストランナー | `0100AAA013598000` | `9F47662984305651` (❌📌, v7, 1.7) | [🔐](#🔐)[📏](#📏) |
 | Gigantosaurus The Game | `01002C400E526000` | `1FF442C5ABEB0459` ([✅](SaltySD/plugins/FPSLocker/patches/01002C400E526000/1FF442C5ABEB0459.yaml), v2, 1.0.2) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Gigantosaurus: Dino Kart | `01001890167FE000` | `512FB8C2D12C4F36` ([✅](SaltySD/plugins/FPSLocker/patches/01001890167FE000/512FB8C2D12C4F36.yaml), v1, 1.1.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
-| GO VACATION | `0100C1800A9B6000` | `174471C5192F8647` (❌, v0, 1.0.0) | [⚔️](#⚔️) |
-| GO VACATION `JPN` | `010060000AD5E000` | `174471C5192F8647` (❌, v0, 1.0.0) | [⚔️](#⚔️) |
+| GO VACATION | `0100C1800A9B6000` | `174471C5192F8647` (❌, v0, 1.0.0) | [🖥️](#🖥️)[🏃](#🏃)[⚔️](#⚔️) |
+| GO VACATION `JPN` | `010060000AD5E000` | `174471C5192F8647` (❌, v0, 1.0.0) | [🖥️](#🖥️)[🏃](#🏃)[⚔️](#⚔️) |
 | Goat Simulator 3 | `01001CC01B2D4000` | `A45BCB8A63C50DC8` ([✅](SaltySD/plugins/FPSLocker/patches/01001CC01B2D4000/A45BCB8A63C50DC8.yaml), v8, 1.0.7.8) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | GOD EATER 3 | `01001C700873E000` | `C0F144F5139F542E` ([✅](SaltySD/plugins/FPSLocker/patches/01001C700873E000/C0F144F5139F542E.yaml), v11, 2.5.1) | ~~[⚔️](#⚔️)~~ |
 | GOD WARS The Complete Legend | `0100F3D00B032000` | `3A0835D09F6D1544` (❌, v1, 1.1) | [🏃](#🏃) |
