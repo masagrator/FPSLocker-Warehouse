@@ -657,7 +657,7 @@ PATCH AVAILABILITY<br>
 | Lynked: Banner of the Spark | `0100711022E24000` | `98C2DD2B041D3CCC` ([✅](SaltySD/plugins/FPSLocker/patches/0100711022E24000/98C2DD2B041D3CCC.yaml), v5, 1.2.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Lysfanga: The Time Shift Warrior | `0100ED601B876000` | `3B47E57FD8B8EE7B` (◯, v2, 1.0.2) |  |
 | Maglam Lord | `01002C0015644000` | `3A3C781930CB8201` ([✅](SaltySD/plugins/FPSLocker/patches/01002C0015644000/3A3C781930CB8201.yaml), v0, 1.00) | ~~[🔐](#🔐)[📏](#📏)~~[🏃](#🏃) |
-| Maquette | `0100861018480000` | `B0F09EE3E404D549` (❌, v0, 1.0.0) | [⚔️](#⚔️) |
+| Maquette | `0100861018480000` | `B0F09EE3E404D549` (◯, v0, 1.0.0) | |
 | Mandragora: Whispers of the Witch Tree | `0100D1202322A000` | `599F2EE3AA6414E8` ([✅](SaltySD/plugins/FPSLocker/patches/0100D1202322A000/599F2EE3AA6414E8.yaml), v3, 1.6.2.137153) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Mandragora：Whispers of the Witch Tree `JPN` | `0100B2002330E000` | `77BC4B22390087B9` ([✅](SaltySD/plugins/FPSLocker/patches/0100B2002330E000/77BC4B22390087B9.yaml), v3, 1.6.2.137153) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Mario & Luigi: Brothership | `01006D0017F7A000` | `BF0607AC795B593A` ([✅](SaltySD/plugins/FPSLocker/patches/01006D0017F7A000/BF0607AC795B593A.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
