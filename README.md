@@ -86,6 +86,8 @@ PATCH AVAILABILITY<br>
 | Agatha Christie - Hercule Poirot: The First Cases | `010000F012936000` | `1570FE23108B93C4` ([✅](SaltySD/plugins/FPSLocker/patches/010000F012936000/1570FE23108B93C4.yaml), v4, 1.0.3.1) | ~~[🛑](#🛑)~~ |
 | Agatha Christie - Hercule Poirot: The London Case | `01002FD01A24C000` | `8F72E0D61C4BA0B1` ([✅](SaltySD/plugins/FPSLocker/patches/01002FD01A24C000/8F72E0D61C4BA0B1.yaml), v2, 1.0.2) | ~~[🛑](#🛑)~~ |
 | Agatha Christie - The ABC Murders | `010087C011C4E000` | `655293197620944D` (◯, v2, 1.0.2) |  |
+| Air Conflicts: Pacific Carriers | `0100C7600C7D6000` | `4B9686797938F283` (❌, v2, 1.0.2) | [⚔️](#⚔️) |
+| エアコンフリクト：パシフィックキャリアー | `010020700C952000` | `E0875F171671C8F7` (❌, v0, 1.0.0) | [⚔️](#⚔️) |
 | Airhead | `0100272013014000` | `D1D421137AAE1A5E` ([✅](SaltySD/plugins/FPSLocker/patches/0100272013014000/D1D421137AAE1A5E.yaml), v0, 1.0.0) | ~~[🛑](#🛑)~~ |
 | Alan Wake Remastered | `0100623017A58000` | `6520258D00AEA915` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
 | Alba | `01007FB013B10000` | `E0A4AB13942D904C` (◯, v1, 1.2.4) |  |
@@ -1334,7 +1336,6 @@ PATCH AVAILABILITY<br>
 | 電車でＧＯ！！ はしろう山手線 | `0100BC501355A000` | `7C9F89C3743F202F` ([✅](SaltySD/plugins/FPSLocker/patches/0100BC501355A000/7C9F89C3743F202F.yaml), v3, 1.1.2) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | 창세기전 \~회색의 잔영\~ | `0100276019E96000` | `EC983B9153629AC8` ([✅](SaltySD/plugins/FPSLocker/patches/0100276019E96000/EC983B9153629AC8.yaml), v1, 1.1.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | ドラゴンクエストヒーローズI・II | `0100CD3000BDC000` | `5C598E5025BF97BC` ([✅](SaltySD/plugins/FPSLocker/patches/0100CD3000BDC000/5C598E5025BF97BC.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[⏱️](#⏱️)[⚔️](#⚔️)~~
-| エアコンフリクト：パシフィックキャリアー | `010020700C952000` | `E0875F171671C8F7` (❌, v0, 1.0.0) | [⚔️](#⚔️) |
 | 仮面ライダー クライマックススクランブル ジオウ | `0100BDC00A664000` | `1EAD461ABA0F154A` (❌📌, v3, 1.2.0) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | 亰都ザナドゥ -桜花幻舞- | `0100C520268DE000` | `3610482B750EDDEB` ([✅](SaltySD/plugins/FPSLocker/patches/0100C520268DE000/3610482B750EDDEB.yaml), v3, 1.0.3) <br> `E9E041CDF870F33C` ([✅](SaltySD/plugins/FPSLocker/patches/0100C520268DE000/E9E041CDF870F33C.yaml), v4, 1.0.4) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | - 쿄토 재너두 -앵화환무-<br>- 亰都幻都 -櫻花幻舞- | `0100D20027AB6000` | `45BFC9E681BE8A02` ([✅](SaltySD/plugins/FPSLocker/patches/0100D20027AB6000/45BFC9E681BE8A02.yaml), v3, 1.0.3) | ~~[⏱️](#⏱️)[🖥️](#🖥️)~~ |
