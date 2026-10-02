@@ -958,6 +958,7 @@ PATCH AVAILABILITY<br>
 | SD シン・仮面ライダー 乱舞 | `0100CD40192AC000` | `651CF2EC3B62B82B` (◯, v2, 1.0.2) |  |
 | SD 신 가면라이더 난무 | `01002160192B2000` | `1E989D90345AB3D2` (◯, v2, 1.0.2) |  |
 | SENRAN KAGURA Peach Ball | `01004DC00D936000` | `31CDAD67EA25CC16` ([✅](SaltySD/plugins/FPSLocker/patches/01004DC00D936000/31CDAD67EA25CC16.yaml), v0, 1.0.0) | ~~[🔐](#🔐)~~[⚔️](#⚔️) |
+| SENRAN KAGURA Peach Ball `US` | `0100D1800D902000` | `7F8AF4380449F13D` ([✅](SaltySD/plugins/FPSLocker/patches/0100D1800D902000/7F8AF4380449F13D.yaml), v2, 1.0.2) | ~~[🔐](#🔐)~~[⚔️](#⚔️) |
 | Session: Skate Sim | `010023001969A000` | `F327FFD8C2E85895` ([✅](SaltySD/plugins/FPSLocker/patches/010023001969A000/F327FFD8C2E85895.yaml), v5, 1.1.4) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Severed Steel | `0100E1C0148F8000` | `5EABF05A814EBB1B` ([✅](SaltySD/plugins/FPSLocker/patches/0100E1C0148F8000/5EABF05A814EBB1B.yaml), v3, 1.0.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Severed Steel `Asia` | `0100A0B018A72000` | `5EABF05A814EBB1B` ([✅](SaltySD/plugins/FPSLocker/patches/0100A0B018A72000/5EABF05A814EBB1B.yaml), v3, 1.0.3) | ~~[📏](#📏)[🔧](#🔧)~~ |
