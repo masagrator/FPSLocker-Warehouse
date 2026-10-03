@@ -118,6 +118,7 @@ PATCH AVAILABILITY<br>
 | ARK: Survival Evolved | `0100D4A00B284000` | `2B70B1A7B478FCA3` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4A00B284000/2B70B1A7B478FCA3.yaml), v17, 2.0.15) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Arrest of a stone Buddha | `0100184011B32000` | `6E617D487F4EE441` (❌, v0, 1.0.0) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️) |
 | art of rally | `0100A88012504000` | `BCAA04FAF88EEA4A` ([✅](SaltySD/plugins/FPSLocker/patches/0100A88012504000/BCAA04FAF88EEA4A.yaml), v7, 1.1.9) | ~~[📏](#📏)~~ |
+| Artis Impact | `01006DD02868A000` | `DB412FE4CA2393DA` ([✅](SaltySD/plugins/FPSLocker/patches/01006DD02868A000/DB412FE4CA2393DA.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
 | Ary and the Secret of Seasons | `0100C2500CAB6000` | `3EBEDE7394C88C42` (◯, v3, 1.0.3) |  |
 | Asdivine Hearts | `010042800A516000` | `47F635A5D1FDDC45` (❌, v4, 1.0.4) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | Asdivine Hearts II | `01007D300CD8C000` | `781A8278C5BFE44A` (❌, v3, 1.0.3) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️) |
