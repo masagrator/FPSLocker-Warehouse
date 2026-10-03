@@ -274,7 +274,7 @@ PATCH AVAILABILITY<br>
 | CONVERGENCE: A League of Legends Story | `010020B016EF4000` | `7E25622D50D562BF` ([✅](SaltySD/plugins/FPSLocker/patches/010020B016EF4000/7E25622D50D562BF.yaml), v1, 1.0.1) | ~~[🛑](#🛑)~~ |
 | Conway: Disappearance at Dahlia View | `010075C01405C000` | `BB52C1E6BC85DA52` (◯, v0, 1.0.0.0) |  |
 | Cooking Simulator | `01001E400FD58000` | `CCEE412E679A2143` ([✅](SaltySD/plugins/FPSLocker/patches/01001E400FD58000/CCEE412E679A2143.yaml), v1, 1.0.1) | ~~[📷](#📷)~~ |
-| Core Keeper | `010070201D1BA000` | `82349360C21DD101` (◯, v34, 1.2.1.5) |  |
+| Core Keeper | `010070201D1BA000` | `5BCA8EAB568B44C1` (◯, v36, 1.3.0.1) |  |
 | Corn Kidz 64 | `010014901EC14000` | `439E61920A759BDF` (❌, v4, 1.1.1) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | Crash Bandicoot N. Sane Trilogy | `0100D1B006744000` | `29E1A37D84227147` (◯, v0, 1.0.0) |  |
 | Crash Bandicoot 4: It's About Time | `010073401175E000` | `E8DB38F170B0149D` ([✅](SaltySD/plugins/FPSLocker/patches/010073401175E000/E8DB38F170B0149D.yaml), v2, 1.2) | ~~[📏](#📏)~~ |
