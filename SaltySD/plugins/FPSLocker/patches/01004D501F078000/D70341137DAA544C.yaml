@@ -1,4 +1,4 @@
-# The Lord of the Rings: War in the North - Legacy Edition 1.0.1
+# The Lord of the Rings: War in the North - Legacy Edition 1.0.2
 # BID: D70341137DAA544C
 # INFO: RenderThreadWaitOnGPU blocks game to 59 FPS and causes CPU cores to rampage if not adjusted, but if adjusted to allow perfect 60 FPS image starts tearing, so i decided to not change it
 
