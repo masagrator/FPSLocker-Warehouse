@@ -3,7 +3,7 @@
 | File | What it does |
 | --- | --- |
 | `build_site.py` | Builds the GitHub Pages site (`_site/index.html`) from `README.md`, git history of the patches folder, and titledb + version_dump. |
-| `site_template.html` | Page layout, styles and script. The game data is injected at build time. |
+| `site_template.html` | Page layout, styles and script. The game data is injected at build time. Patch files are not copied into the site: the page loads each one from `raw.githubusercontent.com` (branch `v4`) only when someone opens that game. |
 | `patch_needed.py` | Keeps one issue (label `patch-needed`) listing games whose newest update is newer than the newest version in `README.md`. |
 | `warehouse_data.py` | Shared README parser, version lookup and git history helpers. |
 

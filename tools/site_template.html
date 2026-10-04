@@ -150,6 +150,19 @@ dd { margin: 0; overflow-wrap: anywhere; }
 .issue-list .tag { font-size: 12px; color: var(--ok); margin-left: 6px; }
 .copy { border: 1px solid var(--line); background: var(--surface); border-radius: 6px; padding: 1px 7px; font-size: 12px; cursor: pointer; margin-left: 6px; }
 .note { font-size: 13px; color: var(--muted); margin: 8px 0 0; }
+.yaml-box { grid-column: 1 / -1; min-width: 0; }
+.yaml-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin-bottom: 8px; }
+.yaml-head h3 { margin: 0; }
+.yaml-name { font-size: 13px; }
+.yaml-actions { margin-left: auto; display: flex; gap: 6px; }
+.btn { border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 6px; padding: 4px 10px; font-size: 13px; cursor: pointer; text-decoration: none; line-height: 1.4; }
+.btn:hover { border-color: var(--muted); }
+.link-btn { border: 0; background: none; color: var(--accent); font-size: 13px; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+.link-btn[aria-pressed="true"] { color: var(--fg); text-decoration: none; font-weight: 600; cursor: default; }
+pre.yaml { margin: 0; max-height: 420px; overflow: auto; background: var(--sunken); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; font: 12.5px/1.55 var(--mono); tab-size: 2; white-space: pre; }
+pre.yaml-error { white-space: pre-wrap; font-family: var(--body); color: var(--no); }
+.y-key { color: var(--accent); }
+.y-com { color: var(--muted); font-style: italic; }
 .callout { grid-column: 1 / -1; background: var(--warn-soft); color: var(--fg); border-radius: var(--radius); padding: 10px 12px; font-size: 14px; }
 .callout b { color: var(--warn); }
 .empty { padding: 32px 0; color: var(--muted); text-align: center; }
@@ -233,7 +246,7 @@ const DATA = /*__DATA__*/null;
 const STATUS = {
   available: "Patch available",
   unavailable: "Patch needed, not available",
-  optional: "Optional, not available",
+  optional: "Patch optional, not available",
   not_needed: "No patch needed",
 };
 const PER_OPTIONS = ["25", "50", "100", "250", "all"];
@@ -334,7 +347,8 @@ function rowHtml(g) {
 function detailHtml(g) {
   const builds = [...g.builds].reverse().map((b) =>
     `<tr><td class="mono">${esc(b.ver)}</td><td class="mono">v${b.vid}</td><td class="mono">${b.bid}</td>` +
-    `<td>${pill(b.status)}${b.pinned ? ` <span class="note">not requested yet</span>` : ""}</td></tr>`).join("");
+    `<td>${pill(b.status)}${b.pinned ? ` <span class="note">not requested yet</span>` : ""}</td>` +
+    `<td>${b.yaml ? `<button type="button" class="link-btn" data-yaml-tid="${g.key}" data-path="${esc(b.yaml)}" aria-pressed="${b.yaml === selectedYaml(g)}">View</button>` : ""}</td></tr>`).join("");
   const issues = g.issues.length
     ? `<ul class="issue-list">${g.issues.map((x) => `<li class="${x.solved ? "solved" : ""}">${x.icon} <span class="lbl">${esc(x.name)}</span>${x.solved ? `<span class="tag">solved</span>` : ""}</li>`).join("")}</ul>`
     : `<p class="note" style="margin:0">No issues listed.</p>`;
@@ -343,14 +357,76 @@ function detailHtml(g) {
     ? `<div class="callout"><b>Newer update available.</b> The newest version of this game is v${g.newest}, and this list covers up to v${last.vid} (${esc(last.ver)}). The status below may not apply to the newest version.</div>` : "";
   const tids = g.tids.map((t) => `<span class="mono">${t}</span><button type="button" class="copy" data-copy="${t}">Copy</button>`).join("<br>");
   return `<div class="detail">${callout}` +
-    `<div><h3>Versions</h3><div class="tablewrap"><table><thead><tr><th>Version</th><th>ID</th><th>Build ID</th><th>Status</th></tr></thead><tbody>${builds}</tbody></table></div></div>` +
+    `<div><h3>Versions</h3><div class="tablewrap"><table><thead><tr><th>Version</th><th>ID</th><th>Build ID</th><th>Status</th><th>Patch file</th></tr></thead><tbody>${builds}</tbody></table></div></div>` +
     `<div style="display:grid;gap:18px;align-content:start"><div><h3>Details</h3><dl>` +
     `<dt>Title ID</dt><dd>${tids}</dd>` +
     `<dt>List</dt><dd>${g.list === "locked30" ? "Locked to 30 FPS" : "Not locked to 30 FPS, other issues"}</dd>` +
     `<dt>Newest version</dt><dd>${g.newest == null ? "Unknown" : "v" + g.newest}</dd>` +
     `<dt>Patch updated</dt><dd>${fmtDate(g.updated)}</dd>` +
     (g.contributors.length ? `<dt>Contributors</dt><dd>${g.contributors.map(esc).join(", ")}</dd>` : "") +
-    `</dl></div><div><h3>Issues without patch</h3>${issues}${g.status === "optional" ? `<p class="note">${STATUS_HINT.optional}</p>` : ""}</div></div></div>`;
+    `</dl></div><div><h3>Issues without patch</h3>${issues}${g.status === "optional" ? `<p class="note">${STATUS_HINT.optional}</p>` : ""}</div></div>` +
+    yamlSectionHtml(g) + `</div>`;
+}
+
+// ---- Patch file preview (loaded from GitHub only when a game is opened) ----
+const yamlCache = new Map();
+const yamlChoice = new Map(); // title ID -> chosen repo path
+function selectedYaml(g) {
+  if (yamlChoice.has(g.key)) return yamlChoice.get(g.key);
+  const b = [...g.builds].reverse().find((x) => x.yaml);
+  return b ? b.yaml : null;
+}
+function yamlSectionHtml(g) {
+  const path = selectedYaml(g);
+  if (!path) return "";
+  const file = path.split("/").pop();
+  const build = g.builds.find((b) => b.yaml === path);
+  return `<div class="yaml-box"><div class="yaml-head"><h3>Patch file</h3>` +
+    `<span class="mono yaml-name">${esc(file)}</span><span class="note yaml-ver">${esc(build.ver)} · v${build.vid}</span>` +
+    `<span class="yaml-actions"><button type="button" class="btn" data-download="${esc(path)}">Download</button>` +
+    `<a class="btn" href="${DATA.repoBase}${encodeURI(path)}" target="_blank" rel="noopener">View on GitHub</a></span></div>` +
+    `<pre class="yaml" data-yaml="${esc(path)}" tabindex="0">Loading…</pre>` +
+    `<p class="note">The FPSLocker overlay's built-in download also gets any extra files a patch needs.</p></div>`;
+}
+function loadYaml(path) {
+  if (DATA.yamlText && path in DATA.yamlText) return Promise.resolve(DATA.yamlText[path]);
+  if (!yamlCache.has(path)) {
+    yamlCache.set(path, fetch(DATA.rawBase + encodeURI(path)).then((r) => {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.text();
+    }).catch((err) => { yamlCache.delete(path); throw err; }));
+  }
+  return yamlCache.get(path);
+}
+function highlightYaml(text) {
+  return text.replace(/\r\n?/g, "\n").split("\n").map((line) => {
+    const hash = line.search(/(^|\s)#/);
+    let code = hash === -1 ? line : line.slice(0, hash);
+    const comment = hash === -1 ? "" : line.slice(hash);
+    code = esc(code).replace(/^(\s*(?:-\s+)?)([A-Za-z_][\w]*)(:)/, '$1<span class="y-key">$2</span>$3');
+    return code + (comment ? `<span class="y-com">${esc(comment)}</span>` : "");
+  }).join("\n");
+}
+function fillYamlViews(root = document) {
+  root.querySelectorAll("pre[data-yaml]:not([data-done])").forEach((pre) => {
+    pre.dataset.done = "1";
+    loadYaml(pre.dataset.yaml).then(
+      (text) => { pre.innerHTML = highlightYaml(text); },
+      () => { pre.textContent = "Couldn't load the patch file from GitHub. Check your connection and open the game again, or use View on GitHub."; pre.classList.add("yaml-error"); pre.removeAttribute("data-done"); });
+  });
+}
+async function downloadYaml(path, btn) {
+  try {
+    const text = await loadYaml(path);
+    const url = URL.createObjectURL(new Blob([text], { type: "text/yaml" }));
+    const a = document.createElement("a");
+    a.href = url; a.download = path.split("/").pop();
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  } catch (err) {
+    btn.textContent = "Download failed";
+    setTimeout(() => (btn.textContent = "Download"), 2000);
+  }
 }
 
 function render() {
@@ -364,6 +440,7 @@ function render() {
   $("#count").textContent = !list.length ? `0 of ${games.length.toLocaleString()} games`
     : pages === 1 ? `Showing ${total}` : `Showing ${(start + 1).toLocaleString()}–${(start + shown.length).toLocaleString()} of ${total}`;
   $("#list").innerHTML = shown.length ? shown.map(rowHtml).join("") : `<li class="empty">No games match. Try a shorter search or clear the filters.</li>`;
+  fillYamlViews($("#list"));
   $("#pager").hidden = pages === 1;
   $("#page-info").textContent = `Page ${state.page + 1} of ${pages}`;
   $("#prev").disabled = state.page === 0;
@@ -384,6 +461,17 @@ function openGame(tid) {
 }
 
 document.addEventListener("click", async (e) => {
+  const dl = e.target.closest("[data-download]");
+  if (dl) { downloadYaml(dl.dataset.download, dl); return; }
+  const pick = e.target.closest("[data-yaml-tid]");
+  if (pick) {
+    const g = byTid.get(pick.dataset.yamlTid);
+    yamlChoice.set(g.key, pick.dataset.path);
+    const li = document.getElementById(g.key);
+    li.outerHTML = rowHtml(g);
+    fillYamlViews(document.getElementById(g.key));
+    return;
+  }
   const copy = e.target.closest("[data-copy]");
   if (copy) {
     e.stopPropagation();
@@ -402,6 +490,7 @@ document.addEventListener("click", async (e) => {
     state.open.has(tid) ? state.open.delete(tid) : state.open.add(tid);
     const li = row.parentElement;
     li.outerHTML = rowHtml(byTid.get(tid));
+    fillYamlViews(document.getElementById(tid));
     document.getElementById(tid).querySelector(".row").focus({ preventScroll: true });
     return;
   }

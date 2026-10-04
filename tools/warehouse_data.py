@@ -39,6 +39,7 @@ _TID_RE = re.compile(r"`([0-9A-Fa-f]{15,16})`")
 _BUILD_RE = re.compile(
     r"`([0-9A-Fa-f]{16})`\s*\((?P<status>.*?),\s*v(?P<vid>\d+),\s*(?P<ver>[^)]*)\)"
 )
+_LINK_RE = re.compile(r"\]\(([^)]+\.yaml)\)")
 _ISSUE_RE = re.compile(r"~~|\[([^\]]+)\]\(#[^)]*\)")
 _REGION_RE = re.compile(r"`([^`]+)`")
 
@@ -107,6 +108,7 @@ def parse_readme(path="README.md"):
                     "pinned": pinned,
                     "vid": int(m.group("vid")),
                     "ver": m.group("ver").strip(),
+                    "link": (_LINK_RE.search(m.group("status")) or [None, None])[1],
                 })
             if not builds:
                 continue
@@ -243,3 +245,21 @@ def apply_history(games, repo=".", recent_count=10):
         e["editions"] = len(e["tids"])
         del e["names"]
     return recent
+
+
+def resolve_yaml(games, repo="."):
+    """Set build["yaml"] to the patch file's repo path (or None) and drop the raw README link.
+
+    The README link wins when it points to an existing file; otherwise the
+    standard <title ID>/<build ID>.yaml location is used.
+    """
+    for g in games:
+        for b in g["builds"]:
+            link = b.pop("link", None)
+            b["yaml"] = None
+            if b["status"] != "available":
+                continue
+            for path in (link, f"{PATCHES_DIR}/{g['tids'][0]}/{b['bid']}.yaml"):
+                if path and os.path.isfile(os.path.join(repo, path)):
+                    b["yaml"] = path
+                    break

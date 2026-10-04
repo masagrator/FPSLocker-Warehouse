@@ -5,6 +5,7 @@ Usage (from the repository root):
 
 --cache DIR   read versions.txt / version_dump.txt from DIR instead of downloading
 --fragment    write only the page content (no <html>/<head>/<body>), for previews
+--inline-yaml embed patch files in the page instead of loading them from GitHub
 """
 import argparse
 import datetime
@@ -28,7 +29,13 @@ def build(repo=".", cache_dir=None):
         for g in games:
             g["newest"], g["outdated"] = None, False
     recent = wd.apply_history(games, repo)
+    wd.resolve_yaml(games, repo)
+    # Patch files are loaded on demand from GitHub, so nothing is copied into the site.
+    repo_name = os.environ.get("GITHUB_REPOSITORY", "masagrator/FPSLocker-Warehouse")
+    branch = os.environ.get("GITHUB_REF_NAME", "v4")
     return {
+        "rawBase": f"https://raw.githubusercontent.com/{repo_name}/{branch}/",
+        "repoBase": f"https://github.com/{repo_name}/blob/{branch}/",
         "built": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d"),
         "issueNames": wd.ISSUES,
         "recent": recent,
@@ -55,9 +62,18 @@ def main():
     ap.add_argument("--out", default="_site")
     ap.add_argument("--cache")
     ap.add_argument("--fragment", action="store_true")
+    ap.add_argument("--inline-yaml", action="store_true",
+                    help="embed patch files in the page (for previews that can't reach GitHub)")
     args = ap.parse_args()
 
     data = build(args.repo, args.cache)
+    if args.inline_yaml:
+        data["yamlText"] = {}
+        for g in data["games"]:
+            for b in g["builds"]:
+                if b["yaml"]:
+                    with open(os.path.join(args.repo, b["yaml"]), encoding="utf-8-sig") as f:
+                        data["yamlText"][b["yaml"]] = f.read()
     os.makedirs(args.out, exist_ok=True)
     out = os.path.join(args.out, "index.html")
     with open(out, "w", encoding="utf-8") as f:
