@@ -72,9 +72,9 @@ section.recent { margin-block: 8px 28px; }
 h2 { font: 600 18px/1.2 var(--display); margin: 0 0 10px; }
 .recent-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
 .recent-list li { border-bottom: 1px solid var(--line); }
-.recent-list button { all: unset; box-sizing: border-box; cursor: pointer; width: 100%; display: grid; grid-template-columns: 92px minmax(0, 1fr) auto; gap: 12px; align-items: baseline; padding: 8px 4px; }
-.recent-list button:hover .r-name { color: var(--accent); }
-.recent-list button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.recent-list .rbtn { box-sizing: border-box; cursor: pointer; width: 100%; user-select: text; display: grid; grid-template-columns: 92px minmax(0, 1fr) auto; gap: 12px; align-items: baseline; padding: 8px 4px; }
+.recent-list .rbtn:hover .r-name { color: var(--accent); }
+.recent-list .rbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .r-date { font: 13px var(--mono); color: var(--muted); }
 .r-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 500; }
 .r-ver { font: 13px var(--mono); color: var(--muted); }
@@ -111,7 +111,7 @@ h2 { font: 600 18px/1.2 var(--display); margin: 0 0 10px; }
 
 .list { list-style: none; margin: 0; padding: 0; }
 .game { border-bottom: 1px solid var(--line); scroll-margin-top: var(--sticky-h, 170px); }
-.row { all: unset; box-sizing: border-box; cursor: pointer; width: 100%; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 16px; align-items: start; padding: 10px 6px; }
+.row { box-sizing: border-box; cursor: pointer; width: 100%; user-select: text; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 16px; align-items: start; padding: 10px 6px; }
 .row:hover { background: var(--sunken); }
 .row:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .g-name { min-width: 0; }
@@ -127,6 +127,7 @@ h2 { font: 600 18px/1.2 var(--display); margin: 0 0 10px; }
 .pill { font-size: 12px; font-weight: 500; border-radius: 999px; padding: 2px 9px; white-space: nowrap; }
 .pill.available { background: var(--ok-soft); color: var(--ok); }
 .pill.unavailable { background: var(--no-soft); color: var(--no); }
+.pill.optional { background: var(--accent-soft); color: var(--accent); }
 .pill.not_needed { background: var(--none-soft); color: var(--none); }
 .pill.outdated { background: var(--warn-soft); color: var(--warn); }
 .g-issues { display: flex; flex-wrap: wrap; gap: 2px; font-size: 14px; margin-top: 3px; }
@@ -164,7 +165,7 @@ footer { margin-top: 40px; font-size: 13px; color: var(--muted); display: grid; 
   .g-state { justify-content: flex-start; }
   .g-ver { display: flex; flex-wrap: wrap; gap: 0 14px; flex-basis: 100%; }  /* always its own line */
   .g-ver > :last-child { text-align: left; }
-  .recent-list button { grid-template-columns: minmax(0, 1fr) auto; }
+  .recent-list .rbtn { grid-template-columns: minmax(0, 1fr) auto; }
   .r-date { grid-column: 1 / -1; }
 }
 @media (prefers-reduced-motion: no-preference) { .row, .chip { transition: background-color .12s; } .issue-toggle svg { transition: transform .15s; } }
@@ -232,6 +233,7 @@ const DATA = /*__DATA__*/null;
 const STATUS = {
   available: "Patch available",
   unavailable: "Patch needed, not available",
+  optional: "Optional, not available",
   not_needed: "No patch needed",
 };
 const PER_OPTIONS = ["25", "50", "100", "250", "all"];
@@ -241,12 +243,23 @@ const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fmtDate = (d) => d ? new Date(d + "T00:00:00Z").toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" }) : "—";
 
-const games = DATA.games.map((g, i) => ({
-  ...g,
-  i,
-  key: g.tids[0],
-  hay: (g.names.join(" ") + " " + g.tids.join(" ") + " " + g.builds.map((b) => b.bid).join(" ")).toLowerCase(),
-}));
+const STATUS_HINT = {
+  optional: "Not required to play. The only issue is double buffering, so a patch would only improve performance.",
+};
+// A game whose only issue is ⚔️ (double buffer) is playable without a patch.
+const isOptional = (g) => g.issues.length > 0 && g.issues.every((x) => x.icon === "⚔️");
+const games = DATA.games.map((g, i) => {
+  const optional = g.status === "unavailable" && isOptional(g);
+  return {
+    ...g,
+    i,
+    key: g.tids[0],
+    status: optional ? "optional" : g.status,
+    builds: optional ? g.builds.map((b) => (b.status === "unavailable" ? { ...b, status: "optional" } : b)) : g.builds,
+    hay: (g.names.join(" ") + " " + g.tids.join(" ") + " " + g.builds.map((b) => b.bid).join(" ")).toLowerCase(),
+  };
+});
+const pill = (status) => `<span class="pill ${status}"${STATUS_HINT[status] ? ` title="${STATUS_HINT[status]}"` : ""}>${STATUS[status] || status}</span>`;
 const byTid = new Map(games.map((g) => [g.key, g]));
 // Real alphabetical order: case-insensitive, numbers compared by value, leading punctuation ignored.
 const collator = new Intl.Collator("en", { numeric: true, sensitivity: "base", ignorePunctuation: true });
@@ -258,7 +271,7 @@ const state = { q: "", status: "all", issues: new Set(), sort: "name", per: save
 const perPage = () => (state.per === "all" ? Infinity : Number(state.per));
 
 function counts() {
-  const c = { all: games.length, available: 0, unavailable: 0, not_needed: 0, outdated: 0 };
+  const c = { all: games.length, available: 0, unavailable: 0, optional: 0, not_needed: 0, outdated: 0 };
   for (const g of games) { c[g.status] = (c[g.status] || 0) + 1; if (g.outdated) c.outdated++; }
   return c;
 }
@@ -274,13 +287,13 @@ function renderTotals() {
 
 function renderRecent() {
   $("#recent").innerHTML = DATA.recent.map((r) =>
-    `<li><button type="button" data-tid="${r.tid}"><span class="r-date">${esc(fmtDate(r.date))}</span>` +
-    `<span class="r-name">${esc(r.name)}${r.editions > 1 ? ` <span class="r-ed">+ ${r.editions - 1} more ${r.editions === 2 ? "edition" : "editions"}</span>` : ""}</span><span class="r-ver">${esc(r.ver)}</span></button></li>`).join("");
+    `<li><div class="rbtn" role="button" tabindex="0" data-tid="${r.tid}"><span class="r-date">${esc(fmtDate(r.date))}</span>` +
+    `<span class="r-name">${esc(r.name)}${r.editions > 1 ? ` <span class="r-ed">+ ${r.editions - 1} more ${r.editions === 2 ? "edition" : "editions"}</span>` : ""}</span><span class="r-ver">${esc(r.ver)}</span></div></li>`).join("");
 }
 
 function renderChips() {
   const c = counts();
-  const opts = [["all", "All"], ["available", STATUS.available], ["unavailable", STATUS.unavailable], ["not_needed", STATUS.not_needed], ["outdated", "Newer update available"]];
+  const opts = [["all", "All"], ["available", STATUS.available], ["unavailable", STATUS.unavailable], ["optional", STATUS.optional], ["not_needed", STATUS.not_needed], ["outdated", "Newer update available"]];
   $("#status-chips").innerHTML = opts.map(([k, l]) =>
     `<button type="button" class="chip" data-status="${k}" aria-pressed="${state.status === k}">${l} <span class="n">${c[k].toLocaleString()}</span></button>`).join("");
   const chips = Object.entries(DATA.issueNames).map(([icon, name]) =>
@@ -308,20 +321,20 @@ function rowHtml(g) {
   const last = g.builds[g.builds.length - 1];
   const alt = g.names.slice(1).join(" · ");
   const regions = g.regions.map((r) => `<span class="region">${esc(r)}</span>`).join("");
-  const pills = `<span class="pill ${g.status}">${STATUS[g.status] || g.status}</span>` +
+  const pills = pill(g.status) +
     (g.outdated ? `<span class="pill outdated">v${g.newest} available</span>` : "");
   const issues = g.issues.map((x) => `<span class="iss${x.solved ? " solved" : ""}" title="${esc(x.name)}${x.solved ? " (solved)" : ""}">${x.icon}</span>`).join("");
   const open = state.open.has(g.key);
-  return `<li class="game" id="${g.key}"><button type="button" class="row" data-tid="${g.key}" aria-expanded="${open}">` +
+  return `<li class="game" id="${g.key}"><div class="row" role="button" tabindex="0" data-tid="${g.key}" aria-expanded="${open}">` +
     `<span class="g-name"><span class="g-title">${esc(g.names[0])}${regions}</span>${alt ? `<span class="g-alt">${esc(alt)}</span>` : ""}<span class="g-issues">${issues}</span></span>` +
-    `<span class="g-side"><span class="g-state">${pills}</span><span class="g-ver"><span class="g-tid">${g.key}</span><span>${esc(last.ver)} · v${last.vid}</span></span></span></button>` +
+    `<span class="g-side"><span class="g-state">${pills}</span><span class="g-ver"><span class="g-tid">${g.key}</span><span>${esc(last.ver)} · v${last.vid}</span></span></span></div>` +
     (open ? detailHtml(g) : "") + `</li>`;
 }
 
 function detailHtml(g) {
   const builds = [...g.builds].reverse().map((b) =>
     `<tr><td class="mono">${esc(b.ver)}</td><td class="mono">v${b.vid}</td><td class="mono">${b.bid}</td>` +
-    `<td><span class="pill ${b.status}">${STATUS[b.status] || b.status}</span>${b.pinned ? ` <span class="note">not requested yet</span>` : ""}</td></tr>`).join("");
+    `<td>${pill(b.status)}${b.pinned ? ` <span class="note">not requested yet</span>` : ""}</td></tr>`).join("");
   const issues = g.issues.length
     ? `<ul class="issue-list">${g.issues.map((x) => `<li class="${x.solved ? "solved" : ""}">${x.icon} <span class="lbl">${esc(x.name)}</span>${x.solved ? `<span class="tag">solved</span>` : ""}</li>`).join("")}</ul>`
     : `<p class="note" style="margin:0">No issues listed.</p>`;
@@ -337,7 +350,7 @@ function detailHtml(g) {
     `<dt>Newest version</dt><dd>${g.newest == null ? "Unknown" : "v" + g.newest}</dd>` +
     `<dt>Patch updated</dt><dd>${fmtDate(g.updated)}</dd>` +
     (g.contributors.length ? `<dt>Contributors</dt><dd>${g.contributors.map(esc).join(", ")}</dd>` : "") +
-    `</dl></div><div><h3>Issues without patch</h3>${issues}</div></div></div>`;
+    `</dl></div><div><h3>Issues without patch</h3>${issues}${g.status === "optional" ? `<p class="note">${STATUS_HINT.optional}</p>` : ""}</div></div></div>`;
 }
 
 function render() {
@@ -379,6 +392,8 @@ document.addEventListener("click", async (e) => {
     setTimeout(() => (copy.textContent = "Copy"), 1500);
     return;
   }
+  // A drag that selected text is not a click: leave the row as it is.
+  if (String(getSelection()).length && e.target.closest(".row, .rbtn")) return;
   const rec = e.target.closest(".recent-list [data-tid]");
   if (rec) return openGame(rec.dataset.tid);
   const row = e.target.closest(".row");
@@ -405,6 +420,13 @@ function goPage(delta) {
   render();
   $(".result-bar").scrollIntoView({ block: "start" });
 }
+// Keep jump targets clear of the sticky search bar, whatever its height.
+new ResizeObserver(([e]) => document.documentElement.style.setProperty("--sticky-h", Math.ceil(e.target.getBoundingClientRect().height) + 8 + "px")).observe($(".controls"));
+// Rows are divs (so their text can be selected); give them button keyboard behavior.
+document.addEventListener("keydown", (e) => {
+  const el = e.target.closest && e.target.closest('[role="button"]');
+  if (el && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); el.click(); }
+});
 $("#prev").addEventListener("click", () => goPage(-1));
 $("#next").addEventListener("click", () => goPage(1));
 $("#per").value = state.per;
