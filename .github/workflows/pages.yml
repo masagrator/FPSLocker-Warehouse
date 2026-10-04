@@ -9,7 +9,7 @@ on:
       - tools/**
       - .github/workflows/pages.yml
   schedule:
-    - cron: '45 8 * * *'  # daily, after the CheckUpdate run
+    - cron: '45 */6 * * *'
   workflow_dispatch:
 
 permissions:
