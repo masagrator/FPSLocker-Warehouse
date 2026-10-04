@@ -257,10 +257,11 @@ const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&
 const fmtDate = (d) => d ? new Date(d + "T00:00:00Z").toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" }) : "—";
 
 const STATUS_HINT = {
-  optional: "Not required to play. The only issue is double buffering, so a patch would only improve performance.",
+  optional: "Not required to play. The only issues are double buffering and/or dynamic resolution, so a patch would only improve performance.",
 };
-// A game whose only issue is ⚔️ (double buffer) is playable without a patch.
-const isOptional = (g) => g.issues.length > 0 && g.issues.every((x) => x.icon === "⚔️");
+// Games whose only issues are ⚔️ (double buffer) and/or 📏 (dynamic resolution) are playable without a patch.
+const OPTIONAL_ISSUES = new Set(["⚔️", "📏"]);
+const isOptional = (g) => g.issues.length > 0 && g.issues.every((x) => OPTIONAL_ISSUES.has(x.icon));
 const games = DATA.games.map((g, i) => {
   const optional = g.status === "unavailable" && isOptional(g);
   return {
