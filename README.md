@@ -1048,7 +1048,7 @@ PATCH AVAILABILITY<br>
 | SteamWorld Build | `01004E401B3EA000` | `017834F19C49FA71` (◯, v16, 1.0.156) |  |
 | Storm Lancers | `01002A4021B86000` | `E5D70A1E288F74A7` ([✅](SaltySD/plugins/FPSLocker/patches/01002A4021B86000/E5D70A1E288F74A7.yaml), v4, 1.1.0.5) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | STORY OF SEASONS: A Wonderful Life | `0100F940192A0000` | `7EB6AA5DE87C0562` (◯, v2, 1.0.2) |  |
-| STORY OF SEASONS: A Wonderful Life `US` | `010076801929A000` | `FDBD3A3B672290F8` (❌, v2, 1.0.2) | [⚔️](#⚔️) |
+| STORY OF SEASONS: A Wonderful Life `US` | `010076801929A000` | `FDBD3A3B672290F8` (◯, v2, 1.0.2) |  |
 | Story of Seasons: Grand Bazaar | `0100DD901ED24000` | `C483C805E3AEF52D` (◯, v9, 1.5.0) |  |
 | Story of Seasons: Grand Bazaar `US` | `010056901ED1A000` | `AD6B1EE322197D0A` (◯, v10, 1.5.0) |  |
 | 牧場物語 Let's！風のグランドバザール | `0100DAE01E4C8000` | `2EF3BB19EAC3B0A5` (◯, v10, 1.5.0) |  |
