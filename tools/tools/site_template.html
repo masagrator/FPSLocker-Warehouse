@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FPSLocker Warehouse</title>
+<meta name="description" content="Searchable list of FPSLocker patches for Nintendo Switch games.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column — header, recently added strip, sticky search + filters, expandable game rows. */
+:root {
+  --bg: #f4f5f8;
+  --surface: #ffffff;
+  --sunken: #eceef3;
+  --fg: #14161b;
+  --muted: #5b6170;
+  --line: #dfe2e9;
+  --accent: #2346c4;
+  --accent-soft: #e4e9fb;
+  --ok: #1d7f46;
+  --ok-soft: #e1f3e8;
+  --no: #b8362b;
+  --no-soft: #fae6e3;
+  --none: #5f6880;
+  --none-soft: #e8eaf0;
+  --warn: #9a5c00;
+  --warn-soft: #fbefd9;
+  --display: "Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1014; --surface: #161920; --sunken: #1c2029; --fg: #e8eaef; --muted: #9aa1b0; --line: #282d38;
+    --accent: #8aa2ff; --accent-soft: #1f2846; --ok: #5ccb8c; --ok-soft: #15301f; --no: #f2776c; --no-soft: #3a1b18;
+    --none: #a3abc0; --none-soft: #232733; --warn: #f0b44e; --warn-soft: #362710; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1014; --surface: #161920; --sunken: #1c2029; --fg: #e8eaef; --muted: #9aa1b0; --line: #282d38;
+  --accent: #8aa2ff; --accent-soft: #1f2846; --ok: #5ccb8c; --ok-soft: #15301f; --no: #f2776c; --no-soft: #3a1b18;
+  --none: #a3abc0; --none-soft: #232733; --warn: #f0b44e; --warn-soft: #362710; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--body); }
+.wrap { max-width: 1040px; margin: 0 auto; padding-inline: 16px; padding-block: 0 48px; }
+a { color: var(--accent); }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+header.top { padding-block: 40px 24px; display: grid; gap: 10px; position: relative; }
+.theme-toggle { position: absolute; top: 16px; right: 0; display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 999px; padding: 5px 12px 5px 10px; font-size: 13px; cursor: pointer; }
+.theme-toggle:hover { border-color: var(--muted); }
+.theme-toggle .moon { display: none; }
+.theme-toggle.is-dark .sun { display: none; }
+.theme-toggle.is-dark .moon { display: block; }
+header.top .eyebrow { padding-right: 110px; }
+.eyebrow { font: 500 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+h1 { font: 700 clamp(30px, 5vw, 44px)/1.05 var(--display); margin: 0; letter-spacing: -.01em; text-wrap: balance; }
+.lede { margin: 0; color: var(--muted); max-width: 64ch; }
+.lede a { white-space: nowrap; }
+.totals { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--muted); }
+.totals b { color: var(--fg); font-weight: 600; font-variant-numeric: tabular-nums; }
+
+section.recent { margin-block: 8px 28px; }
+h2 { font: 600 18px/1.2 var(--display); margin: 0 0 10px; }
+.recent-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.recent-list li { border-bottom: 1px solid var(--line); }
+.recent-list .rbtn { box-sizing: border-box; cursor: pointer; width: 100%; user-select: text; display: grid; grid-template-columns: 92px minmax(0, 1fr) auto; gap: 12px; align-items: baseline; padding: 8px 4px; }
+.recent-list .rbtn:hover .r-name { color: var(--accent); }
+.recent-list .rbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.r-date { font: 13px var(--mono); color: var(--muted); }
+.r-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 500; }
+.r-ver { font: 13px var(--mono); color: var(--muted); }
+.r-ed { font-size: 13px; font-weight: 400; color: var(--muted); }
+
+.controls { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 12px; display: grid; gap: 10px; border-bottom: 1px solid var(--line); }
+.search { display: flex; align-items: center; gap: 8px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 0 12px; }
+.search:focus-within { border-color: var(--accent); }
+.search svg { flex: none; color: var(--muted); }
+.search input { flex: 1; min-width: 0; border: 0; background: transparent; color: var(--fg); font: inherit; padding: 11px 0; outline: none; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.chip { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 4px 11px; font-size: 13px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.chip .n { color: var(--muted); font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="true"] { background: var(--fg); border-color: var(--fg); color: var(--bg); }
+.chip[aria-pressed="true"] .n { color: inherit; opacity: .75; }
+.sep { width: 1px; height: 20px; background: var(--line); margin-inline: 4px; }
+/* Issue filters sit behind a toggle and open as labeled chips. */
+.filter-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "toggle sort" "chips chips"; gap: 10px; align-items: center; }
+.filter-row #issue-chips { grid-area: chips; display: none; }
+.filter-row.open #issue-chips { display: flex; }
+.filter-row .sort { grid-area: sort; }
+.issue-toggle { grid-area: toggle; display: inline-flex; align-items: center; gap: 6px; justify-self: start; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 4px 12px; font-size: 13px; cursor: pointer; }
+.issue-toggle[aria-expanded="true"] svg { transform: rotate(180deg); }
+.badge { background: var(--accent); color: var(--bg); border-radius: 999px; font-size: 11px; font-weight: 600; min-width: 18px; padding: 1px 5px; text-align: center; font-variant-numeric: tabular-nums; }
+.chip.icon { font-size: 14px; padding: 4px 10px; gap: 6px; }
+.iname { font-size: 13px; }
+.sort { font-size: 13px; color: var(--muted); display: flex; gap: 6px; align-items: center; }
+.sort select { font: inherit; color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 3px 6px; }
+.result-bar { scroll-margin-top: var(--sticky-h, 170px); display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; justify-content: space-between; padding-block: 10px 4px; }
+.result-count { font-size: 13px; color: var(--muted); }
+.pager { display: flex; align-items: center; justify-content: center; gap: 14px; margin-top: 18px; font-size: 13px; color: var(--muted); }
+.pager button { border: 1px solid var(--line); background: var(--surface); border-radius: var(--radius); padding: 7px 14px; cursor: pointer; }
+.pager button:disabled { opacity: .4; cursor: default; }
+
+.list { list-style: none; margin: 0; padding: 0; }
+.game { border-bottom: 1px solid var(--line); scroll-margin-top: var(--sticky-h, 170px); }
+.row { box-sizing: border-box; cursor: pointer; width: 100%; user-select: text; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 16px; align-items: start; padding: 10px 6px; }
+.row:hover { background: var(--sunken); }
+.row:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.g-name { min-width: 0; }
+.g-title { font-weight: 600; display: block; overflow-wrap: anywhere; }
+.g-alt { display: block; color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
+.region { font: 500 11px/1 var(--mono); border: 1px solid var(--line); border-radius: 4px; padding: 2px 4px; margin-left: 6px; vertical-align: 2px; color: var(--muted); }
+.g-side { display: grid; justify-items: end; gap: 3px; }
+/* Fixed-width mono columns so title IDs and versions line up from row to row. */
+.g-ver { font: 13px var(--mono); color: var(--muted); display: grid; grid-template-columns: 16ch 20ch; column-gap: 14px; }
+.g-ver > :last-child { text-align: right; }  /* version stays flush right under the status labels */
+.g-tid { opacity: .8; }
+.g-state { display: flex; flex-wrap: wrap; gap: 4px; justify-content: flex-end; }
+.pill { font-size: 12px; font-weight: 500; border-radius: 999px; padding: 2px 9px; white-space: nowrap; }
+.pill.available { background: var(--ok-soft); color: var(--ok); }
+.pill.unavailable { background: var(--no-soft); color: var(--no); }
+.pill.optional { background: var(--accent-soft); color: var(--accent); }
+.pill.not_needed { background: var(--none-soft); color: var(--none); }
+.pill.outdated { background: var(--warn-soft); color: var(--warn); }
+.g-issues { display: flex; flex-wrap: wrap; gap: 2px; font-size: 14px; margin-top: 3px; }
+.g-issues:empty { display: none; }
+.iss.solved { opacity: .45; text-decoration: line-through; }
+
+.detail { padding: 4px 6px 20px; display: grid; gap: 18px; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); }
+.detail h3 { font: 500 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+.tablewrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { font-weight: 500; color: var(--muted); background: var(--sunken); }
+tr:last-child td { border-bottom: 0; }
+td.mono { font-family: var(--mono); }
+dl { margin: 0; display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 6px 14px; font-size: 14px; }
+dt { color: var(--muted); }
+dd { margin: 0; overflow-wrap: anywhere; }
+.issue-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; font-size: 14px; }
+.issue-list .solved .lbl { text-decoration: line-through; color: var(--muted); }
+.issue-list .tag { font-size: 12px; color: var(--ok); margin-left: 6px; }
+.copy { border: 1px solid var(--line); background: var(--surface); border-radius: 6px; padding: 1px 7px; font-size: 12px; cursor: pointer; margin-left: 6px; }
+.note { font-size: 13px; color: var(--muted); margin: 8px 0 0; }
+.yaml-box { grid-column: 1 / -1; min-width: 0; }
+.yaml-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin-bottom: 8px; }
+.yaml-head h3 { margin: 0; }
+.yaml-name { font-size: 13px; }
+.yaml-actions { margin-left: auto; display: flex; gap: 6px; }
+.btn { border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 6px; padding: 4px 10px; font-size: 13px; cursor: pointer; text-decoration: none; line-height: 1.4; }
+.btn:hover { border-color: var(--muted); }
+.link-btn { border: 0; background: none; color: var(--accent); font-size: 13px; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+.link-btn[aria-pressed="true"] { color: var(--fg); text-decoration: none; font-weight: 600; cursor: default; }
+pre.yaml { margin: 0; max-height: 420px; overflow: auto; background: var(--sunken); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; font: 12.5px/1.55 var(--mono); tab-size: 2; white-space: pre; }
+pre.yaml-error { white-space: pre-wrap; font-family: var(--body); color: var(--no); }
+.y-key { color: var(--accent); }
+.y-com { color: var(--muted); font-style: italic; }
+.callout { grid-column: 1 / -1; background: var(--warn-soft); color: var(--fg); border-radius: var(--radius); padding: 10px 12px; font-size: 14px; }
+.callout b { color: var(--warn); }
+.empty { padding: 32px 0; color: var(--muted); text-align: center; }
+footer { margin-top: 40px; font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
+
+@media (max-width: 720px) {
+  .detail { grid-template-columns: minmax(0, 1fr); }
+  .controls { position: static; }
+  .game, .result-bar { scroll-margin-top: 8px; }
+  /* Phones: name gets the full width; status, title ID and version go on the line below. */
+  .row { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .g-side { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; }
+  .g-state { justify-content: flex-start; }
+  .g-ver { display: flex; flex-wrap: wrap; gap: 0 14px; flex-basis: 100%; }  /* always its own line */
+  .g-ver > :last-child { text-align: left; }
+  .recent-list .rbtn { grid-template-columns: minmax(0, 1fr) auto; }
+  .r-date { grid-column: 1 / -1; }
+}
+@media (prefers-reduced-motion: no-preference) { .row, .chip { transition: background-color .12s; } .issue-toggle svg { transition: transform .15s; } }
+</style>
+<script>
+/* Apply a saved theme before the page paints. */
+try { const t = localStorage.getItem("warehouse-theme"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode">
+      <svg class="sun" width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1v1.8M8 13.2V15M1 8h1.8M13.2 8H15M3.05 3.05l1.27 1.27M11.68 11.68l1.27 1.27M3.05 12.95l1.27-1.27M11.68 4.32l1.27-1.27" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <svg class="moon" width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.5 9.6A5.8 5.8 0 0 1 6.4 2.5a5.8 5.8 0 1 0 7.1 7.1z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+      <span id="theme-label">Light</span>
+    </button>
+    <span class="eyebrow">FPSLocker patches for Nintendo Switch</span>
+    <h1>FPSLocker Warehouse</h1>
+    <p class="lede">Find out if a game has a patch for going above its default FPS target, which version it covers and what to expect. The easiest way to install a patch is the download option built into the FPSLocker overlay. Missing a game or an update? Report it in <a href="https://github.com/masagrator/FPSLocker-Warehouse/issues/895">issue #895</a>.</p>
+    <div class="totals" id="totals"></div>
+  </header>
+
+  <section class="recent" aria-labelledby="recent-h">
+    <h2 id="recent-h">Recently added patches</h2>
+    <ul class="recent-list" id="recent"></ul>
+  </section>
+
+  <div class="controls">
+    <label class="search" for="q">
+      <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      <input id="q" type="search" placeholder="Search by name, title ID or build ID" autocomplete="off" spellcheck="false">
+    </label>
+    <div class="chips" id="status-chips" role="group" aria-label="Patch status"></div>
+    <div class="filter-row">
+      <button type="button" class="issue-toggle" id="issue-toggle" aria-expanded="false" aria-controls="issue-chips">Issue filters <span class="badge" id="issue-badge" hidden></span><svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 3.5 5 7l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <div class="chips" id="issue-chips" role="group" aria-label="Has issue"></div>
+      <div class="sort"><label for="sort">Sort</label>
+        <select id="sort"><option value="name">Name</option><option value="updated">Recently updated</option></select>
+      </div>
+    </div>
+  </div>
+
+  <div class="result-bar">
+    <span class="result-count" id="count" aria-live="polite"></span>
+    <span class="sort"><label for="per">Per page</label>
+      <select id="per"><option value="25">25</option><option value="50">50</option><option value="100">100</option><option value="250">250</option><option value="all">All</option></select>
+    </span>
+  </div>
+  <ul class="list" id="list"></ul>
+  <nav class="pager" id="pager" aria-label="Pages" hidden>
+    <button type="button" id="prev">← Previous</button>
+    <span id="page-info" class="mono"></span>
+    <button type="button" id="next">Next →</button>
+  </nav>
+
+  <footer>
+    <span>Built from the README and patch folder of <a href="https://github.com/masagrator/FPSLocker-Warehouse">FPSLocker-Warehouse</a> on <span id="built"></span>. Newest game versions come from titledb and version_dump.</span>
+    <span>Issues describe what to expect above the default FPS target without a patch, for the newest listed version, up to 60 FPS.</span>
+  </footer>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const STATUS = {
+  available: "Patch available",
+  unavailable: "Patch needed, not available",
+  optional: "Patch optional, not available",
+  not_needed: "No patch needed",
+};
+const PER_OPTIONS = ["25", "50", "100", "250", "all"];
+let savedPer = "100";
+try { const v = localStorage.getItem("warehouse-per-page"); if (PER_OPTIONS.includes(v)) savedPer = v; } catch (e) {}
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const fmtDate = (d) => d ? new Date(d + "T00:00:00Z").toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" }) : "—";
+
+const STATUS_HINT = {
+  optional: "Not required to play. The only issue is double buffering, so a patch would only improve performance.",
+};
+// A game whose only issue is ⚔️ (double buffer) is playable without a patch.
+const isOptional = (g) => g.issues.length > 0 && g.issues.every((x) => x.icon === "⚔️");
+const games = DATA.games.map((g, i) => {
+  const optional = g.status === "unavailable" && isOptional(g);
+  return {
+    ...g,
+    i,
+    key: g.tids[0],
+    status: optional ? "optional" : g.status,
+    builds: optional ? g.builds.map((b) => (b.status === "unavailable" ? { ...b, status: "optional" } : b)) : g.builds,
+    hay: (g.names.join(" ") + " " + g.tids.join(" ") + " " + g.builds.map((b) => b.bid).join(" ")).toLowerCase(),
+  };
+});
+const pill = (status) => `<span class="pill ${status}"${STATUS_HINT[status] ? ` title="${STATUS_HINT[status]}"` : ""}>${STATUS[status] || status}</span>`;
+const byTid = new Map(games.map((g) => [g.key, g]));
+// Real alphabetical order: case-insensitive, numbers compared by value, leading punctuation ignored.
+const collator = new Intl.Collator("en", { numeric: true, sensitivity: "base", ignorePunctuation: true });
+games.forEach((g) => (g.nameKey = g.names[0].replace(/^[^\p{L}\p{N}]+/u, "")));
+const byName = [...games].sort((a, b) => collator.compare(a.nameKey, b.nameKey) || a.i - b.i);
+byName.forEach((g, n) => (g.nameRank = n));
+
+const state = { q: "", status: "all", issues: new Set(), sort: "name", per: savedPer, page: 0, open: new Set() };
+const perPage = () => (state.per === "all" ? Infinity : Number(state.per));
+
+function counts() {
+  const c = { all: games.length, available: 0, unavailable: 0, optional: 0, not_needed: 0, outdated: 0 };
+  for (const g of games) { c[g.status] = (c[g.status] || 0) + 1; if (g.outdated) c.outdated++; }
+  return c;
+}
+
+function renderTotals() {
+  const c = counts();
+  $("#totals").innerHTML =
+    `<span><b>${c.all.toLocaleString()}</b> games listed</span>` +
+    `<span><b>${c.available.toLocaleString()}</b> with a patch</span>` +
+    `<span><b>${c.outdated.toLocaleString()}</b> with a newer update not covered yet</span>`;
+  $("#built").textContent = fmtDate(DATA.built);
+}
+
+function renderRecent() {
+  $("#recent").innerHTML = DATA.recent.map((r) =>
+    `<li><div class="rbtn" role="button" tabindex="0" data-tid="${r.tid}"><span class="r-date">${esc(fmtDate(r.date))}</span>` +
+    `<span class="r-name">${esc(r.name)}${r.editions > 1 ? ` <span class="r-ed">+ ${r.editions - 1} more ${r.editions === 2 ? "edition" : "editions"}</span>` : ""}</span><span class="r-ver">${esc(r.ver)}</span></div></li>`).join("");
+}
+
+function renderChips() {
+  const c = counts();
+  const opts = [["all", "All"], ["available", STATUS.available], ["unavailable", STATUS.unavailable], ["optional", STATUS.optional], ["not_needed", STATUS.not_needed], ["outdated", "Newer update available"]];
+  $("#status-chips").innerHTML = opts.map(([k, l]) =>
+    `<button type="button" class="chip" data-status="${k}" aria-pressed="${state.status === k}">${l} <span class="n">${c[k].toLocaleString()}</span></button>`).join("");
+  const chips = Object.entries(DATA.issueNames).map(([icon, name]) =>
+    `<button type="button" class="chip icon" data-issue="${esc(icon)}" title="${esc(name)}" aria-label="${esc(name)}" aria-pressed="${state.issues.has(icon)}">${icon}<span class="iname">${esc(name)}</span></button>`).join("");
+  $("#issue-chips").innerHTML = chips;
+  const badge = $("#issue-badge");
+  badge.hidden = !state.issues.size;
+  badge.textContent = state.issues.size;
+}
+
+function filtered() {
+  const q = state.q.trim().toLowerCase();
+  let out = games.filter((g) => {
+    if (state.status === "outdated" ? !g.outdated : state.status !== "all" && g.status !== state.status) return false;
+    if (state.issues.size && ![...state.issues].every((ic) => g.issues.some((x) => x.icon === ic))) return false;
+    return !q || g.hay.includes(q);
+  });
+  out = [...out].sort(state.sort === "updated"
+    ? (a, b) => (b.updated || "").localeCompare(a.updated || "") || a.nameRank - b.nameRank
+    : (a, b) => a.nameRank - b.nameRank);
+  return out;
+}
+
+function rowHtml(g) {
+  const last = g.builds[g.builds.length - 1];
+  const alt = g.names.slice(1).join(" · ");
+  const regions = g.regions.map((r) => `<span class="region">${esc(r)}</span>`).join("");
+  const pills = pill(g.status) +
+    (g.outdated ? `<span class="pill outdated">v${g.newest} available</span>` : "");
+  const issues = g.issues.map((x) => `<span class="iss${x.solved ? " solved" : ""}" title="${esc(x.name)}${x.solved ? " (solved)" : ""}">${x.icon}</span>`).join("");
+  const open = state.open.has(g.key);
+  return `<li class="game" id="${g.key}"><div class="row" role="button" tabindex="0" data-tid="${g.key}" aria-expanded="${open}">` +
+    `<span class="g-name"><span class="g-title">${esc(g.names[0])}${regions}</span>${alt ? `<span class="g-alt">${esc(alt)}</span>` : ""}<span class="g-issues">${issues}</span></span>` +
+    `<span class="g-side"><span class="g-state">${pills}</span><span class="g-ver"><span class="g-tid">${g.key}</span><span>${esc(last.ver)} · v${last.vid}</span></span></span></div>` +
+    (open ? detailHtml(g) : "") + `</li>`;
+}
+
+function detailHtml(g) {
+  const builds = [...g.builds].reverse().map((b) =>
+    `<tr><td class="mono">${esc(b.ver)}</td><td class="mono">v${b.vid}</td><td class="mono">${b.bid}</td>` +
+    `<td>${pill(b.status)}${b.pinned ? ` <span class="note">not requested yet</span>` : ""}</td>` +
+    `<td>${b.yaml ? `<button type="button" class="link-btn" data-yaml-tid="${g.key}" data-path="${esc(b.yaml)}" aria-pressed="${b.yaml === selectedYaml(g)}">View</button>` : ""}</td></tr>`).join("");
+  const issues = g.issues.length
+    ? `<ul class="issue-list">${g.issues.map((x) => `<li class="${x.solved ? "solved" : ""}">${x.icon} <span class="lbl">${esc(x.name)}</span>${x.solved ? `<span class="tag">solved</span>` : ""}</li>`).join("")}</ul>`
+    : `<p class="note" style="margin:0">No issues listed.</p>`;
+  const last = g.builds[g.builds.length - 1];
+  const callout = g.outdated
+    ? `<div class="callout"><b>Newer update available.</b> The newest version of this game is v${g.newest}, and this list covers up to v${last.vid} (${esc(last.ver)}). The status below may not apply to the newest version.</div>` : "";
+  const tids = g.tids.map((t) => `<span class="mono">${t}</span><button type="button" class="copy" data-copy="${t}">Copy</button>`).join("<br>");
+  return `<div class="detail">${callout}` +
+    `<div><h3>Versions</h3><div class="tablewrap"><table><thead><tr><th>Version</th><th>ID</th><th>Build ID</th><th>Status</th><th>Patch file</th></tr></thead><tbody>${builds}</tbody></table></div></div>` +
+    `<div style="display:grid;gap:18px;align-content:start"><div><h3>Details</h3><dl>` +
+    `<dt>Title ID</dt><dd>${tids}</dd>` +
+    `<dt>List</dt><dd>${g.list === "locked30" ? "Locked to 30 FPS" : "Not locked to 30 FPS, other issues"}</dd>` +
+    `<dt>Newest version</dt><dd>${g.newest == null ? "Unknown" : "v" + g.newest}</dd>` +
+    `<dt>Patch updated</dt><dd>${fmtDate(g.updated)}</dd>` +
+    (g.contributors.length ? `<dt>Contributors</dt><dd>${g.contributors.map(esc).join(", ")}</dd>` : "") +
+    `</dl></div><div><h3>Issues without patch</h3>${issues}${g.status === "optional" ? `<p class="note">${STATUS_HINT.optional}</p>` : ""}</div></div>` +
+    yamlSectionHtml(g) + `</div>`;
+}
+
+// ---- Patch file preview (loaded from GitHub only when a game is opened) ----
+const yamlCache = new Map();
+const yamlChoice = new Map(); // title ID -> chosen repo path
+function selectedYaml(g) {
+  if (yamlChoice.has(g.key)) return yamlChoice.get(g.key);
+  const b = [...g.builds].reverse().find((x) => x.yaml);
+  return b ? b.yaml : null;
+}
+function yamlSectionHtml(g) {
+  const path = selectedYaml(g);
+  if (!path) return "";
+  const file = path.split("/").pop();
+  const build = g.builds.find((b) => b.yaml === path);
+  return `<div class="yaml-box"><div class="yaml-head"><h3>Patch file</h3>` +
+    `<span class="mono yaml-name">${esc(file)}</span><span class="note yaml-ver">${esc(build.ver)} · v${build.vid}</span>` +
+    `<span class="yaml-actions"><button type="button" class="btn" data-download="${esc(path)}">Download</button>` +
+    `<a class="btn" href="${DATA.repoBase}${encodeURI(path)}" target="_blank" rel="noopener">View on GitHub</a></span></div>` +
+    `<pre class="yaml" data-yaml="${esc(path)}" tabindex="0">Loading…</pre>` +
+    `<p class="note">The FPSLocker overlay's built-in download also gets any extra files a patch needs.</p></div>`;
+}
+function loadYaml(path) {
+  if (DATA.yamlText && path in DATA.yamlText) return Promise.resolve(DATA.yamlText[path]);
+  if (!yamlCache.has(path)) {
+    yamlCache.set(path, fetch(DATA.rawBase + encodeURI(path)).then((r) => {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.text();
+    }).catch((err) => { yamlCache.delete(path); throw err; }));
+  }
+  return yamlCache.get(path);
+}
+function highlightYaml(text) {
+  return text.replace(/\r\n?/g, "\n").split("\n").map((line) => {
+    const hash = line.search(/(^|\s)#/);
+    let code = hash === -1 ? line : line.slice(0, hash);
+    const comment = hash === -1 ? "" : line.slice(hash);
+    code = esc(code).replace(/^(\s*(?:-\s+)?)([A-Za-z_][\w]*)(:)/, '$1<span class="y-key">$2</span>$3');
+    return code + (comment ? `<span class="y-com">${esc(comment)}</span>` : "");
+  }).join("\n");
+}
+function fillYamlViews(root = document) {
+  root.querySelectorAll("pre[data-yaml]:not([data-done])").forEach((pre) => {
+    pre.dataset.done = "1";
+    loadYaml(pre.dataset.yaml).then(
+      (text) => { pre.innerHTML = highlightYaml(text); },
+      () => { pre.textContent = "Couldn't load the patch file from GitHub. Check your connection and open the game again, or use View on GitHub."; pre.classList.add("yaml-error"); pre.removeAttribute("data-done"); });
+  });
+}
+async function downloadYaml(path, btn) {
+  try {
+    const text = await loadYaml(path);
+    const url = URL.createObjectURL(new Blob([text], { type: "text/yaml" }));
+    const a = document.createElement("a");
+    a.href = url; a.download = path.split("/").pop();
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  } catch (err) {
+    btn.textContent = "Download failed";
+    setTimeout(() => (btn.textContent = "Download"), 2000);
+  }
+}
+
+function render() {
+  const list = filtered();
+  const per = perPage();
+  const pages = Math.max(1, Math.ceil(list.length / per));
+  state.page = Math.min(state.page, pages - 1);
+  const start = per === Infinity ? 0 : state.page * per;
+  const shown = list.slice(start, start + per);
+  const total = list.length === games.length ? `${games.length.toLocaleString()} games` : `${list.length.toLocaleString()} of ${games.length.toLocaleString()} games`;
+  $("#count").textContent = !list.length ? `0 of ${games.length.toLocaleString()} games`
+    : pages === 1 ? `Showing ${total}` : `Showing ${(start + 1).toLocaleString()}–${(start + shown.length).toLocaleString()} of ${total}`;
+  $("#list").innerHTML = shown.length ? shown.map(rowHtml).join("") : `<li class="empty">No games match. Try a shorter search or clear the filters.</li>`;
+  fillYamlViews($("#list"));
+  $("#pager").hidden = pages === 1;
+  $("#page-info").textContent = `Page ${state.page + 1} of ${pages}`;
+  $("#prev").disabled = state.page === 0;
+  $("#next").disabled = state.page >= pages - 1;
+}
+
+function openGame(tid) {
+  const g = byTid.get(tid);
+  if (!g) return;
+  state.q = ""; $("#q").value = ""; state.status = "all"; state.issues.clear();
+  const idx = filtered().indexOf(g);
+  state.page = perPage() === Infinity ? 0 : Math.floor(idx / perPage());
+  state.open.add(tid);
+  renderChips(); render();
+  const el = document.getElementById(tid);
+  if (el) { el.scrollIntoView({ block: "start" }); el.querySelector(".row").focus({ preventScroll: true }); }
+  try { history.replaceState(null, "", "#" + tid); } catch (e) {}
+}
+
+document.addEventListener("click", async (e) => {
+  const dl = e.target.closest("[data-download]");
+  if (dl) { downloadYaml(dl.dataset.download, dl); return; }
+  const pick = e.target.closest("[data-yaml-tid]");
+  if (pick) {
+    const g = byTid.get(pick.dataset.yamlTid);
+    yamlChoice.set(g.key, pick.dataset.path);
+    const li = document.getElementById(g.key);
+    li.outerHTML = rowHtml(g);
+    fillYamlViews(document.getElementById(g.key));
+    return;
+  }
+  const copy = e.target.closest("[data-copy]");
+  if (copy) {
+    e.stopPropagation();
+    try { await navigator.clipboard.writeText(copy.dataset.copy); copy.textContent = "Copied"; }
+    catch (err) { const r = document.createRange(); r.selectNodeContents(copy.previousElementSibling); const s = getSelection(); s.removeAllRanges(); s.addRange(r); copy.textContent = "Selected"; }
+    setTimeout(() => (copy.textContent = "Copy"), 1500);
+    return;
+  }
+  // A drag that selected text is not a click: leave the row as it is.
+  if (String(getSelection()).length && e.target.closest(".row, .rbtn")) return;
+  const rec = e.target.closest(".recent-list [data-tid]");
+  if (rec) return openGame(rec.dataset.tid);
+  const row = e.target.closest(".row");
+  if (row) {
+    const tid = row.dataset.tid;
+    state.open.has(tid) ? state.open.delete(tid) : state.open.add(tid);
+    const li = row.parentElement;
+    li.outerHTML = rowHtml(byTid.get(tid));
+    fillYamlViews(document.getElementById(tid));
+    document.getElementById(tid).querySelector(".row").focus({ preventScroll: true });
+    return;
+  }
+  const st = e.target.closest("[data-status]");
+  if (st) { state.status = st.dataset.status; state.page = 0; renderChips(); render(); return; }
+  const is = e.target.closest("[data-issue]");
+  if (is) { const k = is.dataset.issue; state.issues.has(k) ? state.issues.delete(k) : state.issues.add(k); state.page = 0; renderChips(); render(); }
+});
+$("#issue-toggle").addEventListener("click", (e) => {
+  const open = e.currentTarget.getAttribute("aria-expanded") !== "true";
+  e.currentTarget.setAttribute("aria-expanded", open);
+  $(".filter-row").classList.toggle("open", open);
+});
+function goPage(delta) {
+  state.page += delta;
+  render();
+  $(".result-bar").scrollIntoView({ block: "start" });
+}
+// Keep jump targets clear of the sticky search bar, whatever its height.
+new ResizeObserver(([e]) => document.documentElement.style.setProperty("--sticky-h", Math.ceil(e.target.getBoundingClientRect().height) + 8 + "px")).observe($(".controls"));
+// Rows are divs (so their text can be selected); give them button keyboard behavior.
+document.addEventListener("keydown", (e) => {
+  const el = e.target.closest && e.target.closest('[role="button"]');
+  if (el && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); el.click(); }
+});
+$("#prev").addEventListener("click", () => goPage(-1));
+$("#next").addEventListener("click", () => goPage(1));
+$("#per").value = state.per;
+$("#per").addEventListener("change", (e) => {
+  state.per = e.target.value; state.page = 0;
+  try { localStorage.setItem("warehouse-per-page", state.per); } catch (err) {}
+  render();
+});
+let t;
+$("#q").addEventListener("input", (e) => { clearTimeout(t); t = setTimeout(() => { state.q = e.target.value; state.page = 0; render(); }, 120); });
+$("#sort").addEventListener("change", (e) => { state.sort = e.target.value; state.page = 0; render(); });
+
+const themeBtn = $("#theme-toggle");
+const darkQuery = matchMedia("(prefers-color-scheme: dark)");
+function isDark() {
+  const t = document.documentElement.getAttribute("data-theme");
+  return t ? t === "dark" : darkQuery.matches;
+}
+function syncThemeButton() {
+  const dark = isDark();
+  themeBtn.classList.toggle("is-dark", dark);
+  $("#theme-label").textContent = dark ? "Dark" : "Light";
+  themeBtn.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
+}
+themeBtn.addEventListener("click", () => {
+  const next = isDark() ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", next);
+  try { localStorage.setItem("warehouse-theme", next); } catch (e) {}
+  syncThemeButton();
+});
+darkQuery.addEventListener("change", syncThemeButton);
+new MutationObserver(syncThemeButton).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+syncThemeButton();
+
+renderTotals(); renderRecent(); renderChips(); render();
+function openFromHash() {
+  const h = (location.hash || "").slice(1).toUpperCase();
+  if (byTid.has(h)) openGame(h);
+}
+addEventListener("hashchange", openFromHash);
+openFromHash();
+</script>
+</body>
+</html>
