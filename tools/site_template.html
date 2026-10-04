@@ -119,7 +119,10 @@ h2 { font: 600 18px/1.2 var(--display); margin: 0 0 10px; }
 .g-alt { display: block; color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
 .region { font: 500 11px/1 var(--mono); border: 1px solid var(--line); border-radius: 4px; padding: 2px 4px; margin-left: 6px; vertical-align: 2px; color: var(--muted); }
 .g-side { display: grid; justify-items: end; gap: 3px; }
-.g-ver { font: 13px var(--mono); color: var(--muted); text-align: right; }
+/* Fixed-width mono columns so title IDs and versions line up from row to row. */
+.g-ver { font: 13px var(--mono); color: var(--muted); display: grid; grid-template-columns: 16ch 20ch; column-gap: 14px; }
+.g-ver > :last-child { text-align: right; }  /* version stays flush right under the status labels */
+.g-tid { opacity: .8; }
 .g-state { display: flex; flex-wrap: wrap; gap: 4px; justify-content: flex-end; }
 .pill { font-size: 12px; font-weight: 500; border-radius: 999px; padding: 2px 9px; white-space: nowrap; }
 .pill.available { background: var(--ok-soft); color: var(--ok); }
@@ -155,6 +158,12 @@ footer { margin-top: 40px; font-size: 13px; color: var(--muted); display: grid; 
   .detail { grid-template-columns: minmax(0, 1fr); }
   .controls { position: static; }
   .game, .result-bar { scroll-margin-top: 8px; }
+  /* Phones: name gets the full width; status, title ID and version go on the line below. */
+  .row { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .g-side { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; }
+  .g-state { justify-content: flex-start; }
+  .g-ver { display: flex; flex-wrap: wrap; gap: 0 14px; flex-basis: 100%; }  /* always its own line */
+  .g-ver > :last-child { text-align: left; }
   .recent-list button { grid-template-columns: minmax(0, 1fr) auto; }
   .r-date { grid-column: 1 / -1; }
 }
@@ -239,6 +248,11 @@ const games = DATA.games.map((g, i) => ({
   hay: (g.names.join(" ") + " " + g.tids.join(" ") + " " + g.builds.map((b) => b.bid).join(" ")).toLowerCase(),
 }));
 const byTid = new Map(games.map((g) => [g.key, g]));
+// Real alphabetical order: case-insensitive, numbers compared by value, leading punctuation ignored.
+const collator = new Intl.Collator("en", { numeric: true, sensitivity: "base", ignorePunctuation: true });
+games.forEach((g) => (g.nameKey = g.names[0].replace(/^[^\p{L}\p{N}]+/u, "")));
+const byName = [...games].sort((a, b) => collator.compare(a.nameKey, b.nameKey) || a.i - b.i);
+byName.forEach((g, n) => (g.nameRank = n));
 
 const state = { q: "", status: "all", issues: new Set(), sort: "name", per: savedPer, page: 0, open: new Set() };
 const perPage = () => (state.per === "all" ? Infinity : Number(state.per));
@@ -284,7 +298,9 @@ function filtered() {
     if (state.issues.size && ![...state.issues].every((ic) => g.issues.some((x) => x.icon === ic))) return false;
     return !q || g.hay.includes(q);
   });
-  if (state.sort === "updated") out = [...out].sort((a, b) => (b.updated || "").localeCompare(a.updated || "") || a.i - b.i);
+  out = [...out].sort(state.sort === "updated"
+    ? (a, b) => (b.updated || "").localeCompare(a.updated || "") || a.nameRank - b.nameRank
+    : (a, b) => a.nameRank - b.nameRank);
   return out;
 }
 
@@ -298,7 +314,7 @@ function rowHtml(g) {
   const open = state.open.has(g.key);
   return `<li class="game" id="${g.key}"><button type="button" class="row" data-tid="${g.key}" aria-expanded="${open}">` +
     `<span class="g-name"><span class="g-title">${esc(g.names[0])}${regions}</span>${alt ? `<span class="g-alt">${esc(alt)}</span>` : ""}<span class="g-issues">${issues}</span></span>` +
-    `<span class="g-side"><span class="g-state">${pills}</span><span class="g-ver">${esc(last.ver)} · v${last.vid}</span></span></button>` +
+    `<span class="g-side"><span class="g-state">${pills}</span><span class="g-ver"><span class="g-tid">${g.key}</span><span>${esc(last.ver)} · v${last.vid}</span></span></span></button>` +
     (open ? detailHtml(g) : "") + `</li>`;
 }
 
