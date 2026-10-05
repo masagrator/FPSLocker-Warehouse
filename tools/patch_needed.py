@@ -72,7 +72,7 @@ def make_body(games, seen, state):
     today = datetime.date.today().isoformat()
     return "\n\n".join([
         f"Updated automatically on {today}. Each game here has a newer update than the "
-        "newest version listed in README.md. The list is rebuilt every day, and games "
+        "newest version listed in README.md. The list is checked every 6 hours, and games "
         "drop off once the README covers the newest version.",
         f"### Patch needs updating ({len(patched)})\n"
         "These games have a patch for an older version.\n\n"
@@ -82,6 +82,15 @@ def make_body(games, seen, state):
         + table([row(g, seen[g["tids"][0]]) for g in order(other)]),
         f"<!-- patch-needed-state {json.dumps(state, sort_keys=True)} -->",
     ])
+
+
+DATE_RE = re.compile(r"^Updated automatically on \d{4}-\d{2}-\d{2}\. ")
+
+
+def same_content(a, b):
+    """True when two issue bodies differ at most in the "Updated automatically on" date."""
+    norm = lambda s: DATE_RE.sub("", (s or "").replace("\r\n", "\n")).strip()  # noqa: E731
+    return norm(a) == norm(b)
 
 
 def find_issue():
@@ -136,8 +145,11 @@ def main():
         print(f"Created issue #{issue['number']} with {len(games)} games")
         return
 
-    api("PATCH", f"/issues/{issue['number']}", {"body": body,
-                                                "state": "open" if games else "closed"})
+    wanted_state = "open" if games else "closed"
+    if same_content(issue.get("body"), body) and issue.get("state") == wanted_state:
+        print(f"Issue #{issue['number']} is already up to date ({len(games)} games), nothing changed")
+        return
+    api("PATCH", f"/issues/{issue['number']}", {"body": body, "state": wanted_state})
     if new and old:  # no comment on the first run, the issue itself is the notice
         comment = (f"{len(new)} game(s) got an update that the Warehouse doesn't cover yet:\n\n"
                    + table([row(g, today) for g in new]))
