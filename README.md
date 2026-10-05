@@ -1397,6 +1397,7 @@ PATCH AVAILABILITY<br>
 | 空の軌跡 the 1st | `01004D20219E0000` | `4583D73E326FFE7B` ([✅](SaltySD/plugins/FPSLocker/patches/01004D20219E0000/4583D73E326FFE7B.yaml), v5, 1.0.6) <br> `90EAF9A228DEB038` ([✅](SaltySD/plugins/FPSLocker/patches/01004D20219E0000/90EAF9A228DEB038.yaml), v6, 1.0.7) | ~~[⏱️](#⏱️)[📏](#📏)~~ |
 | Trails in the Sky 2nd Chapter | `01007A2027548000` | `5EA394E096752EE3` ([✅](SaltySD/plugins/FPSLocker/patches/01007A2027548000/5EA394E096752EE3.yaml), v5, 1.0.3) | ~~[📏](#📏)~~ |
 | 하늘의 궤적 the 2nd<br>空之軌跡 the 2nd | `0100E8B028B54000` | `7E1DE35BFA52F4A8` ([✅](SaltySD/plugins/FPSLocker/patches/0100E8B028B54000/7E1DE35BFA52F4A8.yaml), v5, 1.0.3a) | ~~[📏](#📏)~~ |
+| 空の軌跡 the 2nd | `01002270268E0000` | `6994C555B7D6B642` ([✅](SaltySD/plugins/FPSLocker/patches/01002270268E0000/6994C555B7D6B642.yaml), v3, 1.0.3) | ~~[📏](#📏)~~ |
 | Trials of Mana | `0100D7800E9E0000` | `92C25172D38DFEDB` ([✅](SaltySD/plugins/FPSLocker/patches/0100D7800E9E0000/92C25172D38DFEDB.yaml), v3, 1.1.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | 성검전설3 TRIALS of MANA (한국어판) | `0100E2D00FE90000` | `9893960C8EF852A4` ([✅](SaltySD/plugins/FPSLocker/patches/0100E2D00FE90000/9893960C8EF852A4.yaml), v3, 1.1.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | TT Isle of Man 2 | `010000400F582000` | `02F2E5C8CBF5A92F` ([✅](SaltySD/plugins/FPSLocker/patches/010000400F582000/02F2E5C8CBF5A92F.yaml), v1, 1.0.1) | ~~[📏](#📏)~~ |
