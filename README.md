@@ -87,7 +87,7 @@ PATCH AVAILABILITY<br>
 | Agatha Christie - Hercule Poirot: The London Case | `01002FD01A24C000` | `8F72E0D61C4BA0B1` ([✅](SaltySD/plugins/FPSLocker/patches/01002FD01A24C000/8F72E0D61C4BA0B1.yaml), v2, 1.0.2) | ~~[🛑](#🛑)~~ |
 | Agatha Christie - The ABC Murders | `010087C011C4E000` | `655293197620944D` (◯, v2, 1.0.2) |  |
 | Air Conflicts: Pacific Carriers | `0100C7600C7D6000` | `4B9686797938F283` (◯, v2, 1.0.2) |  |
-| エアコンフリクト：パシフィックキャリアー | `010020700C952000` | `E0875F171671C8F7` (❌, v0, 1.0.0) | [⚔️](#⚔️) |
+| エアコンフリクト：パシフィックキャリアー | `010020700C952000` | `E0875F171671C8F7` (◯, v0, 1.0.0) |  |
 | Airhead | `0100272013014000` | `D1D421137AAE1A5E` ([✅](SaltySD/plugins/FPSLocker/patches/0100272013014000/D1D421137AAE1A5E.yaml), v0, 1.0.0) | ~~[🛑](#🛑)~~ |
 | Alan Wake Remastered | `0100623017A58000` | `6520258D00AEA915` (◯, v1, 1.0.1) |  |
 | Alba | `01007FB013B10000` | `E0A4AB13942D904C` (◯, v1, 1.2.4) |  |
