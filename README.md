@@ -104,7 +104,7 @@ PATCH AVAILABILITY<br>
 | Ancestors Legacy | `01009EE0111CC000` | `E1F0CFC02F449EF3` ([✅](SaltySD/plugins/FPSLocker/patches/01009EE0111CC000/E1F0CFC02F449EF3.yaml), v2, 1.2.0) | ~~[🔐](#🔐)[⚔️](#⚔️)~~ |
 | Ancient Weapon Holly | `0100F7201D1B0000` | `3BBD72F0EB13C1AE` ([✅](SaltySD/plugins/FPSLocker/patches/0100F7201D1B0000/3BBD72F0EB13C1AE.yaml), v4, 1.7.1) | ~~[🏃](#🏃)~~ |
 | Animal Crossing: New Horizons | `01006F8002326000` | `FF1D1C05670DB602` (❌, v34, 3.0.3) | [⚔️](#⚔️)[⏱️](#⏱️)[🏃](#🏃)🖥 |
-| Animal Shelter Simulator | `0100B1C01B104000` | `AB9EFB08DB5FE4F1` (❌, v1, 1.1.0) | [⏱️](#⏱️) |
+| Animal Shelter Simulator | `0100B1C01B104000` | `AB9EFB08DB5FE4F1` ([✅](SaltySD/plugins/FPSLocker/patches/0100B1C01B104000/AB9EFB08DB5FE4F1.yaml), v1, 1.1.0) | ~~[🛑](#🛑)~~ |
 | Anime vs Evil: Apocalypse | `01001BE01E620000` | `D2EADA78AA71283E` ([✅](SaltySD/plugins/FPSLocker/patches/01001BE01E620000/D2EADA78AA71283E.yaml), v0, 1.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Another Code: Recollection | `0100CB9018F5A000` | `DED0F920799151BE` (❌, v0, 1.0.0) | [🖌️](#🖌️) |
 | Another Crab's Treasure | `0100A21017C42000` | `807A2202464D445B` ([✅](SaltySD/plugins/FPSLocker/patches/0100A21017C42000/807A2202464D445B.yaml), v9, 2.0.000.6) | ~~[📏](#📏)[⏱️](#⏱️)[🏃](#🏃)~~ |
