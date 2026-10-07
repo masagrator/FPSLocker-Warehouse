@@ -3,7 +3,7 @@
 
 ALL_FPS:
   # UnityEngine.Time::fixedDeltaTime 
-  # Required for different refresh rates to not jitter
+  # Fixes issues with popups animations
   -
     type: evaluate_write
     address: [MAIN, 0x624b160, 0x48]
