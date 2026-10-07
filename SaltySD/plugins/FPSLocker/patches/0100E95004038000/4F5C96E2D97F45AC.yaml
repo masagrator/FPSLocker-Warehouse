@@ -62,9 +62,6 @@ DECLARATIONS:
       [adrp, x0, 0xc23000], # REF: 29 01 40 F9  1F 01 00 F1 24 19 40 FA, two results, the one that has no RET soon after this, look at first adrp + ldr above it
       [ldr, x0, [x0, 0x2c8]],
       [str, s0, [x0, 0x80]],
-      [fmov, s1, 1.0],
-      [fdiv, s1, s1, s0],
-      [str, s1, [x0, 0x7C]], # layer frame rate = 1 / frame time
       [adrp, x0, $game_speed],
       [str, s0, [x0, $game_speed]],
       [b, :goto3],
@@ -85,24 +82,61 @@ DECLARATIONS:
       [ret],
     ]
   -
-    type: variable
-    name: fx_frames_per_sec
-    value_type: float
-    default_value: 30.0
-  -
     type: code
     name: effectSpeed
     instructions: [
       [ldr, s0, [x20, 4]],
-      [adrp, x8, $fx_frames_per_sec],
-      [ldr, s1, [x8, $fx_frames_per_sec]],
+      [fmov, s1, 30.0],
       [fmul, s0, s0, s1],
       [str, s0, [x27, 856]],
       [ret]
     ]
+  -
+    type: code
+    name: menuWaitFrames
+    instructions: [
+      [adrp, x0, $game_speed],
+      [ldr, s0, [x0, $game_speed]],
+      [fmov, s2, 30.0],
+      [fmul, s0, s0, s2],
+      [ucvtf, s1, w8],
+      [fdiv, s1, s1, s0],
+      [fmov, s2, 0.5],
+      [fadd, s1, s1, s2],
+      [fcvtzu, w8, s1],
+      [mov, w0, wzr],
+      [ret]
+    ]
 MASTER_WRITE:
-  # Effects speed (aura, fire etc.):
-  # REF: 88 0A 40 B9 68 5B 03 B9
+  # Quest log (quest title, "Received", quest completed): menu sequence "wait" step counts frames, scale wait length by 1 / (frame time * 30)
+  # GfMenuObjQuestLog sequence wait, start of wait branch (ldr w8,[x19,#392]; str w8,[x19,#948]; orr w8,wzr,#1; mov w0,wzr; strb w8,[x19,#944])
+  # Title sequence pushes wait 20 -> fade in -> wait 119 -> fade out
+  # REF: 68 DA 43 F9 08 05 00 91 68 DA 03 F9 F3 03 00 32, patch at REF+0x248
+  -
+    type: asm_a64
+    main_offset: 0x46E1D4
+    instructions: [
+      [ldr, w8, [x19, 392]],
+      [bl, _menuWaitFrames()],
+      [str, w8, [x19, 948]],
+      [mov, w8, 1],
+      [strb, w8, [x19, 944]]
+    ]
+  # Quest "Received" / quest completed / task sequences (second sequence of GfMenuObjQuestLog, pushes wait 55, 75, 45, 54...)
+  # Same wait code, other template instance (ldr w8,[x19,#264]; str w8,[x19,#644]; orr w8,wzr,#1; mov w0,wzr; strb w8,[x19,#640])
+  # REF: 68 DA 43 F9 08 05 00 91 68 DA 03 F9 F3 03 00 32, patch at REF+0x174
+  -
+    type: asm_a64
+    main_offset: 0x46E100
+    instructions: [
+      [ldr, w8, [x19, 264]],
+      [bl, _menuWaitFrames()],
+      [str, w8, [x19, 644]],
+      [mov, w8, 1],
+      [strb, w8, [x19, 640]]
+    ]
+  # Effects speed (aura, fire etc.): game feeds effect system with layer speed (1.0) per frame, scale it by frame time * 30
+  # REF: 88 0A 40 B9 68 5B 03 B9 (ldr w8,[x20,#8]; str w8,[x27,#856]), patch at REF
   -
     type: asm_a64
     main_offset: 0x17794C
@@ -110,8 +144,8 @@ MASTER_WRITE:
       [bl, _effectSpeed()],
       [nop]
     ]
-  # QTE rings
-  # REF: A0 06 40 BD 01 D0 27 1E 08 08 21 1E, fmul s8, s0, s1
+  # QTE rings: speed factor already includes frame time * 30 and menu multiplies it again by frame time, force factor to 1.0
+  # REF: A0 06 40 BD 01 D0 27 1E 08 08 21 1E, patch at REF+8 (fmul s8,s0,s1 -> fmov s8,#1.0)
   -
     type: asm_a64
     main_offset: 0x1D0C4
