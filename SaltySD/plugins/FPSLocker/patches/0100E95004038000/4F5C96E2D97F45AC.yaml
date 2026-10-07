@@ -62,6 +62,9 @@ DECLARATIONS:
       [adrp, x0, 0xc23000], # REF: 29 01 40 F9  1F 01 00 F1 24 19 40 FA, two results, the one that has no RET soon after this, look at first adrp + ldr above it
       [ldr, x0, [x0, 0x2c8]],
       [str, s0, [x0, 0x80]],
+      [fmov, s1, 1.0],
+      [fdiv, s1, s1, s0],
+      [str, s1, [x0, 0x7C]], # layer frame rate = 1 / frame time
       [adrp, x0, $game_speed],
       [str, s0, [x0, $game_speed]],
       [b, :goto3],
@@ -81,7 +84,40 @@ DECLARATIONS:
       :goto3, [mov, w8, 0x21a0],
       [ret],
     ]
+  -
+    type: variable
+    name: fx_frames_per_sec
+    value_type: float
+    default_value: 30.0
+  -
+    type: code
+    name: effectSpeed
+    instructions: [
+      [ldr, s0, [x20, 4]],
+      [adrp, x8, $fx_frames_per_sec],
+      [ldr, s1, [x8, $fx_frames_per_sec]],
+      [fmul, s0, s0, s1],
+      [str, s0, [x27, 856]],
+      [ret]
+    ]
 MASTER_WRITE:
+  # Effects speed (aura, fire etc.):
+  # REF: 88 0A 40 B9 68 5B 03 B9
+  -
+    type: asm_a64
+    main_offset: 0x17794C
+    instructions: [
+      [bl, _effectSpeed()],
+      [nop]
+    ]
+  # QTE rings
+  # REF: A0 06 40 BD 01 D0 27 1E 08 08 21 1E, fmul s8, s0, s1
+  -
+    type: asm_a64
+    main_offset: 0x1D0C4
+    instructions: [
+      [fmov, s8, 1.0]
+    ]
   # Dynamic speed
   # Jump before pushing frame
   -
