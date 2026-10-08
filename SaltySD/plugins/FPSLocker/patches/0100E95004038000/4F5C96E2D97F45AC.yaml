@@ -34,6 +34,29 @@ DECLARATIONS:
     type: const
     name: microseconds_in_sec
     value: 0x49742400
+  # CPU side of dynamic resolution: when the frame took longer than the target frame time, the overshoot is added
+  # to the GPU time the game measured. At a perfect framerate the game's DR works as before.
+  -
+    type: variable
+    name: frame_over
+    value_type: float
+    # (already multiplied by cpu_weight)
+    default_value: 0.0
+  -
+    type: variable
+    name: cpu_weight
+    value_type: float
+    default_value: 1.0
+  -
+    type: variable
+    name: over_tolerance
+    value_type: float
+    default_value: 0.05
+  -
+    type: variable
+    name: over_cap
+    value_type: float
+    default_value: 0.5
   -
     type: code
     name: dynamicSpeed
@@ -77,6 +100,33 @@ DECLARATIONS:
       [fmov, s0, s2],
       [b, :goto4],
       :goto2, [fdiv, s0, s0, s1],
+      # frame_over = clamp(frame time - min_delta * (1 + over_tolerance), 0, min_delta * over_cap), before frame time gets clamped
+      [adrp, x3, $min_delta],
+      [ldr, s3, [x3, $min_delta]],
+      [adrp, x3, $over_tolerance],
+      [ldr, s4, [x3, $over_tolerance]],
+      [fmul, s4, s3, s4],
+      [fadd, s3, s3, s4],
+      [fsub, s3, s0, s3],
+      # floor at 0
+      [fsub, s4, s4, s4],
+      [fcmp, s3, s4],
+      [b.hi, :goto7],
+      [fmov, s3, s4],
+      # cap: min_delta * over_cap (not max_delta: cutscenes set it to 30 s, a loading hitch would push the DR load far out of range)
+      :goto7, [adrp, x3, $min_delta],
+      [ldr, s4, [x3, $min_delta]],
+      [adrp, x3, $over_cap],
+      [ldr, s5, [x3, $over_cap]],
+      [fmul, s4, s4, s5],
+      [fcmp, s3, s4],
+      [b.lt, :goto8],
+      [fmov, s3, s4],
+      :goto8, [adrp, x3, $cpu_weight],
+      [ldr, s4, [x3, $cpu_weight]],
+      [fmul, s3, s3, s4],
+      [adrp, x3, $frame_over],
+      [str, s3, [x3, $frame_over]],
       [b, :goto5],
       :goto3, [mov, w8, 0x21a0],
       [ret],
@@ -85,16 +135,23 @@ DECLARATIONS:
     type: code
     name: effectSpeed
     instructions: [
+      [sub, sp, sp, 16],
+      [stp, d0, d1, [sp]],
       [ldr, s0, [x20, 4]],
       [fmov, s1, 30.0],
       [fmul, s0, s0, s1],
       [str, s0, [x27, 856]],
+      [ldp, d0, d1, [sp]],
+      [add, sp, sp, 16],
       [ret]
     ]
   -
     type: code
     name: menuWaitFrames
     instructions: [
+      [sub, sp, sp, 32],
+      [stp, d0, d1, [sp]],
+      [str, d2, [sp, 16]],
       [adrp, x0, $game_speed],
       [ldr, s0, [x0, $game_speed]],
       [fmov, s2, 30.0],
@@ -104,10 +161,55 @@ DECLARATIONS:
       [fmov, s2, 0.5],
       [fadd, s1, s1, s2],
       [fcvtzu, w8, s1],
+      [ldr, d2, [sp, 16]],
+      [ldp, d0, d1, [sp]],
+      [add, sp, sp, 32],
+      [mov, w0, wzr],
+      [ret]
+    ]
+  -
+    type: code
+    name: elemEffWait
+      [str, wzr, [x0, 696]],
+      [mov, w8, 37],
+      [adrp, x9, $game_speed],
+      [ldr, s0, [x9, $game_speed]],
+      [fmov, s2, 30.0],
+      [fmul, s0, s0, s2],
+      [ucvtf, s1, w8],
+      [fdiv, s1, s1, s0],
+      [fmov, s2, 0.5],
+      [fadd, s1, s1, s2],
+      [fcvtzu, w8, s1],
+      [str, w8, [x0, 704]],
       [mov, w0, wzr],
       [ret]
     ]
 MASTER_WRITE:
+  # Element effect UI (gf_menu_obj_element_eff), counts 37 frames before starting next control, scale by 1 / (frame time * 30)
+  # Original: mov w8,wzr; mov w9,#37; str wzr,[x0,#696]; str w9,[x0,#704]; mov w0,w8; ret (leaf function, x30 kept in x10)
+  # REF: E8 03 1F 2A A9 04 80 52 1F B8 02 B9, patch at REF
+  -
+    type: asm_a64
+    main_offset: 0x3F7770
+    instructions: [
+      [mov, x10, x30],
+      [bl, _elemEffWait()],
+      [mov, x30, x10],
+      [ret]
+    ]
+  # Element effect UI menu sequence wait (same wait code as quest log)
+  # REF: E8 33 40 FD FD 7B 48 A9 F4 4F 47 A9 E0 03 00 32, patch at REF+0x74
+  -
+    type: asm_a64
+    main_offset: 0x3F6DE8
+    instructions: [
+      [ldr, w8, [x19, 264]],
+      [bl, _menuWaitFrames()],
+      [str, w8, [x19, 644]],
+      [mov, w8, 1],
+      [strb, w8, [x19, 640]]
+    ]
   # Quest log (quest title, "Received", quest completed): menu sequence "wait" step counts frames, scale wait length by 1 / (frame time * 30)
   # GfMenuObjQuestLog sequence wait, start of wait branch (ldr w8,[x19,#392]; str w8,[x19,#948]; orr w8,wzr,#1; mov w0,wzr; strb w8,[x19,#944])
   # Title sequence pushes wait 20 -> fade in -> wait 119 -> fade out
@@ -169,14 +271,25 @@ MASTER_WRITE:
       [adrp, x8, $game_speed],
       [ldr, s6, [x8, $game_speed]]
     ]
-  # Redirect DR timing
-  # REF: 74 02 40 B9 08 FD 66 D3 08 01 23 1E, LDR X8, [X8,#0xD0] below it
+  # Dynamic resolution: target frame time (DR timing) and load = GPU time + frame time overshoot (frame_over), inline, no call
+  # Original from REF+0x14: adrp x8; ldr x8,[x8,#0xAA8]; ldr x0,[x8]; cbz x0,+0x14; ldr x8,[x0]; ldr x8,[x8,#0xD0]; blr x8 (target -> s0);
+  #   b +8; fmov s0,wzr; fmul s1,s8,s9 (GPU microseconds * 1e-6 -> s1)
+  # Only writes s0, s1 and x8 like the original (x0 held the object only for the replaced call)
+  # REF: 74 02 40 B9 08 FD 66 D3 08 01 23 1E, patch at REF+0x14
   -
     type: asm_a64
-    main_offset: 0x6AAABC
+    main_offset: 0x6AAAA8
     instructions: [
+      [fmul, s1, s8, s9],
+      [adrp, x8, $frame_over],
+      [ldr, s0, [x8, $frame_over]],
+      [fadd, s1, s1, s0],
       [adrp, x8, $dr_target],
-      [ldr, s0, [x8, $dr_target]]
+      [ldr, s0, [x8, $dr_target]],
+      [nop],
+      [nop],
+      [nop],
+      [nop]
     ]
 ALL_FPS:
   # REF: 0A 01 40 B9 00 01 00 B9, adrp + ldr above
