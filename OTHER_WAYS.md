@@ -30,7 +30,7 @@ I won't provide links to patches that have some bugs left.
 ```
 - Jump Force
   - TID: `010019D010F0E000` (EUR)
-  - BID: `E1F650BD480CB465 ` (1.0.3)
+  - BID: `E1F650BD480CB465` (1.0.3)
   - Exefs patch: [LINK](/other/JumpForce60FPS.zip)
 
 - Metal Gear Solid 2: Sons of Liberty
