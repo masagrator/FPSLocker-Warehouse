@@ -11,9 +11,7 @@ MASTER_WRITE:
       [adrp, x8, 0x9B98000],
       [ldr, d0, [x8, 0x7F0]],
       [fcvt, s0, d0],
-      [mov, w9, 0x41F0],
-      [lsl, w9, w9, 16],
-      [fmov, s1, w9],
+      [fmov, s1, 30.0],
       [fmul, s8, s0, s1],
       [b, +152]
     ]
