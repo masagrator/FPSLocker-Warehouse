@@ -37,6 +37,10 @@ jobs:
           python-version: '3.14'
 
       - name: Build page
+        env:
+          # Repository variables for "Sign in with GitHub" (see tools/oauth-worker/README.md).
+          OAUTH_CLIENT_ID: ${{ vars.OAUTH_CLIENT_ID }}
+          OAUTH_TOKEN_URL: ${{ vars.OAUTH_TOKEN_URL }}
         run: python -u tools/build_site.py --out _site
 
       - name: Update patch-needed issue
