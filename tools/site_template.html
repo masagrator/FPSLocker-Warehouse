@@ -1304,7 +1304,8 @@ async function openPullRequest(token, v) {
     "", "_Submitted from the [Warehouse page](https://" + REPO.split("/")[0] + ".github.io/" + REPO.split("/")[1] + "/)._",
   ].filter((x) => x !== null).join("\n");
   const pr = await run("Opening the pull request", () => api("POST", `/repos/${REPO}/pulls`, {
-    title, body, base: BRANCH,
+    // Patch uploads get no description: the title and the files say it all.
+    title, ...(v.status === "available" ? {} : { body }), base: BRANCH,
     head: target === REPO ? branch : `${target.split("/")[0]}:${branch}`,
     ...(target === REPO ? {} : { maintainer_can_modify: true }),
   }));
