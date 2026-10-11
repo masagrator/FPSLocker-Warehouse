@@ -2,14 +2,13 @@
 # When the Worker is connected to this GitHub repository (Workers Builds), set
 # Settings → Build → Root directory to: tools/oauth-worker
 # The name below must match the Worker's name in Cloudflare.
-name = "fpslocker-warehouse-oauth"
+name = "fpslocker-warehouse"
 main = "worker.js"
 compatibility_date = "2025-01-01"
 
 # Keep variables added in the Cloudflare dashboard when deploying.
 keep_vars = true
 
-[vars]
-ALLOWED_ORIGIN = "https://masagrator.github.io"
+# ALLOWED_ORIGIN is optional: without it, any https://<name>.github.io page may use the Worker.
 # GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET: add them as Secrets in the dashboard
 # (Settings → Variables and Secrets) or with `npx wrangler secret put`.

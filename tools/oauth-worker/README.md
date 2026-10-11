@@ -25,12 +25,17 @@ that holds the secret and does only that exchange. It stores nothing.
    Then in the Worker's Settings → Variables and Secrets add:
    - `GITHUB_CLIENT_ID` (text): the Client ID
    - `GITHUB_CLIENT_SECRET` (secret): the client secret
-   - `ALLOWED_ORIGIN` (text): `https://masagrator.github.io` (no trailing slash)
+   - `ALLOWED_ORIGIN` (text, optional): `https://masagrator.github.io`. Without it, any `https://<name>.github.io` page may use the Worker.
+
+   **Deploying from GitHub instead** (Worker connected to this repository): in the Worker's
+   Settings → Build, set **Root directory** to `tools/oauth-worker`, otherwise the build fails with
+   "Could not detect a directory containing static files". The Worker's name must match `name`
+   in `wrangler.toml`. Add the client ID and secret as **Secrets** so deploys never remove them.
 
    Or from this folder: `npx wrangler deploy`, then
    `npx wrangler secret put GITHUB_CLIENT_ID` and `npx wrangler secret put GITHUB_CLIENT_SECRET`.
 
-   Note the Worker URL, like `https://fpslocker-warehouse-oauth.<you>.workers.dev`.
+   Note the Worker URL, like `https://fpslocker-warehouse.<you>.workers.dev`.
    Opening it in a browser should show `{"error":"Not found"}`, which means it's running.
 
 3. **Tell the page.** In the repository: Settings → Secrets and variables → Actions → Variables
