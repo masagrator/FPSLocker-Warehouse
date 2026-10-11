@@ -1481,6 +1481,9 @@ $("#man-copy").addEventListener("click", async (e) => {
 async function gh(token, method, path, body) {
   const r = await fetch("https://api.github.com" + path, {
     method,
+    // GitHub lets browsers cache API answers for 60 s. A cached "where is v4" right after
+    // a merge would base the next pull request on the old README and make it conflict.
+    cache: "no-store",
     headers: {
       Authorization: "Bearer " + token,
       Accept: "application/vnd.github+json",
@@ -1530,11 +1533,20 @@ async function openPullRequest(token, v) {
   const { baseSha, treeSha, readme } = await run(`Reading the latest ${BRANCH}`, async () => {
     const ref = await api("GET", `/repos/${REPO}/git/ref/heads/${BRANCH}`);
     const commit = await api("GET", `/repos/${REPO}/git/commits/${ref.object.sha}`);
-    const r = await fetch(`https://raw.githubusercontent.com/${REPO}/${ref.object.sha}/README.md`);
+    const r = await fetch(`https://raw.githubusercontent.com/${REPO}/${ref.object.sha}/README.md`, { cache: "no-store" });
     if (!r.ok) throw new Error("Couldn't download README.md (HTTP " + r.status + ")");
     return { baseSha: ref.object.sha, treeSha: commit.tree.sha, readme: await r.text() };
   });
+  if (v.range) await run("Reading the current patch files", async () => {
+    // Use the files from the same commit as the README, not the page's possibly cached copies.
+    for (const p of new Set(targets(v).map((t) => rangeSource(t, v)))) {
+      const r = await fetch(`https://raw.githubusercontent.com/${REPO}/${baseSha}/${encodeURI(p)}`, { cache: "no-store" });
+      if (!r.ok) throw new Error(`Couldn't download ${p} (HTTP ${r.status})`);
+      srcYaml.set(p, await r.text());
+    }
+  });
   const edit = computeAll(readme, v); // redo it on the newest README
+  if (v.range && targets(v).some((t) => rangeYamlFor(t, v) == null)) throw new Error("A patch file's first line has no version to extend");
   const files = [];
   if (edit.text !== readme) files.push({ path: "README.md", mode: "100644", type: "blob", content: edit.text });
   if (v.status === "available") for (const f of edit.files) files.push({ path: f.path, mode: "100644", type: "blob", content: f.content });
