@@ -372,7 +372,7 @@ PATCH AVAILABILITY<br>
 | DRAGON QUEST TREASURES | `010049B017774000` | `2F81A2EC9B298B37` ([✅](SaltySD/plugins/FPSLocker/patches/0100217014266000/2F81A2EC9B298B37.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | ドラゴンクエスト トレジャーズ | `0100217014266000` | `2F81A2EC9B298B37` ([✅](SaltySD/plugins/FPSLocker/patches/0100217014266000/2F81A2EC9B298B37.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Dragon Star VARNIR | `0100A8B014930000` | `E26A54F785A76EE7` (◯, v1, 1.0.1) |  |
-| 용의 별 바르니르 - Ecdysis of the dragon | `0100FB30148EC000` | `253470EA1AD22B4A` (❌, v1, 1.0.1) | [⚔️](#⚔️) |
+| 용의 별 바르니르 - Ecdysis of the dragon | `0100FB30148EC000` | `253470EA1AD22B4A` (◯, v1, 1.0.1) |  |
 | Dragon's Dogma: Dark Arisen | `010032C00AC58000` | `2CDB9B9D70010E88` ([✅](SaltySD/plugins/FPSLocker/patches/010032C00AC58000/2CDB9B9D70010E88.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
 | ドラゴンズドグマ：ダークアリズン | `010057E00AC56000` | `2D5B93C856CDF009` ([✅](SaltySD/plugins/FPSLocker/patches/010057E00AC56000/2D5B93C856CDF009.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
 | DreadOut Remastered Collection | `01000B202041A000` | `1C0DA03A066F5B51` ([✅](SaltySD/plugins/FPSLocker/patches/01000B202041A000/1C0DA03A066F5B51.yaml), v2, 1.0.3) | ~~[📏](#📏)~~ |
