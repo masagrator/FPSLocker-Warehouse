@@ -249,6 +249,22 @@ details.manual summary { cursor: pointer; padding: 10px 0; font-size: 14px; font
 details.manual ol { margin: 0 0 12px; padding-left: 20px; display: grid; gap: 8px; font-size: 14px; }
 .keep { grid-column: 1 / -1; display: flex; gap: 6px; align-items: center; font-size: 13px; color: var(--muted); }
 #sub-problems:empty, #sub-log:empty, #sub-result:empty, #y-checks:empty { display: none; }
+.extras { display: grid; gap: 8px; border-top: 1px dashed var(--line); padding-top: 12px; font-size: 14px; }
+.extras .hint { display: block; margin-top: 2px; }
+.extras .picker input { font: inherit; color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; width: 100%; }
+.extras .picker input:focus { outline: none; border-color: var(--accent); }
+.chip.add { font-size: 12px; }
+.ex-rows { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.ex-rows:empty { display: none; }
+.ex-row { display: grid; grid-template-columns: minmax(0, 1fr) 110px 130px auto; gap: 8px; align-items: end; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; }
+.ex-row .ex-name { align-self: center; min-width: 0; }
+.ex-row .ex-name b { font-weight: 600; overflow-wrap: anywhere; }
+.ex-row .ex-name .mono { display: block; font-size: 12px; color: var(--muted); }
+.ex-row .field > span { font-size: 12px; font-weight: 400; color: var(--muted); }
+.ex-row .field input { padding: 5px 8px; font-size: 13px; }
+.ex-row .x-btn { width: 28px; height: 28px; align-self: center; }
+.ex-row .ex-note { grid-column: 1 / -1; font-size: 12px; color: var(--muted); }
+.ex-row .ex-note:empty { display: none; }
 .row-actions { display: flex; flex-wrap: wrap; gap: 6px; }
 
 @media (max-width: 720px) {
@@ -267,6 +283,8 @@ details.manual ol { margin: 0 0 12px; padding-left: 20px; display: grid; gap: 8p
   .sub-head, .sub-body { padding-inline: 16px; }
   .fgrid { grid-template-columns: minmax(0, 1fr); }
   .auth #sub-go { margin-left: 0; width: 100%; }
+  .ex-row { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; }
+  .ex-row .ex-name { grid-column: 1 / -1; }
 }
 @media (prefers-reduced-motion: no-preference) { .row, .chip { transition: background-color .12s; } .issue-toggle svg { transition: transform .15s; } }
 </style>
@@ -377,6 +395,15 @@ try { const t = localStorage.getItem("warehouse-theme"); if (t === "dark" || t =
           <label><input type="radio" name="status" value="unavailable">❌ Patch needed</label>
           <label><input type="radio" name="status" value="not_needed">◯ No patch needed</label>
         </div>
+        <div class="extras">
+          <div><b>Other editions with the same build</b> <span class="hint">Optional. Regional editions often share one build ID: each one gets its own README entry and its own copy of the patch file, with that edition's name in the first line.</span></div>
+          <div class="row-actions" id="ex-suggest"></div>
+          <div class="picker">
+            <input id="ex-q" type="search" placeholder="Add another game by name or title ID" role="combobox" aria-expanded="false" aria-controls="ex-list" aria-label="Add another game" spellcheck="false">
+            <ul class="picker-list" id="ex-list" role="listbox" hidden></ul>
+          </div>
+          <ul class="ex-rows" id="ex-rows"></ul>
+        </div>
       </fieldset>
 
       <fieldset class="step" id="step-yaml">
@@ -420,10 +447,10 @@ try { const t = localStorage.getItem("warehouse-theme"); if (t === "dark" || t =
         <details class="manual" id="manual">
           <summary>Submit by hand instead</summary>
           <ol>
-            <li><span id="man-yaml-step">Download the patch file and upload it to <a id="man-upload" target="_blank" rel="noopener">its folder on GitHub</a>. GitHub offers to fork the repository and open a pull request for you.</span>
+            <li><span id="man-yaml-step">Download the patch file and upload it to <a id="man-upload" target="_blank" rel="noopener">its folder on GitHub</a>. GitHub offers to fork the repository and open a pull request for you.<span id="man-extra"></span></span>
               <div class="row-actions" style="margin-top:6px"><button type="button" class="btn" id="man-dl">Download YAML</button></div></li>
             <li>In the same pull request, <a id="man-readme" target="_blank" rel="noopener">edit README.md</a> and make the change shown above.
-              <div class="row-actions" style="margin-top:6px"><button type="button" class="btn" id="man-copy">Copy the new README row</button></div></li>
+              <div class="row-actions" style="margin-top:6px"><button type="button" class="btn" id="man-copy">Copy the new README rows</button></div></li>
           </ol>
         </details>
       </fieldset>
@@ -776,6 +803,8 @@ const store = {
 const dlg = $("#sub"), form = $("#sub-form");
 const sub = { mode: "existing", game: null, readme: null, readmeErr: null, edit: null, hadBom: false, badUtf8: false, busy: false };
 const issState = new Map(); // issue icon -> "" | "on" | "solved"
+sub.extras = [];        // other editions with the same build: { g, vid, ver } ("" = same as the main game)
+sub.issTouched = false; // issue changes are copied to the other editions only when the user edited them
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // js-yaml is only needed for checking uploads, so it loads when the form opens.
@@ -868,6 +897,8 @@ $("#pick-list").addEventListener("mousedown", (e) => {
 });
 function pickGame(g) {
   sub.game = g;
+  sub.extras = sub.extras.filter((x) => x.g.key !== g.key);
+  renderExtras();
   $("#picker").hidden = true;
   $("#pick-list").hidden = true;
   const last = g.builds[g.builds.length - 1];
@@ -990,6 +1021,7 @@ function renderIssues() {
   }).join("");
 }
 function syncIssuesFromGame() {
+  sub.issTouched = false;
   issState.clear();
   if (sub.mode === "existing" && sub.game) for (const x of sub.game.issues) issState.set(x.icon, x.solved ? "solved" : "on");
   renderIssues();
@@ -999,6 +1031,7 @@ $("#iss-grid").addEventListener("change", (e) => {
   if (!s) return;
   issState.set(s.dataset.iss, s.value);
   s.className = s.value;
+  sub.issTouched = true;
   update();
 });
 function issuesCell() {
@@ -1070,7 +1103,7 @@ function computeEdit(readme, v) {
       const next = items.find((x) => x.vid > Number(v.vid));
       cols[3] = next ? cell.replace(next.text, entry + " <br> " + next.text) : cell.replace(/\s*$/, "") + " <br> " + entry + " ";
     }
-    if (issuesChanged(v.game)) cols[4] = issuesCell();
+    if ((v.extra ? sub.issTouched : true) && issuesChanged(v.game)) cols[4] = issuesCell();
     lines[idx] = cols.join("|");
     if (lines[idx] !== old) diff.push(["-", old], ["+", lines[idx]]);
     return { text: lines.join(nl), diff, row: lines[idx], path };
@@ -1108,6 +1141,123 @@ function computeEdit(readme, v) {
   return { text: lines.join(nl), diff, row, path };
 }
 
+// The main game plus every other edition, applied one after another to the README.
+function targets(v) {
+  return [v, ...sub.extras.map((x) => ({ ...v, mode: "existing", game: x.g, extra: true,
+    vid: /^\d+$/.test(x.vid) ? x.vid : v.vid, ver: x.ver || v.ver }))];
+}
+function computeAll(readme, v) {
+  let text = readme;
+  const diff = [], rows = [], paths = [], files = [];
+  for (const t of targets(v)) {
+    const r = computeEdit(text, t);
+    if (diff.length && r.diff.length) diff.push([" ", ""]);
+    text = r.text; diff.push(...r.diff); rows.push(r.row);
+    if (!paths.includes(r.path)) { paths.push(r.path); files.push({ path: r.path, content: yamlFor(t) }); }
+  }
+  return { text, diff, rows, paths, files, path: paths[0] };
+}
+// Each edition's copy names that edition in its first line ("# <name> <version>"),
+// like the files already in the repository. The main game's file is kept as uploaded.
+function yamlFor(t) {
+  const text = yamlText();
+  if (!t.extra) return text;
+  const header = `# ${t.game.names[0]} ${t.ver}`;
+  const nl = text.includes("\r\n") ? "\r\n" : "\n";
+  const lines = text.split(nl);
+  if (/^#(?!\s*BID\b)/i.test(lines[0])) lines[0] = header; // replace the title line
+  else lines.unshift(header);                                // no title line: add one
+  return lines.join(nl);
+}
+
+// ---- Other editions with the same build ----
+function editionNote(g, v, t) {
+  if (!HEX16.test(v.bid)) return "";
+  const known = g.builds.find((b) => b.bid === v.bid);
+  if (known) return `Already listed as ${known.ver} · v${known.vid}: this updates that entry.`;
+  const last = g.builds[g.builds.length - 1];
+  if (v.status === "not_needed" && last.status === "not_needed") return `Replaces the current “No patch needed” entry, ${last.ver} · v${last.vid}.`;
+  return `Newest listed: ${last.ver} · v${last.vid}` + (g.newest != null ? `, newest known v${g.newest}.` : ".");
+}
+function renderExtras() {
+  const v = vals();
+  $("#ex-rows").innerHTML = sub.extras.map((x, i) =>
+    `<li class="ex-row"><span class="ex-name"><b>${esc(x.g.names[0])}</b>${x.g.regions.map((r) => ` <span class="region">${esc(r)}</span>`).join("")}<span class="mono">${x.g.key}</span></span>` +
+    `<label class="field"><span>Version ID</span><input type="number" min="0" step="1" inputmode="numeric" data-ex-vid="${i}" value="${esc(x.vid)}" placeholder="${esc(v.vid || "same")}"></label>` +
+    `<label class="field"><span>Version</span><input data-ex-ver="${i}" value="${esc(x.ver)}" placeholder="${esc(v.ver || "same")}"></label>` +
+    `<button type="button" class="x-btn" data-ex-del="${i}" aria-label="Remove ${esc(x.g.names[0])}"><svg width="10" height="10" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>` +
+    `<span class="ex-note" data-ex-note="${i}"></span></li>`).join("");
+  renderExtraNotes();
+}
+function renderExtraNotes() {
+  const v = vals();
+  sub.extras.forEach((x, i) => {
+    const n = form.querySelector(`[data-ex-note="${i}"]`);
+    if (n) n.textContent = editionNote(x.g, v);
+    const vi = form.querySelector(`[data-ex-vid="${i}"]`), ve = form.querySelector(`[data-ex-ver="${i}"]`);
+    if (vi) vi.placeholder = v.vid || "same";
+    if (ve) ve.placeholder = v.ver || "same";
+  });
+  // Suggestions: games that already list this build ID, or share a build with the main game.
+  const taken = new Set([sub.mode === "existing" && sub.game ? sub.game.key : vals().tid, ...sub.extras.map((x) => x.g.key)]);
+  const mine = sub.mode === "existing" && sub.game ? new Set(sub.game.builds.map((b) => b.bid)) : new Set();
+  const sugg = games.filter((g) => !taken.has(g.key) && g.builds.some((b) => b.bid === v.bid || mine.has(b.bid))).slice(0, 6);
+  $("#ex-suggest").innerHTML = sugg.length ? `<span class="hint">Shares a build:</span>` + sugg.map((g) =>
+    `<button type="button" class="chip add" data-ex-add="${g.key}">+ ${esc(g.names[0])}${g.regions.length ? " " + esc(g.regions.join(" ")) : ""}</button>`).join("") : "";
+}
+function addExtra(g) {
+  if (!g || sub.extras.some((x) => x.g.key === g.key) || (sub.mode === "existing" && sub.game && sub.game.key === g.key)) return;
+  const bid = vals().bid;
+  const known = HEX16.test(bid) && g.builds.find((b) => b.bid === bid);
+  sub.extras.push({ g, vid: known ? String(known.vid) : "", ver: known ? known.ver : "" });
+  renderExtras();
+  update();
+}
+let exIdx = 0, exRes = [];
+function renderExPick() {
+  const q = $("#ex-q").value.trim().toLowerCase();
+  const list = $("#ex-list");
+  list.hidden = !q;
+  $("#ex-q").setAttribute("aria-expanded", String(!!q));
+  if (!q) return;
+  const skip = new Set([sub.game && sub.mode === "existing" ? sub.game.key : "", ...sub.extras.map((x) => x.g.key)]);
+  exRes = byName.filter((g) => !skip.has(g.key) && g.hay.includes(q)).slice(0, 8);
+  list.innerHTML = exRes.length
+    ? exRes.map((g, i) => `<li role="option" data-xi="${i}" aria-selected="${i === exIdx}"><span>${esc(g.names[0])}${g.regions.map((r) => ` <span class="region">${esc(r)}</span>`).join("")}</span><span class="mono">${g.key}</span></li>`).join("")
+    : `<li style="cursor:default;color:var(--muted)">No match among listed games.</li>`;
+}
+function pickExtra(g) { $("#ex-q").value = ""; renderExPick(); addExtra(g); $("#ex-q").focus(); }
+$("#ex-q").addEventListener("input", () => { exIdx = 0; renderExPick(); });
+$("#ex-q").addEventListener("keydown", (e) => {
+  if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+    e.preventDefault();
+    if (!exRes.length) return;
+    exIdx = (exIdx + (e.key === "ArrowDown" ? 1 : -1) + exRes.length) % exRes.length;
+    renderExPick();
+  } else if (e.key === "Enter") {
+    e.preventDefault();
+    if (exRes[exIdx]) pickExtra(exRes[exIdx]);
+  } else if (e.key === "Escape" && !$("#ex-list").hidden) {
+    e.preventDefault();
+    $("#ex-list").hidden = true;
+  }
+});
+$("#ex-list").addEventListener("mousedown", (e) => {
+  const li = e.target.closest("[data-xi]");
+  if (li) { e.preventDefault(); pickExtra(exRes[+li.dataset.xi]); }
+});
+form.addEventListener("click", (e) => {
+  const add = e.target.closest("[data-ex-add]");
+  if (add) { addExtra(byTid.get(add.dataset.exAdd)); return; }
+  const del = e.target.closest("[data-ex-del]");
+  if (del) { sub.extras.splice(+del.dataset.exDel, 1); renderExtras(); update(); }
+});
+form.addEventListener("input", (e) => {
+  const t = e.target;
+  if (t.dataset.exVid != null) sub.extras[+t.dataset.exVid].vid = t.value.trim();
+  if (t.dataset.exVer != null) sub.extras[+t.dataset.exVer].ver = t.value.trim();
+}, true);
+
 // ---- Validation and preview ----
 function update() {
   const v = vals();
@@ -1132,6 +1282,13 @@ function update() {
   if (!/^\d+$/.test(v.vid)) errs.push("Enter the version ID as a whole number.");
   if (!v.ver) errs.push("Enter the version, like 1.0.2.");
   else if (/[|()]/.test(v.ver)) errs.push("The version can't contain | or brackets.");
+
+  for (const x of sub.extras) {
+    const label = x.g.names[0];
+    if (x.vid && !/^\d+$/.test(x.vid)) errs.push(`${label}: the version ID must be a whole number.`);
+    if (/[|()]/.test(x.ver)) errs.push(`${label}: the version can't contain | or brackets.`);
+  }
+  renderExtraNotes();
 
   // Version notes for a listed game
   const note = $("#v-note");
@@ -1169,7 +1326,7 @@ function update() {
     diffEl.textContent = "Fill in the game and version to see the change.";
   } else {
     try {
-      sub.edit = computeEdit(sub.readme, v);
+      sub.edit = computeAll(sub.readme, v);
       diffEl.innerHTML = sub.edit.diff.length
         ? sub.edit.diff.map(([t, s]) => `<span class="${t === "+" ? "add" : t === "-" ? "del" : ""}">${t} ${esc(s)}</span>`).join("")
         : "README.md stays the same. Only the patch file changes.";
@@ -1190,6 +1347,8 @@ function update() {
   // Manual route
   const path = sub.edit ? sub.edit.path : null;
   $("#man-yaml-step").parentElement.hidden = !avail;
+  $("#man-extra").textContent = sub.edit && sub.edit.paths.length > 1
+    ? " Do the same for the other editions, changing the file's first line to that edition's name: " + sub.edit.paths.slice(1).join(", ") + "." : "";
   ["#man-dl", "#man-copy"].forEach((s) => ($(s).disabled = !sub.edit));
   if (path) {
     const exists = g && g.builds.some((b) => b.yaml === path);
@@ -1213,9 +1372,9 @@ $("#man-dl").addEventListener("click", () => {
 });
 $("#man-copy").addEventListener("click", async (e) => {
   const btn = e.currentTarget;
-  try { await navigator.clipboard.writeText(sub.edit.row); btn.textContent = "Copied"; }
+  try { await navigator.clipboard.writeText(sub.edit.rows.join("\n")); btn.textContent = "Copied"; }
   catch (err) { btn.textContent = "Couldn't copy"; }
-  setTimeout(() => (btn.textContent = "Copy the new README row"), 1500);
+  setTimeout(() => (btn.textContent = "Copy the new README rows"), 1500);
 });
 
 // ---- Pull request ----
@@ -1275,14 +1434,15 @@ async function openPullRequest(token, v) {
     if (!r.ok) throw new Error("Couldn't download README.md (HTTP " + r.status + ")");
     return { baseSha: ref.object.sha, treeSha: commit.tree.sha, readme: await r.text() };
   });
-  const edit = computeEdit(readme, v); // redo it on the newest README
+  const edit = computeAll(readme, v); // redo it on the newest README
   const files = [];
   if (edit.text !== readme) files.push({ path: "README.md", mode: "100644", type: "blob", content: edit.text });
-  if (v.status === "available") files.push({ path: edit.path, mode: "100644", type: "blob", content: yamlText() });
+  if (v.status === "available") for (const f of edit.files) files.push({ path: f.path, mode: "100644", type: "blob", content: f.content });
 
   const name = gameName(v);
   // PR title and commit message; the details are in the PR body.
-  const title = v.status === "available" ? `Add patch for ${name} ${v.ver}` : `Update ${name}`;
+  const title = v.status !== "available" ? `Update ${name}`
+    : edit.paths.length > 1 ? `Add patches for ${name} ${v.ver}` : `Add patch for ${name} ${v.ver}`;
   const branch = `warehouse/${gameTid(v)}-${v.bid}-${Date.now().toString(36)}`;
 
   const commitSha = await run("Committing the changes", async () => {
@@ -1300,6 +1460,7 @@ async function openPullRequest(token, v) {
     `| Version | ${v.ver} (v${Number(v.vid)}) |`,
     `| Status | ${{ available: "✅ Patch available", unavailable: "❌ Patch needed", not_needed: "◯ No patch needed" }[v.status]} |`,
     `| Issues | ${issues.join(", ") || "None"} |`,
+    sub.extras.length ? `| Also for | ${sub.extras.map((x) => `${x.g.names[0]} (\`${x.g.key}\`)`).join(", ")} |` : null,
     v.status === "available" ? `| Patch file | \`${edit.path}\` |` : null,
     "", "_Submitted from the [Warehouse page](https://" + REPO.split("/")[0] + ".github.io/" + REPO.split("/")[1] + "/)._",
   ].filter((x) => x !== null).join("\n");
@@ -1376,7 +1537,8 @@ form.addEventListener("click", (e) => {
 
 const DRAFT_FIELDS = ["n-name", "n-tid", "n-region", "n-list", "n-alt", "v-bid", "v-vid", "v-ver", "y-text"];
 function saveDraft() {
-  const d = { mode: sub.mode, tid: sub.game && sub.game.key, status: vals().status, issues: [...issState], fields: {} };
+  const d = { mode: sub.mode, tid: sub.game && sub.game.key, status: vals().status, issues: [...issState], fields: {},
+    issTouched: sub.issTouched, extras: sub.extras.map((x) => ({ tid: x.g.key, vid: x.vid, ver: x.ver })) };
   for (const id of DRAFT_FIELDS) d.fields[id] = $("#" + id).value;
   store.set(sessionStorage, DRAFT_KEY, JSON.stringify(d));
 }
@@ -1392,7 +1554,10 @@ function restoreDraft() {
   if (st) st.checked = true;
   issState.clear();
   for (const [k, v] of d.issues || []) issState.set(k, v);
+  sub.issTouched = !!d.issTouched;
   renderIssues();
+  sub.extras = (d.extras || []).filter((x) => byTid.has(x.tid)).map((x) => ({ g: byTid.get(x.tid), vid: x.vid || "", ver: x.ver || "" }));
+  renderExtras();
 }
 function startSignIn() {
   const state = "fplw-" + Array.from(crypto.getRandomValues(new Uint8Array(16)), (b) => b.toString(16).padStart(2, "0")).join("");
