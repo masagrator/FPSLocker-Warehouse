@@ -168,6 +168,85 @@ pre.yaml-error { white-space: pre-wrap; font-family: var(--body); color: var(--n
 .empty { padding: 32px 0; color: var(--muted); text-align: center; }
 footer { margin-top: 40px; font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
 
+/* ---- Add a patch: a dialog that edits the README row and opens a pull request ---- */
+.hero-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 600; padding: 7px 14px; }
+.btn.primary:hover { filter: brightness(1.08); border-color: var(--accent); }
+.btn:disabled { opacity: .45; cursor: default; filter: none; }
+dialog.sub { width: min(780px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); padding: 0; border: 1px solid var(--line); border-radius: 14px; background: var(--bg); color: var(--fg); box-shadow: 0 20px 60px rgb(0 0 0 / .25); }
+dialog.sub::backdrop { background: rgb(10 12 16 / .55); }
+.sub-head { position: sticky; top: 0; z-index: 2; background: var(--bg); border-bottom: 1px solid var(--line); display: flex; align-items: center; gap: 12px; padding: 14px 20px; }
+.sub-head h2 { margin: 0; flex: 1; }
+.x-btn { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; width: 32px; height: 32px; display: grid; place-items: center; cursor: pointer; }
+.sub-body { padding: 8px 20px 24px; display: grid; gap: 4px; }
+.step { border: 0; margin: 0; padding: 16px 0; border-bottom: 1px solid var(--line); display: grid; gap: 12px; min-width: 0; }
+.step:last-child { border-bottom: 0; }
+.step > legend { font: 600 15px/1.2 var(--display); padding: 0; margin-bottom: 4px; display: flex; gap: 10px; align-items: center; }
+.step-n { font: 500 12px/1 var(--mono); background: var(--fg); color: var(--bg); border-radius: 999px; width: 22px; height: 22px; display: inline-grid; place-items: center; }
+.seg { display: inline-flex; flex-wrap: wrap; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); justify-self: start; }
+.seg label { position: relative; padding: 6px 12px; font-size: 13px; cursor: pointer; border-right: 1px solid var(--line); }
+.seg label:last-child { border-right: 0; }
+.seg input { position: absolute; opacity: 0; pointer-events: none; }
+.seg label:has(input:checked) { background: var(--fg); color: var(--bg); }
+.seg label:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: -2px; }
+.fgrid { display: grid; gap: 12px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.fgrid .wide { grid-column: 1 / -1; }
+.field { display: grid; gap: 4px; min-width: 0; }
+.field > span { font-size: 13px; font-weight: 500; }
+.field small, .hint { font-size: 12px; color: var(--muted); }
+.field input, .field select, .field textarea, textarea.yaml-in { font: inherit; color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; min-width: 0; width: 100%; }
+.field input:focus, .field select:focus, .field textarea:focus, textarea.yaml-in:focus { outline: none; border-color: var(--accent); }
+.field input.mono { font-family: var(--mono); text-transform: uppercase; }
+.field input[aria-invalid="true"] { border-color: var(--no); }
+.picker { position: relative; }
+.picker-list { list-style: none; margin: 4px 0 0; padding: 4px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); max-height: 260px; overflow: auto; }
+.picker-list li { padding: 6px 8px; border-radius: 6px; cursor: pointer; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; font-size: 14px; }
+.picker-list li[aria-selected="true"], .picker-list li:hover { background: var(--accent-soft); }
+.picker-list .mono { font-size: 12px; color: var(--muted); }
+.picked { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+.picked b { font-weight: 600; }
+.picked .mono { font-size: 13px; color: var(--muted); }
+.picked .link-btn { margin-left: auto; }
+.drop { border: 1.5px dashed var(--line); border-radius: 10px; background: var(--surface); padding: 18px; text-align: center; display: grid; gap: 6px; justify-items: center; cursor: pointer; }
+.drop.over { border-color: var(--accent); background: var(--accent-soft); }
+.drop b { font-weight: 600; }
+textarea.yaml-in { font: 12.5px/1.55 var(--mono); min-height: 200px; resize: vertical; tab-size: 2; white-space: pre; }
+.checks { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; font-size: 13px; }
+.checks li { display: flex; gap: 8px; align-items: baseline; }
+.checks li::before { content: "✓"; font-weight: 700; color: var(--ok); width: 1em; flex: none; }
+.checks li.warn::before { content: "!"; color: var(--warn); }
+.checks li.error::before { content: "✕"; color: var(--no); }
+.checks .link-btn { margin-left: 4px; }
+.iss-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 6px 16px; }
+.iss-row { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+.iss-row span { flex: 1; min-width: 0; }
+.iss-row select { font: inherit; font-size: 12px; color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 2px 4px; }
+.iss-row select.on { border-color: var(--no); color: var(--no); }
+.iss-row select.solved { border-color: var(--ok); color: var(--ok); }
+pre.diff { margin: 0; overflow: auto; background: var(--sunken); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; font: 12px/1.6 var(--mono); white-space: pre-wrap; overflow-wrap: anywhere; max-height: 260px; }
+pre.diff span { display: block; }
+pre.diff .del { color: var(--no); }
+pre.diff .add { color: var(--ok); }
+.msg { border-radius: 8px; padding: 10px 12px; font-size: 14px; }
+.msg.error { background: var(--no-soft); color: var(--no); }
+.msg.warn { background: var(--warn-soft); color: var(--fg); }
+.msg.info { background: var(--accent-soft); color: var(--fg); }
+.msg.ok { background: var(--ok-soft); color: var(--fg); }
+.msg.ok a { font-weight: 600; }
+.tok-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 10px; align-items: center; }
+.tok-row .field { align-self: start; }
+.log { list-style: none; margin: 0; padding: 0; font-size: 13px; color: var(--muted); display: grid; gap: 2px; }
+.log li.done::before { content: "✓ "; color: var(--ok); }
+.log li.run::before { content: "… "; }
+.log li.fail { color: var(--no); }
+.log li.fail::before { content: "✕ "; }
+details.manual { border: 1px solid var(--line); border-radius: 8px; background: var(--surface); padding: 0 12px; }
+details.manual summary { cursor: pointer; padding: 10px 0; font-size: 14px; font-weight: 500; }
+details.manual ol { margin: 0 0 12px; padding-left: 20px; display: grid; gap: 8px; font-size: 14px; }
+.keep { grid-column: 1 / -1; display: flex; gap: 6px; align-items: center; font-size: 13px; color: var(--muted); }
+#sub-problems:empty, #sub-log:empty, #sub-result:empty, #y-checks:empty { display: none; }
+.row-actions { display: flex; flex-wrap: wrap; gap: 6px; }
+
 @media (max-width: 720px) {
   .detail { grid-template-columns: minmax(0, 1fr); }
   .controls { position: static; }
@@ -180,6 +259,10 @@ footer { margin-top: 40px; font-size: 13px; color: var(--muted); display: grid; 
   .g-ver > :last-child { text-align: left; }
   .recent-list .rbtn { grid-template-columns: minmax(0, 1fr) auto; }
   .r-date { grid-column: 1 / -1; }
+  dialog.sub { width: 100vw; max-width: 100vw; height: 100dvh; max-height: 100dvh; margin: 0; border: 0; border-radius: 0; }
+  .sub-head, .sub-body { padding-inline: 16px; }
+  .fgrid { grid-template-columns: minmax(0, 1fr); }
+  .tok-row { grid-template-columns: minmax(0, 1fr); }
 }
 @media (prefers-reduced-motion: no-preference) { .row, .chip { transition: background-color .12s; } .issue-toggle svg { transition: transform .15s; } }
 </style>
@@ -200,6 +283,7 @@ try { const t = localStorage.getItem("warehouse-theme"); if (t === "dark" || t =
     <h1>FPSLocker Warehouse</h1>
     <p class="lede">Find out if a game has a patch for going above its default FPS target, which version it covers and what to expect. The easiest way to install a patch is the download option built into the FPSLocker overlay. Missing a game or an update? Report it in <a href="https://github.com/masagrator/FPSLocker-Warehouse/issues/895">issue #895</a>.</p>
     <div class="totals" id="totals"></div>
+    <div class="hero-actions"><button type="button" class="btn primary" id="add-open">Add or update a patch</button></div>
   </header>
 
   <section class="recent" aria-labelledby="recent-h">
@@ -240,6 +324,101 @@ try { const t = localStorage.getItem("warehouse-theme"); if (t === "dark" || t =
     <span>Issues describe what to expect above the default FPS target without a patch, for the newest listed version, up to 60 FPS.</span>
   </footer>
 </div>
+
+<dialog class="sub" id="sub" aria-labelledby="sub-h">
+  <form id="sub-form" novalidate autocomplete="off">
+    <div class="sub-head">
+      <h2 id="sub-h">Add or update a patch</h2>
+      <button type="button" class="x-btn" id="sub-close" aria-label="Close"><svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    </div>
+    <div class="sub-body">
+      <p class="note" style="margin:8px 0 0">This opens a pull request with the patch file and the matching README row. The patch is tested automatically, and it goes live once a maintainer merges it.</p>
+
+      <fieldset class="step">
+        <legend><span class="step-n">1</span>Game</legend>
+        <div class="seg" role="radiogroup" aria-label="Game">
+          <label><input type="radio" name="mode" value="existing" checked>Game already listed</label>
+          <label><input type="radio" name="mode" value="new">New game</label>
+        </div>
+        <div id="mode-existing">
+          <div class="picker" id="picker">
+            <label class="field"><span>Find the game</span>
+              <input id="pick-q" type="search" placeholder="Name or title ID" role="combobox" aria-expanded="false" aria-controls="pick-list" spellcheck="false">
+            </label>
+            <ul class="picker-list" id="pick-list" role="listbox" hidden></ul>
+          </div>
+          <div class="picked" id="picked" hidden></div>
+        </div>
+        <div id="mode-new" hidden>
+          <div class="fgrid">
+            <label class="field wide"><span>Name</span><input id="n-name" placeholder="As shown on the eShop"></label>
+            <label class="field"><span>Title ID</span><input id="n-tid" class="mono" maxlength="16" placeholder="0100XXXXXXXX0000"><small>16 hex characters</small></label>
+            <label class="field"><span>Region tag <small>(optional)</small></span><input id="n-region" maxlength="8" placeholder="JPN"></label>
+            <label class="field"><span>List</span><select id="n-list"><option value="locked30">Locked to 30 FPS</option><option value="other">Not locked to 30 FPS, other issues</option></select></label>
+            <label class="field wide"><span>Other names <small>(optional, one per line)</small></span><textarea id="n-alt" rows="2"></textarea></label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="step">
+        <legend><span class="step-n">2</span>Version</legend>
+        <div class="fgrid">
+          <label class="field"><span>Build ID</span><input id="v-bid" class="mono" maxlength="16" placeholder="16 hex characters"><small>Filled in from a file named &lt;build ID&gt;.yaml</small></label>
+          <label class="field"><span>Version ID</span><input id="v-vid" type="number" min="0" step="1" inputmode="numeric" placeholder="0"><small id="v-vid-hint">The number after “v”</small></label>
+          <label class="field"><span>Version</span><input id="v-ver" placeholder="1.0.0"></label>
+        </div>
+        <div id="v-note" hidden></div>
+        <div class="seg" role="radiogroup" aria-label="Patch status">
+          <label><input type="radio" name="status" value="available" checked>✅ Patch available</label>
+          <label><input type="radio" name="status" value="unavailable">❌ Patch needed</label>
+          <label><input type="radio" name="status" value="not_needed">◯ No patch needed</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="step" id="step-yaml">
+        <legend><span class="step-n">3</span>Patch file</legend>
+        <label class="drop" id="drop">
+          <input type="file" id="y-file" accept=".yaml,.yml,text/yaml" hidden>
+          <b>Drop a .yaml file here or choose one</b>
+          <span class="hint">You can also paste or edit the YAML below.</span>
+        </label>
+        <textarea class="yaml-in" id="y-text" spellcheck="false" aria-label="Patch file contents" placeholder="# Game name 1.0.0&#10;# BID: 0123456789ABCDEF&#10;&#10;ALL_FPS:&#10;  -&#10;    type: write&#10;    …"></textarea>
+        <ul class="checks" id="y-checks"></ul>
+      </fieldset>
+
+      <fieldset class="step">
+        <legend><span class="step-n" id="iss-n">4</span>Issues without the patch</legend>
+        <p class="hint" style="margin:0">What happens above the default FPS target without a patch, up to 60 FPS. Mark an issue as solved when the patch fixes it.</p>
+        <div class="iss-grid" id="iss-grid"></div>
+      </fieldset>
+
+      <fieldset class="step">
+        <legend><span class="step-n" id="rev-n">5</span>Review and submit</legend>
+        <div id="sub-problems"></div>
+        <div><h3 class="eyebrow" style="margin:0 0 8px">README change</h3><pre class="diff" id="diff">Loading README…</pre></div>
+        <div class="tok-row">
+          <label class="field"><span>GitHub token</span>
+            <input id="tok" type="password" placeholder="ghp_…" spellcheck="false" autocomplete="off">
+            <small>A <a href="https://github.com/settings/tokens/new?scopes=public_repo&amp;description=FPSLocker%20Warehouse%20submissions" target="_blank" rel="noopener">classic token with the public_repo scope</a>. It's sent only to api.github.com.</small>
+          </label>
+          <button type="submit" class="btn primary" id="sub-go">Open pull request</button>
+          <label class="keep"><input type="checkbox" id="tok-keep"> Remember the token on this device</label>
+        </div>
+        <ul class="log" id="sub-log"></ul>
+        <div id="sub-result"></div>
+        <details class="manual" id="manual">
+          <summary>No GitHub token? Submit by hand</summary>
+          <ol>
+            <li><span id="man-yaml-step">Download the patch file and upload it to <a id="man-upload" target="_blank" rel="noopener">its folder on GitHub</a>. GitHub offers to fork the repository and open a pull request for you.</span>
+              <div class="row-actions" style="margin-top:6px"><button type="button" class="btn" id="man-dl">Download YAML</button></div></li>
+            <li>In the same pull request, <a id="man-readme" target="_blank" rel="noopener">edit README.md</a> and make the change shown above.
+              <div class="row-actions" style="margin-top:6px"><button type="button" class="btn" id="man-copy">Copy the new README row</button></div></li>
+          </ol>
+        </details>
+      </fieldset>
+    </div>
+  </form>
+</dialog>
 
 <script>
 const DATA = /*__DATA__*/null;
@@ -365,7 +544,7 @@ function detailHtml(g) {
     `<dt>Newest version</dt><dd>${g.newest == null ? "Unknown" : "v" + g.newest}</dd>` +
     `<dt>Patch updated</dt><dd>${fmtDate(g.updated)}</dd>` +
     (g.contributors.length ? `<dt>Contributors</dt><dd>${g.contributors.map(esc).join(", ")}</dd>` : "") +
-    `</dl></div><div><h3>Issues without patch</h3>${issues}${g.status === "optional" ? `<p class="note">${STATUS_HINT.optional}</p>` : ""}</div></div>` +
+    `</dl><button type="button" class="btn" style="margin-top:12px" data-add-tid="${g.key}">Add or update a version</button></div><div><h3>Issues without patch</h3>${issues}${g.status === "optional" ? `<p class="note">${STATUS_HINT.optional}</p>` : ""}</div></div>` +
     yamlSectionHtml(g) + `</div>`;
 }
 
@@ -558,6 +737,582 @@ function openFromHash() {
 }
 addEventListener("hashchange", openFromHash);
 openFromHash();
+</script>
+<script>
+/* ---- Add or update a patch ----
+   Builds the README row and patch file in the browser, then opens a pull request
+   through the GitHub API with the contributor's own token (fork → branch → commit → PR). */
+(() => {
+const REPO = DATA.repo || "masagrator/FPSLocker-Warehouse";
+const BRANCH = DATA.branch || "v4";
+const PDIR = DATA.patchesDir || "SaltySD/plugins/FPSLocker/patches";
+const HEX16 = /^[0-9A-F]{16}$/;
+const ICONS = Object.keys(DATA.issueNames);
+const YAML_KEYS = ["unsafeCheck", "ALL_FPS", "MASTER_WRITE", "DECLARATIONS", "Addons"];
+const TOKEN_KEY = "warehouse-gh-token";
+const dlg = $("#sub"), form = $("#sub-form");
+const sub = { mode: "existing", game: null, readme: null, readmeErr: null, edit: null, hadBom: false, badUtf8: false, busy: false };
+const issState = new Map(); // issue icon -> "" | "on" | "solved"
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// js-yaml is only needed for checking uploads, so it loads when the form opens.
+let jsyamlP = null;
+function loadJsYaml() {
+  if (!jsyamlP) jsyamlP = new Promise((res) => {
+    const s = document.createElement("script");
+    s.src = "https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js";
+    s.onload = () => res(window.jsyaml || null);
+    s.onerror = () => res(null);
+    document.head.appendChild(s);
+  });
+  return jsyamlP;
+}
+let readmeP = null;
+function loadReadme() {
+  if (!readmeP) {
+    sub.readmeErr = null;
+    readmeP = fetch(DATA.rawBase + "README.md", { cache: "no-cache" })
+      .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
+      .then((t) => (sub.readme = t), (e) => { readmeP = null; sub.readmeErr = e; });
+  }
+  return readmeP;
+}
+
+// ---- Opening and closing ----
+function openSub(tid) {
+  if (!dlg.open) dlg.showModal();
+  if (tid && byTid.has(tid)) { setMode("existing"); pickGame(byTid.get(tid)); }
+  try {
+    const k = localStorage.getItem(TOKEN_KEY);
+    if (k && !$("#tok").value) { $("#tok").value = k; $("#tok-keep").checked = true; }
+  } catch (e) {}
+  loadJsYaml().then(update);
+  loadReadme().then(update);
+  update();
+}
+$("#add-open").addEventListener("click", () => openSub());
+$("#sub-close").addEventListener("click", () => dlg.close());
+dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
+dlg.addEventListener("close", () => { if (location.hash === "#add") try { history.replaceState(null, "", location.pathname + location.search); } catch (e) {} });
+document.addEventListener("click", (e) => {
+  const b = e.target.closest("[data-add-tid]");
+  if (b) { e.stopPropagation(); openSub(b.dataset.addTid); }
+}, true);
+if (location.hash === "#add") openSub();
+addEventListener("hashchange", () => { if (location.hash === "#add") openSub(); });
+
+// ---- Step 1: game ----
+function setMode(m) {
+  sub.mode = m;
+  form.querySelector(`input[name=mode][value=${m}]`).checked = true;
+  $("#mode-existing").hidden = m !== "existing";
+  $("#mode-new").hidden = m !== "new";
+  syncIssuesFromGame();
+  update();
+}
+form.querySelectorAll("input[name=mode]").forEach((r) => r.addEventListener("change", () => setMode(r.value)));
+
+let pickIdx = 0, pickRes = [];
+function renderPick() {
+  const q = $("#pick-q").value.trim().toLowerCase();
+  const list = $("#pick-list");
+  list.hidden = !q;
+  $("#pick-q").setAttribute("aria-expanded", String(!!q));
+  if (!q) return;
+  pickRes = byName.filter((g) => g.hay.includes(q)).slice(0, 8);
+  list.innerHTML = pickRes.length
+    ? pickRes.map((g, i) => `<li role="option" data-i="${i}" aria-selected="${i === pickIdx}"><span>${esc(g.names[0])}${g.regions.map((r) => ` <span class="region">${esc(r)}</span>`).join("")}</span><span class="mono">${g.key}</span></li>`).join("")
+    : `<li style="cursor:default;color:var(--muted)">No match. Choose “New game” if it isn't listed yet.</li>`;
+}
+$("#pick-q").addEventListener("input", () => { pickIdx = 0; renderPick(); });
+$("#pick-q").addEventListener("keydown", (e) => {
+  if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+    e.preventDefault();
+    if (!pickRes.length) return;
+    pickIdx = (pickIdx + (e.key === "ArrowDown" ? 1 : -1) + pickRes.length) % pickRes.length;
+    renderPick();
+  } else if (e.key === "Enter") {
+    e.preventDefault();
+    if (pickRes[pickIdx]) pickGame(pickRes[pickIdx]);
+  } else if (e.key === "Escape" && !$("#pick-list").hidden) {
+    e.preventDefault();
+    $("#pick-list").hidden = true;
+  }
+});
+$("#pick-list").addEventListener("mousedown", (e) => {
+  const li = e.target.closest("[data-i]");
+  if (li) { e.preventDefault(); pickGame(pickRes[+li.dataset.i]); }
+});
+function pickGame(g) {
+  sub.game = g;
+  $("#picker").hidden = true;
+  $("#pick-list").hidden = true;
+  const last = g.builds[g.builds.length - 1];
+  const p = $("#picked");
+  p.hidden = false;
+  p.innerHTML = `<b>${esc(g.names[0])}</b><span class="mono">${g.key}</span><span class="mono">newest listed: ${esc(last.ver)} · v${last.vid}</span>` +
+    (g.outdated ? `<span class="pill outdated">v${g.newest} available</span>` : "") +
+    `<button type="button" class="link-btn" id="pick-change">Change</button>`;
+  if (g.outdated && !$("#v-vid").value) $("#v-vid").value = g.newest;
+  syncIssuesFromGame();
+  update();
+}
+form.addEventListener("click", (e) => {
+  if (!e.target.closest("#pick-change")) return;
+  sub.game = null;
+  $("#picked").hidden = true;
+  $("#picker").hidden = false;
+  $("#pick-q").value = "";
+  $("#pick-q").focus();
+  syncIssuesFromGame();
+  update();
+});
+
+// ---- Step 2: version ----
+$("#v-bid").addEventListener("input", () => {
+  const bid = $("#v-bid").value.trim().toUpperCase();
+  const b = sub.mode === "existing" && sub.game && sub.game.builds.find((x) => x.bid === bid);
+  if (b) {
+    if (!$("#v-vid").value) $("#v-vid").value = b.vid;
+    if (!$("#v-ver").value) $("#v-ver").value = b.ver;
+  }
+});
+form.querySelectorAll("input[name=status]").forEach((r) => r.addEventListener("change", update));
+
+// ---- Step 3: patch file ----
+async function readFile(file) {
+  const buf = new Uint8Array(await file.arrayBuffer());
+  sub.hadBom = buf[0] === 0xef && buf[1] === 0xbb && buf[2] === 0xbf;
+  try {
+    sub.badUtf8 = false;
+    return new TextDecoder("utf-8", { fatal: true }).decode(buf); // drops the BOM
+  } catch (e) {
+    sub.badUtf8 = true;
+    return new TextDecoder("utf-8").decode(buf);
+  }
+}
+async function takeFile(file) {
+  if (!file) return;
+  const text = await readFile(file);
+  $("#y-text").value = text;
+  const m = file.name.match(/([0-9A-Fa-f]{16})\.ya?ml$/);
+  const fromText = text.match(/BID:\s*([0-9A-Fa-f]{16})/);
+  if (!$("#v-bid").value && (m || fromText)) {
+    $("#v-bid").value = (m || fromText)[1].toUpperCase();
+    $("#v-bid").dispatchEvent(new Event("input", { bubbles: true }));
+  }
+  update();
+}
+$("#y-file").addEventListener("change", (e) => { takeFile(e.target.files[0]); e.target.value = ""; });
+const drop = $("#drop");
+["dragenter", "dragover"].forEach((t) => drop.addEventListener(t, (e) => { e.preventDefault(); drop.classList.add("over"); }));
+["dragleave", "drop"].forEach((t) => drop.addEventListener(t, () => drop.classList.remove("over")));
+drop.addEventListener("drop", (e) => { e.preventDefault(); takeFile(e.dataTransfer.files[0]); });
+$("#y-text").addEventListener("input", () => { sub.hadBom = false; sub.badUtf8 = false; });
+const yamlText = () => $("#y-text").value.replace(/^﻿/, "");
+
+function yamlChecks(v) {
+  const text = yamlText();
+  if (!text.trim()) return [];
+  const out = [];
+  if (sub.badUtf8) out.push({ level: "error", msg: "The file isn't valid UTF-8. Save it as UTF-8 and upload it again." });
+  if (sub.hadBom) out.push({ level: "warn", msg: "Removed the byte order mark. Patch files must be UTF-8 without BOM." });
+  if (/^[ ]*\t/m.test(text)) out.push({ level: "error", msg: "Tabs are used for indentation. YAML needs spaces." });
+  const jy = window.jsyaml;
+  if (!jy) {
+    out.push({ level: "warn", msg: "The YAML checker couldn't load. The pull request's automatic test still checks the file." });
+  } else {
+    let doc;
+    try { doc = jy.load(text); } catch (e) {
+      out.push({ level: "error", msg: "YAML error: " + (e.reason || e.message) + (e.mark ? ` (line ${e.mark.line + 1})` : "") });
+      return withBid(out, v, text);
+    }
+    if (!doc || typeof doc !== "object" || Array.isArray(doc)) {
+      out.push({ level: "error", msg: "The file must be a set of keys such as ALL_FPS and MASTER_WRITE." });
+      return withBid(out, v, text);
+    }
+    const keys = Object.keys(doc);
+    const unknown = keys.filter((k) => !YAML_KEYS.includes(k));
+    if (unknown.length) out.push({ level: "warn", msg: "Unknown top-level keys: " + unknown.join(", ") + "." });
+    if (!("ALL_FPS" in doc) && !("MASTER_WRITE" in doc)) out.push({ level: "error", msg: "The file needs an ALL_FPS or MASTER_WRITE section." });
+    const notList = ["ALL_FPS", "MASTER_WRITE", "DECLARATIONS"].filter((k) => k in doc && !Array.isArray(doc[k]));
+    if (notList.length) out.push({ level: "error", msg: notList.join(", ") + " must be a list of entries." });
+    if (!out.some((x) => x.level === "error")) {
+      const parts = ["ALL_FPS", "MASTER_WRITE", "DECLARATIONS"].filter((k) => Array.isArray(doc[k])).map((k) => `${k} (${doc[k].length})`);
+      out.push({ level: "ok", msg: "Valid YAML: " + parts.join(", ") + "." });
+    }
+  }
+  return withBid(out, v, text);
+}
+function withBid(out, v, text) {
+  if (!HEX16.test(v.bid)) return out;
+  if (text.includes(" " + v.bid)) out.push({ level: "ok", msg: `Build ID ${v.bid} is named in the file.` });
+  else out.push({ level: "error", msg: `The build ID must appear in the file after a space, like “# BID: ${v.bid}”.`, fix: "header" });
+  return out;
+}
+form.addEventListener("click", (e) => {
+  if (!e.target.closest("[data-fix=header]")) return;
+  const v = vals();
+  const name = v.mode === "existing" ? (sub.game ? sub.game.names[0] : "") : v.name;
+  $("#y-text").value = `# ${name} ${v.ver}`.trimEnd() + `\n# BID: ${v.bid}\n\n` + yamlText();
+  update();
+});
+
+// ---- Step 4: issues ----
+function renderIssues() {
+  $("#iss-grid").innerHTML = ICONS.map((ic) => {
+    const v = issState.get(ic) || "";
+    return `<label class="iss-row"><span>${ic} ${esc(DATA.issueNames[ic])}</span><select data-iss="${esc(ic)}" class="${v}">` +
+      `<option value="">No</option><option value="on"${v === "on" ? " selected" : ""}>Issue</option><option value="solved"${v === "solved" ? " selected" : ""}>Solved by patch</option></select></label>`;
+  }).join("");
+}
+function syncIssuesFromGame() {
+  issState.clear();
+  if (sub.mode === "existing" && sub.game) for (const x of sub.game.issues) issState.set(x.icon, x.solved ? "solved" : "on");
+  renderIssues();
+}
+$("#iss-grid").addEventListener("change", (e) => {
+  const s = e.target.closest("select[data-iss]");
+  if (!s) return;
+  issState.set(s.dataset.iss, s.value);
+  s.className = s.value;
+  update();
+});
+function issuesCell() {
+  const order = [...ICONS, ...[...issState.keys()].filter((k) => !ICONS.includes(k))];
+  const link = (ic) => `[${ic}](#${ic})`;
+  const solved = order.filter((ic) => issState.get(ic) === "solved").map(link).join("");
+  const on = order.filter((ic) => issState.get(ic) === "on").map(link).join("");
+  const s = (solved ? `~~${solved}~~` : "") + on;
+  return s ? ` ${s} ` : "  ";
+}
+function issuesChanged(g) {
+  const orig = new Map(g.issues.map((x) => [x.icon, x.solved ? "solved" : "on"]));
+  const cur = [...issState].filter(([, v]) => v);
+  return cur.length !== orig.size || cur.some(([k, v]) => orig.get(k) !== v);
+}
+
+// ---- README edit ----
+function vals() {
+  return {
+    mode: sub.mode, game: sub.game,
+    name: $("#n-name").value.trim(),
+    tid: $("#n-tid").value.trim().toUpperCase(),
+    region: $("#n-region").value.trim().toUpperCase(),
+    list: $("#n-list").value,
+    alt: $("#n-alt").value.split("\n").map((s) => s.trim()).filter(Boolean),
+    bid: $("#v-bid").value.trim().toUpperCase(),
+    vid: $("#v-vid").value.trim(),
+    ver: $("#v-ver").value.trim(),
+    status: form.querySelector("input[name=status]:checked").value,
+  };
+}
+const gameTid = (v) => (v.mode === "existing" ? v.game.key : v.tid);
+const gameName = (v) => (v.mode === "existing" ? v.game.names[0] : v.name);
+function yamlPathFor(v) {
+  if (v.mode === "existing") {
+    const b = v.game.builds.find((x) => x.bid === v.bid);
+    if (b && b.yaml) return b.yaml;
+  }
+  return `${PDIR}/${gameTid(v)}/${v.bid}.yaml`;
+}
+function buildEntry(v, path) {
+  const mark = v.status === "available" ? `[✅](${path})` : v.status === "unavailable" ? "❌" : "◯";
+  return "`" + v.bid + "` (" + mark + ", v" + Number(v.vid) + ", " + v.ver + ")";
+}
+const BUILD_RE = /`([0-9A-Fa-f]{16})`\s*\((.*?),\s*v(\d+),\s*([^)]*)\)/g;
+const nameKey = (cell) => cell.split("<br>")[0].replace(/`[^`]*`/g, "").replace(/^\s*-\s+/, "").replace(/^[^\p{L}\p{N}]+/u, "").trim();
+
+function computeEdit(readme, v) {
+  const nl = readme.includes("\r\n") ? "\r\n" : "\n";
+  const lines = readme.split(nl);
+  const path = yamlPathFor(v);
+  const entry = buildEntry(v, path);
+  const diff = [];
+  if (v.mode === "existing") {
+    const tid = v.game.key;
+    const idx = lines.findIndex((l) => l.startsWith("| ") && (l.split("|")[2] || "").includes("`" + tid + "`"));
+    if (idx < 0) throw new Error(`Title ID ${tid} wasn't found in README.md.`);
+    const old = lines[idx];
+    const cols = old.split("|");
+    const cell = cols[3];
+    const items = [...cell.matchAll(BUILD_RE)].map((m) => ({ bid: m[1].toUpperCase(), vid: +m[3], text: m[0] }));
+    if (!items.length) throw new Error(`The README row for ${tid} has no build IDs in the expected format.`);
+    const same = items.find((x) => x.bid === v.bid);
+    if (same) cols[3] = cell.replace(same.text, entry);
+    else {
+      const next = items.find((x) => x.vid > Number(v.vid));
+      cols[3] = next ? cell.replace(next.text, entry + " <br> " + next.text) : cell.replace(/\s*$/, "") + " <br> " + entry + " ";
+    }
+    if (issuesChanged(v.game)) cols[4] = issuesCell();
+    lines[idx] = cols.join("|");
+    if (lines[idx] !== old) diff.push(["-", old], ["+", lines[idx]]);
+    return { text: lines.join(nl), diff, row: lines[idx], path };
+  }
+  if (readme.includes("`" + v.tid + "`")) throw new Error(`Title ID ${v.tid} is already in README.md. Choose “Game already listed” instead.`);
+  const nameCell = [v.name + (v.region ? " `" + v.region + "`" : ""), ...v.alt].join("<br>");
+  const row = `| ${nameCell} | \`${v.tid}\` | ${entry} |${issuesCell()}|`;
+  const sumIdx = lines.findIndex((l) => l.includes("<summary>") && (v.list === "locked30") === l.includes("30 FPS locked"));
+  if (sumIdx < 0) throw new Error("Couldn't find that list in README.md.");
+  let start = lines.findIndex((l, i) => i > sumIdx && l.startsWith("| ---"));
+  if (start < 0) throw new Error("Couldn't find the table in README.md.");
+  start++;
+  let end = start;
+  while (end < lines.length && lines[end].startsWith("| ")) end++;
+  const key = nameKey(nameCell);
+  // Regional editions with non-Latin names sit right under their Latin sibling,
+  // so a Latin name is placed before the next Latin row that sorts after it.
+  const latin = (s) => /^[\p{Script=Latin}\p{N}]/u.test(s);
+  let pos = end;
+  for (let i = start; i < end; i++) {
+    const k = nameKey(lines[i].split("|")[1]);
+    if (latin(key) && !latin(k)) continue;
+    if (collator.compare(k, key) > 0) { pos = i; break; }
+  }
+  const oldSum = lines[sumIdx];
+  lines[sumIdx] = oldSum.replace(/\((\d+) titles\)/, (_, n) => `(${+n + 1} titles)`);
+  if (lines[sumIdx] !== oldSum) diff.push(["-", oldSum.trim()], ["+", lines[sumIdx].trim()], [" ", "…"]);
+  if (pos > start) diff.push([" ", lines[pos - 1]]);
+  diff.push(["+", row]);
+  if (pos < end) diff.push([" ", lines[pos]]);
+  lines.splice(pos, 0, row);
+  return { text: lines.join(nl), diff, row, path };
+}
+
+// ---- Validation and preview ----
+function update() {
+  const v = vals();
+  const avail = v.status === "available";
+  $("#step-yaml").hidden = !avail;
+  $("#iss-n").textContent = avail ? "4" : "3";
+  $("#rev-n").textContent = avail ? "5" : "4";
+  const errs = [];
+
+  if (v.mode === "existing") {
+    if (!v.game) errs.push("Pick the game.");
+  } else {
+    if (!v.name) errs.push("Enter the game's name.");
+    else if (/[|`]/.test(v.name + v.alt.join(""))) errs.push("Names can't contain | or `.");
+    if (!HEX16.test(v.tid)) errs.push("Enter a 16-character title ID.");
+    else if (games.some((g) => g.tids.includes(v.tid))) errs.push(`${v.tid} is already listed. Choose “Game already listed”.`);
+    if (v.region && !/^[A-Z0-9]{1,8}$/.test(v.region)) errs.push("The region tag can only use letters and digits.");
+  }
+  $("#n-tid").setAttribute("aria-invalid", String(!!v.tid && !HEX16.test(v.tid)));
+  $("#v-bid").setAttribute("aria-invalid", String(!!v.bid && !HEX16.test(v.bid)));
+  if (!HEX16.test(v.bid)) errs.push("Enter a 16-character build ID.");
+  if (!/^\d+$/.test(v.vid)) errs.push("Enter the version ID as a whole number.");
+  if (!v.ver) errs.push("Enter the version, like 1.0.2.");
+  else if (/[|()]/.test(v.ver)) errs.push("The version can't contain | or brackets.");
+
+  // Version notes for a listed game
+  const note = $("#v-note");
+  const g = v.mode === "existing" ? v.game : null;
+  const known = g && HEX16.test(v.bid) && g.builds.find((b) => b.bid === v.bid);
+  $("#v-vid-hint").textContent = g && g.newest != null ? `Newest known: v${g.newest}` : "The number after “v”";
+  note.hidden = !known;
+  if (known) {
+    note.className = "msg info";
+    note.textContent = `This build is already listed as ${known.ver} · v${known.vid} (${STATUS[known.status] || known.status}). Submitting updates that entry` +
+      (known.yaml && avail ? " and replaces its patch file." : ".");
+  }
+
+  // Patch file
+  const checks = avail ? yamlChecks(v) : [];
+  $("#y-checks").innerHTML = checks.map((c) => `<li class="${c.level}"><span>${esc(c.msg)}${c.fix ? ` <button type="button" class="link-btn" data-fix="${c.fix}">Add a header with it</button>` : ""}</span></li>`).join("");
+  if (avail) {
+    if (!yamlText().trim()) errs.push("Add the patch file.");
+    else if (checks.some((c) => c.level === "error")) errs.push("Fix the patch file problems listed in step 3.");
+  }
+
+  // README preview
+  const ready = (v.mode === "existing" ? !!v.game : HEX16.test(v.tid) && v.name) && HEX16.test(v.bid) && /^\d+$/.test(v.vid) && v.ver && !/[|()]/.test(v.ver);
+  sub.edit = null;
+  const diffEl = $("#diff");
+  if (!sub.readme) {
+    diffEl.textContent = sub.readmeErr ? `Couldn't load README.md (${sub.readmeErr.message}). Check your connection and reopen this form.` : "Loading README…";
+    if (sub.readmeErr) errs.push("README.md couldn't be loaded.");
+  } else if (!ready) {
+    diffEl.textContent = "Fill in the game and version to see the change.";
+  } else {
+    try {
+      sub.edit = computeEdit(sub.readme, v);
+      diffEl.innerHTML = sub.edit.diff.length
+        ? sub.edit.diff.map(([t, s]) => `<span class="${t === "+" ? "add" : t === "-" ? "del" : ""}">${t} ${esc(s)}</span>`).join("")
+        : "README.md stays the same. Only the patch file changes.";
+      if (!sub.edit.diff.length && !avail) errs.push("Nothing would change: this entry is already listed like that.");
+    } catch (e) {
+      diffEl.textContent = e.message;
+      errs.push(e.message);
+    }
+  }
+
+  $("#sub-problems").innerHTML = errs.length
+    ? `<div class="msg info"><b>Still needed</b><ul style="margin:4px 0 0;padding-left:20px">${errs.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>` : "";
+  $("#sub-go").disabled = sub.busy || errs.length > 0 || !sub.edit;
+
+  // Manual route
+  const path = sub.edit ? sub.edit.path : null;
+  $("#man-yaml-step").parentElement.hidden = !avail;
+  ["#man-dl", "#man-copy"].forEach((s) => ($(s).disabled = !sub.edit));
+  if (path) {
+    const exists = g && g.builds.some((b) => b.yaml === path);
+    let href = exists ? `https://github.com/${REPO}/edit/${BRANCH}/${encodeURI(path)}`
+      : `https://github.com/${REPO}/new/${BRANCH}?filename=${encodeURIComponent(path)}`;
+    if (!exists && yamlText().length < 6000) href += "&value=" + encodeURIComponent(yamlText());
+    $("#man-upload").href = href;
+  } else $("#man-upload").removeAttribute("href");
+  $("#man-readme").href = `https://github.com/${REPO}/edit/${BRANCH}/README.md`;
+}
+form.addEventListener("input", (e) => { if (e.target.id !== "pick-q" && e.target.id !== "tok") update(); });
+// Enter in a text field shouldn't send the form.
+form.addEventListener("keydown", (e) => { if (e.key === "Enter" && e.target.tagName === "INPUT" && e.target.type !== "submit") e.preventDefault(); });
+
+$("#man-dl").addEventListener("click", () => {
+  const url = URL.createObjectURL(new Blob([yamlText()], { type: "text/yaml" }));
+  const a = document.createElement("a");
+  a.href = url; a.download = vals().bid + ".yaml";
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+});
+$("#man-copy").addEventListener("click", async (e) => {
+  const btn = e.currentTarget;
+  try { await navigator.clipboard.writeText(sub.edit.row); btn.textContent = "Copied"; }
+  catch (err) { btn.textContent = "Couldn't copy"; }
+  setTimeout(() => (btn.textContent = "Copy the new README row"), 1500);
+});
+
+// ---- Pull request ----
+async function gh(token, method, path, body) {
+  const r = await fetch("https://api.github.com" + path, {
+    method,
+    headers: {
+      Authorization: "Bearer " + token,
+      Accept: "application/vnd.github+json",
+      "X-GitHub-Api-Version": "2022-11-28",
+      ...(body ? { "Content-Type": "application/json" } : {}),
+    },
+    body: body ? JSON.stringify(body) : undefined,
+  });
+  if (!r.ok) {
+    let m = "";
+    try { m = (await r.json()).message || ""; } catch (e) {}
+    const err = new Error(`GitHub answered ${r.status}${m ? ": " + m : ""}`);
+    err.status = r.status;
+    throw err;
+  }
+  return r.status === 204 ? null : r.json();
+}
+function logStep(text) {
+  const li = document.createElement("li");
+  li.className = "run";
+  li.textContent = text;
+  $("#sub-log").appendChild(li);
+  return li;
+}
+async function run(text, fn) {
+  const li = logStep(text);
+  try { const r = await fn(); li.className = "done"; return r; }
+  catch (e) { li.className = "fail"; throw e; }
+}
+
+async function openPullRequest(token, v) {
+  const api = (m, p, b) => gh(token, m, p, b);
+  const me = await run("Checking your token", () => api("GET", "/user"));
+  const up = await run(`Reading ${REPO}`, () => api("GET", `/repos/${REPO}`));
+  let target = REPO;
+  if (!(up.permissions && up.permissions.push)) {
+    target = await run(`Using your fork (${me.login}/${up.name})`, async () => {
+      const f = await api("POST", `/repos/${REPO}/forks`, { default_branch_only: true });
+      for (let i = 0; i < 30; i++) { // a new fork takes a few seconds to fill
+        try { const b = await api("GET", `/repos/${f.full_name}/branches?per_page=1`); if (b.length) break; } catch (e) {}
+        await sleep(2000);
+      }
+      try { await api("POST", `/repos/${f.full_name}/merge-upstream`, { branch: BRANCH }); } catch (e) {}
+      return f.full_name;
+    });
+  }
+  const { baseSha, treeSha, readme } = await run(`Reading the latest ${BRANCH}`, async () => {
+    const ref = await api("GET", `/repos/${REPO}/git/ref/heads/${BRANCH}`);
+    const commit = await api("GET", `/repos/${REPO}/git/commits/${ref.object.sha}`);
+    const r = await fetch(`https://raw.githubusercontent.com/${REPO}/${ref.object.sha}/README.md`);
+    if (!r.ok) throw new Error("Couldn't download README.md (HTTP " + r.status + ")");
+    return { baseSha: ref.object.sha, treeSha: commit.tree.sha, readme: await r.text() };
+  });
+  const edit = computeEdit(readme, v); // redo it on the newest README
+  const files = [];
+  if (edit.text !== readme) files.push({ path: "README.md", mode: "100644", type: "blob", content: edit.text });
+  if (v.status === "available") files.push({ path: edit.path, mode: "100644", type: "blob", content: yamlText() });
+
+  const name = gameName(v);
+  const listed = v.mode === "existing" && v.game.builds.find((b) => b.bid === v.bid);
+  const title = v.status === "available"
+    ? `${listed && listed.status === "available" ? "Update" : "Add"} patch for ${name} ${v.ver}`
+    : `${listed ? "Update" : "Add"} ${name} ${v.ver} (${v.status === "unavailable" ? "patch needed" : "no patch needed"})`;
+  const branch = `warehouse/${gameTid(v)}-${v.bid}-${Date.now().toString(36)}`;
+
+  const commitSha = await run("Committing the changes", async () => {
+    const tree = await api("POST", `/repos/${target}/git/trees`, { base_tree: treeSha, tree: files });
+    const c = await api("POST", `/repos/${target}/git/commits`, { message: title, tree: tree.sha, parents: [baseSha] });
+    await api("POST", `/repos/${target}/git/refs`, { ref: "refs/heads/" + branch, sha: c.sha });
+    return c.sha;
+  });
+  const issues = [...issState].filter(([, s]) => s).map(([ic, s]) => `${ic} ${DATA.issueNames[ic] || ""}${s === "solved" ? " (solved)" : ""}`);
+  const body = [
+    `| | |`, `| --- | --- |`,
+    `| Game | ${name} |`,
+    `| Title ID | \`${gameTid(v)}\` |`,
+    `| Build ID | \`${v.bid}\` |`,
+    `| Version | ${v.ver} (v${Number(v.vid)}) |`,
+    `| Status | ${{ available: "✅ Patch available", unavailable: "❌ Patch needed", not_needed: "◯ No patch needed" }[v.status]} |`,
+    `| Issues | ${issues.join(", ") || "None"} |`,
+    v.status === "available" ? `| Patch file | \`${edit.path}\` |` : null,
+    "", "_Submitted from the [Warehouse page](https://" + REPO.split("/")[0] + ".github.io/" + REPO.split("/")[1] + "/)._",
+  ].filter((x) => x !== null).join("\n");
+  const pr = await run("Opening the pull request", () => api("POST", `/repos/${REPO}/pulls`, {
+    title, body, base: BRANCH,
+    head: target === REPO ? branch : `${target.split("/")[0]}:${branch}`,
+    ...(target === REPO ? {} : { maintainer_can_modify: true }),
+  }));
+  return { pr, commitSha };
+}
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  if (sub.busy) return;
+  update();
+  if ($("#sub-go").disabled) return;
+  const token = $("#tok").value.trim();
+  const result = $("#sub-result");
+  if (!token) {
+    result.innerHTML = `<div class="msg warn">Paste a GitHub token, or follow the steps below to submit by hand.</div>`;
+    $("#manual").open = true;
+    $("#tok").focus();
+    return;
+  }
+  try { $("#tok-keep").checked ? localStorage.setItem(TOKEN_KEY, token) : localStorage.removeItem(TOKEN_KEY); } catch (err) {}
+  sub.busy = true;
+  update();
+  $("#sub-go").textContent = "Working…";
+  $("#sub-log").innerHTML = "";
+  result.innerHTML = "";
+  try {
+    const { pr } = await openPullRequest(token, vals());
+    result.innerHTML = `<div class="msg ok">Pull request opened: <a href="${esc(pr.html_url)}" target="_blank" rel="noopener">#${pr.number} ${esc(pr.title)}</a>. The patch test runs on it automatically, and a maintainer will review it.</div>`;
+  } catch (err) {
+    const hint = err.status === 401 ? " The token was rejected. Check that it's correct and hasn't expired."
+      : err.status === 403 || err.status === 404 ? " Make sure the token has the public_repo scope."
+      : err.status === 422 ? " GitHub refused the change. If the message mentions an existing pull request, one is already open for this."
+      : "";
+    result.innerHTML = `<div class="msg error">${esc(err.message)}.${hint}</div>`;
+  } finally {
+    sub.busy = false;
+    $("#sub-go").textContent = "Open pull request";
+    update();
+  }
+});
+
+renderIssues();
+})();
 </script>
 </body>
 </html>

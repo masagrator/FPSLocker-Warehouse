@@ -34,6 +34,9 @@ def build(repo=".", cache_dir=None):
     repo_name = os.environ.get("GITHUB_REPOSITORY", "masagrator/FPSLocker-Warehouse")
     branch = os.environ.get("GITHUB_REF_NAME", "v4")
     return {
+        "repo": repo_name,
+        "branch": branch,
+        "patchesDir": wd.PATCHES_DIR,
         "rawBase": f"https://raw.githubusercontent.com/{repo_name}/{branch}/",
         "repoBase": f"https://github.com/{repo_name}/blob/{branch}/",
         "built": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d"),
