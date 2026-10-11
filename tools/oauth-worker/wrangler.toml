@@ -4,7 +4,8 @@
 # The name below must match the Worker's name in Cloudflare.
 name = "fpslocker-warehouse"
 main = "worker.js"
-compatibility_date = "2025-01-01"
+compatibility_date = "2026-10-11"
+preview_urls = false
 
 # Keep variables added in the Cloudflare dashboard when deploying.
 keep_vars = true
