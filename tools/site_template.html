@@ -1281,7 +1281,8 @@ async function openPullRequest(token, v) {
   if (v.status === "available") files.push({ path: edit.path, mode: "100644", type: "blob", content: yamlText() });
 
   const name = gameName(v);
-  const title = `Update ${name}`; // PR title and commit message; details are in the PR body
+  // PR title and commit message; the details are in the PR body.
+  const title = v.status === "available" ? `Add patch for ${name} ${v.ver}` : `Update ${name}`;
   const branch = `warehouse/${gameTid(v)}-${v.bid}-${Date.now().toString(36)}`;
 
   const commitSha = await run("Committing the changes", async () => {
