@@ -8,6 +8,12 @@ I won't provide links to patches that have some bugs left.
   - TID: `010008B00D682000`
   - BID: `89777FD8569E563D` (1.0.3)
   - Exefs patch: [LINK](/other/8BitAdventures2-60FPS.zip)
+
+- Animal Crossing: New Horizons
+  - TID: `01006F8002326000`
+  - BID: `FF1D1C05670DB602` (3.0.3)
+  - Exefs patch: [LINK](https://github.com/tmouh/acnh-60fps)
+  - Author: [tmouh](https://github.com/tmouh)
  
 - Diesel Legacy
   - TID: `010076001F5DA000`
@@ -22,12 +28,6 @@ I won't provide links to patches that have some bugs left.
 04000000 00CE0FC0 00008235
 04000000 00334EF0 8A000034
 ```
-
-- Animal Crossing: New Horizons
-  - TID: `01006F8002326000`
-  - BID: `FF1D1C05670DB602` (3.0.3)
-  - Exefs patch: [LINK](https://github.com/tmouh/acnh-60fps)
-  - Author: [tmouh](https://github.com/tmouh)
 
 - Metal Gear Solid 2: Sons of Liberty
   - TID: `0100A4301AA0C001` and `0100EE8019534001`
