@@ -1060,14 +1060,17 @@ function computeEdit(readme, v) {
   let end = start;
   while (end < lines.length && lines[end].startsWith("| ")) end++;
   const key = nameKey(nameCell);
-  // Regional editions with non-Latin names sit right under their Latin sibling,
-  // so a Latin name is placed before the next Latin row that sorts after it.
-  const latin = (s) => /^[\p{Script=Latin}\p{N}]/u.test(s);
+  // Placement keeps the README's current order: a Latin name goes before the first
+  // Latin row that sorts after it (rows with non-Latin names are skipped, so regional
+  // editions stay under their game). A non-Latin name goes at the end of the table.
+  const latin = (s) => !/(?!\p{Script=Latin})\p{L}/u.test(s);
   let pos = end;
-  for (let i = start; i < end; i++) {
-    const k = nameKey(lines[i].split("|")[1]);
-    if (latin(key) && !latin(k)) continue;
-    if (collator.compare(k, key) > 0) { pos = i; break; }
+  if (latin(nameCell.split("<br>")[0])) {
+    for (let i = start; i < end; i++) {
+      const cell = lines[i].split("|")[1];
+      if (!latin(cell.split("<br>")[0].replace(/`[^`]*`/g, ""))) continue;
+      if (collator.compare(nameKey(cell), key) > 0) { pos = i; break; }
+    }
   }
   const oldSum = lines[sumIdx];
   lines[sumIdx] = oldSum.replace(/\((\d+) titles\)/, (_, n) => `(${+n + 1} titles)`);
