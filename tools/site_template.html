@@ -265,6 +265,9 @@ details.manual ol { margin: 0 0 12px; padding-left: 20px; display: grid; gap: 8p
 .ex-row .x-btn { width: 28px; height: 28px; align-self: center; }
 .ex-row .ex-note { grid-column: 1 / -1; font-size: 12px; color: var(--muted); }
 .ex-row .ex-note:empty { display: none; }
+.range-opt { display: grid; gap: 8px; }
+.range-opt .keep { color: var(--fg); font-size: 14px; }
+#range-prev code { font: 12px var(--mono); background: var(--sunken); border-radius: 4px; padding: 1px 4px; overflow-wrap: anywhere; }
 .row-actions { display: flex; flex-wrap: wrap; gap: 6px; }
 
 @media (max-width: 720px) {
@@ -395,8 +398,12 @@ try { const t = localStorage.getItem("warehouse-theme"); if (t === "dark" || t =
           <label><input type="radio" name="status" value="unavailable">❌ Patch needed</label>
           <label><input type="radio" name="status" value="not_needed">◯ No patch needed</label>
         </div>
+        <div class="range-opt" id="range-opt" hidden>
+          <label class="keep"><input type="checkbox" id="v-range"> Same patch, newer game version: keep the current patch file and extend the version range in its first line</label>
+          <ul class="checks" id="range-prev"></ul>
+        </div>
         <div class="extras">
-          <div><b>Other editions with the same build</b> <span class="hint">Optional. Regional editions often share one build ID: each one gets its own README entry and its own copy of the patch file, with that edition's name in the first line.</span></div>
+          <div><b>Also for these editions</b> <span class="hint">Listed editions that share builds with this game are included automatically. Each gets its own README entry and its own copy of the patch file, with that edition's name in the first line. Remove any that don't use this build.</span></div>
           <div class="row-actions" id="ex-suggest"></div>
           <div class="picker">
             <input id="ex-q" type="search" placeholder="Add another game by name or title ID" role="combobox" aria-expanded="false" aria-controls="ex-list" aria-label="Add another game" spellcheck="false">
@@ -804,6 +811,7 @@ const dlg = $("#sub"), form = $("#sub-form");
 const sub = { mode: "existing", game: null, readme: null, readmeErr: null, edit: null, hadBom: false, badUtf8: false, busy: false };
 const issState = new Map(); // issue icon -> "" | "on" | "solved"
 sub.extras = [];        // other editions with the same build: { g, vid, ver } ("" = same as the main game)
+sub.exDismissed = new Set(); // editions the user removed: not added again automatically
 sub.issTouched = false; // issue changes are copied to the other editions only when the user edited them
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -855,6 +863,7 @@ addEventListener("hashchange", () => { if (location.hash === "#add") openSub(); 
 
 // ---- Step 1: game ----
 function setMode(m) {
+  if (m !== sub.mode) { sub.extras = []; sub.exDismissed = new Set(); renderExtras(); }
   sub.mode = m;
   form.querySelector(`input[name=mode][value=${m}]`).checked = true;
   $("#mode-existing").hidden = m !== "existing";
@@ -897,8 +906,9 @@ $("#pick-list").addEventListener("mousedown", (e) => {
 });
 function pickGame(g) {
   sub.game = g;
-  sub.extras = sub.extras.filter((x) => x.g.key !== g.key);
-  renderExtras();
+  sub.extras = [];
+  sub.exDismissed = new Set();
+  autoExtras(false); // the build ID field may still hold another game's build
   $("#picker").hidden = true;
   $("#pick-list").hidden = true;
   const last = g.builds[g.builds.length - 1];
@@ -914,6 +924,8 @@ function pickGame(g) {
 form.addEventListener("click", (e) => {
   if (!e.target.closest("#pick-change")) return;
   sub.game = null;
+  sub.extras = [];
+  renderExtras();
   $("#picked").hidden = true;
   $("#picker").hidden = false;
   $("#pick-q").value = "";
@@ -924,6 +936,7 @@ form.addEventListener("click", (e) => {
 
 // ---- Step 2: version ----
 $("#v-bid").addEventListener("input", () => {
+  autoExtras();
   const bid = $("#v-bid").value.trim().toUpperCase();
   const b = sub.mode === "existing" && sub.game && sub.game.builds.find((x) => x.bid === bid);
   if (b) {
@@ -1061,6 +1074,8 @@ function vals() {
     vid: $("#v-vid").value.trim(),
     ver: $("#v-ver").value.trim(),
     status: form.querySelector("input[name=status]:checked").value,
+    // "Extend the version range": same build ID, newer version, existing patch file kept.
+    range: !$("#range-opt").hidden && $("#v-range").checked && form.querySelector("input[name=status]:checked").value === "available",
   };
 }
 const gameTid = (v) => (v.mode === "existing" ? v.game.key : v.tid);
@@ -1141,10 +1156,54 @@ function computeEdit(readme, v) {
   return { text: lines.join(nl), diff, row, path };
 }
 
+// ---- Extending a patch's version range ----
+// The current patch files are read from GitHub. Each target uses its own file when it
+// lists this build with one, otherwise the main game's file (renamed for that edition).
+const srcYaml = new Map(); // repo path -> text, or an Error
+const VER_TOKEN = /^v?\d[\w.]*(-v?\d[\w.]*)?$/i;
+function mainKnown(v) { return v.mode === "existing" && v.game ? v.game.builds.find((b) => b.bid === v.bid) : null; }
+function rangeSource(t, v) {
+  const own = t.game && t.game.builds.find((b) => b.bid === t.bid);
+  if (own && own.yaml) return own.yaml;
+  const m = mainKnown(v);
+  return m && m.yaml;
+}
+function loadSources(v) {
+  for (const t of targets(v)) {
+    const p = rangeSource(t, v);
+    if (!p || srcYaml.has(p)) continue;
+    srcYaml.set(p, null);
+    loadYaml(p).then((x) => srcYaml.set(p, x), (e) => srcYaml.set(p, e)).then(update);
+  }
+}
+// Returns the new file text, or null when the first line can't be changed.
+function rangeYamlFor(t, v) {
+  const p = rangeSource(t, v);
+  const text = p && srcYaml.get(p);
+  if (typeof text !== "string") return null;
+  const nl = text.includes("\r\n") ? "\r\n" : "\n";
+  const lines = text.replace(/^\uFEFF/, "").split(nl);
+  const m = lines[0].match(/^(#\s*)(.*?)\s+(\S+)\s*$/);
+  if (!m || !VER_TOKEN.test(m[3])) return null;
+  const start = m[3].split("-")[0];
+  const own = t.game.builds.find((b) => b.bid === t.bid);
+  const title = own && own.yaml === p ? m[2] : t.game.names[0]; // borrowed file: use this edition's name
+  lines[0] = m[1] + title + " " + (start === t.ver ? start : start + "-" + t.ver);
+  return lines.join(nl);
+}
+
 // The main game plus every other edition, applied one after another to the README.
 function targets(v) {
-  return [v, ...sub.extras.map((x) => ({ ...v, mode: "existing", game: x.g, extra: true,
-    vid: /^\d+$/.test(x.vid) ? x.vid : v.vid, ver: x.ver || v.ver }))];
+  return [v, ...sub.extras.map((x) => {
+    const d = editionDefaults(x.g, v);
+    return { ...v, mode: "existing", game: x.g, extra: true, vid: /^\d+$/.test(x.vid) ? x.vid : d.vid, ver: x.ver || d.ver };
+  })];
+}
+// Empty fields of an edition: an edition that already lists this build keeps its own
+// version ID and version, except when extending the range (then the main game's new ones).
+function editionDefaults(g, v) {
+  const own = HEX16.test(v.bid) && g.builds.find((b) => b.bid === v.bid);
+  return own && !v.range ? { vid: String(own.vid), ver: own.ver } : { vid: v.vid, ver: v.ver };
 }
 function computeAll(readme, v) {
   let text = readme;
@@ -1153,7 +1212,11 @@ function computeAll(readme, v) {
     const r = computeEdit(text, t);
     if (diff.length && r.diff.length) diff.push([" ", ""]);
     text = r.text; diff.push(...r.diff); rows.push(r.row);
-    if (!paths.includes(r.path)) { paths.push(r.path); files.push({ path: r.path, content: yamlFor(t) }); }
+    if (!paths.includes(r.path)) {
+      paths.push(r.path);
+      const content = v.range ? rangeYamlFor(t, v) : yamlFor(t);
+      if (content != null) files.push({ path: r.path, content });
+    }
   }
   return { text, diff, rows, paths, files, path: paths[0] };
 }
@@ -1174,7 +1237,7 @@ function yamlFor(t) {
 function editionNote(g, v, t) {
   if (!HEX16.test(v.bid)) return "";
   const known = g.builds.find((b) => b.bid === v.bid);
-  if (known) return `Already listed as ${known.ver} · v${known.vid}: this updates that entry.`;
+  if (known) return `Already listed as ${known.ver} · v${known.vid}: this updates that entry.` + (v.range ? " Check its new version ID." : "");
   const last = g.builds[g.builds.length - 1];
   if (v.status === "not_needed" && last.status === "not_needed") return `Replaces the current “No patch needed” entry, ${last.ver} · v${last.vid}.`;
   return `Newest listed: ${last.ver} · v${last.vid}` + (g.newest != null ? `, newest known v${g.newest}.` : ".");
@@ -1195,21 +1258,34 @@ function renderExtraNotes() {
     const n = form.querySelector(`[data-ex-note="${i}"]`);
     if (n) n.textContent = editionNote(x.g, v);
     const vi = form.querySelector(`[data-ex-vid="${i}"]`), ve = form.querySelector(`[data-ex-ver="${i}"]`);
-    if (vi) vi.placeholder = v.vid || "same";
-    if (ve) ve.placeholder = v.ver || "same";
+    const d = editionDefaults(x.g, v);
+    if (vi) vi.placeholder = d.vid || "same";
+    if (ve) ve.placeholder = d.ver || "same";
   });
   // Suggestions: games that already list this build ID, or share a build with the main game.
   const taken = new Set([sub.mode === "existing" && sub.game ? sub.game.key : vals().tid, ...sub.extras.map((x) => x.g.key)]);
-  const mine = sub.mode === "existing" && sub.game ? new Set(sub.game.builds.map((b) => b.bid)) : new Set();
-  const sugg = games.filter((g) => !taken.has(g.key) && g.builds.some((b) => b.bid === v.bid || mine.has(b.bid))).slice(0, 6);
-  $("#ex-suggest").innerHTML = sugg.length ? `<span class="hint">Shares a build:</span>` + sugg.map((g) =>
+  const sugg = siblingEditions().filter((g) => !taken.has(g.key)).slice(0, 6);
+  $("#ex-suggest").innerHTML = sugg.length ? `<span class="hint">Add back:</span>` + sugg.map((g) =>
     `<button type="button" class="chip add" data-ex-add="${g.key}">+ ${esc(g.names[0])}${g.regions.length ? " " + esc(g.regions.join(" ")) : ""}</button>`).join("") : "";
 }
-function addExtra(g) {
+// Sibling editions: listed games that share any build ID with the main game, or that
+// already list the build ID being submitted. They're added unless the user removed them.
+function siblingEditions(useBid = true) {
+  if (sub.mode !== "existing" || !sub.game) return [];
+  const bid = useBid ? $("#v-bid").value.trim().toUpperCase() : "";
+  const mine = new Set(sub.game.builds.map((b) => b.bid));
+  return games.filter((g) => g.key !== sub.game.key && g.builds.some((b) => mine.has(b.bid) || b.bid === bid));
+}
+function autoExtras(useBid = true) {
+  for (const g of siblingEditions(useBid)) if (!sub.exDismissed.has(g.key)) addExtra(g, true);
+  renderExtras();
+  update();
+}
+function addExtra(g, quiet) {
   if (!g || sub.extras.some((x) => x.g.key === g.key) || (sub.mode === "existing" && sub.game && sub.game.key === g.key)) return;
-  const bid = vals().bid;
-  const known = HEX16.test(bid) && g.builds.find((b) => b.bid === bid);
-  sub.extras.push({ g, vid: known ? String(known.vid) : "", ver: known ? known.ver : "" });
+  sub.extras.push({ g, vid: "", ver: "" });
+  sub.exDismissed.delete(g.key);
+  if (quiet) return;
   renderExtras();
   update();
 }
@@ -1250,7 +1326,7 @@ form.addEventListener("click", (e) => {
   const add = e.target.closest("[data-ex-add]");
   if (add) { addExtra(byTid.get(add.dataset.exAdd)); return; }
   const del = e.target.closest("[data-ex-del]");
-  if (del) { sub.extras.splice(+del.dataset.exDel, 1); renderExtras(); update(); }
+  if (del) { const [x] = sub.extras.splice(+del.dataset.exDel, 1); sub.exDismissed.add(x.g.key); renderExtras(); update(); }
 });
 form.addEventListener("input", (e) => {
   const t = e.target;
@@ -1262,9 +1338,13 @@ form.addEventListener("input", (e) => {
 function update() {
   const v = vals();
   const avail = v.status === "available";
-  $("#step-yaml").hidden = !avail;
-  $("#iss-n").textContent = avail ? "4" : "3";
-  $("#rev-n").textContent = avail ? "5" : "4";
+  const mk = mainKnown(v);
+  $("#range-opt").hidden = !(HEX16.test(v.bid) && mk && mk.status === "available" && mk.yaml && avail);
+  v.range = !$("#range-opt").hidden && $("#v-range").checked;
+  const upload = avail && !v.range; // a new patch file is needed
+  $("#step-yaml").hidden = !upload;
+  $("#iss-n").textContent = upload ? "4" : "3";
+  $("#rev-n").textContent = upload ? "5" : "4";
   const errs = [];
 
   if (v.mode === "existing") {
@@ -1301,16 +1381,36 @@ function update() {
   if (known) {
     note.className = "msg info";
     note.textContent = `This build is already listed as ${known.ver} · v${known.vid} (${STATUS[known.status] || known.status}). Submitting updates that entry` +
-      (known.yaml && avail ? " and replaces its patch file." : ".");
+      (v.range ? "." : known.yaml && avail ? " and replaces its patch file." : ".");
   } else if (replaces) {
     note.className = "msg info";
     note.textContent = `This replaces the current “No patch needed” entry, ${replaces.bid} (${replaces.ver} · v${replaces.vid}).`;
   }
 
+  // Version range preview: the first line of every patch file that changes
+  const rp = $("#range-prev");
+  rp.innerHTML = "";
+  if (v.range) {
+    loadSources(v);
+    if (known && v.ver === known.ver) errs.push(`Enter the newer version (the build is listed as ${known.ver}).`);
+    else if (known && /^\d+$/.test(v.vid) && Number(v.vid) < known.vid) errs.push(`The version ID is lower than the listed v${known.vid}.`);
+    const items = [];
+    for (const t of targets(v)) {
+      const p = rangeSource(t, v), src = srcYaml.get(p);
+      const name = esc(t.game.names[0]);
+      if (src == null) { items.push(`<li class="warn"><span>${name}: loading the current patch file…</span></li>`); errs.push("Loading the current patch files."); continue; }
+      if (src instanceof Error) { items.push(`<li class="error"><span>${name}: couldn't load ${esc(p)}.</span></li>`); errs.push("A current patch file couldn't be loaded. Reopen the form to retry."); continue; }
+      const out = rangeYamlFor(t, v);
+      if (out == null) { items.push(`<li class="error"><span>${name}: the first line of ${esc(p.split("/").pop())} doesn't end with a version: <code>${esc(src.split(/\r?\n/)[0])}</code></span></li>`); errs.push(`${t.game.names[0]}: the patch file's first line has no version to extend.`); continue; }
+      items.push(`<li><span>${name}: <code>${esc(src.split(/\r?\n/)[0])}</code> → <code>${esc(out.split(/\r?\n/)[0])}</code></span></li>`);
+    }
+    rp.innerHTML = items.join("");
+  }
+
   // Patch file
-  const checks = avail ? yamlChecks(v) : [];
+  const checks = upload ? yamlChecks(v) : [];
   $("#y-checks").innerHTML = checks.map((c) => `<li class="${c.level}"><span>${esc(c.msg)}${c.fix ? ` <button type="button" class="link-btn" data-fix="${c.fix}">Add a header with it</button>` : ""}</span></li>`).join("");
-  if (avail) {
+  if (upload) {
     if (!yamlText().trim()) errs.push("Add the patch file.");
     else if (checks.some((c) => c.level === "error")) errs.push("Fix the patch file problems listed in step 3.");
   }
@@ -1346,7 +1446,7 @@ function update() {
 
   // Manual route
   const path = sub.edit ? sub.edit.path : null;
-  $("#man-yaml-step").parentElement.hidden = !avail;
+  $("#man-yaml-step").parentElement.hidden = !upload;
   $("#man-extra").textContent = sub.edit && sub.edit.paths.length > 1
     ? " Do the same for the other editions, changing the file's first line to that edition's name: " + sub.edit.paths.slice(1).join(", ") + "." : "";
   ["#man-dl", "#man-copy"].forEach((s) => ($(s).disabled = !sub.edit));
@@ -1441,7 +1541,7 @@ async function openPullRequest(token, v) {
 
   const name = gameName(v);
   // PR title and commit message; the details are in the PR body.
-  const title = v.status !== "available" ? `Update ${name}`
+  const title = v.status !== "available" || v.range ? `Update ${name}`
     : edit.paths.length > 1 ? `Add patches for ${name} ${v.ver}` : `Add patch for ${name} ${v.ver}`;
   const branch = `warehouse/${gameTid(v)}-${v.bid}-${Date.now().toString(36)}`;
 
@@ -1458,7 +1558,7 @@ async function openPullRequest(token, v) {
     `| Title ID | \`${gameTid(v)}\` |`,
     `| Build ID | \`${v.bid}\` |`,
     `| Version | ${v.ver} (v${Number(v.vid)}) |`,
-    `| Status | ${{ available: "✅ Patch available", unavailable: "❌ Patch needed", not_needed: "◯ No patch needed" }[v.status]} |`,
+    `| Status | ${v.range ? "✅ Same patch, version range extended" : { available: "✅ Patch available", unavailable: "❌ Patch needed", not_needed: "◯ No patch needed" }[v.status]} |`,
     `| Issues | ${issues.join(", ") || "None"} |`,
     sub.extras.length ? `| Also for | ${sub.extras.map((x) => `${x.g.names[0]} (\`${x.g.key}\`)`).join(", ")} |` : null,
     v.status === "available" ? `| Patch file | \`${edit.path}\` |` : null,
@@ -1466,7 +1566,7 @@ async function openPullRequest(token, v) {
   ].filter((x) => x !== null).join("\n");
   const pr = await run("Opening the pull request", () => api("POST", `/repos/${REPO}/pulls`, {
     // Patch uploads get no description: the title and the files say it all.
-    title, ...(v.status === "available" ? {} : { body }), base: BRANCH,
+    title, ...(v.status === "available" && !v.range ? {} : { body }), base: BRANCH,
     head: target === REPO ? branch : `${target.split("/")[0]}:${branch}`,
     ...(target === REPO ? {} : { maintainer_can_modify: true }),
   }));
@@ -1538,7 +1638,7 @@ form.addEventListener("click", (e) => {
 const DRAFT_FIELDS = ["n-name", "n-tid", "n-region", "n-list", "n-alt", "v-bid", "v-vid", "v-ver", "y-text"];
 function saveDraft() {
   const d = { mode: sub.mode, tid: sub.game && sub.game.key, status: vals().status, issues: [...issState], fields: {},
-    issTouched: sub.issTouched, extras: sub.extras.map((x) => ({ tid: x.g.key, vid: x.vid, ver: x.ver })) };
+    issTouched: sub.issTouched, range: $("#v-range").checked, extras: sub.extras.map((x) => ({ tid: x.g.key, vid: x.vid, ver: x.ver })), dismissed: [...sub.exDismissed] };
   for (const id of DRAFT_FIELDS) d.fields[id] = $("#" + id).value;
   store.set(sessionStorage, DRAFT_KEY, JSON.stringify(d));
 }
@@ -1555,8 +1655,10 @@ function restoreDraft() {
   issState.clear();
   for (const [k, v] of d.issues || []) issState.set(k, v);
   sub.issTouched = !!d.issTouched;
+  $("#v-range").checked = !!d.range;
   renderIssues();
   sub.extras = (d.extras || []).filter((x) => byTid.has(x.tid)).map((x) => ({ g: byTid.get(x.tid), vid: x.vid || "", ver: x.ver || "" }));
+  sub.exDismissed = new Set(d.dismissed || []);
   renderExtras();
 }
 function startSignIn() {
