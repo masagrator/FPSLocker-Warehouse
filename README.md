@@ -1260,6 +1260,7 @@ PATCH AVAILABILITY<br>
 | VARLET | `0100BAE01EEA0000` | `56CB246F5724B3CC` ([✅](SaltySD/plugins/FPSLocker/patches/0100BAE01EEA0000/56CB246F5724B3CC.yaml), v2, 1.1.0) | ~~[🔧](#🔧)~~ |
 | VARLET `Asia` | `01003E4022A1C000` | `56CB246F5724B3CC` ([✅](SaltySD/plugins/FPSLocker/patches/01003E4022A1C000/56CB246F5724B3CC.yaml), v2, 1.1.0) | ~~[🔧](#🔧)~~ |
 | Viewfinder | `0100F9D023176000` | `40F9641A24F5512C` (◯, v1, 1.1.8) |  |
+| Viractal | `0100FD501F95A000` | `D49165C05EAD8AE1` ([✅](SaltySD/plugins/FPSLocker/patches/0100FD501F95A000/D49165C05EAD8AE1.yaml), v2, 1.4.5) | ~~[🔐](#🔐)~~ |
 | WAIFU IMPACT | `0100393016D7E000` | `DC33AFEE8682A86C` ([✅](SaltySD/plugins/FPSLocker/patches/0100393016D7E000/DC33AFEE8682A86C.yaml), v2, 1.0.2) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Warhammer 40,000: Boltgun | `01005FD017E60000` | `3E961285846C72A5` ([✅](SaltySD/plugins/FPSLocker/patches/01005FD017E60000/3E961285846C72A5.yaml), v6, 1.0.0.7) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Warhammer 40,000: Dakka Squadron | `01007B301CFBE000` | `7E20C8548DC38F3A` ([✅](SaltySD/plugins/FPSLocker/patches/01007B301CFBE000/7E20C8548DC38F3A.yaml), v2, 1.0.2) | ~~[🔧](#🔧)~~ |
