@@ -233,8 +233,12 @@ pre.diff .add { color: var(--ok); }
 .msg.info { background: var(--accent-soft); color: var(--fg); }
 .msg.ok { background: var(--ok-soft); color: var(--fg); }
 .msg.ok a { font-weight: 600; }
-.tok-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 10px; align-items: center; }
-.tok-row .field { align-self: start; }
+.auth { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+.auth #sub-go { margin-left: auto; }
+.signed { display: flex; align-items: center; gap: 8px; font-size: 14px; }
+.signed img { width: 24px; height: 24px; border-radius: 50%; }
+.auth .hint { flex: 1 1 260px; }
+.tok-row { display: grid; gap: 8px; padding-bottom: 12px; }
 .log { list-style: none; margin: 0; padding: 0; font-size: 13px; color: var(--muted); display: grid; gap: 2px; }
 .log li.done::before { content: "✓ "; color: var(--ok); }
 .log li.run::before { content: "… "; }
@@ -262,7 +266,7 @@ details.manual ol { margin: 0 0 12px; padding-left: 20px; display: grid; gap: 8p
   dialog.sub { width: 100vw; max-width: 100vw; height: 100dvh; max-height: 100dvh; margin: 0; border: 0; border-radius: 0; }
   .sub-head, .sub-body { padding-inline: 16px; }
   .fgrid { grid-template-columns: minmax(0, 1fr); }
-  .tok-row { grid-template-columns: minmax(0, 1fr); }
+  .auth #sub-go { margin-left: 0; width: 100%; }
 }
 @media (prefers-reduced-motion: no-preference) { .row, .chip { transition: background-color .12s; } .issue-toggle svg { transition: transform .15s; } }
 </style>
@@ -396,18 +400,25 @@ try { const t = localStorage.getItem("warehouse-theme"); if (t === "dark" || t =
         <legend><span class="step-n" id="rev-n">5</span>Review and submit</legend>
         <div id="sub-problems"></div>
         <div><h3 class="eyebrow" style="margin:0 0 8px">README change</h3><pre class="diff" id="diff">Loading README…</pre></div>
-        <div class="tok-row">
-          <label class="field"><span>GitHub token</span>
-            <input id="tok" type="password" placeholder="ghp_…" spellcheck="false" autocomplete="off">
-            <small>A <a href="https://github.com/settings/tokens/new?scopes=public_repo&amp;description=FPSLocker%20Warehouse%20submissions" target="_blank" rel="noopener">classic token with the public_repo scope</a>. It's sent only to api.github.com.</small>
-          </label>
+        <div class="auth">
+          <div class="signed" id="gh-user" hidden></div>
+          <span class="hint" id="gh-hint" hidden>GitHub asks you to approve access once, then brings you back here with the form as you left it.</span>
           <button type="submit" class="btn primary" id="sub-go">Open pull request</button>
-          <label class="keep"><input type="checkbox" id="tok-keep"> Remember the token on this device</label>
         </div>
+        <details class="manual" id="tok-box">
+          <summary>Use a personal access token instead</summary>
+          <div class="tok-row">
+            <label class="field"><span>GitHub token</span>
+              <input id="tok" type="password" placeholder="ghp_…" spellcheck="false" autocomplete="off">
+              <small>A <a href="https://github.com/settings/tokens/new?scopes=public_repo&amp;description=FPSLocker%20Warehouse%20submissions" target="_blank" rel="noopener">classic token with the public_repo scope</a>. It's sent only to api.github.com.</small>
+            </label>
+            <label class="keep"><input type="checkbox" id="tok-keep"> Remember the token on this device</label>
+          </div>
+        </details>
         <ul class="log" id="sub-log"></ul>
         <div id="sub-result"></div>
         <details class="manual" id="manual">
-          <summary>No GitHub token? Submit by hand</summary>
+          <summary>Submit by hand instead</summary>
           <ol>
             <li><span id="man-yaml-step">Download the patch file and upload it to <a id="man-upload" target="_blank" rel="noopener">its folder on GitHub</a>. GitHub offers to fork the repository and open a pull request for you.</span>
               <div class="row-actions" style="margin-top:6px"><button type="button" class="btn" id="man-dl">Download YAML</button></div></li>
@@ -750,6 +761,16 @@ const HEX16 = /^[0-9A-F]{16}$/;
 const ICONS = Object.keys(DATA.issueNames);
 const YAML_KEYS = ["unsafeCheck", "ALL_FPS", "MASTER_WRITE", "DECLARATIONS", "Addons"];
 const TOKEN_KEY = "warehouse-gh-token";
+// "Sign in with GitHub" needs an OAuth App and a token-exchange helper (tools/oauth-worker).
+// Without them the page falls back to a pasted personal access token.
+const OAUTH = DATA.oauth && DATA.oauth.clientId && DATA.oauth.tokenUrl ? DATA.oauth : null;
+const OAUTH_KEY = "warehouse-gh-oauth";
+const STATE_KEY = "warehouse-oauth-state";
+const DRAFT_KEY = "warehouse-draft";
+const store = {
+  get: (s, k) => { try { return s.getItem(k); } catch (e) { return null; } },
+  set: (s, k, v) => { try { v == null ? s.removeItem(k) : s.setItem(k, v); } catch (e) {} },
+};
 const dlg = $("#sub"), form = $("#sub-form");
 const sub = { mode: "existing", game: null, readme: null, readmeErr: null, edit: null, hadBom: false, badUtf8: false, busy: false };
 const issState = new Map(); // issue icon -> "" | "on" | "solved"
@@ -1036,10 +1057,13 @@ function computeEdit(readme, v) {
     const old = lines[idx];
     const cols = old.split("|");
     const cell = cols[3];
-    const items = [...cell.matchAll(BUILD_RE)].map((m) => ({ bid: m[1].toUpperCase(), vid: +m[3], text: m[0] }));
+    const items = [...cell.matchAll(BUILD_RE)].map((m) => ({ bid: m[1].toUpperCase(), vid: +m[3], text: m[0], notNeeded: m[2].includes("◯") }));
     if (!items.length) throw new Error(`The README row for ${tid} has no build IDs in the expected format.`);
     const same = items.find((x) => x.bid === v.bid);
+    const last = items[items.length - 1];
     if (same) cols[3] = cell.replace(same.text, entry);
+    // A newer "no patch needed" build replaces the current "no patch needed" entry.
+    else if (v.status === "not_needed" && last.notNeeded) cols[3] = cell.replace(last.text, entry);
     else {
       const next = items.find((x) => x.vid > Number(v.vid));
       cols[3] = next ? cell.replace(next.text, entry + " <br> " + next.text) : cell.replace(/\s*$/, "") + " <br> " + entry + " ";
@@ -1112,11 +1136,16 @@ function update() {
   const g = v.mode === "existing" ? v.game : null;
   const known = g && HEX16.test(v.bid) && g.builds.find((b) => b.bid === v.bid);
   $("#v-vid-hint").textContent = g && g.newest != null ? `Newest known: v${g.newest}` : "The number after “v”";
-  note.hidden = !known;
+  const lastB = g && g.builds[g.builds.length - 1];
+  const replaces = !known && g && HEX16.test(v.bid) && v.status === "not_needed" && lastB.status === "not_needed" ? lastB : null;
+  note.hidden = !known && !replaces;
   if (known) {
     note.className = "msg info";
     note.textContent = `This build is already listed as ${known.ver} · v${known.vid} (${STATUS[known.status] || known.status}). Submitting updates that entry` +
       (known.yaml && avail ? " and replaces its patch file." : ".");
+  } else if (replaces) {
+    note.className = "msg info";
+    note.textContent = `This replaces the current “No patch needed” entry, ${replaces.bid} (${replaces.ver} · v${replaces.vid}).`;
   }
 
   // Patch file
@@ -1152,6 +1181,8 @@ function update() {
   $("#sub-problems").innerHTML = errs.length
     ? `<div class="msg info"><b>Still needed</b><ul style="margin:4px 0 0;padding-left:20px">${errs.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>` : "";
   $("#sub-go").disabled = sub.busy || errs.length > 0 || !sub.edit;
+  $("#sub-go").textContent = sub.busy ? "Working…"
+    : OAUTH && !sub.oauthToken && !$("#tok").value.trim() ? "Sign in with GitHub to submit" : "Open pull request";
 
   // Manual route
   const path = sub.edit ? sub.edit.path : null;
@@ -1247,7 +1278,9 @@ async function openPullRequest(token, v) {
   if (v.status === "available") files.push({ path: edit.path, mode: "100644", type: "blob", content: yamlText() });
 
   const name = gameName(v);
-  const listed = v.mode === "existing" && v.game.builds.find((b) => b.bid === v.bid);
+  const lastB = v.mode === "existing" && v.game.builds[v.game.builds.length - 1];
+  const listed = v.mode === "existing" && (v.game.builds.find((b) => b.bid === v.bid) ||
+    (v.status === "not_needed" && lastB.status === "not_needed" ? lastB : null));
   const title = v.status === "available"
     ? `${listed && listed.status === "available" ? "Update" : "Add"} patch for ${name} ${v.ver}`
     : `${listed ? "Update" : "Add"} ${name} ${v.ver} (${v.status === "unavailable" ? "patch needed" : "no patch needed"})`;
@@ -1284,37 +1317,122 @@ form.addEventListener("submit", async (e) => {
   if (sub.busy) return;
   update();
   if ($("#sub-go").disabled) return;
-  const token = $("#tok").value.trim();
+  const token = currentToken();
   const result = $("#sub-result");
   if (!token) {
+    if (OAUTH) return startSignIn();
     result.innerHTML = `<div class="msg warn">Paste a GitHub token, or follow the steps below to submit by hand.</div>`;
     $("#manual").open = true;
     $("#tok").focus();
     return;
   }
-  try { $("#tok-keep").checked ? localStorage.setItem(TOKEN_KEY, token) : localStorage.removeItem(TOKEN_KEY); } catch (err) {}
+  if (!sub.oauthToken) store.set(localStorage, TOKEN_KEY, $("#tok-keep").checked ? token : null);
   sub.busy = true;
   update();
-  $("#sub-go").textContent = "Working…";
   $("#sub-log").innerHTML = "";
   result.innerHTML = "";
   try {
     const { pr } = await openPullRequest(token, vals());
     result.innerHTML = `<div class="msg ok">Pull request opened: <a href="${esc(pr.html_url)}" target="_blank" rel="noopener">#${pr.number} ${esc(pr.title)}</a>. The patch test runs on it automatically, and a maintainer will review it.</div>`;
   } catch (err) {
-    const hint = err.status === 401 ? " The token was rejected. Check that it's correct and hasn't expired."
+    if (err.status === 401 && sub.oauthToken) { sub.oauthToken = null; sub.user = null; store.set(localStorage, OAUTH_KEY, null); renderUser(); }
+    const hint = err.status === 401 ? (OAUTH ? " Your GitHub sign-in expired. Sign in again." : " The token was rejected. Check that it's correct and hasn't expired.")
       : err.status === 403 || err.status === 404 ? " Make sure the token has the public_repo scope."
       : err.status === 422 ? " GitHub refused the change. If the message mentions an existing pull request, one is already open for this."
       : "";
     result.innerHTML = `<div class="msg error">${esc(err.message)}.${hint}</div>`;
   } finally {
     sub.busy = false;
-    $("#sub-go").textContent = "Open pull request";
     update();
   }
 });
 
+// ---- Sign in with GitHub ----
+// Full-page redirect (works on phones and with pop-up blockers): the form is saved to
+// sessionStorage, GitHub sends the user back with ?code=…, and the helper swaps the code
+// for a token. The token is kept in this browser until "Sign out".
+sub.user = null;
+sub.oauthToken = store.get(localStorage, OAUTH_KEY);
+const currentToken = () => sub.oauthToken || $("#tok").value.trim();
+
+function renderUser() {
+  const box = $("#gh-user");
+  box.hidden = !sub.user;
+  $("#gh-hint").hidden = !OAUTH || !!sub.user || !!$("#tok").value.trim();
+  if (sub.user) box.innerHTML = `<img src="${esc(sub.user.avatar_url)}&s=48" alt="">Signed in as <b>${esc(sub.user.login)}</b><button type="button" class="link-btn" id="gh-signout">Sign out</button>`;
+}
+async function loadUser() {
+  if (!sub.oauthToken) return;
+  try { sub.user = await gh(sub.oauthToken, "GET", "/user"); }
+  catch (e) { if (e.status === 401) { sub.oauthToken = null; store.set(localStorage, OAUTH_KEY, null); } }
+  renderUser(); update();
+}
+form.addEventListener("click", (e) => {
+  if (!e.target.closest("#gh-signout")) return;
+  sub.oauthToken = null; sub.user = null;
+  store.set(localStorage, OAUTH_KEY, null);
+  renderUser(); update();
+});
+
+const DRAFT_FIELDS = ["n-name", "n-tid", "n-region", "n-list", "n-alt", "v-bid", "v-vid", "v-ver", "y-text"];
+function saveDraft() {
+  const d = { mode: sub.mode, tid: sub.game && sub.game.key, status: vals().status, issues: [...issState], fields: {} };
+  for (const id of DRAFT_FIELDS) d.fields[id] = $("#" + id).value;
+  store.set(sessionStorage, DRAFT_KEY, JSON.stringify(d));
+}
+function restoreDraft() {
+  let d;
+  try { d = JSON.parse(store.get(sessionStorage, DRAFT_KEY)); } catch (e) {}
+  store.set(sessionStorage, DRAFT_KEY, null);
+  if (!d) return;
+  setMode(d.mode === "new" ? "new" : "existing");
+  if (d.tid && byTid.has(d.tid)) pickGame(byTid.get(d.tid));
+  for (const id of DRAFT_FIELDS) if (d.fields && id in d.fields) $("#" + id).value = d.fields[id];
+  const st = form.querySelector(`input[name=status][value="${d.status}"]`);
+  if (st) st.checked = true;
+  issState.clear();
+  for (const [k, v] of d.issues || []) issState.set(k, v);
+  renderIssues();
+}
+function startSignIn() {
+  const state = "fplw-" + Array.from(crypto.getRandomValues(new Uint8Array(16)), (b) => b.toString(16).padStart(2, "0")).join("");
+  store.set(sessionStorage, STATE_KEY, state);
+  saveDraft();
+  const p = new URLSearchParams({ client_id: OAUTH.clientId, scope: "public_repo", state, redirect_uri: location.origin + location.pathname });
+  location.assign("https://github.com/login/oauth/authorize?" + p);
+}
+async function finishSignIn() {
+  const qs = new URLSearchParams(location.search);
+  const state = qs.get("state");
+  if (!state || !state.startsWith("fplw-") || !(qs.has("code") || qs.has("error"))) return;
+  try { history.replaceState(null, "", location.pathname); } catch (e) {}
+  const expected = store.get(sessionStorage, STATE_KEY);
+  store.set(sessionStorage, STATE_KEY, null);
+  openSub();
+  restoreDraft();
+  update();
+  const fail = (msg) => { $("#sub-result").innerHTML = `<div class="msg error">${esc(msg)}</div>`; };
+  if (state !== expected) return fail("Sign-in didn't complete (the security check failed). Try again.");
+  if (qs.has("error")) return fail(qs.get("error") === "access_denied" ? "Sign-in was cancelled on GitHub." : "GitHub sign-in failed: " + (qs.get("error_description") || qs.get("error")));
+  try {
+    const r = await fetch(OAUTH.tokenUrl, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ code: qs.get("code") }) });
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok || !j.access_token) throw new Error(j.error || "HTTP " + r.status);
+    sub.oauthToken = j.access_token;
+    store.set(localStorage, OAUTH_KEY, j.access_token);
+    await loadUser();
+    $("#sub-go").focus();
+  } catch (e) {
+    fail("GitHub sign-in failed: " + e.message + ". Try again, or use a personal access token.");
+  }
+}
+
+if (!OAUTH) { $("#tok-box").open = true; $("#tok-box > summary").textContent = "GitHub token"; }
+$("#tok").addEventListener("input", () => { renderUser(); update(); });
 renderIssues();
+renderUser();
+loadUser();
+if (OAUTH) finishSignIn();
 })();
 </script>
 </body>

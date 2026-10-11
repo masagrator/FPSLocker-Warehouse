@@ -1,0 +1,7 @@
+name = "fpslocker-warehouse-oauth"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://masagrator.github.io"
+# GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET: set with `wrangler secret put` or in the dashboard.

@@ -37,6 +37,11 @@ def build(repo=".", cache_dir=None):
         "repo": repo_name,
         "branch": branch,
         "patchesDir": wd.PATCHES_DIR,
+        # "Sign in with GitHub" (optional): OAuth App client ID + token-exchange helper URL.
+        "oauth": {
+            "clientId": os.environ.get("OAUTH_CLIENT_ID", ""),
+            "tokenUrl": os.environ.get("OAUTH_TOKEN_URL", ""),
+        },
         "rawBase": f"https://raw.githubusercontent.com/{repo_name}/{branch}/",
         "repoBase": f"https://github.com/{repo_name}/blob/{branch}/",
         "built": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d"),
