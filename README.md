@@ -1115,7 +1115,7 @@ PATCH AVAILABILITY<br>
 | TEMPUS | `0100C75019274000` | `582ADD6F24A2A6B7` ([✅](SaltySD/plugins/FPSLocker/patches/0100C75019274000/582ADD6F24A2A6B7.yaml), v0, 1.0.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Terra Nil | `01006D501D14A000` | `C8BCCB615DA4BD6C` (◯, v7, 1.2.10) |  |
 | Terraformers | `0100C1B01872A000` | `54CEEEA3752EE96F` (◯, v9, 1.7.90) |  |
-| The Alliance Alive HD Remastered | `01003CF00DCFA000` | `4DF9DA0BD7A61546` (❌📌, v2, 1.03) | [⏱️](#⏱️)[🖥️](#🖥️) |
+| The Alliance Alive HD Remastered | `01003CF00DCFA000` | `4DF9DA0BD7A61546` (❌, v2, 1.03) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | The Beast Inside | `010028901FF00000` | `EB58D577539E9151` ([✅](SaltySD/plugins/FPSLocker/patches/010028901FF00000/EB58D577539E9151.yaml), v2, 1.2.0) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | The Bridge Curse - Road to Salvation | `01006BD019A78000` | `F54FC539CAF24C64` ([✅](SaltySD/plugins/FPSLocker/patches/01006BD019A78000/F54FC539CAF24C64.yaml), v1, 1.6.0.1) | ~~[🔧](#🔧)~~ |
 | The Bridge Curse 2: The Extrication | `010033501FF38000` | `B7F344920B6D140E` ([✅](SaltySD/plugins/FPSLocker/patches/010033501FF38000/B7F344920B6D140E.yaml), v1, 1.0.1) | ~~[🔧](#🔧)~~ |
