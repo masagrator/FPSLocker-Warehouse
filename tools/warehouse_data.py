@@ -159,7 +159,10 @@ def apply_versions(games, db):
     for g in games:
         tid = g["tids"][0]
         newest = None
-        if len(tid) == 16 and tid.endswith("0"):  # same rule as CheckUpdate.py
+        if len(tid) == 16:
+            # Updates are published under the application's update ID (last three digits
+            # "800"). Sub-programs of one application (title IDs ending in 001, 002, ...)
+            # share that update, so the same lookup covers them too.
             newest = db.get(tid[:13] + "800", db.get(tid))
         g["newest"] = newest
         g["outdated"] = newest is not None and newest > g["builds"][-1]["vid"]
