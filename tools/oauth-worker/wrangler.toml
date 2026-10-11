@@ -1,7 +1,15 @@
+# Cloudflare Worker for the Warehouse page's "Sign in with GitHub".
+# When the Worker is connected to this GitHub repository (Workers Builds), set
+# Settings → Build → Root directory to: tools/oauth-worker
+# The name below must match the Worker's name in Cloudflare.
 name = "fpslocker-warehouse-oauth"
 main = "worker.js"
 compatibility_date = "2025-01-01"
 
+# Keep variables added in the Cloudflare dashboard when deploying.
+keep_vars = true
+
 [vars]
 ALLOWED_ORIGIN = "https://masagrator.github.io"
-# GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET: set with `wrangler secret put` or in the dashboard.
+# GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET: add them as Secrets in the dashboard
+# (Settings → Variables and Secrets) or with `npx wrangler secret put`.
