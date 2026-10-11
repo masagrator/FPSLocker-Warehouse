@@ -1,8 +1,6 @@
 # SOMA 1.6.0
 # BID: AA2258B29060A289
 
-unsafeCheck: true
-
 ALL_FPS:
   # REF: "bool GetLimitFPS()"
   -
