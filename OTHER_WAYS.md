@@ -8,6 +8,20 @@ I won't provide links to patches that have some bugs left.
   - TID: `010008B00D682000`
   - BID: `89777FD8569E563D` (1.0.3)
   - Exefs patch: [LINK](/other/8BitAdventures2-60FPS.zip)
+ 
+- Diesel Legacy
+  - TID: `010076001F5DA000`
+  - BID: `DE2461E141ED0958` (1.0.4)
+  - Cheat:
+```ini
+[60 FPS]
+04000000 00CE0FC0 0000411A
+04000000 00334EF0 14000004
+
+[30 FPS]
+04000000 00CE0FC0 00008235
+04000000 00334EF0 8A000034
+```
 
 - Animal Crossing: New Horizons
   - TID: `01006F8002326000`
