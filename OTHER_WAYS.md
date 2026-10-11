@@ -41,7 +41,7 @@ I won't provide links to patches that have some bugs left.
 
 - Metal Gear Solid: Peace Walker
   - TID: `010099801C4FA001` and `0100C6F01C4F8001`
-  - BID: `BCA1A793E41A4836` (1.3.0)
+  - BID: `623D6C46537CA39A` (1.3.1)
   - Exefs patch: [LINK](https://gbatemp.net/threads/metal-gear-solid-2-3-peace-walker-60-fps-patches.642085/)
 
 - Pokemon Legends: Z-A
