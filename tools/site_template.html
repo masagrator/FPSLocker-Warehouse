@@ -763,7 +763,9 @@ const YAML_KEYS = ["unsafeCheck", "ALL_FPS", "MASTER_WRITE", "DECLARATIONS", "Ad
 const TOKEN_KEY = "warehouse-gh-token";
 // "Sign in with GitHub" needs an OAuth App and a token-exchange helper (tools/oauth-worker).
 // Without them the page falls back to a pasted personal access token.
-const OAUTH = DATA.oauth && DATA.oauth.clientId && DATA.oauth.tokenUrl ? DATA.oauth : null;
+// The client ID can come from the build, or from the helper's /config (so no repository
+// variables are needed). OAUTH stays null until both are known.
+let OAUTH = DATA.oauth && DATA.oauth.clientId && DATA.oauth.tokenUrl ? DATA.oauth : null;
 const OAUTH_KEY = "warehouse-gh-oauth";
 const STATE_KEY = "warehouse-oauth-state";
 const DRAFT_KEY = "warehouse-draft";
@@ -1279,12 +1281,7 @@ async function openPullRequest(token, v) {
   if (v.status === "available") files.push({ path: edit.path, mode: "100644", type: "blob", content: yamlText() });
 
   const name = gameName(v);
-  const lastB = v.mode === "existing" && v.game.builds[v.game.builds.length - 1];
-  const listed = v.mode === "existing" && (v.game.builds.find((b) => b.bid === v.bid) ||
-    (v.status === "not_needed" && lastB.status === "not_needed" ? lastB : null));
-  const title = v.status === "available"
-    ? `${listed && listed.status === "available" ? "Update" : "Add"} patch for ${name} ${v.ver}`
-    : `${listed ? "Update" : "Add"} ${name} ${v.ver} (${v.status === "unavailable" ? "patch needed" : "no patch needed"})`;
+  const title = `Update ${name}`; // PR title and commit message; details are in the PR body
   const branch = `warehouse/${gameTid(v)}-${v.bid}-${Date.now().toString(36)}`;
 
   const commitSha = await run("Committing the changes", async () => {
@@ -1428,12 +1425,26 @@ async function finishSignIn() {
   }
 }
 
-if (!OAUTH) { $("#tok-box").open = true; $("#tok-box > summary").textContent = "GitHub token"; }
+function applyAuthMode() {
+  $("#tok-box").open = !OAUTH;
+  $("#tok-box > summary").textContent = OAUTH ? "Use a personal access token instead" : "GitHub token";
+  renderUser();
+  update();
+}
+async function loadOAuthConfig() {
+  const url = DATA.oauth && DATA.oauth.tokenUrl;
+  if (OAUTH || !url) return;
+  try {
+    const r = await fetch(url.replace(/\/token$/, "") + "/config");
+    const j = await r.json();
+    if (r.ok && j.clientId) OAUTH = { clientId: j.clientId, tokenUrl: url };
+  } catch (e) {} // helper unreachable: keep the token field
+}
 $("#tok").addEventListener("input", () => { renderUser(); update(); });
 renderIssues();
-renderUser();
+applyAuthMode();
 loadUser();
-if (OAUTH) finishSignIn();
+loadOAuthConfig().then(() => { applyAuthMode(); if (OAUTH) finishSignIn(); });
 })();
 </script>
 </body>
