@@ -18,16 +18,20 @@ that holds the secret and does only that exchange. It stores nothing.
 
    Copy the **Client ID**, then **Generate a new client secret** and copy it.
 
-2. **Deploy the Worker.** In the Cloudflare dashboard: Workers & Pages → Create → Worker
-   → paste `worker.js` → Deploy. Then in the Worker's Settings → Variables and secrets add:
+2. **Deploy the Worker.** In the Cloudflare dashboard: Workers & Pages → Create →
+   **Create Worker** ("Start with Hello World!"), name it, and click **Deploy**.
+   Then click **Edit code**, replace everything with the contents of `worker.js`, and click **Deploy** again.
+   (Don't use "Upload and deploy": that's for static sites and rejects Worker code.)
+   Then in the Worker's Settings → Variables and Secrets add:
    - `GITHUB_CLIENT_ID` (text): the Client ID
    - `GITHUB_CLIENT_SECRET` (secret): the client secret
-   - `ALLOWED_ORIGIN` (text): `https://masagrator.github.io`
+   - `ALLOWED_ORIGIN` (text): `https://masagrator.github.io` (no trailing slash)
 
    Or from this folder: `npx wrangler deploy`, then
    `npx wrangler secret put GITHUB_CLIENT_ID` and `npx wrangler secret put GITHUB_CLIENT_SECRET`.
 
    Note the Worker URL, like `https://fpslocker-warehouse-oauth.<you>.workers.dev`.
+   Opening it in a browser should show `{"error":"Not found"}`, which means it's running.
 
 3. **Tell the page.** In the repository: Settings → Secrets and variables → Actions → Variables
    → New repository variable:
