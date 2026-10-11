@@ -70,8 +70,8 @@ for line in file:
     gameTitle = line.split("|")[1]
     pos = line.find("| `0100") + 3
     titleid = line[pos:pos+16].upper()
-    if titleid[15:16] != "0":
-        continue
+    # Sub-programs (title IDs ending in 001, 002, ...) share the application's update ID
+    # (last three digits "800"), so they're checked like any other title.
     versionColumn = line.split("|")[3]
     pos = versionColumn.find(", v") + 3
     if (versionColumn.find("<br>") == -1):
