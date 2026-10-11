@@ -402,7 +402,7 @@ try { const t = localStorage.getItem("warehouse-theme"); if (t === "dark" || t =
         <div><h3 class="eyebrow" style="margin:0 0 8px">README change</h3><pre class="diff" id="diff">Loading README…</pre></div>
         <div class="auth">
           <div class="signed" id="gh-user" hidden></div>
-          <span class="hint" id="gh-hint" hidden>GitHub asks you to approve access once, then brings you back here with the form as you left it.</span>
+          <span class="hint" id="gh-hint" hidden>Sign in to open the pull request from your GitHub account. GitHub asks you to approve access once, then brings you back here with the form as you left it.</span>
           <button type="submit" class="btn primary" id="sub-go">Open pull request</button>
         </div>
         <details class="manual" id="tok-box">
@@ -1180,9 +1180,10 @@ function update() {
 
   $("#sub-problems").innerHTML = errs.length
     ? `<div class="msg info"><b>Still needed</b><ul style="margin:4px 0 0;padding-left:20px">${errs.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>` : "";
-  $("#sub-go").disabled = sub.busy || errs.length > 0 || !sub.edit;
-  $("#sub-go").textContent = sub.busy ? "Working…"
-    : OAUTH && !sub.oauthToken && !$("#tok").value.trim() ? "Sign in with GitHub to submit" : "Open pull request";
+  // Not signed in yet: the button signs in (allowed any time, the form is kept).
+  const needSignIn = !!OAUTH && !sub.oauthToken && !$("#tok").value.trim();
+  $("#sub-go").disabled = sub.busy || (!needSignIn && (errs.length > 0 || !sub.edit));
+  $("#sub-go").textContent = sub.busy ? "Working…" : needSignIn ? "Sign in with GitHub" : "Open pull request";
 
   // Manual route
   const path = sub.edit ? sub.edit.path : null;
@@ -1319,8 +1320,8 @@ form.addEventListener("submit", async (e) => {
   if ($("#sub-go").disabled) return;
   const token = currentToken();
   const result = $("#sub-result");
+  if (!token && OAUTH) return startSignIn();
   if (!token) {
-    if (OAUTH) return startSignIn();
     result.innerHTML = `<div class="msg warn">Paste a GitHub token, or follow the steps below to submit by hand.</div>`;
     $("#manual").open = true;
     $("#tok").focus();
