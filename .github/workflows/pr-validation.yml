@@ -5,13 +5,11 @@ on:
     branches:
       - v4
     paths:
-      - README.md
       - SaltySD/plugins/FPSLocker/patches/**
   push:
     branches:
       - v4
     paths:
-      - README.md
       - SaltySD/plugins/FPSLocker/patches/**
   workflow_dispatch:
 
