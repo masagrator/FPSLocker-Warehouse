@@ -1,8 +1,6 @@
 # Starlink: Battle for Atlas 1.0.6
 # BID: 13C816F2A273653C
 
-unsafeCheck: false
-
 MASTER_WRITE:
   # Redirect reading DR FPS Target to MAIN + 0xFBF7F00
   -
