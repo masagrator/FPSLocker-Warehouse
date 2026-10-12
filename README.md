@@ -837,9 +837,9 @@ PATCH AVAILABILITY<br>
 | PAW Patrol World | `0100273018D70000` | `54C42C73890100F1` (❌📌, v2, 1.0.2) | [🔐](#🔐) |
 | Payday 2 | `0100274004052000` | `AEA19BDA16E7A34F` (◯, v1, 1.1.0) |  |
 | Peppa Pig: World Adventures | `0100FF1018E00000` | `696DE87363CDAED0` (◯, v1, 1.0.1) |  |
-| Persona 5 Royal | `01005CA01580E000` | `D4B150B29A931CD3` (❌, v1, 1.0.2) | [🖌️](#🖌️) |
-| - 女神異聞錄５ 皇家版<br>- 페르소나5 더 로열 | `01004B10157F2000` | `D4B150B29A931CD3` (❌, v1, 1.0.2) | [🖌️](#🖌️) |
-| ペルソナ５ ザ・ロイヤル | `0100B880154FC000` | `D4B150B29A931CD3` (❌, v2, 1.0.2) | [🖌️](#🖌️) |
+| Persona 5 Royal | `01005CA01580E000` | `D4B150B29A931CD3` ([✅](SaltySD/plugins/FPSLocker/patches/01005CA01580E000/D4B150B29A931CD3.yaml), v1, 1.0.2) | ~~[🖌️](#🖌️)~~ |
+| - 女神異聞錄５ 皇家版<br>- 페르소나5 더 로열 | `01004B10157F2000` | `D4B150B29A931CD3` ([✅](SaltySD/plugins/FPSLocker/patches/01004B10157F2000/D4B150B29A931CD3.yaml), v1, 1.0.2) | ~~[🖌️](#🖌️)~~ |
+| ペルソナ５ ザ・ロイヤル | `0100B880154FC000` | `D4B150B29A931CD3` ([✅](SaltySD/plugins/FPSLocker/patches/0100B880154FC000/D4B150B29A931CD3.yaml), v2, 1.0.2) | ~~[🖌️](#🖌️)~~ |
 | Persona 5 Strikers | `0100801011C3E000` | `C4DF04F647BDC727` ([✅](SaltySD/plugins/FPSLocker/patches/0100801011C3E000/C4DF04F647BDC727.yaml), v0, 1.0.0) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | 女神異聞錄５ 亂戰：魅影攻手 | `01005BD010872000` | `496A2F5A9CE4FBEB` ([✅](SaltySD/plugins/FPSLocker/patches/01005BD010872000/496A2F5A9CE4FBEB.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | ペルソナ５ スクランブル　ザ ファントム ストライカーズ | `01001C400E9D8000` | `737E56D43D2C0B38` ([✅](SaltySD/plugins/FPSLocker/patches/01001C400E9D8000/737E56D43D2C0B38.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
