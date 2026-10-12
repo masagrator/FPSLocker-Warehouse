@@ -1,0 +1,101 @@
+# Valkyria Chronicles 4 1.0.0
+# BID: 3758602AA47ADD37
+
+DECLARATIONS:
+  -
+    type: variable
+    name: lipAccA
+    value_type: float
+    default_value: 0.0
+  -
+    type: variable
+    name: lipAccB
+    value_type: float
+    default_value: 0.0
+  -
+    type: code
+    name: lipGateA
+    # x0 = lip object (kept for MAIN+0x1E8628)
+    instructions: [
+      [adrp, x9, $lipAccA],
+      [ldr, s0, [x9, $lipAccA]],
+      [adrp, x10, 0x1072000],
+      [ldr, s1, [x10, 0x764]],
+      [fadd, s0, s0, s1],
+      [fmov, s1, 2.0],
+      [fcmp, s0, s1],
+      [b.ge, :run],
+      [str, s0, [x9, $lipAccA]],
+      [ret],
+      :run, [fsub, s0, s0, s1],
+      [str, s0, [x9, $lipAccA]],
+      [adrp, x16, 0x1E8000],
+      [add, x16, x16, 0x628],
+      [br, x16]
+    ]
+  -
+    type: code
+    name: lipGateB
+    instructions: [
+      [adrp, x9, $lipAccB],
+      [ldr, s0, [x9, $lipAccB]],
+      [adrp, x10, 0x1072000],
+      [ldr, s1, [x10, 0x764]],
+      [fadd, s0, s0, s1],
+      [fmov, s1, 2.0],
+      [fcmp, s0, s1],
+      [b.ge, :run],
+      [str, s0, [x9, $lipAccB]],
+      [ret],
+      :run, [fsub, s0, s0, s1],
+      [str, s0, [x9, $lipAccB]],
+      [adrp, x16, 0x1E8000],
+      [add, x16, x16, 0x628],
+      [br, x16]
+    ]
+MASTER_WRITE:
+  # Use Triple Buffer
+  -
+    type: bytes
+    main_offset: 0x5A1C48
+    value_type: uint32
+    value: 0x52800068
+  # Lip data updates
+  -
+    type: asm_a64
+    main_offset: 0x219CBC
+    instructions: [
+      [bl, _lipGateA()]
+    ]
+  -
+    type: asm_a64
+    main_offset: 0x219CE4
+    instructions: [
+      [bl, _lipGateB()]
+    ]
+ALL_FPS:
+  -
+    type: evaluate_write
+    address: [MAIN, 0x107973C]
+    value_type: uint32
+    value: VSYNC_TARGET
+  -
+    type: evaluate_write
+    address: [MAIN, 0x1078474]
+    value_type: uint32
+    value: VSYNC_TARGET
+  -
+    type: evaluate_write
+    address: [MAIN, 0x1078478]
+    value_type: float
+    value: VSYNC_TARGET
+  -
+    type: evaluate_write
+    address: [MAIN, 0x1072764]
+    value_type: float
+    value: [VSYNC_TARGET, 1, VSYNC_TARGET]
+  -
+    type: evaluate_write
+    address: [MAIN, 0x1071B30, 0]
+    value_type: uint32
+    value: VSYNC_TARGET

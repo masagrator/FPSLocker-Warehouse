@@ -1252,7 +1252,7 @@ PATCH AVAILABILITY<br>
 | V-Rally 4 `JPN` | `010015800B178000` | `EB8A679B5DDD0060` ([✅](SaltySD/plugins/FPSLocker/patches/010015800B178000/EB8A679B5DDD0060.yaml), v1, 1.1.0) | ~~[📏](#📏)~~ |
 | Valkyria Chronicles | `0100CAF00B744000` | `FE77FFB8CBFB3A5C` ([✅](SaltySD/plugins/FPSLocker/patches/0100CAF00B744000/FE77FFB8CBFB3A5C.yaml), v1, 1.0.1) | ~~[⏱️](#⏱️)~~[🖥️](#🖥️) |
 | 戦場のヴァルキュリア | `0100E6900A5A8000` | `A184B59D5091B68A` ([✅](SaltySD/plugins/FPSLocker/patches/0100E6900A5A8000/A184B59D5091B68A.yaml), v1, 1.0.1) | ~~[⏱️](#⏱️)~~[🖥️](#🖥️)[⚔️](#⚔️) |
-| Valkyria Chronicles 4 | `01005C600AC68000` | `3758602AA47ADD37` (❌, v0, 1.0.0) | [👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️) |
+| Valkyria Chronicles 4 | `01005C600AC68000` | `3758602AA47ADD37` ([✅](SaltySD/plugins/FPSLocker/patches/01005C600AC68000/3758602AA47ADD37.yaml), v0, 1.0.0) | ~~[👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | 戦場のヴァルキュリア4 | `0100C11009378000` | `13197CCF3745E1C5` (❌, v1, 1.0.1) | [👄](#👄)[⏱️](#⏱️)[🖥️](#🖥️) |
 | Vampire: The Masquerade – Swansong | `01007EE01318E000` | `36080563369C45D8` (◯, v0, 1.0.0) |  |
 | Vampyr | `01000BD00CE64000` | `E417100FFEEFD1DE` ([✅](SaltySD/plugins/FPSLocker/patches/01000BD00CE64000/E417100FFEEFD1DE.yaml), v2, 0.4) | ~~[📏](#📏)~~ |
