@@ -59,10 +59,15 @@ I won't provide links to patches that have some bugs left.
   - BID: `6455A932B210658F`
   - Exefs patch: [LINK](https://gamebanana.com/mods/623949)
   - Author: [Fl4sh](https://gamebanana.com/members/3083977)
+ 
+- Suikoden I&II HD Remaster
+  - TID: `01004BD017080000`
+  - BID: `A481E5E6A88FDFB7` (1.0.3)
+  - Exefs patch: [LINK](other/Suikoden-60FPS.zip)
 
 - Tomodachi Life: Living the Dream
   - TID: `010051F0207B2000`
-  - BID: `B39FEF373FB12154`
+  - BID: `B39FEF373FB12154` (1.0.4)
   - Cheat:
 ```ini
 [60 FPS Max]
