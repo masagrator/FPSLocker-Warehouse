@@ -650,7 +650,7 @@ PATCH AVAILABILITY<br>
 | Little Nightmares II | `010097100EDD6000` | `7F4216B6E784A4B2` ([✅](SaltySD/plugins/FPSLocker/patches/010097100EDD6000/7F4216B6E784A4B2.yaml), v4, 1.4) | ~~[📏](#📏)~~ |
 | Little Nightmares III | `010066101A55A000` | `338C569A607B7C30` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/338C569A607B7C30.yaml), v1, 1.0.2) <br> `F3FFA17B5E56809F` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/F3FFA17B5E56809F.yaml), v2, 1.0.3) <br> `911284C45A26DD34` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/911284C45A26DD34.yaml), v3, 1.0.4) <br> `59B2891BAB23B8AE` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/59B2891BAB23B8AE.yaml), v4, 1.0.5) <br> `18214B9F20F2F1F3` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/18214B9F20F2F1F3.yaml), v5, 1.1.0) <br> `138F11463DE5DFE7` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/138F11463DE5DFE7.yaml), v6, 1.1.1) <br> `BB02917589CFB448` ([✅](SaltySD/plugins/FPSLocker/patches/010066101A55A000/BB02917589CFB448.yaml), v8, 1.2.1) | ~~[🔧](#🔧)~~ |
 | Little Orpheus | `010025A015C62000` | `1D5A1DA51CA68238` ([✅](SaltySD/plugins/FPSLocker/patches/010025A015C62000/1D5A1DA51CA68238.yaml), v2, 1.0.2) | ~~[📏](#📏)~~ |
-| Little Town Hero | `01000FB00AA90000` | `2BE4AF8B1A137445` (❌, v2, 1.2.0) | [🏃](#🏃) |
+| Little Town Hero | `01000FB00AA90000` | `2BE4AF8B1A137445` ([✅](SaltySD/plugins/FPSLocker/patches/01000FB00AA90000/2BE4AF8B1A137445.yaml), v2, 1.2.0) | ~~[🏃](#🏃)~~ |
 | LIVE A LIVE | `0100CF801776C000` | `CF22083371DDACB2` (◯, v1, 1.0.1) |  |
 | Loddlenaut | `010086501F826000` | `C000FD620D6A92F0` (◯, v3, 1.2.4) |  |
 | Lost In Random | `01005FE01291A000` | `416914C121775277` (◯, v1, 1.0.1) |  |
