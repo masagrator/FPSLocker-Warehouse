@@ -1216,7 +1216,7 @@ PATCH AVAILABILITY<br>
 | Trials Rising | `01003E800A102000` | `283095029A5AB467` ([✅](SaltySD/plugins/FPSLocker/patches/01003E800A102000/283095029A5AB467.yaml), v13, 1.0.13) | ~~[📏](#📏)[⏱️](#⏱️)[🖥️](#🖥️)~~ |
 | Triangle Strategy | `0100CC80140F8000` | `9CB4490E8A718BAE` ([✅](SaltySD/plugins/FPSLocker/patches/0100CC80140F8000/9CB4490E8A718BAE.yaml), v4, 1.1.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Trine | `0100D9000A930000` | `32B4BBE0D88214D3` (◯, v2, 1.0.2) |  |
-| Trine 2 | `010064E00A932000` | `525B902E6F916EA5` (❌, v1, 1.0.1) | [🏃](#🏃) |
+| Trine 2 | `010064E00A932000` | `525B902E6F916EA5` ([✅](SaltySD/plugins/FPSLocker/patches/010064E00A932000/525B902E6F916EA5.yaml), v1, 1.0.1) | ~~[🏃](#🏃)~~ |
 | Trine 3: The Artifacts of Power | `0100DEC00A934000` | `86D9EA9CA4680295` (◯, v0, 1.0.0) |  |
 | Trine 4: The Nightmare Prince | `010055E00CA68000` | `B70F06EAC87FA2AF` ([✅](SaltySD/plugins/FPSLocker/patches/010055E00CA68000/B70F06EAC87FA2AF.yaml), v3, 1.0.3) | ~~[📏](#📏)~~ |
 | トライン4：ザ・ナイトメア プリンス | `0100BDD00EF5A000` | `B70F06EAC87FA2AF` ([✅](SaltySD/plugins/FPSLocker/patches/0100BDD00EF5A000/B70F06EAC87FA2AF.yaml), v3, 1.0.3) | ~~[📏](#📏)~~ |
