@@ -1044,7 +1044,7 @@ PATCH AVAILABILITY<br>
 | STAR OCEAN THE SECOND STORY R | `010065301A2E0000` | `D214BA64D902AEDA` (◯, v3, 1.1.0) |  |
 | Star Overdrive | `010047E01EA24000` | `6D05923E7005E182` ([✅](SaltySD/plugins/FPSLocker/patches/010047E01EA24000/6D05923E7005E182.yaml), v9, 1.0.10) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | スター・オーバードライブ | `01001E20203DC000` | `6D05923E7005E182` ([✅](SaltySD/plugins/FPSLocker/patches/01001E20203DC000/6D05923E7005E182.yaml), v8, 1.0.10) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
-| Starlink: Battle for Atlas | `01002CC003FE6000` | `13C816F2A273653C` (❌📌, v6, 1.0.6) | [📏](#📏) |
+| Starlink: Battle for Atlas | `01002CC003FE6000` | `13C816F2A273653C` ([✅](SaltySD/plugins/FPSLocker/patches/01002CC003FE6000/13C816F2A273653C.yaml), v6, 1.0.6) | ~~[📏](#📏)[🏃](#🏃)~~ |
 | SteamWorld Build | `01004E401B3EA000` | `017834F19C49FA71` (◯, v16, 1.0.156) |  |
 | Storm Lancers | `01002A4021B86000` | `E5D70A1E288F74A7` ([✅](SaltySD/plugins/FPSLocker/patches/01002A4021B86000/E5D70A1E288F74A7.yaml), v4, 1.1.0.5) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | STORY OF SEASONS: A Wonderful Life | `0100F940192A0000` | `7EB6AA5DE87C0562` (◯, v2, 1.0.2) |  |
