@@ -1,7 +1,5 @@
 # Wobbly Life 1.1.0.0
-# BID: 88330D25A235286F (Unity)
-
-
+# BID: 88330D25A235286F
 
 MASTER_WRITE:
   # SwitchNetworkManager.Update calls CheckConnection every frame.
