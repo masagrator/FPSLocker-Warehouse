@@ -86,3 +86,8 @@ I won't provide links to patches that have some bugs left.
 78000000 00000024
 64000000 00000000 00000002
 ```
+
+- Valkyria Chronicles 4
+  - TID: `01005C600AC68000`
+  - BID: `3758602AA47ADD37` (1.0.0)
+  - Exefs patch: [LINK](other/ValkyriaChronicles4-60FPS.zip)
