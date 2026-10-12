@@ -1,10 +1,5 @@
 # Little Town Hero 1.2.0
 # BID: 2BE4AF8B1A137445
-#
-# : velocity = Lerp(velocity, target, Min(deltaTime*14, 1)),
-# but 
-# 
-# 
 
 MASTER_WRITE:
   # PlayerMoveController.CalculateVelocity
