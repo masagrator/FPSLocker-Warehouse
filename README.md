@@ -61,7 +61,7 @@ PATCH AVAILABILITY<br>
 ---
 
 <details>
-<summary>List of 30 FPS locked games (1265 titles)</summary>
+<summary>List of 30 FPS locked games (1266 titles)</summary>
 <h6>
 
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | ISSUES |
@@ -944,6 +944,7 @@ PATCH AVAILABILITY<br>
 | Rune Factory: Guardians of Azuma | `01003AF0200B0000` | `A91A871F86DE1A93` ([✅](SaltySD/plugins/FPSLocker/patches/01003AF0200B0000/A91A871F86DE1A93.yaml), v9, 1.1.4) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Rune Factory: Guardians of Azuma `US` | `010022A02008C000` | `A91A871F86DE1A93` ([✅](SaltySD/plugins/FPSLocker/patches/010022A02008C000/A91A871F86DE1A93.yaml), v9, 1.1.4) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Rune Factory: Guardians of Azuma `Cartridge only` | `0100CFB01CDCE000` |  `A91A871F86DE1A93` ([✅](SaltySD/plugins/FPSLocker/patches/0100CFB01CDCE000/A91A871F86DE1A93.yaml), v9, 1.1.4) | ~~[📏](#📏)[🔧](#🔧)~~ |
+| Silver Pines | `0100D5B026844000` | `96C4CCA112FB0B02` ([✅](SaltySD/plugins/FPSLocker/patches/0100D5B026844000/96C4CCA112FB0B02.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | S.T.A.L.K.E.R.: Call of Prypiat | `010008E01E32A000` | `AD4CBC4878008E1E` ([✅](SaltySD/plugins/FPSLocker/patches/010008E01E32A000/AD4CBC4878008E1E.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | S.T.A.L.K.E.R.: Clear Sky | `010027B01E32C000` | `C7E4E6F4167C8E3A` ([✅](SaltySD/plugins/FPSLocker/patches/010027B01E32C000/C7E4E6F4167C8E3A.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | S.T.A.L.K.E.R.: Shadow Of Chornobyl | `01004A001E32E000` | `F7D1E815E44D0A56` ([✅](SaltySD/plugins/FPSLocker/patches/01004A001E32E000/F7D1E815E44D0A56.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[📏](#📏)~~ |
