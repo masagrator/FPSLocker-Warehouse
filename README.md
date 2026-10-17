@@ -61,7 +61,7 @@ PATCH AVAILABILITY<br>
 ---
 
 <details>
-<summary>List of 30 FPS locked games (1265 titles)</summary>
+<summary>List of 30 FPS locked games (1279 titles)</summary>
 <h6>
 
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | ISSUES |
@@ -995,6 +995,7 @@ PATCH AVAILABILITY<br>
 | Shirone: the Dragon Girl | `010028F018206000` | `4074315114A7FCE2` (◯, v1, 1.0.6a) |  |
 | Sifu | `01007B5017A12000` | `4A5D86DA05A4E7BB` ([✅](SaltySD/plugins/FPSLocker/patches/01007B5017A12000/4A5D86DA05A4E7BB.yaml), v6, 0.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | SIGNALIS | `0100307018934000` | `C32A27E10515B7B8` (◯, v4, 1.4) |  |
+| Silver Pines | `0100D5B026844000` | `96C4CCA112FB0B02` ([✅](SaltySD/plugins/FPSLocker/patches/0100D5B026844000/96C4CCA112FB0B02.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | SINNER: Sacrifice for Redemption | `0100B16009C10000` | `490D681909609015` ([✅](SaltySD/plugins/FPSLocker/patches/0100B16009C10000/490D681909609015.yaml), v3, 1.1.0319) | ~~[🔐](#🔐)~~ |
 | Skylanders Imaginators | `0100CCC0002E6000` | `8B03CB047C01EE43` (◯, v2, 1.1.1) |  |
 | Skylanders Imaginators `DE` | `010048D000BFC000` | `8B03CB047C01EE43` (◯, v2, 1.1.1) |  |
