@@ -61,7 +61,7 @@ PATCH AVAILABILITY<br>
 ---
 
 <details>
-<summary>List of 30 FPS locked games (1279 titles)</summary>
+<summary>List of 30 FPS locked games (1280 titles)</summary>
 <h6>
 
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | ISSUES |
@@ -1209,6 +1209,7 @@ PATCH AVAILABILITY<br>
 | Tony Hawk's Pro Skater 1 + 2 | `0100CC00102B4000` | `8AFCBE6A930CD42E` ([✅](SaltySD/plugins/FPSLocker/patches/0100CC00102B4000/8AFCBE6A930CD42E.yaml), v3, 1.0.3) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Tony Hawk's Pro Skater 3 + 4 | `01000AD01F94A000` | `52DA46C0166A8643` ([✅](SaltySD/plugins/FPSLocker/patches/01000AD01F94A000/52DA46C0166A8643.yaml), v6, 1.07) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Towa and the Guardians of the Sacred Tree | `0100F52019002000` | `08BCA9E5E68794AA` (◯, v3, 1.3) |  |
+| Toy Story 3 | `01001DC025BC4000` | `B2F8DCB546DE62ED` (◯, v3, 1.0.3) |  |
 | Train Life: A Railway Simulator | `0100FC101513E000` | `A9CE4E0196706EC8` (❌📌, v1, 1.0.1) | [📏](#📏) |
 | TRANSFORMERS: EARTHSPARK - Expedition | `010005001A8CA000` | `F87BEAF2C5CE13E3` ([✅](SaltySD/plugins/FPSLocker/patches/010005001A8CA000/F87BEAF2C5CE13E3.yaml), v5, 1.0.5) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | TRANSFORMERS: Galactic Trials | `0100C12017BCA000` | `F01A4E60035AF15A` ([✅](SaltySD/plugins/FPSLocker/patches/0100C12017BCA000/F01A4E60035AF15A.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
