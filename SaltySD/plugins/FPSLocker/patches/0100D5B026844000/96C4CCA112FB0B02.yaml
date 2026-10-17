@@ -22,4 +22,4 @@ ALL_FPS:
     address: [MAIN, 0x4a89728, 0xB8, 0]
     address_unsafe: true
     value_type: double
-    value: [FPS_TARGET, FRAMERATE_TARGET]
+    value: [FPS_TARGET, FRAMETIME_TARGET]
