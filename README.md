@@ -61,7 +61,7 @@ PATCH AVAILABILITY<br>
 ---
 
 <details>
-<summary>List of 30 FPS locked games (1280 titles)</summary>
+<summary>List of 30 FPS locked games (1281 titles)</summary>
 <h6>
 
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | ISSUES |
@@ -442,6 +442,7 @@ PATCH AVAILABILITY<br>
 | Figment | `0100118009C68000` | `6401F57C7D6D3728` ([✅](SaltySD/plugins/FPSLocker/patches/0100118009C68000/6401F57C7D6D3728.yaml), v5, 1.6.0) | ~~[🏃](#🏃)~~ |
 | FINAL FANTASY CRYSTAL CHRONICLES `US` | `0100CE4010AAC000` | `E1D8B399B787AE41` (❌, v3, 1.0.3) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | FINAL FANTASY CRYSTAL CHRONICLES | `0100BE0010AAE000` | `4C3D7BA90267A44F` (❌, v3, 1.0.3) | [⏱️](#⏱️)[🖥️](#🖥️) |
+| FINAL FANTASY RESONANCE | `0100606026F12000` | `7966353132D22528` ([✅](SaltySD/plugins/FPSLocker/patches/0100606026F12000/7966353132D22528.yaml), v0, 1.0.0) <br> `84E182F72EE1DA4F` ([✅](SaltySD/plugins/FPSLocker/patches/0100606026F12000/84E182F72EE1DA4F.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | FINAL FANTASY VIII Remastered | `01008B900DC0A000` | `7F59549F6E792936` (❌, v3, 1.0.1_5) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢) |
 | FINAL FANTASY X/X-2 HD Remaster | `0100BC300CB48000` | `1CE9F39DDB8A1A93` (❌, v0, 1.0.0) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | FINAL FANTASY X/X-2 HD Remaster `Asia` | `0100FE500D0CA000` | `C581C65CD5743ADF` (❌, v0, 1.0.0) | [⏱️](#⏱️)[🖥️](#🖥️) |
