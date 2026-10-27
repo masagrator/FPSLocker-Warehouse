@@ -427,6 +427,7 @@ try { const t = localStorage.getItem("warehouse-theme"); if (t === "dark" || t =
       <fieldset class="step">
         <legend><span class="step-n" id="iss-n">4</span>Issues without the patch</legend>
         <p class="hint" style="margin:0">What happens above the default FPS target without a patch, up to 60 FPS. Mark an issue as solved when the patch fixes it.</p>
+        <p class="msg info" id="iss-req" style="margin:8px 0" hidden>A new game that needs a patch must list at least one issue. Set the ones you see to “Issue”.</p>
         <div class="iss-grid" id="iss-grid"></div>
       </fieldset>
 
@@ -1369,6 +1370,13 @@ function update() {
     if (/[|()]/.test(x.ver)) errs.push(`${label}: the version can't contain | or brackets.`);
   }
   renderExtraNotes();
+
+  // A new game listed as "Patch needed" must say why: at least one unsolved issue.
+  const issReq = v.mode !== "existing" && v.status === "unavailable";
+  const hasIssue = [...issState.values()].some((s) => s === "on");
+  $("#iss-req").hidden = !issReq;
+  $("#iss-req").className = issReq && !hasIssue && sub.issTouched ? "msg error" : "msg info";
+  if (issReq && !hasIssue) errs.push(`Mark at least one issue in step ${upload ? 4 : 3}. A game that needs a patch has to say what goes wrong without it.`);
 
   // Version notes for a listed game
   const note = $("#v-note");
