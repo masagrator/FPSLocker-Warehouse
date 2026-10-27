@@ -702,7 +702,7 @@ PATCH AVAILABILITY<br>
 | Metro 2033 Redux | `0100D4900E82C000` | `85C362CC9790F0ED` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4900E82C000/85C362CC9790F0ED.yaml), v0, 1.0.0) | ~~[📏](#📏)~~ |
 | Metro: Last Light Redux | `0100F0400E850000` | `85C362CC9790F0ED` ([✅](SaltySD/plugins/FPSLocker/patches/0100F0400E850000/85C362CC9790F0ED.yaml), v0, 1.0.0) | ~~[📏](#📏)~~ |
 | Miitopia | `01003DA010E8A000` | `3378B75A3DD2ADA9` (❌, v3, 1.0.3) | [⏱️](#⏱️)[🖥️](#🖥️) |
-| Minecraft Dungeons | `01006C100EC08000` | `13F573E3017996E4` (◯, v27, 1.17.0.0) |  |
+| Minecraft Dungeons | `01006C100EC08000` | `0102030405060708` (❌, v2, 1.5.6) <br> `13F573E3017996E4` (◯, v27, 1.17.0.0) |  |
 | Minecraft Dungeons 2 | `0100A7C01B792000` | `9E9D887D59F7F7DB` ([✅](SaltySD/plugins/FPSLocker/patches/0100A7C01B792000/9E9D887D59F7F7DB.yaml), v1, 1.1.1.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | MIO: Memories In Orbit | `01000A001E978000` | `43C1E124C31956F8` (◯, v3, 1.2.0.0) |  |
 | MOBILE SUIT GUNDAM SEED BATTLE DESTINY REMASTERED | `010093C01F256000` | `CABB3B5447C2F79F` ([✅](SaltySD/plugins/FPSLocker/patches/010093C01F256000/CABB3B5447C2F79F.yaml), v1, 1.0.1) | ~~[📏](#📏)[🔧](#🔧)~~ |
