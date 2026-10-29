@@ -4,7 +4,6 @@
 # Logic always runs 60 steps/s; missing steps are run before each drawn frame.
 # Gameplay timing = original 30 FPS game. Resolution unchanged (EdiZon cheats).
 # Frame skip state lives in the unused tail of the game's .bss (main+0x498B9F00).
-# Empty lines at the end are intentional: they keep the on-console YAML parser within the overlay memory.
 
 DECLARATIONS:
 # frame start: measure time, decide how many logic steps to run, hide button edges until the last step
@@ -25,13 +24,13 @@ DECLARATIONS:
     [movk, x9, 0x485a, 16],
     [sub, x9, x17, x9],
     [blr, x9],
-    [ldp, x17, x30, [sp]],
+    [ldp, x17, x30, [sp, 0]],
     [add, sp, sp, 0x10],
     [mov, w15, 0],
     [mov, x10, x0],
     [ldr, x11, [x17, 0x8]],
     [str, x10, [x17, 0x8]],
-    [cbz, x11, +308],
+    [cbz, x11, :one],
     [sub, x11, x10, x11],
     [ldr, x12, [x17, 0x10]],
     [add, x12, x12, x11],
@@ -58,18 +57,19 @@ DECLARATIONS:
     [str, x12, [x17, 0x10]],
     [sub, w10, w10, 1],
     [str, w10, [x17, 0x4]],
-    [cbz, w10, +208],
+    [cbz, w10, :done],
     [mov, x9, 0xb8f0],
     [movk, x9, 0x474d, 16],
     [sub, x9, x17, x9],
-    [ldr, x9, [x9]],
-    [ldr, x9, [x9]],
-    [cbz, x9, +68],
+    [ldr, x9, [x9, 0]],
+    [ldr, x9, [x9, 0]],
+    [cbz, x9, :sA],
     [add, x9, x9, 0x10],
     [add, x13, x17, 0x30],
     [mov, w14, 3],
+    :slA,
     [ldr, w12, [x9, 0x60]],
-    [str, w12, [x13]],
+    [str, w12, [x13, 0]],
     [str, w15, [x9, 0x60]],
     [ldr, w12, [x9, 0x64]],
     [str, w12, [x13, 4]],
@@ -80,24 +80,26 @@ DECLARATIONS:
     [add, x9, x9, 0xb0],
     [add, x13, x13, 0xc],
     [sub, w14, w14, 1],
-    [cbnz, w14, -48],
+    [cbnz, w14, :slA],
+    :sA,
     [mov, x9, 0xf280],
     [movk, x9, 0x474e, 16],
     [sub, x9, x17, x9],
-    [ldr, x9, [x9]],
-    [ldr, x9, [x9]],
-    [cbz, x9, +88],
+    [ldr, x9, [x9, 0]],
+    [ldr, x9, [x9, 0]],
+    [cbz, x9, :sB],
     [ldrb, w14, [x9, 0xfcc]],
     [ldr, x9, [x9, 0xb20]],
-    [cbz, x9, +76],
-    [cbz, w14, +72],
+    [cbz, x9, :sB],
+    [cbz, w14, :sB],
     [cmp, w14, 8],
     [b.le, :snb],
     [mov, w14, 8],
     :snb,
     [add, x13, x17, 0x60],
+    :slB,
     [ldr, w12, [x9, 0x10]],
-    [str, w12, [x13]],
+    [str, w12, [x13, 0]],
     [str, w15, [x9, 0x10]],
     [ldr, w12, [x9, 0x14]],
     [str, w12, [x13, 4]],
@@ -108,10 +110,13 @@ DECLARATIONS:
     [add, x9, x9, 0x60],
     [add, x13, x13, 0xc],
     [sub, w14, w14, 1],
-    [cbnz, w14, -48],
+    [cbnz, w14, :slB],
+    :sB,
     [mov, w12, 1],
     [str, w12, [x17, 0x18]],
+    :done,
     [ret],
+    :one,
     [str, x15, [x17, 0x10]],
     [str, w15, [x17, 0x4]],
     [ret]
@@ -125,7 +130,7 @@ DECLARATIONS:
     [add, x17, x30, x17],
     [mov, w15, 0],
     [ldr, w10, [x17, 0x4]],
-    [cbz, w10, +304],
+    [cbz, w10, :draw],
     [sub, w10, w10, 1],
     [str, w10, [x17, 0x4]],
     [mov, w9, 1],
@@ -133,19 +138,20 @@ DECLARATIONS:
     [ldr, w9, [x17, 0x1c]],
     [add, w9, w9, 1],
     [str, w9, [x17, 0x1c]],
-    [cbnz, w10, +188],
+    [cbnz, w10, :norest],
     [ldr, w12, [x17, 0x18]],
-    [cbz, w12, +180],
+    [cbz, w12, :norest],
     [mov, x9, 0xb8f0],
     [movk, x9, 0x474d, 16],
     [sub, x9, x17, x9],
-    [ldr, x9, [x9]],
-    [ldr, x9, [x9]],
-    [cbz, x9, +56],
+    [ldr, x9, [x9, 0]],
+    [ldr, x9, [x9, 0]],
+    [cbz, x9, :rA],
     [add, x9, x9, 0x10],
     [add, x13, x17, 0x30],
     [mov, w14, 3],
-    [ldr, w12, [x13]],
+    :rlA,
+    [ldr, w12, [x13, 0]],
     [str, w12, [x9, 0x60]],
     [ldr, w12, [x13, 4]],
     [str, w12, [x9, 0x64]],
@@ -154,23 +160,25 @@ DECLARATIONS:
     [add, x9, x9, 0xb0],
     [add, x13, x13, 0xc],
     [sub, w14, w14, 1],
-    [cbnz, w14, -36],
+    [cbnz, w14, :rlA],
+    :rA,
     [mov, x9, 0xf280],
     [movk, x9, 0x474e, 16],
     [sub, x9, x17, x9],
-    [ldr, x9, [x9]],
-    [ldr, x9, [x9]],
-    [cbz, x9, +76],
+    [ldr, x9, [x9, 0]],
+    [ldr, x9, [x9, 0]],
+    [cbz, x9, :rB],
     [ldrb, w14, [x9, 0xfcc]],
     [ldr, x9, [x9, 0xb20]],
-    [cbz, x9, +64],
-    [cbz, w14, +60],
+    [cbz, x9, :rB],
+    [cbz, w14, :rB],
     [cmp, w14, 8],
     [b.le, :rnb],
     [mov, w14, 8],
     :rnb,
     [add, x13, x17, 0x60],
-    [ldr, w12, [x13]],
+    :rlB,
+    [ldr, w12, [x13, 0]],
     [str, w12, [x9, 0x10]],
     [ldr, w12, [x13, 4]],
     [str, w12, [x9, 0x14]],
@@ -179,39 +187,43 @@ DECLARATIONS:
     [add, x9, x9, 0x60],
     [add, x13, x13, 0xc],
     [sub, w14, w14, 1],
-    [cbnz, w14, -36],
+    [cbnz, w14, :rlB],
+    :rB,
     [str, w15, [x17, 0x18]],
+    :norest,
     [stp, x17, x30, [sp, -0x10], "!"],
     [mov, x9, 0xf00],
     [movk, x9, 0x4899, 16],
     [sub, x9, x17, x9],
     [blr, x9],
-    [ldr, x17, [sp]],
+    [ldr, x17, [sp, 0]],
     [mov, x0, 0xaef8],
     [movk, x0, 0x474d, 16],
     [sub, x0, x17, x0],
-    [ldr, x0, [x0]],
-    [ldr, x0, [x0]],
+    [ldr, x0, [x0, 0]],
+    [ldr, x0, [x0, 0]],
     [mov, x9, 0x7c50],
     [movk, x9, 0x4893, 16],
     [sub, x9, x17, x9],
     [blr, x9],
-    [ldp, x17, x30, [sp]],
+    [ldp, x17, x30, [sp, 0]],
     [add, sp, sp, 0x10],
     [mov, x30, 0xd138],
     [movk, x30, 0x4885, 16],
     [sub, x30, x17, x30],
     [ret],
+    :draw,
     [str, w15, [x17, 0x0]],
     [mov, x15, 0],
     [mov, x9, 0xb8f0],
     [movk, x9, 0x474d, 16],
     [sub, x9, x17, x9],
-    [ldr, x9, [x9]],
-    [ldr, x9, [x9]],
-    [cbz, x9, +48],
+    [ldr, x9, [x9, 0]],
+    [ldr, x9, [x9, 0]],
+    [cbz, x9, :tz],
     [add, x9, x9, 0x10],
     [mov, w14, 3],
+    :tl,
     [ldr, w12, [x9, 0x60]],
     [add, x15, x15, x12],
     [ldr, w12, [x9, 0x64]],
@@ -220,9 +232,11 @@ DECLARATIONS:
     [add, x15, x15, x12],
     [add, x9, x9, 0xb0],
     [sub, w14, w14, 1],
-    [cbnz, w14, -32],
-    [cbz, x15, +8],
+    [cbnz, w14, :tl],
+    :tz,
+    [cbz, x15, :nf],
     [mov, x15, 1],
+    :nf,
     [str, w15, [x17, 0x20]],
     [ldr, x0, [x19, 0x58]],
     [ret]
@@ -235,13 +249,14 @@ DECLARATIONS:
     [movk, x17, 0x48f8, 16],
     [add, x17, x30, x17],
     [ldr, w9, [x17, 0x4]],
-    [cbnz, w9, +20],
+    [cbnz, w9, :skip],
     [mov, x9, 0x570],
     [movk, x9, 0x4892, 16],
     [sub, x9, x17, x9],
     [br, x9],
+    :skip,
     [ldp, x29, x30, [sp, 0x10]],
-    [ldr, x19, [sp]],
+    [ldr, x19, [sp, 0]],
     [add, sp, sp, 0x20],
     [ret]
   ]
@@ -254,11 +269,12 @@ DECLARATIONS:
     [add, x17, x30, x17],
     [mov, w9, 0],
     [ldr, w10, [x17, 0x20]],
-    [cbz, w10, +12],
+    [cbz, w10, :o],
     [movk, w9, 0x8889, 0],
     [movk, w9, 0x3d08, 16],
-    [ldr, x0, [x8]],
-    [ldr, x10, [x0]],
+    :o,
+    [ldr, x0, [x8, 0]],
+    [ldr, x10, [x0, 0]],
     [ldr, x8, [x10, 0xc8]],
     [mov, w1, 0],
     [mov, w2, 1],
@@ -273,9 +289,10 @@ DECLARATIONS:
     [movk, x17, 0x4925, 16],
     [add, x17, x30, x17],
     [ldr, w9, [x17, 0x4]],
-    [cbz, w9, +12],
+    [cbz, w9, :o],
     [mov, w8, 0],
     [mov, w0, 0],
+    :o,
     [ret]
   ]
 
@@ -326,7 +343,7 @@ MASTER_WRITE:
 # edge = hold & ~last hold, once per logic step, only in the last step
 - type: asm_a64
   main_offset: 0x668F94
-  instructions: [[adrp, x9, 0x498b9000], [add, x9, x9, 0xf00], [ldr, w12, [x9, 0x14]], [cbnz, w12, +40], [ldr, w0, [x9, 0x2c]], [ldp, w10, w11, [x9]], [cmp, w10, w0], [b.eq, +16]]
+  instructions: [[adrp, x9, 0x498b9000], [add, x9, x9, 0xf00], [ldr, w12, [x9, 0x14]], [cbnz, w12, +40], [ldr, w0, [x9, 0x2c]], [ldp, w10, w11, [x9, 0]], [cmp, w10, w0], [b.eq, +16]]
 # BIC is not supported by asm_a64
 - type: bytes
   main_offset: 0x668FB4
@@ -334,7 +351,7 @@ MASTER_WRITE:
   value: 0x0A2B028B # bic w11, w20, w11
 - type: asm_a64
   main_offset: 0x668FB8
-  instructions: [[stp, w0, w20, [x9]], [str, w11, [x9, 8]], [ldr, w20, [x9, 8]], [b, 0x669024], [mov, w20, 0], [b, 0x669024]]
+  instructions: [[stp, w0, w20, [x9, 0]], [str, w11, [x9, 8]], [ldr, w20, [x9, 8]], [b, 0x669024], [mov, w20, 0], [b, 0x669024]]
 # GetPadRepeat binding (was LDR W8, [X8, 0x2F8])
 - type: asm_a64
   main_offset: 0x66901C
@@ -358,982 +375,687 @@ MASTER_WRITE:
   main_offset: 0x6690DC
   instructions: [[str, w0, [x9, 0x64]], [str, w20, [x9, 0x68]], [str, w11, [x9, 0x6c]], [ldr, w20, [x9, 0x6c]], [b, 0x669024], [mov, w20, 0], [b, 0x669024]]
 # gameplay timing: durations stored in 30 FPS frames are converted with 30 instead of the runtime FPS (228 sites)
-- type: bytes
+- type: asm_a64
   main_offset: 0x7DAE4
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x853D4
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x8BE88
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0xA3088
-  value_type: uint32
-  value: 0x528003CA # mov w10, 30
-- type: bytes
+  instructions: [[mov, w10, 30]]
+- type: asm_a64
   main_offset: 0xA3188
-  value_type: uint32
-  value: 0x528003CA # mov w10, 30
-- type: bytes
+  instructions: [[mov, w10, 30]]
+- type: asm_a64
   main_offset: 0xA3284
-  value_type: uint32
-  value: 0x528003CA # mov w10, 30
-- type: bytes
+  instructions: [[mov, w10, 30]]
+- type: asm_a64
   main_offset: 0xA3384
-  value_type: uint32
-  value: 0x528003CA # mov w10, 30
-- type: bytes
+  instructions: [[mov, w10, 30]]
+- type: asm_a64
   main_offset: 0xA60D0
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0xA92EC
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0xA9330
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0xAFF74
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0xB0018
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0xB00BC
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0xB0160
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0xB2D68
-  value_type: uint32
-  value: 0x528003CA # mov w10, 30
-- type: bytes
+  instructions: [[mov, w10, 30]]
+- type: asm_a64
   main_offset: 0xB43D0
-  value_type: uint32
-  value: 0x528003CA # mov w10, 30
-- type: bytes
+  instructions: [[mov, w10, 30]]
+- type: asm_a64
   main_offset: 0xBAE7C
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0xBAF30
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0xBAF6C
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0xE0C08
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0xF4024
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0xFC258
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x10727C
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x10AAE4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x10AB58
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x11BB44
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x11BB58
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x11C874
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x11C8E8
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1217C4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1217D8
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x13B8D4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x153180
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1531A8
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x162300
-  value_type: uint32
-  value: 0x528003CA # mov w10, 30
-- type: bytes
+  instructions: [[mov, w10, 30]]
+- type: asm_a64
   main_offset: 0x16FB10
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x17319C
-  value_type: uint32
-  value: 0x528003D7 # mov w23, 30
-- type: bytes
+  instructions: [[mov, w23, 30]]
+- type: asm_a64
   main_offset: 0x1731C0
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x190674
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x19DDC0
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x19DDD4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x19F3B0
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x19F3C4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1B32C8
-  value_type: uint32
-  value: 0x528003C8 # mov w8, 30
-- type: bytes
+  instructions: [[mov, w8, 30]]
+- type: asm_a64
   main_offset: 0x1B332C
-  value_type: uint32
-  value: 0x528003C8 # mov w8, 30
-- type: bytes
+  instructions: [[mov, w8, 30]]
+- type: asm_a64
   main_offset: 0x1B8DAC
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x1B920C
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x1BD580
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x1DAB68
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1DAB74
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1DAB84
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1DB330
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1DB3A4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1DB858
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1DDD6C
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1DDDE0
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1DDE08
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1E0638
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1E0644
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1E0654
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1E0D70
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1E0DE4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1E1298
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1E302C
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1E30A0
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1E30C8
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1ECB1C
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x1F4578
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1F4584
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x1F4594
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x200660
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x20066C
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x200688
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x200698
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x26884C
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x268894
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x2688EC
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x26B4F4
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x26B714
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x26B870
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x26B8AC
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x26B994
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x26D6F8
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x26D9EC
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x26DA28
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x26DBCC
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x26DC98
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x26DD40
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x26DD8C
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x26E394
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x26E3A0
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x26E3B0
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x26E884
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x26E890
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x26E8A0
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x26F778
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x2704F0
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x270574
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x2705C8
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x270614
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x288CBC
-  value_type: uint32
-  value: 0x528003CA # mov w10, 30
-- type: bytes
+  instructions: [[mov, w10, 30]]
+- type: asm_a64
   main_offset: 0x29C2D4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x29C2E8
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x2B41D0
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x2BA250
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x2DB418
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x2DB808
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x2DB81C
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x2E7B74
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x30DE64
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x313EB0
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x348F84
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x38D3C4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x38E3A0
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x38E5DC
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x38E6EC
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x38E984
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x38F904
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x393178
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x3A3AC4
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x3A3C50
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x3A8554
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x3C2D40
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x40C494
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x41A114
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x41F044
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x43C56C
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x43C5E0
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x43C6BC
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x43C72C
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x46DA3C
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x4BA890
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x4C92E8
-  value_type: uint32
-  value: 0x528003CA # mov w10, 30
-- type: bytes
+  instructions: [[mov, w10, 30]]
+- type: asm_a64
   main_offset: 0x4DEA84
-  value_type: uint32
-  value: 0x528003CA # mov w10, 30
-- type: bytes
+  instructions: [[mov, w10, 30]]
+- type: asm_a64
   main_offset: 0x51F6A0
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x51F714
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x5200A0
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x5202B4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x53D6C8
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x53D6D8
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x53E2B4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x53E3A0
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x6E2E70
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x6E2EFC
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x78C0F4
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x7CD244
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x7CD3F4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x7CD478
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x7CF808
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x7CF87C
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x802AA0
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x80C024
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x81BBEC
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x81BCF0
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x81CE9C
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x820C44
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x820C5C
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x820C70
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x821018
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x82102C
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x82103C
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x821048
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x830BD8
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x830CA8
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x837DDC
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x838570
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x83893C
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x838D0C
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x8395A8
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x8397B0
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x83A128
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x83A204
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x83A2E4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x83A3B8
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x83A3E8
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x83A5E0
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x83A5F4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x83B958
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x83B9BC
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x8407D4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x84085C
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x840A10
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x842C20
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x842CD0
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x842D24
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x842D50
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x842DF8
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x84571C
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x8494A8
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x8494B4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x8494C4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x8494D4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x8494E4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x849B04
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x849B10
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x849B20
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x84A00C
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x84A01C
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x84A028
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x86E7D4
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x86FB58
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x8700D8
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x8716DC
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x872400
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x873F74
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x876A64
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x896FF4
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x89729C
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x89A0BC
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x89A0EC
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x89F520
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x89F5B8
-  value_type: uint32
-  value: 0x528003C0 # mov w0, 30
-- type: bytes
+  instructions: [[mov, w0, 30]]
+- type: asm_a64
   main_offset: 0x8B6170
-  value_type: uint32
-  value: 0x528003CA # mov w10, 30
-- type: bytes
+  instructions: [[mov, w10, 30]]
+- type: asm_a64
   main_offset: 0x8D7934
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x8D9350
-  value_type: uint32
-  value: 0x528003CA # mov w10, 30
-- type: bytes
+  instructions: [[mov, w10, 30]]
+- type: asm_a64
   main_offset: 0x8DC510
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x8DEE54
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x8DEE74
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x8DEE9C
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x8DEEC4
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x8DEFC8
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x8DEFE8
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x8DF010
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x8DF038
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x8DF0D8
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x8DF130
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0xFBC7E8
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-- type: bytes
+  instructions: [[mov, w9, 30]]
+- type: asm_a64
   main_offset: 0x10C4F74
-  value_type: uint32
-  value: 0x528003C9 # mov w9, 30
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  instructions: [[mov, w9, 30]]
