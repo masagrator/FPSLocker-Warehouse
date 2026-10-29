@@ -1,0 +1,1281 @@
+# NARUTO SHIPPUDEN: Ultimate Ninja STORM 4 ROAD TO BORUTO 1.2.0
+# BID: D3016FC0C0402DFB
+# FPS-independent game speed ("frame skip"): set ANY FPS target in FPSLocker (20-60).
+# The game logic always runs at 60 steps per second; when the framerate is lower,
+# extra logic steps are run before each drawn frame. FPS can be changed in-game.
+# Gameplay timing = original 30 FPS game. Resolution unchanged (use the EdiZon resolution cheats).
+
+# Uncommented single-instruction entries are gameplay timing fixes (MOV Wn, 30), 228 sites.
+MASTER_WRITE:
+  -
+    type: bytes
+    main_offset: 0x7DAE4
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x853D4
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x8BE88
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0xA3088
+    value_type: uint32
+    value: 0x528003CA
+  -
+    type: bytes
+    main_offset: 0xA3188
+    value_type: uint32
+    value: 0x528003CA
+  -
+    type: bytes
+    main_offset: 0xA3284
+    value_type: uint32
+    value: 0x528003CA
+  -
+    type: bytes
+    main_offset: 0xA3384
+    value_type: uint32
+    value: 0x528003CA
+  -
+    type: bytes
+    main_offset: 0xA60D0
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0xA92EC
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0xA9330
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0xAFF74
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0xB0018
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0xB00BC
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0xB0160
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0xB2D68
+    value_type: uint32
+    value: 0x528003CA
+  -
+    type: bytes
+    main_offset: 0xB43D0
+    value_type: uint32
+    value: 0x528003CA
+  -
+    type: bytes
+    main_offset: 0xBAE7C
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0xBAF30
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0xBAF6C
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0xE0C08
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0xF4024
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0xFC258
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x10727C
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x10AAE4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x10AB58
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x11BB44
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x11BB58
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x11C874
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x11C8E8
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1217C4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1217D8
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x13B8D4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x153180
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1531A8
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x162300
+    value_type: uint32
+    value: 0x528003CA
+  -
+    type: bytes
+    main_offset: 0x16FB10
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x17319C
+    value_type: uint32
+    value: 0x528003D7
+  -
+    type: bytes
+    main_offset: 0x1731C0
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x190674
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x19DDC0
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x19DDD4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x19F3B0
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x19F3C4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1B32C8
+    value_type: uint32
+    value: 0x528003C8
+  -
+    type: bytes
+    main_offset: 0x1B332C
+    value_type: uint32
+    value: 0x528003C8
+  -
+    type: bytes
+    main_offset: 0x1B8DAC
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x1B920C
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x1BD580
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x1DAB68
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1DAB74
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1DAB84
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1DB330
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1DB3A4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1DB858
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1DDD6C
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1DDDE0
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1DDE08
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1E0638
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1E0644
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1E0654
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1E0D70
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1E0DE4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1E1298
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1E302C
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1E30A0
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1E30C8
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1ECB1C
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x1F4578
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1F4584
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x1F4594
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x200660
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x20066C
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x200688
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x200698
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x26884C
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x268894
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x2688EC
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x26B4F4
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x26B714
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x26B870
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x26B8AC
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x26B994
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x26D6F8
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x26D9EC
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x26DA28
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x26DBCC
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x26DC98
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x26DD40
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x26DD8C
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x26E394
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x26E3A0
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x26E3B0
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x26E884
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x26E890
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x26E8A0
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x26F778
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x2704F0
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x270574
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x2705C8
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x270614
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x288CBC
+    value_type: uint32
+    value: 0x528003CA
+  -
+    type: bytes
+    main_offset: 0x29C2D4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x29C2E8
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x2B41D0
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x2BA250
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x2DB418
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x2DB808
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x2DB81C
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x2E7B74
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x30DE64
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x313EB0
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x348F84
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x38D3C4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x38E3A0
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x38E5DC
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x38E6EC
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x38E984
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x38F904
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x393178
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x3A3AC4
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x3A3C50
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x3A8554
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x3C2D40
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x40C494
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x41A114
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x41F044
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x43C56C
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x43C5E0
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x43C6BC
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x43C72C
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x46DA3C
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x4BA890
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x4C92E8
+    value_type: uint32
+    value: 0x528003CA
+  -
+    type: bytes
+    main_offset: 0x4DEA84
+    value_type: uint32
+    value: 0x528003CA
+  -
+    type: bytes
+    main_offset: 0x51F6A0
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x51F714
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x5200A0
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x5202B4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x53D6C8
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x53D6D8
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x53E2B4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x53E3A0
+    value_type: uint32
+    value: 0x528003C0
+  # Script menu input: read Hold instead of Trigger
+  -
+    type: bytes
+    main_offset: 0x668F74
+    value_type: uint32
+    value: 0xF9401908
+  # Script menu input: read Hold instead of Trigger
+  -
+    type: bytes
+    main_offset: 0x668F8C
+    value_type: uint32
+    value: 0xB942E908
+  # Script menu input: Press (edge from hold, only in the last logic step)
+  -
+    type: bytes
+    main_offset: 0x668F94
+    value_type: uint32
+    value: [0xB0249289, 0x913C0129, 0xB940152C, 0x3500014C, 0xB9403520, 0x29402D2A, 0x6B00015F, 0x54000080, 0x0A2B028B, 0x29005120, 0xB900092B, 0xB9400934, 0x14000018, 0x2A1F03F4, 0x14000016]
+  # Script menu input: Repeat
+  -
+    type: bytes
+    main_offset: 0x669020
+    value_type: uint32
+    value: 0x1432C778
+  # Script menu input: Release reads Hold
+  -
+    type: bytes
+    main_offset: 0x669094
+    value_type: uint32
+    value: 0xF9401908
+  # Script menu input: Release reads Hold
+  -
+    type: bytes
+    main_offset: 0x6690AC
+    value_type: uint32
+    value: [0xB942E908, 0x1432C734]
+  -
+    type: bytes
+    main_offset: 0x6E2E70
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x6E2EFC
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x78C0F4
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x7CD244
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x7CD3F4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x7CD478
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x7CF808
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x7CF87C
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x802AA0
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x80C024
+    value_type: uint32
+    value: 0x528003C0
+  # "End of motion" events (frame 9999) in 30 FPS frames
+  -
+    type: bytes
+    main_offset: 0x81BADC
+    value_type: uint32
+    value: [0x52800C87, 0x1AC70B27, 0xD503201F]
+  -
+    type: bytes
+    main_offset: 0x81BBEC
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x81BCF0
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x81CE9C
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x820C44
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x820C5C
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x820C70
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x821018
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x82102C
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x82103C
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x821048
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x830BD8
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x830CA8
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x837DDC
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x838570
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x83893C
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x838D0C
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x8395A8
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x8397B0
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x83A128
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x83A204
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x83A2E4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x83A3B8
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x83A3E8
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x83A5E0
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x83A5F4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x83B958
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x83B9BC
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x8407D4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x84085C
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x840A10
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x842C20
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x842CD0
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x842D24
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x842D50
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x842DF8
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x84571C
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x8494A8
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x8494B4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x8494C4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x8494D4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x8494E4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x849B04
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x849B10
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x849B20
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x84A00C
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x84A01C
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x84A028
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x86E7D4
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x86FB58
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x8700D8
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x8716DC
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x872400
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x873F74
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x876A64
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x896FF4
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x89729C
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x89A0BC
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x89A0EC
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x89F520
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x89F5B8
+    value_type: uint32
+    value: 0x528003C0
+  -
+    type: bytes
+    main_offset: 0x8B6170
+    value_type: uint32
+    value: 0x528003CA
+  -
+    type: bytes
+    main_offset: 0x8D7934
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x8D9350
+    value_type: uint32
+    value: 0x528003CA
+  -
+    type: bytes
+    main_offset: 0x8DC510
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x8DEE54
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x8DEE74
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x8DEE9C
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x8DEEC4
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x8DEFC8
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x8DEFE8
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x8DF010
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x8DF038
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x8DF0D8
+    value_type: uint32
+    value: 0x528003C9
+  -
+    type: bytes
+    main_offset: 0x8DF130
+    value_type: uint32
+    value: 0x528003C9
+  # Frame skip: particle deferred rendering only in the last logic step
+  -
+    type: bytes
+    main_offset: 0x92AEA0
+    value_type: uint32
+    value: 0x1427BEE8
+  # Scaleform menus (button polling fix): a movie must tick in the frame after it received a button press
+  -
+    type: bytes
+    main_offset: 0xAC89F0
+    value_type: uint32
+    value: 0x14214884
+  # Engine bug fix: VSync counter could skip the signal when the present interval changes -> black screen at boot / freeze on FPS change
+  -
+    type: bytes
+    main_offset: 0xEEF580
+    value_type: uint32
+    value: [0x34000109, 0x110006F7, 0x6B0902FF, 0x540000A3, 0xD503201F]
+  -
+    type: bytes
+    main_offset: 0xFBC7E8
+    value_type: uint32
+    value: 0x528003C9
+  # Engine runs in 60 FPS logic mode (SetFrameRate: MOV W1, 60)
+  -
+    type: bytes
+    main_offset: 0x105C2B0
+    value_type: uint32
+    value: 0x321E0FE1
+  # Frame skip: frame-start hook (measures real time, decides how many logic steps to run)
+  -
+    type: bytes
+    main_offset: 0x105CDD4
+    value_type: uint32
+    value: 0x940AF74B
+  # Frame skip: after-logic hook (runs extra logic steps, then draws)
+  -
+    type: bytes
+    main_offset: 0x105CE20
+    value_type: uint32
+    value: 0x140AF718
+  -
+    type: bytes
+    main_offset: 0x10C4F74
+    value_type: uint32
+    value: 0x528003C9
+  # Frame skip / input code (unused text tail; state in unused bss tail)
+  -
+    type: bytes
+    main_offset: 0x131A800
+    value_type: uint32
+    value: [0xF0242CEE, 0x913C41CE, 0x9100C1CD, 0x90008628, 0xF9431108, 0xF9400108, 0xB4000208, 0x91004109, 0x5280006A, 0xB940612C, 0xB90001AC, 0xB900613F, 0xB940652C, 0xB90005AC, 0xB900653F, 0xB940712C, 0xB90009AC, 0xB900713F, 0x9102C129, 0x910031AD, 0x7100054A, 0x54FFFE81, 0x9101C1CD, 0x90008588, 0xF9464908, 0xF9400108, 0xB40002A8, 0x397F310A, 0xF9459109, 0xB4000249, 0x3400022A, 0x7100215F, 0x5280010C, 0x1A8C914A, 0xB940112C, 0xB90001AC, 0xB900113F, 0xB940152C, 0xB90005AC, 0xB900153F, 0xB940212C, 0xB90009AC, 0xB900213F, 0x91018129, 0x910031AD, 0x7100054A, 0x54FFFE81, 0x5280002C, 0xB90021CC, 0xD65F03C0]
+  # Frame skip / input code (unused text tail; state in unused bss tail)
+  -
+    type: bytes
+    main_offset: 0x131A900
+    value_type: uint32
+    value: [0xF0242CEE, 0x913C41CE, 0xB94021CC, 0x3400054C, 0x9100C1CD, 0x90008628, 0xF9431108, 0xF9400108, 0xB40001A8, 0x91004109, 0x5280006A, 0xB94001AC, 0xB900612C, 0xB94005AC, 0xB900652C, 0xB94009AC, 0xB900712C, 0x9102C129, 0x910031AD, 0x7100054A, 0x54FFFEE1, 0x9101C1CD, 0x90008588, 0xF9464908, 0xF9400108, 0xB4000248, 0x397F310A, 0xF9459109, 0xB40001E9, 0x340001CA, 0x7100215F, 0x5280010C, 0x1A8C914A, 0xB94001AC, 0xB900112C, 0xB94005AC, 0xB900152C, 0xB94009AC, 0xB900212C, 0x91018129, 0x910031AD, 0x7100054A, 0x54FFFEE1, 0x5280000C, 0xB90021CC, 0xD65F03C0]
+  # Frame skip / input code (unused text tail; state in unused bss tail)
+  -
+    type: bytes
+    main_offset: 0x131AA40
+    value_type: uint32
+    value: [0xF0242CE9, 0xB94F1529, 0x35000069, 0xF81E0FF3, 0x17D84115, 0xD65F03C0]
+  # Frame skip / input code (unused text tail; state in unused bss tail)
+  -
+    type: bytes
+    main_offset: 0x131AA80
+    value_type: uint32
+    value: [0xF0242CE8, 0x913C4108, 0xB940050A, 0x3400020A, 0x5100054A, 0xB900050A, 0x52800029, 0xB9000109, 0xB9402509, 0x11000529, 0xB9002509, 0x3500004A, 0x97FFFF94, 0x97F03957, 0xB0008620, 0xF9400C00, 0xF9400000, 0x97F19DFF, 0x17F508C4, 0xB900011F, 0xB9401909, 0xB9001D09, 0x9400006A, 0xB900190F, 0xF9402E60, 0x17F508D0]
+  # Frame skip / input code (unused text tail; state in unused bss tail)
+  -
+    type: bytes
+    main_offset: 0x131AB00
+    value_type: uint32
+    value: [0xAA1E03F0, 0xF0242CE8, 0x913C4108, 0xB900011F, 0xB900211F, 0xB940250B, 0x1100056B, 0xB900250B, 0xB940290B, 0x1100056B, 0xB900290B, 0xD53BE02A, 0xF940050B, 0xF900050A, 0x529C4009, 0x72A00089, 0xB400030B, 0xCB0B014B, 0xF940090C, 0x8B0B018C, 0x9AC90D8A, 0xF100055F, 0x5400004A, 0xD280002A, 0xF100115F, 0x5400008D, 0xD280008A, 0xD280000C, 0x14000005, 0x9B09B14C, 0xCB0903EB, 0xEB0B019F, 0x9A8BA18C, 0xF900090C, 0x5100054A, 0xB900050A, 0x3400004A, 0x97FFFF1B, 0xAA1003FE, 0xD65F03C0, 0xF900091F, 0xB900051F, 0xD65F03C0]
+  # Frame skip / input code
+  -
+    type: bytes
+    main_offset: 0x131AC00
+    value_type: uint32
+    value: [0xCB0902A9, 0x9E230120, 0x1E281800, 0xF0242CEA, 0xB94F294B, 0x340000AB, 0x5291112B, 0x72A7A10B, 0x1E270161, 0x1E216800, 0xF9400100, 0xF9400008, 0xF9406508, 0x320003E2, 0x2A1F03E1, 0xD63F0100, 0x17DEB775]
+  # Frame skip / input code
+  -
+    type: bytes
+    main_offset: 0x131AC80
+    value_type: uint32
+    value: [0x5280000F, 0x9000862D, 0xF94311AD, 0xF94001AD, 0xB400018D, 0x910041AD, 0x5280006E, 0xB94061AB, 0x2A0B01EF, 0xB94065AB, 0x2A0B01EF, 0xB94071AB, 0x2A0B01EF, 0x9102C1AD, 0x710005CE, 0x54FFFF01, 0xD65F03C0]
+  # Frame skip / input code (unused text tail; state in unused bss tail)
+  -
+    type: bytes
+    main_offset: 0x131AD80
+    value_type: uint32
+    value: [0x2A000114, 0xF0242CE9, 0x913C0129, 0xB940152C, 0x3500018C, 0xB9403520, 0xB940652A, 0x6B00015F, 0x540000C0, 0xB940692B, 0x0A34016B, 0xB9006520, 0xB9006934, 0xB9006D2B, 0xB9406D34, 0x17CD38BE, 0x2A1F03F4, 0x17CD38BC]
+  # Frame skip / input code (unused text tail; state in unused bss tail)
+  -
+    type: bytes
+    main_offset: 0x131AE00
+    value_type: uint32
+    value: [0x2A000114, 0xF0242CE9, 0xB94F152C, 0x3400004C, 0x2A1F03F4, 0x17CD3884]
