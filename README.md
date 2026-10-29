@@ -746,8 +746,8 @@ PATCH AVAILABILITY<br>
 | NARUTO－ナルト－ 疾風伝　ナルティメットストームトリロジー | `0100086005EDC000` | `577EFDFDBB7545CF` (❌, v0, 1.0.0) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)[🖌️](#🖌️) |
 | NARUTO SHIPPUDEN: Ultimate Ninja STORM 4 ROAD TO BORUTO | `01006CF00CF60000` | `D3016FC0C0402DFB` ([✅](SaltySD/plugins/FPSLocker/patches/01006CF00CF60000/D3016FC0C0402DFB.yaml), v3, 1.3.0) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)[🎮](#🎮)~~ |
 | NARUTO SHIPPUDEN: Ultimate Ninja STORM 4 ROAD TO BORUTO `US` | `010084D00CF5E000` | `D3016FC0C0402DFB` ([✅](SaltySD/plugins/FPSLocker/patches/010084D00CF5E000/D3016FC0C0402DFB.yaml), v2, 1.2.0) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)[🎮](#🎮)~~ |
-| - ＮＡＲＵＴＯ－ナルト－ 疾風伝　ナルティメットストーム４ ROAD TO BORUTO<br>- 火影忍者疾風傳 終極風暴4 慕留人傳 | `01003F800CF5C000` | `D3016FC0C0402DFB` (❌, v1, 1.1.0) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)[🎮](#🎮) |
-| NARUTO -나루토- 질풍전 나루티밋 스톰 4 ROAD TO BORUTO | `010020100CF62000` | `D3016FC0C0402DFB` (❌, v1, 1.1.0) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)[🎮](#🎮) |
+| - ＮＡＲＵＴＯ－ナルト－ 疾風伝　ナルティメットストーム４ ROAD TO BORUTO<br>- 火影忍者疾風傳 終極風暴4 慕留人傳 | `01003F800CF5C000` | `D3016FC0C0402DFB` ([✅](SaltySD/plugins/FPSLocker/patches/01003F800CF5C000/D3016FC0C0402DFB.yaml), v1, 1.1.0) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)[🎮](#🎮)~~ |
+| NARUTO -나루토- 질풍전 나루티밋 스톰 4 ROAD TO BORUTO | `010020100CF62000` | `D3016FC0C0402DFB` ([✅](SaltySD/plugins/FPSLocker/patches/010020100CF62000/D3016FC0C0402DFB.yaml), v1, 1.1.0) | ~~[🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)[🎮](#🎮)~~ |
 | NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS `EUR` | `01005A20190A6000` | `1DB3976BC6F11C20` (❌, v11, 1.7.1) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️) |
 | NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS `US` | `0100D2D0190A4000` | `1DB3976BC6F11C20` (❌, v11, 1.7.1) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️) |
 | NARUTO X BORUTO ナルティメットストームコネクションズ | `0100FA10190A0000` | `1DB3976BC6F11C20` (❌, v11, 1.7.1) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️) |
