@@ -66,7 +66,6 @@ PATCH AVAILABILITY<br>
 
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | ISSUES |
 | --- | --- | --- | --- |
-| Frostpunk | `0100B1C0249B4000` | `E258A7371ECD2A27` ([✅](SaltySD/plugins/FPSLocker/patches/0100B1C0249B4000/E258A7371ECD2A27.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
 | .hack//G.U. Last Recode | `0100BA9014A02000` | `4C0ED5711263A6D9` (❌, v0, 1.0.0) | [⏱️](#⏱️)[🖥️](#🖥️)[🎮](#🎮) |
 | 60 Parsecs! | `010010100FF14000` | `12F93E2DBBCFA54F` ([✅](SaltySD/plugins/FPSLocker/patches/010010100FF14000/12F93E2DBBCFA54F.yaml), v10, 1.0.10) | ~~[📷](#📷)~~ |
 | 8-Bit Adventures 2 | `010008B00D682000` | `89777FD8569E563D` (❌, v3, 1.0.3) | [⏱️](#⏱️) |
@@ -472,6 +471,7 @@ PATCH AVAILABILITY<br>
 | FRONT MISSION 1st: Remake | `0100F200178F4000` | `B3A54521BC08F453` (◯, v7, 3.0.1) |  |
 | FRONT MISSION 2: Remake | `0100C4E018A24000` | `D5B95F3852D83328` (◯, v12, 1.1.0) |  |
 | FRONT MISSION 3: Remake | `01007E6019872000` | `5ED03D3526CEA854` (◯, v5, 1.0.4.1) |  |
+| Frostpunk | `0100B1C0249B4000` | `E258A7371ECD2A27` ([✅](SaltySD/plugins/FPSLocker/patches/0100B1C0249B4000/E258A7371ECD2A27.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
 | Fruitbus | `0100A5A022B14000` | `2E049E21624484CF` ([✅](SaltySD/plugins/FPSLocker/patches/0100A5A022B14000/2E049E21624484CF.yaml), v2, 1.0.2) | ~~[📷](#📷)~~ |
 | Fueled Up | `010022A01E1F0000` | `F0F6265AEBF4AE2C` (◯, v0, 1.0.0) |  |
 | Fuga: Melodies of Steel | `01000130120EE000` | `55C51FEEAA71E42D` ([✅](SaltySD/plugins/FPSLocker/patches/01000130120EE000/55C51FEEAA71E42D.yaml), v18, 1.1.8) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
