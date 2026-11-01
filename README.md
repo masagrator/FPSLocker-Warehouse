@@ -61,11 +61,12 @@ PATCH AVAILABILITY<br>
 ---
 
 <details>
-<summary>List of 30 FPS locked games (1281 titles)</summary>
+<summary>List of 30 FPS locked games (1282 titles)</summary>
 <h6>
 
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | ISSUES |
 | --- | --- | --- | --- |
+| Frostpunk | `0100B1C0249B4000` | `E258A7371ECD2A27` ([✅](SaltySD/plugins/FPSLocker/patches/0100B1C0249B4000/E258A7371ECD2A27.yaml), v1, 1.0.1) | ~~[🔐](#🔐)~~ |
 | .hack//G.U. Last Recode | `0100BA9014A02000` | `4C0ED5711263A6D9` (❌, v0, 1.0.0) | [⏱️](#⏱️)[🖥️](#🖥️)[🎮](#🎮) |
 | 60 Parsecs! | `010010100FF14000` | `12F93E2DBBCFA54F` ([✅](SaltySD/plugins/FPSLocker/patches/010010100FF14000/12F93E2DBBCFA54F.yaml), v10, 1.0.10) | ~~[📷](#📷)~~ |
 | 8-Bit Adventures 2 | `010008B00D682000` | `89777FD8569E563D` (❌, v3, 1.0.3) | [⏱️](#⏱️) |
