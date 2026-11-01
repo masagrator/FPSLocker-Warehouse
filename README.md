@@ -1178,7 +1178,7 @@ PATCH AVAILABILITY<br>
 | The Smurfs 2: The Prisoner of the Green Stone | `010073C01B7FE000` | `F294A4EBE966E8A9` ([✅](SaltySD/plugins/FPSLocker/patches/010073C01B7FE000/F294A4EBE966E8A9.yaml), v4, 1.04) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | The Stone of Madness | `01000F101B672000` | `C57C02EA53CEF928` (◯, v4, 1.0.4) |  |
 | The Stretchers | `0100AA400A238000` | `14D7D1537BD5A986` ([✅](SaltySD/plugins/FPSLocker/patches/0100AA400A238000/14D7D1537BD5A986.yaml), v0, 1.0.0) | ~~[🔐](#🔐)[📏](#📏)~~ |
-| The Survivalists | `0100EF200DA60000` | `EBAD66228ABB9849` (◯, v8, 1.0.8) |  |
+| The Survivalists | `0100EF200DA60000` | `4D78AAF80F9B0F46` (◯, v10, 1.0.10) |  |
 | The Thing: Remastered | `0100D4E01E49E000` | `B09099A6218EB51A` (◯, v3, 1.1.1) |  |
 | The Walking Dead: Destinies | `010010901AFB0000` | `3D3FEFC161B49AB8` ([✅](SaltySD/plugins/FPSLocker/patches/010010901AFB0000/3D3FEFC161B49AB8.yaml), v3, 1.3.0.8) | ~~[🛑](#🛑)~~ |
 | The Witcher 3: Wild Hunt - The Complete Edition `PL/CZ/HU/SK/SL` | `010039400E8D6000` | `D27FD8A515077F34` ([✅](SaltySD/plugins/FPSLocker/patches/010039400E8D6000/D27FD8A515077F34.yaml), v7, 4.04b) <br> `1FEE6F3F1D2A6A91` ([✅](SaltySD/plugins/FPSLocker/patches/010039400E8D6000/1FEE6F3F1D2A6A91.yaml), v8, 4.04c) <br> `C0AD3CC6D7866578` ([✅](SaltySD/plugins/FPSLocker/patches/010039400E8D6000/C0AD3CC6D7866578.yaml), v9, 4.04d) | ~~[🔐](#🔐)[📏](#📏)~~ |
