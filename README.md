@@ -107,7 +107,7 @@ PATCH AVAILABILITY<br>
 | Animal Shelter Simulator | `0100B1C01B104000` | `AB9EFB08DB5FE4F1` ([✅](SaltySD/plugins/FPSLocker/patches/0100B1C01B104000/AB9EFB08DB5FE4F1.yaml), v1, 1.1.0) | ~~[🛑](#🛑)~~ |
 | Anime vs Evil: Apocalypse | `01001BE01E620000` | `D2EADA78AA71283E` ([✅](SaltySD/plugins/FPSLocker/patches/01001BE01E620000/D2EADA78AA71283E.yaml), v0, 1.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Another Code: Recollection | `0100CB9018F5A000` | `DED0F920799151BE` ([✅](SaltySD/plugins/FPSLocker/patches/0100CB9018F5A000/DED0F920799151BE.yaml), v0, 1.0.0) | ~~[🖌️](#🖌️)~~ |
-| Another Crab's Treasure | `0100A21017C42000` | `807A2202464D445B` ([✅](SaltySD/plugins/FPSLocker/patches/0100A21017C42000/807A2202464D445B.yaml), v9, 2.0.000.6) | ~~[📏](#📏)[⏱️](#⏱️)[🏃](#🏃)~~ |
+| Another Crab's Treasure | `0100A21017C42000` | `807A2202464D445B` ([✅](SaltySD/plugins/FPSLocker/patches/0100A21017C42000/807A2202464D445B.yaml), v10, 2.0.001.6) | ~~[📏](#📏)[⏱️](#⏱️)[🏃](#🏃)~~ |
 | Another Eden Begins | `0100F3E024DFC000` | `F09FD343105D328B` ([✅](SaltySD/plugins/FPSLocker/patches/0100F3E024DFC000/F09FD343105D328B.yaml), v2, 1.1.0) <br> `A24C753207095F28` ([✅](SaltySD/plugins/FPSLocker/patches/0100F3E024DFC000/A24C753207095F28.yaml), v3, 1.1.2) | ~~[🔐](#🔐)~~ |
 | Apollo Justice Trilogy | `010020D01B890000` | `F1A7E0DB6B0EC65F` (❌, v1, 1.0.1) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️) |
 | Aragami 2 | `0100787018198000` | `3FFD52E56DD8ADB3` (◯, v1, 1.0.30195.0) |  |
