@@ -61,7 +61,7 @@ PATCH AVAILABILITY<br>
 ---
 
 <details>
-<summary>List of 30 FPS locked games (1283 titles)</summary>
+<summary>List of 30 FPS locked games (1284 titles)</summary>
 <h6>
 
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | ISSUES |
@@ -535,6 +535,7 @@ PATCH AVAILABILITY<br>
 | Hand in Hand | `01002CB01CEE8000` | `95384D09B498C931` (◯, v1, 1.0.18.10) |  |
 | Hannag | `01009E702225A000` | `07E20F126ABEFF78` ([✅](SaltySD/plugins/FPSLocker/patches/01009E702225A000/07E20F126ABEFF78.yaml), v3, 1.0.3) | ~~[🔧](#🔧)~~ |
 | HARVESTELLA | `0100521017B2A000` | `249EAB9BF046C5EA` ([✅](SaltySD/plugins/FPSLocker/patches/0100521017B2A000/249EAB9BF046C5EA.yaml), v2, 1.0.2) | ~~[🔐](#🔐)[📏](#📏)~~ |
+| Harvest Moon: Echoes of Teradea | `0100839022642000` | `8B335CCAAF09C7C8` ([✅](SaltySD/plugins/FPSLocker/patches/0100839022642000/8B335CCAAF09C7C8.yaml), v3, 1.3.0) | ~~[🔐](#🔐)~~ |
 | Hazel Sky | `0100A8A013AB2000` | `1EFB6879CFAD7DD3` ([✅](SaltySD/plugins/FPSLocker/patches/0100A8A013AB2000/1EFB6879CFAD7DD3.yaml), v7, 1.0.10f) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | Heaven Dust 2 | `010091E01444E000` | `33CDD03D386C0F40` (◯, v2, 1.0.2) |  |
 | HEAVEN SEEKER ――The Savior of This Cruel World | `0100EE00205BA000` | `135595BF76F46B1B` ([✅](SaltySD/plugins/FPSLocker/patches/0100EE00205BA000/135595BF76F46B1B.yaml), v5, 1.2.0.139) | ~~[🛑](#🛑)~~ |
