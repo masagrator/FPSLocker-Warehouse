@@ -66,7 +66,6 @@ PATCH AVAILABILITY<br>
 
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | ISSUES |
 | --- | --- | --- | --- |
-| FINAL FANTASY RESONANCE `ASIA` | `0100B8A026F14000` | `B7F965B9D7227DB8` ([✅](SaltySD/plugins/FPSLocker/patches/0100B8A026F14000/B7F965B9D7227DB8.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | .hack//G.U. Last Recode | `0100BA9014A02000` | `4C0ED5711263A6D9` (❌, v0, 1.0.0) | [⏱️](#⏱️)[🖥️](#🖥️)[🎮](#🎮) |
 | 60 Parsecs! | `010010100FF14000` | `12F93E2DBBCFA54F` ([✅](SaltySD/plugins/FPSLocker/patches/010010100FF14000/12F93E2DBBCFA54F.yaml), v10, 1.0.10) | ~~[📷](#📷)~~ |
 | 8-Bit Adventures 2 | `010008B00D682000` | `89777FD8569E563D` (❌, v3, 1.0.3) | [⏱️](#⏱️) |
@@ -444,6 +443,7 @@ PATCH AVAILABILITY<br>
 | FINAL FANTASY CRYSTAL CHRONICLES `US` | `0100CE4010AAC000` | `E1D8B399B787AE41` (❌, v3, 1.0.3) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | FINAL FANTASY CRYSTAL CHRONICLES | `0100BE0010AAE000` | `4C3D7BA90267A44F` (❌, v3, 1.0.3) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | FINAL FANTASY RESONANCE | `0100606026F12000` | `84E182F72EE1DA4F` ([✅](SaltySD/plugins/FPSLocker/patches/0100606026F12000/84E182F72EE1DA4F.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
+| FINAL FANTASY RESONANCE `Asia` | `0100B8A026F14000` | `B7F965B9D7227DB8` ([✅](SaltySD/plugins/FPSLocker/patches/0100B8A026F14000/B7F965B9D7227DB8.yaml), v1, 1.0.1) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | FINAL FANTASY VIII Remastered | `01008B900DC0A000` | `7F59549F6E792936` (❌, v3, 1.0.1_5) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️)[🔢](#🔢) |
 | FINAL FANTASY X/X-2 HD Remaster | `0100BC300CB48000` | `1CE9F39DDB8A1A93` (❌, v0, 1.0.0) | [⏱️](#⏱️)[🖥️](#🖥️) |
 | FINAL FANTASY X/X-2 HD Remaster `Asia` | `0100FE500D0CA000` | `C581C65CD5743ADF` (❌, v0, 1.0.0) | [⏱️](#⏱️)[🖥️](#🖥️) |
