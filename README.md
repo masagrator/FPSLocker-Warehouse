@@ -364,7 +364,7 @@ PATCH AVAILABILITY<br>
 | DRAGON QUEST I & II HD-2D Remake | `0100D7C01F254000` | `DDB633241838C090` ([✅](SaltySD/plugins/FPSLocker/patches/0100D7C01F254000/DDB633241838C090.yaml), v2, 1.0.2) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | DRAGON QUEST III HD-2D Remake | `01003E601E324000` | `A6BD61CFB142E663` ([✅](SaltySD/plugins/FPSLocker/patches/01003E601E324000/A6BD61CFB142E663.yaml), v4, 1.1.2) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | DRAGON QUEST VII Reimagined | `0100A9D01C446000` | `F7EC03E4CB9DE3BD` ([✅](SaltySD/plugins/FPSLocker/patches/0100A9D01C446000/F7EC03E4CB9DE3BD.yaml), v2, 1.2.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
-| - 드래곤 퀘스트 VII Reimagined<br>- 勇者鬥惡龍 VII Reimagined | `0100505021440000` | `F7EC03E4CB9DE3BD` ([✅](SaltySD/plugins/FPSLocker/patches/0100505021440000/F7EC03E4CB9DE3BD.yaml), v2, 1.2.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
+| - 드래곤 퀘스트 VII Reimagined<br>- 勇者鬥惡龍 VII Reimagined | `0100505021440000` | `2AF81FF85004A975` ([✅](SaltySD/plugins/FPSLocker/patches/0100505021440000/2AF81FF85004A975.yaml), v2, 1.2.0) | ~~[🔐](#🔐)[📏](#📏)[🔧](#🔧)~~ |
 | DRAGON QUEST XI S: Echoes of an Elusive Age | `01006C300E9F0000` | `1719AABFA5EAE42B` ([✅](SaltySD/plugins/FPSLocker/patches/01006C300E9F0000/1719AABFA5EAE42B.yaml), v4, 1.0.4) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | ドラゴンクエストXI　過ぎ去りし時を求めて S | `010054A0085CA000` | `325E49E94A030B7E` ([✅](SaltySD/plugins/FPSLocker/patches/010054A0085CA000/325E49E94A030B7E.yaml), v4, 1.0.4) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Dragon Quest Heroes: Torneko's Mystery Dungeon | `010040B0270A2000` | `724C36A143F3F225` ([✅](SaltySD/plugins/FPSLocker/patches/010040B0270A2000/724C36A143F3F225.yaml), v1, 1.0.1) <br> `F3A70AEAAF0810B9` ([✅](SaltySD/plugins/FPSLocker/patches/010040B0270A2000/F3A70AEAAF0810B9.yaml), v2, 1.0.2) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
