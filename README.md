@@ -624,7 +624,7 @@ PATCH AVAILABILITY<br>
 | Kirby Star Allies | `01007E3006DDA000` | `D55608916FA56C18` ([✅](SaltySD/plugins/FPSLocker/patches/01007E3006DDA000/D55608916FA56C18.yaml), v6, 4.0.0a) | ~~[🔐](#🔐)[⚔️](#⚔️)~~ |
 | Kirby's Dream Buffet | `0100A8E016236000` | `82AF4E16BBC0BEC8` ([✅](SaltySD/plugins/FPSLocker/patches/0100A8E016236000/82AF4E16BBC0BEC8.yaml), v1, 1.0.0a) | ~~[🔐](#🔐)~~ |
 | L.A. Noire | `0100830004FB6000` | `40F973CE3B5EC8D7` ([✅](SaltySD/plugins/FPSLocker/patches/0100830004FB6000/40F973CE3B5EC8D7.yaml), v2, 1.2) | ~~[⏱️](#⏱️)[🖥️](#🖥️)[🏃](#🏃)~~ |
-| Labirynth Of The Demon King | `010071F0228CA000` | `9BA2F2849F9D9FDF` ([✅](SaltySD/plugins/FPSLocker/patches/010071F0228CA000/9BA2F2849F9D9FDF.yaml), v2, 5.233.V1SEP3) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
+| Labirynth Of The Demon King | `010071F0228CA000` | `9BA2F2849F9D9FDF` ([✅](SaltySD/plugins/FPSLocker/patches/010071F0228CA000/9BA2F2849F9D9FDF.yaml), v2, 5.233.V1SEP3) <br> `A9870A4356DB54BE` ([✅](SaltySD/plugins/FPSLocker/patches/010071F0228CA000/A9870A4356DB54BE.yaml), v3, 6.242.V1SEP3) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | Laika: Aged Through Blood | `0100F15020292000` | `EE83530AAB8DD965` (◯, v0, 1.0.3.0) |  |
 | Lara Croft and the Guardian of Light | `010079C017F5E002` | `BD5CD5189BC90093` ([✅](SaltySD/plugins/FPSLocker/patches/010079C017F5E002/BD5CD5189BC90093.yaml), v0, 1.1_65791) | ~~[📏](#📏)~~ |
 | Lara Croft and the Temple of Osiris | `010079C017F5E001` | `F47C697C2B59443B` ([✅](SaltySD/plugins/FPSLocker/patches/010079C017F5E001/F47C697C2B59443B.yaml), v0, 1.1_65791) | ~~[🔐](#🔐)[📏](#📏)~~ |
