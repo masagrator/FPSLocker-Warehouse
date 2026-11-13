@@ -338,7 +338,7 @@ PATCH AVAILABILITY<br>
 | Detective - Rainy Night | `0100C47025F3A000` | `553262E59A96741B` ([✅](SaltySD/plugins/FPSLocker/patches/0100C47025F3A000/553262E59A96741B.yaml), v2, 1.0.2) | ~~[📏](#📏)[⏱️](#⏱️)[🔧](#🔧)~~ |
 | Detective - Stella Porta Case | `01005AB01DAD0000` | `50F47EC19A33A73E` ([✅](SaltySD/plugins/FPSLocker/patches/01005AB01DAD0000/50F47EC19A33A73E.yaml), v0, 1.0.0) | ~~[📏](#📏)[⏱️](#⏱️)[🔧](#🔧)~~ |
 | Detective Pikachu Returns | `010007500F27C000` | `A2A5ABEF988ABAA2` (◯, v0, 1.0.0) |  |
-| Diablo II: Resurrected | `0100726014352000` | `DB0507F36B84200A` (◯, v34, 1.0.34.0) |  |
+| Diablo II: Resurrected | `0100726014352000` | `721F42EA94FE5F6F` (◯, v35, 1.0.35.0) |  |
 | Diesel Legacy: The Brazen Age | `010076001F5DA000` | `DE2461E141ED0958` (❌, v4, 1.0.4) | [🔐](#🔐)[⏱️](#⏱️)[🖥️](#🖥️) |
 | Digimon Story Time Stranger | `010062E01FE0C000` | `8567DF0B7DC16822` ([✅](SaltySD/plugins/FPSLocker/patches/010062E01FE0C000/8567DF0B7DC16822.yaml), v3, 1.2.1) <br> `135C83CDEA06AEC2` ([✅](SaltySD/plugins/FPSLocker/patches/010062E01FE0C000/135C83CDEA06AEC2.yaml), v4, 1.2.2) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Dinkum | `0100A5A020D5E000` | `84EA61B9C54E65FA` (◯, v6, 1.0.7.13) |  |
