@@ -1,0 +1,19 @@
+# Rooftops & Alleys: The Parkour Game 1.11
+# BID: 369941A28FFBB3D6
+
+ALL_FPS:
+  # t.MaxFPS
+  -
+    type: evaluate_write
+    address: [MAIN, 0x8B43950, 0]
+    value_type: float
+    value: [FPS_LOCK_TARGET, FPS_LOCK_TARGET]
+  # r.VSync
+  -
+    type: write
+    address: [MAIN, 0x7B236E8, 0]
+    value_type: uint32
+    value: [0, 0]
+  -
+    type: block
+    what: timing
