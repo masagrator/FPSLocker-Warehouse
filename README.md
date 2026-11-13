@@ -61,7 +61,7 @@ PATCH AVAILABILITY<br>
 ---
 
 <details>
-<summary>List of 30 FPS locked games (1285 titles)</summary>
+<summary>List of 30 FPS locked games (1286 titles)</summary>
 <h6>
 
 | NAME | TITLE ID | BUILD ID (PATCH AVAILABLE, VERSION ID, VERSION) | ISSUES |
@@ -1111,6 +1111,7 @@ PATCH AVAILABILITY<br>
 | 테일즈 오브 엑실리아 리마스터 | `01003CC01BBA0000` | `7220F3213BED164A` ([✅](SaltySD/plugins/FPSLocker/patches/01003CC01BBA0000/7220F3213BED164A.yaml), v3, 1.0.3) | ~~[⏱️](#⏱️)~~ |
 | Tamagotchi Plaza | `010064C01A9BA000` | `E12F2CC05253DAC6` ([✅](SaltySD/plugins/FPSLocker/patches/010064C01A9BA000/E12F2CC05253DAC6.yaml), v8, 1.0.8) <br> `74908F08D86477CB` ([✅](SaltySD/plugins/FPSLocker/patches/010064C01A9BA000/74908F08D86477CB.yaml), v9, 1.0.9) | ~~[🔐](#🔐)~~ |
 | たまごっちのプチプチおみせっち おまちど～さま！ | `010040601A9B8000` | `9ACE779510EC93C9` ([✅](SaltySD/plugins/FPSLocker/patches/010040601A9B8000/9ACE779510EC93C9.yaml), v2, 1.0.2) <br> `1E965D5B338E3D05` ([✅](SaltySD/plugins/FPSLocker/patches/010040601A9B8000/1E965D5B338E3D05.yaml), v6, 1.0.6) | ~~[🔐](#🔐)~~ |
+| TANUKI: Pon's Summer | `0100AC602974E000` | `5A22CF20FCC79623` ([✅](SaltySD/plugins/FPSLocker/patches/0100AC602974E000/5A22CF20FCC79623.yaml), v2, 1.0.28494.20.12) | ~~[🔐](#🔐)~~ |
 | Taxi Chaos | `0100B76011DAA000` | `C5D73D3EDAADACB2` ([✅](SaltySD/plugins/FPSLocker/patches/0100B76011DAA000/C5D73D3EDAADACB2.yaml), v2, 1.0.3) | ~~[🔐](#🔐)[📏](#📏)~~ |
 | Taxi Driver - The Simulation | `010073A010430000` | `2972E95EEFF95144` ([✅](SaltySD/plugins/FPSLocker/patches/010073A010430000/2972E95EEFF95144.yaml), v0, 1.0.0) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | TCG Card Market Simulator | `01001560214B8000` | `15532623187C22FF` (◯, v1, 1.0.1) |  |

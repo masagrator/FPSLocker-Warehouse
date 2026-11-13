@@ -1,0 +1,16 @@
+# TANUKI: Pon's Summer 1.0.28494.20.12
+# BID: 5A22CF20FCC79623
+
+ALL_FPS:
+  # Vsync
+  -
+    type: evaluate_write
+    address: [MAIN, 0x93C4508]
+    value_type: int32
+    value: VSYNC_TARGET
+  # FPS lock
+  -
+    type: evaluate_write
+    address: [MAIN, 0x93C450C]
+    value_type: float
+    value: "1 / FPS_LOCK_TARGET"
