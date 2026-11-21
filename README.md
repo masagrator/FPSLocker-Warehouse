@@ -477,7 +477,7 @@ PATCH AVAILABILITY<br>
 | Fueled Up | `010022A01E1F0000` | `F0F6265AEBF4AE2C` (◯, v0, 1.0.0) |  |
 | Fuga: Melodies of Steel | `01000130120EE000` | `55C51FEEAA71E42D` ([✅](SaltySD/plugins/FPSLocker/patches/01000130120EE000/55C51FEEAA71E42D.yaml), v18, 1.1.8) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | Fuga: Melodies of Steel 2 | `01003F501907A000` | `2C45FAC26500CBAD` ([✅](SaltySD/plugins/FPSLocker/patches/01003F501907A000/2C45FAC26500CBAD.yaml), v15, 1.5.2) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
-| Fuga: Melodies of Steel 3 | `0100C6D0205D6000` | `FC79E853424FBE29` ([✅](SaltySD/plugins/FPSLocker/patches/0100C6D0205D6000/FC79E853424FBE29.yaml), v4, 1.2.1) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
+| Fuga: Melodies of Steel 3 | `0100C6D0205D6000` | `FC79E853424FBE29` ([✅](SaltySD/plugins/FPSLocker/patches/0100C6D0205D6000/FC79E853424FBE29.yaml), v4, 1.2.1) <br> `29281CEAD9D8A17E` ([✅](SaltySD/plugins/FPSLocker/patches/0100C6D0205D6000/29281CEAD9D8A17E.yaml), v7, 1.3.1) | ~~[🔐](#🔐)[🔧](#🔧)~~ |
 | Funko Fusion | `010058F01DF8C000` | `4CD22960CFB56AB4` ([✅](SaltySD/plugins/FPSLocker/patches/010058F01DF8C000/4CD22960CFB56AB4.yaml), v7, 3.4.1) | ~~[📏](#📏)[🔧](#🔧)~~ | 
 | FUSER | `0100E1F013674000` | `E9B47349177722BE` ([✅](SaltySD/plugins/FPSLocker/patches/0100E1F013674000/E9B47349177722BE.yaml), v6, 1.4.2) | ~~[📏](#📏)[🔧](#🔧)~~ |
 | Gal*Gun Returns | `0100AA50138B4000` | `7E65E5BC3564BE46` ([✅](SaltySD/plugins/FPSLocker/patches/0100AA50138B4000/7E65E5BC3564BE46.yaml), v2, 1.0.2) | ~~[🔐](#🔐)[👄](#👄)[🖥️](#🖥️)~~ |
